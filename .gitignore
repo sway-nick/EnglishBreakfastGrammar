@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Data files (не коммитим в Git)
+data/input/*.txt
+data/input/*.html
+data/output/*.json
+*.xlsx
+*.xls
+
+# Environment
+.env
+credentials/
+service-account.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
