@@ -1,0 +1,28 @@
+{
+  "name": "english-breakfast-grammar",
+  "version": "0.1.0",
+  "description": "Universal English Test Platform — Source-agnostic, scalable language learning system",
+  "type": "module",
+  "scripts": {
+    "parse": "node src/parser/cli.js",
+    "validate": "node src/validation/cli.js",
+    "preview": "node src/preview/server.js",
+    "sheets:push": "node src/sheets/push.js",
+    "sheets:pull": "node src/sheets/pull.js",
+    "publish": "node src/publish/publish.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "dependencies": {
+    "node-html-parser": "^6.1.13",
+    "googleapis": "^144.0.0",
+    "express": "^4.21.2",
+    "dotenv": "^16.4.7",
+    "nanoid": "^5.1.5",
+    "chalk": "^5.4.1",
+    "ora": "^8.2.0",
+    "open": "^10.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
