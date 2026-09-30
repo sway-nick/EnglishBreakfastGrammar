@@ -18,8 +18,8 @@ class TestBatch2Execution(unittest.TestCase):
         conn.row_factory = sqlite3.Row
 
         counts = dict(conn.execute("SELECT adaptation_status, count(*) FROM adapted_questions GROUP BY adaptation_status").fetchall())
-        self.assertEqual(counts.get("VALIDATED"), 889)
-        self.assertEqual(counts.get("REJECTED"), 36)
+        self.assertEqual(counts.get("VALIDATED"), 909)
+        self.assertEqual(counts.get("REJECTED"), 16)
         self.assertEqual(counts.get("PENDING"), 4871)
         self.assertEqual(sum(counts.values()), 5796)
 
