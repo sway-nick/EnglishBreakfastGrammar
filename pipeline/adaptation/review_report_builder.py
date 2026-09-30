@@ -103,6 +103,7 @@ def compute_quantiles(data: List[float]) -> Dict[str, float]:
 def fetch_pilot_records(
     adapt_conn: sqlite3.Connection,
     stage_conn: sqlite3.Connection,
+    evaluate_live: bool = False,
 ) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
     """Query and enrich all 200 pilot records from adaptation and staging databases."""
     adapt_conn.row_factory = sqlite3.Row
@@ -223,9 +224,14 @@ def fetch_pilot_records(
             adapted_ans_str = " | ".join(a_ans_parts)
 
         # Status and Reasons
-        orig_status = sim_res["originality_status"]
-        review_req = 1 if orig_status == "REVIEW_REQUIRED" else 0
-        reasons_str = "; ".join(sim_res["reasons"])
+        if evaluate_live:
+            orig_status = sim_res["originality_status"]
+            review_req = 1 if orig_status == "REVIEW_REQUIRED" else 0
+            reasons_str = "; ".join(sim_res["reasons"])
+        else:
+            orig_status = str(q_row["adaptation_status"])
+            review_req = int(q_row["review_required"])
+            reasons_str = str(q_row["adaptation_notes"])
 
         records.append({
             "source_question_id": sqid,
@@ -753,6 +759,7 @@ def generate_pilot_review_workbook(
     staging_db_path: Path = DEFAULT_STAGING_DB,
     output_path: Path = DEFAULT_OUTPUT_PATH,
     desktop_path: Optional[Path] = DEFAULT_DESKTOP_PATH,
+    evaluate_live: bool = False,
 ) -> Dict[str, Any]:
     """Generate the 3-sheet human review Excel workbook."""
     if not adaptation_db_path.exists():
@@ -764,7 +771,7 @@ def generate_pilot_review_workbook(
     stage_conn = sqlite3.connect(f"file:{staging_db_path.resolve()}?mode=ro", uri=True)
 
     try:
-        records, stats = fetch_pilot_records(adapt_conn, stage_conn)
+        records, stats = fetch_pilot_records(adapt_conn, stage_conn, evaluate_live=evaluate_live)
     finally:
         adapt_conn.close()
         stage_conn.close()
@@ -821,6 +828,7 @@ def main() -> None:
     parser.add_argument("--staging-db", type=Path, default=DEFAULT_STAGING_DB, help="Path to staging.db")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT_PATH, help="Path for review XLSX")
     parser.add_argument("--no-desktop", action="store_true", help="Skip copying to Desktop")
+    parser.add_argument("--evaluate-live", action="store_true", help="Re-evaluate live using calibrated similarity_evaluator")
     args = parser.parse_args()
 
     desktop = None if args.no_desktop else DEFAULT_DESKTOP_PATH
@@ -831,6 +839,7 @@ def main() -> None:
         staging_db_path=args.staging_db,
         output_path=args.output,
         desktop_path=desktop,
+        evaluate_live=args.evaluate_live,
     )
 
     print(f"Workbook generated successfully at: {res['output_path']}")

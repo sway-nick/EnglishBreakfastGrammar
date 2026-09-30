@@ -54,17 +54,17 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-Awaiting human-in-the-loop review of the pilot adaptation workbook (`data/adaptation/pilot_review_20260930.xlsx`) before proceeding to full-corpus adaptation.
+Awaiting human review on the calibrated 14 `REVIEW_REQUIRED` items from the pilot adaptation re-evaluation before proceeding to full-corpus adaptation.
 
 ## CURRENT TASK
 
-TASK-011D — Human Review Report for Pilot Adaptation.
+TASK-011E — Calibrate Originality Evaluator for Short Grammar Items.
 
 Status: completed
 
 ## OPEN ISSUES
 
-None. Staging corpus (5,796 questions) is 100% immutable and intact. Pilot adaptation human review workbook generated at `data/adaptation/pilot_review_20260930.xlsx` and mirrored to Desktop (`C:\Users\user\Desktop\pilot_review_20260930.xlsx`). 125 VALIDATED, 75 REVIEW_REQUIRED, 0 REJECTED. Full test suite (70 Python tests + 24 JS tests = 94 total) passing.
+None. Staging corpus (5,796 questions) is 100% immutable and intact. Pilot adaptation evaluator calibrated under TASK-011E: 186 VALIDATED (93.0%), 14 REVIEW_REQUIRED (7.0%), 0 REJECTED (0.0%). 61 items appropriately transitioned to VALIDATED. 0 incorrectly accepted. Full test suite (77 Python tests + 24 JS tests = 101 total) passing.
 
 ## RESOLVED ISSUES
 

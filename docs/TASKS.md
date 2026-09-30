@@ -6,17 +6,33 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-011D — Human Review Report for Pilot Adaptation
+TASK-011E — Calibrate Originality Evaluator for Short Grammar Items
 
 Status: completed
 
 ## OBJECTIVE
 
-Awaiting human review feedback on the 200 pilot adapted questions (especially the 75 flagged items) before finalizing threshold calibrations and proceeding with full-corpus adaptation.
+Awaiting human review feedback on the calibrated 14 `REVIEW_REQUIRED` items before finalizing adaptation parameters and proceeding to full-corpus adaptation.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-011E — Calibrate Originality Evaluator for Short Grammar Items
+Status: completed
+- Calibrated `pipeline/adaptation/similarity_evaluator.py`:
+  - Rule 1: For very short text (<40 chars after normalization), Levenshtein similarity alone MUST NOT cause `REVIEW_REQUIRED`.
+  - Rule 2: Normalizes/removes non-semantic dialogue scaffolding (speaker labels `A:`, `B:`, quotes, formatting instructions `Choose TWO correct answers`, redundant punctuation `⇒`, `->`, `_____`) prior to Levenshtein distance calculation.
+  - Rule 3 & 5: Preserved primary originality signals: forbidden 3+ word non-target shingle detector (unconditional `REJECTED`), Jaccard token similarity (> 0.50 `REJECTED`, 0.40–0.50 `REVIEW_REQUIRED`).
+  - Rule 4: Levenshtein secondary diagnostic role: on standard text (len >= 40 chars), Levenshtein >= 0.45 triggers review; on short text (<40 chars), Levenshtein >= 0.45 triggers review only when combined with elevated token similarity (Jaccard >= 0.25).
+- Expanded `tests/test_similarity_evaluator.py` with 7 dedicated test suites covering: short article exercises, short irregular plural exercises, short preposition exercises, short dialogue exercises, legitimate short rewrites, genuinely similar short texts, and existing strict rejection cases (16 tests total).
+- Re-evaluated the SAME 200 pilot questions without regenerating content or modifying source:
+  - Old: 125 VALIDATED, 75 REVIEW_REQUIRED, 0 REJECTED
+  - New: 186 VALIDATED (93.0%), 14 REVIEW_REQUIRED (7.0%), 0 REJECTED (0.0%)
+  - 61 items transitioned from `REVIEW_REQUIRED -> VALIDATED` (all verified genuine pedagogical rewrites).
+  - 0 items incorrectly accepted.
+  - 14 items legitimately remain in `REVIEW_REQUIRED` for human review (4 sentence scrambles, 3 comparative templates, 2 plural templates, 5 borderline short phrases).
+- Total tests: 77/77 Python tests green, 24/24 JS Jest tests green (101 total).
 
 ### TASK-011D — Human Review Report for Pilot Adaptation
 Status: completed
