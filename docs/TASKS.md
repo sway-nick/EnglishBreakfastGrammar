@@ -6,17 +6,35 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-009B — Remaining Corpus Answer Enrichment Architecture & Execution
+TASK-010 — Full Corpus Gemini Answer Enrichment & Batch Execution Strategy
 
 Status: planned
 
 ## OBJECTIVE
 
-Plan and execute the multi-batch answer enrichment for the remaining 5,614 unanswered questions (4,509 gaps, 12,794 options) across the staged corpus in `data/staging.db`.
+Orchestrate the evaluation and batch answer processing for the 5,614 questions prepared in `english_cms_gemini_remaining_5614.xlsx`, followed by automated validation and staging merge.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-009B — Prepare Full Gemini Enrichment Workbook
+Status: completed
+- Created `pipeline/gemini/enrichment_workbook_builder.py` (`npm run gemini:workbook`) to query all 5,614 currently unresolved questions from `data/staging.db`.
+- Strictly excluded all 182 already-answered checkpoint questions (224 gaps, 258 options).
+- Populated full context: `question_id`, `exercise_id`, `lesson_id`, `order`, `response_model`, `instruction`, `sentence`, `options_context`, `gemini_formula`, and `gemini_raw_values`.
+- Tailored strict JSON output prompts for all 3 models:
+  - `gap`: 3,522 rows (mapping gap IDs to exact option strings)
+  - `single_choice`: 1,927 rows (`{"answer":"..."}`)
+  - `multiple_choice`: 165 rows (`{"answers":["...", "..."]}`)
+- Added `README` guide sheet with upload, formula evaluation, value freeze, and download steps.
+- Generated output workbooks:
+  - Desktop: `C:\Users\user\Desktop\english_cms_gemini_remaining_5614.xlsx` (591,101 bytes)
+  - Project: `data/gemini/english_cms_gemini_remaining_5614.xlsx` (591,101 bytes)
+- Enforced strict pre- and post-write assertions:
+  - Exactly 5,614 rows (0 duplicate QIDs, 0 already-answered questions, 0 empty sentences)
+  - 0 validation errors
+- Added automated test suite `tests/test_enrichment_workbook.py` (37/37 Python tests PASS, 24/24 JS Jest tests PASS).
 
 ### TASK-009A — Merge Existing Gemini Checkpoint into Staging
 Status: completed

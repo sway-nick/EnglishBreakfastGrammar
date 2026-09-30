@@ -61,10 +61,11 @@ TASK-009 — Corpus Answer Enrichment & Harmonization Strategy.
 - TASK-007 completed: Full offline parsing across all 638 cached exercise HTML pages with full `multiple_choice` support; generated preliminary Universal JSON and Excel CMS workbooks (`universal_lessons_preliminary.json`, `english_cms_preliminary.xlsx`).
 - TASK-008 completed: Full corpus staging import into relational SQLite database `data/staging.db` with strict foreign key constraints; 225 topics, 638 exercises, 5,796 questions, 4,733 gaps, 13,052 options, zero orphans, zero duplicates; 32/32 Python and 24/24 JS tests passing.
 - TASK-009A completed: Merged 182 verified Gemini question answers into `data/staging.db` (224 gaps, 258 options answered; 0 errors, 0 scope violations); 35/35 Python and 24/24 JS tests passing.
+- TASK-009B completed: Generated and validated full Gemini enrichment workbook `english_cms_gemini_remaining_5614.xlsx` for all 5,614 unresolved questions (gap=3,522, single_choice=1,927, multiple_choice=165; 0 errors); 37/37 Python and 24/24 JS tests passing.
 
 ## KNOWN ISSUES (OPEN)
 
-- None. Web acquisition, parsing, staging import, and 182-question checkpoint merge are complete.
+- None. Web acquisition, parsing, staging import, checkpoint merge, and workbook generation are complete.
 
 ## IMPORTANT DECISIONS
 
@@ -75,8 +76,9 @@ TASK-009 — Corpus Answer Enrichment & Harmonization Strategy.
 
 ## NEXT STEPS
 
-1. Design multi-batch answer enrichment workflow for the remaining 5,614 unanswered questions in `data/staging.db`.
-2. Validate enriched content through strict Universal JSON and Preview Gate.
+1. Execute answer generation in Google Sheets or via batch processor for the 5,614 questions.
+2. Merge results into `data/staging.db` using atomic transaction.
+3. Validate enriched content through strict Universal JSON and Preview Gate.
 
 ## HANDOFF NOTES
 
@@ -85,4 +87,4 @@ Handoff between AI models operates as a documentation-based protocol:
 2. Read `docs/WORKFLOW.md` for task dispatch and return reporting conventions.
 3. Inspect `docs/DECISIONS.md` before proposing architectural changes.
 4. Check actual files before assuming implementation details.
-5. All 24 tests in JS test suite (`npm test`) and 35 tests in Python suite (`python -m unittest discover tests`) are green and must remain green after changes.
+5. All 24 tests in JS test suite (`npm test`) and 37 tests in Python suite (`python -m unittest discover tests`) are green and must remain green after changes.

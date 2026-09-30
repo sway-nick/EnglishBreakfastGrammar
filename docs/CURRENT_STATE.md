@@ -53,18 +53,19 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-The entire 225-topic corpus (638 exercises, 5,796 questions) is parsed and staged in `data/staging.db`. Verified 182-question Gemini checkpoint answers have been merged into staging (224 gaps and 258 options answered). The next phase is formulating the Answer Enrichment strategy for the remaining 5,614 questions.
+The entire 225-topic corpus (638 exercises, 5,796 questions) is parsed and staged in `data/staging.db`. Verified 182-question checkpoint answers have been merged into staging. The full Gemini answer enrichment workbook for all remaining 5,614 questions (`english_cms_gemini_remaining_5614.xlsx`) has been generated and validated. Next phase is answer evaluation and staging merge.
 
 ## CURRENT TASK
 
-TASK-009B — Remaining Corpus Answer Enrichment Architecture & Execution.
+TASK-010 — Full Corpus Gemini Answer Enrichment & Batch Execution Strategy.
 
 ## OPEN ISSUES
 
-None. Staging import and 182-question checkpoint merge are complete.
+None. Staging import, 182-question checkpoint merge, and 5,614-question enrichment workbook generation are complete.
 
 ## RESOLVED ISSUES
 
+- **[ENRICHMENT-01]**: Resolved via TASK-009B. Prepared and validated `english_cms_gemini_remaining_5614.xlsx` containing all 5,614 unresolved questions with tailored prompt formulas (gap=3,522, single_choice=1,927, multiple_choice=165; 0 errors).
 - **[CHECKPOINT-01]**: Resolved via TASK-009A. Merged 182 verified Gemini question answers into `data/staging.db` (224 gaps, 258 options answered; 0 errors, 0 scope violations).
 - **[STAGING-01]**: Resolved via TASK-008. Staged all 225 topics, 638 exercises, 5,796 questions, 4,733 gaps, and 13,052 options in `data/staging.db` with strict foreign key constraints and zero orphaned records.
 - **[PARSER-01]**: Resolved via TASK-007. Extended parser with full `multiple_choice` support; 0 unknown response models across entire corpus.
@@ -76,8 +77,9 @@ None. Staging import and 182-question checkpoint merge are complete.
 
 ## NEXT STEPS
 
-1. Design multi-batch answer enrichment workflow for the remaining 5,614 unanswered questions in `data/staging.db`.
-2. Validate enriched content through strict Universal JSON and Preview Gate.
+1. Execute answer generation in Google Sheets or via batch processor for the 5,614 questions.
+2. Merge results into `data/staging.db` using atomic transaction.
+3. Validate enriched content through strict Universal JSON and Preview Gate.
 
 ## HANDOFF
 
@@ -86,5 +88,5 @@ Any AI model continuing work must:
 2. Consult `docs/WORKFLOW.md` for task dispatch and return reporting conventions.
 3. Inspect `docs/DECISIONS.md` for accepted ADRs (ADR-001, ADR-002, ADR-003).
 4. Inspect relevant source files before proposing changes.
-5. Run `npm test` (24/24 JS green) and `python -m unittest discover tests` (35/35 Python green) to verify regression baseline.
+5. Run `npm test` (24/24 JS green) and `python -m unittest discover tests` (37/37 Python green) to verify regression baseline.
 6. Follow the manual handoff checklist in `01-core.md`.
