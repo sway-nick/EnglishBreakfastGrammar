@@ -14,74 +14,66 @@ Workspace: English Breakfast Grammar
 
 A platform for creating, processing, storing, and delivering English grammar tests and exercises.
 
-The project should support structured lesson content, questions, options, explanations, validation, and export/import workflows.
+The project supports structured lesson content, questions, options, explanations, automated answer processing with AI, validation, and export/import workflows.
 
-## CURRENT STATE
+## CURRENT ARCHITECTURE & ROLES
 
-The project is under active development.
+The codebase currently contains two largely independent subsystems:
 
-Current implementation must be treated as the source of truth.
+1. **Python Pipeline (`pipeline/`)**: ETL & Data Processing (Offline Toolchain)
+   - Parses source HTML pages (Test-English / WatuPRO).
+   - Collects parsed pages into `universal_lessons.json`.
+   - Generates Excel CMS workbooks (`google_sheets_generator.py`).
+   - Fills question answers using Gemini API (`gemini_answer_processor.py`) into `english_cms_answered.xlsx`.
+   - Validates JSON and CMS Excel workbooks.
+   - *Note*: Operates independently; hardcoded default file paths point to user desktop in current scripts.
 
-Do not assume that previous conversations accurately describe the current implementation.
+2. **JavaScript Core (`src/`)**: Runtime, Models & Presentation
+   - Canonical content domain models (`src/models/index.js`).
+   - Structural JSON validation (`src/validation/index.js`).
+   - Local preview server and renderer (`src/preview/server.js`, `src/preview/renderer.js`) consuming standalone lesson JSON files (e.g., `data/json/L001.json`).
+   - Google Sheets synchronization module (`src/sheets/`).
+   - Architectural scaffolding for Test Engine, UI, admin, and analytics.
 
-Always inspect the actual files before making technical decisions.
+*Important*: A continuous end-to-end bridge from the Python pipeline's answered Excel CMS back into canonical JSON for the JS Preview/runtime does NOT yet exist.
 
 ## CURRENT TASK
 
-Keep this section updated with the task currently being worked on.
-
-Current task:
-[UPDATE THIS]
+TASK-001 (Modified) — Project orchestration and memory synchronization.
 
 ## COMPLETED
 
-Keep only major completed milestones here.
-
 - Project workspace configured.
-- AI orchestration rules created.
-- External AI consultation rule created.
-- Project documentation system initialized.
+- Core AI orchestration rules defined (`.agents/rules/01-core.md`, `.agents/rules/02-ai-consultation.md`).
+- External AI consultation skill established (`.agents/skills/consult/SKILL.md`).
+- Baseline documentation established in `/docs`.
+- Python ETL pipeline scripts implemented (collector, parser, sheets generator, Gemini processor, validators).
+- JavaScript baseline implemented (models, parser adapter, preview renderer, sheets sync, validator).
+- ADR-001 accepted (Orchestration architecture and documentation-based memory).
 
-## KNOWN ISSUES
+## KNOWN ISSUES (OPEN)
 
-Record only currently relevant problems.
-
-- [NONE / UPDATE THIS]
+- **OPEN ISSUE [SCHEMA-01]**: Data contract mismatch between `src/models/index.js` (`Option.is_correct: boolean|null`) and `src/validation/index.js` / `tests/validation.test.js` (`opt.correct: boolean`). Causes 2 Jest validation tests to fail. Code changes deferred pending task assignment.
+- **OPEN ISSUE [INTEGRATION-01]**: Missing link between Python Pipeline output (`english_cms_answered.xlsx`) and JavaScript preview/runtime. There is currently no script to export answered Excel CMS back into Universal JSON.
+- **OPEN ISSUE [TOOLING-01]**: `package.json` test script references POSIX binary path (`node --experimental-vm-modules node_modules/.bin/jest`), causing execution errors under Windows PowerShell.
 
 ## IMPORTANT DECISIONS
 
-Record only active decisions that materially affect implementation.
-
-For detailed architectural decisions, use DECISIONS.md / ADRs.
+- **ADR-001**: Antigravity is primary engineering orchestrator; persistent documentation in `/docs` is source of truth; external AI used for decision review.
+- **Rule 12A**: Parsers must never set correct answers (`correct_answer=null`, `is_correct=null`). Correct answers are resolved strictly by AI Answer Processing or editorial review.
 
 ## NEXT STEPS
 
-Keep this short and ordered.
-
-1. [UPDATE THIS]
-2. [UPDATE THIS]
-3. [UPDATE THIS]
+1. Finalize TASK-001 (orchestration alignment and multi-model workflow guidelines).
+2. Resolve OPEN ISSUE [SCHEMA-01] (`is_correct vs correct`) in JavaScript validation and test suite.
+3. Fix test execution script in `package.json` for cross-platform compatibility.
+4. Implement CMS-to-JSON export bridge to connect Python pipeline outputs with JS Preview / Test Engine.
 
 ## HANDOFF NOTES
 
-When another AI model continues work, it must:
-
-1. Read this file first.
-2. Check the actual project files.
-3. Read relevant documentation.
-4. Check existing decisions before introducing new architecture.
-5. Continue from the current implementation rather than recreating previous work.
-
-## UPDATE RULE
-
-Update this file when:
-
-- the current task changes;
-- a major milestone is completed;
-- an important problem is discovered;
-- the next steps materially change;
-- another AI model needs new handoff information.
-
-Keep this document concise.
-
-Do not turn it into a detailed project history.
+Handoff between AI models operates as a documentation-based protocol (there is no automated `/handoff` tool):
+1. Consult `docs/AI_CONTEXT.md` and `docs/CURRENT_STATE.md` first.
+2. Inspect `docs/DECISIONS.md` before proposing architectural changes.
+3. Check actual files before assuming implementation details.
+4. Remember that Python Pipeline and JS Core are currently separate toolchains requiring integration.
+5. Do not modify unresolved open issues without an explicit task assignment.
