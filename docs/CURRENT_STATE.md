@@ -54,11 +54,11 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-Full-corpus orchestrator (`pipeline/adaptation/full_corpus_orchestrator.py`) is implemented and verified. Pilot statuses normalized to 188 VALIDATED, 12 REVIEW_REQUIRED. 25-question dry run completed and verified (18 VALIDATED, 7 REVIEW_REQUIRED, 0 REJECTED, 100% answers preserved, Preview Gate PASSED). Ready for full-corpus production batches (TASK-013).
+Automatic status flow finalized and verified under TASK-012A: Human review eliminated from routine adaptation; AI semantic review handles review resolution (`APPROVE` -> `VALIDATED`, `REVISE` -> `REVIEW_REQUIRED`, `REJECT` -> `REJECTED`). Full-corpus orchestrator (`pipeline/adaptation/full_corpus_orchestrator.py`) dry run resolved to 25 VALIDATED, 0 REVIEW_REQUIRED, 0 REJECTED with 100% answer preservation and Preview Gate PASSED. Ready for full-corpus production batches (TASK-013).
 
 ## CURRENT TASK
 
-TASK-012 — Full-Corpus Adaptation Orchestrator & Dry Run.
+TASK-012A — Finalize Automatic AI-Review Status Flow.
 
 Status: completed
 
@@ -68,7 +68,7 @@ TASK-013 — Full-Corpus Adaptation Batch Generation (Production batches for rem
 
 ## OPEN ISSUES
 
-None. Staging corpus (5,796 questions) is 100% immutable and intact. Adaptation database holds 5,796 questions: 5,571 PENDING, 19 REVIEW_REQUIRED, 206 VALIDATED, 0 REJECTED. Multi-tier validation pipeline and Preview Gate verified. Full test suite (97 Python tests + 24 JS tests = 121 total) passing.
+None. Staging corpus (5,796 questions) is 100% immutable and intact. Adaptation database holds 5,796 questions: 5,571 PENDING, 12 REVIEW_REQUIRED (pilot baseline), 213 VALIDATED (188 pilot + 25 dry run), 0 REJECTED. Automatic AI review status flow and Preview Gate verified. Full test suite (99 Python tests + 24 JS tests = 123 total) passing.
 
 ## RESOLVED ISSUES
 

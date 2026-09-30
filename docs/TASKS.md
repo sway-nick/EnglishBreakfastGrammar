@@ -6,7 +6,7 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-012 — Full-Corpus Adaptation Orchestrator & Dry Run
+TASK-012A — Finalize Automatic AI-Review Status Flow
 
 Status: completed
 
@@ -16,11 +16,44 @@ TASK-013 — Full-Corpus Adaptation Batch Generation (Production batches for rem
 
 ## OBJECTIVE
 
-Orchestrator architecture implemented, pilot statuses normalized (188 VALIDATED, 12 REVIEW_REQUIRED), 25-question dry run executed and verified across all 3 response models (18 VALIDATED, 7 REVIEW_REQUIRED, 0 REJECTED, 100% answers preserved, Preview Gate PASSED). All 97 Python unit tests and 24 Jest tests passing.
+Automatic status flow finalized and verified: Human review is eliminated from routine adaptation. AI semantic review is the review mechanism: Deterministic PASS -> VALIDATED; Deterministic REVIEW_REQUIRED + AI APPROVE -> VALIDATED; Deterministic REVIEW_REQUIRED + AI REVISE -> REVIEW_REQUIRED; Deterministic REVIEW_REQUIRED + AI REJECT -> REJECTED. APPROVED is optional editorial only. Dry-run questions resolved to 25 VALIDATED, 0 REVIEW_REQUIRED, 0 REJECTED with 100% answer preservation. All 99 Python unit tests and 24 Jest tests passing.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-012A — Finalize Automatic AI-Review Status Flow
+Status: completed
+- **Architecture & Status Flow Finalization**:
+  * Established project policy: Routine adaptation does NOT use human review; AI semantic review is the review mechanism.
+  * Formalized status resolution in `resolve_status_with_ai_review()`:
+    1. Deterministic validation PASS $\to$ `VALIDATED` (`review_required = 0`)
+    2. Deterministic `REVIEW_REQUIRED`:
+       - AI decision `APPROVE` $\to$ `VALIDATED` (`review_required = 0`)
+       - AI decision `REVISE` $\to$ `REVIEW_REQUIRED` (`review_required = 1`)
+       - AI decision `REJECT` $\to$ `REJECTED` (`review_required = 0`)
+    3. Deterministic `REJECTED` $\to$ `REJECTED` (`review_required = 0`)
+    4. Deterministic `VALIDATED` with control sample AI review:
+       - AI decision `REVISE` $\to$ `REVIEW_REQUIRED`
+       - AI decision `REJECT` $\to$ `REJECTED`
+       - AI decision `APPROVE` $\to$ `VALIDATED`
+    5. `APPROVED` status is not required for the automated pipeline; preserved only as an optional future editorial state.
+- **Orchestrator Integration**:
+  * Updated `pipeline/adaptation/full_corpus_orchestrator.py` with `resolve_status_with_ai_review()`.
+  * Tracked both deterministic status distribution and final resolved status distribution in CLI output and run metadata.
+  * Re-executed 25-question dry run:
+    - Deterministic Status: VALIDATED=18, REVIEW_REQUIRED=7, REJECTED=0
+    - AI Semantic Reviews: 8 (8 APPROVE, 0 REVISE, 0 REJECT)
+    - Final Resolved Status: VALIDATED=25, REVIEW_REQUIRED=0, REJECTED=0
+    - Zero answer divergence: 100% answers preserved
+    - Preview Gate: PASSED
+- **Unit Test Suite**:
+  * Added focused tests in `tests/test_full_corpus_orchestrator.py`:
+    - `test_09_automatic_ai_review_status_flow`: comprehensive verification of all permutations of `resolve_status_with_ai_review`.
+    - `test_10_zero_answer_divergence_invariant`: asserts 100% correct answer preservation across all dry-run questions in `data/adaptation.db` vs `data/staging.db`.
+- **Documentation**:
+  * Updated `docs/TASK-010B_ADAPTATION_SPEC.md` Section 3.3 with modernized lifecycle Mermaid diagram and status rules.
+  * Updated `docs/CURRENT_STATE.md`, `docs/TASKS.md`, `docs/AI_CONTEXT.md`.
 
 ### TASK-012 — Full-Corpus Adaptation Orchestrator & Dry Run
 Status: completed

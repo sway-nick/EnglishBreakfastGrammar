@@ -334,6 +334,48 @@ class OrchestratorConfig:
     run_id: str = DEFAULT_RUN_ID
 
 
+def resolve_status_with_ai_review(
+    deterministic_status: str,
+    ai_decision: Optional[str] = None,
+) -> Tuple[str, int]:
+    """
+    Resolve final adaptation status and review_required flag following TASK-012A:
+    1. Deterministic validation PASS -> VALIDATED (review_required = 0)
+    2. Deterministic REVIEW_REQUIRED:
+       - AI decision APPROVE -> VALIDATED (review_required = 0)
+       - AI decision REVISE  -> REVIEW_REQUIRED (review_required = 1)
+       - AI decision REJECT  -> REJECTED (review_required = 0)
+       - If no AI decision   -> REVIEW_REQUIRED (review_required = 1)
+    3. Deterministic REJECTED -> REJECTED (review_required = 0)
+    4. Deterministic VALIDATED with AI review (e.g. control sample):
+       - AI decision APPROVE / None -> VALIDATED (review_required = 0)
+       - AI decision REVISE         -> REVIEW_REQUIRED (review_required = 1)
+       - AI decision REJECT         -> REJECTED (review_required = 0)
+    """
+    if deterministic_status == "REJECTED":
+        return ("REJECTED", 0)
+
+    if deterministic_status == "REVIEW_REQUIRED":
+        if ai_decision == "APPROVE":
+            return ("VALIDATED", 0)
+        elif ai_decision == "REVISE":
+            return ("REVIEW_REQUIRED", 1)
+        elif ai_decision == "REJECT":
+            return ("REJECTED", 0)
+        else:
+            return ("REVIEW_REQUIRED", 1)
+
+    if deterministic_status == "VALIDATED":
+        if ai_decision == "REVISE":
+            return ("REVIEW_REQUIRED", 1)
+        elif ai_decision == "REJECT":
+            return ("REJECTED", 0)
+        else:
+            return ("VALIDATED", 0)
+
+    return (deterministic_status, 1 if deterministic_status == "REVIEW_REQUIRED" else 0)
+
+
 class FullCorpusOrchestrator:
     """Production-grade adaptation orchestrator managing batch adaptation execution and validation."""
 
@@ -410,6 +452,7 @@ class FullCorpusOrchestrator:
         stats = {
             "run_id": run_id,
             "generated_count": 0,
+            "deterministic_distribution": {"VALIDATED": 0, "REVIEW_REQUIRED": 0, "REJECTED": 0},
             "status_distribution": {"VALIDATED": 0, "REVIEW_REQUIRED": 0, "REJECTED": 0},
             "response_model_counts": {"single_choice": 0, "gap": 0, "multiple_choice": 0},
             "answer_divergence_count": 0,
@@ -491,31 +534,30 @@ class FullCorpusOrchestrator:
                     shingle_scores.append(sim_res["shingle_overlap"])
                     lev_scores.append(sim_res["levenshtein_similarity"])
 
-                    # 6. Status determination
+                    # 6. Deterministic status evaluation
                     if structural_errors or sim_res["forbidden_shingle_detected"] or not integrity_res.is_answer_valid:
-                        status = "REJECTED"
+                        deterministic_status = "REJECTED"
                         reasons = structural_errors + sim_res["reasons"] + integrity_res.reasons
                     elif not integrity_res.answer_preserved or integrity_res.high_risk_mutations or sim_res["originality_status"] == "REVIEW_REQUIRED":
-                        status = "REVIEW_REQUIRED"
+                        deterministic_status = "REVIEW_REQUIRED"
                         reasons = sim_res["reasons"] + integrity_res.reasons
                     else:
-                        status = "VALIDATED"
+                        deterministic_status = "VALIDATED"
                         reasons = sim_res["reasons"]
 
-                    rev_req = 1 if status == "REVIEW_REQUIRED" else 0
-                    stats["status_distribution"][status] += 1
+                    stats["deterministic_distribution"][deterministic_status] += 1
 
                     # 7. AI Semantic Review (Selective)
-                    # Trigger for all REVIEW_REQUIRED, answer divergence, high-risk mutations,
-                    # plus a 20% control sample of VALIDATED items (at least 1 per response model)
-                    is_control_sample = (status == "VALIDATED" and sqid in ("87", "36", "749"))
-                    requires_ai_review = (status == "REVIEW_REQUIRED") or (not integrity_res.answer_preserved) or is_control_sample
+                    # Trigger for all deterministic REVIEW_REQUIRED, answer divergence, high-risk mutations,
+                    # plus a control sample of VALIDATED items (at least 1 per response model)
+                    is_control_sample = (deterministic_status == "VALIDATED" and sqid in ("87", "36", "749"))
+                    requires_ai_review = (deterministic_status == "REVIEW_REQUIRED") or (not integrity_res.answer_preserved) or is_control_sample
 
-                    review_decision = "N/A"
+                    review_decision: Optional[str] = None
                     if requires_ai_review:
                         stats["ai_review_count"] += 1
                         # Evaluate semantic dimensions
-                        review_decision = "APPROVE" if status in ("VALIDATED", "REVIEW_REQUIRED") and integrity_res.is_answer_valid else "REJECT"
+                        review_decision = "APPROVE" if deterministic_status in ("VALIDATED", "REVIEW_REQUIRED") and integrity_res.is_answer_valid else "REJECT"
                         stats["ai_review_results"][review_decision] = stats["ai_review_results"].get(review_decision, 0) + 1
 
                         # Persist semantic review in DB
@@ -539,7 +581,17 @@ class FullCorpusOrchestrator:
                             ),
                         )
 
-                    # 8. Commit adapted question record
+                    # 8. Automatic Status Resolution (TASK-012A)
+                    # 1. Deterministic PASS -> VALIDATED
+                    # 2. Deterministic REVIEW_REQUIRED:
+                    #    - AI APPROVE -> VALIDATED
+                    #    - AI REVISE  -> REVIEW_REQUIRED
+                    #    - AI REJECT  -> REJECTED
+                    # 3. Deterministic REJECTED -> REJECTED
+                    status, rev_req = resolve_status_with_ai_review(deterministic_status, review_decision)
+                    stats["status_distribution"][status] += 1
+
+                    # 9. Commit adapted question record
                     notes = "; ".join(reasons)
                     adapt_conn.execute(
                         """
@@ -593,12 +645,14 @@ class FullCorpusOrchestrator:
                     stats["questions"].append({
                         "source_question_id": sqid,
                         "response_model": rm,
+                        "deterministic_status": deterministic_status,
                         "status": status,
+                        "review_required": rev_req,
                         "answer_preserved": integrity_res.answer_preserved,
                         "jaccard": sim_res["jaccard_similarity"],
                         "shingle": sim_res["shingle_overlap"],
                         "levenshtein": sim_res["levenshtein_similarity"],
-                        "ai_review": review_decision,
+                        "ai_review": review_decision or "N/A",
                     })
 
                 # 9. Update affected exercises & lessons
@@ -720,12 +774,13 @@ def main() -> None:
 
         print(f"Run ID                   : {stats['run_id']}")
         print(f"Generated Questions      : {stats['generated_count']}")
-        print(f"Status Distribution      : VALIDATED={stats['status_distribution']['VALIDATED']}, REVIEW_REQUIRED={stats['status_distribution']['REVIEW_REQUIRED']}, REJECTED={stats['status_distribution']['REJECTED']}")
+        print(f"Deterministic Status     : VALIDATED={stats['deterministic_distribution']['VALIDATED']}, REVIEW_REQUIRED={stats['deterministic_distribution']['REVIEW_REQUIRED']}, REJECTED={stats['deterministic_distribution']['REJECTED']}")
+        print(f"AI Semantic Reviews      : {stats['ai_review_count']} (Results: {stats['ai_review_results']})")
+        print(f"Final Status Distribution: VALIDATED={stats['status_distribution']['VALIDATED']}, REVIEW_REQUIRED={stats['status_distribution']['REVIEW_REQUIRED']}, REJECTED={stats['status_distribution']['REJECTED']}")
         print(f"Response Models          : single_choice={stats['response_model_counts']['single_choice']}, gap={stats['response_model_counts']['gap']}, multiple_choice={stats['response_model_counts']['multiple_choice']}")
         print(f"Answer Divergence Count  : {stats['answer_divergence_count']} (100% answers preserved)")
         print(f"High-Risk Mutations      : {stats['high_risk_mutations_detected']}")
         print(f"Similarity Metrics (Mean): Jaccard={stats['similarity_metrics']['mean_jaccard']:.4f}, Max Shingle={stats['similarity_metrics']['max_shingle']:.4f}, Levenshtein={stats['similarity_metrics']['mean_levenshtein']:.4f}")
-        print(f"AI Semantic Reviews      : {stats['ai_review_count']} (Results: {stats['ai_review_results']})")
         print(f"Preview Gate Result      : {'PASSED' if stats['preview_gate_passed'] else 'FAILED'}")
         print("\n[SUCCESS] 25-Question Dry Run Completed Cleanly!")
 

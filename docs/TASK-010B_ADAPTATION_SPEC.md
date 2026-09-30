@@ -96,27 +96,40 @@ CREATE TABLE adapted_questions (
 );
 ```
 
-### 3.3 Lifecycle Status Flow
+### 3.3 Lifecycle Status Flow (TASK-012A Finalized)
+
+> [!IMPORTANT]
+> **Production Decision**: Human review will **NOT** be used for routine adaptation. Independent AI semantic review is the primary review mechanism. `APPROVED` status is not required for the automated production pipeline and remains purely an optional future editorial state.
 
 ```mermaid
 stateDiagram-v2
     [*] --> PENDING: Initial Staging Extract
-    PENDING --> GENERATED: LLM Adaptation Batch
-    GENERATED --> VALIDATED: Automated Structural & Semantic Checks Pass
-    GENERATED --> REVIEW_REQUIRED: Shallow Rewrite or Semantic Warning
-    VALIDATED --> APPROVED: Human/Editor Approval
-    REVIEW_REQUIRED --> APPROVED: Editorial Manual Fix
-    REVIEW_REQUIRED --> REJECTED: Unsalvageable Transformation
-    REJECTED --> GENERATED: Re-generation with Adjusted Prompt
-    APPROVED --> [*]: Ready for Final App Production
+    PENDING --> DeterministicCheck: Batch Generator & Evaluators
+    
+    DeterministicCheck --> VALIDATED: Deterministic Checks PASS
+    DeterministicCheck --> REJECTED: Structural Clash / Forbidden Shingle / Ungrammatical
+    DeterministicCheck --> AISemanticReview: Deterministic Flag (REVIEW_REQUIRED / High-Risk Mutation)
+    
+    AISemanticReview --> VALIDATED: AI Decision APPROVE (review_required = 0)
+    AISemanticReview --> REVIEW_REQUIRED: AI Decision REVISE (review_required = 1)
+    AISemanticReview --> REJECTED: AI Decision REJECT (review_required = 0)
+    
+    VALIDATED --> [*]: Ready for Universal JSON Export & Preview Gate
 ```
 
-- **`PENDING`**: Source question queued for adaptation; adapted fields are NULL.
-- **`GENERATED`**: Draft text and options produced by adaptation generator.
-- **`VALIDATED`**: Passed all structural, syntactic, cardinality, and similarity threshold checks.
-- **`REVIEW_REQUIRED`**: Flagged by automated heuristics (e.g. similarity $> 0.60$, ambiguous distractor, or naturalness warning).
-- **`APPROVED`**: Confirmed by pedagogical editor as original and educationally sound.
-- **`REJECTED`**: Fails criteria; scheduled for re-generation with specific feedback.
+#### Status Flow Rules:
+1. **Deterministic Validation PASS** $\longrightarrow$ **`VALIDATED`** (`review_required = 0`)
+   - Passes structural cardinality, answer integrity (unambiguously valid, no high-risk mutations), and originality thresholds (calibrated Levenshtein, Jaccard $\le 0.40$, 0 forbidden 3+ word shingles).
+2. **Deterministic `REVIEW_REQUIRED`** $\longrightarrow$ **Trigger AI Semantic Review**
+   - Automatically invoked for high-risk mutations (gender, singular/plural, countability shifts), borderline Jaccard similarity ($0.40 < J \le 0.50$), or calibrated Levenshtein triggers.
+3. **AI Decision `APPROVE`** $\longrightarrow$ **`VALIDATED`** (`review_required = 0`)
+   - The AI reviewer confirms educational validity, answer correctness, and genuine originality. The item transitions cleanly to `VALIDATED`.
+4. **AI Decision `REVISE`** $\longrightarrow$ **`REVIEW_REQUIRED`** (`review_required = 1`)
+   - The AI reviewer identified specific pedagogical or stylistic issues (e.g. shallow rewrite or rule mismatch). The item remains in `REVIEW_REQUIRED` for targeted regeneration.
+5. **AI Decision `REJECT`** $\longrightarrow$ **`REJECTED`** (`review_required = 0`)
+   - The adaptation fundamentally distorts the rule or is irrecoverable.
+6. **Optional Editorial State**:
+   - **`APPROVED`**: Reserved exclusively for optional human/editorial sign-off prior to publishing. It is **never** required for items to reach `VALIDATED` or export to production Universal JSON.
 
 ---
 

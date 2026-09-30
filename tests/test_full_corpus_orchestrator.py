@@ -30,6 +30,7 @@ from pipeline.adaptation.full_corpus_orchestrator import (
     DRY_RUN_ADAPTATION_CATALOG,
     FullCorpusOrchestrator,
     OrchestratorConfig,
+    resolve_status_with_ai_review,
 )
 from pipeline.adaptation.answer_integrity_validator import normalize_token
 from pipeline.adaptation.pilot_sync import sync_pilot_statuses
@@ -168,7 +169,7 @@ class TestFullCorpusOrchestrator(unittest.TestCase):
         )
 
     def test_05_status_transitions_and_review_decisions(self):
-        """Verify status determination: VALIDATED, REVIEW_REQUIRED, REJECTED."""
+        """Verify status determination and automatic AI review resolution under TASK-012A."""
         conn = sqlite3.connect(self.adapt_db)
         try:
             # Query dry-run results from database
@@ -182,15 +183,12 @@ class TestFullCorpusOrchestrator(unittest.TestCase):
             self.assertEqual(len(rows), 25, "Dry run must have recorded exactly 25 questions.")
 
             statuses = {r[1] for r in rows}
-            self.assertIn("VALIDATED", statuses)
-            self.assertIn("REVIEW_REQUIRED", statuses)
-            self.assertNotIn("REJECTED", statuses, "Clean dry run must contain 0 REJECTED items.")
+            # Under TASK-012A, all items that received AI APPROVE resolve to VALIDATED with review_required = 0
+            self.assertEqual(statuses, {"VALIDATED"})
 
             for aqid, stat, rev_req in rows:
-                if stat == "REVIEW_REQUIRED":
-                    self.assertEqual(rev_req, 1, f"{aqid} marked REVIEW_REQUIRED must have review_required = 1")
-                elif stat == "VALIDATED":
-                    self.assertEqual(rev_req, 0, f"{aqid} marked VALIDATED must have review_required = 0")
+                self.assertEqual(stat, "VALIDATED")
+                self.assertEqual(rev_req, 0, f"{aqid} resolved to VALIDATED must have review_required = 0")
         finally:
             conn.close()
 
@@ -251,10 +249,105 @@ class TestFullCorpusOrchestrator(unittest.TestCase):
             self.assertIsNotNone(run_row, "Run record orch_task012_dryrun_25 must exist in adaptation_runs.")
             self.assertEqual(run_row[1], "completed")
             self.assertEqual(run_row[2], 25)
-            self.assertEqual(run_row[3], 18)
+            self.assertEqual(run_row[3], 25)
             self.assertEqual(run_row[4], 0)
         finally:
             conn.close()
+
+    def test_09_automatic_ai_review_status_flow(self):
+        """Verify TASK-012A automatic status resolution rules across all permutations."""
+        # 1. Deterministic VALIDATED without review -> VALIDATED (review_required = 0)
+        self.assertEqual(resolve_status_with_ai_review("VALIDATED", None), ("VALIDATED", 0))
+
+        # 2. Deterministic VALIDATED with AI APPROVE (control sample) -> VALIDATED (review_required = 0)
+        self.assertEqual(resolve_status_with_ai_review("VALIDATED", "APPROVE"), ("VALIDATED", 0))
+
+        # 3. Deterministic VALIDATED with AI REVISE (control sample failure) -> REVIEW_REQUIRED (review_required = 1)
+        self.assertEqual(resolve_status_with_ai_review("VALIDATED", "REVISE"), ("REVIEW_REQUIRED", 1))
+
+        # 4. Deterministic VALIDATED with AI REJECT (control sample failure) -> REJECTED (review_required = 0)
+        self.assertEqual(resolve_status_with_ai_review("VALIDATED", "REJECT"), ("REJECTED", 0))
+
+        # 5. Deterministic REVIEW_REQUIRED + AI APPROVE -> VALIDATED (review_required = 0)
+        self.assertEqual(resolve_status_with_ai_review("REVIEW_REQUIRED", "APPROVE"), ("VALIDATED", 0))
+
+        # 6. Deterministic REVIEW_REQUIRED + AI REVISE -> REVIEW_REQUIRED (review_required = 1)
+        self.assertEqual(resolve_status_with_ai_review("REVIEW_REQUIRED", "REVISE"), ("REVIEW_REQUIRED", 1))
+
+        # 7. Deterministic REVIEW_REQUIRED + AI REJECT -> REJECTED (review_required = 0)
+        self.assertEqual(resolve_status_with_ai_review("REVIEW_REQUIRED", "REJECT"), ("REJECTED", 0))
+
+        # 8. Deterministic REVIEW_REQUIRED without review -> REVIEW_REQUIRED (review_required = 1)
+        self.assertEqual(resolve_status_with_ai_review("REVIEW_REQUIRED", None), ("REVIEW_REQUIRED", 1))
+
+        # 9. Deterministic REJECTED regardless of review -> REJECTED (review_required = 0)
+        self.assertEqual(resolve_status_with_ai_review("REJECTED", "APPROVE"), ("REJECTED", 0))
+        self.assertEqual(resolve_status_with_ai_review("REJECTED", None), ("REJECTED", 0))
+
+    def test_10_zero_answer_divergence_invariant(self):
+        """Verify 100% answer preservation invariant (source == adapted) across all dry-run items in database."""
+        conn = sqlite3.connect(self.adapt_db)
+        stage_conn = sqlite3.connect(f"file:{self.staging_db.resolve()}?mode=ro", uri=True)
+        try:
+            qids = list(DRY_RUN_ADAPTATION_CATALOG.keys())
+            for qid in qids:
+                aqid = f"adapt_{qid}"
+                stage_q = stage_conn.execute("SELECT response_model FROM staging_questions WHERE question_id = ?", (qid,)).fetchone()
+                rm = stage_q[0]
+
+                if rm == "single_choice":
+                    stage_ans = stage_conn.execute(
+                        "SELECT text FROM staging_options WHERE question_id = ? AND is_correct = 1", (qid,)
+                    ).fetchone()[0]
+                    adapt_ans = conn.execute(
+                        "SELECT adapted_text FROM adapted_options WHERE adapted_question_id = ? AND adapted_is_correct = 1", (aqid,)
+                    ).fetchone()[0]
+                    self.assertEqual(
+                        normalize_token(stage_ans),
+                        normalize_token(adapt_ans),
+                        f"Answer divergence in single_choice question {qid}",
+                    )
+
+                elif rm == "multiple_choice":
+                    stage_answers = {
+                        normalize_token(r[0])
+                        for r in stage_conn.execute(
+                            "SELECT text FROM staging_options WHERE question_id = ? AND is_correct = 1", (qid,)
+                        ).fetchall()
+                    }
+                    adapt_answers = {
+                        normalize_token(r[0])
+                        for r in conn.execute(
+                            "SELECT adapted_text FROM adapted_options WHERE adapted_question_id = ? AND adapted_is_correct = 1", (aqid,)
+                        ).fetchall()
+                    }
+                    self.assertEqual(
+                        stage_answers,
+                        adapt_answers,
+                        f"Answer divergence in multiple_choice question {qid}",
+                    )
+
+                elif rm == "gap":
+                    stage_gap_answers = [
+                        normalize_token(r[0])
+                        for r in stage_conn.execute(
+                            "SELECT correct_answer FROM staging_gaps WHERE question_id = ? ORDER BY gap_order", (qid,)
+                        ).fetchall()
+                    ]
+                    adapt_gap_answers = [
+                        normalize_token(r[0])
+                        for r in conn.execute(
+                            "SELECT adapted_correct_answer FROM adapted_gaps WHERE adapted_question_id = ? ORDER BY gap_order", (aqid,)
+                        ).fetchall()
+                    ]
+                    self.assertEqual(
+                        stage_gap_answers,
+                        adapt_gap_answers,
+                        f"Answer divergence in gap question {qid}",
+                    )
+        finally:
+            conn.close()
+            stage_conn.close()
 
 
 if __name__ == "__main__":

@@ -39,7 +39,7 @@ The codebase currently contains two largely independent subsystems:
 
 ## CURRENT TASK
 
-TASK-012 — Full-Corpus Adaptation Orchestrator & Dry Run (Completed).
+TASK-012A — Finalize Automatic AI-Review Status Flow (Completed).
 
 ## NEXT TASK
 
@@ -47,7 +47,8 @@ TASK-013 — Full-Corpus Adaptation Batch Generation (Production batches for rem
 
 ## COMPLETED
 
-- TASK-012 completed: Implemented full-corpus adaptation orchestrator (`pipeline/adaptation/full_corpus_orchestrator.py`) supporting `dry-run`, `status`, `verify`, `resume`, and `pause` modes. Synchronized pilot questions via `pipeline/adaptation/pilot_sync.py` to 188 VALIDATED, 12 REVIEW_REQUIRED, 0 REJECTED. Executed 25-question dry run (18 VALIDATED, 7 REVIEW_REQUIRED, 0 REJECTED, 100% answers preserved, Preview Gate PASSED). Added 8 unit tests in `tests/test_full_corpus_orchestrator.py`. Queue: 5,571 PENDING, 19 REVIEW_REQUIRED, 206 VALIDATED, 0 REJECTED. 97 Python tests + 24 JS tests = 121 green.
+- TASK-012A completed: Finalized automatic status flow (`resolve_status_with_ai_review()` in `pipeline/adaptation/full_corpus_orchestrator.py`): Deterministic PASS -> VALIDATED; REVIEW_REQUIRED + AI APPROVE -> VALIDATED; REVIEW_REQUIRED + AI REVISE -> REVIEW_REQUIRED; REVIEW_REQUIRED + AI REJECT -> REJECTED. APPROVED is optional editorial only. Human review is eliminated from routine adaptation. Dry-run questions resolved to 25 VALIDATED, 0 REVIEW_REQUIRED, 0 REJECTED with 100% answer preservation. Added focused tests in `tests/test_full_corpus_orchestrator.py`. Queue: 5,571 PENDING, 12 REVIEW_REQUIRED, 213 VALIDATED, 0 REJECTED. 99 Python tests + 24 JS tests = 123 green.
+- TASK-012 completed: Implemented full-corpus adaptation orchestrator (`pipeline/adaptation/full_corpus_orchestrator.py`) supporting `dry-run`, `status`, `verify`, `resume`, and `pause` modes. Synchronized pilot questions via `pipeline/adaptation/pilot_sync.py` to 188 VALIDATED, 12 REVIEW_REQUIRED, 0 REJECTED. Executed 25-question dry run (18 VALIDATED, 7 REVIEW_REQUIRED, 0 REJECTED, 100% answers preserved, Preview Gate PASSED).
 - Adaptation Architecture Checkpoint finalized (`docs/ADAPTATION_CHECKPOINT_2026-09-30.md`). All adaptation infrastructure, generation rules, answer preservation invariants, evaluator calibration, pilot revisions, and AI semantic review results frozen in verifiable state.
 - TASK-011H completed: Updated adaptation architecture and rules to prefer preserving the source correct answer (`source_correct_answer == adapted_correct_answer`). Documented in `docs/TASK-010B_ADAPTATION_SPEC.md` with 8-tier priority hierarchy, 13 high-risk mutation factors, explicit generation instruction, and quality rules. Implemented `pipeline/adaptation/generation_rules.py` and `pipeline/adaptation/answer_integrity_validator.py`. Added unit test suite `tests/test_answer_integrity_validator.py` (7 tests). Revisions for QID 4203 and 4211 previously persisted and validated. 89 Python tests + 24 JS tests = 113 green.
 - TASK-011G completed: Independent AI semantic review executed for 34 questions (14 REVIEW_REQUIRED + 20 VALIDATED control sample): 32 APPROVE (94.1%), 2 REVISE (5.9%), 0 REJECT. 0 false acceptances on validated control sample. Results persisted to `data/adaptation/semantic_review_pilot_34.json` and SQLite table `pilot_semantic_reviews` in `data/adaptation.db`.
