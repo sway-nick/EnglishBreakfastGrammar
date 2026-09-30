@@ -39,11 +39,12 @@ The codebase currently contains two largely independent subsystems:
 
 ## CURRENT TASK
 
-TASK-011B — Adaptation Database & Queue Manager (Completed).
+TASK-011C — Pilot Content Adaptation Generation (Completed).
 
 ## COMPLETED
 
-- TASK-011B completed: Implemented `pipeline/adaptation/adaptation_db.py`, initialized `data/adaptation.db` (`schemas/adaptation_schema.sql`), populated adaptation queue idempotently from immutable `data/staging.db` (225 lessons, 638 exercises, 5,796 questions, 4,733 gaps, 13,052 options all PENDING). Full integrity verified (0 FK violations, 0 orphans). 60/60 Python tests and 24/24 JS tests green.
+- TASK-011C completed: Generated controlled pilot adaptation for 20 exercises (200 questions: 103 single_choice, 7 multiple_choice, 90 gap) across A1 and A2 in `data/adaptation.db` (`run_id="pilot_run_20260930_20ex"`). Evaluator results: 125 VALIDATED, 75 REVIEW_REQUIRED, 0 REJECTED. 12/12 lessons strictly valid, 0 errors, 12/12 passed Preview Gate. Full test suite: 65 Python + 24 JS = 89 green.
+- TASK-011B completed: Implemented `pipeline/adaptation/adaptation_db.py`, initialized `data/adaptation.db` (`schemas/adaptation_schema.sql`), populated adaptation queue idempotently from immutable `data/staging.db` (225 lessons, 638 exercises, 5,796 questions, 4,733 gaps, 13,052 options all PENDING). Full integrity verified (0 FK violations, 0 orphans).
 - TASK-011A completed: Implemented originality / similarity metrics evaluator (`pipeline/adaptation/similarity_evaluator.py`) with Jaccard, N-gram shingle overlap, and Levenshtein metrics. 9 unit tests passing.
 - TASK-010B completed: Adaptation pipeline architecture specification (`docs/TASK-010B_ADAPTATION_SPEC.md`) and DDL schema (`schemas/adaptation_schema.sql`).
 

@@ -54,17 +54,17 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-The adaptation layer database and queue manager (TASK-011B) have been initialized and fully populated from immutable staging with 0 duplicates, 0 orphans, and 0 FK violations. 5,796 questions across 225 lessons and 638 exercises are in PENDING queue state in `data/adaptation.db`. Next phase is pilot adaptation generation and execution.
+The controlled pilot content adaptation generation (TASK-011C) for exactly 20 exercises (200 questions across A1 and A2, all 3 response models) has been generated, written to `data/adaptation.db`, and validated via Similarity Evaluator and the JS Preview Gate (12/12 lessons strictly valid, 0 errors, 0 blocked). Waiting for human-in-the-loop review of the pilot before starting full-corpus adaptation.
 
 ## CURRENT TASK
 
-TASK-011B — Adaptation Database & Queue Manager.
+TASK-011C — Pilot Content Adaptation Generation.
 
 Status: completed
 
 ## OPEN ISSUES
 
-None. Staging corpus (5,796 questions) is 100% enriched, validated, and immutable. Adaptation database is initialized and populated (5,796 questions PENDING). Full test suite (60 Python tests + 24 JS tests = 84 total) passing.
+None. Staging corpus (5,796 questions) is 100% immutable and intact. Pilot adaptation (200 questions across 20 exercises in `data/adaptation.db`) achieved: VALIDATED: 125, REVIEW_REQUIRED: 75, REJECTED: 0. Preview Gate 100% passed. Full test suite (65 Python tests + 24 JS tests = 89 total) passing.
 
 ## RESOLVED ISSUES
 

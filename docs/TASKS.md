@@ -6,17 +6,32 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-011B — Adaptation Database & Queue Manager
+TASK-011C — Pilot Content Adaptation Generation
 
 Status: completed
 
 ## OBJECTIVE
 
-Orchestrate pilot adaptation generation and execution for the queued PENDING items in data/adaptation.db.
+Review the 20-exercise pilot adaptation results before proceeding to full-corpus adaptation.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-011C — Pilot Content Adaptation Generation
+Status: completed
+- Curated and generated 20 pilot exercises (200 questions, 90 gaps, 493 options) across 11 distinct grammar topics (A1 + A2).
+- Represented all three response models: `multiple_choice` (7 Qs, 2 correct options each), `single_choice` (103 Qs), `gap` (90 Qs: 50 select, 40 text).
+- Executed strict anti-plagiarism and originality checks via `pipeline/adaptation/similarity_evaluator.py`:
+  - `VALIDATED`: 125 questions (62.5%)
+  - `REVIEW_REQUIRED`: 75 questions (37.5%, flagged due to normalized Levenshtein ratios on short phrases/grammatical formulas; Jaccard <= 0.40, 0 forbidden shingles)
+  - `REJECTED`: 0 questions (0.0%)
+- Preserved strict relational and structural invariants in `data/adaptation.db` (`run_id="pilot_run_20260930_20ex"`):
+  - 0 foreign key violations, 0 orphans, 0 unmatched source IDs.
+- Validated via JS Domain Validator and Preview Gate (`src/preview/server.js`):
+  - 12/12 adapted lessons valid, 0 errors, 12/12 passed Preview Gate (0 blocked).
+- Added comprehensive unit tests in `tests/test_pilot_generator.py` (5 tests).
+- Total tests: 65/65 Python tests green, 24/24 JS Jest tests green (89 total).
 
 ### TASK-011B — Implement Adaptation Database & Queue Manager
 Status: completed
