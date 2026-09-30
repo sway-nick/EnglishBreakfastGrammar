@@ -6,17 +6,31 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-011C — Pilot Content Adaptation Generation
+TASK-011D — Human Review Report for Pilot Adaptation
 
 Status: completed
 
 ## OBJECTIVE
 
-Review the 20-exercise pilot adaptation results before proceeding to full-corpus adaptation.
+Awaiting human review feedback on the 200 pilot adapted questions (especially the 75 flagged items) before finalizing threshold calibrations and proceeding with full-corpus adaptation.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-011D — Human Review Report for Pilot Adaptation
+Status: completed
+- Implemented `pipeline/adaptation/review_report_builder.py` (`npm run adaptation:review`).
+- Built the human-review Excel workbook at `data/adaptation/pilot_review_20260930.xlsx` (mirrored to `C:\Users\user\Desktop\pilot_review_20260930.xlsx`).
+- Structured 3 comprehensive sheets:
+  1. `Summary`: Executive status overview (200 total, 125 VALIDATED [62.5%], 75 REVIEW_REQUIRED [37.5%], 0 REJECTED [0.0%]), grouped reasons for review, metric distribution quantiles (Jaccard, Shingles, Levenshtein), response model and CEFR level breakdowns, complete 20-exercise portfolio, and linguistic review guidance.
+  2. `Review_Required_75`: Dedicated sheet containing exclusively the 75 flagged items.
+  3. `All_Pilot_Questions_200`: All 200 questions sorted with `REVIEW_REQUIRED` first (rows 2-76), followed by `VALIDATED` (rows 77-201).
+- Enforced all 17 required columns per row with full question, option, gap, answer, and evaluator reason traceability.
+- Confirmed zero plagiarism / zero copy-pastes across all 200 questions (0.0000 shingle overlap).
+- Root-cause analyzed the 75 flagged items: 100% triggered by Rule 3 (Normalized Levenshtein similarity >= 0.45) due to short sentence lengths, morphological conversion pairs, and dialogue scaffolds rather than unoriginal content.
+- Added comprehensive unit tests in `tests/test_review_report_builder.py` (5 tests).
+- Total tests: 70/70 Python tests green, 24/24 JS Jest tests green (94 total).
 
 ### TASK-011C — Pilot Content Adaptation Generation
 Status: completed

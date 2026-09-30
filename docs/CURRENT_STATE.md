@@ -54,17 +54,17 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-The controlled pilot content adaptation generation (TASK-011C) for exactly 20 exercises (200 questions across A1 and A2, all 3 response models) has been generated, written to `data/adaptation.db`, and validated via Similarity Evaluator and the JS Preview Gate (12/12 lessons strictly valid, 0 errors, 0 blocked). Waiting for human-in-the-loop review of the pilot before starting full-corpus adaptation.
+Awaiting human-in-the-loop review of the pilot adaptation workbook (`data/adaptation/pilot_review_20260930.xlsx`) before proceeding to full-corpus adaptation.
 
 ## CURRENT TASK
 
-TASK-011C — Pilot Content Adaptation Generation.
+TASK-011D — Human Review Report for Pilot Adaptation.
 
 Status: completed
 
 ## OPEN ISSUES
 
-None. Staging corpus (5,796 questions) is 100% immutable and intact. Pilot adaptation (200 questions across 20 exercises in `data/adaptation.db`) achieved: VALIDATED: 125, REVIEW_REQUIRED: 75, REJECTED: 0. Preview Gate 100% passed. Full test suite (65 Python tests + 24 JS tests = 89 total) passing.
+None. Staging corpus (5,796 questions) is 100% immutable and intact. Pilot adaptation human review workbook generated at `data/adaptation/pilot_review_20260930.xlsx` and mirrored to Desktop (`C:\Users\user\Desktop\pilot_review_20260930.xlsx`). 125 VALIDATED, 75 REVIEW_REQUIRED, 0 REJECTED. Full test suite (70 Python tests + 24 JS tests = 94 total) passing.
 
 ## RESOLVED ISSUES
 
