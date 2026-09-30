@@ -54,17 +54,17 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-Awaiting human review on the calibrated 14 `REVIEW_REQUIRED` items from the pilot adaptation re-evaluation before proceeding to full-corpus adaptation.
+Address the 2 REVISE items identified during AI semantic review (QID 4203 and QID 4211) or proceed with final review sign-off before full-corpus adaptation.
 
 ## CURRENT TASK
 
-TASK-011E — Calibrate Originality Evaluator for Short Grammar Items.
+TASK-011G — AI-Based Semantic Review of Pilot Adaptations.
 
 Status: completed
 
 ## OPEN ISSUES
 
-None. Staging corpus (5,796 questions) is 100% immutable and intact. Pilot adaptation evaluator calibrated under TASK-011E: 186 VALIDATED (93.0%), 14 REVIEW_REQUIRED (7.0%), 0 REJECTED (0.0%). 61 items appropriately transitioned to VALIDATED. 0 incorrectly accepted. Full test suite (77 Python tests + 24 JS tests = 101 total) passing.
+None. Staging corpus (5,796 questions) is 100% immutable and intact. AI semantic review completed for 34 questions (14 REVIEW_REQUIRED + 20 VALIDATED control): 32 APPROVE, 2 REVISE, 0 REJECT. Results persisted in `data/adaptation/semantic_review_pilot_34.json` and SQLite table `pilot_semantic_reviews` in `data/adaptation.db`. 0 regressions on validated control sample. Full test suite (82 Python tests + 24 JS tests = 106 total) passing.
 
 ## RESOLVED ISSUES
 

@@ -6,17 +6,35 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-011E — Calibrate Originality Evaluator for Short Grammar Items
+TASK-011G — AI-Based Semantic Review of Pilot Adaptations
 
 Status: completed
 
 ## OBJECTIVE
 
-Awaiting human review feedback on the calibrated 14 `REVIEW_REQUIRED` items before finalizing adaptation parameters and proceeding to full-corpus adaptation.
+Address the 2 REVISE items (QID 4203 and QID 4211) or proceed with final review sign-off before commencing full-corpus adaptation.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-011G — AI-Based Semantic Review of Pilot Adaptations
+Status: completed
+- Implemented `pipeline/adaptation/semantic_reviewer.py` (`npm run adaptation:semantic-review`).
+- Executed comprehensive semantic, pedagogical, and quality audit across 34 questions:
+  - All 14 `REVIEW_REQUIRED` items from calibrated evaluator;
+  - Deterministic control sample of 20 `VALIDATED` items (ordered by stable source_question_id).
+- Evaluated 4 major dimensions per question: Grammar-target preservation, Answer integrity, Originality, Quality.
+- Decisions:
+  - `APPROVE`: 32 questions (94.1%)
+  - `REVISE`: 2 questions (5.9%) — QID 4203 (shallow rewrite) and QID 4211 (pedagogical mismatch on canonical '-y -> -ier' rule and shallow rewrite)
+  - `REJECT`: 0 questions (0.0%)
+- Sub-group outcomes:
+  - `REVIEW_REQUIRED` (14 Qs): 12 APPROVE, 2 REVISE, 0 REJECT.
+  - `VALIDATED_CONTROL` (20 Qs): 20 APPROVE, 0 REVISE, 0 REJECT (0 false acceptances by calibrated deterministic evaluator).
+- Persisted results into `data/adaptation/semantic_review_pilot_34.json` and isolated SQLite table `pilot_semantic_reviews` in `data/adaptation.db` (original adaptation tables remain unmodified).
+- Added comprehensive unit tests in `tests/test_semantic_reviewer.py` (5 tests).
+- Total tests: 82/82 Python tests green, 24/24 JS Jest tests green (106 total).
 
 ### TASK-011E — Calibrate Originality Evaluator for Short Grammar Items
 Status: completed

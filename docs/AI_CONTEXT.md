@@ -39,11 +39,12 @@ The codebase currently contains two largely independent subsystems:
 
 ## CURRENT TASK
 
-TASK-011E — Calibrate Originality Evaluator for Short Grammar Items (Completed).
+TASK-011G — AI-Based Semantic Review of Pilot Adaptations (Completed).
 
 ## COMPLETED
 
-- TASK-011E completed: Calibrated `pipeline/adaptation/similarity_evaluator.py` for short grammar items (dialogue scaffolding normalization, short text Levenshtein exemption unless combined with Jaccard >= 0.25). 16 unit tests passing. Re-evaluated 200 pilot questions: 186 VALIDATED (93%), 14 REVIEW_REQUIRED (7%), 0 REJECTED. 61 items appropriately transitioned to VALIDATED. 0 regressions. 77 Python tests + 24 JS tests = 101 green.
+- TASK-011G completed: Independent AI semantic review executed for 34 questions (14 REVIEW_REQUIRED + 20 VALIDATED control sample): 32 APPROVE (94.1%), 2 REVISE (5.9%), 0 REJECT. 0 false acceptances on validated control sample. Results persisted to `data/adaptation/semantic_review_pilot_34.json` and SQLite table `pilot_semantic_reviews` in `data/adaptation.db` (original adaptation tables untouched). 82 Python tests + 24 JS tests = 106 green.
+- TASK-011E completed: Calibrated `pipeline/adaptation/similarity_evaluator.py` for short grammar items (dialogue scaffolding normalization, short text Levenshtein exemption unless combined with Jaccard >= 0.25). 16 unit tests passing. Re-evaluated 200 pilot questions: 186 VALIDATED (93%), 14 REVIEW_REQUIRED (7%), 0 REJECTED. 61 items appropriately transitioned to VALIDATED. 0 regressions.
 - TASK-011D completed: Generated human review Excel workbook (`data/adaptation/pilot_review_20260930.xlsx`, mirrored to Desktop) with Summary, Review_Required_75, and All_Pilot_Questions_200 sheets (REVIEW_REQUIRED first, then VALIDATED). 125 VALIDATED, 75 REVIEW_REQUIRED, 0 REJECTED.
 - TASK-011C completed: Generated controlled pilot adaptation for 20 exercises (200 questions: 103 single_choice, 7 multiple_choice, 90 gap) across A1 and A2 in `data/adaptation.db` (`run_id="pilot_run_20260930_20ex"`). Evaluator results: 125 VALIDATED, 75 REVIEW_REQUIRED, 0 REJECTED. 12/12 lessons strictly valid, 0 errors, 12/12 passed Preview Gate.
 - TASK-011B completed: Implemented `pipeline/adaptation/adaptation_db.py`, initialized `data/adaptation.db` (`schemas/adaptation_schema.sql`), populated adaptation queue idempotently from immutable `data/staging.db` (225 lessons, 638 exercises, 5,796 questions, 4,733 gaps, 13,052 options all PENDING). Full integrity verified (0 FK violations, 0 orphans).
