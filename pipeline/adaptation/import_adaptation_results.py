@@ -28,6 +28,7 @@ import sys
 from typing import Any, Dict, List, Optional, Set, Tuple
 
 import openpyxl
+import re
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 if str(REPO_ROOT) not in sys.path:
@@ -47,6 +48,17 @@ DEFAULT_RUN_ID = "prod_adaptation_task013"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("import_adaptation_results")
+
+
+def repair_json_quotes(s: str) -> str:
+    """Repair unescaped double quotes inside dialogue within adapted_text."""
+    pattern = r'("adapted_text"\s*:\s*")(.*?)("\s*,\s*"(?:options|gaps)")'
+    m = re.search(pattern, s, re.DOTALL)
+    if m:
+        prefix, inner, suffix = m.group(1), m.group(2), m.group(3)
+        repaired_inner = inner.replace('"', '\\"')
+        s = s[:m.start()] + prefix + repaired_inner + suffix + s[m.end():]
+    return s
 
 
 def parse_adaptation_json(raw_val: Any) -> Optional[Dict[str, Any]]:
@@ -71,10 +83,14 @@ def parse_adaptation_json(raw_val: Any) -> Optional[Dict[str, Any]]:
         s_idx = val_str.find("{")
         e_idx = val_str.rfind("}")
         if s_idx != -1 and e_idx != -1 and e_idx > s_idx:
+            candidate = val_str[s_idx : e_idx + 1]
             try:
-                return json.loads(val_str[s_idx : e_idx + 1])
+                return json.loads(candidate)
             except json.JSONDecodeError:
-                pass
+                try:
+                    return json.loads(repair_json_quotes(candidate))
+                except json.JSONDecodeError:
+                    pass
     return None
 
 
@@ -85,6 +101,7 @@ def import_adaptation_results(
     run_id: str = DEFAULT_RUN_ID,
     dry_run: bool = False,
     target_level: Optional[str] = None,
+    limit: Optional[int] = None,
 ) -> Dict[str, Any]:
     """Import and validate evaluated Gemini adaptation results into data/adaptation.db."""
     if not results_path.exists():
@@ -151,6 +168,9 @@ def import_adaptation_results(
             if r[0] is None:
                 continue
 
+            if limit is not None and (stats["processed_count"] + len(stats["failures"])) >= limit:
+                break
+
             stats["total_rows_read"] += 1
             sqid = str(int(r[0]))
             aqid = str(r[1])
@@ -192,10 +212,12 @@ def import_adaptation_results(
             structural_errors = []
             if not adapted_text:
                 structural_errors.append("Empty adapted text")
-            if len(adapted_opts) != len(stage_opts):
-                structural_errors.append(f"Option cardinality mismatch: got {len(adapted_opts)}, expected {len(stage_opts)}")
-            if len(adapted_gaps) != len(stage_gaps):
-                structural_errors.append(f"Gap cardinality mismatch: got {len(adapted_gaps)}, expected {len(stage_gaps)}")
+            if rm in ("single_choice", "multiple_choice"):
+                if len(adapted_opts) != len(stage_opts):
+                    structural_errors.append(f"Option cardinality mismatch: got {len(adapted_opts)}, expected {len(stage_opts)}")
+            if rm == "gap":
+                if len(adapted_gaps) != len(stage_gaps):
+                    structural_errors.append(f"Gap cardinality mismatch: got {len(adapted_gaps)}, expected {len(stage_gaps)}")
 
             # 2. Answer integrity validation
             source_item = {
@@ -290,22 +312,24 @@ def import_adaptation_results(
                     (adapted_text, sim_res["jaccard_similarity"], final_status, rev_req, notes, now_ts, aqid),
                 )
 
-                # Commit options
-                for opt_idx, o_spec in enumerate(adapted_opts):
-                    stage_o = stage_opts[opt_idx]
-                    opt_id = f"adapt_{stage_o['option_id']}"
-                    adapt_conn.execute(
-                        """
-                        UPDATE adapted_options
-                        SET adapted_text = ?,
-                            adapted_value = ?,
-                            adapted_is_correct = ?,
-                            review_required = ?,
-                            adaptation_notes = 'TASK-013 Option'
-                        WHERE adapted_option_id = ?
-                        """,
-                        (o_spec["text"], o_spec["text"], o_spec["is_correct"], rev_req, opt_id),
-                    )
+                # Commit options if present (single_choice, multiple_choice)
+                if adapted_opts:
+                    for opt_idx, o_spec in enumerate(adapted_opts):
+                        if opt_idx < len(stage_opts):
+                            stage_o = stage_opts[opt_idx]
+                            opt_id = f"adapt_{stage_o['option_id']}"
+                            adapt_conn.execute(
+                                """
+                                UPDATE adapted_options
+                                SET adapted_text = ?,
+                                    adapted_value = ?,
+                                    adapted_is_correct = ?,
+                                    review_required = ?,
+                                    adaptation_notes = 'TASK-013 Option'
+                                WHERE adapted_option_id = ?
+                                """,
+                                (o_spec["text"], o_spec["text"], o_spec["is_correct"], rev_req, opt_id),
+                            )
 
                 # Commit gaps
                 for gap_idx, g_spec in enumerate(adapted_gaps):
@@ -369,6 +393,7 @@ def main() -> None:
     parser.add_argument("--run-id", default=DEFAULT_RUN_ID, help="Execution run ID")
     parser.add_argument("--dry-run", action="store_true", help="Perform dry run without committing")
     parser.add_argument("--level", default=None, help="Filter by CEFR level (A1, A2, etc.)")
+    parser.add_argument("--limit", type=int, default=None, help="Maximum number of questions to process in batch")
     args = parser.parse_args()
 
     results_path = Path(args.results)
@@ -390,6 +415,7 @@ def main() -> None:
         run_id=args.run_id,
         dry_run=args.dry_run,
         target_level=args.level,
+        limit=args.limit,
     )
 
     print(f"\nTotal Rows Read      : {stats['total_rows_read']}")

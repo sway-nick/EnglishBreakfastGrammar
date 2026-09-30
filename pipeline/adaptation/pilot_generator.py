@@ -404,7 +404,7 @@ def export_pilot_universal_json(
                     ).fetchall()
 
                     q_opts = adapt_conn.execute(
-                        "SELECT adapted_option_id, adapted_gap_id, option_order, adapted_text, adapted_is_correct FROM adapted_options WHERE adapted_question_id = ? ORDER BY option_order",
+                        "SELECT adapted_option_id, adapted_gap_id, option_order, adapted_text, source_text, adapted_is_correct, source_is_correct FROM adapted_options WHERE adapted_question_id = ? ORDER BY option_order",
                         (qid,),
                     ).fetchall()
 
@@ -434,8 +434,8 @@ def export_pilot_universal_json(
                             {
                                 "id": opt["adapted_option_id"],
                                 "order": opt["option_order"],
-                                "value": opt["adapted_text"],
-                                "is_correct": bool(opt["adapted_is_correct"]),
+                                "value": opt["adapted_text"] if (opt["adapted_text"] is not None and opt["adapted_text"] != "") else opt["source_text"],
+                                "is_correct": bool(opt["adapted_is_correct"] if (opt["adapted_text"] is not None and opt["adapted_text"] != "") else opt["source_is_correct"]),
                             }
                             for opt in q_opts
                         ]
@@ -454,8 +454,8 @@ def export_pilot_universal_json(
                                     {
                                         "id": o["adapted_option_id"],
                                         "order": o["option_order"],
-                                        "value": o["adapted_text"],
-                                        "is_correct": bool(o["adapted_is_correct"]),
+                                        "value": o["adapted_text"] if (o["adapted_text"] is not None and o["adapted_text"] != "") else o["source_text"],
+                                        "is_correct": bool(o["adapted_is_correct"] if (o["adapted_text"] is not None and o["adapted_text"] != "") else o["source_is_correct"]),
                                     }
                                     for o in gap_opts
                                 ]
