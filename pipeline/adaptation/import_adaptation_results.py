@@ -195,7 +195,19 @@ def import_adaptation_results(
 
             parsed = parse_adaptation_json(val)
             if not parsed or not isinstance(parsed, dict) or "adapted_text" not in parsed:
-                stats["failures"].append({"row": row_idx, "question_id": sqid, "error": f"Invalid JSON payload: {val}"})
+                is_prompt_echo = str(val or "").strip().startswith("Task: Adapt")
+                fail_note = "RETRYABLE: Prompt text returned without Gemini JSON output" if is_prompt_echo else f"Parse Failure: {val}"
+                stats["failures"].append({"row": row_idx, "question_id": sqid, "error": fail_note})
+                if not dry_run:
+                    adapt_conn.execute(
+                        """
+                        UPDATE adapted_questions
+                        SET adaptation_notes = ?,
+                            review_required = 1
+                        WHERE adapted_question_id = ?
+                        """,
+                        (fail_note, aqid),
+                    )
                 continue
 
             adapted_text = str(parsed.get("adapted_text", "")).strip()
@@ -369,6 +381,29 @@ def import_adaptation_results(
                 adapt_conn.execute(
                     "UPDATE adapted_lessons SET adaptation_status = ?, review_required = ? WHERE adapted_lesson_id = ?",
                     (l_stat, 1 if l_rev_cnt > 0 else 0, lid),
+                )
+
+            # Finalize adaptation_runs record
+            if not dry_run:
+                adapt_conn.execute(
+                    """
+                    UPDATE adaptation_runs
+                    SET status = 'completed',
+                        completed_at = ?,
+                        generated_count = ?,
+                        validated_count = ?,
+                        rejected_count = ?,
+                        notes = ?
+                    WHERE run_id = ?
+                    """,
+                    (
+                        datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                        stats["processed_count"],
+                        stats["status_distribution"]["VALIDATED"],
+                        stats["status_distribution"]["REJECTED"],
+                        f"Processed {stats['processed_count']} questions. Failures/Retryable: {len(stats['failures'])}",
+                        run_id,
+                    ),
                 )
 
     stage_conn.close()
