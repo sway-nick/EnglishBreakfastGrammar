@@ -24,6 +24,8 @@
     "adaptation:pilot": "python pipeline/adaptation/pilot_generator.py",
     "adaptation:review": "python pipeline/adaptation/review_report_builder.py",
     "adaptation:semantic-review": "python pipeline/adaptation/semantic_reviewer.py",
+    "adaptation:build-workbook": "python pipeline/adaptation/adaptation_workbook_builder.py",
+    "adaptation:import-results": "python pipeline/adaptation/import_adaptation_results.py",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {

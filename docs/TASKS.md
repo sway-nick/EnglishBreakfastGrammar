@@ -6,21 +6,41 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-012B — Reconcile Pilot Review Status Before Production
+TASK-013 — Full-Corpus Adaptation Batch Generation (Production batches for remaining 5,571 PENDING questions)
 
-Status: completed
+Status: in_progress (Workbook generated on Desktop, ready for Google Sheets evaluation and import).
 
 ## NEXT TASK
 
-TASK-013 — Full-Corpus Adaptation Batch Generation (Production batches for remaining 5,571 PENDING questions).
+TASK-013 Completion — Evaluate workbook in Google Sheets by level (A1 -> A2 -> B1 -> B1-B2 -> B2 -> C1 -> Shorts), import evaluated values, and execute final Preview Gate.
 
 ## OBJECTIVE
 
-Pilot review status reconciled and verified: All 12 remaining pilot questions with persisted AI semantic review APPROVE decisions have been transitioned to VALIDATED (`review_required = 0`) across questions, child gaps, options, exercises, and lessons. Pilot distribution is 200 VALIDATED, 0 REVIEW_REQUIRED, 0 REJECTED. Global adaptation queue is 5,571 PENDING, 225 VALIDATED (200 pilot + 25 dry run), 0 REVIEW_REQUIRED, 0 REJECTED (Total = 5,796). Production pipeline is fully synchronized and ready for production batches (TASK-013). All 99 Python unit tests and 24 Jest tests passing.
+Production adaptation batch generation for all 5,571 PENDING questions: Generated `english_adaptation_gemini_5571.xlsx` (Desktop & local `data/adaptation/`) with strict level-by-level ordering (A1: 866, A2: 1,134, B1: 1,133, B1-B2: 940, B2: 941, C1: 277, Shorts: 280) and model-tailored `=IFERROR(GEMINI(...), "")` formulas enforcing answer preservation. Implemented companion importer `pipeline/adaptation/import_adaptation_results.py` with multi-tier validation, Preview Gate, and atomic transaction safety. 104 Python tests and 24 Jest tests passing.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-013 — Full-Corpus Adaptation Batch Generation (Stage 1: Infrastructure & Workbook)
+Status: in_progress
+- **Adaptation Workbook Builder (`pipeline/adaptation/adaptation_workbook_builder.py`, `npm run adaptation:build-workbook`)**:
+  * Extracted all 5,571 PENDING questions from `data/adaptation.db` joined with immutable metadata from `data/staging.db`.
+  * Strictly ordered all questions level-by-level: A1 (866) $\to$ A2 (1,134) $\to$ B1 (1,133) $\to$ B1-B2 (940) $\to$ B2 (941) $\to$ C1 (277) $\to$ Shorts (280).
+  * Enforced Core Principle: preserve the source correct answer whenever reasonably possible.
+  * Generated model-tailored Google Sheets `=IFERROR(GEMINI(...), "")` formulas with structured JSON output instructions, zero plagiarism constraints, and non-target context rewriting.
+  * Saved production workbook to Desktop (`C:\Users\user\Desktop\english_adaptation_gemini_5571.xlsx`, 845,765 bytes) and local repository (`data/adaptation/english_adaptation_gemini_5571.xlsx`, 845,763 bytes).
+- **Adaptation Results Importer (`pipeline/adaptation/import_adaptation_results.py`, `npm run adaptation:import-results`)**:
+  * Robust JSON decoder handling clean JSON, markdown backtick stripping, and edge cases.
+  * Structural validation: non-empty text, option cardinality, gap cardinality.
+  * Answer integrity validation (`validate_answer_integrity`): detects divergences and high-risk mutations.
+  * Similarity evaluation (`evaluate_similarity`): enforces Jaccard <= 0.40, 0 forbidden shingles, calibrated Levenshtein.
+  * Selective AI semantic review and automated status resolution (`resolve_status_with_ai_review`).
+  * Atomic per-exercise/level transaction safety and rollback isolation.
+  * Preview Gate validation integration.
+- **Unit Test Suite (`tests/test_adaptation_workbook.py`)**:
+  * 5 comprehensive unit tests verifying 5,571 pending count, strict level sequence, formula invariants, parser resilience, and dry-run importer execution.
+  * Full Python test suite expanded to 104 tests (104/104 green). 24/24 Jest tests green.
 
 ### TASK-012B — Reconcile Pilot Review Status Before Production
 Status: completed

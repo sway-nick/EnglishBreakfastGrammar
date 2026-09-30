@@ -54,21 +54,21 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-Pilot review status reconciled under TASK-012B: All 12 pilot questions with persisted AI semantic review APPROVE decisions have been transitioned to VALIDATED (`review_required = 0`) across questions, child gaps, options, exercises, and lessons. Pilot distribution is 200 VALIDATED, 0 REVIEW_REQUIRED, 0 REJECTED. Global adaptation queue holds: 5,571 PENDING, 225 VALIDATED (200 pilot + 25 dry run), 0 REVIEW_REQUIRED, 0 REJECTED (Total = 5,796). Production pipeline is fully synchronized and ready for full-corpus production batches (TASK-013).
+TASK-013 in progress: Created full-corpus adaptation workbook `english_adaptation_gemini_5571.xlsx` (Desktop & local `data/adaptation/`) containing all 5,571 PENDING questions strictly partitioned level-by-level (A1: 866, A2: 1,134, B1: 1,133, B1-B2: 940, B2: 941, C1: 277, Shorts: 280) with model-tailored `=IFERROR(GEMINI(...), "")` formulas enforcing the Core Principle: preserve source correct answer. Implemented companion importer `pipeline/adaptation/import_adaptation_results.py` with multi-tier validation, Preview Gate, and atomic transaction safety. 104 Python tests + 24 JS tests = 128 total passing.
 
 ## CURRENT TASK
 
-TASK-012B — Reconcile Pilot Review Status Before Production.
+TASK-013 — Full-Corpus Adaptation Batch Generation (Production batches for remaining 5,571 PENDING questions).
 
-Status: completed
+Status: in_progress (Workbook generated on Desktop, ready for Google Sheets evaluation and import).
 
 ## NEXT TASK
 
-TASK-013 — Full-Corpus Adaptation Batch Generation (Production batches for remaining 5,571 PENDING questions).
+TASK-013 Completion — Evaluate workbook in Google Sheets by level (A1 -> A2 -> B1 -> B1-B2 -> B2 -> C1 -> Shorts), import evaluated values, and execute final Preview Gate.
 
 ## OPEN ISSUES
 
-None. Staging corpus (5,796 questions) is 100% immutable and intact. Adaptation database holds 5,796 questions: 5,571 PENDING, 0 REVIEW_REQUIRED, 225 VALIDATED (200 pilot + 25 dry run), 0 REJECTED. Automatic AI review status flow and Preview Gate verified. Full test suite (99 Python tests + 24 JS tests = 123 total) passing.
+None. Staging corpus (5,796 questions) is 100% immutable and intact. Adaptation database holds 5,796 questions: 5,571 PENDING, 0 REVIEW_REQUIRED, 225 VALIDATED (200 pilot + 25 dry run), 0 REJECTED. Adaptation workbook generated on Desktop and verified. Full test suite (104 Python tests + 24 JS tests = 128 total) passing.
 
 ## RESOLVED ISSUES
 

@@ -39,14 +39,15 @@ The codebase currently contains two largely independent subsystems:
 
 ## CURRENT TASK
 
-TASK-012B — Reconcile Pilot Review Status Before Production (Completed).
+TASK-013 — Full-Corpus Adaptation Batch Generation (In progress — Workbook generated on Desktop, awaiting Google Sheets calculation).
 
 ## NEXT TASK
 
-TASK-013 — Full-Corpus Adaptation Batch Generation (Production batches for remaining 5,571 PENDING questions).
+TASK-013 Completion — Evaluate workbook in Google Sheets by level, import evaluated values, and verify Preview Gate.
 
 ## COMPLETED
 
+- TASK-013 in progress: Built adaptation workbook builder (`pipeline/adaptation/adaptation_workbook_builder.py`, `npm run adaptation:build-workbook`) and companion importer (`pipeline/adaptation/import_adaptation_results.py`, `npm run adaptation:import-results`). Generated production adaptation workbook `english_adaptation_gemini_5571.xlsx` (Desktop & local `data/adaptation/`) containing all 5,571 PENDING questions partitioned level-by-level (A1: 866, A2: 1,134, B1: 1,133, B1-B2: 940, B2: 941, C1: 277, Shorts: 280) with model-tailored `=IFERROR(GEMINI(...), "")` formulas enforcing answer preservation. 104 Python tests + 24 JS tests = 128 total green.
 - TASK-012B completed: Pilot review status reconciled in `data/adaptation.db`. Verified that all 12 remaining pilot questions had genuine persisted AI semantic review APPROVE decisions. Updated `pipeline/adaptation/pilot_sync.py` to use `resolve_status_with_ai_review()` and synchronized all 200 pilot items to VALIDATED (`review_required = 0`) across questions, child gaps, options, exercises, and lessons. Hardened `pipeline/adaptation/semantic_reviewer.py` and `pipeline/adaptation/review_report_builder.py`. Pilot distribution: 200 VALIDATED, 0 REVIEW_REQUIRED, 0 REJECTED. Global adaptation queue: 5,571 PENDING, 225 VALIDATED (200 pilot + 25 dry run), 0 REVIEW_REQUIRED, 0 REJECTED (Total = 5,796). 99 Python tests + 24 JS tests = 123 green. Foreign key integrity PASS (0 violations).
 - TASK-012A completed: Finalized automatic status flow (`resolve_status_with_ai_review()` in `pipeline/adaptation/full_corpus_orchestrator.py`): Deterministic PASS -> VALIDATED; REVIEW_REQUIRED + AI APPROVE -> VALIDATED; REVIEW_REQUIRED + AI REVISE -> REVIEW_REQUIRED; REVIEW_REQUIRED + AI REJECT -> REJECTED. APPROVED is optional editorial only. Human review is eliminated from routine adaptation. Dry-run questions resolved to 25 VALIDATED, 0 REVIEW_REQUIRED, 0 REJECTED with 100% answer preservation. Added focused tests in `tests/test_full_corpus_orchestrator.py`. Queue: 5,571 PENDING, 12 REVIEW_REQUIRED, 213 VALIDATED, 0 REJECTED. 99 Python tests + 24 JS tests = 123 green.
 - TASK-012 completed: Implemented full-corpus adaptation orchestrator (`pipeline/adaptation/full_corpus_orchestrator.py`) supporting `dry-run`, `status`, `verify`, `resume`, and `pause` modes. Synchronized pilot questions via `pipeline/adaptation/pilot_sync.py` to 188 VALIDATED, 12 REVIEW_REQUIRED, 0 REJECTED. Executed 25-question dry run (18 VALIDATED, 7 REVIEW_REQUIRED, 0 REJECTED, 100% answers preserved, Preview Gate PASSED).
