@@ -10,7 +10,7 @@
     "sheets:push": "node src/sheets/push.js",
     "sheets:pull": "node src/sheets/pull.js",
     "publish": "node src/publish/publish.js",
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {
     "node-html-parser": "^6.1.13",

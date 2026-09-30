@@ -199,7 +199,7 @@ function checkExercise(exerciseId) {
         const el = document.querySelector(\`[data-gap-id="\${gap.id}"]\`);
         if (!el) return;
         const userValue = el.value?.trim() ?? '';
-        const correctOption = gap.options.find(o => o.correct);
+        const correctOption = gap.options.find(o => o.is_correct);
         const correctValue  = correctOption?.value ?? '';
 
         if (!userValue) {
@@ -219,7 +219,7 @@ function checkExercise(exerciseId) {
 
     if (q.type === 'single_choice' || q.type === 'multiple_choice') {
       const inputs = document.querySelectorAll(\`[data-question-id="\${q.id}"] input\`);
-      const correctIds = new Set(q.options.filter(o => o.correct).map(o => o.id));
+      const correctIds = new Set(q.options.filter(o => o.is_correct).map(o => o.id));
       const selectedIds = new Set([...inputs].filter(i => i.checked).map(i => i.dataset.optionId));
 
       let questionCorrect = true;

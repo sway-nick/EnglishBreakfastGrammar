@@ -6,60 +6,44 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-001 (Modified) — Project orchestration and memory synchronization
+TASK-001.5 — Multi-model workflow definition & task dispatching
 
 Status: in_progress
 
 ## OBJECTIVE
 
-Establish consistent project context, define subsystem boundaries between the Python Pipeline and JavaScript Core, record known open issues without premature code modification, and prepare the project for reliable multi-model collaboration.
+Formulate operational task delegation and handoff conventions between Antigravity (primary orchestrator), Claude/Gemini (implementation), and external AI (architectural review), ensuring minimal token overhead and predictable verification.
 
-## SUBTASKS
+## COMPLETED RECENT TASKS
 
-### TASK-001.1 — Core orchestration rules
+### TASK-002 — Fix `is_correct vs correct` schema mismatch in JS validation and tests
 Status: completed
-- Created `.agents/rules/01-core.md` (Always On).
-- Defined source-of-truth hierarchy, context management, verification rules, and handoff checkpoints.
+- Added ADR-002 (provisional) to `docs/DECISIONS.md`.
+- Unified `.is_correct` in `src/validation/index.js`, `src/preview/renderer.js`, `src/sheets/index.js`, and `tests/validation.test.js`.
+- Implemented `validate(lesson, { allowUnresolved = false } = {})`:
+  - Strict mode (default): enforces boolean `is_correct` and at least one correct answer per gap/choice.
+  - `allowUnresolved: true`: accommodates Rule 12A raw imports awaiting AI answer processing (`is_correct: null`), emitting non-blocking `INFO` diagnostics.
+- Added explicit validation gate to `src/preview/server.js`.
+- Added test coverage for both strict and `allowUnresolved` modes (10/10 tests pass).
 
-### TASK-001.2 — External AI consultation
+### TASK-003 — Cross-platform npm test runner configuration
 Status: completed
-- Created `.agents/rules/02-ai-consultation.md` (Model Decision).
-- Created `.agents/skills/consult/SKILL.md`.
-- Defined consultation thresholds, compact English consultation packages, and Russian user summaries.
+- Updated `package.json` test script to `"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"`.
+- Verified execution works cleanly under Windows PowerShell and cross-platform environments.
 
-### TASK-001.3 — Project memory documentation
-Status: completed
-- Updated `docs/AI_CONTEXT.md` (subsystem roles, open issues, removed placeholders).
-- Updated `docs/CURRENT_STATE.md` (current status as of 2026-09-30).
-- Updated `docs/DECISIONS.md` (ADR-001 accepted).
-- Updated `docs/PROJECT.md` (boundaries and principles).
-- Updated `docs/TASKS.md` (current active tasks and backlog).
+---
 
-### TASK-001.4 — Architecture review & dual-stack subsystem roles
-Status: completed
-- Inspected codebase structure: identified Python Pipeline (`pipeline/`) and JavaScript Core (`src/`).
-- Documented role boundaries and target data flow in `docs/ARCHITECTURE.md`.
-- Verified that subsystems are currently decoupled (missing CMS-to-JSON bridge).
-- Identified and isolated OPEN ISSUE [SCHEMA-01] (`is_correct vs correct`).
+## SUBTASKS OF TASK-001 (Setup & Orchestration)
 
-### TASK-001.5 — Multi-model workflow definition
-Status: in_progress
-- Baseline principles agreed in ADR-001 (Antigravity as orchestrator, Claude/Gemini for implementation, ChatGPT Thinking for consultation).
-- *Pending*: Formulate specific operational task handoff conventions and task prompt templates between models.
+### TASK-001.1 — Core orchestration rules (completed)
+### TASK-001.2 — External AI consultation (completed)
+### TASK-001.3 — Project memory documentation (completed)
+### TASK-001.4 — Architecture review & dual-stack subsystem roles (completed)
+### TASK-001.5 — Multi-model workflow definition (in_progress)
 
 ---
 
 ## BACKLOG
-
-### TASK-002 — Fix `is_correct vs correct` schema mismatch in JS validation and tests
-Status: pending
-- Update `src/validation/index.js` to inspect `option.is_correct` in accordance with Rule 12A and `src/models/index.js`.
-- Update `tests/validation.test.js` to pass `is_correct: true/false` instead of `correct`.
-- Verify all Jest tests pass.
-
-### TASK-003 — Cross-platform npm test runner configuration
-Status: pending
-- Update `package.json` test script to ensure compatibility with Windows PowerShell and POSIX shells without relying on raw bash wrapper paths.
 
 ### TASK-004 — Build CMS-to-JSON export bridge
 Status: pending
@@ -72,3 +56,4 @@ Status: pending
 
 - Initial project baseline and orchestration system setup (commit `3148159`).
 - Python Pipeline implementation: collector, parser, Excel CMS generator, Gemini answer processor, CMS validator (commits `b051d78`, `c728a73`).
+- Data contract stabilization and cross-platform test runner (`TASK-002` + `TASK-003`).

@@ -148,7 +148,7 @@ export function flattenLesson(lesson) {
               gap.id,
               opt.order,
               opt.value,
-              opt.correct,
+              opt.is_correct,
             ]);
           });
         });
@@ -161,7 +161,7 @@ export function flattenLesson(lesson) {
             q.id,   // linked directly to question when no gaps
             opt.order,
             opt.value,
-            opt.correct,
+            opt.is_correct,
           ]);
         });
       }
@@ -169,7 +169,7 @@ export function flattenLesson(lesson) {
       // Editor row — human-readable flat view
       const gapTexts   = (q.gaps ?? []).map(g => g.options.map(o => o.value).join(' / '));
       const correctArr = (q.gaps ?? []).map(g =>
-        g.options.filter(o => o.correct).map(o => o.value).join(', ')
+        g.options.filter(o => o.is_correct).map(o => o.value).join(', ')
       );
 
       editor.push([
@@ -181,7 +181,7 @@ export function flattenLesson(lesson) {
         gapTexts[2] ?? '',
         gapTexts[3] ?? '',
         correctArr.join(' / ') ||
-          (q.options ?? []).filter(o => o.correct).map(o => o.value).join(', '),
+          (q.options ?? []).filter(o => o.is_correct).map(o => o.value).join(', '),
         q.hint ?? '',
         q.feedback ?? '',
       ]);

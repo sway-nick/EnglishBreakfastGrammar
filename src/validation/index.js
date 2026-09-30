@@ -2,7 +2,8 @@
  * Validation Module
  *
  * Validates a Universal Lesson JSON against the content model rules.
- * Returns structured results with ERRORs and WARNINGs.
+ * Returns structured results with ERRORs, WARNINGs, and INFOs.
+ * Supports strict validation (default) and allowUnresolved mode (Rule 12A imports).
  * Never auto-corrects — only reports.
  */
 
@@ -32,6 +33,7 @@ export const Severity = Object.freeze({
  * @property {ValidationIssue[]} issues  - All collected issues
  * @property {ValidationIssue[]} errors
  * @property {ValidationIssue[]} warnings
+ * @property {ValidationIssue[]} infos
  */
 
 // ---------------------------------------------------------------------------
@@ -53,7 +55,7 @@ const VALID_PLACEHOLDER_RE = /^\{\{gap\d+\}\}$/;
 // VALIDATORS — bottom-up (Option → Gap → Question → Exercise → Lesson)
 // ---------------------------------------------------------------------------
 
-function validateOption(opt, path) {
+function validateOption(opt, path, allowUnresolved) {
   const issues = [];
 
   if (!opt.id) {
@@ -62,14 +64,21 @@ function validateOption(opt, path) {
   if (!opt.value || !String(opt.value).trim()) {
     issues.push(error('OPTION_EMPTY_VALUE', 'Option has an empty value', `${path}.value`));
   }
-  if (typeof opt.correct !== 'boolean') {
-    issues.push(error('OPTION_INVALID_CORRECT', `Option 'correct' must be boolean, got: ${typeof opt.correct}`, `${path}.correct`));
+
+  if (allowUnresolved) {
+    if (typeof opt.is_correct !== 'boolean' && opt.is_correct !== null) {
+      issues.push(error('OPTION_INVALID_IS_CORRECT', `Option 'is_correct' must be boolean or null, got: ${typeof opt.is_correct}`, `${path}.is_correct`));
+    }
+  } else {
+    if (typeof opt.is_correct !== 'boolean') {
+      issues.push(error('OPTION_INVALID_IS_CORRECT', `Option 'is_correct' must be boolean, got: ${typeof opt.is_correct}`, `${path}.is_correct`));
+    }
   }
 
   return issues;
 }
 
-function validateGap(gap, path, questionText) {
+function validateGap(gap, path, questionText, allowUnresolved) {
   const issues = [];
 
   if (!gap.id) {
@@ -101,25 +110,35 @@ function validateGap(gap, path, questionText) {
       seen.add(v);
     });
 
-    // Check at least one correct
-    const correctCount = gap.options.filter(o => o.correct).length;
-    if (correctCount === 0) {
-      issues.push(error('GAP_NO_CORRECT', 'Gap has no correct answer marked', `${path}.options`));
+    const correctCount = gap.options.filter(o => o.is_correct === true).length;
+    const unresolvedCount = gap.options.filter(o => o.is_correct === null).length;
+
+    if (!allowUnresolved) {
+      if (correctCount === 0) {
+        issues.push(error('GAP_NO_CORRECT', 'Gap has no correct answer marked', `${path}.options`));
+      }
+    } else {
+      if (correctCount === 0 && unresolvedCount > 0) {
+        issues.push(info('GAP_UNRESOLVED_ANSWERS', 'Gap answers are unresolved (pending AI/editorial review)', `${path}.options`));
+      } else if (correctCount === 0 && unresolvedCount === 0) {
+        issues.push(error('GAP_NO_CORRECT', 'Gap has no correct answer marked', `${path}.options`));
+      }
     }
+
     if (correctCount > 1) {
       issues.push(warning('GAP_MULTIPLE_CORRECT', `Gap has ${correctCount} correct options — is this intentional?`, `${path}.options`));
     }
 
     // Validate each option
     gap.options.forEach((opt, i) => {
-      issues.push(...validateOption(opt, `${path}.options[${i}]`));
+      issues.push(...validateOption(opt, `${path}.options[${i}]`, allowUnresolved));
     });
   }
 
   return issues;
 }
 
-function validateQuestion(q, path) {
+function validateQuestion(q, path, allowUnresolved) {
   const issues = [];
 
   if (!q.id) {
@@ -167,7 +186,7 @@ function validateQuestion(q, path) {
       issues.push(error('QUESTION_NO_GAPS', 'Gap-type question has no gaps', `${path}.gaps`));
     } else {
       q.gaps.forEach((gap, i) => {
-        issues.push(...validateGap(gap, `${path}.gaps[${i}]`, q.text));
+        issues.push(...validateGap(gap, `${path}.gaps[${i}]`, q.text, allowUnresolved));
       });
     }
   }
@@ -177,10 +196,21 @@ function validateQuestion(q, path) {
     if (!Array.isArray(q.options) || q.options.length === 0) {
       issues.push(error('QUESTION_NO_OPTIONS', 'Choice question has no options', `${path}.options`));
     } else {
-      const correctCount = q.options.filter(o => o.correct).length;
-      if (correctCount === 0) {
-        issues.push(error('QUESTION_NO_CORRECT', 'No correct answer in choice question', `${path}.options`));
+      const correctCount = q.options.filter(o => o.is_correct === true).length;
+      const unresolvedCount = q.options.filter(o => o.is_correct === null).length;
+
+      if (!allowUnresolved) {
+        if (correctCount === 0) {
+          issues.push(error('QUESTION_NO_CORRECT', 'No correct answer in choice question', `${path}.options`));
+        }
+      } else {
+        if (correctCount === 0 && unresolvedCount > 0) {
+          issues.push(info('QUESTION_UNRESOLVED_ANSWERS', 'Question answers are unresolved (pending AI/editorial review)', `${path}.options`));
+        } else if (correctCount === 0 && unresolvedCount === 0) {
+          issues.push(error('QUESTION_NO_CORRECT', 'No correct answer in choice question', `${path}.options`));
+        }
       }
+
       if (q.type === QuestionType.SINGLE_CHOICE && correctCount > 1) {
         issues.push(error(
           'QUESTION_SINGLE_CHOICE_MULTIPLE_CORRECT',
@@ -189,7 +219,7 @@ function validateQuestion(q, path) {
         ));
       }
       q.options.forEach((opt, i) => {
-        issues.push(...validateOption(opt, `${path}.options[${i}]`));
+        issues.push(...validateOption(opt, `${path}.options[${i}]`, allowUnresolved));
       });
     }
   }
@@ -197,7 +227,7 @@ function validateQuestion(q, path) {
   return issues;
 }
 
-function validateExercise(ex, path) {
+function validateExercise(ex, path, allowUnresolved) {
   const issues = [];
 
   if (!ex.id) {
@@ -210,14 +240,14 @@ function validateExercise(ex, path) {
     issues.push(warning('EXERCISE_NO_QUESTIONS', 'Exercise has no questions', `${path}.questions`));
   } else {
     ex.questions.forEach((q, i) => {
-      issues.push(...validateQuestion(q, `${path}.questions[${i}]`));
+      issues.push(...validateQuestion(q, `${path}.questions[${i}]`, allowUnresolved));
     });
   }
 
   return issues;
 }
 
-function validateLesson(lesson) {
+function validateLesson(lesson, allowUnresolved) {
   const issues = [];
   const path = `lesson[${lesson.id}]`;
 
@@ -237,7 +267,7 @@ function validateLesson(lesson) {
     issues.push(warning('LESSON_NO_EXERCISES', 'Lesson has no exercises', `${path}.exercises`));
   } else {
     lesson.exercises.forEach((ex, i) => {
-      issues.push(...validateExercise(ex, `${path}.exercises[${i}]`));
+      issues.push(...validateExercise(ex, `${path}.exercises[${i}]`, allowUnresolved));
     });
   }
 
@@ -252,10 +282,13 @@ function validateLesson(lesson) {
  * Validate a Universal Lesson JSON object.
  *
  * @param {import('../models/index.js').Lesson} lesson
+ * @param {Object} [options]
+ * @param {boolean} [options.allowUnresolved=false] - When true, permits is_correct: null without error (Rule 12A drafts)
  * @returns {ValidationResult}
  */
-export function validate(lesson) {
-  const issues  = validateLesson(lesson);
+export function validate(lesson, options = {}) {
+  const allowUnresolved = Boolean(options.allowUnresolved);
+  const issues  = validateLesson(lesson, allowUnresolved);
   const errors  = issues.filter(i => i.severity === Severity.ERROR);
   const warnings = issues.filter(i => i.severity === Severity.WARNING);
   const infos   = issues.filter(i => i.severity === Severity.INFO);
@@ -297,6 +330,14 @@ export function formatResult(result) {
     lines.push(`WARNINGS (${result.warnings.length}):`);
     result.warnings.forEach(w => {
       lines.push(`  ⚠ [${w.code}] ${w.message}${w.path ? ` → ${w.path}` : ''}`);
+    });
+    lines.push('');
+  }
+
+  if (result.infos.length > 0) {
+    lines.push(`INFO (${result.infos.length}):`);
+    result.infos.forEach(inf => {
+      lines.push(`  ℹ [${inf.code}] ${inf.message}${inf.path ? ` → ${inf.path}` : ''}`);
     });
     lines.push('');
   }
