@@ -19,9 +19,19 @@ from gemini.enrichment_workbook_builder import (
 
 
 class TestEnrichmentWorkbook(unittest.TestCase):
+    def setUp(self):
+        self.temp_dir = tempfile.TemporaryDirectory()
+        self.test_db_path = Path(self.temp_dir.name) / "test_staging.db"
+        from staging.staging_importer import import_corpus_to_staging, DEFAULT_SOURCE
+        from staging.merge_checkpoint import merge_checkpoint_into_staging, DEFAULT_CHECKPOINT
+        import_corpus_to_staging(DEFAULT_SOURCE, self.test_db_path)
+        merge_checkpoint_into_staging(DEFAULT_CHECKPOINT, self.test_db_path)
+
+    def tearDown(self):
+        self.temp_dir.cleanup()
+
     def test_fetch_unresolved_questions(self):
-        self.assertTrue(DEFAULT_DB.exists(), f"Staging DB not found at {DEFAULT_DB}")
-        conn = sqlite3.connect(str(DEFAULT_DB))
+        conn = sqlite3.connect(str(self.test_db_path))
         items = fetch_unresolved_questions(conn)
         conn.close()
 
@@ -38,7 +48,7 @@ class TestEnrichmentWorkbook(unittest.TestCase):
         self.assertTrue(LOCAL_OUTPUT.exists(), f"Project copy not found at {LOCAL_OUTPUT}")
         self.assertTrue(DESKTOP_OUTPUT.exists(), f"Desktop copy not found at {DESKTOP_OUTPUT}")
 
-        conn = sqlite3.connect(str(DEFAULT_DB))
+        conn = sqlite3.connect(str(self.test_db_path))
         items = fetch_unresolved_questions(conn)
         report = validate_enrichment_workbook(items, LOCAL_OUTPUT, conn)
         conn.close()

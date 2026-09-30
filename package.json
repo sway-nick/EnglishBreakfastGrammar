@@ -16,6 +16,7 @@
     "staging:import": "python pipeline/staging/staging_importer.py",
     "staging:merge": "python pipeline/staging/merge_checkpoint.py",
     "gemini:workbook": "python pipeline/gemini/enrichment_workbook_builder.py",
+    "staging:import-results": "python pipeline/staging/import_enrichment_results.py",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {

@@ -6,17 +6,38 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-010 — Full Corpus Gemini Answer Enrichment & Batch Execution Strategy
+TASK-010 — Full Corpus Validation, CMS Export & Adaptation Pipeline
 
 Status: planned
 
 ## OBJECTIVE
 
-Orchestrate the evaluation and batch answer processing for the 5,614 questions prepared in `english_cms_gemini_remaining_5614.xlsx`, followed by automated validation and staging merge.
+Validate the fully answered staging corpus (5,796 questions) via strict Universal JSON validation / Preview Gate and prepare adaptation/rewriting workflows.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-009D — Import Full Gemini Enrichment Results
+Status: completed
+- Created `pipeline/staging/import_enrichment_results.py` (`npm run staging:import-results`) to import evaluated answers from `C:\Users\user\Desktop\english_cms_gemini_remaining_5614 (3).xlsx`.
+- Preserved desktop file untouched and archived project copy at `data/gemini/english_cms_gemini_remaining_5614_evaluated.xlsx`.
+- Merged answers into `data/staging.db` inside an atomic SQLite transaction with full rollback on error and strict validation.
+- Preserved existing 182-question checkpoint answers completely untouched (0 changes, verified by byte and content assertions).
+- Successfully imported and mapped all 5,614 remaining questions:
+  - `single_choice`: 1,927 questions (100% matched to exactly 1 correct option)
+  - `multiple_choice`: 165 questions (100% matched to at least 1 correct option, specifically 2 correct options)
+  - `gap`: 3,522 questions (4,509 gaps populated with `correct_answer` and `accepted_answers`, select options marked)
+- Database metrics after commit:
+  - Total questions in staging: 5,796
+  - Total answered questions: 5,796 (100%)
+  - Remaining unanswered questions: 0
+  - Total gaps in staging: 4,733 (100% answered, 0 remaining)
+  - Total options in staging: 13,052 (100% resolved, 0 remaining)
+  - Single choice violations (!= 1 correct): 0
+  - Multiple choice violations (< 1 correct): 0
+  - Validation errors: 0
+- Added automated test suite `tests/test_import_enrichment_results.py` (40/40 Python tests PASS, 24/24 JS Jest tests PASS).
 
 ### TASK-009B — Prepare Full Gemini Enrichment Workbook
 Status: completed

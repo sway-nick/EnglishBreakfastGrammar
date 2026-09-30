@@ -62,6 +62,7 @@ TASK-009 — Corpus Answer Enrichment & Harmonization Strategy.
 - TASK-008 completed: Full corpus staging import into relational SQLite database `data/staging.db` with strict foreign key constraints; 225 topics, 638 exercises, 5,796 questions, 4,733 gaps, 13,052 options, zero orphans, zero duplicates; 32/32 Python and 24/24 JS tests passing.
 - TASK-009A completed: Merged 182 verified Gemini question answers into `data/staging.db` (224 gaps, 258 options answered; 0 errors, 0 scope violations); 35/35 Python and 24/24 JS tests passing.
 - TASK-009B completed: Generated and validated full Gemini enrichment workbook `english_cms_gemini_remaining_5614.xlsx` for all 5,614 unresolved questions (gap=3,522, single_choice=1,927, multiple_choice=165; 0 errors); 37/37 Python and 24/24 JS tests passing.
+- TASK-009D completed: Imported all 5,614 verified Gemini enrichment results from `english_cms_gemini_remaining_5614 (3).xlsx` into `data/staging.db` (`pipeline/staging/import_enrichment_results.py`, `npm run staging:import-results`). 100% of staging questions (5,796/5,796), gaps (4,733/4,733), and options (13,052/13,052) are answered. Preserved existing 182 checkpoint questions untouched (0 errors); 40/40 Python and 24/24 JS tests passing.
 
 ## KNOWN ISSUES (OPEN)
 

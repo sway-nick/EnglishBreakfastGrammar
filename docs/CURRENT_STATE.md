@@ -29,6 +29,7 @@ Source taxonomy discovery across all 7 levels and 225 topics was completed under
 Full authorized content acquisition across all 225 topics and 7 levels (638 unique exercise HTML pages, 646 total files, ~206.9 MB cached in `data/cache/html` with 0 failures and 0 challenges) was completed under `TASK-006` / `ADR-003`. Checkpoint recorded in `docs/ACQUISITION_CHECKPOINT_2026-09-30.md`.
 Full offline parsing across all 638 exercise pages into preliminary Universal JSON and Excel CMS workbooks was completed under `TASK-007`.
 Full corpus staging import into relational SQLite database `data/staging.db` with strict foreign key integrity and zero duplicates was completed under `TASK-008` (225 topics, 638 exercises, 5,796 questions, 4,733 gaps, 13,052 options).
+Full corpus answer enrichment and staging import for all remaining 5,614 questions from the evaluated Gemini workbook was completed under `TASK-009D`. All 5,796 questions, 4,733 gaps, and 13,052 options in `data/staging.db` are now 100% answered and verified with 0 unresolved questions remaining.
 
 ## AI ORCHESTRATION
 
@@ -53,18 +54,19 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-The entire 225-topic corpus (638 exercises, 5,796 questions) is parsed and staged in `data/staging.db`. Verified 182-question checkpoint answers have been merged into staging. The full Gemini answer enrichment workbook for all remaining 5,614 questions (`english_cms_gemini_remaining_5614.xlsx`) has been generated and validated. Next phase is answer evaluation and staging merge.
+The entire 225-topic corpus (638 exercises, 5,796 questions) is parsed and staged in `data/staging.db`. Verified 182-question checkpoint answers and all remaining 5,614 Gemini enrichment answers are fully imported into staging (100% of questions, gaps, and options resolved). Next phase is question adaptation/rewriting or production CMS export & preview verification.
 
 ## CURRENT TASK
 
-TASK-010 — Full Corpus Gemini Answer Enrichment & Batch Execution Strategy.
+TASK-010 — Full Corpus Validation, CMS Export & Adaptation Pipeline.
 
 ## OPEN ISSUES
 
-None. Staging import, 182-question checkpoint merge, and 5,614-question enrichment workbook generation are complete.
+None. All 5,796 questions in `data/staging.db` are completely answered.
 
 ## RESOLVED ISSUES
 
+- **[ENRICHMENT-02]**: Resolved via TASK-009D. Imported all 5,614 Gemini enrichment results into `data/staging.db` (`pipeline/staging/import_enrichment_results.py`, `npm run staging:import-results`). 0 unanswered questions, 0 unanswered gaps, 0 unanswered options remain in staging. Existing 182 checkpoint questions verified untouched.
 - **[ENRICHMENT-01]**: Resolved via TASK-009B. Prepared and validated `english_cms_gemini_remaining_5614.xlsx` containing all 5,614 unresolved questions with tailored prompt formulas (gap=3,522, single_choice=1,927, multiple_choice=165; 0 errors).
 - **[CHECKPOINT-01]**: Resolved via TASK-009A. Merged 182 verified Gemini question answers into `data/staging.db` (224 gaps, 258 options answered; 0 errors, 0 scope violations).
 - **[STAGING-01]**: Resolved via TASK-008. Staged all 225 topics, 638 exercises, 5,796 questions, 4,733 gaps, and 13,052 options in `data/staging.db` with strict foreign key constraints and zero orphaned records.
