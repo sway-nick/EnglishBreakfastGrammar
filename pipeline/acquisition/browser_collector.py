@@ -220,9 +220,9 @@ class RemoteCdpClient:
                 "  msedge.exe --remote-debugging-port=9222 --remote-allow-origins=*"
             )
 
-        # 1. Open a new tab or reuse target
+        # 1. Open a new tab or reuse target (Chromium 115+ requires PUT)
         encoded_url = urllib.parse.quote(url, safe="")
-        create_req = urllib.request.Request(f"{self.cdp_url}/json/new?{encoded_url}")
+        create_req = urllib.request.Request(f"{self.cdp_url}/json/new?{encoded_url}", method="PUT")
         target_info = None
         try:
             with urllib.request.urlopen(create_req, timeout=self.timeout) as resp:
@@ -235,24 +235,33 @@ class RemoteCdpClient:
         if not ws_url:
             raise RuntimeError(f"No webSocketDebuggerUrl returned for target {target_id}")
 
+        def _send_cdp(ws, msg_dict: dict, timeout: float = 15.0) -> dict:
+            mid = msg_dict["id"]
+            ws.send(json.dumps(msg_dict))
+            start = time.time()
+            while time.time() - start < timeout:
+                raw = ws.recv()
+                data = json.loads(raw)
+                if data.get("id") == mid:
+                    return data
+            raise TimeoutError(f"Timed out waiting for CDP response to message {mid}")
+
         html_content = ""
         try:
             # 2. Connect via WebSocket and wait for DOM load
             with ws_connect(ws_url, close_timeout=5) as websocket:
                 # Enable Page domain
-                websocket.send(json.dumps({"id": 1, "method": "Page.enable"}))
-                _ = websocket.recv()
+                _send_cdp(websocket, {"id": 1, "method": "Page.enable"})
 
                 # Poll readyState until 'complete'
                 start_time = time.time()
                 while time.time() - start_time < self.timeout:
                     msg_id = int(time.time() * 1000) % 100000
-                    websocket.send(json.dumps({
+                    resp = _send_cdp(websocket, {
                         "id": msg_id,
                         "method": "Runtime.evaluate",
                         "params": {"expression": "document.readyState"}
-                    }))
-                    resp = json.loads(websocket.recv())
+                    })
                     val = resp.get("result", {}).get("result", {}).get("value")
                     if val == "complete":
                         break
@@ -262,12 +271,11 @@ class RemoteCdpClient:
                     time.sleep(wait_after_load)
 
                 # Extract outerHTML
-                websocket.send(json.dumps({
+                outer_resp = _send_cdp(websocket, {
                     "id": 999,
                     "method": "Runtime.evaluate",
                     "params": {"expression": "document.documentElement.outerHTML"}
-                }))
-                outer_resp = json.loads(websocket.recv())
+                })
                 html_content = outer_resp.get("result", {}).get("result", {}).get("value", "")
 
         finally:

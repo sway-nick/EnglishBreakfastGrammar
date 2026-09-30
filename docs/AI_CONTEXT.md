@@ -39,7 +39,7 @@ The codebase currently contains two largely independent subsystems:
 
 ## CURRENT TASK
 
-TASK-006 — Content Acquisition Channel Confirmation & Ingestion Strategy (Status: blocked per ADR-003).
+TASK-007 — Offline Parser Batch Execution & CMS Ingestion across Cached Corpus.
 
 ## COMPLETED
 
@@ -57,10 +57,11 @@ TASK-006 — Content Acquisition Channel Confirmation & Ingestion Strategy (Stat
 - TASK-001 completed: Multi-model operational workflow, model selection matrix, and dispatch/return templates defined in `docs/WORKFLOW.md`.
 - TASK-004 completed: CMS-to-JSON export bridge (`pipeline/cms/excel_to_json.py`, `npm run cms:export`), 24/24 JS and 4/4 Python tests passing.
 - TASK-005 completed: Source catalog discovery engine (`pipeline/catalog/source_catalog_builder.py`, `npm run catalog:discover`), 7 levels, 225 topics mapped, 10/10 Python and 24/24 JS tests passing.
+- TASK-006 completed: Full Test-English content acquisition via Remote CDP across all 7 levels (225/225 topics, 638 exercise pages, 646 total HTML files, ~206.9 MB cache, 0 challenges, 0 failures), 21/21 Python and 24/24 JS tests passing.
 
 ## KNOWN ISSUES (OPEN)
 
-- **[ACQUISITION-01]**: Mass content acquisition for 219 partial topics blocked pending confirmation of an approved acquisition channel (ADR-003). 6 complete topics (20 exercises) available offline in local cache.
+- None. Web acquisition is complete. (ACQUISITION-01 resolved).
 
 ## IMPORTANT DECISIONS
 
@@ -71,7 +72,9 @@ TASK-006 — Content Acquisition Channel Confirmation & Ingestion Strategy (Stat
 
 ## NEXT STEPS
 
-1. Confirm content acquisition channel for 219 partial topics. In parallel, run pipeline ingestion on 6 confirmed A1 topics (20 exercises).
+1. Run offline catalog discovery (`npm run catalog:discover -- --offline`) to sync `source_catalog.json` with all 638 newly cached exercise HTML pages.
+2. Batch execute offline parser (`pipeline/parser/test_english_parser.py`) on cached exercise HTML files.
+3. Ingest parsed lessons into Excel CMS workbook.
 
 ## HANDOFF NOTES
 
@@ -80,4 +83,4 @@ Handoff between AI models operates as a documentation-based protocol:
 2. Read `docs/WORKFLOW.md` for task dispatch and return reporting conventions.
 3. Inspect `docs/DECISIONS.md` before proposing architectural changes.
 4. Check actual files before assuming implementation details.
-5. All 24 tests in JS test suite (`npm test`) and 10 tests in Python suite (`python -m unittest discover tests`) are green and must remain green after changes.
+5. All 24 tests in JS test suite (`npm test`) and 21 tests in Python suite (`python -m unittest discover tests`) are green and must remain green after changes.

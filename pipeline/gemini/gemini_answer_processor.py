@@ -372,6 +372,14 @@ def call_gemini(
         raw_text = response.text
         logger.debug(f"[GEMINI RESPONSE]\n{raw_text}\n")
 
+        if hasattr(response, "usage_metadata") and response.usage_metadata:
+            meta = response.usage_metadata
+            logger.info(
+                f"[USAGE] Prompt tokens: {getattr(meta, 'prompt_token_count', 'N/A')}, "
+                f"Candidates tokens: {getattr(meta, 'candidates_token_count', 'N/A')}, "
+                f"Total tokens: {getattr(meta, 'total_token_count', 'N/A')}"
+            )
+
         parsed = json.loads(raw_text)
         return parsed
 
@@ -422,6 +430,12 @@ def main() -> None:
         "--dry-run",
         action="store_true",
         help="Build prompts and validate without calling Gemini or writing Excel",
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Maximum number of exercises/batches to process",
     )
     args = parser.parse_args()
 
@@ -477,6 +491,10 @@ def main() -> None:
 
     batches = build_batches(cms)
     logger.info(f"Batches built: {len(batches)}")
+
+    if args.limit and args.limit > 0:
+        batches = batches[:args.limit]
+        logger.info(f"Batches limited to first {len(batches)} batch(es)")
 
     # --------------------------------------------------------
     # Copy input → output (work on the copy)

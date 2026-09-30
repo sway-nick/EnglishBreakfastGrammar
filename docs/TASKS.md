@@ -5,20 +5,31 @@ trigger: always_on
 # PROJECT TASKS
 
 ## CURRENT TASK
-
-TASK-006 — Content Acquisition Channel Confirmation & Ingestion Strategy
-
-Status: blocked (awaiting confirmation of approved content acquisition channel per ADR-003)
-
+ 
+TASK-007 — Offline Parser Batch Execution & CMS Ingestion across Cached Corpus
+ 
+Status: in_progress
+ 
 ## OBJECTIVE
-
-Confirm the external acquisition channel (e.g. curated local cache archive, batch exporter) to fetch the remaining 219 topic pages without embedding fragile browser/session bypass logic into core platform.
-In parallel, pipeline can ingest the 6 confirmed A1 topics (20 exercises) already present in local cache.
-
+ 
+Execute offline parsing on all 638 cached Test-English exercise HTML pages without any external network calls.
+Extract lesson content, grammar rules, exercises, questions, gaps, and options into structured lesson JSON and ingest into the Excel CMS workbook.
+ 
 ---
-
+ 
 ## COMPLETED RECENT TASKS
-
+ 
+### TASK-006 — Full Test-English Content Acquisition via Remote CDP
+Status: completed
+- Acquired all 225 topics across all 7 levels (`a1`, `a2`, `b1`, `b1-b2`, `b2`, `c1`, `shorts`) using `pipeline/acquisition/browser_collector.py` via Remote CDP (`http://127.0.0.1:9222`).
+- Saved 638 unique exercise HTML pages and 8 category/index pages (646 total HTML files, ~206.9 MB) in local cache `data/cache/html`.
+- Generated audit manifest `data/cache/acquisition_manifest.json` with 646/646 `success` entries (SHA-256 integrity, valid content checks).
+- 0 failures, 0 partial topics remaining, 0 Cloudflare challenges detected.
+- Hardened `browser_collector.py`: fixed Chromium 115+ `/json/new` target creation (`PUT` method) and implemented CDP message ID event filtering.
+- Preserved existing 182-question Gemini checkpoint workbook and `english_cms.xlsx` untouched.
+- Checkpoint documented in `docs/ACQUISITION_CHECKPOINT_2026-09-30.md`.
+- Automated test regression: 21/21 Python tests PASS, 24/24 JS Jest tests PASS.
+ 
 ### TASK-005 — Source Catalog Discovery
 Status: completed
 - Created `pipeline/catalog/source_catalog_builder.py` and unit tests in `tests/test_source_catalog.py`.
