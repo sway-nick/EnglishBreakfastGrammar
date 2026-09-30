@@ -39,9 +39,13 @@ The codebase currently contains two largely independent subsystems:
 
 ## CURRENT TASK
 
-TASK-010B — Question Adaptation & Content Transformation Pipeline.
+TASK-011B — Adaptation Database & Queue Manager (Completed).
 
 ## COMPLETED
+
+- TASK-011B completed: Implemented `pipeline/adaptation/adaptation_db.py`, initialized `data/adaptation.db` (`schemas/adaptation_schema.sql`), populated adaptation queue idempotently from immutable `data/staging.db` (225 lessons, 638 exercises, 5,796 questions, 4,733 gaps, 13,052 options all PENDING). Full integrity verified (0 FK violations, 0 orphans). 60/60 Python tests and 24/24 JS tests green.
+- TASK-011A completed: Implemented originality / similarity metrics evaluator (`pipeline/adaptation/similarity_evaluator.py`) with Jaccard, N-gram shingle overlap, and Levenshtein metrics. 9 unit tests passing.
+- TASK-010B completed: Adaptation pipeline architecture specification (`docs/TASK-010B_ADAPTATION_SPEC.md`) and DDL schema (`schemas/adaptation_schema.sql`).
 
 - Project workspace configured.
 - Core AI orchestration rules defined (`.agents/rules/01-core.md`, `.agents/rules/02-ai-consultation.md`).

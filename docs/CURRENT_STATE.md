@@ -54,15 +54,17 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-The entire 225-topic corpus (638 exercises, 5,796 questions) is fully answered, validated, and exported to clean CMS Excel and canonical Universal Lesson JSON (TASK-010A). Strict CMS validation, strict JS validation, and the Preview Gate all pass with 0 errors. Next phase is TASK-010B: question adaptation and rewriting workflows.
+The adaptation layer database and queue manager (TASK-011B) have been initialized and fully populated from immutable staging with 0 duplicates, 0 orphans, and 0 FK violations. 5,796 questions across 225 lessons and 638 exercises are in PENDING queue state in `data/adaptation.db`. Next phase is pilot adaptation generation and execution.
 
 ## CURRENT TASK
 
-TASK-010B — Question Adaptation & Content Transformation Pipeline.
+TASK-011B — Adaptation Database & Queue Manager.
+
+Status: completed
 
 ## OPEN ISSUES
 
-None. All 5,796 questions, 4,733 gaps, and 13,052 options are 100% answered, verified, and exported.
+None. Staging corpus (5,796 questions) is 100% enriched, validated, and immutable. Adaptation database is initialized and populated (5,796 questions PENDING). Full test suite (60 Python tests + 24 JS tests = 84 total) passing.
 
 ## RESOLVED ISSUES
 

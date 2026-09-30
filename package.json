@@ -20,6 +20,7 @@
     "corpus:validate": "python pipeline/staging/validate_staging_corpus.py",
     "corpus:export": "python pipeline/export/export_enriched_corpus.py",
     "cms:validate": "python pipeline/validators/cms_validator.py data/cms/english_cms_final_enriched.xlsx",
+    "adaptation:db": "python pipeline/adaptation/adaptation_db.py",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {

@@ -6,17 +6,46 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-010B — Question Adaptation & Content Transformation Pipeline
+TASK-011B — Adaptation Database & Queue Manager
 
-Status: planned
+Status: completed
 
 ## OBJECTIVE
 
-Prepare and orchestrate question rewriting/adaptation workflows for the fully validated, answered corpus.
+Orchestrate pilot adaptation generation and execution for the queued PENDING items in data/adaptation.db.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-011B — Implement Adaptation Database & Queue Manager
+Status: completed
+- Implemented `pipeline/adaptation/adaptation_db.py` (`npm run adaptation:db`) and DDL runner for `schemas/adaptation_schema.sql`.
+- Initialized `data/adaptation.db` with strict `PRAGMA foreign_keys = ON;`.
+- Populated queue from immutable `data/staging.db` with 100% idempotency (re-running skips existing rows with 0 duplicates):
+  - 225 lessons (all PENDING)
+  - 638 exercises (all PENDING)
+  - 5,796 questions (all PENDING)
+  - 4,733 gaps (all PENDING)
+  - 13,052 options (all PENDING)
+- Validated referential integrity: 0 foreign key violations, 0 orphan records, 0 unmatched source IDs, 0 duplicate question mappings.
+- Added comprehensive unit test suite in `tests/test_adaptation_db.py` (7 tests).
+- Total tests: 60/60 Python tests green, 24/24 JS Jest tests green (84 total).
+
+### TASK-011A — Implement Originality / Similarity Evaluator
+Status: completed
+- Implemented `pipeline/adaptation/similarity_evaluator.py`:
+  - Jaccard token similarity with grammar target token exclusions;
+  - N-gram shingle overlap detector for verbatim sequences >= 3 significant consecutive words;
+  - Levenshtein distance ratio;
+  - Deterministic status assignment (`VALIDATED`, `REVIEW_REQUIRED`, `REJECTED`).
+- Added unit tests in `tests/test_similarity_evaluator.py` (9 tests).
+
+### TASK-010B — Adaptation Specification & Relational Schema Design
+Status: completed
+- Formulated comprehensive architectural specification in `docs/TASK-010B_ADAPTATION_SPEC.md`.
+- Authored production-ready DDL schema in `schemas/adaptation_schema.sql` (6 tables, 11 indexes).
+- Added schema tests in `tests/test_adaptation_schema.py` (4 tests).
 
 ### TASK-010A — Final Answer Validation & CMS Export
 Status: completed
