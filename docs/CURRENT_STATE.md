@@ -54,17 +54,17 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-Awaiting human review sign-off on the completed pilot adaptation and semantic review results before commencing full-corpus adaptation planning.
+Awaiting human review sign-off on the updated adaptation strategy, answer-integrity rules, and pilot adaptation results before commencing full-corpus adaptation planning.
 
 ## CURRENT TASK
 
-TASK-011H — Apply AI-Review Revisions to Pilot.
+TASK-011H — Update Adaptation Strategy (Preserve Correct Answer).
 
 Status: completed
 
 ## OPEN ISSUES
 
-None. Staging corpus (5,796 questions) is 100% immutable and intact. Pilot revisions for QID 4203 and QID 4211 successfully applied and validated. AI semantic review now 100% APPROVE (34/34 approved, 0 revise, 0 reject). Preview Gate 12/12 passed. Full test suite (82 Python tests + 24 JS tests = 106 total) passing.
+None. Staging corpus (5,796 questions) is 100% immutable and intact. Adaptation specification updated with Core Principle (preserve source correct answer), 8-tier priority hierarchy, Answer Integrity rule (`source_correct_answer == adapted_correct_answer`), Grammatical Dependency rule (13 high-risk mutation factors), generation model instructions, and quality rules. Implemented `generation_rules.py`, `answer_integrity_validator.py`, and 7 dedicated unit tests in `test_answer_integrity_validator.py`. Full test suite (89 Python tests + 24 JS tests = 113 total) passing.
 
 ## RESOLVED ISSUES
 

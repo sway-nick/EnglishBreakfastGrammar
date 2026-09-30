@@ -39,11 +39,11 @@ The codebase currently contains two largely independent subsystems:
 
 ## CURRENT TASK
 
-TASK-011H — Apply AI-Review Revisions to Pilot (Completed).
+TASK-011H — Update Adaptation Strategy (Preserve Correct Answer) (Completed).
 
 ## COMPLETED
 
-- TASK-011H completed: Successfully revised QID 4203 and QID 4211 in pilot adaptation corpus. QID 4203 replaced with storm travel scenario preserving comparative adjective + object pronoun after 'than' (Jaccard=0.0, Shingle=0.0, Levenshtein=0.2794). QID 4211 replaced with cafeteria vs library scenario testing canonical consonant + '-y' -> '-ier' rule (Jaccard=0.0769, Shingle=0.0, Levenshtein=0.2297). Both evaluate to `VALIDATED`. Preview Gate: 12/12 passed. AI semantic review: 34/34 APPROVE (100.0%), 0 REVISE, 0 REJECT. 82 Python tests + 24 JS tests = 106 green.
+- TASK-011H completed: Updated adaptation architecture and rules to prefer preserving the source correct answer (`source_correct_answer == adapted_correct_answer`). Documented in `docs/TASK-010B_ADAPTATION_SPEC.md` with 8-tier priority hierarchy, 13 high-risk mutation factors, explicit generation instruction, and quality rules. Implemented `pipeline/adaptation/generation_rules.py` and `pipeline/adaptation/answer_integrity_validator.py`. Added unit test suite `tests/test_answer_integrity_validator.py` (7 tests). Revisions for QID 4203 and 4211 previously persisted and validated. 89 Python tests + 24 JS tests = 113 green.
 - TASK-011G completed: Independent AI semantic review executed for 34 questions (14 REVIEW_REQUIRED + 20 VALIDATED control sample): 32 APPROVE (94.1%), 2 REVISE (5.9%), 0 REJECT. 0 false acceptances on validated control sample. Results persisted to `data/adaptation/semantic_review_pilot_34.json` and SQLite table `pilot_semantic_reviews` in `data/adaptation.db`.
 - TASK-011E completed: Calibrated `pipeline/adaptation/similarity_evaluator.py` for short grammar items (dialogue scaffolding normalization, short text Levenshtein exemption unless combined with Jaccard >= 0.25). 16 unit tests passing. Re-evaluated 200 pilot questions: 186 VALIDATED (93%), 14 REVIEW_REQUIRED (7%), 0 REJECTED. 61 items appropriately transitioned to VALIDATED. 0 regressions.
 - TASK-011D completed: Generated human review Excel workbook (`data/adaptation/pilot_review_20260930.xlsx`, mirrored to Desktop) with Summary, Review_Required_75, and All_Pilot_Questions_200 sheets (REVIEW_REQUIRED first, then VALIDATED). 125 VALIDATED, 75 REVIEW_REQUIRED, 0 REJECTED.

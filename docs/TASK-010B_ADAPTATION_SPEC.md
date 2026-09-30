@@ -43,6 +43,7 @@ To maintain pedagogical validity while ensuring original authorship, the pipelin
 | **Lesson / Topic Taxonomy** | **INVARIANT** | Must map to the exact same grammatical category (e.g. `past_simple_vs_past_continuous`). |
 | **CEFR Level** | **INVARIANT** | Target CEFR level (`A1` through `C1`) must remain identical. |
 | **Grammatical Target** | **INVARIANT** | The grammatical structure being tested (e.g. third-person `-s`, irregular past form, inversion after negative adverbials) must remain identical. |
+| **Correct Answer** | **PRIMARY INVARIANT** | Prefer preserving the identical correct answer (`source_correct_answer == adapted_correct_answer`). Do not recalculate or alter the answer unnecessarily when varying context. |
 | **Response Model** | **INVARIANT** | `gap` (select/text), `single_choice`, and `multiple_choice` must NOT be changed. |
 | **Gap Cardinality** | **INVARIANT** | If the source question has 1 gap, the adapted question must have exactly 1 gap. Multi-gap questions must preserve the exact gap count. |
 | **Option Cardinality** | **INVARIANT** | If source choice has 3 options, adapted must have 3 options. Number of correct options must remain identical (e.g. exactly 1 for `single_choice`, exactly 2 for `multiple_choice`). |
@@ -159,18 +160,129 @@ stateDiagram-v2
 
 ---
 
-## 5. RULES FOR PRESERVING ANSWER SEMANTICS
+## 5. CORE ADAPTATION STRATEGY: PRESERVE CORRECT ANSWER & ANSWER INTEGRITY
 
-When rewriting a question, the linguistic premise enabling the correct answer must be actively designed into the adapted sentence:
+### 5.1 Core Principle
 
-1. **Time Markers & Triggers**:
-   - If the source depends on a specific temporal adverbial (e.g. `yesterday`, `since 2018`, `right now`, `at the moment`), the adapted sentence must provide an equivalent temporal trigger (e.g. `last weekend`, `for six months`, `currently`).
-2. **Collocational Targets**:
-   - If the tested target is a preposition following a verb/adjective (e.g. `depend on`, `interested in`), the adaptation must test a corresponding prepositional collocation appropriate for the topic level.
-3. **Modal Nuances**:
-   - If the source tests obligation vs. deduction (e.g. `must` vs. `have to` vs. `must be`), the adapted context must provide clear situational clues preventing ambiguity.
-4. **Pronoun & Agreement Consistency**:
-   - Subject-verb agreement must be maintained unambiguously (e.g. singular subject requiring third-person singular `-s`).
+**Prefer adaptations that preserve the original correct answer.**
+
+We do NOT want to recalculate or mutate the correct answer unnecessarily when changing context.
+
+```
+SOURCE
+  ↓ keep the grammatical target and correct-answer mechanism
+  ↓ change context / vocabulary / names / situation
+  ↓ preserve the same correct answer
+  ↓ validate that the adapted sentence still makes that answer correct
+ADAPTATION
+```
+
+#### Illustrative Examples:
+
+- **Example 1 (Comparative Adjective Rule)**:
+  * *Source*: `Kate is _____ than her sister.` (Options: `friendly | friendlier | more friendlier`; Correct: `friendlier`)
+  * *Preferred Adaptation*: `Julia is _____ than her classmate.` (Options: `friendly | friendlier | more friendlier`; Correct: `friendlier`)
+  * *Do NOT Prefer*: `Kate is _____ than her sister.` $\to$ `Tom and Jack are _____ than their sister.` because introducing a plural compound subject triggers unwanted grammatical mutations across the sentence.
+- **Example 2 (Preposition of Place)**:
+  * *Source*: `Where is the milk? It's _____ the fridge.` (Options: `at | in | on`; Correct: `in`)
+  * *Preferred Adaptation*: `Where is the juice? It's _____ the cupboard.` (Options: `at | in | on`; Correct: `in`)
+
+#### Unnecessary Mutations to Avoid:
+Do NOT unnecessarily change:
+- singular $\leftrightarrow$ plural
+- `he` $\leftrightarrow$ `they`
+- `this` $\leftrightarrow$ `these`
+- `is` $\leftrightarrow$ `are`
+- `has` $\leftrightarrow$ `have`
+- `a/an` $\leftrightarrow$ `some`
+- `his` / `her` / `their`
+- tense / aspect
+- grammatical person
+- grammatical number
+- countability
+
+when such changes can affect or destabilize the correct answer.
+
+---
+
+### 5.2 Adaptation Priority Hierarchy
+
+1. **Preserve the same correct answer** whenever reasonably possible.
+2. **Change context, names, objects, places, situations**, and non-target vocabulary.
+3. **Preserve the exact grammatical mechanism** being tested.
+4. **Preserve response_model** (`single_choice`, `multiple_choice`, `gap`).
+5. **Preserve option and gap cardinality**.
+6. **Avoid unnecessary grammatical mutations**.
+7. **Avoid one-to-one lexical substitution** that leaves the whole sentence structurally identical.
+8. **Do not force an answer change** merely to make the text look different.
+
+---
+
+### 5.3 Answer Integrity Rule
+
+The desired default invariant across the pipeline is:
+
+$$\text{source\_correct\_answer} == \text{adapted\_correct\_answer}$$
+
+- **`single_choice`**: Identical correct option text preferred.
+- **`multiple_choice`**: Identical correct option set preferred.
+- **`gap_select`**: Identical correct option text preferred.
+- **`gap_text`**: Identical canonical answer string preferred where grammatically possible.
+
+#### Automated Check:
+$$\text{If } \text{source\_correct\_answer} \ne \text{adapted\_correct\_answer} \implies \text{review\_required} = \text{true}$$
+
+Unless there is an explicit, validated pedagogical justification that changing the answer was strictly necessary, an answer divergence automatically routes the item to human editorial review.
+
+#### Blind Copying Prohibited:
+Do NOT simply copy the source answer blindly. The adapted sentence must independently and unequivocally make that answer correct. The engine validates:
+
+$$\text{adapted\_text} + \text{adapted\_options} + \text{target\_grammar} \implies \text{source\_correct\_answer remains valid}$$
+
+If the answer becomes invalid after adaptation:
+- Do NOT try to repair automatically by changing random words.
+- Automatically flag as **`REVIEW_REQUIRED`**.
+
+---
+
+### 5.4 Grammatical Dependency Rule: High-Risk Mutations
+
+Treat the following 13 grammatical dimensions as **high-risk mutations**:
+1. Gender
+2. Singular / Plural (number)
+3. Grammatical person (1st, 2nd, 3rd)
+4. Subject entity
+5. Pronoun reference
+6. Possessive form
+7. Determiner / Demonstrative (`this`/`these`, `that`/`those`)
+8. Article (`a`/`an`/`the`/zero)
+9. Countability (count vs. non-count nouns)
+10. Tense / Aspect
+11. Auxiliary verb (`do`, `be`, `have`, modals)
+12. Verb agreement (singular subject with singular verb, etc.)
+13. Comparative / Superlative morphological form
+
+**Rule**: Avoid them unless strictly necessary. If any such mutation is detected, the entire item must undergo enhanced answer-integrity and validity validation.
+
+---
+
+### 5.5 Generation Instruction for AI Models
+
+The prompt template for adaptation generation must explicitly instruct the model:
+
+> *"Preserve the source correct answer whenever possible. Prefer changing the situation and vocabulary around the grammar target rather than changing the grammatical form that determines the answer."*
+
+---
+
+### 5.6 Quality Rule
+
+The goal of adaptation is **NOT maximum textual difference**.
+
+The goal is:
+1. **Independent wording and context** (free of plagiarism and distinct in narrative);
+2. **Identical educational objective** and CEFR difficulty;
+3. **Identical correct-answer logic** and unambiguous distractor keys;
+4. **Natural, idiomatic English**.
 
 ---
 

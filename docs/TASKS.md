@@ -6,19 +6,34 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-011H — Apply AI-Review Revisions to Pilot
+TASK-011H — Update Adaptation Strategy (Preserve Correct Answer)
 
 Status: completed
 
 ## OBJECTIVE
 
-Awaiting human review / final approval on the pilot adaptation run (100% semantic approval across audited sample) before commencing full-corpus adaptation planning.
+Awaiting human review / final approval on the updated adaptation strategy, answer-integrity rules, and pilot status before commencing full-corpus adaptation planning.
 
 ---
 
 ## COMPLETED RECENT TASKS
 
-### TASK-011H — Apply AI-Review Revisions to Pilot
+### TASK-011H (Part 2) — Update Adaptation Strategy (Preserve Correct Answer)
+Status: completed
+- Updated `docs/TASK-010B_ADAPTATION_SPEC.md` with core principle:
+  * Prefer adaptations that preserve the original correct answer without unnecessary recalculation.
+  * Invariant: `source_correct_answer == adapted_correct_answer`.
+  * If answers diverge, automatic `review_required = True`.
+  * Defined 8-tier Adaptation Priority Hierarchy.
+  * Defined Grammatical Dependency Rule: 13 high-risk mutation factors (singular/plural, gender, person, countability, etc.).
+  * Defined explicit AI model generation prompt instruction: *"Preserve the source correct answer whenever possible. Prefer changing the situation and vocabulary around the grammar target rather than changing the grammatical form that determines the answer."*
+  * Defined Quality Rule: goal is independent wording and natural English with identical educational objective and answer logic, NOT maximum textual difference.
+- Implemented `pipeline/adaptation/generation_rules.py` with canonical prompts, priorities, high-risk mutation registry, and prompt payload builder.
+- Implemented `pipeline/adaptation/answer_integrity_validator.py` (`validate_answer_integrity`, `detect_high_risk_mutations`, `verify_answer_syntactic_validity`).
+- Added unit test suite `tests/test_answer_integrity_validator.py` (7 tests covering preferred context-only substitution, dangerous gender change, dangerous singular/plural change, dangerous pronoun change, correct answer becoming invalid, multiple-choice answer-set preservation, and gap answer preservation).
+- Full regression tests passing: 89/89 Python tests green, 24/24 Jest JS tests green (113 total).
+
+### TASK-011H (Part 1) — Apply AI-Review Revisions to Pilot
 Status: completed
 - Revised only the 2 pilot questions identified with issues in TASK-011G:
   - **QID 4203** (`quiz-481`, `single_choice`): Replaced shallow rewrite (`"1 My cousin is taller than _____."`) with a completely independent storm travel scenario and fronted prepositional adverbial structure (`"1 During the heavy storm, all the other passengers were far calmer than _____."`). Grammar target preserved (comparative adjective + object pronoun after 'than'). Correct answer preserved (`"me"`), distractors preserved (`"me", "mine", "my"`). Jaccard=0.0, Shingle=0.0, Levenshtein=0.2794. Evaluator: `VALIDATED`.
