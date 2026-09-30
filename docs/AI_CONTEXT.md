@@ -35,11 +35,11 @@ The codebase currently contains two largely independent subsystems:
    - Google Sheets synchronization module (`src/sheets/`).
    - Architectural scaffolding for Test Engine, UI, admin, and analytics.
 
-*Important*: A continuous end-to-end bridge from the Python pipeline's answered Excel CMS back into canonical JSON for the JS Preview/runtime does NOT yet exist.
+*Important*: A continuous end-to-end bridge from the Python pipeline's answered Excel CMS back into canonical JSON for the JS Preview/runtime does NOT yet exist (planned under `TASK-004`).
 
 ## CURRENT TASK
 
-TASK-001.5 — Multi-model workflow definition & operational tasking.
+TASK-004 — Build CMS-to-JSON export bridge (Pending start).
 
 ## COMPLETED
 
@@ -52,11 +52,12 @@ TASK-001.5 — Multi-model workflow definition & operational tasking.
 - ADR-001 accepted (Orchestration architecture and documentation-based memory).
 - ADR-002 accepted (Explicit validation modes & `is_correct` contract unification across JS core).
 - TASK-002 completed: Unified `.is_correct` across JS validation, preview, sheets, and tests; implemented `allowUnresolved` mode.
-- TASK-003 completed: Cross-platform npm test runner configured in `package.json` (10/10 tests passing).
+- TASK-003 completed: Cross-platform npm test runner configured in `package.json` (20/20 tests passing).
+- TASK-001 completed: Multi-model operational workflow, model selection matrix, and dispatch/return templates defined in `docs/WORKFLOW.md`.
 
 ## KNOWN ISSUES (OPEN)
 
-- **OPEN ISSUE [INTEGRATION-01]**: Missing link between Python Pipeline output (`english_cms_answered.xlsx`) and JavaScript preview/runtime. There is currently no script to export answered Excel CMS back into Universal JSON.
+- **OPEN ISSUE [INTEGRATION-01]**: Missing link between Python Pipeline output (`english_cms_answered.xlsx`) and JavaScript preview/runtime. There is currently no script to export answered Excel CMS back into Universal JSON. Tracked under `TASK-004`.
 
 ## IMPORTANT DECISIONS
 
@@ -66,14 +67,13 @@ TASK-001.5 — Multi-model workflow definition & operational tasking.
 
 ## NEXT STEPS
 
-1. Complete TASK-001.5 (formalize multi-model task handoff conventions).
-2. Implement TASK-004 (build CMS-to-JSON export bridge to connect Python pipeline outputs with JS Preview / Test Engine).
+1. Implement TASK-004 (build CMS-to-JSON export bridge to connect Python pipeline outputs with JS Preview / Test Engine).
 
 ## HANDOFF NOTES
 
-Handoff between AI models operates as a documentation-based protocol (there is no automated `/handoff` tool):
+Handoff between AI models operates as a documentation-based protocol:
 1. Consult `docs/AI_CONTEXT.md` and `docs/CURRENT_STATE.md` first.
-2. Inspect `docs/DECISIONS.md` before proposing architectural changes.
-3. Check actual files before assuming implementation details.
-4. Remember that Python Pipeline and JS Core are currently separate toolchains requiring integration.
-5. All tests in JS test suite (`npm test`) are green and must remain green after changes.
+2. Read `docs/WORKFLOW.md` for task dispatch and return reporting conventions.
+3. Inspect `docs/DECISIONS.md` before proposing architectural changes.
+4. Check actual files before assuming implementation details.
+5. All 20 tests in JS test suite (`npm test`) are green and must remain green after changes.
