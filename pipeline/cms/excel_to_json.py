@@ -83,6 +83,16 @@ def reconstruct_accepted_answers(correct_answer: Optional[str], extras_raw: Any)
     if extras_raw is not None:
         extras_str = str(extras_raw).strip()
         if extras_str:
+            if extras_str.startswith("[") and extras_str.endswith("]"):
+                try:
+                    parsed_list = json.loads(extras_str)
+                    for item in parsed_list:
+                        cleaned = str(item).strip()
+                        if cleaned and cleaned not in results:
+                            results.append(cleaned)
+                    return results
+                except Exception:
+                    pass
             for part in extras_str.split("|"):
                 cleaned = part.strip()
                 if cleaned and cleaned not in results:

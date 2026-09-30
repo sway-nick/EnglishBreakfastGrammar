@@ -6,17 +6,42 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-010 — Full Corpus Validation, CMS Export & Adaptation Pipeline
+TASK-010B — Question Adaptation & Content Transformation Pipeline
 
 Status: planned
 
 ## OBJECTIVE
 
-Validate the fully answered staging corpus (5,796 questions) via strict Universal JSON validation / Preview Gate and prepare adaptation/rewriting workflows.
+Prepare and orchestrate question rewriting/adaptation workflows for the fully validated, answered corpus.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-010A — Final Answer Validation & CMS Export
+Status: completed
+- Executed full semantic, relational, and checkpoint validation of `data/staging.db` via `pipeline/staging/validate_staging_corpus.py` (`npm run corpus:validate`):
+  - 5,796 questions (100% answered, 0 unanswered)
+  - 4,733 gaps (100% answered, 0 unanswered)
+  - 13,052 options (100% resolved, 0 unanswered)
+  - 1,927 `single_choice` (0 violations; exactly 1 correct option each)
+  - 165 `multiple_choice` (0 violations; >= 1 correct options each, specifically 2)
+  - 3,522 `gap` questions (0 violations; 100% canonical answers present in accepted_answers, select options matched)
+  - 0 orphan questions, gaps, or options
+  - 0 suspicious answers
+  - 0 checkpoint discrepancies against original 182-question verified baseline
+  - 0 validation errors
+- Exported production-ready CMS workbooks via `pipeline/export/export_enriched_corpus.py` (`npm run corpus:export`):
+  - `data/cms/english_cms_final_enriched.xlsx` (1,139,315 bytes)
+  - `C:\Users\user\Desktop\english_cms_final_enriched.xlsx` (1,139,378 bytes)
+- Exported canonical Universal Lesson JSON:
+  - `data/cms/universal_lessons_final_enriched.json` (7,487,752 bytes)
+  - `C:\Users\user\Desktop\universal_lessons_final_enriched.json` (7,487,752 bytes)
+- Executed full validation and verification suite:
+  - `npm run cms:validate`: 0 errors across all 12 checks (225 lessons, 638 exercises, 5,796 questions, 4,733 gaps, 13,052 options)
+  - Strict JS validation (`npm run validate` / `src/validation/cli.js`): 225/225 lessons valid, 0 errors
+  - Preview Gate (`src/preview/server.js`): 225/225 lessons evaluated, 0 blocked
+  - Test suites: 43/43 Python tests PASS, 24/24 JS Jest tests PASS (67 tests total)
 
 ### TASK-009D — Import Full Gemini Enrichment Results
 Status: completed

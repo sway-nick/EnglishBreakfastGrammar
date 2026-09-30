@@ -39,7 +39,7 @@ The codebase currently contains two largely independent subsystems:
 
 ## CURRENT TASK
 
-TASK-009 — Corpus Answer Enrichment & Harmonization Strategy.
+TASK-010B — Question Adaptation & Content Transformation Pipeline.
 
 ## COMPLETED
 
@@ -63,6 +63,7 @@ TASK-009 — Corpus Answer Enrichment & Harmonization Strategy.
 - TASK-009A completed: Merged 182 verified Gemini question answers into `data/staging.db` (224 gaps, 258 options answered; 0 errors, 0 scope violations); 35/35 Python and 24/24 JS tests passing.
 - TASK-009B completed: Generated and validated full Gemini enrichment workbook `english_cms_gemini_remaining_5614.xlsx` for all 5,614 unresolved questions (gap=3,522, single_choice=1,927, multiple_choice=165; 0 errors); 37/37 Python and 24/24 JS tests passing.
 - TASK-009D completed: Imported all 5,614 verified Gemini enrichment results from `english_cms_gemini_remaining_5614 (3).xlsx` into `data/staging.db` (`pipeline/staging/import_enrichment_results.py`, `npm run staging:import-results`). 100% of staging questions (5,796/5,796), gaps (4,733/4,733), and options (13,052/13,052) are answered. Preserved existing 182 checkpoint questions untouched (0 errors); 40/40 Python and 24/24 JS tests passing.
+- TASK-010A completed: Final answer validation and production-ready CMS export (`pipeline/staging/validate_staging_corpus.py`, `pipeline/export/export_enriched_corpus.py`). 0 errors across 5,796 questions, 4,733 gaps, 13,052 options. Exported `english_cms_final_enriched.xlsx` and `universal_lessons_final_enriched.json` (local and Desktop). Passed `npm run cms:validate`, `npm run validate` (strict), Preview Gate (225/225 lessons), 43/43 Python and 24/24 JS tests passing.
 
 ## KNOWN ISSUES (OPEN)
 

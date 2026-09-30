@@ -54,18 +54,19 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-The entire 225-topic corpus (638 exercises, 5,796 questions) is parsed and staged in `data/staging.db`. Verified 182-question checkpoint answers and all remaining 5,614 Gemini enrichment answers are fully imported into staging (100% of questions, gaps, and options resolved). Next phase is question adaptation/rewriting or production CMS export & preview verification.
+The entire 225-topic corpus (638 exercises, 5,796 questions) is fully answered, validated, and exported to clean CMS Excel and canonical Universal Lesson JSON (TASK-010A). Strict CMS validation, strict JS validation, and the Preview Gate all pass with 0 errors. Next phase is TASK-010B: question adaptation and rewriting workflows.
 
 ## CURRENT TASK
 
-TASK-010 — Full Corpus Validation, CMS Export & Adaptation Pipeline.
+TASK-010B — Question Adaptation & Content Transformation Pipeline.
 
 ## OPEN ISSUES
 
-None. All 5,796 questions in `data/staging.db` are completely answered.
+None. All 5,796 questions, 4,733 gaps, and 13,052 options are 100% answered, verified, and exported.
 
 ## RESOLVED ISSUES
 
+- **[EXPORT-01]**: Resolved via TASK-010A. Full semantic and referential validation passed with 0 errors across 5,796 questions. Exported `english_cms_final_enriched.xlsx` and `universal_lessons_final_enriched.json` (local and Desktop). Passed `npm run cms:validate`, `npm run validate` (strict), Preview Gate (225/225 lessons), 43 Python tests, and 24 JS tests.
 - **[ENRICHMENT-02]**: Resolved via TASK-009D. Imported all 5,614 Gemini enrichment results into `data/staging.db` (`pipeline/staging/import_enrichment_results.py`, `npm run staging:import-results`). 0 unanswered questions, 0 unanswered gaps, 0 unanswered options remain in staging. Existing 182 checkpoint questions verified untouched.
 - **[ENRICHMENT-01]**: Resolved via TASK-009B. Prepared and validated `english_cms_gemini_remaining_5614.xlsx` containing all 5,614 unresolved questions with tailored prompt formulas (gap=3,522, single_choice=1,927, multiple_choice=165; 0 errors).
 - **[CHECKPOINT-01]**: Resolved via TASK-009A. Merged 182 verified Gemini question answers into `data/staging.db` (224 gaps, 258 options answered; 0 errors, 0 scope violations).

@@ -3,6 +3,13 @@ from pathlib import Path
 from collections import defaultdict
 from openpyxl import load_workbook
 
+if hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 
 # ============================================================
 # CONFIG
@@ -386,6 +393,7 @@ def validate_excel(file_path):
     valid_models = {
         "gap",
         "single_choice",
+        "multiple_choice",
     }
 
     for row in questions:
@@ -606,6 +614,32 @@ def validate_excel(file_path):
                     f"correct options; expected 1"
                 )
 
+        elif model == "multiple_choice":
+
+            # multiple_choice MUST NOT have gap_id
+            for option in q_options:
+
+                gap_id = norm(option.get("gap_id"))
+
+                if gap_id:
+                    error(
+                        f"Question {question_id}: "
+                        f"multiple_choice option "
+                        f"{option['option_id']} has gap_id"
+                    )
+
+            true_count = sum(
+                bool_value(x.get("is_correct")) is True
+                for x in q_options
+            )
+
+            if true_count < 1:
+                error(
+                    f"Question {question_id}: "
+                    f"multiple_choice has {true_count} "
+                    f"correct options; expected >= 1"
+                )
+
         elif model == "gap":
 
             q_gaps = gaps_by_question.get(question_id, [])
@@ -651,10 +685,10 @@ def validate_excel(file_path):
     print()
 
     # --------------------------------------------------------
-    # GAPS ↔ OPTIONS
+    # GAPS <-> OPTIONS
     # --------------------------------------------------------
 
-    print("CHECK 11 — GAPS ↔ OPTIONS")
+    print("CHECK 11 -- GAPS <-> OPTIONS")
     print("-" * 70)
 
     for gap_id, gap in gap_map.items():
@@ -681,8 +715,11 @@ def validate_excel(file_path):
         option_text = norm(
             correct_options[0].get("text")
         ).lower()
+        option_val = norm(
+            correct_options[0].get("value")
+        ).lower()
 
-        if option_text != correct_answer:
+        if option_text != correct_answer and option_val != correct_answer:
 
             error(
                 f"Gap {gap_id}: "
