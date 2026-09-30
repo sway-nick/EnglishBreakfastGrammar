@@ -6,20 +6,29 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-011G — AI-Based Semantic Review of Pilot Adaptations
+TASK-011H — Apply AI-Review Revisions to Pilot
 
 Status: completed
 
 ## OBJECTIVE
 
-Address the 2 REVISE items (QID 4203 and QID 4211) or proceed with final review sign-off before commencing full-corpus adaptation.
+Awaiting human review / final approval on the pilot adaptation run (100% semantic approval across audited sample) before commencing full-corpus adaptation planning.
 
 ---
 
 ## COMPLETED RECENT TASKS
 
-### TASK-011G — AI-Based Semantic Review of Pilot Adaptations
+### TASK-011H — Apply AI-Review Revisions to Pilot
 Status: completed
+- Revised only the 2 pilot questions identified with issues in TASK-011G:
+  - **QID 4203** (`quiz-481`, `single_choice`): Replaced shallow rewrite (`"1 My cousin is taller than _____."`) with a completely independent storm travel scenario and fronted prepositional adverbial structure (`"1 During the heavy storm, all the other passengers were far calmer than _____."`). Grammar target preserved (comparative adjective + object pronoun after 'than'). Correct answer preserved (`"me"`), distractors preserved (`"me", "mine", "my"`). Jaccard=0.0, Shingle=0.0, Levenshtein=0.2794. Evaluator: `VALIDATED`.
+  - **QID 4211** (`quiz-481`, `single_choice`): Replaced pedagogical mismatch and shallow rewrite (`"9 Julia is _____ than her classmate."` with `polite -> politer`) with canonical consonant + `-y` -> `-ier` spelling rule (`"9 During the lunch break, the school cafeteria is always far _____ than the library."`). Options: `noisy | noisier [CORRECT] | more noisier`. Jaccard=0.0769, Shingle=0.0, Levenshtein=0.2297. Evaluator: `VALIDATED`.
+- Staging corpus (`data/staging.db`) verified 100% immutable and unmodified.
+- No other pilot questions modified.
+- Database integrity: 0 foreign key violations, 0 orphans.
+- Preview Gate passed: 12/12 lessons valid, 12/12 passed gate.
+- Re-executed AI semantic review: 34/34 APPROVE (100.0%), 0 REVISE, 0 REJECT.
+- Regression test suite: 82/82 Python unittests green, 24/24 Jest JS tests green (106 total).
 - Implemented `pipeline/adaptation/semantic_reviewer.py` (`npm run adaptation:semantic-review`).
 - Executed comprehensive semantic, pedagogical, and quality audit across 34 questions:
   - All 14 `REVIEW_REQUIRED` items from calibrated evaluator;

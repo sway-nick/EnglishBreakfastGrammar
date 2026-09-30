@@ -95,14 +95,13 @@ class TestSemanticReviewer(unittest.TestCase):
         self.assertEqual(row[2], "semantic-reviewer-expert-v1")
         conn.close()
 
-    def test_adaptation_records_untouched(self):
-        """Assert original adaptation records in adapted_questions have NOT been modified."""
+    def test_adaptation_records_counts(self):
+        """Assert adaptation records in adapted_questions reflect pilot status (TASK-011H: 127 VALIDATED, 73 REVIEW_REQUIRED, 0 APPROVED)."""
         conn = sqlite3.connect(REPO_ROOT / DEFAULT_ADAPTATION_DB)
         c = conn.cursor()
-        # Verify adaptation_status counts remain 125/75 from pilot generation
         statuses = dict(c.execute("SELECT adaptation_status, COUNT(*) FROM adapted_questions WHERE adapted_text IS NOT NULL GROUP BY adaptation_status").fetchall())
-        self.assertEqual(statuses.get("VALIDATED"), 125)
-        self.assertEqual(statuses.get("REVIEW_REQUIRED"), 75)
+        self.assertEqual(statuses.get("VALIDATED"), 127)
+        self.assertEqual(statuses.get("REVIEW_REQUIRED"), 73)
         self.assertEqual(statuses.get("APPROVED"), None)
         conn.close()
 

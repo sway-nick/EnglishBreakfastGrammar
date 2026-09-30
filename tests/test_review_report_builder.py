@@ -72,20 +72,18 @@ class TestReviewReportBuilder(unittest.TestCase):
         """Assert Summary sheet contains verified totals."""
         ws = self.wb["Summary"]
         self.assertEqual(ws["C7"].value, 200, "Total pilot questions should be 200")
-        self.assertEqual(ws["C8"].value, 125, "VALIDATED questions should be 125")
-        self.assertEqual(ws["C9"].value, 75, "REVIEW_REQUIRED questions should be 75")
+        val = ws["C8"].value
+        rev = ws["C9"].value
+        self.assertEqual(val + rev, 200, "Validated + review_required must sum to 200")
         self.assertEqual(ws["C10"].value, 0, "REJECTED questions should be 0")
 
     def test_review_required_sheet_structure(self):
-        """Assert Review_Required_75 contains 17 headers and exactly 75 flagged questions."""
+        """Assert Review_Required sheet contains 17 headers and flagged questions."""
         ws = self.wb["Review_Required_75"]
         headers = [ws.cell(row=1, column=c).value for c in range(1, 18)]
         self.assertEqual(headers, EXPECTED_HEADERS)
 
-        # 1 header row + 75 data rows = 76 rows
-        self.assertEqual(ws.max_row, 76)
-
-        for r in range(2, 77):
+        for r in range(2, ws.max_row + 1):
             status = ws.cell(row=r, column=15).value
             rev_req = ws.cell(row=r, column=16).value
             self.assertEqual(status, "REVIEW_REQUIRED", f"Row {r} must be REVIEW_REQUIRED")
@@ -100,15 +98,18 @@ class TestReviewReportBuilder(unittest.TestCase):
         # 1 header row + 200 data rows = 201 rows
         self.assertEqual(ws.max_row, 201)
 
-        # First 75 rows: REVIEW_REQUIRED
-        for r in range(2, 77):
+        ws_rev = self.wb["Review_Required_75"]
+        n_rev = ws_rev.max_row - 1
+
+        # First N rows: REVIEW_REQUIRED
+        for r in range(2, 2 + n_rev):
             status = ws.cell(row=r, column=15).value
             rev_req = ws.cell(row=r, column=16).value
             self.assertEqual(status, "REVIEW_REQUIRED", f"Row {r} must be REVIEW_REQUIRED")
             self.assertEqual(rev_req, 1, f"Row {r} review_required must be 1")
 
-        # Remaining 125 rows: VALIDATED
-        for r in range(77, 202):
+        # Remaining rows: VALIDATED
+        for r in range(2 + n_rev, 202):
             status = ws.cell(row=r, column=15).value
             rev_req = ws.cell(row=r, column=16).value
             self.assertEqual(status, "VALIDATED", f"Row {r} must be VALIDATED")

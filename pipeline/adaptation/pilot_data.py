@@ -1246,7 +1246,7 @@ PILOT_DATA: Dict[str, Dict[str, Any]] = {
         "questions": [
             {
                 "question_id": "4203",
-                "adapted_text": "1 My cousin is taller than _____.",
+                "adapted_text": "1 During the heavy storm, all the other passengers were far calmer than _____.",
                 "options": [
                     {"text": "me", "is_correct": 1},
                     {"text": "mine", "is_correct": 0},
@@ -1334,14 +1334,14 @@ PILOT_DATA: Dict[str, Dict[str, Any]] = {
             },
             {
                 "question_id": "4211",
-                "adapted_text": "9 Julia is _____ than her classmate.",
+                "adapted_text": "9 During the lunch break, the school cafeteria is always far _____ than the library.",
                 "options": [
-                    {"text": "polite", "is_correct": 0},
-                    {"text": "politer", "is_correct": 1},
-                    {"text": "more politer", "is_correct": 0},
+                    {"text": "noisy", "is_correct": 0},
+                    {"text": "noisier", "is_correct": 1},
+                    {"text": "more noisier", "is_correct": 0},
                 ],
                 "gaps": [],
-                "target_tokens": ["politer", "than"],
+                "target_tokens": ["noisier", "than"],
             },
             {
                 "question_id": "4212",
