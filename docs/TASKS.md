@@ -6,17 +6,32 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-009 — Corpus Answer Enrichment & Harmonization Strategy
+TASK-009B — Remaining Corpus Answer Enrichment Architecture & Execution
 
 Status: planned
 
 ## OBJECTIVE
 
-Formulate the multi-batch answer enrichment strategy for the 5,796 questions across 225 topics now staged in `data/staging.db` (incorporating existing 182-question answered checkpoint and preparing structured execution).
+Plan and execute the multi-batch answer enrichment for the remaining 5,614 unanswered questions (4,509 gaps, 12,794 options) across the staged corpus in `data/staging.db`.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-009A — Merge Existing Gemini Checkpoint into Staging
+Status: completed
+- Merged the verified 182-question Gemini answers from `english_cms_gemini_all_182.xlsx` into `data/staging.db` using `pipeline/staging/merge_checkpoint.py` (`npm run staging:merge`).
+- Executed inside an atomic SQLite transaction with full rollback on error and strict validation.
+- Preserved 100% of stable IDs without altering question text, options, gaps, or explanations.
+- Verified 0 changes outside the 182-question scope:
+  - Checkpoint questions: 182 / 182 matched (0 unmatched)
+  - Answered gaps: 224 (populated `correct_answer` and `accepted_answers`)
+  - Answered options: 258 (set `is_correct` 1/0)
+  - Remaining unanswered questions: 5,614
+  - Remaining unanswered gaps: 4,509
+  - Remaining unanswered options: 12,794
+  - Validation errors: 0
+- Added automated test suite `tests/test_merge_checkpoint.py` (35/35 Python tests PASS, 24/24 JS Jest tests PASS).
 
 ### TASK-008 — Full Corpus Staging Import
 Status: completed

@@ -14,6 +14,7 @@
     "catalog:discover": "python pipeline/catalog/source_catalog_builder.py",
     "cache:collect": "python pipeline/acquisition/browser_collector.py",
     "staging:import": "python pipeline/staging/staging_importer.py",
+    "staging:merge": "python pipeline/staging/merge_checkpoint.py",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {
