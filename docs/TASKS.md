@@ -6,13 +6,17 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-011H — Update Adaptation Strategy (Preserve Correct Answer)
+FINALIZE ADAPTATION ARCHITECTURE FOR TODAY
 
 Status: completed
 
+## NEXT TASK
+
+TASK-012 — Full-Corpus Adaptation Orchestrator (batch processing for the remaining 5,596 PENDING questions in `data/adaptation.db`).
+
 ## OBJECTIVE
 
-Awaiting human review / final approval on the updated adaptation strategy, answer-integrity rules, and pilot status before commencing full-corpus adaptation planning.
+All implementation and generation work is frozen. Comprehensive architecture, pilot results, answer preservation invariants, and queue metrics are documented in `docs/ADAPTATION_CHECKPOINT_2026-09-30.md`. Awaiting future orchestration launch.
 
 ---
 

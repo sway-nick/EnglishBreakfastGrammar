@@ -39,10 +39,15 @@ The codebase currently contains two largely independent subsystems:
 
 ## CURRENT TASK
 
-TASK-011H — Update Adaptation Strategy (Preserve Correct Answer) (Completed).
+FINALIZE ADAPTATION ARCHITECTURE FOR TODAY (Completed).
+
+## NEXT TASK
+
+TASK-012 — Full-Corpus Adaptation Orchestrator (batch processing for the remaining 5,596 PENDING questions in `data/adaptation.db`).
 
 ## COMPLETED
 
+- Adaptation Architecture Checkpoint finalized (`docs/ADAPTATION_CHECKPOINT_2026-09-30.md`). All adaptation infrastructure, generation rules, answer preservation invariants, evaluator calibration, pilot revisions, and AI semantic review results frozen in verifiable state. Queue: 5,596 PENDING, 127 VALIDATED, 73 REVIEW_REQUIRED. 113 total green tests (89 Python + 24 JS).
 - TASK-011H completed: Updated adaptation architecture and rules to prefer preserving the source correct answer (`source_correct_answer == adapted_correct_answer`). Documented in `docs/TASK-010B_ADAPTATION_SPEC.md` with 8-tier priority hierarchy, 13 high-risk mutation factors, explicit generation instruction, and quality rules. Implemented `pipeline/adaptation/generation_rules.py` and `pipeline/adaptation/answer_integrity_validator.py`. Added unit test suite `tests/test_answer_integrity_validator.py` (7 tests). Revisions for QID 4203 and 4211 previously persisted and validated. 89 Python tests + 24 JS tests = 113 green.
 - TASK-011G completed: Independent AI semantic review executed for 34 questions (14 REVIEW_REQUIRED + 20 VALIDATED control sample): 32 APPROVE (94.1%), 2 REVISE (5.9%), 0 REJECT. 0 false acceptances on validated control sample. Results persisted to `data/adaptation/semantic_review_pilot_34.json` and SQLite table `pilot_semantic_reviews` in `data/adaptation.db`.
 - TASK-011E completed: Calibrated `pipeline/adaptation/similarity_evaluator.py` for short grammar items (dialogue scaffolding normalization, short text Levenshtein exemption unless combined with Jaccard >= 0.25). 16 unit tests passing. Re-evaluated 200 pilot questions: 186 VALIDATED (93%), 14 REVIEW_REQUIRED (7%), 0 REJECTED. 61 items appropriately transitioned to VALIDATED. 0 regressions.
