@@ -94,6 +94,9 @@ def get_response_model(question):
             if value == "radio":
                 return "single_choice"
 
+            if value == "checkbox":
+                return "multiple_choice"
+
             if value == "gaps":
                 return "gap"
 
@@ -101,6 +104,11 @@ def get_response_model(question):
         "input[type='radio']"
     ):
         return "single_choice"
+
+    if question.select_one(
+        "input[type='checkbox']"
+    ):
+        return "multiple_choice"
 
     if question.select_one(
         "select.watupro-gap, "
@@ -309,37 +317,39 @@ def parse_question(question, order):
     )
 
     # --------------------------------------------------------
-    # RADIO OPTIONS
+    # RADIO & CHECKBOX OPTIONS
     # --------------------------------------------------------
 
     options = []
 
-    if response_model == "single_choice":
+    if response_model in ("single_choice", "multiple_choice"):
 
-        radio_inputs = question.select(
-            "input[type='radio']"
+        input_type = "radio" if response_model == "single_choice" else "checkbox"
+
+        choice_inputs = question.select(
+            f"input[type='{input_type}']"
         )
 
-        for option_order, radio in enumerate(
-            radio_inputs,
+        for option_order, choice_input in enumerate(
+            choice_inputs,
             start=1
         ):
 
-            value = radio.get(
+            value = choice_input.get(
                 "value",
                 ""
             )
 
             label = None
 
-            radio_id = radio.get(
+            choice_id = choice_input.get(
                 "id"
             )
 
-            if radio_id:
+            if choice_id:
 
                 label = question.select_one(
-                    f"label[for='{radio_id}']"
+                    f"label[for='{choice_id}']"
                 )
 
             if label:
@@ -353,7 +363,7 @@ def parse_question(question, order):
 
             else:
 
-                parent = radio.parent
+                parent = choice_input.parent
 
                 if parent:
 
@@ -624,6 +634,83 @@ def parse_exercise(
     }
 
 
+def parse_lesson_from_html(
+    html: str,
+    source_file: str = "",
+    source_url: str = "",
+    page: int = 1
+) -> dict:
+    """
+    Parses a single HTML page into a lesson dictionary containing exercises,
+    questions, gaps, and options with unresolved correctness (None).
+    """
+    soup = BeautifulSoup(
+        html,
+        "html.parser"
+    )
+
+    title_tag = soup.find(
+        "title"
+    )
+
+    title = (
+        clean_text(
+            title_tag.get_text(
+                " ",
+                strip=True
+            )
+        )
+        if title_tag
+        else ""
+    )
+
+    forms = soup.select(
+        "form[id^='quiz-']"
+    )
+
+    exercises = []
+
+    for exercise_order, form in enumerate(
+        forms,
+        start=1
+    ):
+        exercise = parse_exercise(
+            form,
+            exercise_order,
+            page=page,
+            raw_html=html
+        )
+        exercises.append(
+            exercise
+        )
+
+    lesson = {
+        "lesson_id": "",
+        "title": title,
+        "level": "",
+        "topic": "",
+        "status": "parsed",
+        "pages": [
+            {
+                "page": page,
+                "exercises": exercises
+            }
+        ],
+        "explanation": {
+            "sections": []
+        },
+        "media": [],
+        "source": {
+            "provider": "Test-English",
+            "source_file": source_file,
+            "source_url": source_url,
+            "page": page
+        }
+    }
+
+    return lesson
+
+
 # ============================================================
 # MAIN
 # ============================================================
@@ -667,93 +754,14 @@ def main():
         f"HTML size: {len(html):,} bytes"
     )
 
-    soup = BeautifulSoup(
+    lesson = parse_lesson_from_html(
         html,
-        "html.parser"
+        source_file=str(INPUT_FILE),
+        page=1
     )
 
-    # --------------------------------------------------------
-    # TITLE
-    # --------------------------------------------------------
-
-    title_tag = soup.find(
-        "title"
-    )
-
-    title = (
-        clean_text(
-            title_tag.get_text(
-                " ",
-                strip=True
-            )
-        )
-        if title_tag
-        else ""
-    )
-
-    # --------------------------------------------------------
-    # FORMS
-    # --------------------------------------------------------
-
-    forms = soup.select(
-        "form[id^='quiz-']"
-    )
-
-    print(
-        f"Exercises found: {len(forms)}"
-    )
-
-    exercises = []
-
-    for exercise_order, form in enumerate(
-        forms,
-        start=1
-    ):
-
-        exercise = parse_exercise(
-            form,
-            exercise_order,
-            page=1,
-            raw_html=html
-        )
-
-        exercises.append(
-            exercise
-        )
-
-    # --------------------------------------------------------
-    # LESSON
-    # --------------------------------------------------------
-
-    lesson = {
-        "lesson_id": "",
-        "title": title,
-        "level": "",
-        "topic": "",
-        "status": "parsed",
-
-        "pages": [
-            {
-                "page": 1,
-                "exercises": exercises
-            }
-        ],
-
-        "explanation": {
-            "sections": []
-        },
-
-        "media": [],
-
-        "source": {
-            "provider": "Test-English",
-            "source_file": str(
-                INPUT_FILE
-            ),
-            "source_url": "",
-            "page": 1
-        }
-    }
+    title = lesson["title"]
+    exercises = lesson["pages"][0]["exercises"]
 
     # --------------------------------------------------------
     # SAVE JSON

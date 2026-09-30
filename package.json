@@ -13,6 +13,7 @@
     "cms:export": "python pipeline/cms/excel_to_json.py",
     "catalog:discover": "python pipeline/catalog/source_catalog_builder.py",
     "cache:collect": "python pipeline/acquisition/browser_collector.py",
+    "staging:import": "python pipeline/staging/staging_importer.py",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {

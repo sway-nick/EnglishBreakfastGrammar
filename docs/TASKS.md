@@ -5,20 +5,46 @@ trigger: always_on
 # PROJECT TASKS
 
 ## CURRENT TASK
- 
-TASK-007 — Offline Parser Batch Execution & CMS Ingestion across Cached Corpus
- 
-Status: in_progress
- 
+
+TASK-009 — Corpus Answer Enrichment & Harmonization Strategy
+
+Status: planned
+
 ## OBJECTIVE
- 
-Execute offline parsing on all 638 cached Test-English exercise HTML pages without any external network calls.
-Extract lesson content, grammar rules, exercises, questions, gaps, and options into structured lesson JSON and ingest into the Excel CMS workbook.
- 
+
+Formulate the multi-batch answer enrichment strategy for the 5,796 questions across 225 topics now staged in `data/staging.db` (incorporating existing 182-question answered checkpoint and preparing structured execution).
+
 ---
- 
+
 ## COMPLETED RECENT TASKS
- 
+
+### TASK-008 — Full Corpus Staging Import
+Status: completed
+- Created minimal relational staging schema `schemas/staging_schema.sql` with strict foreign key constraints (`PRAGMA foreign_keys = ON;`), primary keys, and explicit status isolation (`status = 'staging'`).
+- Implemented `pipeline/staging/staging_importer.py` (`npm run staging:import`) with automated transaction management and post-import verification assertions.
+- Successfully imported the entire preliminary dataset from `data/cms/universal_lessons_preliminary.json` into SQLite staging database `data/staging.db`.
+- Preserved all stable IDs, response models, and counts:
+  - 225 / 225 topics represented (100%)
+  - 638 / 638 exercises represented (100%)
+  - 5,796 / 5,796 questions represented (100%)
+  - 4,733 / 4,733 gaps represented (100%)
+  - 13,052 / 13,052 options represented (100%)
+  - response_models: gap=3,674, single_choice=1,957, multiple_choice=165
+  - zero duplicate IDs (0)
+  - zero orphaned references across all relational tables (0)
+  - unresolved answers preserved per Rule 12A (17,785 NULL answers)
+- Added automated test suite `tests/test_staging_import.py` (32/32 Python tests PASS, 24/24 JS Jest tests PASS).
+
+### TASK-007 — Full Offline Parser Batch Execution & Preliminary CMS Generation
+Status: completed
+- Executed offline parsing on all 638 cached Test-English exercise HTML pages without any external network calls.
+- Extended `pipeline/parser/test_english_parser.py` with full `multiple_choice` (checkbox) support, eliminating all unknown response models.
+- Implemented `pipeline/collector/batch_corpus_processor.py` generating canonical preliminary dataset:
+  - `data/cms/universal_lessons_preliminary.json` (and Desktop copy)
+  - `data/cms/english_cms_preliminary.xlsx` (and Desktop copy)
+- Preserved existing `english_cms.xlsx` and `english_cms_gemini_all_182.xlsx` untouched.
+- Added parser unit tests in `tests/test_parser.py`.
+
 ### TASK-006 — Full Test-English Content Acquisition via Remote CDP
 Status: completed
 - Acquired all 225 topics across all 7 levels (`a1`, `a2`, `b1`, `b1-b2`, `b2`, `c1`, `shorts`) using `pipeline/acquisition/browser_collector.py` via Remote CDP (`http://127.0.0.1:9222`).
