@@ -35,11 +35,11 @@ The codebase currently contains two largely independent subsystems:
    - Google Sheets synchronization module (`src/sheets/`).
    - Architectural scaffolding for Test Engine, UI, admin, and analytics.
 
-*Important*: A continuous end-to-end bridge from the Python pipeline's answered Excel CMS back into canonical JSON for the JS Preview/runtime does NOT yet exist (planned under `TASK-004`).
+*Data Bridge*: The end-to-end bridge from Excel CMS workbooks back into canonical JSON for the JS Preview/runtime is implemented in `pipeline/cms/excel_to_json.py` (`npm run cms:export`) under `TASK-004`.
 
 ## CURRENT TASK
 
-TASK-004 — Build CMS-to-JSON export bridge (Pending start).
+None (TASK-004 completed).
 
 ## COMPLETED
 
@@ -54,10 +54,11 @@ TASK-004 — Build CMS-to-JSON export bridge (Pending start).
 - TASK-002 completed: Unified `.is_correct` across JS validation, preview, sheets, and tests; implemented `allowUnresolved` mode.
 - TASK-003 completed: Cross-platform npm test runner configured in `package.json` (20/20 tests passing).
 - TASK-001 completed: Multi-model operational workflow, model selection matrix, and dispatch/return templates defined in `docs/WORKFLOW.md`.
+- TASK-004 completed: CMS-to-JSON export bridge (`pipeline/cms/excel_to_json.py`, `npm run cms:export`), 24/24 JS and 4/4 Python tests passing.
 
 ## KNOWN ISSUES (OPEN)
 
-- **OPEN ISSUE [INTEGRATION-01]**: Missing link between Python Pipeline output (`english_cms_answered.xlsx`) and JavaScript preview/runtime. There is currently no script to export answered Excel CMS back into Universal JSON. Tracked under `TASK-004`.
+- None currently blocking. [INTEGRATION-01] resolved via `TASK-004`.
 
 ## IMPORTANT DECISIONS
 
@@ -67,7 +68,7 @@ TASK-004 — Build CMS-to-JSON export bridge (Pending start).
 
 ## NEXT STEPS
 
-1. Implement TASK-004 (build CMS-to-JSON export bridge to connect Python pipeline outputs with JS Preview / Test Engine).
+1. Define next task from project roadmap.
 
 ## HANDOFF NOTES
 

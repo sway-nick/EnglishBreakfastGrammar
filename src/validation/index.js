@@ -78,7 +78,7 @@ function validateOption(opt, path, allowUnresolved) {
   return issues;
 }
 
-function validateGap(gap, path, questionText, allowUnresolved) {
+function validateGap(gap, path, questionText, allowUnresolved, questionType = QuestionType.GAP_SELECT) {
   const issues = [];
 
   if (!gap.id) {
@@ -96,43 +96,67 @@ function validateGap(gap, path, questionText, allowUnresolved) {
     ));
   }
 
-  // Validate options
-  if (!Array.isArray(gap.options) || gap.options.length === 0) {
-    issues.push(error('GAP_NO_OPTIONS', 'Gap has no options', `${path}.options`));
-  } else {
-    // Check for duplicate values
-    const values = gap.options.map(o => o.value?.toLowerCase().trim());
-    const seen = new Set();
-    values.forEach((v, i) => {
-      if (seen.has(v)) {
-        issues.push(error('GAP_DUPLICATE_OPTION', `Duplicate option value "${v}"`, `${path}.options[${i}]`));
-      }
-      seen.add(v);
-    });
+  if (questionType === QuestionType.GAP_TEXT) {
+    // For GAP_TEXT, options are optional. Validate them only if provided.
+    if (Array.isArray(gap.options) && gap.options.length > 0) {
+      gap.options.forEach((opt, i) => {
+        issues.push(...validateOption(opt, `${path}.options[${i}]`, allowUnresolved));
+      });
+    }
 
-    const correctCount = gap.options.filter(o => o.is_correct === true).length;
-    const unresolvedCount = gap.options.filter(o => o.is_correct === null).length;
+    // Validate correct_answer / accepted_answers
+    const hasCorrectAnswer = typeof gap.correct_answer === 'string' && gap.correct_answer.trim().length > 0;
+    const hasAcceptedAnswers = Array.isArray(gap.accepted_answers) && gap.accepted_answers.some(a => typeof a === 'string' && a.trim().length > 0);
+    const hasAnswer = hasCorrectAnswer || hasAcceptedAnswers;
 
     if (!allowUnresolved) {
-      if (correctCount === 0) {
-        issues.push(error('GAP_NO_CORRECT', 'Gap has no correct answer marked', `${path}.options`));
+      if (!hasAnswer) {
+        issues.push(error('GAP_NO_CORRECT', 'Gap has no correct answer marked', `${path}.correct_answer`));
       }
     } else {
-      if (correctCount === 0 && unresolvedCount > 0) {
-        issues.push(info('GAP_UNRESOLVED_ANSWERS', 'Gap answers are unresolved (pending AI/editorial review)', `${path}.options`));
-      } else if (correctCount === 0 && unresolvedCount === 0) {
-        issues.push(error('GAP_NO_CORRECT', 'Gap has no correct answer marked', `${path}.options`));
+      if (!hasAnswer) {
+        issues.push(info('GAP_UNRESOLVED_ANSWERS', 'Gap answers are unresolved (pending AI/editorial review)', `${path}.correct_answer`));
       }
     }
+  } else {
+    // Validate options for GAP_SELECT (mandatory)
+    if (!Array.isArray(gap.options) || gap.options.length === 0) {
+      issues.push(error('GAP_NO_OPTIONS', 'Gap has no options', `${path}.options`));
+    } else {
+      // Check for duplicate values
+      const values = gap.options.map(o => o.value?.toLowerCase().trim());
+      const seen = new Set();
+      values.forEach((v, i) => {
+        if (seen.has(v)) {
+          issues.push(error('GAP_DUPLICATE_OPTION', `Duplicate option value "${v}"`, `${path}.options[${i}]`));
+        }
+        seen.add(v);
+      });
 
-    if (correctCount > 1) {
-      issues.push(warning('GAP_MULTIPLE_CORRECT', `Gap has ${correctCount} correct options — is this intentional?`, `${path}.options`));
+      const correctCount = gap.options.filter(o => o.is_correct === true).length;
+      const unresolvedCount = gap.options.filter(o => o.is_correct === null).length;
+
+      if (!allowUnresolved) {
+        if (correctCount === 0) {
+          issues.push(error('GAP_NO_CORRECT', 'Gap has no correct answer marked', `${path}.options`));
+        }
+      } else {
+        if (correctCount === 0 && unresolvedCount > 0) {
+          issues.push(info('GAP_UNRESOLVED_ANSWERS', 'Gap answers are unresolved (pending AI/editorial review)', `${path}.options`));
+        } else if (correctCount === 0 && unresolvedCount === 0) {
+          issues.push(error('GAP_NO_CORRECT', 'Gap has no correct answer marked', `${path}.options`));
+        }
+      }
+
+      if (correctCount > 1) {
+        issues.push(warning('GAP_MULTIPLE_CORRECT', `Gap has ${correctCount} correct options — is this intentional?`, `${path}.options`));
+      }
+
+      // Validate each option
+      gap.options.forEach((opt, i) => {
+        issues.push(...validateOption(opt, `${path}.options[${i}]`, allowUnresolved));
+      });
     }
-
-    // Validate each option
-    gap.options.forEach((opt, i) => {
-      issues.push(...validateOption(opt, `${path}.options[${i}]`, allowUnresolved));
-    });
   }
 
   return issues;
@@ -186,7 +210,7 @@ function validateQuestion(q, path, allowUnresolved) {
       issues.push(error('QUESTION_NO_GAPS', 'Gap-type question has no gaps', `${path}.gaps`));
     } else {
       q.gaps.forEach((gap, i) => {
-        issues.push(...validateGap(gap, `${path}.gaps[${i}]`, q.text, allowUnresolved));
+        issues.push(...validateGap(gap, `${path}.gaps[${i}]`, q.text, allowUnresolved, q.type));
       });
     }
   }

@@ -229,3 +229,104 @@ describe('validate() — allowUnresolved Mode (Rule 12A / Raw Imports)', () => {
     expect(result.errors.some(e => e.code === 'QUESTION_SINGLE_CHOICE_MULTIPLE_CORRECT')).toBe(true);
   });
 });
+
+describe('validate() — GAP_TEXT vs GAP_SELECT Contract Differentiation', () => {
+  function makeValidGapTextLesson() {
+    return createLesson({
+      id: 'L010',
+      title: 'Gap Text Lesson',
+      level: 'A1',
+      status: ContentStatus.DRAFT,
+      exercises: [
+        createExercise({
+          id: 'E010',
+          lessonId: 'L010',
+          order: 1,
+          questions: [
+            createQuestion({
+              id: 'Q010',
+              order: 1,
+              type: QuestionType.GAP_TEXT,
+              text: 'I {{gap1}} a student.',
+              gaps: [
+                createGap({
+                  id: 'G010',
+                  order: 1,
+                  placeholder: '{{gap1}}',
+                  options: [],
+                  correct_answer: 'am',
+                  accepted_answers: ['am', "'m"],
+                }),
+              ],
+            }),
+          ],
+        }),
+      ],
+    });
+  }
+
+  function makeUnresolvedGapTextLesson() {
+    return createLesson({
+      id: 'L011',
+      title: 'Unresolved Gap Text Lesson',
+      level: 'A1',
+      status: ContentStatus.DRAFT,
+      exercises: [
+        createExercise({
+          id: 'E011',
+          lessonId: 'L011',
+          order: 1,
+          questions: [
+            createQuestion({
+              id: 'Q011',
+              order: 1,
+              type: QuestionType.GAP_TEXT,
+              text: 'I {{gap1}} a student.',
+              gaps: [
+                createGap({
+                  id: 'G011',
+                  order: 1,
+                  placeholder: '{{gap1}}',
+                  options: [],
+                  correct_answer: null,
+                  accepted_answers: [],
+                }),
+              ],
+            }),
+          ],
+        }),
+      ],
+    });
+  }
+
+  test('valid gap_text without options passes in strict mode → PASS', () => {
+    const lesson = makeValidGapTextLesson();
+    const result = validate(lesson);
+    expect(result.valid).toBe(true);
+    expect(result.errors).toHaveLength(0);
+  });
+
+  test('gap_select without options fails validation → ERROR', () => {
+    const lesson = makeValidGapLesson();
+    lesson.exercises[0].questions[0].gaps[0].options = [];
+    const result = validate(lesson);
+    expect(result.valid).toBe(false);
+    expect(result.errors.some(e => e.code === 'GAP_NO_OPTIONS')).toBe(true);
+  });
+
+  test('gap_text with unresolved answer fails in strict mode → ERROR', () => {
+    const lesson = makeUnresolvedGapTextLesson();
+    const result = validate(lesson);
+    expect(result.valid).toBe(false);
+    expect(result.errors.some(e => e.code === 'GAP_NO_CORRECT')).toBe(true);
+  });
+
+  test('gap_text with unresolved answer passes with allowUnresolved: true → PASS', () => {
+    const lesson = makeUnresolvedGapTextLesson();
+    const result = validate(lesson, { allowUnresolved: true });
+    expect(result.valid).toBe(true);
+    expect(result.errors).toHaveLength(0);
+    expect(result.infos.some(i => i.code === 'GAP_UNRESOLVED_ANSWERS')).toBe(true);
+  });
+});
+

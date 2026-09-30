@@ -158,6 +158,12 @@ describe('Preview Server CLI Validation Gate Integration', () => {
   const serverPath = resolve('src/preview/server.js');
   const samplePath = resolve('data/json/L001.json');
 
+  beforeAll(async () => {
+    const fs = await import('fs');
+    fs.mkdirSync(resolve('data/json'), { recursive: true });
+    fs.writeFileSync(samplePath, JSON.stringify(makeUnresolvedLesson(), null, 2), 'utf-8');
+  });
+
   test('CLI blocks startup on unresolved data/json/L001.json without flags (exit 1)', () => {
     let exitedWithError = false;
     try {

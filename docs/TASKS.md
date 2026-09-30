@@ -6,17 +6,31 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-004 — Build CMS-to-JSON export bridge (Pending start)
+None (TASK-004 completed; awaiting next task definition from backlog/roadmap).
 
 Status: pending
 
 ## OBJECTIVE
 
-Implement a reliable data bridge to convert answered Excel CMS workbooks (`english_cms_answered.xlsx`) back into validated canonical Universal Lesson JSON files, establishing the missing link between the Python ETL pipeline and the JavaScript Test Engine / Preview server.
+N/A
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-004 — Build CMS-to-JSON export bridge
+Status: completed
+- Created `pipeline/cms/excel_to_json.py`: converts answered/draft Excel CMS workbooks (`english_cms_answered.xlsx` / `english_cms.xlsx`) into canonical Universal Lesson JSON.
+- Supported relational grouping across all 6 sheets (`Lessons`, `Exercises`, `Questions`, `Gaps`, `Options`, `Explanations`), preserving stable IDs and order.
+- Mapped question types (`gap` + `select` ➔ `gap_select`, `gap` + `text` ➔ `gap_text`, choice types).
+- Reconstructed `accepted_answers`: `[correct_answer] + extras` (preserving order and deduplicating).
+- Mapped boolean `is_correct` (True/False/None) ➔ JSON `true`/`false`/`null` per ADR-002.
+- Normalized placeholders `{{gap_1}}` ➔ `{{gap1}}` strictly at the export boundary.
+- Added npm script `"cms:export": "python pipeline/cms/excel_to_json.py"` to `package.json`.
+- Refined `src/validation/index.js` `validateGap()` to differentiate `GAP_SELECT` (mandatory options) and `GAP_TEXT` (optional options, text answer validation).
+- Verified with unit tests: 24/24 JS Jest tests PASS, 4/4 Python unit tests PASS.
+- Verified on real Excel workbook (`C:\Users\user\Desktop\english_cms.xlsx`): all 6 lessons exported and achieve 0 validation errors in draft mode (`allowUnresolved: true`).
+- Verified Preview Gate: blocks un-answered draft files in strict mode, permits in draft mode, and supports `--force` for local dev bypass.
 
 ### TASK-001 — Complete AI orchestration and multi-model workflow setup
 Status: completed
@@ -32,7 +46,7 @@ Status: completed
 - Unified `.is_correct` across `src/validation/index.js`, `src/preview/renderer.js`, `src/sheets/index.js`, and test suite.
 - Implemented `validate(lesson, { allowUnresolved = false } = {})` with strict default and Rule 12A draft mode.
 - Implemented preview server validation gate and dev-only guardrails for `--force`.
-- Full automated test suite passes (20/20 green).
+- Full automated test suite passes (24/24 green).
 
 ### TASK-003 — Cross-platform npm test runner configuration
 Status: completed
@@ -43,10 +57,7 @@ Status: completed
 
 ## BACKLOG
 
-### TASK-004 — Build CMS-to-JSON export bridge
-Status: pending
-- Implement an export script to convert answered Excel CMS files (`english_cms_answered.xlsx`) back into canonical Universal Lesson JSON.
-- Verify end-to-end integration: Python pipeline output ➔ Universal JSON ➔ JS Preview server (`src/preview/server.js`).
+Tasks to be defined according to the project roadmap.
 
 ---
 
