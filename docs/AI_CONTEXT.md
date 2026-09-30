@@ -39,7 +39,7 @@ The codebase currently contains two largely independent subsystems:
 
 ## CURRENT TASK
 
-None (TASK-004 completed).
+TASK-006 — Content Acquisition Channel Confirmation & Ingestion Strategy (Status: blocked per ADR-003).
 
 ## COMPLETED
 
@@ -51,24 +51,27 @@ None (TASK-004 completed).
 - JavaScript baseline implemented (models, parser adapter, preview renderer, sheets sync, validator).
 - ADR-001 accepted (Orchestration architecture and documentation-based memory).
 - ADR-002 accepted (Explicit validation modes & `is_correct` contract unification across JS core).
+- ADR-003 accepted (Content acquisition boundary + persisted local HTML cache + offline parsing; browser/session bypass deferred and excluded from core).
 - TASK-002 completed: Unified `.is_correct` across JS validation, preview, sheets, and tests; implemented `allowUnresolved` mode.
 - TASK-003 completed: Cross-platform npm test runner configured in `package.json` (20/20 tests passing).
 - TASK-001 completed: Multi-model operational workflow, model selection matrix, and dispatch/return templates defined in `docs/WORKFLOW.md`.
 - TASK-004 completed: CMS-to-JSON export bridge (`pipeline/cms/excel_to_json.py`, `npm run cms:export`), 24/24 JS and 4/4 Python tests passing.
+- TASK-005 completed: Source catalog discovery engine (`pipeline/catalog/source_catalog_builder.py`, `npm run catalog:discover`), 7 levels, 225 topics mapped, 10/10 Python and 24/24 JS tests passing.
 
 ## KNOWN ISSUES (OPEN)
 
-- None currently blocking. [INTEGRATION-01] resolved via `TASK-004`.
+- **[ACQUISITION-01]**: Mass content acquisition for 219 partial topics blocked pending confirmation of an approved acquisition channel (ADR-003). 6 complete topics (20 exercises) available offline in local cache.
 
 ## IMPORTANT DECISIONS
 
 - **ADR-001**: Antigravity is primary engineering orchestrator; persistent documentation in `/docs` is source of truth; external AI used for decision review.
 - **ADR-002**: Standardize on `is_correct` across JS; `validate(lesson, { allowUnresolved })` provides strict mode (default) and draft import mode; preview server enforces an explicit validation gate.
+- **ADR-003**: Content acquisition decoupled from parsing. Core platform rejects browser/session bypass subsystems. Mass acquisition mechanism deferred until approved channel confirmed; 6 cached topics ready for ingestion.
 - **Rule 12A**: Parsers must never set correct answers (`correct_answer=null`, `is_correct=null`). Correct answers are resolved strictly by AI Answer Processing or editorial review.
 
 ## NEXT STEPS
 
-1. Define next task from project roadmap.
+1. Confirm content acquisition channel for 219 partial topics. In parallel, run pipeline ingestion on 6 confirmed A1 topics (20 exercises).
 
 ## HANDOFF NOTES
 
@@ -77,4 +80,4 @@ Handoff between AI models operates as a documentation-based protocol:
 2. Read `docs/WORKFLOW.md` for task dispatch and return reporting conventions.
 3. Inspect `docs/DECISIONS.md` before proposing architectural changes.
 4. Check actual files before assuming implementation details.
-5. All 20 tests in JS test suite (`npm test`) are green and must remain green after changes.
+5. All 24 tests in JS test suite (`npm test`) and 10 tests in Python suite (`python -m unittest discover tests`) are green and must remain green after changes.

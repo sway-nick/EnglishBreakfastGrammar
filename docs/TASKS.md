@@ -6,17 +6,30 @@ trigger: always_on
 
 ## CURRENT TASK
 
-None (TASK-004 completed; awaiting next task definition from backlog/roadmap).
+TASK-006 — Content Acquisition Channel Confirmation & Ingestion Strategy
 
-Status: pending
+Status: blocked (awaiting confirmation of approved content acquisition channel per ADR-003)
 
 ## OBJECTIVE
 
-N/A
+Confirm the external acquisition channel (e.g. curated local cache archive, batch exporter) to fetch the remaining 219 topic pages without embedding fragile browser/session bypass logic into core platform.
+In parallel, pipeline can ingest the 6 confirmed A1 topics (20 exercises) already present in local cache.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-005 — Source Catalog Discovery
+Status: completed
+- Created `pipeline/catalog/source_catalog_builder.py` and unit tests in `tests/test_source_catalog.py`.
+- Added npm script `"catalog:discover": "python pipeline/catalog/source_catalog_builder.py"` to `package.json`.
+- Discovered complete taxonomy across all 7 levels (`a1`, `a2`, `b1`, `b1-b2`, `b2`, `c1`, `shorts`) yielding 225 total topics.
+- Discovered exercise pagination via `.page-links` container; 6 cached topics in A1 confirmed with multi-page exercises (20 exercises total).
+- Gracefully handled Cloudflare HTTP 403 on uncached URLs via fallback: marked topics with explicit `discovery_status: "partial"`, preserving topic seed URLs for downstream resolution.
+- Dynamically calculated all catalog statistics: `total_levels: 7`, `total_topics: 225`, `total_exercises: 239`, `topics_complete: 6`, `topics_partial: 219`, `network_errors: 219`.
+- Exported canonical JSON catalog `data/catalog/source_catalog.json` and human-readable `data/catalog/source_catalog_summary.md`.
+- Formalized ADR-003 (Acquisition boundary + persisted local HTML cache + offline parsing; core platform remains browser/session free).
+- Verified with automated tests: 10/10 Python unit tests PASS, 24/24 JS Jest tests PASS.
 
 ### TASK-004 — Build CMS-to-JSON export bridge
 Status: completed

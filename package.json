@@ -11,6 +11,8 @@
     "sheets:pull": "node src/sheets/pull.js",
     "publish": "node src/publish/publish.js",
     "cms:export": "python pipeline/cms/excel_to_json.py",
+    "catalog:discover": "python pipeline/catalog/source_catalog_builder.py",
+    "cache:collect": "python pipeline/acquisition/browser_collector.py",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {

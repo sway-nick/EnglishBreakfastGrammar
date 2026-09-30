@@ -11,10 +11,7 @@ node_modules/
 npm-debug.log*
 
 # Data files (не коммитим в Git)
-data/input/*.txt
-data/input/*.html
-data/output/*.json
-data/logs/
+data/
 *.xlsx
 *.xls
 

@@ -140,3 +140,70 @@ Rejected because `ContentStatus` is not an authoritative lifecycle boundary in t
 ## Supersedes
 
 None.
+
+---
+
+# ADR-003
+
+## Status
+
+accepted
+
+## Date
+
+2026-09-30
+
+## Context
+
+During TASK-005 (Source Catalog Discovery), the discovery engine (`pipeline/catalog/source_catalog_builder.py`) successfully extracted the complete taxonomy across all 7 levels (225 topics) from `test-english.com`.
+
+However, direct live HTTP requests to uncached topic pages encounter Cloudflare bot protection (`HTTP 403: Forbidden`, `Cf-Mitigated: challenge`).
+The engine gracefully degraded for uncached topics, marking them as `discovery_status: "partial"` with single-page fallback, while 6 cached topics in A1 achieved `discovery_status: "complete"` with confirmed multi-page exercises (20 exercises).
+
+We needed an architectural decision on how to handle content acquisition, anti-bot bypass, caching, and parsing without polluting the core codebase or introducing fragile dependencies.
+
+## Decision
+
+1. **Acquisition boundary + persisted local HTML cache + offline parsing = ACCEPT**:
+   - Strictly decouple raw HTML acquisition from content parsing and domain models.
+   - The parser (`src/parser/`, `pipeline/parsers/`) and Universal Lesson models operate strictly on persisted local HTML content / cache (`data/cache/html` or raw file collections).
+2. **No Cloudflare-specific browser/session subsystem in core platform**:
+   - Do NOT add browser-automation tools (Playwright, Puppeteer, Selenium) or Cloudflare session/cookie interception into `src/parser`, `src/models`, or the core Universal Model platform.
+   - The platform core remains lightweight, deterministic, headless, and isolated from external network anti-bot measures.
+3. **Specific Acquisition Mechanism = DEFER**:
+   - The concrete acquisition mechanism for obtaining raw HTML across the remaining 219 topics is deferred until an approved, reproducible acquisition channel is confirmed.
+4. **Catalog Schema & Partial Topic Contract**:
+   - The canonical catalog (`data/catalog/source_catalog.json`) preserves exact taxonomy (7 levels, 225 topics).
+   - Topics with confirmed exercises have `discovery_status: "complete"`.
+   - Topics where exercise count could not be resolved live retain `discovery_status: "partial"`. Downstream ingestion processes must treat `partial` as seed entrypoints awaiting HTML acquisition, rather than assuming a single exercise.
+
+## Reason
+
+Prevents architectural bloat and fragile anti-bot bypass dependencies in the core domain and parser modules. Preserves clean architectural boundaries, security, and offline reproducibility.
+
+## Alternatives Rejected
+
+### Embedding Playwright/Puppeteer into core parser/pipeline
+Rejected because it introduces heavy browser binaries, brittle anti-bot bypass logic, violates subsystem boundaries, and slows down automated test suites.
+
+### Hardcoding exercise counts or assuming single-page fallback is complete
+Rejected because it corrupts catalog integrity and creates silent data loss downstream.
+
+## Consequences
+
+### Positive
+- Core codebase remains clean, portable, and fast.
+- Parser unit tests run completely offline with no network or browser dependencies.
+- Clear architectural boundary between acquisition and parsing.
+- Verified topics (20 exercises in A1) are ready for end-to-end ingestion immediately.
+
+### Negative
+- Mass acquisition of the 219 remaining topic pages requires an approved external acquisition channel/procedure before full-scale exercise extraction can run.
+
+## Evidence
+- Architectural consultation on 2026-09-30 regarding Cloudflare HTTP 403 behavior in TASK-005.
+- Successful verification of local cache parsing on 6 complete A1 topics (20 exercises).
+
+## Supersedes
+
+None.
