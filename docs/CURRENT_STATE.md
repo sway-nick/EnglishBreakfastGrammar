@@ -54,21 +54,21 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-Adaptation architecture, generation guidelines, answer integrity engine, and pilot reviews are finalized and frozen for today (`docs/ADAPTATION_CHECKPOINT_2026-09-30.md`). All implementation work is paused. Ready for future work on the full-corpus adaptation orchestrator (TASK-012).
+Full-corpus orchestrator (`pipeline/adaptation/full_corpus_orchestrator.py`) is implemented and verified. Pilot statuses normalized to 188 VALIDATED, 12 REVIEW_REQUIRED. 25-question dry run completed and verified (18 VALIDATED, 7 REVIEW_REQUIRED, 0 REJECTED, 100% answers preserved, Preview Gate PASSED). Ready for full-corpus production batches (TASK-013).
 
 ## CURRENT TASK
 
-FINALIZE ADAPTATION ARCHITECTURE FOR TODAY.
+TASK-012 — Full-Corpus Adaptation Orchestrator & Dry Run.
 
 Status: completed
 
 ## NEXT TASK
 
-TASK-012 — Full-Corpus Adaptation Orchestrator (batch processing for the remaining 5,596 PENDING questions in `data/adaptation.db`).
+TASK-013 — Full-Corpus Adaptation Batch Generation (Production batches for remaining 5,571 PENDING questions).
 
 ## OPEN ISSUES
 
-None. Staging corpus (5,796 questions) is 100% immutable and intact. Adaptation infrastructure and pilot validated. Comprehensive documentation recorded in `docs/ADAPTATION_CHECKPOINT_2026-09-30.md`. Queue has 5,596 PENDING questions ready for TASK-012. Full test suite (89 Python tests + 24 JS tests = 113 total) passing.
+None. Staging corpus (5,796 questions) is 100% immutable and intact. Adaptation database holds 5,796 questions: 5,571 PENDING, 19 REVIEW_REQUIRED, 206 VALIDATED, 0 REJECTED. Multi-tier validation pipeline and Preview Gate verified. Full test suite (97 Python tests + 24 JS tests = 121 total) passing.
 
 ## RESOLVED ISSUES
 

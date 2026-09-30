@@ -323,21 +323,25 @@ def run_pilot_adaptation(
 def export_pilot_universal_json(
     adaptation_db_path: Union[str, Path] = DEFAULT_ADAPTATION_DB,
     output_path: Union[str, Path] = Path("data/pilot_adapted_lessons.json"),
+    filter_by_adapted_by: bool = True,
 ) -> Path:
     """Export adapted pilot exercises into canonical Universal Lesson JSON format."""
     adapt_conn = get_connection(adaptation_db_path)
     out_file = Path(output_path)
     out_file.parent.mkdir(parents=True, exist_ok=True)
 
+    clause = "q.adapted_by IN ('pilot_generator', 'pilot_revision_TASK-011H')" if filter_by_adapted_by else "q.adapted_text IS NOT NULL"
+    sub_clause = "adapted_by IN ('pilot_generator', 'pilot_revision_TASK-011H')" if filter_by_adapted_by else "adapted_text IS NOT NULL"
+
     try:
         # Fetch adapted lessons that have adapted questions
         lessons_rows = adapt_conn.execute(
-            """
+            f"""
             SELECT DISTINCT l.adapted_lesson_id, l.title, l.level, l.topic, l.description
             FROM adapted_lessons l
             JOIN adapted_exercises e ON e.adapted_lesson_id = l.adapted_lesson_id
             JOIN adapted_questions q ON q.adapted_exercise_id = e.adapted_exercise_id
-            WHERE q.adapted_text IS NOT NULL
+            WHERE {clause}
             ORDER BY l.adapted_lesson_id
             """
         ).fetchall()
@@ -356,11 +360,11 @@ def export_pilot_universal_json(
             }
 
             ex_rows = adapt_conn.execute(
-                """
+                f"""
                 SELECT adapted_exercise_id, exercise_order, page, title, instruction
                 FROM adapted_exercises
                 WHERE adapted_lesson_id = ? AND adapted_exercise_id IN (
-                    SELECT DISTINCT adapted_exercise_id FROM adapted_questions WHERE adapted_text IS NOT NULL
+                    SELECT DISTINCT adapted_exercise_id FROM adapted_questions WHERE {sub_clause}
                 )
                 ORDER BY exercise_order
                 """,
@@ -379,10 +383,10 @@ def export_pilot_universal_json(
                 }
 
                 q_rows = adapt_conn.execute(
-                    """
+                    f"""
                     SELECT adapted_question_id, question_order, response_model, adapted_text, explanation, difficulty
                     FROM adapted_questions
-                    WHERE adapted_exercise_id = ? AND adapted_text IS NOT NULL
+                    WHERE adapted_exercise_id = ? AND {sub_clause}
                     ORDER BY question_order
                     """,
                     (ex_id,),

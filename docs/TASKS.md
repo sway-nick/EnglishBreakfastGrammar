@@ -6,21 +6,56 @@ trigger: always_on
 
 ## CURRENT TASK
 
-FINALIZE ADAPTATION ARCHITECTURE FOR TODAY
+TASK-012 — Full-Corpus Adaptation Orchestrator & Dry Run
 
 Status: completed
 
 ## NEXT TASK
 
-TASK-012 — Full-Corpus Adaptation Orchestrator (batch processing for the remaining 5,596 PENDING questions in `data/adaptation.db`).
+TASK-013 — Full-Corpus Adaptation Batch Generation (Production batches for remaining 5,571 PENDING questions).
 
 ## OBJECTIVE
 
-All implementation and generation work is frozen. Comprehensive architecture, pilot results, answer preservation invariants, and queue metrics are documented in `docs/ADAPTATION_CHECKPOINT_2026-09-30.md`. Awaiting future orchestration launch.
+Orchestrator architecture implemented, pilot statuses normalized (188 VALIDATED, 12 REVIEW_REQUIRED), 25-question dry run executed and verified across all 3 response models (18 VALIDATED, 7 REVIEW_REQUIRED, 0 REJECTED, 100% answers preserved, Preview Gate PASSED). All 97 Python unit tests and 24 Jest tests passing.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-012 — Full-Corpus Adaptation Orchestrator & Dry Run
+Status: completed
+- **Pilot Status Synchronization**:
+  * Implemented and executed `pipeline/adaptation/pilot_sync.py`.
+  * Synchronized the 200 pilot questions in `data/adaptation.db` to 188 VALIDATED, 12 REVIEW_REQUIRED, 0 REJECTED (eliminating the obsolete 127/73 split).
+  * Synchronized child options, gaps, exercises, and lessons.
+- **Orchestrator Implementation**:
+  * Built `pipeline/adaptation/full_corpus_orchestrator.py` supporting `dry-run`, `status`, `verify`, `resume`, `pause` CLI modes.
+  * Enforces the Core Adaptation Principle: prefer preserving the source correct answer (`source_correct_answer == adapted_correct_answer`).
+  * Integrates multi-tier validation: structural -> answer integrity -> similarity evaluator -> Preview Gate.
+  * Enforces selective AI semantic review: triggered automatically for all `REVIEW_REQUIRED` items, answer divergences, high-risk mutations, and a deterministic control sample of `VALIDATED` items.
+  * Tracks batch lifecycle, progress, and failure isolation in `adaptation_runs`.
+- **25-Question Dry Run**:
+  * Executed `python pipeline/adaptation/full_corpus_orchestrator.py dry-run` for 25 PENDING questions:
+    - 10 `single_choice` (QIDs 87, 88, 2410, 2411, 2412, 2413, 2414, 2415, 2416, 4573 from `quiz-13`)
+    - 10 `gap` (QIDs 36, 28, 29, 30, 31, 32, 33, 34, 35, 37 from `quiz-6`)
+    - 5 `multiple_choice` (QIDs 749, 750, 754, 755, 757 from `quiz-92`)
+  * Results:
+    - Generated: 25 / 25
+    - Status distribution: 18 VALIDATED, 7 REVIEW_REQUIRED, 0 REJECTED
+    - Answer divergence count: 0 (100% answers preserved)
+    - High-risk mutations detected: 7 (all routed to `REVIEW_REQUIRED`)
+    - Similarity metrics (mean): Jaccard=0.1070, Max Shingle=0.0000, Levenshtein=0.3108
+    - AI Semantic Reviews: 8 reviews conducted (8 APPROVE, 0 REVISE, 0 REJECT)
+    - Preview Gate result: PASSED (validated via Node JS Preview Gate)
+- **Database Queue State**:
+  * Total questions in `data/adaptation.db`: 5,796
+  * PENDING: 5,571
+  * VALIDATED: 206 (188 pilot + 18 dry-run)
+  * REVIEW_REQUIRED: 19 (12 pilot + 7 dry-run)
+  * REJECTED: 0
+- **Test Suite**:
+  * Implemented `tests/test_full_corpus_orchestrator.py` with 8 comprehensive unit tests covering pilot sync, catalog cardinality/coverage, answer preservation invariant, high-risk mutation detection, status transitions, resumability/queue isolation, selective AI review/control sampling, and run lifecycle persistence.
+  * Full regression: 97/97 Python unit tests green, 24/24 Jest tests green.
 
 ### TASK-011H (Part 2) — Update Adaptation Strategy (Preserve Correct Answer)
 Status: completed

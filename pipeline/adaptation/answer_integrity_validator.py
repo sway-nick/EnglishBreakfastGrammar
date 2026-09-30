@@ -59,7 +59,8 @@ def normalize_token(s: str) -> str:
     """Normalize answer token for whitespace and punctuation tolerance."""
     if s is None:
         return ""
-    cleaned = re.sub(r"[^\w\s'-]", "", str(s).strip().lower())
+    s_clean = str(s).strip().lower().replace("’", "'").replace("‘", "'").replace("\ufffd", "'")
+    cleaned = re.sub(r"[^\w\s'-]", "", s_clean)
     return " ".join(cleaned.split())
 
 

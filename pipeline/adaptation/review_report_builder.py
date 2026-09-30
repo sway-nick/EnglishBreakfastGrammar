@@ -117,7 +117,7 @@ def fetch_pilot_records(
                q.adapted_text, q.similarity_score, q.adaptation_status, q.review_required,
                q.adaptation_notes
         FROM adapted_questions q
-        WHERE q.adapted_text IS NOT NULL
+        WHERE q.adapted_by IN ('pilot_generator', 'pilot_revision_TASK-011H')
         ORDER BY q.adapted_exercise_id, q.question_order
         """
     ).fetchall()

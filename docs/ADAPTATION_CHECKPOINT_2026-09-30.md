@@ -167,48 +167,70 @@ The goal is **not maximum textual difference**. The goal is:
 
 | Status | Count | Description |
 | :--- | :--- | :--- |
-| **`PENDING`** | **5,596** | Remaining unadapted questions queued for future full-corpus adaptation. |
-| **`VALIDATED`** | **127** | Pilot questions successfully adapted and structurally validated in the database table. |
-| **`REVIEW_REQUIRED`** | **73** | Unrevised pilot rows in the raw table (all 14 calibrated flagged items are approved in semantic audit). |
-| **`APPROVED`** | **0** | Reserved for final human/editorial sign-off prior to production publishing. |
-| **`REJECTED`** | **0** | No unsalvageable transformations. |
+| **`PENDING`** | **5,571** | Remaining unadapted questions queued for future full-corpus production batches. |
+| **`VALIDATED`** | **206** | 188 synchronized pilot questions + 18 dry-run questions. |
+| **`REVIEW_REQUIRED`** | **19** | 12 synchronized pilot questions + 7 dry-run questions flagged for review (all approved in semantic review). |
+| **`APPROVED`** | **0** | Reserved for final editorial sign-off prior to production publishing. |
+| **`REJECTED`** | **0** | Zero unsalvageable transformations across pilot and dry-run items. |
 | **TOTAL QUESTIONS** | **5,796** | Matches exactly the 5,796 source questions in `data/staging.db`. |
 
 ---
 
-## 7. AUTOMATED TEST SUITE STATUS
+## 7. FULL-CORPUS ORCHESTRATOR & 25-QUESTION DRY RUN (TASK-012)
+
+The production-grade batch orchestrator was implemented in `pipeline/adaptation/full_corpus_orchestrator.py` and verified via a 25-question dry-run across all 3 response models:
+
+1. **Pilot Status Normalization**:
+   - `pipeline/adaptation/pilot_sync.py` normalized the 200 pilot questions in `data/adaptation.db` to 188 VALIDATED, 12 REVIEW_REQUIRED, 0 REJECTED.
+2. **Multi-Tier Validation Pipeline**:
+   - Structural validation -> Answer integrity validation (`validate_answer_integrity`) -> Originality / Similarity evaluation (`evaluate_similarity`) -> Preview Gate validation.
+3. **25-Question Dry Run Results**:
+   - Run ID: `orch_task012_dryrun_25`
+   - Generated questions: 25 / 25
+     * 10 `single_choice` (quiz-13)
+     * 10 `gap` (quiz-6)
+     * 5 `multiple_choice` (quiz-92)
+   - Status distribution: 18 VALIDATED, 7 REVIEW_REQUIRED, 0 REJECTED
+   - Answer preservation: 100% (0 answer divergences)
+   - High-risk mutations: 7 (all routed to `REVIEW_REQUIRED`)
+   - Similarity metrics (mean): Jaccard=0.1070, Max Shingle=0.0000, Levenshtein=0.3108
+   - AI Semantic Reviews: 8 reviews conducted (8 APPROVE, 0 REVISE, 0 REJECT)
+   - Preview Gate result: PASSED (Node JS Preview Gate and strict JS validator pass)
+
+---
+
+## 8. AUTOMATED TEST SUITE STATUS
 
 All automated regression and validation test suites pass with zero errors:
-- **Python Unit Tests**: **89 / 89 passing (OK in 25.8s)**
+- **Python Unit Tests**: **97 / 97 passing (OK in 26.2s)**
+  - `test_full_corpus_orchestrator.py` (8 tests)
   - `test_answer_integrity_validator.py` (7 tests)
   - `test_semantic_reviewer.py` (5 tests)
   - `test_review_report_builder.py` (5 tests)
   - `test_similarity_evaluator.py` (16 tests)
   - `test_adaptation_db.py` (7 tests)
   - Staging, CMS, and enrichment validation tests (49 tests)
-- **JavaScript Jest Tests**: **24 / 24 passing (OK in 1.1s)**
+- **JavaScript Jest Tests**: **24 / 24 passing (OK in 6.7s)**
   - `preview-gate.test.js` (12 tests)
   - `validation.test.js` (12 tests)
-- **Total Green Tests**: **113 / 113 tests passing**.
+- **Total Green Tests**: **121 / 121 tests passing**.
 
 ---
 
-## 8. EXACT NEXT TASK FOR FUTURE WORK
+## 9. EXACT NEXT TASK FOR FUTURE WORK
 
 When work resumes, the exact next task is:
 
 ```text
-TASK-012: FULL-CORPUS ADAPTATION ORCHESTRATOR
+TASK-013: FULL-CORPUS ADAPTATION BATCH GENERATION
 
 Goal:
-Design and implement the production batch adaptation orchestrator for the remaining
-5,596 PENDING questions in data/adaptation.db.
+Run production batches for the remaining 5,571 PENDING questions in data/adaptation.db
+using pipeline/adaptation/full_corpus_orchestrator.py.
 
 Key Objectives:
-1. Batch execution engine with rate limiting and checkpointing.
-2. Integration of pipeline/adaptation/generation_rules.py prompt builder.
-3. Automated post-generation pipeline:
-   similarity_evaluator -> answer_integrity_validator -> preview_gate -> status_assignment.
-4. Auto-flagging of answer divergences and high-risk mutations into human review queue.
-5. Level-by-level roll-out (A1 -> A2 -> B1 -> B1+ -> B2 -> C1).
+1. Level-by-level roll-out (A1 -> A2 -> B1 -> B1+ -> B2 -> C1).
+2. Rate-limited Gemini model calls with exponential backoff.
+3. Multi-tier validation with answer preservation and selective AI review.
+4. Export updated universal lessons and pass Preview Gate checkpoints.
 ```
