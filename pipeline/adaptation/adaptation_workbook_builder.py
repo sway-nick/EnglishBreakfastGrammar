@@ -207,7 +207,73 @@ def build_gemini_formula(row_idx: int, response_model: str) -> str:
             f'Target Answer: \'" & I{row_idx} & "\'. Return ONLY valid JSON adaptation."'
         )
 
-    return f'=IFERROR(GEMINI({prompt}), "")'
+    return f"=GEMINI({prompt})"
+
+
+FORBIDDEN_NESTED_PATTERNS = [
+    "IFERROR(GEMINI",
+    "IF(GEMINI",
+    "IFS(",
+    "SWITCH(",
+    "=IFERROR(",
+    "=IF(",
+    "=IFS(",
+    "=SWITCH(",
+]
+
+
+def validate_formula_compatibility(formula: str) -> Tuple[bool, Optional[str]]:
+    """Deterministic validation ensuring GEMINI is the outermost function and has no wrappers.
+    
+    Rejects any formula containing IFERROR(GEMINI, IF(GEMINI, IFS(...GEMINI, SWITCH(...GEMINI,
+    or any other nested pattern.
+    """
+    if not formula:
+        return False, "Formula is empty"
+
+    clean_f = formula.strip()
+    if not clean_f.startswith("=GEMINI("):
+        return False, f"Formula must start with '=GEMINI(': {clean_f[:35]}"
+    if not clean_f.endswith(")"):
+        return False, f"Formula must end with ')': {clean_f[-35:]}"
+
+    upper_f = clean_f.upper()
+    for fp in FORBIDDEN_NESTED_PATTERNS:
+        if fp in upper_f:
+            return False, f"Forbidden nested pattern '{fp}' detected in formula"
+
+    return True, None
+
+
+def validate_adaptation_workbook_formulas(workbook_path: Path) -> Dict[str, Any]:
+    """Validate that 100% of formulas in the workbook conform strictly to top-level =GEMINI(...) without wrappers."""
+    if not workbook_path.exists():
+        raise FileNotFoundError(f"Workbook not found: {workbook_path}")
+
+    wb = openpyxl.load_workbook(workbook_path, read_only=True, data_only=False)
+    if "Gemini_Adaptation" not in wb.sheetnames:
+        raise ValueError(f"Sheet 'Gemini_Adaptation' not found in {workbook_path}")
+
+    ws = wb["Gemini_Adaptation"]
+    total_checked = 0
+    violations: List[Dict[str, Any]] = []
+
+    for row_idx, r in enumerate(ws.iter_rows(min_row=3, values_only=True), start=3):
+        if r[0] is None:
+            continue
+        formula = str(r[9] or "")  # Col J: gemini_formula
+        ok, err = validate_formula_compatibility(formula)
+        if not ok:
+            violations.append({"row": row_idx, "formula": formula[:80], "error": err})
+        total_checked += 1
+
+    return {
+        "workbook_path": str(workbook_path),
+        "is_valid": len(violations) == 0,
+        "total_formulas_checked": total_checked,
+        "violations_count": len(violations),
+        "violations": violations,
+    }
 
 
 def create_adaptation_workbook(
@@ -363,6 +429,9 @@ def create_adaptation_workbook(
         qord = it["question_order"]
 
         formula = build_gemini_formula(idx, rm)
+        ok, err = validate_formula_compatibility(formula)
+        if not ok:
+            raise ValueError(f"Formula validation failed at row {idx} for QID {sqid}: {err}")
 
         ws_adapt.cell(row=idx, column=1, value=int(sqid))
         ws_adapt.cell(row=idx, column=2, value=aqid)
@@ -444,11 +513,25 @@ def main() -> None:
     parser.add_argument("--stage-db", default=str(DEFAULT_STAGING_DB), help="Path to staging.db")
     parser.add_argument("--out", default=str(LOCAL_OUTPUT), help="Local output path")
     parser.add_argument("--desktop", default=str(DESKTOP_OUTPUT), help="Desktop output path")
+    parser.add_argument("--validate-only", action="store_true", help="Only validate existing workbook formulas")
     args = parser.parse_args()
 
     print("=" * 65)
-    print(" ADAPTATION WORKBOOK BUILDER (TASK-013)")
+    print(" ADAPTATION WORKBOOK BUILDER (TASK-013 / TASK-013A)")
     print("=" * 65)
+
+    if args.validate_only:
+        target_path = Path(args.desktop) if Path(args.desktop).exists() else Path(args.out)
+        print(f"Validating formula compatibility on: {target_path}")
+        val_res = validate_adaptation_workbook_formulas(target_path)
+        print(f"Total Formulas Checked : {val_res['total_formulas_checked']}")
+        print(f"Violations Count       : {val_res['violations_count']}")
+        print(f"Status                 : {'VALID (100% compliant)' if val_res['is_valid'] else 'INVALID'}")
+        if val_res["violations"]:
+            for v in val_res["violations"][:5]:
+                print(f"  - Row {v['row']}: {v['error']} (Formula: {v['formula']})")
+            sys.exit(1)
+        return
 
     items = fetch_pending_adaptation_questions(Path(args.adapt_db), Path(args.stage_db))
     res = create_adaptation_workbook(items, Path(args.out), Path(args.desktop))
@@ -458,7 +541,15 @@ def main() -> None:
     print(f"Model Breakdown         : {res['model_breakdown']}")
     print(f"Local Output            : {res['local_path']}")
     print(f"Desktop Output          : {res['desktop_path']}")
-    print("\n[SUCCESS] Adaptation workbook created successfully!")
+
+    # Immediate post-generation validation
+    print("\nRunning deterministic formula validation check on generated workbook...")
+    val_res = validate_adaptation_workbook_formulas(Path(args.out))
+    print(f"Formulas Checked        : {val_res['total_formulas_checked']}")
+    print(f"Formula Violations      : {val_res['violations_count']}")
+    print(f"Formula Compliance      : {'100% PASS' if val_res['is_valid'] else 'FAIL'}")
+
+    print("\n[SUCCESS] Adaptation workbook created and validated successfully!")
 
 
 if __name__ == "__main__":

@@ -58,23 +58,38 @@ class TestAdaptationWorkbook(unittest.TestCase):
         self.assertEqual(models, {"gap", "single_choice", "multiple_choice"})
 
     def test_02_formula_construction_invariants(self):
-        """Verify model-tailored Gemini formulas contain core answer preservation and JSON instructions."""
+        """Verify model-tailored Gemini formulas use top-level =GEMINI without wrappers (TASK-013A)."""
         # Gap formula
         gap_formula = build_gemini_formula(10, "gap")
-        self.assertTrue(gap_formula.startswith('=IFERROR(GEMINI('))
+        self.assertTrue(gap_formula.startswith("=GEMINI("), "Must start with '=GEMINI('")
+        self.assertTrue(gap_formula.endswith(")"), "Must end with ')'")
+        self.assertNotIn("IFERROR", gap_formula)
+        self.assertNotIn("IF(", gap_formula)
+        self.assertNotIn("IFS(", gap_formula)
+        self.assertNotIn("SWITCH(", gap_formula)
         self.assertIn("TARGET ANSWER(S) TO PRESERVE", gap_formula)
         self.assertIn("adapted_text", gap_formula)
         self.assertIn("gaps", gap_formula)
 
         # Single choice formula
         sc_formula = build_gemini_formula(15, "single_choice")
-        self.assertTrue(sc_formula.startswith('=IFERROR(GEMINI('))
+        self.assertTrue(sc_formula.startswith("=GEMINI("), "Must start with '=GEMINI('")
+        self.assertTrue(sc_formula.endswith(")"), "Must end with ')'")
+        self.assertNotIn("IFERROR", sc_formula)
+        self.assertNotIn("IF(", sc_formula)
+        self.assertNotIn("IFS(", sc_formula)
+        self.assertNotIn("SWITCH(", sc_formula)
         self.assertIn("TARGET CORRECT ANSWER", sc_formula)
         self.assertIn("options", sc_formula)
 
         # Multiple choice formula
         mc_formula = build_gemini_formula(20, "multiple_choice")
-        self.assertTrue(mc_formula.startswith('=IFERROR(GEMINI('))
+        self.assertTrue(mc_formula.startswith("=GEMINI("), "Must start with '=GEMINI('")
+        self.assertTrue(mc_formula.endswith(")"), "Must end with ')'")
+        self.assertNotIn("IFERROR", mc_formula)
+        self.assertNotIn("IF(", mc_formula)
+        self.assertNotIn("IFS(", mc_formula)
+        self.assertNotIn("SWITCH(", mc_formula)
         self.assertIn("TARGET CORRECT ANSWERS", mc_formula)
         self.assertIn("TWO correct answers", mc_formula)
 
@@ -114,6 +129,44 @@ class TestAdaptationWorkbook(unittest.TestCase):
         self.assertEqual(stats["total_rows_read"], 5571)
         self.assertEqual(stats["processed_count"], 0)
         self.assertEqual(stats["skipped_empty_value"], 5571)
+
+    def test_06_deterministic_formula_validator_rejection(self):
+        """Assert deterministic validation strictly rejects any wrapper around GEMINI (TASK-013A)."""
+        from pipeline.adaptation.adaptation_workbook_builder import validate_formula_compatibility
+
+        # Valid top-level GEMINI
+        ok, err = validate_formula_compatibility('=GEMINI("Prompt text")')
+        self.assertTrue(ok)
+        self.assertIsNone(err)
+
+        # Rejected wrapper: IFERROR(GEMINI
+        ok, err = validate_formula_compatibility('=IFERROR(GEMINI("Prompt"), "")')
+        self.assertFalse(ok)
+        self.assertIn("IFERROR", err)
+
+        # Rejected wrapper: IF(GEMINI
+        ok, err = validate_formula_compatibility('=IF(GEMINI("Prompt"), 1, 0)')
+        self.assertFalse(ok)
+        self.assertIn("IF", err)
+
+        # Rejected wrapper: IFS(GEMINI
+        ok, err = validate_formula_compatibility('=IFS(A1=1, GEMINI("Prompt"))')
+        self.assertFalse(ok)
+        self.assertIn("IFS", err)
+
+        # Rejected wrapper: SWITCH(GEMINI
+        ok, err = validate_formula_compatibility('=SWITCH(A1, 1, GEMINI("Prompt"))')
+        self.assertFalse(ok)
+        self.assertIn("SWITCH", err)
+
+    def test_07_all_workbook_formulas_strictly_compliant(self):
+        """Assert 100% of the 5,571 formulas in the workbook are top-level =GEMINI without wrappers."""
+        from pipeline.adaptation.adaptation_workbook_builder import validate_adaptation_workbook_formulas
+
+        val_res = validate_adaptation_workbook_formulas(LOCAL_OUTPUT)
+        self.assertTrue(val_res["is_valid"], f"Violations found: {val_res['violations'][:5]}")
+        self.assertEqual(val_res["total_formulas_checked"], 5571)
+        self.assertEqual(val_res["violations_count"], 0)
 
 
 if __name__ == "__main__":
