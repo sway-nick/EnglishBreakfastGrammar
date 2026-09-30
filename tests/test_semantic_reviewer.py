@@ -82,26 +82,26 @@ class TestSemanticReviewer(unittest.TestCase):
                 self.assertFalse(all_checks_true, f"QID {item['source_question_id']} marked REVISE but all checks are True")
 
     def test_sqlite_table_persistence(self):
-        """Assert separate SQLite review table is created and populated with 34 rows."""
+        """Assert separate SQLite review table contains the 34 pilot review rows."""
         conn = sqlite3.connect(REPO_ROOT / DEFAULT_ADAPTATION_DB)
         c = conn.cursor()
-        count = c.execute("SELECT COUNT(*) FROM pilot_semantic_reviews").fetchone()[0]
+        count = c.execute("SELECT COUNT(*) FROM pilot_semantic_reviews WHERE sample_group IN ('REVIEW_REQUIRED', 'VALIDATED_CONTROL')").fetchone()[0]
         self.assertEqual(count, 34)
 
         # Check column values
-        row = c.execute("SELECT source_question_id, decision, reviewer_model FROM pilot_semantic_reviews LIMIT 1").fetchone()
+        row = c.execute("SELECT source_question_id, decision, reviewer_model FROM pilot_semantic_reviews WHERE sample_group IN ('REVIEW_REQUIRED', 'VALIDATED_CONTROL') LIMIT 1").fetchone()
         self.assertTrue(bool(row[0]))
         self.assertIn(row[1], ["APPROVE", "REVISE", "REJECT"])
         self.assertEqual(row[2], "semantic-reviewer-expert-v1")
         conn.close()
 
     def test_adaptation_records_counts(self):
-        """Assert adaptation records in adapted_questions reflect synchronized pilot status (188 VALIDATED, 12 REVIEW_REQUIRED, 0 APPROVED)."""
+        """Assert adaptation records in adapted_questions reflect reconciled pilot status (200 VALIDATED, 0 REVIEW_REQUIRED, 0 APPROVED)."""
         conn = sqlite3.connect(REPO_ROOT / DEFAULT_ADAPTATION_DB)
         c = conn.cursor()
         statuses = dict(c.execute("SELECT adaptation_status, COUNT(*) FROM adapted_questions WHERE adapted_by IN ('pilot_generator', 'pilot_revision_TASK-011H') GROUP BY adaptation_status").fetchall())
-        self.assertEqual(statuses.get("VALIDATED"), 188)
-        self.assertEqual(statuses.get("REVIEW_REQUIRED"), 12)
+        self.assertEqual(statuses.get("VALIDATED"), 200)
+        self.assertIsNone(statuses.get("REVIEW_REQUIRED"))
         self.assertEqual(statuses.get("APPROVED"), None)
         conn.close()
 

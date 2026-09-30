@@ -54,11 +54,11 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-Automatic status flow finalized and verified under TASK-012A: Human review eliminated from routine adaptation; AI semantic review handles review resolution (`APPROVE` -> `VALIDATED`, `REVISE` -> `REVIEW_REQUIRED`, `REJECT` -> `REJECTED`). Full-corpus orchestrator (`pipeline/adaptation/full_corpus_orchestrator.py`) dry run resolved to 25 VALIDATED, 0 REVIEW_REQUIRED, 0 REJECTED with 100% answer preservation and Preview Gate PASSED. Ready for full-corpus production batches (TASK-013).
+Pilot review status reconciled under TASK-012B: All 12 pilot questions with persisted AI semantic review APPROVE decisions have been transitioned to VALIDATED (`review_required = 0`) across questions, child gaps, options, exercises, and lessons. Pilot distribution is 200 VALIDATED, 0 REVIEW_REQUIRED, 0 REJECTED. Global adaptation queue holds: 5,571 PENDING, 225 VALIDATED (200 pilot + 25 dry run), 0 REVIEW_REQUIRED, 0 REJECTED (Total = 5,796). Production pipeline is fully synchronized and ready for full-corpus production batches (TASK-013).
 
 ## CURRENT TASK
 
-TASK-012A — Finalize Automatic AI-Review Status Flow.
+TASK-012B — Reconcile Pilot Review Status Before Production.
 
 Status: completed
 
@@ -68,7 +68,7 @@ TASK-013 — Full-Corpus Adaptation Batch Generation (Production batches for rem
 
 ## OPEN ISSUES
 
-None. Staging corpus (5,796 questions) is 100% immutable and intact. Adaptation database holds 5,796 questions: 5,571 PENDING, 12 REVIEW_REQUIRED (pilot baseline), 213 VALIDATED (188 pilot + 25 dry run), 0 REJECTED. Automatic AI review status flow and Preview Gate verified. Full test suite (99 Python tests + 24 JS tests = 123 total) passing.
+None. Staging corpus (5,796 questions) is 100% immutable and intact. Adaptation database holds 5,796 questions: 5,571 PENDING, 0 REVIEW_REQUIRED, 225 VALIDATED (200 pilot + 25 dry run), 0 REJECTED. Automatic AI review status flow and Preview Gate verified. Full test suite (99 Python tests + 24 JS tests = 123 total) passing.
 
 ## RESOLVED ISSUES
 

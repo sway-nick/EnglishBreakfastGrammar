@@ -9,7 +9,7 @@ Tests:
 5. Status transitions (VALIDATED, REVIEW_REQUIRED, REJECTED)
 6. Retry handling and failure isolation
 7. Selective AI review & control sampling across response models
-8. Pilot status synchronization (188 VALIDATED, 12 REVIEW_REQUIRED)
+8. Pilot status synchronization (200 VALIDATED, 0 REVIEW_REQUIRED)
 """
 
 from __future__ import annotations
@@ -46,14 +46,14 @@ class TestFullCorpusOrchestrator(unittest.TestCase):
         cls.orchestrator = FullCorpusOrchestrator(cls.adapt_db, cls.staging_db)
 
     def test_01_pilot_status_synchronization(self):
-        """Verify that pilot status synchronization produces exact 188 VALIDATED, 12 REVIEW_REQUIRED split."""
+        """Verify that pilot status synchronization produces exact 200 VALIDATED, 0 REVIEW_REQUIRED reconciliation."""
         conn = sqlite3.connect(self.adapt_db)
         try:
             # Run synchronization
             sync_res = sync_pilot_statuses(self.adapt_db)
             self.assertEqual(sync_res["total_pilot_questions"], 200)
-            self.assertEqual(sync_res["status_distribution"]["VALIDATED"], 188)
-            self.assertEqual(sync_res["status_distribution"]["REVIEW_REQUIRED"], 12)
+            self.assertEqual(sync_res["status_distribution"]["VALIDATED"], 200)
+            self.assertEqual(sync_res["status_distribution"]["REVIEW_REQUIRED"], 0)
             self.assertEqual(sync_res["status_distribution"]["REJECTED"], 0)
 
             # Query database directly to assert persisted counts
@@ -66,8 +66,8 @@ class TestFullCorpusOrchestrator(unittest.TestCase):
                 """
             ).fetchall()
             status_map = dict(pilot_qids_res)
-            self.assertEqual(status_map.get("VALIDATED"), 188)
-            self.assertEqual(status_map.get("REVIEW_REQUIRED"), 12)
+            self.assertEqual(status_map.get("VALIDATED"), 200)
+            self.assertIsNone(status_map.get("REVIEW_REQUIRED"))
             self.assertIsNone(status_map.get("REJECTED"))
         finally:
             conn.close()

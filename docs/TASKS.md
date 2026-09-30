@@ -6,7 +6,7 @@ trigger: always_on
 
 ## CURRENT TASK
 
-TASK-012A — Finalize Automatic AI-Review Status Flow
+TASK-012B — Reconcile Pilot Review Status Before Production
 
 Status: completed
 
@@ -16,11 +16,32 @@ TASK-013 — Full-Corpus Adaptation Batch Generation (Production batches for rem
 
 ## OBJECTIVE
 
-Automatic status flow finalized and verified: Human review is eliminated from routine adaptation. AI semantic review is the review mechanism: Deterministic PASS -> VALIDATED; Deterministic REVIEW_REQUIRED + AI APPROVE -> VALIDATED; Deterministic REVIEW_REQUIRED + AI REVISE -> REVIEW_REQUIRED; Deterministic REVIEW_REQUIRED + AI REJECT -> REJECTED. APPROVED is optional editorial only. Dry-run questions resolved to 25 VALIDATED, 0 REVIEW_REQUIRED, 0 REJECTED with 100% answer preservation. All 99 Python unit tests and 24 Jest tests passing.
+Pilot review status reconciled and verified: All 12 remaining pilot questions with persisted AI semantic review APPROVE decisions have been transitioned to VALIDATED (`review_required = 0`) across questions, child gaps, options, exercises, and lessons. Pilot distribution is 200 VALIDATED, 0 REVIEW_REQUIRED, 0 REJECTED. Global adaptation queue is 5,571 PENDING, 225 VALIDATED (200 pilot + 25 dry run), 0 REVIEW_REQUIRED, 0 REJECTED (Total = 5,796). Production pipeline is fully synchronized and ready for production batches (TASK-013). All 99 Python unit tests and 24 Jest tests passing.
 
 ---
 
 ## COMPLETED RECENT TASKS
+
+### TASK-012B — Reconcile Pilot Review Status Before Production
+Status: completed
+- **Persisted AI Decision Verification**:
+  * Inspected all 12 remaining pilot `REVIEW_REQUIRED` questions in `data/adaptation.db` against `pilot_semantic_reviews`.
+  * Verified that all 12 questions already had genuine persisted `APPROVE` review records from `semantic-reviewer-expert-v1` (with detailed pedagogical reasons). Zero results were invented or assumed.
+- **Pilot Synchronizer Modernization**:
+  * Updated `pipeline/adaptation/pilot_sync.py` to utilize `resolve_status_with_ai_review()` from `pipeline/adaptation/full_corpus_orchestrator.py`.
+  * Executed synchronization across `adapted_questions`, `adapted_gaps`, `adapted_options`, `adapted_exercises`, and `adapted_lessons`.
+  * Reconciled pilot distribution: 200 VALIDATED, 0 REVIEW_REQUIRED, 0 REJECTED.
+- **Queue Reconciliation**:
+  * Total questions: 5,796
+  * PENDING: 5,571 (100% untouched)
+  * VALIDATED: 225 (200 pilot + 25 dry run)
+  * REVIEW_REQUIRED: 0
+  * REJECTED: 0
+- **Regression & Integrity Hardening**:
+  * Hardened `pipeline/adaptation/semantic_reviewer.py` to delete only pilot cohort records (`WHERE sample_group IN ('REVIEW_REQUIRED', 'VALIDATED_CONTROL')`) without deleting dry-run evaluation records.
+  * Hardened `pipeline/adaptation/review_report_builder.py` against `ZeroDivisionError` when `review_required == 0`.
+  * Updated `tests/test_full_corpus_orchestrator.py` and `tests/test_semantic_reviewer.py` to assert the reconciled 200/0 pilot distribution.
+  * Ran full verification: DB foreign key integrity PASS (0 violations), 99/99 Python tests PASS, 24/24 Jest tests PASS.
 
 ### TASK-012A — Finalize Automatic AI-Review Status Flow
 Status: completed

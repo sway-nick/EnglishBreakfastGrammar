@@ -24,6 +24,7 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from pipeline.adaptation.adaptation_db import get_connection, verify_integrity
+from pipeline.adaptation.full_corpus_orchestrator import resolve_status_with_ai_review
 from pipeline.adaptation.pilot_data import PILOT_DATA
 from pipeline.adaptation.similarity_evaluator import evaluate_similarity
 
@@ -94,11 +95,12 @@ def sync_pilot_statuses(
             tt = target_tokens_map.get(sqid, [])
             sim = evaluate_similarity(q["source_text"], q["adapted_text"], target_tokens=tt)
 
-            status = sim["originality_status"]
-            if status == "APPROVED":
-                status = "VALIDATED"
+            orig_status = sim["originality_status"]
+            if orig_status == "APPROVED":
+                orig_status = "VALIDATED"
 
-            rev_req = 1 if status == "REVIEW_REQUIRED" else 0
+            sem_decision = sem_reviews.get(sqid, {}).get("decision")
+            status, rev_req = resolve_status_with_ai_review(orig_status, sem_decision)
             sync_counts[status] = sync_counts.get(status, 0) + 1
 
             notes_parts = list(sim["reasons"])

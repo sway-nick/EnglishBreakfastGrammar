@@ -468,8 +468,8 @@ def run_semantic_review(
     summary_by_group: Dict[str, Dict[str, int]] = {}
 
     with adapt_conn:
-        # Clear previous run results in review table if any
-        adapt_conn.execute("DELETE FROM pilot_semantic_reviews;")
+        # Clear previous run results for pilot cohort in review table if any
+        adapt_conn.execute("DELETE FROM pilot_semantic_reviews WHERE sample_group IN ('REVIEW_REQUIRED', 'VALIDATED_CONTROL');")
 
         for it, group_name in sample_34:
             sqid = it["source_question_id"]

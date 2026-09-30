@@ -425,17 +425,23 @@ def write_summary_sheet(ws: openpyxl.worksheet.worksheet.Worksheet, stats: Dict[
     ws.row_dimensions[current_row].height = 24
     current_row += 1
 
+    rev_req_total = stats["review_required"]
+    lev_cnt = stats["reasons_grouped"]["Normalized Levenshtein similarity >= 0.45"]
+    jac_cnt = stats["reasons_grouped"]["Jaccard token similarity in review zone (0.40 < J <= 0.50)"]
+    lev_pct = f"{lev_cnt / rev_req_total:.1%}" if rev_req_total > 0 else "0.0%"
+    jac_pct = f"{jac_cnt / rev_req_total:.1%}" if rev_req_total > 0 else "0.0%"
+
     reasons_rows = [
         (
             "Normalized Levenshtein similarity >= 0.45",
-            stats["reasons_grouped"]["Normalized Levenshtein similarity >= 0.45"],
-            f"{stats['reasons_grouped']['Normalized Levenshtein similarity >= 0.45'] / stats['review_required']:.1%}",
+            lev_cnt,
+            lev_pct,
             "Short sentences & formulaic prompts (Levenshtein edit ratio sensitive to sentence length).",
         ),
         (
             "Jaccard token similarity in review zone (0.40 < J <= 0.50)",
-            stats["reasons_grouped"]["Jaccard token similarity in review zone (0.40 < J <= 0.50)"],
-            f"{stats['reasons_grouped']['Jaccard token similarity in review zone (0.40 < J <= 0.50)'] / stats['review_required']:.1%}",
+            jac_cnt,
+            jac_pct,
             "Short morphological pairs (e.g. 'one foot ⇒ two feet' vs 'one tooth ⇒ two teeth').",
         ),
         (
