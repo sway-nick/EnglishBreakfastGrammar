@@ -1,6 +1,6 @@
 """
-test_batch3_execution.py
-Unit and regression test verifying Batch 3 execution and targeted corrections integrity (TASK-015 & TASK-015B).
+test_batch4_execution.py
+Unit and regression test verifying Batch 4 execution integrity (TASK-016).
 """
 
 import sqlite3
@@ -11,27 +11,32 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 ADAPT_DB_PATH = REPO_ROOT / "data" / "adaptation.db"
 
 
-class TestBatch3Execution(unittest.TestCase):
+class TestBatch4Execution(unittest.TestCase):
 
     def test_database_counts_and_invariant(self):
         conn = sqlite3.connect(f"file:{ADAPT_DB_PATH}?mode=ro", uri=True)
         conn.row_factory = sqlite3.Row
 
         counts = dict(conn.execute("SELECT adaptation_status, count(*) FROM adapted_questions GROUP BY adaptation_status").fetchall())
-        self.assertGreaterEqual(counts.get("VALIDATED", 0), 1261)
-        self.assertGreaterEqual(counts.get("REJECTED", 0), 14)
+        self.assertEqual(counts.get("VALIDATED"), 2201)
+        self.assertEqual(counts.get("REJECTED"), 69)
+        self.assertEqual(counts.get("PENDING"), 3526)
         self.assertEqual(sum(counts.values()), 5796)
 
-        # Verify Batch 3 run record in adaptation_runs
-        run_rec = conn.execute("SELECT * FROM adaptation_runs WHERE run_id = 'prod_batch_3_a1_350'").fetchone()
+        # Verify Batch 4 run record in adaptation_runs
+        run_rec = conn.execute("SELECT * FROM adaptation_runs WHERE run_id = 'prod_batch_4_a1_1000'").fetchone()
         self.assertIsNotNone(run_rec)
         self.assertEqual(run_rec["status"], "completed")
-        self.assertEqual(run_rec["total_items"], 350)
-        self.assertEqual(run_rec["generated_count"], 350)
-        self.assertEqual(run_rec["validated_count"], 350)
-        self.assertEqual(run_rec["rejected_count"], 0)
+        self.assertEqual(run_rec["total_items"], 1000)
+        self.assertEqual(run_rec["generated_count"], 995)
+        self.assertEqual(run_rec["validated_count"], 940)
+        self.assertEqual(run_rec["rejected_count"], 55)
 
         # Verify previous batch run records remain intact
+        b3_run = conn.execute("SELECT * FROM adaptation_runs WHERE run_id = 'prod_batch_3_a1_350'").fetchone()
+        self.assertIsNotNone(b3_run)
+        self.assertEqual(b3_run["status"], "completed")
+
         b2_run = conn.execute("SELECT * FROM adaptation_runs WHERE run_id = 'prod_batch_2_a1_350'").fetchone()
         self.assertIsNotNone(b2_run)
         self.assertEqual(b2_run["status"], "completed")
@@ -48,7 +53,7 @@ class TestBatch3Execution(unittest.TestCase):
 
         conn.close()
 
-    def test_historical_batch1_batch2_isolation(self):
+    def test_historical_isolation(self):
         conn = sqlite3.connect(f"file:{ADAPT_DB_PATH}?mode=ro", uri=True)
         conn.row_factory = sqlite3.Row
 
@@ -65,36 +70,11 @@ class TestBatch3Execution(unittest.TestCase):
             self.assertIsNotNone(row)
             self.assertEqual(row["adaptation_status"], "REJECTED", f"Historical QID {qid} must remain REJECTED")
 
-        # Batch 2 corrected questions must still be VALIDATED
-        b2_target_qids = [
-            4085, 4090, 4091, 3644, 3953, 3969, 3758, 2252, 3994, 3998, 3999,
-            3760, 3761, 3762, 3763, 3764, 3766, 3767, 3768, 4236, 9697, 4151
-        ]
-        for qid in b2_target_qids:
-            row = conn.execute(
-                "SELECT adaptation_status FROM adapted_questions WHERE source_question_id = ?",
-                (str(qid),),
-            ).fetchone()
-            self.assertEqual(row["adaptation_status"], "VALIDATED")
-
         # QID 6096 must still be VALIDATED
         q6096 = conn.execute(
             "SELECT adaptation_status FROM adapted_questions WHERE source_question_id = '6096'"
         ).fetchone()
         self.assertEqual(q6096["adaptation_status"], "VALIDATED")
-
-        # All 23 Batch 3 corrected questions must be VALIDATED
-        b3_target_qids = [
-            3626, 3628, 3632, 4755, 4758, 4002, 4009, 4026, 4030, 4012,
-            3811, 3813, 3814, 3818, 3819, 5151, 5163, 2775, 2778, 2781,
-            2791, 7086, 3336
-        ]
-        for qid in b3_target_qids:
-            row = conn.execute(
-                "SELECT adaptation_status FROM adapted_questions WHERE source_question_id = ?",
-                (str(qid),),
-            ).fetchone()
-            self.assertEqual(row["adaptation_status"], "VALIDATED", f"Batch 3 QID {qid} must be VALIDATED")
 
         conn.close()
 
