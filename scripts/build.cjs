@@ -32,9 +32,10 @@ function build() {
     console.log(`🔍 Verified catalog: ${catalog.levels.length} levels, ${catalog.lessons.length} lessons.`);
   }
 
-  // 2. Sync root-level web app files if needed
+  // 2. Sync root-level web app files from frontend/ to root
   const rootFilesToSync = [
     'index.html',
+    'app.js',
     'favicon.ico',
     'favicon.svg',
     'manifest.json',
@@ -48,7 +49,12 @@ function build() {
     }
   });
 
-  console.log('✅ Build successful! Frontend assets ready.');
+  // 3. Sync frontend components, services, assets to root for root-based hosting (e.g. GitHub Pages)
+  copyRecursiveSync(path.join(__dirname, '../frontend/components'), path.join(__dirname, '../components'));
+  copyRecursiveSync(path.join(__dirname, '../frontend/services'), path.join(__dirname, '../services'));
+  copyRecursiveSync(path.join(__dirname, '../frontend/assets'), path.join(__dirname, '../assets'));
+
+  console.log('✅ Build successful! Single source of truth (frontend/) synchronized to root and assets.');
 }
 
 build();

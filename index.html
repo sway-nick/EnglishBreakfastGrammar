@@ -30,6 +30,13 @@
           }, 350);
         }
       };
+
+      // Safety fallback: auto-hide splash after 1 second if app took too long
+      setTimeout(function() {
+        if (window.hideAppSplashScreen) {
+          window.hideAppSplashScreen();
+        }
+      }, 1000);
     </script>
   </head>
 
@@ -61,7 +68,7 @@
           English <span style="color: #22c55e;">Breakfast</span>
         </div>
         <div style="font-size: 13px; font-weight: 700; color: #64748b; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.5px;">
-          Grammar Master
+          Grammar
         </div>
         <div style="margin-top: 24px; width: 140px; height: 4px; background: #e2e8f0; border-radius: 4px; overflow: hidden;">
           <div style="width: 50%; height: 100%; background: #22c55e; border-radius: 4px; animation: splashLoading 1s ease-in-out infinite;"></div>
