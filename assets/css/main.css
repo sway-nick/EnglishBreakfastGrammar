@@ -332,98 +332,82 @@ html, body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  padding: 4px 0 16px 0;
 }
 
 .level-card {
-  background: var(--card-bg);
-  border: 1.5px solid var(--border-color);
-  border-radius: var(--radius-lg);
-  padding: 14px 12px;
-  cursor: pointer;
   position: relative;
+  aspect-ratio: 331 / 253;
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  border: 1.5px solid rgba(148, 163, 184, 0.35);
+  cursor: pointer;
   overflow: hidden;
-  transition: transform 0.12s ease, border-color 0.12s ease, box-shadow 0.12s ease;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.1);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.12s ease, border-color 0.12s ease;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 110px;
+  justify-content: flex-end;
+  padding: 0;
   box-sizing: border-box;
+}
+
+.dark-theme .level-card {
+  border-color: #334155;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
 }
 
 .level-card:hover {
   transform: translateY(-2px);
-  border-color: var(--primary-color);
-  box-shadow: var(--shadow-md);
+  filter: brightness(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+  border-color: var(--primary-color, #22c55e);
 }
 
 .level-card:active {
   transform: translateY(1px);
+  filter: brightness(0.97);
 }
 
-.level-card-top {
+/* Placard banner positioned at the bottom */
+.level-card-placard {
+  margin: 0 16% 5.2% 7.2%;
+  background: rgba(254, 249, 231, 0.94);
+  border: 1.5px solid #854d0e;
+  border-radius: 6px;
+  padding: 3px 4px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.18), inset 0 1px 1px rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(1.5px);
+  box-sizing: border-box;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  margin-bottom: 8px;
+  justify-content: center;
+  min-height: 25px;
 }
 
-.level-badge {
-  font-size: 13px;
+.dark-theme .level-card-placard {
+  background: rgba(15, 23, 42, 0.92);
+  border-color: #f59e0b;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.level-card-placard span {
+  font-size: 12.5px;
   font-weight: 800;
-  padding: 3px 8px;
-  border-radius: 8px;
-  color: #ffffff;
-}
-
-.level-card-title {
-  font-size: 15px;
-  font-weight: 800;
-  color: var(--text-main);
-  margin-bottom: 12px;
-  line-height: 1.25;
-}
-
-.level-card-progress {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  margin-top: auto;
-}
-
-.progress-bar-bg {
-  width: 100%;
-  height: 6px;
-  background: var(--border-subtle);
-  border-radius: 6px;
+  color: #451a03;
+  line-height: 1.15;
+  white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: -0.2px;
 }
 
-.progress-bar-fill {
-  height: 100%;
-  background: var(--primary-color);
-  border-radius: 6px;
-  transition: width 0.3s ease;
-}
-
-.level-card-meta {
-  display: flex;
-  justify-content: space-between;
-  font-size: 11.5px;
-  font-weight: 700;
-  color: var(--text-muted);
-}
-
-.level-card-favorites {
-  border-color: rgba(245, 158, 11, 0.35);
-  background: linear-gradient(180deg, rgba(245, 158, 11, 0.05) 0%, var(--card-bg) 100%);
-}
-
-.dark-theme .level-card-favorites {
-  background: linear-gradient(180deg, rgba(245, 158, 11, 0.12) 0%, #1e293b 100%);
-  border-color: rgba(245, 158, 11, 0.4);
-}
-  color: var(--text-muted);
+.dark-theme .level-card-placard span {
+  color: #fef08a;
 }
 
 /* Lessons Grid */
