@@ -187,6 +187,19 @@ class App {
         return;
       }
 
+      // 11b. Toggle favorite in grammar rule
+      const favBtn = e.target.closest('#btn-toggle-favorite');
+      if (favBtn) {
+        const lessonId = favBtn.getAttribute('data-lesson-id');
+        if (lessonId) {
+          StorageService.toggleFavorite(lessonId);
+          const isFav = StorageService.isFavorite(lessonId);
+          favBtn.textContent = isFav ? '⭐' : '☆';
+          favBtn.style.color = isFav ? '#f59e0b' : 'var(--text-muted)';
+        }
+        return;
+      }
+
       // 12. Start Test action button
       if (e.target.closest('#btn-start-test-action')) {
         this.navigate('test', { lesson: this.state.currentLesson });

@@ -48,5 +48,28 @@ export const StorageService = {
 
   setUser(user) {
     localStorage.setItem('eb_grammar_user', JSON.stringify(user));
+  },
+
+  getFavorites() {
+    try {
+      return JSON.parse(localStorage.getItem('eb_grammar_favorites') || '[]');
+    } catch (e) {
+      return [];
+    }
+  },
+
+  toggleFavorite(lessonId) {
+    let favs = this.getFavorites();
+    if (favs.includes(lessonId)) {
+      favs = favs.filter(id => id !== lessonId);
+    } else {
+      favs.push(lessonId);
+    }
+    localStorage.setItem('eb_grammar_favorites', JSON.stringify(favs));
+    return favs;
+  },
+
+  isFavorite(lessonId) {
+    return this.getFavorites().includes(lessonId);
   }
 };

@@ -327,26 +327,28 @@ html, body {
   margin-top: 2px;
 }
 
-/* Level Grid Tiles */
+/* Level Grid (2 Tiles per row) */
 .level-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 
 .level-card {
   background: var(--card-bg);
-  border: 2px solid var(--border-color);
-  border-radius: var(--radius-xl);
-  padding: 18px;
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 14px 12px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 0.12s ease, border-color 0.12s ease, box-shadow 0.12s ease;
   box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 110px;
+  box-sizing: border-box;
 }
 
 .level-card:hover {
@@ -361,63 +363,66 @@ html, body {
 
 .level-card-top {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 8px;
 }
 
 .level-badge {
   font-size: 13px;
   font-weight: 800;
-  padding: 4px 10px;
-  border-radius: 10px;
+  padding: 3px 8px;
+  border-radius: 8px;
   color: #ffffff;
 }
 
-.level-icon {
-  font-size: 28px;
-}
-
 .level-card-title {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 800;
   color: var(--text-main);
-  margin-bottom: 4px;
-}
-
-.level-card-desc {
-  font-size: 13px;
-  color: var(--text-muted);
-  line-height: 1.4;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
+  line-height: 1.25;
 }
 
 .level-card-progress {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  margin-top: auto;
 }
 
 .progress-bar-bg {
   width: 100%;
-  height: 8px;
+  height: 6px;
   background: var(--border-subtle);
-  border-radius: 8px;
+  border-radius: 6px;
   overflow: hidden;
 }
 
 .progress-bar-fill {
   height: 100%;
   background: var(--primary-color);
-  border-radius: 8px;
+  border-radius: 6px;
   transition: width 0.3s ease;
 }
 
 .level-card-meta {
   display: flex;
   justify-content: space-between;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.level-card-favorites {
+  border-color: rgba(245, 158, 11, 0.35);
+  background: linear-gradient(180deg, rgba(245, 158, 11, 0.05) 0%, var(--card-bg) 100%);
+}
+
+.dark-theme .level-card-favorites {
+  background: linear-gradient(180deg, rgba(245, 158, 11, 0.12) 0%, #1e293b 100%);
+  border-color: rgba(245, 158, 11, 0.4);
+}
   color: var(--text-muted);
 }
 

@@ -1,8 +1,10 @@
 import { t } from '../services/i18n.js';
+import { StorageService } from '../services/storageService.js';
 
 export function renderGrammarRuleView(lesson) {
-  const theory = lesson.theory || {};
+  const theory = (lesson && lesson.theory) || {};
   const rules = theory.rules || [];
+  const isFav = StorageService.isFavorite(lesson.lesson_id);
 
   const rulesHtml = rules.map((r, idx) => {
     let tableHtml = '';
@@ -44,9 +46,12 @@ export function renderGrammarRuleView(lesson) {
 
   return `
     <div class="screen-view">
-      <div class="screen-header-nav">
+      <div class="screen-header-nav" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="back-btn" id="btn-back-to-lesson-list">
           ← ${t('back_to_lessons')}
+        </button>
+        <button id="btn-toggle-favorite" class="header-fav-btn" data-lesson-id="${lesson.lesson_id}" style="background: var(--bg-hover); border: 1px solid var(--border-color); border-radius: 50%; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; font-size: 20px; cursor: pointer; color: ${isFav ? '#f59e0b' : 'var(--text-muted)'};" title="Добавить в Избранное">
+          ${isFav ? '⭐' : '☆'}
         </button>
       </div>
 
