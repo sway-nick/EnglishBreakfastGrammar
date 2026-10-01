@@ -369,16 +369,16 @@ html, body {
 
 .level-card-image-wrap {
   width: 100%;
-  aspect-ratio: 350 / 260;
+  aspect-ratio: 319 / 240;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #1c1510;
+  background: var(--card-bg, #ffffff);
 }
 
 .dark-theme .level-card-image-wrap {
-  background: #120d09;
+  background: #1e293b;
 }
 
 .level-card-img {
