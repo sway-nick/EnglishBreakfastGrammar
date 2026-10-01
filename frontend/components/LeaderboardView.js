@@ -1,11 +1,23 @@
 import { t } from '../services/i18n.js';
 import { StorageService } from '../services/storageService.js';
+import { AuthService } from '../services/authService.js';
 
-let currentPeriod = 'week'; // 'week' or 'all'
+let currentPeriod = typeof localStorage !== 'undefined' ? (localStorage.getItem('eb_leaderboard_period') || 'week') : 'week'; // 'week' or 'all'
+
+function shouldShowSyncBadge() {
+  try {
+    const u = AuthService.getCurrentUser();
+    const isGuest = !u || !u.id || u.id === 'guest' || String(u.id).startsWith('guest_') || !u.email;
+    if (isGuest) return true;
+    return Boolean(window.__eb_sync_issue || (typeof sessionStorage !== 'undefined' && sessionStorage.getItem('eb_sync_issue') === '1'));
+  } catch (e) {
+    return true;
+  }
+}
 
 function getTimeUntilSundayEnd() {
   const now = new Date();
-  const day = now.getUTCDay();
+  const day = now.getUTCDay(); // 0 is Sunday, 1 is Monday... 6 is Saturday
   const daysUntilSunday = (7 - day) % 7;
   const targetEndMs = Date.UTC(
     now.getUTCFullYear(),
@@ -14,9 +26,16 @@ function getTimeUntilSundayEnd() {
     23, 59, 59, 999
   );
   const diffMs = Math.max(0, targetEndMs - now.getTime());
+
   const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
   const hours = Math.floor((diffMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  return { days, hours };
+  const mins = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+
+  return { days, hours, mins };
+}
+
+function formatLeaderboardXp(xp, period = 'week') {
+  return String(Math.round(Number(xp || 0)));
 }
 
 function escapeHtml(str) {
@@ -29,7 +48,16 @@ function escapeHtml(str) {
     .replace(/'/g, '&#39;');
 }
 
-function renderPodiumCard(player, rank) {
+function sanitizeAvatarUrl(url) {
+  if (!url || typeof url !== 'string') return '';
+  const trimmed = url.trim();
+  if (/^(https?:\/\/|\.\/|\/|assets\/|data:image\/)/i.test(trimmed)) {
+    return escapeHtml(trimmed);
+  }
+  return '';
+}
+
+function renderPodiumCard(player, rank, period = 'week') {
   if (!player) return '';
   let badgeIcon = '💎';
   let rankClass = 'rank-diamond';
@@ -45,11 +73,12 @@ function renderPodiumCard(player, rank) {
     rankClass = 'rank-bronze';
   }
 
-  const rawPlayerName = player.name || 'Student';
+  const rawAvatar = player.avatar || '';
+  const avatarSrc = sanitizeAvatarUrl(rawAvatar);
+  const rawPlayerName = (player && player.name != null) ? String(player.name) : (t('lead_student_default') || 'Student');
   const playerName = escapeHtml(rawPlayerName);
   const initial = escapeHtml(rawPlayerName.trim().charAt(0).toUpperCase() || '👤');
   const isMe = !!player.isCurrentUser;
-  const avatarSrc = player.avatar || '';
 
   return `
     <div class="podium-card ${rankClass} ${isMe ? 'is-me' : ''}">
@@ -70,6 +99,7 @@ function renderPodiumCard(player, rank) {
               <filter id="wreathGlow" x="-20%" y="-20%" width="140%" height="140%">
                 <feDropShadow dx="0" dy="0.8" stdDeviation="1.2" flood-color="#451a03" flood-opacity="0.55"/>
               </filter>
+
               <g id="laurel-pair">
                 <path d="M 50 91.5 C 55 93.5 60 91.5 62 86.5 C 60 83 54 84.5 50 89" fill="url(#laurelGoldGrad)" stroke="#92400e" stroke-width="0.5"/>
                 <path d="M 50 91.5 C 53.5 89.5 56 85 54 80.5 C 51.5 81 49 84.5 50 90" fill="url(#laurelGoldGrad)" stroke="#92400e" stroke-width="0.5"/>
@@ -82,6 +112,7 @@ function renderPodiumCard(player, rank) {
             <g filter="url(#wreathGlow)">
               <path d="M 50 91.5 A 41.5 41.5 0 0 1 39.5 10" stroke="url(#laurelGoldGrad)" stroke-width="1.6" stroke-linecap="round"/>
               <path d="M 50 91.5 A 41.5 41.5 0 0 0 60.5 10" stroke="url(#laurelGoldGrad)" stroke-width="1.6" stroke-linecap="round"/>
+              
               <use href="#laurel-pair" transform="rotate(-20 50 50)"/>
               <use href="#laurel-pair" transform="rotate(-44 50 50)"/>
               <use href="#laurel-pair" transform="rotate(-68 50 50)"/>
@@ -89,6 +120,7 @@ function renderPodiumCard(player, rank) {
               <use href="#laurel-pair" transform="rotate(-116 50 50)"/>
               <use href="#laurel-pair" transform="rotate(-140 50 50)"/>
               <use href="#laurel-tip" transform="rotate(-162 50 50)"/>
+
               <g transform="translate(100, 0) scale(-1, 1)">
                 <use href="#laurel-pair" transform="rotate(-20 50 50)"/>
                 <use href="#laurel-pair" transform="rotate(-44 50 50)"/>
@@ -98,6 +130,7 @@ function renderPodiumCard(player, rank) {
                 <use href="#laurel-pair" transform="rotate(-140 50 50)"/>
                 <use href="#laurel-tip" transform="rotate(-162 50 50)"/>
               </g>
+
               <path d="M 46.5 91.5 C 48 89.5 52 89.5 53.5 91.5 C 52 93.5 48 93.5 46.5 91.5 Z" fill="url(#laurelGoldGrad)" stroke="#92400e" stroke-width="0.5"/>
               <path d="M 48 92.5 L 45 96.5 L 47.5 95.5 L 49.5 92.5" fill="url(#laurelGoldGrad)"/>
               <path d="M 52 92.5 L 55 96.5 L 52.5 95.5 L 50.5 92.5" fill="url(#laurelGoldGrad)"/>
@@ -110,119 +143,215 @@ function renderPodiumCard(player, rank) {
         ${
           avatarSrc
             ? `<img src="${avatarSrc}" alt="${playerName}" class="podium-avatar-img" referrerpolicy="no-referrer" />`
-            : `<div class="podium-avatar-placeholder" style="background: ${player.avatarBg || '#3b82f6'};">${initial}</div>`
+            : `<div class="podium-avatar-placeholder">${initial}</div>`
         }
       </div>
       <div class="podium-info">
-        <h4 class="podium-name" style="display: flex; align-items: center; justify-content: center; gap: 4px;">
+        <h4 class="podium-name" style="display: flex; align-items: center; justify-content: center; gap: 5px;">
           <span>${playerName}</span>
-          ${isMe ? `<span class="sync-status-badge" style="position: relative; top: auto; right: auto; width: 7px; height: 7px;"></span>` : ''}
+          ${player.isCurrentUser && shouldShowSyncBadge() ? `<span class="sync-status-badge" style="position: relative; top: auto; right: auto;" title="Прогресс учтён локально. Войдите для обновления рейтинга"></span>` : ''}
         </h4>
-        <span class="podium-xp" style="color: #22c55e; font-weight: 800;">${player.xp} XP</span>
+        <span class="podium-xp">${formatLeaderboardXp(player.xp, period)} XP</span>
       </div>
     </div>
   `;
 }
 
-export function renderLeaderboardView() {
-  const currentXP = StorageService.getXP() || 0;
-  const weekTime = getTimeUntilSundayEnd();
+function buildLeaderboardBodyHtml(players, currentUser, period = 'week') {
+  const safePlayers = Array.isArray(players) ? players.filter(p => p && typeof p === 'object') : [];
+  
+  const top100 = safePlayers.slice(0, 100);
+  const top4 = top100.slice(0, 4);
+  const rest = top100.slice(4);
 
-  // Generic mock leaderboard participants
-  const top4Players = [
-    { id: '1', name: "Learner #1", xp: 1250, initial: "A", avatarBg: "#3b82f6" },
-    { id: '2', name: "Learner #2", xp: 980, initial: "B", avatarBg: "#10b981" },
-    { id: '3', name: "Learner #3", xp: 850, initial: "C", avatarBg: "#f59e0b" },
-    { id: '4', name: "Learner #4", xp: 720, initial: "D", avatarBg: "#8b5cf6" }
-  ];
-
-  const restPlayers = [
-    { rank: 5, name: "Learner #5", xp: 650, initial: "E", avatarBg: "#ec4899" },
-    { rank: 6, name: "Learner #6", xp: 590, initial: "F", avatarBg: "#6366f1" },
-    { rank: 7, name: "Learner #7", xp: 510, initial: "G", avatarBg: "#14b8a6" },
-    { rank: 8, name: "Learner #8", xp: 470, initial: "H", avatarBg: "#f97316" },
-    { rank: 9, name: "Learner #9", xp: 420, initial: "I", avatarBg: "#84cc16" },
-    { rank: 10, name: "Learner #10", xp: 380, initial: "J", avatarBg: "#06b6d4" },
-    { rank: 11, name: "Learner #11", xp: 340, initial: "K", avatarBg: "#a855f7" },
-    { rank: 12, name: "Learner #12", xp: 300, initial: "L", avatarBg: "#64748b" }
-  ];
+  const myRankIndex = safePlayers.findIndex((p) => p && p.isCurrentUser);
+  const myRank = myRankIndex >= 0 ? myRankIndex + 1 : 108;
+  const myPlayer = myRankIndex >= 0 ? safePlayers[myRankIndex] : { xp: StorageService.getXP() || 0, isCurrentUser: true };
 
   const podiumHtml = `
     <div class="podium-grid">
-      ${top4Players.map((p, idx) => renderPodiumCard(p, idx + 1)).join('')}
+      ${top4.map((p, idx) => renderPodiumCard(p, idx + 1, period)).join('')}
     </div>
   `;
 
-  const restHtml = restPlayers.map(p => {
-    const avatarImg = p.avatar ? `<img src="${p.avatar}" alt="${p.name}" class="row-avatar-img" />` : `<div class="row-avatar-placeholder" style="background: ${p.avatarBg || '#64748b'};">${p.initial || '👤'}</div>`;
-    return `
-      <div class="leaderboard-row">
-        <div class="row-rank">#${p.rank}</div>
-        <div class="row-avatar-wrapper">
-          ${avatarImg}
-        </div>
-        <div class="row-name">
-          <span>${escapeHtml(p.name)}</span>
-        </div>
-        <div class="row-xp" style="color: #22c55e; font-weight: 800;">${p.xp} XP</div>
+  let restListHtml = '';
+  if (rest.length > 0) {
+    restListHtml = `
+      <div class="leaderboard-table">
+        ${rest
+          .map((p, idx) => {
+            const rank = idx + 5;
+            const isMe = p.isCurrentUser;
+            const avatarSrc = sanitizeAvatarUrl(p.avatar || '');
+            const rawPName = (p && p.name != null) ? String(p.name) : (t('lead_student_default') || 'Student');
+            const pName = escapeHtml(rawPName);
+            const initial = escapeHtml(rawPName.trim().charAt(0).toUpperCase() || '👤');
+
+            return `
+            <div class="leaderboard-row ${isMe ? 'is-me' : ''}">
+              <div class="row-rank">#${rank}</div>
+              <div class="row-avatar-wrapper">
+                ${
+                  avatarSrc
+                    ? `<img src="${avatarSrc}" alt="${pName}" class="row-avatar-img" referrerpolicy="no-referrer" />`
+                    : `<div class="row-avatar-placeholder">${initial}</div>`
+                }
+              </div>
+              <div class="row-name" style="display: flex; align-items: center; gap: 6px;">
+                <span>${pName}</span>
+                ${isMe && shouldShowSyncBadge() ? `<span class="sync-status-badge" style="position: relative; top: auto; right: auto;" title="Прогресс учтён локально. Войдите для обновления рейтинга"></span>` : ''}
+              </div>
+              <div class="row-xp">${formatLeaderboardXp(p.xp, period)} XP</div>
+            </div>
+          `;
+          })
+          .join('')}
       </div>
     `;
-  }).join('');
+  }
 
-  const myStickyBar = `
-    <div class="my-leaderboard-bar" style="position: sticky; bottom: 20px; display: flex; justify-content: space-between; align-items: center; background: #0f172a; border: 1.5px solid #22c55e; border-radius: 16px; padding: 12px 14px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); z-index: 50; margin-top: 10px;">
-      <div style="display: flex; align-items: center; gap: 10px;">
-        <span class="my-rank-badge" style="background: #22c55e; color: #0f172a; font-weight: 800; font-size: 14px; padding: 3px 8px; border-radius: 6px;">#108</span>
-        <div class="my-bar-avatar-placeholder" style="width: 38px; height: 38px; border-radius: 50%; background: #3b82f6; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">Y</div>
-        <div>
-          <div class="my-bar-name" style="font-weight: 700; font-size: 14px; display: flex; align-items: center; gap: 6px; color: #f8fafc;">
-            <span>You (Guest)</span>
-            <span class="sync-status-badge" style="position: relative; top: auto; right: auto; width: 8px; height: 8px; background: #f97316; border-radius: 50%; display: inline-block;"></span>
-          </div>
-          <div class="my-bar-status" style="font-size: 11.5px; color: #ea580c; font-weight: 600; margin-top: 1px;">
-            ⚠️ Прогресс на телефоне. Войдите для облака
+  let myStickyBarHtml = '';
+  if (myPlayer) {
+    const myAvatar = sanitizeAvatarUrl(AuthService.getUserAvatar ? AuthService.getUserAvatar() : '');
+    const isIssue = shouldShowSyncBadge();
+    const statusText = isIssue
+      ? '⚠️ Прогресс на телефоне. Войдите для облака'
+      : (period === 'all'
+          ? (t('lead_score_all_time') || 'All time XP')
+          : (currentUser
+              ? (t('lead_score_current') || 'Weekly XP')
+              : (t('lead_login_to_save') || 'Log in to save progress')
+            ));
+    const rawMyName = (currentUser && currentUser.name != null) ? String(currentUser.name) : (t('lead_guest_name') || 'You (Guest)');
+    const myName = escapeHtml(rawMyName);
+    const myInitial = escapeHtml(rawMyName.trim().charAt(0).toUpperCase() || 'Y');
+    myStickyBarHtml = `
+      <div class="my-leaderboard-bar">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span class="my-rank-badge">#${myRank || '-'}</span>
+          ${
+            myAvatar
+              ? `<img src="${myAvatar}" class="my-bar-avatar" alt="Вы" referrerpolicy="no-referrer" />`
+              : `<div class="my-bar-avatar-placeholder">${myInitial}</div>`
+          }
+          <div>
+            <div class="my-bar-name" style="font-weight: 700; font-size: 14px; display: flex; align-items: center; gap: 6px;">
+              <span>${myName}</span>
+              ${isIssue ? `<span class="sync-status-badge" id="leaderboard-player-sync-badge" style="position: relative; top: auto; right: auto;" title="Прогресс учтён локально. Войдите для обновления рейтинга"></span>` : ''}
+            </div>
+            <div class="my-bar-status" style="font-size: 12px; color: ${isIssue ? '#ea580c' : 'var(--text-muted)'}; font-weight: ${isIssue ? '500' : 'normal'};">
+              ${statusText}
+            </div>
           </div>
         </div>
-      </div>
-      <div style="display: flex; align-items: center; gap: 12px;">
-        <div style="text-align: right;">
-          <div style="font-size: 14px; font-weight: 800; color: #22c55e; line-height: 1;">${currentXP}</div>
-          <div style="font-size: 11px; font-weight: 800; color: #22c55e; line-height: 1; margin-top: 2px;">XP</div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span class="my-bar-xp">${formatLeaderboardXp(myPlayer.xp, period)} XP</span>
+          ${
+            !currentUser || isIssue
+              ? `<button class="primary-button" id="leaderboard-login-btn" style="padding: 6px 14px; min-height: 34px; height: 34px; font-size: 13px;">${t('settings_login') || 'Log In'}</button>`
+              : ''
+          }
         </div>
-        <button class="primary-button" id="leaderboard-login-action" style="background: linear-gradient(180deg, #3b82f6 0%, #1d4ed8 100%); color: #fff; border: none; border-radius: 12px; padding: 8px 16px; font-weight: 700; font-size: 13.5px; cursor: pointer; box-shadow: 0 3px 10px rgba(37, 99, 235, 0.35);">Log In</button>
       </div>
-    </div>
-  `;
+    `;
+  }
 
-  return `
+  return {
+    podiumHtml,
+    restHtml: `${restListHtml}${myStickyBarHtml}`
+  };
+}
+
+export function renderLeaderboardView(containerSelector = '#app-content', options = {}) {
+  const currentUser = AuthService.getCurrentUser ? AuthService.getCurrentUser() : null;
+  const weekTime = getTimeUntilSundayEnd();
+
+  // Demo participant list (purely for structure / styling preview)
+  const defaultPlayers = [
+    { id: '1', name: "Learner #1", xp: 1250 },
+    { id: '2', name: "Learner #2", xp: 980 },
+    { id: '3', name: "Learner #3", xp: 850 },
+    { id: '4', name: "Learner #4", xp: 720 },
+    { id: '5', name: "Learner #5", xp: 650 },
+    { id: '6', name: "Learner #6", xp: 590 },
+    { id: '7', name: "Learner #7", xp: 510 },
+    { id: '8', name: "Learner #8", xp: 470 },
+    { id: '9', name: "Learner #9", xp: 420 },
+    { id: '10', name: "Learner #10", xp: 380 },
+    { id: '11', name: "Learner #11", xp: 340 },
+    { id: '12', name: "Learner #12", xp: 300 }
+  ];
+
+  const bodyData = buildLeaderboardBodyHtml(defaultPlayers, currentUser, currentPeriod);
+
+  const dText = t('lead_days_short') || 'd';
+  const hText = t('lead_hours_short') || 'h';
+
+  const html = `
     <div class="leaderboard-page" style="position: relative;">
-      <!-- Single Sticky Header Group (Header + 2x2 Podium) Flush to Mobile Header -->
+      <!-- Single Sticky Header Group (Header + Podium) Flush to Mobile Header -->
       <div class="leaderboard-sticky-group">
-        <div class="leaderboard-top-row" style="display: grid; grid-template-columns: 3fr 1fr; gap: 8px; margin-bottom: 8px;">
+        <div class="leaderboard-top-row ${currentPeriod === 'all' ? 'no-timer' : ''}">
           <div class="custom-dropdown" id="leaderboard-type-dropdown">
-            <button type="button" class="leaderboard-header-chip" id="leaderboard-type-trigger" style="display: flex; justify-content: space-between; align-items: center; width: 100%; height: 38px; padding: 0 12px; border-radius: 12px; background: var(--bg-hover); border: 1.5px solid var(--border-color); color: var(--text-main); font-weight: 800; font-size: 14px; cursor: pointer;">
-              <span>🏆 Weekly League</span>
-              <span style="font-size: 9px; margin-left: 6px;">▼</span>
+            <button type="button" class="leaderboard-header-chip leaderboard-dropdown-chip" id="leaderboard-type-trigger" aria-haspopup="listbox" aria-expanded="false">
+              <span id="leaderboard-type-label" style="white-space: nowrap; text-align: left; overflow: hidden; text-overflow: ellipsis;">${currentPeriod === 'all' ? '🌎 ' + (t('lead_all_time') || 'All Time') : (t('lead_title') || '🏆 Weekly League')}</span>
+              <span class="dropdown-arrow" style="font-size: 9px; flex-shrink: 0; margin-left: 6px; transition: transform 0.2s ease;">▼</span>
             </button>
+            <div class="custom-dropdown-menu" id="leaderboard-type-menu" role="listbox" style="z-index: 130; width: 100%; min-width: 190px;">
+              <div class="dropdown-item ${currentPeriod === 'week' ? 'selected' : ''}" data-value="week" style="white-space: nowrap;">${t('lead_title') || '🏆 Weekly League'}</div>
+              <div class="dropdown-item ${currentPeriod === 'all' ? 'selected' : ''}" data-value="all" style="white-space: nowrap;">🌎 ${t('lead_all_time') || 'All Time'}</div>
+            </div>
           </div>
-          <div class="leaderboard-header-chip leaderboard-timer-chip" id="leaderboard-timer-badge" style="display: flex; align-items: center; justify-content: center; gap: 4px; height: 38px; border-radius: 12px; background: var(--bg-hover); border: 1.5px solid var(--border-color); color: var(--text-main); font-weight: 700; font-size: 13.5px;">
-            <span>⏳</span>
-            <span>3d 2h</span>
+          ${currentPeriod === 'all' ? '' : `
+          <div class="leaderboard-header-chip leaderboard-timer-chip" id="leaderboard-timer-badge">
+            <span style="font-size: 13.5px; line-height: 1;">⏳</span>
+            <span>${weekTime.days > 0 ? `${weekTime.days}${dText} ` : ''}${weekTime.hours}${hText}</span>
           </div>
+          `}
         </div>
 
         <div id="leaderboard-podium-container">
-          ${podiumHtml}
+          ${bodyData.podiumHtml}
         </div>
       </div>
 
-      <!-- Scrollable Table -->
-      <div id="leaderboard-content" style="min-height: 280px; margin-top: 10px;">
-        <div class="leaderboard-table">
-          ${restHtml}
-        </div>
-        ${myStickyBar}
+      <!-- Scrollable Content -->
+      <div id="leaderboard-content" style="min-height: 280px;">
+        ${bodyData.restHtml}
       </div>
     </div>
   `;
+
+  return html;
+}
+
+export function initLeaderboardEvents() {
+  const typeDropdown = document.querySelector('#leaderboard-type-dropdown');
+  const typeTrigger = document.querySelector('#leaderboard-type-trigger');
+  const typeItems = document.querySelectorAll('#leaderboard-type-menu .dropdown-item');
+
+  if (typeTrigger && typeDropdown) {
+    typeTrigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      typeDropdown.classList.toggle('open');
+    });
+
+    typeItems.forEach((item) => {
+      item.addEventListener('click', (e) => {
+        e.stopPropagation();
+        currentPeriod = item.getAttribute('data-value');
+        localStorage.setItem('eb_leaderboard_period', currentPeriod);
+        typeDropdown.classList.remove('open');
+        const container = document.querySelector('#app-content');
+        if (container) {
+          container.innerHTML = renderLeaderboardView();
+          initLeaderboardEvents();
+        }
+      });
+    });
+
+    document.addEventListener('click', () => {
+      typeDropdown.classList.remove('open');
+    });
+  }
 }

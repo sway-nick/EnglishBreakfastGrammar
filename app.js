@@ -9,7 +9,7 @@ import { renderLessonList } from './components/LessonList.js';
 import { renderGrammarRuleView } from './components/GrammarRuleView.js';
 import { renderTestEngine } from './components/TestEngine.js';
 import { renderTestResultModal } from './components/TestResultModal.js';
-import { renderLeaderboardView } from './components/LeaderboardView.js';
+import { renderLeaderboardView, initLeaderboardEvents } from './components/LeaderboardView.js';
 
 class App {
   constructor() {
@@ -384,6 +384,10 @@ class App {
         ${drawerHtml}
       </div>
     `;
+
+    if (this.state.screen === 'leaderboard') {
+      initLeaderboardEvents();
+    }
   }
 }
 
