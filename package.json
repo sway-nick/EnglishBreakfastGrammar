@@ -7,6 +7,8 @@
     "parse": "node src/parser/cli.js",
     "validate": "node src/validation/cli.js",
     "preview": "node src/preview/server.js",
+    "build": "node scripts/build.cjs",
+    "serve": "node scripts/serve.js",
     "sheets:push": "node src/sheets/push.js",
     "sheets:pull": "node src/sheets/pull.js",
     "publish": "node src/publish/publish.js",

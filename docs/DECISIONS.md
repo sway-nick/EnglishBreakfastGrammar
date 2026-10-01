@@ -207,3 +207,42 @@ Rejected because it corrupts catalog integrity and creates silent data loss down
 ## Supersedes
 
 None.
+
+---
+
+# ADR-004: Dual-Queue Teacher Review & Deterministic Anomaly Resolution Architecture
+
+## Status
+
+accepted
+
+## Date
+
+2026-10-01
+
+## Context
+
+During adaptation auditing (TASK-020, TASK-021, TASK-025), automated algorithms flagged 78 potential anomalies (short carrier collisions, formulaic question headers, boundary shingles, and response model mismatches). At the same time, a full 5,796-question sequential teacher review was launched.
+
+We needed a clean architecture to:
+1. Fast-track and completely resolve all high-risk automated anomalies in a dedicated separate anomaly queue without polluting or interrupting the main sequential canonical review queue.
+2. Maintain persistent immutability for reviewed items (reviewed once = never rechecked unless content changes).
+3. Ensure human pedagogical judgment overrides machine false positives (e.g., standard formulaic frames like "Which sentence is..." are valid in grammar tests).
+
+## Decision
+
+1. **Dual-Queue Separation**:
+   - The **Anomaly Queue** acts as a high-priority diagnostic channel to clear all machine triggers across the entire corpus.
+   - The **Sequential Queue** traverses the full 5,796 questions in canonical curriculum order (level -> lesson -> exercise -> question) in batches of 50.
+2. **Persistent Registry Contract**:
+   - `data/reports/TEACHER_REVIEW_REGISTRY.json` and `TASK-025_full_teacher_review_queue.json` maintain persistent status (`REVIEWED_PASS`, `REVIEWED_FIX`, `FIX_APPLIED`, `PREPARED`, `UNREVIEWED`) and content SHA-256 hashes.
+   - Reviewed items are permanently locked and cannot appear in future review packets.
+3. **Pedagogical Validity over Pure Machine Distance**:
+   - Standard grammatical carrier frames (e.g., "Which sentence is correct?", "Could you tell me...") are valid when educational context and answer keys are sound.
+   - Valid items flagged by heuristic filters are affirmed as `REVIEWED_PASS` false positives without artificial wording degradation.
+
+## Consequences
+
+- 100% of all machine anomalies across all 5,796 questions are completely resolved (0 remaining).
+- Main sequential review queue operates deterministically without duplication or backlog confusion.
+- All database mutations are tracked with atomic SQLite transactions, SHA-256 integrity checks, and deterministic verification.

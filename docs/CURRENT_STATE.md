@@ -54,23 +54,25 @@ Configured:
 
 ## CURRENT OBJECTIVE
 
-TASK-013 in progress: Created full-corpus adaptation workbook `english_adaptation_gemini_5571.xlsx` (Desktop & local `data/adaptation/`) containing all 5,571 PENDING questions strictly partitioned level-by-level (A1: 866, A2: 1,134, B1: 1,133, B1-B2: 940, B2: 941, C1: 277, Shorts: 280) with model-tailored `=IFERROR(GEMINI(...), "")` formulas enforcing the Core Principle: preserve source correct answer. Implemented companion importer `pipeline/adaptation/import_adaptation_results.py` with multi-tier validation, Preview Gate, and atomic transaction safety. 104 Python tests + 24 JS tests = 128 total passing.
+Full-Corpus Teacher Review & Production Handoff: All 5,796 questions in adaptation database. 100% of all automated anomalies and suspicion triggers across the entire corpus have been evaluated, decided by HQ, and completely resolved (0 unreviewed anomalies remaining). 278 total questions reviewed and locked in `TEACHER_REVIEW_REGISTRY.json` (31 fixes applied and verified). Sequential queue ready with active packet `review_batch_0209_0272.json`.
 
 ## CURRENT TASK
 
-TASK-013 — Full-Corpus Adaptation Batch Generation (Production batches for remaining 5,571 PENDING questions).
+TASK-025 — Full 5,796-Question Teacher Review Execution (Sequential queue in progress; anomaly queue 100% completed).
 
-Status: in_progress (Workbook generated on Desktop, ready for Google Sheets evaluation and import).
+Status: in_progress (Batch `review_batch_0209_0272.json` prepared and awaiting review).
 
 ## NEXT TASK
 
-TASK-013 Completion — Evaluate workbook in Google Sheets by level (A1 -> A2 -> B1 -> B1-B2 -> B2 -> C1 -> Shorts), import evaluated values, and execute final Preview Gate.
+Continue sequential batches (50 questions per batch) from `TASK-025_full_teacher_review_queue.json`.
 
 ## OPEN ISSUES
 
-None. Staging corpus (5,796 questions) is 100% immutable and intact. Adaptation database holds 5,796 questions: 5,571 PENDING, 0 REVIEW_REQUIRED, 225 VALIDATED (200 pilot + 25 dry run), 0 REJECTED. Adaptation workbook generated on Desktop and verified. Full test suite (104 Python tests + 24 JS tests = 128 total) passing.
+None. Staging corpus (5,796 questions) is 100% immutable and intact. Adaptation database holds 5,796 questions: 0 unreviewed anomalies, 278 reviewed & locked (242 REVIEWED_PASS, 31 REVIEWED_FIX, 5 FIX_APPLIED), 50 PREPARED in active batch, 5,420 UNREVIEWED in sequential queue.
 
 ## RESOLVED ISSUES
+
+- **[ANOMALY-REVIEW-01]**: Resolved 2026-10-01. Full deep-scan anomaly sweep across all 5,796 questions completed with 100% HQ resolution (0 unreviewed anomalies remain). Applied 31 deterministic fixes, restored 2 false positives, and synchronized `TEACHER_REVIEW_REGISTRY.json` and `TASK-025_full_teacher_review_queue.json`. Documented in `docs/TEACHER_REVIEW_CHECKPOINT_2026-10-01.md`.
 
 - **[EXPORT-01]**: Resolved via TASK-010A. Full semantic and referential validation passed with 0 errors across 5,796 questions. Exported `english_cms_final_enriched.xlsx` and `universal_lessons_final_enriched.json` (local and Desktop). Passed `npm run cms:validate`, `npm run validate` (strict), Preview Gate (225/225 lessons), 43 Python tests, and 24 JS tests.
 - **[ENRICHMENT-02]**: Resolved via TASK-009D. Imported all 5,614 Gemini enrichment results into `data/staging.db` (`pipeline/staging/import_enrichment_results.py`, `npm run staging:import-results`). 0 unanswered questions, 0 unanswered gaps, 0 unanswered options remain in staging. Existing 182 checkpoint questions verified untouched.

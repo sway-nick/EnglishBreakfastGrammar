@@ -1,0 +1,152 @@
+const TRANSLATIONS = {
+  ru: {
+    app_title: "English Breakfast",
+    app_subtitle: "Grammar",
+    streak_label: "Серия",
+    xp_label: "Очки",
+    levels_title: "Уровни грамматики",
+    levels_subtitle: "Выберите ваш уровень для начала занятий",
+    lessons_title: "Уроки и темы",
+    lessons_count: "уроков",
+    questions_count: "вопросов",
+    back_to_levels: "Все уровни",
+    back_to_lessons: "К списку уроков",
+    status_new: "Новый",
+    status_completed: "Пройден",
+    read_rules: "Правила грамматики",
+    start_test: "Пройти тест",
+    check_answers: "Проверить ответы",
+    fill_all_answers: "Заполните все ответы перед проверкой",
+    test_completed: "Тест завершен!",
+    test_score: "Правильных ответов",
+    xp_earned: "Получено XP",
+    continue_btn: "Продолжить",
+    retry_btn: "Пройти снова",
+    leaderboard_title: "Рейтинг игроков",
+    leaderboard_weekly: "Недельный",
+    leaderboard_alltime: "За всё время",
+    theme_light: "Светлая тема",
+    theme_dark: "Темная тема",
+    login_btn: "Войти",
+    guest_user: "Гость",
+    settings: "Настройки",
+    language_select: "Язык интерфейса"
+  },
+  en: {
+    app_title: "English Breakfast",
+    app_subtitle: "Grammar",
+    streak_label: "Streak",
+    xp_label: "XP",
+    levels_title: "Grammar Levels",
+    levels_subtitle: "Choose your level to start learning",
+    lessons_title: "Lessons & Topics",
+    lessons_count: "lessons",
+    questions_count: "questions",
+    back_to_levels: "All Levels",
+    back_to_lessons: "Back to Lessons",
+    status_new: "New",
+    status_completed: "Completed",
+    read_rules: "Grammar Rules",
+    start_test: "Start Test",
+    check_answers: "Check Answers",
+    fill_all_answers: "Please answer all questions first",
+    test_completed: "Test Completed!",
+    test_score: "Accuracy Score",
+    xp_earned: "XP Earned",
+    continue_btn: "Continue",
+    retry_btn: "Try Again",
+    leaderboard_title: "Leaderboard",
+    leaderboard_weekly: "Weekly",
+    leaderboard_alltime: "All Time",
+    theme_light: "Light Theme",
+    theme_dark: "Dark Theme",
+    login_btn: "Log In",
+    guest_user: "Guest",
+    settings: "Settings",
+    language_select: "Interface Language"
+  },
+  uk: {
+    app_title: "English Breakfast",
+    app_subtitle: "Grammar",
+    streak_label: "Серія",
+    xp_label: "Бали",
+    levels_title: "Рівні граматики",
+    levels_subtitle: "Оберіть ваш рівень для початку навчання",
+    lessons_title: "Уроки та теми",
+    lessons_count: "уроків",
+    questions_count: "питань",
+    back_to_levels: "Всі рівні",
+    back_to_lessons: "До списку уроків",
+    status_new: "Новий",
+    status_completed: "Пройдено",
+    read_rules: "Правила граматики",
+    start_test: "Пройти тест",
+    check_answers: "Перевірити відповіді",
+    fill_all_answers: "Будь ласка, дайте відповіді на всі запитання",
+    test_completed: "Тест завершено!",
+    test_score: "Правильних відповідей",
+    xp_earned: "Отримано XP",
+    continue_btn: "Продовжити",
+    retry_btn: "Пройти знову",
+    leaderboard_title: "Рейтинг гравців",
+    leaderboard_weekly: "Тижневий",
+    leaderboard_alltime: "За весь час",
+    theme_light: "Світла тема",
+    theme_dark: "Темна тема",
+    login_btn: "Увійти",
+    guest_user: "Гість",
+    settings: "Налаштування",
+    language_select: "Мова інтерфейсу"
+  },
+  es: {
+    app_title: "English Breakfast",
+    app_subtitle: "Grammar",
+    streak_label: "Racha",
+    xp_label: "Puntos",
+    levels_title: "Niveles de Gramática",
+    levels_subtitle: "Elige tu nivel para comenzar a aprender",
+    lessons_title: "Lecciones y Temas",
+    lessons_count: "lecciones",
+    questions_count: "preguntas",
+    back_to_levels: "Todos los niveles",
+    back_to_lessons: "Volver a lecciones",
+    status_new: "Nuevo",
+    status_completed: "Completado",
+    read_rules: "Reglas gramaticales",
+    start_test: "Comenzar test",
+    check_answers: "Comprobar respuestas",
+    fill_all_answers: "Por favor responda a todas las preguntas",
+    test_completed: "¡Test completado!",
+    test_score: "Aciertos",
+    xp_earned: "XP Ganados",
+    continue_btn: "Continuar",
+    retry_btn: "Intentar de nuevo",
+    leaderboard_title: "Clasificación",
+    leaderboard_weekly: "Semanal",
+    leaderboard_alltime: "General",
+    theme_light: "Tema claro",
+    theme_dark: "Tema oscuro",
+    login_btn: "Iniciar sesión",
+    guest_user: "Invitado",
+    settings: "Ajustes",
+    language_select: "Idioma de la interfaz"
+  }
+};
+
+let currentLang = localStorage.getItem('eb_grammar_lang') || 'ru';
+
+export function t(key) {
+  const dict = TRANSLATIONS[currentLang] || TRANSLATIONS.ru;
+  return dict[key] || key;
+}
+
+export function getLanguage() {
+  return currentLang;
+}
+
+export function setLanguage(lang) {
+  if (TRANSLATIONS[lang]) {
+    currentLang = lang;
+    localStorage.setItem('eb_grammar_lang', lang);
+  }
+}
