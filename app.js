@@ -1,15 +1,15 @@
-import { GrammarService } from './services/grammarService.js';
-import { StorageService } from './services/storageService.js';
-import { t, setLanguage } from './services/i18n.js';
+import { GrammarService } from './services/grammarService.js?v=2.2';
+import { StorageService } from './services/storageService.js?v=2.2';
+import { t, setLanguage } from './services/i18n.js?v=2.2';
 
-import { renderHeader } from './components/Header.js';
-import { renderBurgerDrawer } from './components/BurgerDrawer.js';
-import { renderLevelGrid } from './components/LevelGrid.js';
-import { renderLessonList } from './components/LessonList.js';
-import { renderGrammarRuleView } from './components/GrammarRuleView.js';
-import { renderTestEngine } from './components/TestEngine.js';
-import { renderTestResultModal } from './components/TestResultModal.js';
-import { renderLeaderboardView, initLeaderboardEvents } from './components/LeaderboardView.js';
+import { renderHeader } from './components/Header.js?v=2.2';
+import { renderBurgerDrawer } from './components/BurgerDrawer.js?v=2.2';
+import { renderLevelGrid } from './components/LevelGrid.js?v=2.2';
+import { renderLessonList } from './components/LessonList.js?v=2.2';
+import { renderGrammarRuleView } from './components/GrammarRuleView.js?v=2.2';
+import { renderTestEngine } from './components/TestEngine.js?v=2.2';
+import { renderTestResultModal } from './components/TestResultModal.js?v=2.2';
+import { renderLeaderboardView, initLeaderboardEvents } from './components/LeaderboardView.js?v=2.2';
 
 class App {
   constructor() {
