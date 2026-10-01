@@ -55,16 +55,26 @@ body.dark-theme,
 }
 
 html, body {
+  overflow-x: clip;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+html, body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  height: 100%;
   min-height: 100%;
   min-height: 100dvh;
   background: var(--bg-color);
   color: var(--text-main);
   line-height: 1.5;
   font-size: 15px;
-  overflow-x: hidden;
+  overscroll-behavior-y: none;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 /* App Wrapper */
@@ -1088,7 +1098,7 @@ html, body {
   position: sticky;
   top: var(--leaderboard-sticky-top, calc(60px + var(--safe-top, 0px)));
   z-index: 45;
-  background: var(--bg-main, var(--bg-color, #ffffff));
+  background: var(--card-bg, #ffffff);
   padding: 8px 10px 6px 10px;
   border-bottom: 1.5px solid var(--border-color);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -1100,6 +1110,12 @@ html, body {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
+}
+
+.dark-theme .leaderboard-sticky-group {
+  background: #0f172a !important;
+  border-bottom-color: #334155;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
 }
 
 .leaderboard-sticky-group::before {
@@ -1467,10 +1483,10 @@ button.leaderboard-header-chip:hover {
   color: #4ade80;
 }
 
-/* Sticky Bottom User Bar */
+/* Sticky Bottom User Bar (Exact 1:1 from my-duolingo) */
 .my-leaderboard-bar {
   position: sticky;
-  bottom: 80px;
+  bottom: max(10px, var(--safe-bottom, env(safe-area-inset-bottom, 0px)));
   display: flex;
   justify-content: space-between;
   align-items: center;
