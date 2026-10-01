@@ -12,12 +12,7 @@ export function renderLevelGrid(catalog) {
 
   const cardsHtml = cards.map(c => `
     <div class="level-card" data-level-id="${c.id}">
-      <div class="level-card-image-wrap">
-        <img src="${c.bg}" alt="${c.title}" class="level-card-img" />
-      </div>
-      <div class="level-card-placard">
-        <span>${c.title}</span>
-      </div>
+      <img src="${c.bg}" alt="${c.title}" class="level-card-img" />
     </div>
   `).join('');
 
