@@ -376,7 +376,9 @@ class App {
       <div class="mobile-app ${currentTheme === 'dark' ? 'dark-theme' : ''}">
         ${renderHeader()}
         <main class="app-main-content">
-          ${screenHtml}
+          <div id="app-content">
+            ${screenHtml}
+          </div>
         </main>
         <footer class="app-footer">
           <a href="#" id="link-privacy-policy">Privacy Policy</a>

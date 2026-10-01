@@ -24,6 +24,7 @@
   --shadow-lg: 0 12px 32px rgba(15, 23, 42, 0.12);
   --safe-top: 0px;
   --safe-bottom: 0px;
+  --leaderboard-sticky-top: calc(60px + var(--safe-top, 0px));
 }
 
 body.dark-theme,
@@ -233,14 +234,26 @@ html, body {
   border: 1.5px solid var(--card-bg);
 }
 
-/* Main Content Area */
+/* Main Content Area with Safe Area support (Exact 1:1 from my-duolingo) */
 .app-main-content {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  padding: 12px 14px;
+  padding: 10px 10px;
+  padding-bottom: max(12px, var(--safe-bottom, env(safe-area-inset-bottom, 0px)));
+  padding-left: max(10px, env(safe-area-inset-left, 0px));
+  padding-right: max(10px, env(safe-area-inset-right, 0px));
   box-sizing: border-box;
   min-height: 0;
+}
+
+#app-content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* App Footer */
