@@ -128,24 +128,23 @@ export function renderLeaderboardView() {
   const currentXP = StorageService.getXP() || 0;
   const weekTime = getTimeUntilSundayEnd();
 
-  // Exact players from my-duolingo
+  // Generic mock leaderboard participants
   const top4Players = [
-    { id: '1', name: "Rina Franky", xp: 4925, avatar: "./assets/avatars/avatar_1.png" },
-    { id: '2', name: "Nikola Lipniagov", xp: 1858, avatar: "./assets/avatars/avatar_2.png" },
-    { id: '3', name: "Julia Lipa (VoLANd_98)", xp: 1669, avatar: "./assets/avatars/avatar_3.png" },
-    { id: '4', name: "Michele Ska", xp: 1450, avatar: "./assets/avatars/avatar_4.png" }
+    { id: '1', name: "Learner #1", xp: 1250, initial: "A", avatarBg: "#3b82f6" },
+    { id: '2', name: "Learner #2", xp: 980, initial: "B", avatarBg: "#10b981" },
+    { id: '3', name: "Learner #3", xp: 850, initial: "C", avatarBg: "#f59e0b" },
+    { id: '4', name: "Learner #4", xp: 720, initial: "D", avatarBg: "#8b5cf6" }
   ];
 
   const restPlayers = [
-    { rank: 5, name: "Irina Mahotenko", xp: 1238, avatar: "", initial: "I", avatarBg: "#8b5cf6" },
-    { rank: 6, name: "Mohamad Ayman", xp: 886, avatar: "./assets/avatars/avatar_6.png" },
-    { rank: 7, name: "Роман Стадников", xp: 802, avatar: "./assets/avatars/avatar_7.png" },
-    { rank: 8, name: "Eleanor Bailey", xp: 714, avatar: "./assets/avatars/avatar_8.png" },
-    { rank: 9, name: "Alex Smith", xp: 682, avatar: "./assets/avatars/avatar_9.png" },
-    { rank: 11, name: "Anastasia Romanova", xp: 673, avatar: "./assets/avatars/avatar_11.png" },
-    { rank: 12, name: "Astrid Larsson", xp: 662, avatar: "./assets/avatars/avatar_12.png" },
-    { rank: 13, name: "Dmitry Ivanov", xp: 610, avatar: "./assets/avatars/avatar_13.png" },
-    { rank: 14, name: "Chen Wei", xp: 580, avatar: "./assets/avatars/avatar_14.png" }
+    { rank: 5, name: "Learner #5", xp: 650, initial: "E", avatarBg: "#ec4899" },
+    { rank: 6, name: "Learner #6", xp: 590, initial: "F", avatarBg: "#6366f1" },
+    { rank: 7, name: "Learner #7", xp: 510, initial: "G", avatarBg: "#14b8a6" },
+    { rank: 8, name: "Learner #8", xp: 470, initial: "H", avatarBg: "#f97316" },
+    { rank: 9, name: "Learner #9", xp: 420, initial: "I", avatarBg: "#84cc16" },
+    { rank: 10, name: "Learner #10", xp: 380, initial: "J", avatarBg: "#06b6d4" },
+    { rank: 11, name: "Learner #11", xp: 340, initial: "K", avatarBg: "#a855f7" },
+    { rank: 12, name: "Learner #12", xp: 300, initial: "L", avatarBg: "#64748b" }
   ];
 
   const podiumHtml = `
