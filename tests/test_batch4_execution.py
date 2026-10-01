@@ -18,8 +18,8 @@ class TestBatch4Execution(unittest.TestCase):
         conn.row_factory = sqlite3.Row
 
         counts = dict(conn.execute("SELECT adaptation_status, count(*) FROM adapted_questions GROUP BY adaptation_status").fetchall())
-        self.assertEqual(counts.get("VALIDATED"), 2208)
-        self.assertEqual(counts.get("REJECTED"), 62)
+        self.assertEqual(counts.get("VALIDATED"), 2242)
+        self.assertEqual(counts.get("REJECTED"), 28)
         self.assertEqual(counts.get("PENDING"), 3526)
         self.assertEqual(sum(counts.values()), 5796)
 
@@ -29,8 +29,8 @@ class TestBatch4Execution(unittest.TestCase):
         self.assertEqual(run_rec["status"], "completed")
         self.assertEqual(run_rec["total_items"], 1000)
         self.assertEqual(run_rec["generated_count"], 995)
-        self.assertEqual(run_rec["validated_count"], 947)
-        self.assertEqual(run_rec["rejected_count"], 48)
+        self.assertEqual(run_rec["validated_count"], 981)
+        self.assertEqual(run_rec["rejected_count"], 14)
 
         # Verify previous batch run records remain intact
         b3_run = conn.execute("SELECT * FROM adaptation_runs WHERE run_id = 'prod_batch_3_a1_350'").fetchone()
@@ -92,6 +92,33 @@ class TestBatch4Execution(unittest.TestCase):
         for qid in corrected_qids:
             row = conn.execute("SELECT adaptation_status FROM adapted_questions WHERE source_question_id = ?", (qid,)).fetchone()
             self.assertEqual(row["adaptation_status"], "VALIDATED", f"QID {qid} should be VALIDATED")
+
+        conn.close()
+
+    def test_task016d_corrections(self):
+        conn = sqlite3.connect(f"file:{ADAPT_DB_PATH}?mode=ro", uri=True)
+        conn.row_factory = sqlite3.Row
+
+        # 34 teacher-reviewed corrections validated
+        validated_34 = [
+            "7461", "2880", "2882", "2888", "7376", "7379", "7383", "3469",
+            "2962", "2963", "3048", "3052", "3076", "3077", "3082", "2680",
+            "5193", "3492", "2947", "2948", "2949", "2950", "2951", "2953",
+            "2955", "2956", "6170", "6180", "6186", "6188", "6189", "2890",
+            "2891", "2897"
+        ]
+        for qid in validated_34:
+            row = conn.execute("SELECT adaptation_status FROM adapted_questions WHERE source_question_id = ?", (qid,)).fetchone()
+            self.assertEqual(row["adaptation_status"], "VALIDATED", f"QID {qid} should be VALIDATED")
+
+        # 14 stopped/rejected remain REJECTED
+        stopped_14 = [
+            "2847", "2823", "4501", "2964", "3067", "3068", "3579", "4852",
+            "3382", "7139", "3361", "3365", "2952", "2894"
+        ]
+        for qid in stopped_14:
+            row = conn.execute("SELECT adaptation_status FROM adapted_questions WHERE source_question_id = ?", (qid,)).fetchone()
+            self.assertEqual(row["adaptation_status"], "REJECTED", f"QID {qid} should remain REJECTED")
 
         conn.close()
 
