@@ -76,13 +76,40 @@ PREPARED_REPLACEMENTS = [
     },
     {
         "qid": 3758,
-        "adapted_text": "Elena 1 {{gap_1}} (not have) a driving licence, but she 2 {{gap_2}} (work) near the airport.",
-        "preserved_answers": ["doesn't have", "works"],
+        "adapted_text": (
+            "My colleague Elena {{gap_1}} (not have) a driving licence; she {{gap_2}} (work) near the airport. "
+            "Every morning, she {{gap_3}} (get up) very early; she {{gap_4}} (go) to the train station. "
+            "She {{gap_5}} (love) weekends; she {{gap_6}} (not work) on Saturdays; she {{gap_7}} (spend) time outdoors. "
+            "On Sundays, her cousins {{gap_8}} (not get up) early; her cousins always {{gap_9}} (go out). "
+            "Her cousins {{gap_10}} (be) always happy on sunny afternoons."
+        ),
+        "preserved_answers": [
+            "doesn't have", "works", "gets up", "goes", "loves",
+            "doesn't work", "spends", "don't get up", "go out", "are"
+        ],
     },
     {
         "qid": 2252,
-        "adapted_text": "HOST: Welcome to the workshop. 1 {{gap_1}} you here for the data course? Great to have you with us.",
-        "preserved_answers": ["Are"],
+        "adapted_text": (
+            "EMMA: Good morning. {{gap_1}} you delegates for the design conference? "
+            "LUCAS: No, we {{gap_2}}. How about you? {{gap_3}} you participants here today? "
+            "EMMA: Actually no, I {{gap_4}} an organizer. My role {{gap_5}} registration host. "
+            "LUCAS: Pleased to make your acquaintance. I {{gap_6}} LUCAS. This visitor beside me {{gap_7}} Clara. "
+            "EMMA: Which country {{gap_8}} you from? "
+            "LUCAS: We {{gap_9}} from Spain. "
+            "EMMA: {{gap_10}} you from Madrid? "
+            "LUCAS: No, we {{gap_11}}. We {{gap_12}} from the south of Spain. I {{gap_13}} from Sevilla; Clara {{gap_14}} from Granada. "
+            "EMMA: {{gap_15}} you visitors on vacation? "
+            "LUCAS: No, we {{gap_16}}. It {{gap_17}} a professional seminar. This convention center {{gap_18}} quite modern. "
+            "EMMA: Indeed, it {{gap_19}} beautiful. {{gap_20}} your hotel nearby? "
+            "LUCAS: Quite near."
+        ),
+        "preserved_answers": [
+            "Are", "aren't", "Are", "am", "is",
+            "am", "is", "are", "are", "Are",
+            "aren't", "are", "am", "is", "Are",
+            "aren't", "is", "is", "is", "Is"
+        ],
     },
     {
         "qid": 3994,
@@ -206,6 +233,14 @@ AI_REVIEW_EVALUATIONS: Dict[int, Dict[str, Any]] = {
         "decision": "APPROVE",
         "reason": "Preserves dummy pronoun 'It' for distance ('It is too far for me'). Original introductory sentence ('I don't want to walk to the station.').",
     },
+    3758: {
+        "decision": "APPROVE",
+        "reason": "Preserves present simple affirmative and negative 3rd person singular and plural forms ('doesn't have', 'works', 'gets up', 'goes', 'loves', 'doesn't work', 'spends', 'don't get up', 'go out', 'are'). All 10 parenthetical base verb cues intact. Original daily routine scenario.",
+    },
+    2252: {
+        "decision": "APPROVE",
+        "reason": "Preserves present simple forms of be ('Are', 'aren't', 'am', 'is', 'are', 'Is') across full 20-gap conference dialogue. Natural elementary English with original participant introductions.",
+    },
 }
 
 
@@ -239,7 +274,7 @@ def apply_batch2_corrections(
 
     target_qids = [str(item["qid"]) for item in PREPARED_REPLACEMENTS]
 
-    # Verify that all 22 questions exist and are currently REJECTED
+    # Verify that all 22 questions exist and belong to the Batch 2 cohort
     existing_rows = adapt_conn.execute(
         f"SELECT source_question_id, adaptation_status FROM adapted_questions WHERE source_question_id IN ({','.join('?' for _ in target_qids)})",
         target_qids,
@@ -249,8 +284,9 @@ def apply_batch2_corrections(
     if len(existing_map) != 22:
         raise ValueError(f"Expected 22 target questions in adaptation.db, found {len(existing_map)}")
     for qid_str in target_qids:
-        if existing_map.get(qid_str) != "REJECTED":
-            raise ValueError(f"QID {qid_str} is not currently REJECTED (status: {existing_map.get(qid_str)})")
+        status = existing_map.get(qid_str)
+        if status not in ("REJECTED", "VALIDATED"):
+            raise ValueError(f"QID {qid_str} has unexpected status: {status}")
 
     # Process each question
     for item in PREPARED_REPLACEMENTS:

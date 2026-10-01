@@ -36,8 +36,8 @@ class TestBatch2Corrections(unittest.TestCase):
         counts = dict(
             self.adapt_conn.execute("SELECT adaptation_status, count(*) FROM adapted_questions GROUP BY adaptation_status").fetchall()
         )
-        self.assertEqual(counts.get("VALIDATED"), 909)
-        self.assertEqual(counts.get("REJECTED"), 16)
+        self.assertEqual(counts.get("VALIDATED"), 911)
+        self.assertEqual(counts.get("REJECTED"), 14)
         self.assertEqual(counts.get("PENDING"), 4871)
         self.assertEqual(sum(counts.values()), 5796)
 
@@ -46,13 +46,12 @@ class TestBatch2Corrections(unittest.TestCase):
         self.assertEqual(total_q, 5796)
 
     def test_target_22_questions_statuses(self):
-        validated_qids = [
-            4085, 4090, 4091, 3644, 3953, 3969, 3994, 3998, 3999,
+        target_qids = [
+            4085, 4090, 4091, 3644, 3953, 3969, 3758, 2252, 3994, 3998, 3999,
             3760, 3761, 3762, 3763, 3764, 3766, 3767, 3768, 4236, 9697, 4151
         ]
-        rejected_qids = [3758, 2252]
 
-        for qid in validated_qids:
+        for qid in target_qids:
             row = self.adapt_conn.execute(
                 "SELECT adaptation_status, review_required FROM adapted_questions WHERE source_question_id = ?",
                 (str(qid),),
@@ -61,14 +60,16 @@ class TestBatch2Corrections(unittest.TestCase):
             self.assertEqual(row["adaptation_status"], "VALIDATED", f"QID {qid} expected VALIDATED, got {row['adaptation_status']}")
             self.assertEqual(row["review_required"], 0, f"QID {qid} expected review_required=0")
 
-        for qid in rejected_qids:
-            row = self.adapt_conn.execute(
-                "SELECT adaptation_status, review_required, adaptation_notes FROM adapted_questions WHERE source_question_id = ?",
-                (str(qid),),
-            ).fetchone()
-            self.assertIsNotNone(row, f"QID {qid} missing from adapted_questions")
-            self.assertEqual(row["adaptation_status"], "REJECTED", f"QID {qid} expected REJECTED, got {row['adaptation_status']}")
-            self.assertIn("Gap cardinality mismatch", row["adaptation_notes"])
+        # Specific check for 3758 (10 gaps) and 2252 (20 gaps)
+        gaps_3758 = self.adapt_conn.execute(
+            "SELECT COUNT(*) FROM adapted_gaps WHERE adapted_question_id = 'adapt_3758'"
+        ).fetchone()[0]
+        self.assertEqual(gaps_3758, 10)
+
+        gaps_2252 = self.adapt_conn.execute(
+            "SELECT COUNT(*) FROM adapted_gaps WHERE adapted_question_id = 'adapt_2252'"
+        ).fetchone()[0]
+        self.assertEqual(gaps_2252, 20)
 
     def test_answer_preservation_across_all_22(self):
         target_qids = [
@@ -83,8 +84,7 @@ class TestBatch2Corrections(unittest.TestCase):
             if rm == "gap":
                 s_ans = [g["correct_answer"] for g in self.stage_conn.execute("SELECT correct_answer FROM staging_gaps WHERE question_id=? ORDER BY gap_order", (qid,)).fetchall()]
                 a_ans = [g["adapted_correct_answer"] for g in self.adapt_conn.execute("SELECT adapted_correct_answer FROM adapted_gaps WHERE adapted_question_id=? ORDER BY gap_order", (aq["adapted_question_id"],)).fetchall()]
-                if qid not in (3758, 2252):
-                    self.assertEqual(s_ans, a_ans, f"Answer mismatch in QID {qid}")
+                self.assertEqual(s_ans, a_ans, f"Answer mismatch in QID {qid}")
             else:
                 s_ans = [o["text"] for o in self.stage_conn.execute("SELECT text FROM staging_options WHERE question_id=? AND is_correct=1", (qid,)).fetchall()]
                 a_ans = [o["adapted_text"] for o in self.adapt_conn.execute("SELECT adapted_text FROM adapted_options WHERE adapted_question_id=? AND adapted_is_correct=1", (aq["adapted_question_id"],)).fetchall()]
