@@ -34,7 +34,6 @@ class App {
     } catch (e) {
       console.error('App init error:', e);
     } finally {
-      // Always hide splash screen
       if (window.hideAppSplashScreen) {
         window.hideAppSplashScreen();
       }
@@ -43,17 +42,18 @@ class App {
 
   applyTheme(theme) {
     StorageService.setTheme(theme);
-    if (theme === 'dark') {
+    const isDark = theme === 'dark';
+    if (isDark) {
       document.body.classList.add('dark-theme');
+      document.documentElement.classList.add('dark-theme');
     } else {
       document.body.classList.remove('dark-theme');
+      document.documentElement.classList.remove('dark-theme');
     }
   }
 
-  toggleTheme() {
-    const current = StorageService.getTheme();
-    const next = current === 'dark' ? 'light' : 'dark';
-    this.applyTheme(next);
+  setAppTheme(theme) {
+    this.applyTheme(theme);
     this.render();
   }
 
@@ -69,33 +69,69 @@ class App {
 
   bindGlobalEvents() {
     document.addEventListener('click', async (e) => {
-      // 1. Header logo / home
-      if (e.target.closest('#btn-header-home')) {
+      // 1. Header logo / brand home
+      if (e.target.closest('#brand-logo')) {
         this.navigate('levels');
         return;
       }
 
-      // 2. Theme toggle
-      if (e.target.closest('#btn-theme-toggle')) {
-        this.toggleTheme();
+      // 2. Header XP button -> Leaderboard
+      if (e.target.closest('#header-xp-btn')) {
+        this.navigate('leaderboard');
         return;
       }
 
-      // 3. Burger menu
-      if (e.target.closest('#btn-burger-menu')) {
-        this.state.isDrawerOpen = true;
+      // 3. Header Burger button -> Toggle Drawer
+      if (e.target.closest('#header-burger-btn')) {
+        this.state.isDrawerOpen = !this.state.isDrawerOpen;
         this.render();
         return;
       }
 
-      // 4. Close drawer
-      if (e.target.closest('#btn-close-drawer') || e.target.id === 'drawer-backdrop') {
+      // 4. Close Drawer
+      if (e.target.closest('#drawer-close-btn') || e.target.id === 'drawer-overlay') {
         this.state.isDrawerOpen = false;
         this.render();
         return;
       }
 
-      // 5. Drawer Nav Links
+      // 5. Drawer Theme Buttons
+      if (e.target.closest('#theme-light-btn')) {
+        this.setAppTheme('light');
+        return;
+      }
+
+      if (e.target.closest('#theme-dark-btn')) {
+        this.setAppTheme('dark');
+        return;
+      }
+
+      // 6. Drawer Sound & Voice Toggles
+      if (e.target.closest('#sfx-on-btn')) {
+        document.getElementById('sfx-on-btn')?.classList.add('active');
+        document.getElementById('sfx-off-btn')?.classList.remove('active');
+        return;
+      }
+
+      if (e.target.closest('#sfx-off-btn')) {
+        document.getElementById('sfx-off-btn')?.classList.add('active');
+        document.getElementById('sfx-on-btn')?.classList.remove('active');
+        return;
+      }
+
+      if (e.target.closest('#voice-uk-btn')) {
+        document.getElementById('voice-uk-btn')?.classList.add('active');
+        document.getElementById('voice-us-btn')?.classList.remove('active');
+        return;
+      }
+
+      if (e.target.closest('#voice-us-btn')) {
+        document.getElementById('voice-us-btn')?.classList.add('active');
+        document.getElementById('voice-uk-btn')?.classList.remove('active');
+        return;
+      }
+
+      // 7. Drawer Nav Links
       if (e.target.closest('#btn-nav-levels')) {
         this.navigate('levels');
         return;
@@ -115,7 +151,12 @@ class App {
         return;
       }
 
-      // 6. Level card click
+      if (e.target.closest('#link-privacy-policy')) {
+        alert('English Breakfast Grammar • Privacy Policy\nДанные сохраняются локально на вашем устройстве для обеспечения конфиденциальности.');
+        return;
+      }
+
+      // 8. Level card click
       const levelCard = e.target.closest('.level-card');
       if (levelCard) {
         const levelId = levelCard.getAttribute('data-level-id');
@@ -123,13 +164,13 @@ class App {
         return;
       }
 
-      // 7. Back to levels
+      // 9. Back to levels
       if (e.target.closest('#btn-back-to-levels') || e.target.closest('#btn-back-to-levels-from-lb')) {
         this.navigate('levels');
         return;
       }
 
-      // 8. Lesson card click
+      // 10. Lesson card click
       const lessonCard = e.target.closest('.lesson-card');
       if (lessonCard) {
         const lessonId = lessonCard.getAttribute('data-lesson-id');
@@ -140,31 +181,31 @@ class App {
         return;
       }
 
-      // 9. Back to lesson list
+      // 11. Back to lesson list
       if (e.target.closest('#btn-back-to-lesson-list')) {
         this.navigate('lessons', { levelId: this.state.selectedLevelId || this.state.currentLesson?.level || 'A1' });
         return;
       }
 
-      // 10. Start Test action button
+      // 12. Start Test action button
       if (e.target.closest('#btn-start-test-action')) {
         this.navigate('test', { lesson: this.state.currentLesson });
         return;
       }
 
-      // 11. Back to theory
+      // 13. Back to theory
       if (e.target.closest('#btn-back-to-theory')) {
         this.navigate('theory', { lesson: this.state.currentLesson });
         return;
       }
 
-      // 12. Check Test Answers button
+      // 14. Check Test Answers button
       if (e.target.closest('#btn-check-test-answers')) {
         this.evaluateTest();
         return;
       }
 
-      // 13. Test result modal Continue
+      // 15. Test result modal Continue
       if (e.target.closest('#btn-result-continue')) {
         const modal = document.getElementById('test-result-modal');
         if (modal) modal.remove();
@@ -172,7 +213,7 @@ class App {
         return;
       }
 
-      // 14. Test result modal Retry
+      // 16. Test result modal Retry
       if (e.target.closest('#btn-result-retry')) {
         const modal = document.getElementById('test-result-modal');
         if (modal) modal.remove();
@@ -180,7 +221,7 @@ class App {
         return;
       }
 
-      // 15. Choice label click selection
+      // 17. Choice label click selection
       const choiceLabel = e.target.closest('.choice-label');
       if (choiceLabel) {
         const radio = choiceLabel.querySelector('input[type="radio"]');
@@ -194,7 +235,7 @@ class App {
         }
       }
 
-      // 16. Leaderboard tab switch
+      // 18. Leaderboard tab switch
       const lbTab = e.target.closest('.leaderboard-tab');
       if (lbTab) {
         document.querySelectorAll('.leaderboard-tab').forEach(t => t.classList.remove('active'));
@@ -329,20 +370,24 @@ class App {
     }
 
     const drawerHtml = this.state.isDrawerOpen ? renderBurgerDrawer() : '';
+    const currentTheme = StorageService.getTheme();
 
     appEl.innerHTML = `
-      <div class="mobile-app">
+      <div class="mobile-app ${currentTheme === 'dark' ? 'dark-theme' : ''}">
         ${renderHeader()}
-        <main id="screen-container">
+        <main class="app-main-content">
           ${screenHtml}
         </main>
+        <footer class="app-footer">
+          <a href="#" id="link-privacy-policy">Privacy Policy</a>
+        </footer>
         ${drawerHtml}
       </div>
     `;
   }
 }
 
-// Start application safely whether DOM is ready or already loaded
+// Start application safely
 if (document.readyState === 'loading') {
   window.addEventListener('DOMContentLoaded', () => new App());
 } else {
