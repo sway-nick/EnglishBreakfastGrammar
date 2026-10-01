@@ -18,8 +18,8 @@ class TestBatch4Execution(unittest.TestCase):
         conn.row_factory = sqlite3.Row
 
         counts = dict(conn.execute("SELECT adaptation_status, count(*) FROM adapted_questions GROUP BY adaptation_status").fetchall())
-        self.assertEqual(counts.get("VALIDATED"), 2201)
-        self.assertEqual(counts.get("REJECTED"), 69)
+        self.assertEqual(counts.get("VALIDATED"), 2208)
+        self.assertEqual(counts.get("REJECTED"), 62)
         self.assertEqual(counts.get("PENDING"), 3526)
         self.assertEqual(sum(counts.values()), 5796)
 
@@ -29,8 +29,8 @@ class TestBatch4Execution(unittest.TestCase):
         self.assertEqual(run_rec["status"], "completed")
         self.assertEqual(run_rec["total_items"], 1000)
         self.assertEqual(run_rec["generated_count"], 995)
-        self.assertEqual(run_rec["validated_count"], 940)
-        self.assertEqual(run_rec["rejected_count"], 55)
+        self.assertEqual(run_rec["validated_count"], 947)
+        self.assertEqual(run_rec["rejected_count"], 48)
 
         # Verify previous batch run records remain intact
         b3_run = conn.execute("SELECT * FROM adaptation_runs WHERE run_id = 'prod_batch_3_a1_350'").fetchone()
@@ -75,6 +75,23 @@ class TestBatch4Execution(unittest.TestCase):
             "SELECT adaptation_status FROM adapted_questions WHERE source_question_id = '6096'"
         ).fetchone()
         self.assertEqual(q6096["adaptation_status"], "VALIDATED")
+
+        # QIDs 5013-5017 must remain strictly PENDING
+        for qid in ["5013", "5014", "5015", "5016", "5017"]:
+            row = conn.execute("SELECT adaptation_status FROM adapted_questions WHERE source_question_id = ?", (qid,)).fetchone()
+            self.assertEqual(row["adaptation_status"], "PENDING", f"QID {qid} must remain PENDING")
+
+        conn.close()
+
+    def test_task016b_corrections(self):
+        conn = sqlite3.connect(f"file:{ADAPT_DB_PATH}?mode=ro", uri=True)
+        conn.row_factory = sqlite3.Row
+
+        # 7 corrected QIDs must now be VALIDATED
+        corrected_qids = ["2861", "3249", "3253", "5008", "5010", "5011", "5012"]
+        for qid in corrected_qids:
+            row = conn.execute("SELECT adaptation_status FROM adapted_questions WHERE source_question_id = ?", (qid,)).fetchone()
+            self.assertEqual(row["adaptation_status"], "VALIDATED", f"QID {qid} should be VALIDATED")
 
         conn.close()
 
