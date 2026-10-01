@@ -49,6 +49,7 @@ function renderPodiumCard(player, rank) {
   const playerName = escapeHtml(rawPlayerName);
   const initial = escapeHtml(rawPlayerName.trim().charAt(0).toUpperCase() || '👤');
   const isMe = !!player.isCurrentUser;
+  const avatarSrc = player.avatar || '';
 
   return `
     <div class="podium-card ${rankClass} ${isMe ? 'is-me' : ''}">
@@ -106,14 +107,18 @@ function renderPodiumCard(player, rank) {
         `
             : ''
         }
-        <div class="podium-avatar-placeholder" style="background: ${player.avatarBg || '#3b82f6'};">${initial}</div>
+        ${
+          avatarSrc
+            ? `<img src="${avatarSrc}" alt="${playerName}" class="podium-avatar-img" referrerpolicy="no-referrer" />`
+            : `<div class="podium-avatar-placeholder" style="background: ${player.avatarBg || '#3b82f6'};">${initial}</div>`
+        }
       </div>
       <div class="podium-info">
         <h4 class="podium-name" style="display: flex; align-items: center; justify-content: center; gap: 4px;">
           <span>${playerName}</span>
           ${isMe ? `<span class="sync-status-badge" style="position: relative; top: auto; right: auto; width: 7px; height: 7px;"></span>` : ''}
         </h4>
-        <span class="podium-xp">${player.xp} XP</span>
+        <span class="podium-xp" style="color: #22c55e; font-weight: 800;">${player.xp} XP</span>
       </div>
     </div>
   `;
@@ -123,90 +128,87 @@ export function renderLeaderboardView() {
   const currentXP = StorageService.getXP() || 0;
   const weekTime = getTimeUntilSundayEnd();
 
-  const players = [
-    { id: '1', name: "Alexander K.", xp: 3450, avatarBg: "#f59e0b" },
-    { id: '2', name: "Elena Smith", xp: 2980, avatarBg: "#8b5cf6" },
-    { id: '3', name: "Dmitry R.", xp: 2710, avatarBg: "#06b6d4" },
-    { id: '4', name: "Anna Grammar", xp: 2340, avatarBg: "#ec4899" },
-    { id: '5', name: "Maxim V.", xp: 1920, avatarBg: "#10b981" },
-    { id: '6', name: "Olga P.", xp: 1650, avatarBg: "#3b82f6" },
-    { id: '7', name: "Sergey T.", xp: 1420, avatarBg: "#f97316" },
-    { id: '8', name: "Tatiana M.", xp: 1180, avatarBg: "#6366f1" },
-    { id: 'me', name: "Гость (Демо)", xp: currentXP > 0 ? currentXP : 0, avatarBg: "#334155", isCurrentUser: true }
+  // Exact players from my-duolingo
+  const top4Players = [
+    { id: '1', name: "Rina Franky", xp: 4925, avatar: "./assets/avatars/avatar_1.png" },
+    { id: '2', name: "Nikola Lipniagov", xp: 1858, avatar: "./assets/avatars/avatar_2.png" },
+    { id: '3', name: "Julia Lipa (VoLANd_98)", xp: 1669, avatar: "./assets/avatars/avatar_3.png" },
+    { id: '4', name: "Michele Ska", xp: 1450, avatar: "./assets/avatars/avatar_4.png" }
   ];
 
-  // Sort players by XP
-  players.sort((a, b) => b.xp - a.xp);
-  const myRankIndex = players.findIndex(p => p.isCurrentUser);
-  const myRank = myRankIndex >= 0 ? myRankIndex + 1 : 9;
-  const myPlayer = players[myRankIndex];
-
-  const top4 = players.slice(0, 4);
-  const rest = players.slice(4);
+  const restPlayers = [
+    { rank: 5, name: "Irina Mahotenko", xp: 1238, avatar: "", initial: "I", avatarBg: "#8b5cf6" },
+    { rank: 6, name: "Mohamad Ayman", xp: 886, avatar: "./assets/avatars/avatar_6.png" },
+    { rank: 7, name: "Роман Стадников", xp: 802, avatar: "./assets/avatars/avatar_7.png" },
+    { rank: 8, name: "Eleanor Bailey", xp: 714, avatar: "./assets/avatars/avatar_8.png" },
+    { rank: 9, name: "Alex Smith", xp: 682, avatar: "./assets/avatars/avatar_9.png" },
+    { rank: 11, name: "Anastasia Romanova", xp: 673, avatar: "./assets/avatars/avatar_11.png" },
+    { rank: 12, name: "Astrid Larsson", xp: 662, avatar: "./assets/avatars/avatar_12.png" },
+    { rank: 13, name: "Dmitry Ivanov", xp: 610, avatar: "./assets/avatars/avatar_13.png" },
+    { rank: 14, name: "Chen Wei", xp: 580, avatar: "./assets/avatars/avatar_14.png" }
+  ];
 
   const podiumHtml = `
     <div class="podium-grid">
-      ${top4.map((p, idx) => renderPodiumCard(p, idx + 1)).join('')}
+      ${top4Players.map((p, idx) => renderPodiumCard(p, idx + 1)).join('')}
     </div>
   `;
 
-  const restHtml = rest.map((p, idx) => {
-    const rank = idx + 5;
-    const isMe = p.isCurrentUser;
-    const initial = escapeHtml(p.name.trim().charAt(0).toUpperCase() || '👤');
-
+  const restHtml = restPlayers.map(p => {
+    const avatarImg = p.avatar ? `<img src="${p.avatar}" alt="${p.name}" class="row-avatar-img" />` : `<div class="row-avatar-placeholder" style="background: ${p.avatarBg || '#64748b'};">${p.initial || '👤'}</div>`;
     return `
-      <div class="leaderboard-row ${isMe ? 'is-me' : ''}">
-        <div class="row-rank">#${rank}</div>
+      <div class="leaderboard-row">
+        <div class="row-rank">#${p.rank}</div>
         <div class="row-avatar-wrapper">
-          <div class="row-avatar-placeholder" style="background: ${p.avatarBg || '#64748b'};">${initial}</div>
+          ${avatarImg}
         </div>
-        <div class="row-name" style="display: flex; align-items: center; gap: 6px;">
+        <div class="row-name">
           <span>${escapeHtml(p.name)}</span>
-          ${isMe ? `<span class="me-tag">(Вы)</span>` : ''}
-          ${isMe ? `<span class="sync-status-badge" style="position: relative; top: auto; right: auto; width: 7px; height: 7px;"></span>` : ''}
         </div>
-        <div class="row-xp">${p.xp} XP</div>
+        <div class="row-xp" style="color: #22c55e; font-weight: 800;">${p.xp} XP</div>
       </div>
     `;
   }).join('');
 
-  const myStickyBar = myRank > 4 ? `
-    <div class="my-leaderboard-bar">
+  const myStickyBar = `
+    <div class="my-leaderboard-bar" style="position: sticky; bottom: 20px; display: flex; justify-content: space-between; align-items: center; background: #0f172a; border: 1.5px solid #22c55e; border-radius: 16px; padding: 12px 14px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); z-index: 50; margin-top: 10px;">
       <div style="display: flex; align-items: center; gap: 10px;">
-        <span class="my-rank-badge">#${myRank}</span>
-        <div class="my-bar-avatar-placeholder" style="background: #334155;">G</div>
+        <span class="my-rank-badge" style="background: #22c55e; color: #0f172a; font-weight: 800; font-size: 14px; padding: 3px 8px; border-radius: 6px;">#108</span>
+        <div class="my-bar-avatar-placeholder" style="width: 38px; height: 38px; border-radius: 50%; background: #3b82f6; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">Y</div>
         <div>
-          <div class="my-bar-name" style="font-weight: 700; font-size: 14px; display: flex; align-items: center; gap: 6px; color: var(--text-main);">
-            <span>Гость (Демо)</span>
-            <span class="sync-status-badge" style="position: relative; top: auto; right: auto; width: 7px; height: 7px;"></span>
+          <div class="my-bar-name" style="font-weight: 700; font-size: 14px; display: flex; align-items: center; gap: 6px; color: #f8fafc;">
+            <span>You (Guest)</span>
+            <span class="sync-status-badge" style="position: relative; top: auto; right: auto; width: 8px; height: 8px; background: #f97316; border-radius: 50%; display: inline-block;"></span>
           </div>
-          <div class="my-bar-status" style="font-size: 12px; color: #ea580c; font-weight: 500;">
+          <div class="my-bar-status" style="font-size: 11.5px; color: #ea580c; font-weight: 600; margin-top: 1px;">
             ⚠️ Прогресс на телефоне. Войдите для облака
           </div>
         </div>
       </div>
-      <div style="display: flex; align-items: center; gap: 10px;">
-        <span class="my-bar-xp">${currentXP} XP</span>
-        <button class="primary-button" id="leaderboard-register-btn" style="background: linear-gradient(180deg, #3b82f6 0%, #1d4ed8 100%); color: #fff; border: none; border-radius: 8px; padding: 6px 14px; font-weight: 700; font-size: 13px; cursor: pointer;">Войти</button>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <div style="text-align: right;">
+          <div style="font-size: 14px; font-weight: 800; color: #22c55e; line-height: 1;">${currentXP}</div>
+          <div style="font-size: 11px; font-weight: 800; color: #22c55e; line-height: 1; margin-top: 2px;">XP</div>
+        </div>
+        <button class="primary-button" id="leaderboard-login-action" style="background: linear-gradient(180deg, #3b82f6 0%, #1d4ed8 100%); color: #fff; border: none; border-radius: 12px; padding: 8px 16px; font-weight: 700; font-size: 13.5px; cursor: pointer; box-shadow: 0 3px 10px rgba(37, 99, 235, 0.35);">Log In</button>
       </div>
     </div>
-  ` : '';
+  `;
 
   return `
     <div class="leaderboard-page" style="position: relative;">
-      <!-- Single Sticky Header Group (Header + Podium) -->
+      <!-- Single Sticky Header Group (Header + 2x2 Podium) Flush to Mobile Header -->
       <div class="leaderboard-sticky-group">
-        <div class="leaderboard-top-row">
+        <div class="leaderboard-top-row" style="display: grid; grid-template-columns: 3fr 1fr; gap: 8px; margin-bottom: 8px;">
           <div class="custom-dropdown" id="leaderboard-type-dropdown">
-            <button type="button" class="leaderboard-header-chip leaderboard-dropdown-chip" id="leaderboard-type-trigger">
-              <span id="leaderboard-type-label">Лига недели</span>
-              <span class="dropdown-arrow" style="font-size: 9px; margin-left: 6px;">▼</span>
+            <button type="button" class="leaderboard-header-chip" id="leaderboard-type-trigger" style="display: flex; justify-content: space-between; align-items: center; width: 100%; height: 38px; padding: 0 12px; border-radius: 12px; background: var(--bg-hover); border: 1.5px solid var(--border-color); color: var(--text-main); font-weight: 800; font-size: 14px; cursor: pointer;">
+              <span>🏆 Weekly League</span>
+              <span style="font-size: 9px; margin-left: 6px;">▼</span>
             </button>
           </div>
-          <div class="leaderboard-header-chip leaderboard-timer-chip" id="leaderboard-timer-badge">
-            <span style="font-size: 13.5px; line-height: 1;">⏳</span>
-            <span>${weekTime.days > 0 ? `${weekTime.days}д ` : ''}${weekTime.hours}ч</span>
+          <div class="leaderboard-header-chip leaderboard-timer-chip" id="leaderboard-timer-badge" style="display: flex; align-items: center; justify-content: center; gap: 4px; height: 38px; border-radius: 12px; background: var(--bg-hover); border: 1.5px solid var(--border-color); color: var(--text-main); font-weight: 700; font-size: 13.5px;">
+            <span>⏳</span>
+            <span>3d 2h</span>
           </div>
         </div>
 
