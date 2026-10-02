@@ -2,8 +2,9 @@ import { t, getLanguage } from '../services/i18n.js';
 import { StorageService } from '../services/storageService.js';
 
 export function renderGrammarRuleView(lesson) {
-  const isFav = StorageService.isFavorite(lesson?.lesson_id);
-  const rData = lesson?._localizedRule || lesson?.theory || {};
+  const lessonObj = lesson || {};
+  const isFav = StorageService.isFavorite(lessonObj.lesson_id);
+  const rData = lessonObj._localizedRule || lessonObj.theory || {};
 
   const coreIdea = rData['Core idea'] || rData.overview || '';
   const mainRule = rData['Main rule / explanation'] || rData.main_rule || (rData.rules && rData.rules[0]?.content) || '';
@@ -146,12 +147,12 @@ export function renderGrammarRuleView(lesson) {
 
   const rulesHtml = sections.length > 0 ? sections.join('') : `
     <div class="rule-card">
-      <div class="rule-heading"><span>📖</span><span>${lesson?.title || 'Правила урока'}</span></div>
+      <div class="rule-heading"><span>📖</span><span>${lessonObj.title || 'Правила урока'}</span></div>
       <div class="rule-text">Изучите конструкции и переходите к выполнению тестов.</div>
     </div>
   `;
 
-  const overviewText = coreIdea || lesson?.description || '';
+  const overviewText = coreIdea || lessonObj.description || '';
 
   return `
     <div class="screen-view">
@@ -159,15 +160,15 @@ export function renderGrammarRuleView(lesson) {
         <button class="back-btn" id="btn-back-to-lesson-list">
           ← ${t('back_to_lessons')}
         </button>
-        <button id="btn-toggle-favorite" class="header-fav-btn" data-lesson-id="${lesson.lesson_id}" style="background: var(--bg-hover); border: 1px solid var(--border-color); border-radius: 50%; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; font-size: 20px; cursor: pointer; color: ${isFav ? '#f59e0b' : 'var(--text-muted)'};" title="Добавить в Избранное">
+        <button id="btn-toggle-favorite" class="header-fav-btn" data-lesson-id="${lessonObj.lesson_id || ''}" style="background: var(--bg-hover); border: 1px solid var(--border-color); border-radius: 50%; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; font-size: 20px; cursor: pointer; color: ${isFav ? '#f59e0b' : 'var(--text-muted)'};" title="Добавить в Избранное">
           ${isFav ? '⭐' : '☆'}
         </button>
       </div>
 
       <div style="margin-bottom: 16px;">
         <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
-          <span class="level-badge" style="background-color: var(--primary-color);">${lesson.level}</span>
-          <h1 class="screen-title" style="font-size: 18px;">${lesson.title}</h1>
+          <span class="level-badge" style="background-color: var(--primary-color);">${lessonObj.level || 'A1'}</span>
+          <h1 class="screen-title" style="font-size: 18px;">${lessonObj.title || 'Урок'}</h1>
         </div>
         <p class="screen-subtitle">${overviewText}</p>
       </div>

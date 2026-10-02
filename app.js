@@ -377,23 +377,33 @@ class App {
     if (!appEl) return;
 
     let screenHtml = '';
-    switch (this.state.screen) {
-      case 'lessons':
-        screenHtml = renderLessonList(this.state.selectedLevelId || 'A1', this.state.catalog);
-        break;
-      case 'theory':
-        screenHtml = renderGrammarRuleView(this.state.currentLesson);
-        break;
-      case 'test':
-        screenHtml = renderTestEngine(this.state.currentLesson);
-        break;
-      case 'leaderboard':
-        screenHtml = renderLeaderboardView();
-        break;
-      case 'levels':
-      default:
-        screenHtml = renderLevelGrid(this.state.catalog);
-        break;
+    try {
+      switch (this.state.screen) {
+        case 'lessons':
+          screenHtml = renderLessonList(this.state.selectedLevelId || 'A1', this.state.catalog);
+          break;
+        case 'theory':
+          screenHtml = renderGrammarRuleView(this.state.currentLesson);
+          break;
+        case 'test':
+          screenHtml = renderTestEngine(this.state.currentLesson);
+          break;
+        case 'leaderboard':
+          screenHtml = renderLeaderboardView();
+          break;
+        case 'levels':
+        default:
+          screenHtml = renderLevelGrid(this.state.catalog);
+          break;
+      }
+    } catch (renderErr) {
+      console.error('Render error on screen ' + this.state.screen + ':', renderErr);
+      screenHtml = `
+        <div style="padding: 24px; text-align: center;">
+          <p style="color: #ef4444; font-weight: 700;">Ошибка отображения экрана: ${renderErr.message}</p>
+          <button class="back-btn" id="btn-back-to-levels" style="margin-top: 12px;">← На главную</button>
+        </div>
+      `;
     }
 
     const drawerHtml = this.state.isDrawerOpen ? renderBurgerDrawer() : '';

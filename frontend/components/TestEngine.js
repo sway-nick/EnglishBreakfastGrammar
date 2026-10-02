@@ -3,7 +3,8 @@ import { GrammarService } from '../services/grammarService.js';
 import { StorageService } from '../services/storageService.js';
 
 export function renderTestEngine(lesson) {
-  const exercises = lesson.exercises || [];
+  const lessonObj = lesson || {};
+  const exercises = lessonObj.exercises || [];
 
   let totalQuestionsCount = 0;
 
