@@ -10,7 +10,7 @@ export function renderHeader() {
     <header class="mobile-header">
       <div class="brand" id="brand-logo" style="cursor: pointer; flex: 1 1 auto; min-width: 0; max-width: calc(100% - 130px); overflow: hidden; display: flex; align-items: center;" title="Перейти на главную">
         <div style="display: flex; align-items: center; gap: 7px;">
-          <img src="./assets/icons/mug_icon.webp" alt="English Breakfast" style="width: 33px; height: 33px; object-fit: contain; flex-shrink: 0; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.18));" />
+          <img src="./assets/icons/mug_icon.webp" alt="English Breakfast" class="header-mug-img" style="width: 33px; height: 33px; object-fit: contain; flex-shrink: 0;" />
           <div style="display: flex; flex-direction: column; justify-content: center; line-height: 1.1;">
             <div class="brand-title">
               <span>English</span> <span class="brass">Breakfast</span>
