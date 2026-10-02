@@ -327,7 +327,7 @@ html, body {
   margin-top: 2px;
 }
 
-/* Level Grid (2 Tiles per row) */
+/* Level Grid (2 Tiles per row in Portrait, 4 Tiles per row in Landscape) */
 .level-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -335,6 +335,20 @@ html, body {
   row-gap: 14px;
   column-gap: 14px;
   padding: 8px 0 24px 0;
+}
+
+@media (orientation: landscape), (min-width: 720px) {
+  .mobile-app {
+    max-width: 960px;
+  }
+
+  .level-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    row-gap: 12px;
+    column-gap: 12px;
+    padding: 6px 0 16px 0;
+  }
 }
 
 .level-card {
