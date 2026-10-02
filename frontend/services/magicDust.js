@@ -5,16 +5,16 @@
  */
 
 export const DEFAULT_DUST_CONFIG = {
-  density: 28,          // Rich, silky stardust stream
+  density: 30,          // Silky, dense fairy stardust stream
   size: 0.22,           // Ultra-microscopic delicate specks (0.15px - 0.35px)
-  brightness: 0.70,     // Instant bright glow directly under fingertip
-  glow: 0.30,           // Delicate starlight aura
-  life: 0.38,           // Short ~3cm tail lifespan (fades out quickly as finger moves)
-  gravity: 0,           // Weightless levitation
-  sway: 0.2,            // Subtle air shimmer
-  spread: 3.5,          // Tight, precise emission right at touch point
-  maxFall: 15,          // Disappears quickly
-  glints: 24,           // Golden sparkling micro-facets
+  brightness: 0.72,     // Warm golden radiance directly under touch
+  glow: 0.35,           // Soft starlight aura
+  life: 0.60,           // 1.5x longer lifespan for a graceful ~6cm trail
+  gravity: 0,           // Weightless floating in the air
+  sway: 0.35,           // Gentle fairy shimmer
+  spread: 4.0,          // Natural stardust emission
+  maxFall: 20,          // Smooth dissolving in flight
+  glints: 26,           // Golden sparkling micro-facets
   tint: "gold"
 };
 
@@ -204,8 +204,8 @@ class MagicDustController {
       p.x += (p.vx + Math.sin(p.swayPhase) * sway * 0.02) * dt * 60;
       p.y += p.vy * dt * 60;
 
-      // Instant 100% max brightness right under finger, quadratic fade out across ~3cm drag tail
-      let alpha = Math.pow(1.0 - progress, 1.8) * baseBrightness;
+      // Instant 100% max brightness right under finger, smooth fairy dissolution across ~6cm drag trail
+      let alpha = Math.pow(1.0 - progress, 1.4) * baseBrightness;
 
       if (p.isShimmer) {
         const twinkle = 0.85 + 0.15 * Math.sin(p.twinklePhase);
