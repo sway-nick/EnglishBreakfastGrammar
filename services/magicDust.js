@@ -5,16 +5,16 @@
  */
 
 export const DEFAULT_DUST_CONFIG = {
-  density: 26,          // Very dense, rich dust trail
-  size: 0.22,           // Ultra-microscopic particle size (0.15px - 0.35px)
-  brightness: 0.55,     // Soft, warm golden luminescence
-  glow: 0.35,           // Delicate starlight glow
-  life: 1.5,            // Levitation duration in seconds
-  gravity: 0.1,         // 10x slower: near-zero gravity levitation
-  sway: 0.4,            // Microscopic air shimmer
-  spread: 6,            // Tight stream directly beneath fingertip
-  maxFall: 10,          // Virtually zero fall distance before fading
-  glints: 22,           // Shimmering micro-sparkles
+  density: 28,          // Rich, silky stardust stream
+  size: 0.22,           // Ultra-microscopic delicate specks (0.15px - 0.35px)
+  brightness: 0.70,     // Instant bright glow directly under fingertip
+  glow: 0.30,           // Delicate starlight aura
+  life: 0.38,           // Short ~3cm tail lifespan (fades out quickly as finger moves)
+  gravity: 0,           // Weightless levitation
+  sway: 0.2,            // Subtle air shimmer
+  spread: 3.5,          // Tight, precise emission right at touch point
+  maxFall: 15,          // Disappears quickly
+  glints: 24,           // Golden sparkling micro-facets
   tint: "gold"
 };
 
@@ -31,11 +31,11 @@ class MagicDustController {
 
     // Pure warm golden palette
     this.goldColors = [
-      'rgba(255, 235, 140, ', // Warm starlight gold
-      'rgba(253, 218, 90, ',  // Pure glowing amber
-      'rgba(248, 178, 25, ',  // Deep honey gold
-      'rgba(255, 245, 190, ', // Soft fairy pollen
-      'rgba(255, 255, 235, '  // Diamond white-gold shimmer
+      'rgba(255, 238, 150, ', // Warm starlight gold
+      'rgba(255, 220, 95, ',  // Pure glowing amber
+      'rgba(248, 185, 30, ',  // Deep honey gold
+      'rgba(255, 248, 205, ', // Soft fairy pollen
+      'rgba(255, 255, 240, '  // Diamond white-gold shimmer
     ];
   }
 
@@ -77,20 +77,20 @@ class MagicDustController {
       if (!this.isEnabled) return;
 
       if (this.lastSpawnPos) {
-        // Ultra-dense fine interpolation along stroke path
+        // High density interpolation along drag stroke for zero gaps
         const dx = x - this.lastSpawnPos.x;
         const dy = y - this.lastSpawnPos.y;
         const dist = Math.hypot(dx, dy);
-        const steps = Math.min(14, Math.max(1, Math.floor(dist / 2.5)));
+        const steps = Math.min(12, Math.max(1, Math.floor(dist / 3)));
 
         for (let s = 0; s < steps; s++) {
           const t = (s + 1) / steps;
           const ix = this.lastSpawnPos.x + dx * t;
           const iy = this.lastSpawnPos.y + dy * t;
-          this.spawnBurst(ix, iy, 5);
+          this.spawnBurst(ix, iy, 4);
         }
       } else {
-        this.spawnBurst(x, y, 14);
+        this.spawnBurst(x, y, 12);
       }
 
       this.lastSpawnPos = { x, y };
@@ -131,7 +131,7 @@ class MagicDustController {
     const spread = this.config.spread;
     for (let i = 0; i < count; i++) {
       const angle = Math.random() * Math.PI * 2;
-      const speed = (0.02 + Math.random() * 0.25) * (spread * 0.15);
+      const speed = (0.01 + Math.random() * 0.15) * spread;
       const isShimmer = Math.random() * 100 < this.config.glints;
 
       const baseColor = this.goldColors[Math.floor(Math.random() * this.goldColors.length)];
@@ -142,16 +142,16 @@ class MagicDustController {
         startX: x,
         startY: y,
         vx: Math.cos(angle) * speed,
-        vy: Math.sin(angle) * speed * 0.05, // Virtually zero initial vertical drift
+        vy: Math.sin(angle) * speed * 0.05,
         baseColor,
         isShimmer,
-        size: (0.2 + Math.random() * 0.4) * this.config.size, // Ultra-microscopic (0.15px - 0.35px)
+        size: (0.2 + Math.random() * 0.35) * this.config.size, // Ultra-microscopic
         age: 0,
-        maxLife: (0.9 + Math.random() * 0.4) * this.config.life,
+        maxLife: (0.85 + Math.random() * 0.3) * this.config.life,
         swayPhase: Math.random() * Math.PI * 2,
-        swaySpeed: 0.8 + Math.random() * 1.2,
+        swaySpeed: 1.0 + Math.random() * 1.5,
         twinklePhase: Math.random() * Math.PI * 2,
-        twinkleSpeed: 2.5 + Math.random() * 4.0
+        twinkleSpeed: 4.0 + Math.random() * 6.0
       });
     }
   }
@@ -164,7 +164,7 @@ class MagicDustController {
   }
 
   tick(currentTime) {
-    const dt = Math.min(0.05, (currentTime - this.lastTime) / 1000);
+    const dt = Math.min(0.04, (currentTime - this.lastTime) / 1000);
     this.lastTime = currentTime;
 
     if (!this.ctx || !this.canvas) return;
@@ -180,9 +180,7 @@ class MagicDustController {
     }
 
     const nextParticles = [];
-    const gravity = this.config.gravity;
     const sway = this.config.sway;
-    const maxFall = this.config.maxFall;
     const baseBrightness = this.config.brightness;
     const glowFactor = this.config.glow;
 
@@ -195,31 +193,19 @@ class MagicDustController {
 
       if (p.age >= p.maxLife) continue;
 
-      const progress = p.age / p.maxLife; // 0..1
-      const fallDistance = p.y - p.startY;
+      const progress = p.age / p.maxLife; // 0 (birth under finger) -> 1 (death)
 
-      if (fallDistance > maxFall) continue;
-
-      // Zero-gravity levitation with gentle damping
-      p.vy += gravity * dt * 0.01;
-      p.vx *= 0.92;
-      p.vy *= 0.92;
+      p.vx *= 0.90;
+      p.vy *= 0.90;
 
       p.swayPhase += p.swaySpeed * dt;
       p.twinklePhase += p.twinkleSpeed * dt;
 
-      p.x += (p.vx + Math.sin(p.swayPhase) * sway * 0.04) * dt * 60;
+      p.x += (p.vx + Math.sin(p.swayPhase) * sway * 0.02) * dt * 60;
       p.y += p.vy * dt * 60;
 
-      // Soft progressive fade envelope
-      let alpha = 1.0;
-      if (progress < 0.1) {
-        alpha = progress / 0.1;
-      } else {
-        alpha = Math.pow(1 - (progress - 0.1) / 0.9, 1.4);
-      }
-
-      alpha *= baseBrightness;
+      // Instant 100% max brightness right under finger, quadratic fade out across ~3cm drag tail
+      let alpha = Math.pow(1.0 - progress, 1.8) * baseBrightness;
 
       if (p.isShimmer) {
         const twinkle = 0.85 + 0.15 * Math.sin(p.twinklePhase);
@@ -228,10 +214,10 @@ class MagicDustController {
 
       if (alpha <= 0.005) continue;
 
-      const curSize = p.size * (1.0 - progress * 0.15);
+      const curSize = p.size * (1.0 - progress * 0.25);
 
-      // Render ultra-microscopic glowing speck
-      this.ctx.shadowBlur = curSize * 3.5 * glowFactor;
+      // Microscopic glowing particle render
+      this.ctx.shadowBlur = curSize * 3.0 * glowFactor;
       this.ctx.shadowColor = p.baseColor + `${Math.min(0.65, alpha * 1.1)})`;
       this.ctx.fillStyle = p.baseColor + `${alpha})`;
 
