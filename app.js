@@ -1,5 +1,6 @@
 import { GrammarService } from './services/grammarService.js';
 import { StorageService } from './services/storageService.js';
+import { AudioService } from './services/audioService.js';
 import { t, setLanguage, getLanguage } from './services/i18n.js';
 
 import { renderHeader } from './components/Header.js';
@@ -32,6 +33,12 @@ class App {
       this.applyTheme(StorageService.getTheme());
     } catch (e) {
       console.warn('Theme apply error:', e);
+    }
+
+    try {
+      AudioService.init();
+    } catch (e) {
+      console.warn('Audio init error:', e);
     }
 
     try {
@@ -70,6 +77,14 @@ class App {
     if (payload.lesson !== undefined) this.state.currentLesson = payload.lesson;
     this.state.isDrawerOpen = false;
     this.state.testUserAnswers = {};
+    
+    // Notify AudioService about screen transition
+    try {
+      AudioService.onScreenChange(screen);
+    } catch (e) {
+      console.warn('Audio onScreenChange error:', e);
+    }
+
     this.render();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
@@ -115,12 +130,14 @@ class App {
 
       // 6. Drawer Sound & Voice Toggles
       if (e.target.closest('#sfx-on-btn')) {
+        AudioService.setSoundEnabled(true);
         document.getElementById('sfx-on-btn')?.classList.add('active');
         document.getElementById('sfx-off-btn')?.classList.remove('active');
         return;
       }
 
       if (e.target.closest('#sfx-off-btn')) {
+        AudioService.setSoundEnabled(false);
         document.getElementById('sfx-off-btn')?.classList.add('active');
         document.getElementById('sfx-on-btn')?.classList.remove('active');
         return;

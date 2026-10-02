@@ -80,13 +80,13 @@ export function renderBurgerDrawer() {
         <div class="settings-card">
           <div class="settings-card-title" style="display: flex; align-items: center; gap: 6px; font-size: 14.5px; font-weight: 700; margin-bottom: 10px; color: var(--text-main);">
             <span>✨</span>
-            <span>Sound Effects</span>
+            <span>Sound & Music</span>
           </div>
           <div class="sound-options-row" style="display: flex; gap: 10px;">
-            <button class="sound-option-btn active" id="sfx-on-btn" style="flex: 1;">
+            <button class="sound-option-btn ${StorageService.getSoundEnabled() ? 'active' : ''}" id="sfx-on-btn" style="flex: 1;">
               🔔 Enabled
             </button>
-            <button class="sound-option-btn" id="sfx-off-btn" style="flex: 1;">
+            <button class="sound-option-btn ${!StorageService.getSoundEnabled() ? 'active' : ''}" id="sfx-off-btn" style="flex: 1;">
               🔕 Disabled
             </button>
           </div>

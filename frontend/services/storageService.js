@@ -71,5 +71,14 @@ export const StorageService = {
 
   isFavorite(lessonId) {
     return this.getFavorites().includes(lessonId);
+  },
+
+  getSoundEnabled() {
+    const val = localStorage.getItem('eb_grammar_sound');
+    return val === null ? true : val === 'true';
+  },
+
+  setSoundEnabled(enabled) {
+    localStorage.setItem('eb_grammar_sound', enabled ? 'true' : 'false');
   }
 };
