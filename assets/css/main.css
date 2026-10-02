@@ -331,35 +331,35 @@ html, body {
 .level-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  padding: 4px 0 16px 0;
+  gap: 12px;
+  padding: 6px 0 20px 0;
 }
 
 .level-card {
   position: relative;
   width: 100%;
-  aspect-ratio: 320 / 250;
+  aspect-ratio: 13 / 10;
   display: flex;
   align-items: center;
   justify-content: center;
   background: transparent;
   border: none;
-  border-radius: 8px;
   cursor: pointer;
-  overflow: hidden;
+  overflow: visible;
   padding: 0;
   box-sizing: border-box;
-  transition: transform 0.15s ease, filter 0.15s ease;
+  transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.18s ease;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.25));
 }
 
 .level-card:hover {
-  transform: translateY(-2px) scale(1.02);
-  filter: brightness(1.05);
+  transform: translateY(-4px) scale(1.03);
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.35)) brightness(1.04);
 }
 
 .level-card:active {
   transform: translateY(1px) scale(0.98);
-  filter: brightness(0.98);
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.2)) brightness(0.97);
 }
 
 .level-card-img {
