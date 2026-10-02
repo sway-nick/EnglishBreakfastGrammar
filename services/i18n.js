@@ -133,11 +133,32 @@ const TRANSLATIONS = {
   }
 };
 
+export const SUPPORTED_LANGUAGES = [
+  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
+  { code: 'en', name: 'English', flag: '🇬🇧' },
+  { code: 'uk', name: 'Українська', flag: '🇺🇦' },
+  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+  { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'fr', name: 'Français', flag: '🇫🇷' },
+  { code: 'pl', name: 'Polski', flag: '🇵🇱' },
+  { code: 'it', name: 'Italiano', flag: '🇮🇹' },
+  { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
+  { code: 'pt', name: 'Português', flag: '🇵🇹' },
+  { code: 'ro', name: 'Română', flag: '🇷🇴' },
+  { code: 'bg', name: 'Български', flag: '🇧🇬' },
+  { code: 'cs', name: 'Čeština', flag: '🇨🇿' },
+  { code: 'sk', name: 'Slovenčina', flag: '🇸🇰' },
+  { code: 'hu', name: 'Magyar', flag: '🇭🇺' },
+  { code: 'el', name: 'Ελληνικά', flag: '🇬🇷' },
+  { code: 'et', name: 'Eesti', flag: '🇪🇪' },
+  { code: 'lt', name: 'Lietuvių', flag: '🇱🇹' }
+];
+
 let currentLang = localStorage.getItem('eb_grammar_lang') || 'ru';
 
 export function t(key) {
-  const dict = TRANSLATIONS[currentLang] || TRANSLATIONS.ru;
-  return dict[key] || key;
+  const dict = TRANSLATIONS[currentLang] || TRANSLATIONS.en || TRANSLATIONS.ru;
+  return dict[key] || TRANSLATIONS.en?.[key] || TRANSLATIONS.ru?.[key] || key;
 }
 
 export function getLanguage() {
@@ -145,7 +166,8 @@ export function getLanguage() {
 }
 
 export function setLanguage(lang) {
-  if (TRANSLATIONS[lang]) {
+  const exists = SUPPORTED_LANGUAGES.some(l => l.code === lang);
+  if (exists) {
     currentLang = lang;
     localStorage.setItem('eb_grammar_lang', lang);
   }

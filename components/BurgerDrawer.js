@@ -1,9 +1,13 @@
-import { t, getLanguage, setLanguage } from '../services/i18n.js';
+import { t, getLanguage, setLanguage, SUPPORTED_LANGUAGES } from '../services/i18n.js';
 import { StorageService } from '../services/storageService.js';
 
 export function renderBurgerDrawer() {
   const currentLang = getLanguage();
   const currentTheme = StorageService.getTheme();
+
+  const langOptionsHtml = SUPPORTED_LANGUAGES.map(l => 
+    `<option value="${l.code}" ${currentLang === l.code ? 'selected' : ''}>${l.code} — ${l.name}</option>`
+  ).join('');
 
   return `
     <div class="drawer-overlay" id="drawer-overlay"></div>
@@ -52,10 +56,7 @@ export function renderBurgerDrawer() {
             <span>Interface Language</span>
           </div>
           <select id="select-language" class="settings-select" style="width: 100%; height: 44px; padding: 0 12px; border-radius: 12px; border: 1px solid var(--border-color); background: var(--bg-hover); color: var(--text-main); font-weight: 600; font-size: 14.5px; outline: none; cursor: pointer;">
-            <option value="en" ${currentLang === 'en' ? 'selected' : ''}>English</option>
-            <option value="ru" ${currentLang === 'ru' ? 'selected' : ''}>Русский</option>
-            <option value="uk" ${currentLang === 'uk' ? 'selected' : ''}>Українська</option>
-            <option value="es" ${currentLang === 'es' ? 'selected' : ''}>Español</option>
+            ${langOptionsHtml}
           </select>
         </div>
 

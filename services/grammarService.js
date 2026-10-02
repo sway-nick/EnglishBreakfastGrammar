@@ -31,6 +31,59 @@ export const GrammarService = {
     }
   },
 
+  rulesCache: {},
+
+  async getRulesForLanguage(lang = 'ru') {
+    if (this.rulesCache[lang]) return this.rulesCache[lang];
+    try {
+      const rulesUrl = new URL(`../assets/data/rules/rules_${lang}.json`, import.meta.url).href;
+      const res = await fetch(rulesUrl);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      this.rulesCache[lang] = data;
+      return data;
+    } catch (e) {
+      console.warn(`Could not load rules for ${lang}, falling back to ru:`, e);
+      if (lang !== 'ru') return this.getRulesForLanguage('ru');
+      return [];
+    }
+  },
+
+  async getRuleForLesson(lesson, lang = 'ru') {
+    if (!lesson) return null;
+    const rules = await this.getRulesForLanguage(lang);
+    if (!rules || !rules.length) return null;
+
+    // 1. Try exact match by Lesson # and Level
+    const lessonTitle = (lesson.title || '').toLowerCase().trim();
+    const lessonLevel = (lesson.level || '').toUpperCase().trim();
+    
+    // Extract lesson number if possible
+    let lessonNum = null;
+    const numMatch = (lesson.lesson_id || '').match(/_(\d+)$/);
+    if (numMatch) {
+      lessonNum = parseInt(numMatch[1], 10);
+    }
+
+    let matched = null;
+    if (lessonNum !== null) {
+      matched = rules.find(r => 
+        String(r['Level']).toUpperCase().trim() === lessonLevel &&
+        parseInt(r['Lesson #'], 10) === lessonNum
+      );
+    }
+
+    // 2. Fallback: match by Topic / title substring
+    if (!matched) {
+      matched = rules.find(r => {
+        const topic = (r['Lesson / Topic'] || '').toLowerCase().trim();
+        return topic && (lessonTitle.includes(topic) || topic.includes(lessonTitle));
+      });
+    }
+
+    return matched;
+  },
+
   async getLesson(lessonId) {
     if (this.lessonsCache[lessonId]) return this.lessonsCache[lessonId];
     try {

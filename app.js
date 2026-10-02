@@ -176,6 +176,8 @@ class App {
         const lessonId = lessonCard.getAttribute('data-lesson-id');
         const lesson = await GrammarService.getLesson(lessonId);
         if (lesson) {
+          const lang = getLanguage();
+          lesson._localizedRule = await GrammarService.getRuleForLesson(lesson, lang);
           this.navigate('theory', { lesson });
         }
         return;
@@ -257,9 +259,13 @@ class App {
     });
 
     // Language selection change
-    document.addEventListener('change', (e) => {
+    document.addEventListener('change', async (e) => {
       if (e.target.id === 'select-language') {
-        setLanguage(e.target.value);
+        const newLang = e.target.value;
+        setLanguage(newLang);
+        if (this.state.screen === 'theory' && this.state.currentLesson) {
+          this.state.currentLesson._localizedRule = await GrammarService.getRuleForLesson(this.state.currentLesson, newLang);
+        }
         this.render();
       }
     });
