@@ -1,15 +1,15 @@
-import { GrammarService } from './services/grammarService.js?v=2.2';
-import { StorageService } from './services/storageService.js?v=2.2';
-import { t, setLanguage } from './services/i18n.js?v=2.2';
+import { GrammarService } from './services/grammarService.js?v=3.1';
+import { StorageService } from './services/storageService.js?v=3.1';
+import { t, setLanguage } from './services/i18n.js?v=3.1';
 
-import { renderHeader } from './components/Header.js?v=2.2';
-import { renderBurgerDrawer } from './components/BurgerDrawer.js?v=2.2';
-import { renderLevelGrid } from './components/LevelGrid.js?v=2.2';
-import { renderLessonList } from './components/LessonList.js?v=2.2';
-import { renderGrammarRuleView } from './components/GrammarRuleView.js?v=2.2';
-import { renderTestEngine } from './components/TestEngine.js?v=2.2';
-import { renderTestResultModal } from './components/TestResultModal.js?v=2.2';
-import { renderLeaderboardView, initLeaderboardEvents } from './components/LeaderboardView.js?v=2.2';
+import { renderHeader } from './components/Header.js?v=3.1';
+import { renderBurgerDrawer } from './components/BurgerDrawer.js?v=3.1';
+import { renderLevelGrid } from './components/LevelGrid.js?v=3.1';
+import { renderLessonList } from './components/LessonList.js?v=3.1';
+import { renderGrammarRuleView } from './components/GrammarRuleView.js?v=3.1';
+import { renderTestEngine } from './components/TestEngine.js?v=3.1';
+import { renderTestResultModal } from './components/TestResultModal.js?v=3.1';
+import { renderLeaderboardView, initLeaderboardEvents } from './components/LeaderboardView.js?v=3.1';
 
 class App {
   constructor() {
@@ -173,12 +173,20 @@ class App {
       // 10. Lesson card click
       const lessonCard = e.target.closest('.lesson-card');
       if (lessonCard) {
-        const lessonId = lessonCard.getAttribute('data-lesson-id');
-        const lesson = await GrammarService.getLesson(lessonId);
-        if (lesson) {
-          const lang = getLanguage();
-          lesson._localizedRule = await GrammarService.getRuleForLesson(lesson, lang);
-          this.navigate('theory', { lesson });
+        try {
+          const lessonId = lessonCard.getAttribute('data-lesson-id');
+          const lesson = await GrammarService.getLesson(lessonId);
+          if (lesson) {
+            const lang = getLanguage();
+            try {
+              lesson._localizedRule = await GrammarService.getRuleForLesson(lesson, lang);
+            } catch (ruleErr) {
+              console.warn('Could not load localized rule:', ruleErr);
+            }
+            this.navigate('theory', { lesson });
+          }
+        } catch (err) {
+          console.error('Error loading lesson:', err);
         }
         return;
       }

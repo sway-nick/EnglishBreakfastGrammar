@@ -51,37 +51,47 @@ export const GrammarService = {
 
   async getRuleForLesson(lesson, lang = 'ru') {
     if (!lesson) return null;
-    const rules = await this.getRulesForLanguage(lang);
-    if (!rules || !rules.length) return null;
+    try {
+      const rules = await this.getRulesForLanguage(lang);
+      if (!rules || !rules.length) return null;
 
-    // 1. Try exact match by Lesson # and Level
-    const lessonTitle = (lesson.title || '').toLowerCase().trim();
-    const lessonLevel = (lesson.level || '').toUpperCase().trim();
-    
-    // Extract lesson number if possible
-    let lessonNum = null;
-    const numMatch = (lesson.lesson_id || '').match(/_(\d+)$/);
-    if (numMatch) {
-      lessonNum = parseInt(numMatch[1], 10);
-    }
+      const lessonNum = lesson.theory?.lesson_num;
+      const lessonLevel = (lesson.theory?.level || lesson.level || '').toUpperCase().trim();
+      const lessonTitle = (lesson.title || '').toLowerCase().trim();
+      const normLevel = (lvl) => {
+        const u = String(lvl || '').toUpperCase().trim();
+        if (u === 'B1-B2' || u === 'B1+') return 'B1+';
+        if (u === 'SHORTS' || u === 'GRAMMAR SHORTS') return 'GRAMMAR SHORTS';
+        return u;
+      };
 
-    let matched = null;
-    if (lessonNum !== null) {
-      matched = rules.find(r => 
-        String(r['Level']).toUpperCase().trim() === lessonLevel &&
-        parseInt(r['Lesson #'], 10) === lessonNum
-      );
-    }
+      // 1. Exact match by lesson_num and level
+      if (lessonNum !== undefined && lessonNum !== null) {
+        const matched = rules.find(r => 
+          normLevel(r['Level']) === normLevel(lessonLevel) &&
+          parseInt(r['Lesson #'], 10) === parseInt(lessonNum, 10)
+        );
+        if (matched) return matched;
+      }
 
-    // 2. Fallback: match by Topic / title substring
-    if (!matched) {
-      matched = rules.find(r => {
+      // 2. Match by Rule ID if available
+      if (lesson.theory?.rule_id) {
+        const baseRuleId = lesson.theory.rule_id.replace(/-[A-Z]{2}$/i, '');
+        const matched = rules.find(r => (r['Rule ID'] || '').startsWith(baseRuleId));
+        if (matched) return matched;
+      }
+
+      // 3. Fallback: match by Topic / title
+      const matched = rules.find(r => {
         const topic = (r['Lesson / Topic'] || '').toLowerCase().trim();
         return topic && (lessonTitle.includes(topic) || topic.includes(lessonTitle));
       });
-    }
 
-    return matched;
+      return matched || null;
+    } catch (e) {
+      console.warn('Error matching rule for lesson:', e);
+      return null;
+    }
   },
 
   async getLesson(lessonId) {
