@@ -1,0 +1,6362 @@
+[
+  {
+    "id": "adapt_a1_a_an_plurals",
+    "title": "A/an, plurals: Singular and plural forms",
+    "level": "A1",
+    "topic": "A/an, plurals: Singular and plural forms",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-424",
+        "lessonId": "adapt_a1_a_an_plurals",
+        "order": 1,
+        "title": "Exercise 1",
+        "instruction": "Choose a/an for the following words.",
+        "questions": [
+          {
+            "id": "adapt_3666",
+            "order": 1,
+            "type": "gap_select",
+            "text": "1 Look over there, it is {{gap1}} eagle.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3666_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3666_1_1",
+                    "order": 1,
+                    "value": "an",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3666_1_2",
+                    "order": 2,
+                    "value": "a",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3667",
+            "order": 2,
+            "type": "gap_select",
+            "text": "2 We should buy {{gap1}} wooden desk.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3667_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3667_1_1",
+                    "order": 1,
+                    "value": "a",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3667_1_2",
+                    "order": 2,
+                    "value": "an",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3668",
+            "order": 3,
+            "type": "gap_select",
+            "text": "3 A smartphone is {{gap1}} useful tool.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3668_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3668_1_1",
+                    "order": 1,
+                    "value": "an",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3668_1_2",
+                    "order": 2,
+                    "value": "a",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3669",
+            "order": 4,
+            "type": "gap_select",
+            "text": "4 My uncle works as {{gap1}} plumber.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3669_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3669_1_1",
+                    "order": 1,
+                    "value": "a",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3669_1_2",
+                    "order": 2,
+                    "value": "an",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3670",
+            "order": 5,
+            "type": "gap_select",
+            "text": "5 Did you pack {{gap1}} extra umbrella?",
+            "gaps": [
+              {
+                "id": "adapt_gap_3670_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3670_1_1",
+                    "order": 1,
+                    "value": "a",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3670_1_2",
+                    "order": 2,
+                    "value": "an",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3671",
+            "order": 6,
+            "type": "gap_select",
+            "text": "6 She wants to be {{gap1}} Italian chef.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3671_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3671_1_1",
+                    "order": 1,
+                    "value": "an",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3671_1_2",
+                    "order": 2,
+                    "value": "a",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3672",
+            "order": 7,
+            "type": "gap_select",
+            "text": "7 He bought {{gap1}} warm scarf for winter.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3672_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3672_1_1",
+                    "order": 1,
+                    "value": "a",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3672_1_2",
+                    "order": 2,
+                    "value": "an",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3673",
+            "order": 8,
+            "type": "gap_select",
+            "text": "8 Is your brother {{gap1}} pilot?",
+            "gaps": [
+              {
+                "id": "adapt_gap_3673_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3673_1_1",
+                    "order": 1,
+                    "value": "a",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3673_1_2",
+                    "order": 2,
+                    "value": "an",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3674",
+            "order": 9,
+            "type": "gap_select",
+            "text": "9 There is {{gap1}} unusual bird in the tree.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3674_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3674_1_1",
+                    "order": 1,
+                    "value": "a",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3674_1_2",
+                    "order": 2,
+                    "value": "an",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3675",
+            "order": 10,
+            "type": "gap_select",
+            "text": "10 The doctor requested {{gap1}} honest explanation.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3675_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3675_1_1",
+                    "order": 1,
+                    "value": "a",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3675_1_2",
+                    "order": 2,
+                    "value": "an",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "adapt_quiz-425",
+        "lessonId": "adapt_a1_a_an_plurals",
+        "order": 2,
+        "title": "Exercise 2",
+        "instruction": "Write the plurals of the following singular words.",
+        "questions": [
+          {
+            "id": "adapt_3676",
+            "order": 1,
+            "type": "gap_text",
+            "text": "1 a dictionary ⇒ {{gap1}}",
+            "gaps": [
+              {
+                "id": "adapt_gap_3676_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "dictionaries",
+                "accepted_answers": [
+                  "dictionaries"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3677",
+            "order": 2,
+            "type": "gap_text",
+            "text": "2 a beach ⇒ {{gap1}}",
+            "gaps": [
+              {
+                "id": "adapt_gap_3677_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "beaches",
+                "accepted_answers": [
+                  "beaches"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3678",
+            "order": 3,
+            "type": "gap_text",
+            "text": "3 a bridge ⇒ {{gap1}}",
+            "gaps": [
+              {
+                "id": "adapt_gap_3678_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "bridges",
+                "accepted_answers": [
+                  "bridges"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3679",
+            "order": 4,
+            "type": "gap_text",
+            "text": "4 a brave woman ⇒ brave {{gap1}}",
+            "gaps": [
+              {
+                "id": "adapt_gap_3679_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "women",
+                "accepted_answers": [
+                  "women"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3680",
+            "order": 5,
+            "type": "gap_text",
+            "text": "5 one tooth ⇒ two {{gap1}}",
+            "gaps": [
+              {
+                "id": "adapt_gap_3680_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "teeth",
+                "accepted_answers": [
+                  "teeth"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3681",
+            "order": 6,
+            "type": "gap_text",
+            "text": "6 a wooden box ⇒ wooden {{gap1}}",
+            "gaps": [
+              {
+                "id": "adapt_gap_3681_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "boxes",
+                "accepted_answers": [
+                  "boxes"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3682",
+            "order": 7,
+            "type": "gap_text",
+            "text": "7 a silver match ⇒ silver {{gap1}}",
+            "gaps": [
+              {
+                "id": "adapt_gap_3682_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "matches",
+                "accepted_answers": [
+                  "matches"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3683",
+            "order": 8,
+            "type": "gap_text",
+            "text": "8 a fast laptop ⇒ fast {{gap1}}",
+            "gaps": [
+              {
+                "id": "adapt_gap_3683_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "laptops",
+                "accepted_answers": [
+                  "laptops"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3684",
+            "order": 9,
+            "type": "gap_text",
+            "text": "9 a beautiful painting ⇒ beautiful {{gap1}}",
+            "gaps": [
+              {
+                "id": "adapt_gap_3684_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "paintings",
+                "accepted_answers": [
+                  "paintings"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3685",
+            "order": 10,
+            "type": "gap_text",
+            "text": "10 One bottle of water ⇒ two {{gap1}} of water",
+            "gaps": [
+              {
+                "id": "adapt_gap_3685_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "bottles",
+                "accepted_answers": [
+                  "bottles"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_a1_a_an_the_no_article",
+    "title": "A/an, the, no article: The use of articles in English",
+    "level": "A1",
+    "topic": "A/an, the, no article: The use of articles in English",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-492",
+        "lessonId": "adapt_a1_a_an_the_no_article",
+        "order": 1,
+        "title": "Exercise 1",
+        "instruction": "Choose a/an, the or no article to complete the following sentences.",
+        "questions": [
+          {
+            "id": "adapt_4308",
+            "order": 1,
+            "type": "gap_select",
+            "text": "1 Lucas baked bread and soup. {{gap1}} soup was wonderfully fragrant.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4308_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4308_1_1",
+                    "order": 1,
+                    "value": "A",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4308_1_2",
+                    "order": 2,
+                    "value": "The",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4308_1_3",
+                    "order": 3,
+                    "value": "-",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4305",
+            "order": 2,
+            "type": "gap_select",
+            "text": "2 That documentary is {{gap1}} exciting film.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4305_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4305_1_1",
+                    "order": 1,
+                    "value": "an",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4305_1_2",
+                    "order": 2,
+                    "value": "the",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4305_1_3",
+                    "order": 3,
+                    "value": "-",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4307",
+            "order": 3,
+            "type": "gap_select",
+            "text": "3 We discovered {{gap1}} wooden chest under the floorboards.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4307_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4307_1_1",
+                    "order": 1,
+                    "value": "a",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4307_1_2",
+                    "order": 2,
+                    "value": "the",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4307_1_3",
+                    "order": 3,
+                    "value": "-",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4312",
+            "order": 4,
+            "type": "gap_select",
+            "text": "4 Nutritionists believe that {{gap1}} green tea improves concentration.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4312_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4312_1_1",
+                    "order": 1,
+                    "value": "a",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4312_1_2",
+                    "order": 2,
+                    "value": "the",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4312_1_3",
+                    "order": 3,
+                    "value": "-",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4304",
+            "order": 5,
+            "type": "gap_select",
+            "text": "5 Daniel does not own {{gap1}} bicycle.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4304_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4304_1_1",
+                    "order": 1,
+                    "value": "the",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4304_1_2",
+                    "order": 2,
+                    "value": "a",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4304_1_3",
+                    "order": 3,
+                    "value": "-",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4309",
+            "order": 6,
+            "type": "gap_select",
+            "text": "6 Could you reach for {{gap1}} salt on the counter?",
+            "gaps": [
+              {
+                "id": "adapt_gap_4309_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4309_1_1",
+                    "order": 1,
+                    "value": "the",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4309_1_2",
+                    "order": 2,
+                    "value": "a",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4309_1_3",
+                    "order": 3,
+                    "value": "-",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4310",
+            "order": 7,
+            "type": "gap_select",
+            "text": "7 {{gap1}} mayor greeted the citizens at the festival.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4310_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4310_1_1",
+                    "order": 1,
+                    "value": "-",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4310_1_2",
+                    "order": 2,
+                    "value": "A",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4310_1_3",
+                    "order": 3,
+                    "value": "The",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4306",
+            "order": 8,
+            "type": "gap_select",
+            "text": "8 Her older cousin is {{gap1}} civil engineer.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4306_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4306_1_1",
+                    "order": 1,
+                    "value": "-",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4306_1_2",
+                    "order": 2,
+                    "value": "a",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4306_1_3",
+                    "order": 3,
+                    "value": "the",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4313",
+            "order": 9,
+            "type": "gap_select",
+            "text": "9 Zoologists note that {{gap1}} wolves live in organized packs.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4313_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4313_1_1",
+                    "order": 1,
+                    "value": "a",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4313_1_2",
+                    "order": 2,
+                    "value": "the",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4313_1_3",
+                    "order": 3,
+                    "value": "-",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4311",
+            "order": 10,
+            "type": "gap_select",
+            "text": "10 The taxi dropped the passengers off at {{gap1}} railway terminal.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4311_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4311_1_1",
+                    "order": 1,
+                    "value": "-",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4311_1_2",
+                    "order": 2,
+                    "value": "the",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4311_1_3",
+                    "order": 3,
+                    "value": "an",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "adapt_quiz-493",
+        "lessonId": "adapt_a1_a_an_the_no_article",
+        "order": 2,
+        "title": "Exercise 2",
+        "instruction": "Choose a/an, the or no article to complete the sentences below.",
+        "questions": [
+          {
+            "id": "adapt_4314",
+            "order": 1,
+            "type": "single_choice",
+            "text": "1 'Where is David?' 'He is relaxing in _____ garden.'",
+            "options": [
+              {
+                "id": "adapt_4314_1",
+                "order": 1,
+                "value": "a",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4314_2",
+                "order": 2,
+                "value": "the",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4314_3",
+                "order": 3,
+                "value": "–",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4315",
+            "order": 2,
+            "type": "single_choice",
+            "text": "2 Would you like to have _____ breakfast together tomorrow?",
+            "options": [
+              {
+                "id": "adapt_4315_1",
+                "order": 1,
+                "value": "a",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4315_2",
+                "order": 2,
+                "value": "the",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4315_3",
+                "order": 3,
+                "value": "–",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4316",
+            "order": 3,
+            "type": "single_choice",
+            "text": "3 Where do you plan to travel _____ next month?",
+            "options": [
+              {
+                "id": "adapt_4316_1",
+                "order": 1,
+                "value": "a",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4316_2",
+                "order": 2,
+                "value": "the",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4316_3",
+                "order": 3,
+                "value": "–",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4319",
+            "order": 4,
+            "type": "single_choice",
+            "text": "4 My younger brother is learning to play _____ guitar.",
+            "options": [
+              {
+                "id": "adapt_4319_1",
+                "order": 1,
+                "value": "a",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4319_2",
+                "order": 2,
+                "value": "the",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4319_3",
+                "order": 3,
+                "value": "–",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4321",
+            "order": 5,
+            "type": "single_choice",
+            "text": "5 My sister hopes to buy _____ modern laptop for college.",
+            "options": [
+              {
+                "id": "adapt_4321_1",
+                "order": 1,
+                "value": "a",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4321_2",
+                "order": 2,
+                "value": "the",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4321_3",
+                "order": 3,
+                "value": "–",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4317",
+            "order": 6,
+            "type": "single_choice",
+            "text": "6 Her favorite academic subject is _____ biology.",
+            "options": [
+              {
+                "id": "adapt_4317_1",
+                "order": 1,
+                "value": "a",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4317_2",
+                "order": 2,
+                "value": "the",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4317_3",
+                "order": 3,
+                "value": "–",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4320",
+            "order": 7,
+            "type": "single_choice",
+            "text": "7 _____ musicians in this orchestra are world-famous.",
+            "options": [
+              {
+                "id": "adapt_4320_1",
+                "order": 1,
+                "value": "A",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4320_2",
+                "order": 2,
+                "value": "The",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4320_3",
+                "order": 3,
+                "value": "–",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4318",
+            "order": 8,
+            "type": "single_choice",
+            "text": "8 Aviation technology will evolve dramatically by _____ 2045.",
+            "options": [
+              {
+                "id": "adapt_4318_1",
+                "order": 1,
+                "value": "the",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4318_2",
+                "order": 2,
+                "value": "a",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4318_3",
+                "order": 3,
+                "value": "–",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4322",
+            "order": 9,
+            "type": "single_choice",
+            "text": "9 Young children are often fascinated by _____ wild animals.",
+            "options": [
+              {
+                "id": "adapt_4322_1",
+                "order": 1,
+                "value": "a",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4322_2",
+                "order": 2,
+                "value": "the",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4322_3",
+                "order": 3,
+                "value": "–",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4323",
+            "order": 10,
+            "type": "single_choice",
+            "text": "10 A stranger entered the studio and borrowed _____ cameras without permission.",
+            "options": [
+              {
+                "id": "adapt_4323_1",
+                "order": 1,
+                "value": "a",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4323_2",
+                "order": 2,
+                "value": "the",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4323_3",
+                "order": 3,
+                "value": "–",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_a1_a_some_any_countable_uncountable",
+    "title": "A, some, any: Countable and uncountable nouns",
+    "level": "A1",
+    "topic": "A, some, any: Countable and uncountable nouns",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-471",
+        "lessonId": "adapt_a1_a_some_any_countable_uncountable",
+        "order": 1,
+        "title": "Exercise 1",
+        "instruction": "Choose a, some, any to complete the sentences below.",
+        "questions": [
+          {
+            "id": "adapt_4112",
+            "order": 1,
+            "type": "gap_select",
+            "text": "1 The tourist asked for {{gap1}} guidance regarding train departures.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4112_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4112_1_1",
+                    "order": 1,
+                    "value": "some",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4112_1_2",
+                    "order": 2,
+                    "value": "any",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4112_1_3",
+                    "order": 3,
+                    "value": "an",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4114",
+            "order": 2,
+            "type": "gap_select",
+            "text": "2 Benjamin eats {{gap1}} orange every morning.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4114_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4114_1_1",
+                    "order": 1,
+                    "value": "some",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4114_1_2",
+                    "order": 2,
+                    "value": "an",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4114_1_3",
+                    "order": 3,
+                    "value": "any",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4113",
+            "order": 3,
+            "type": "gap_select",
+            "text": "3 Could you spare a moment? I require {{gap1}} assistance with the software.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4113_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4113_1_1",
+                    "order": 1,
+                    "value": "an",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4113_1_2",
+                    "order": 2,
+                    "value": "some",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4113_1_3",
+                    "order": 3,
+                    "value": "any",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4116",
+            "order": 4,
+            "type": "gap_select",
+            "text": "4 The travelers do not possess {{gap1}} local currency.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4116_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4116_1_1",
+                    "order": 1,
+                    "value": "some",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4116_1_2",
+                    "order": 2,
+                    "value": "any",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4116_1_3",
+                    "order": 3,
+                    "value": "a",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4118",
+            "order": 5,
+            "type": "gap_select",
+            "text": "5 Could the barista add {{gap1}} sugar to my tea, please?",
+            "gaps": [
+              {
+                "id": "adapt_gap_4118_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4118_1_1",
+                    "order": 1,
+                    "value": "any",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4118_1_2",
+                    "order": 2,
+                    "value": "a",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4118_1_3",
+                    "order": 3,
+                    "value": "some",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4115",
+            "order": 6,
+            "type": "gap_select",
+            "text": "6 Do you carry {{gap1}} notebook in your bag?",
+            "gaps": [
+              {
+                "id": "adapt_gap_4115_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4115_1_1",
+                    "order": 1,
+                    "value": "a",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4115_1_2",
+                    "order": 2,
+                    "value": "any",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4115_1_3",
+                    "order": 3,
+                    "value": "some",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4117",
+            "order": 7,
+            "type": "gap_select",
+            "text": "7 They did not notice {{gap1}} cars on the country road.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4117_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4117_1_1",
+                    "order": 1,
+                    "value": "a",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4117_1_2",
+                    "order": 2,
+                    "value": "some",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4117_1_3",
+                    "order": 3,
+                    "value": "any",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4119",
+            "order": 8,
+            "type": "gap_select",
+            "text": "8 Does the librarian store {{gap1}} historical newspapers in the reading room?",
+            "gaps": [
+              {
+                "id": "adapt_gap_4119_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4119_1_1",
+                    "order": 1,
+                    "value": "a",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4119_1_2",
+                    "order": 2,
+                    "value": "any",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4119_1_3",
+                    "order": 3,
+                    "value": "some",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4120",
+            "order": 9,
+            "type": "gap_select",
+            "text": "9 Would the children enjoy {{gap1}} biscuits with dessert?",
+            "gaps": [
+              {
+                "id": "adapt_gap_4120_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4120_1_1",
+                    "order": 1,
+                    "value": "any",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4120_1_2",
+                    "order": 2,
+                    "value": "a",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4120_1_3",
+                    "order": 3,
+                    "value": "some",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4121",
+            "order": 10,
+            "type": "gap_select",
+            "text": "10 Our tenant does not wish to keep {{gap1}} cat in the apartment.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4121_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_4121_1_1",
+                    "order": 1,
+                    "value": "any",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_4121_1_2",
+                    "order": 2,
+                    "value": "a",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_4121_1_3",
+                    "order": 3,
+                    "value": "some",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "adapt_quiz-472",
+        "lessonId": "adapt_a1_a_some_any_countable_uncountable",
+        "order": 2,
+        "title": "Exercise 2",
+        "instruction": "Choose the correct option to complete these sentences.",
+        "questions": [
+          {
+            "id": "adapt_4122",
+            "order": 1,
+            "type": "single_choice",
+            "text": "1 We did not spot _____ during the guided tour.",
+            "options": [
+              {
+                "id": "adapt_4122_1",
+                "order": 1,
+                "value": "any tourists",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4122_2",
+                "order": 2,
+                "value": "some tourists",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4122_3",
+                "order": 3,
+                "value": "any tourist",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4123",
+            "order": 2,
+            "type": "single_choice",
+            "text": "2 The museum purchased _____ for the exhibition.",
+            "options": [
+              {
+                "id": "adapt_4123_1",
+                "order": 1,
+                "value": "some antique luggages",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4123_2",
+                "order": 2,
+                "value": "an antique luggage",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4123_3",
+                "order": 3,
+                "value": "some antique luggage",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4124",
+            "order": 3,
+            "type": "single_choice",
+            "text": "3 Could you pass me _____ orange, please?",
+            "options": [
+              {
+                "id": "adapt_4124_1",
+                "order": 1,
+                "value": "an",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4124_2",
+                "order": 2,
+                "value": "some",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4124_3",
+                "order": 3,
+                "value": "any",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4125",
+            "order": 4,
+            "type": "single_choice",
+            "text": "4 The donor provided _____ for the laboratory archive.",
+            "options": [
+              {
+                "id": "adapt_4125_1",
+                "order": 1,
+                "value": "some rare manuscripts",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4125_2",
+                "order": 2,
+                "value": "a rare manuscripts",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4125_3",
+                "order": 3,
+                "value": "some rare manuscript",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4126",
+            "order": 5,
+            "type": "single_choice",
+            "text": "5 The resort where they reserved a room features _____.",
+            "options": [
+              {
+                "id": "adapt_4126_1",
+                "order": 1,
+                "value": "tennis court",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4126_2",
+                "order": 2,
+                "value": "a tennis court",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4126_3",
+                "order": 3,
+                "value": "some tennis court",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4127",
+            "order": 6,
+            "type": "single_choice",
+            "text": "6 The tour guide understands _____ Italian.",
+            "options": [
+              {
+                "id": "adapt_4127_1",
+                "order": 1,
+                "value": "some",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4127_2",
+                "order": 2,
+                "value": "any",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4127_3",
+                "order": 3,
+                "value": "an",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4129",
+            "order": 7,
+            "type": "single_choice",
+            "text": "7 We didn't receive _____ regarding the proposed timetable.",
+            "options": [
+              {
+                "id": "adapt_4129_1",
+                "order": 1,
+                "value": "a messages",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4129_2",
+                "order": 2,
+                "value": "any messages",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4129_3",
+                "order": 3,
+                "value": "any message",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4128",
+            "order": 8,
+            "type": "single_choice",
+            "text": "8 Could you lend me _____ cash for the parking meter?",
+            "options": [
+              {
+                "id": "adapt_4128_1",
+                "order": 1,
+                "value": "a",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4128_2",
+                "order": 2,
+                "value": "any",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4128_3",
+                "order": 3,
+                "value": "some",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4130",
+            "order": 9,
+            "type": "single_choice",
+            "text": "9 Do you have _____ living abroad?",
+            "options": [
+              {
+                "id": "adapt_4130_1",
+                "order": 1,
+                "value": "any aunt or uncle",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4130_2",
+                "order": 2,
+                "value": "some aunts or uncles",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4130_3",
+                "order": 3,
+                "value": "any aunts or uncles",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4131",
+            "order": 10,
+            "type": "single_choice",
+            "text": "10 The doctor shared _____.",
+            "options": [
+              {
+                "id": "adapt_4131_1",
+                "order": 1,
+                "value": "an encouraging new",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4131_2",
+                "order": 2,
+                "value": "some encouraging news",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4131_3",
+                "order": 3,
+                "value": "an encouraging news",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "adapt_quiz-473",
+        "lessonId": "adapt_a1_a_some_any_countable_uncountable",
+        "order": 3,
+        "title": "Exercise 3",
+        "instruction": "Complete the sentences using a, some, any and the words in the box.",
+        "questions": [
+          {
+            "id": "adapt_4132",
+            "order": 1,
+            "type": "gap_text",
+            "text": "1 The historians explored {{gap1}} along the coast of Greece.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4132_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "some ancient temples",
+                "accepted_answers": [
+                  "some ancient temples"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4133",
+            "order": 2,
+            "type": "gap_text",
+            "text": "2 Arthur owns a modern camera, but he does not possess {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4133_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "any lenses",
+                "accepted_answers": [
+                  "any lenses"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4134",
+            "order": 3,
+            "type": "gap_text",
+            "text": "3 I am struggling with the application. Could you offer me {{gap1}}?",
+            "gaps": [
+              {
+                "id": "adapt_gap_4134_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "some assistance",
+                "accepted_answers": [
+                  "some assistance"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4135",
+            "order": 4,
+            "type": "gap_text",
+            "text": "4 The guests ordered fresh pasta and {{gap1}} for supper.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4135_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "some soup",
+                "accepted_answers": [
+                  "some soup"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4136",
+            "order": 5,
+            "type": "gap_text",
+            "text": "5 The speaker paused for the audience. Are there {{gap1}}?",
+            "gaps": [
+              {
+                "id": "adapt_gap_4136_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "any comments",
+                "accepted_answers": [
+                  "any comments"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4137",
+            "order": 6,
+            "type": "gap_text",
+            "text": "6 The driver experienced {{gap1}} with the engine on the motorway.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4137_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "a breakdown",
+                "accepted_answers": [
+                  "a breakdown"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4139",
+            "order": 7,
+            "type": "gap_text",
+            "text": "7 The runners were thirsty after the marathon. They requested {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4139_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "some juice",
+                "accepted_answers": [
+                  "some juice"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4138",
+            "order": 8,
+            "type": "gap_text",
+            "text": "8 Do you have {{gap1}}? The bus ticket machine requires metal coins.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4138_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "any change",
+                "accepted_answers": [
+                  "any change"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4140",
+            "order": 9,
+            "type": "gap_text",
+            "text": "9 The chef wanted to bake a fruit cake, but the pantry lacked {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_4140_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "any flour",
+                "accepted_answers": [
+                  "any flour"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_4141",
+            "order": 10,
+            "type": "gap_text",
+            "text": "10 Can the receptionist communicate in {{gap1}}?",
+            "gaps": [
+              {
+                "id": "adapt_gap_4141_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "any European languages",
+                "accepted_answers": [
+                  "any European languages"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_a1_adjectives",
+    "title": "Adjectives: Old, interesting, expensive, etc.",
+    "level": "A1",
+    "topic": "Adjectives: Old, interesting, expensive, etc.",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-427",
+        "lessonId": "adapt_a1_adjectives",
+        "order": 1,
+        "title": "Exercise 1",
+        "instruction": "Choose the correct forms with adjectives to complete the following sentences.",
+        "questions": [
+          {
+            "id": "adapt_3696",
+            "order": 1,
+            "type": "gap_select",
+            "text": "1 In that bright lighting, your portraits {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3696_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3696_1_1",
+                    "order": 1,
+                    "value": "look fantastic",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3696_1_2",
+                    "order": 2,
+                    "value": "fantastic look",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3696_1_3",
+                    "order": 3,
+                    "value": "look fantastics",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3697",
+            "order": 2,
+            "type": "gap_select",
+            "text": "2 Those artifacts are {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3697_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3697_1_1",
+                    "order": 1,
+                    "value": "valuable treasures",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3697_1_2",
+                    "order": 2,
+                    "value": "treasures valuables",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3697_1_3",
+                    "order": 3,
+                    "value": "treasures valuable",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3698",
+            "order": 3,
+            "type": "gap_select",
+            "text": "3 {{gap1}} about the recent promotion?",
+            "gaps": [
+              {
+                "id": "adapt_gap_3698_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3698_1_1",
+                    "order": 1,
+                    "value": "Is satisfied he",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3698_1_2",
+                    "order": 2,
+                    "value": "Is he satisfied",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3698_1_3",
+                    "order": 3,
+                    "value": "Is he satisfieds",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3699",
+            "order": 4,
+            "type": "gap_select",
+            "text": "4 Maria obtained {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3699_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3699_1_1",
+                    "order": 1,
+                    "value": "a career exciting",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3699_1_2",
+                    "order": 2,
+                    "value": "an exciting career",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3700",
+            "order": 5,
+            "type": "gap_select",
+            "text": "5 Take a short break. You {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3700_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3700_1_1",
+                    "order": 1,
+                    "value": "appear exhausted",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3700_1_2",
+                    "order": 2,
+                    "value": "exhausted appear",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3700_1_3",
+                    "order": 3,
+                    "value": "taste exhausted",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3701",
+            "order": 6,
+            "type": "gap_select",
+            "text": "6 The weekend performances {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3701_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3701_1_1",
+                    "order": 1,
+                    "value": "extraordinary were",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3701_1_2",
+                    "order": 2,
+                    "value": "were extraordinary",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3701_1_3",
+                    "order": 3,
+                    "value": "were extraordinaries",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3702",
+            "order": 7,
+            "type": "gap_select",
+            "text": "7 Sarah faces difficulties at work. {{gap1}}?",
+            "gaps": [
+              {
+                "id": "adapt_gap_3702_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3702_1_1",
+                    "order": 1,
+                    "value": "Are acceptables her results",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3702_1_2",
+                    "order": 2,
+                    "value": "Are her results acceptable",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3702_1_3",
+                    "order": 3,
+                    "value": "Are acceptable her results",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3703",
+            "order": 8,
+            "type": "gap_select",
+            "text": "8 The architect's proposal {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3703_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3703_1_1",
+                    "order": 1,
+                    "value": "practical sounds",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3703_1_2",
+                    "order": 2,
+                    "value": "smells practical",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3703_1_3",
+                    "order": 3,
+                    "value": "sounds practical",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3704",
+            "order": 9,
+            "type": "gap_select",
+            "text": "9 The freshly baked pastries {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3704_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3704_1_1",
+                    "order": 1,
+                    "value": "are delicious",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3704_1_2",
+                    "order": 2,
+                    "value": "are deliciouses",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3704_1_3",
+                    "order": 3,
+                    "value": "delicious are",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3705",
+            "order": 10,
+            "type": "gap_select",
+            "text": "10 The autumn leaves {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3705_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3705_1_1",
+                    "order": 1,
+                    "value": "golden are",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3705_1_2",
+                    "order": 2,
+                    "value": "are goldens",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3705_1_3",
+                    "order": 3,
+                    "value": "are golden",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "adapt_quiz-428",
+        "lessonId": "adapt_a1_adjectives",
+        "order": 2,
+        "title": "Exercise 2",
+        "instruction": "Put the words in the correct order.",
+        "questions": [
+          {
+            "id": "adapt_3706",
+            "order": 1,
+            "type": "single_choice",
+            "text": "1 Which sentence has the correct word order?",
+            "options": [
+              {
+                "id": "adapt_3706_1",
+                "order": 1,
+                "value": "Her fantastic suggestion is.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3706_2",
+                "order": 2,
+                "value": "Her suggestion is fantastic.",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3706_3",
+                "order": 3,
+                "value": "Fantastic her suggestion is.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3706_4",
+                "order": 4,
+                "value": "Her suggestion fantastic is.",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3707",
+            "order": 2,
+            "type": "single_choice",
+            "text": "2 Which sentence has the correct word order?",
+            "options": [
+              {
+                "id": "adapt_3707_1",
+                "order": 1,
+                "value": "He a talented musician is.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3707_2",
+                "order": 2,
+                "value": "He is a musician talented.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3707_3",
+                "order": 3,
+                "value": "He is a talented musician.",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3707_4",
+                "order": 4,
+                "value": "He a musician talented is.",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3708",
+            "order": 3,
+            "type": "single_choice",
+            "text": "3 Which sentence has the correct word order?",
+            "options": [
+              {
+                "id": "adapt_3708_1",
+                "order": 1,
+                "value": "Is that jacket Japanese?",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3708_2",
+                "order": 2,
+                "value": "Is Japanese that jacket?",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3708_3",
+                "order": 3,
+                "value": "That jacket Japanese is?",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3708_4",
+                "order": 4,
+                "value": "That jacket is Japanese?",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3709",
+            "order": 4,
+            "type": "single_choice",
+            "text": "4 Which sentence has the correct word order?",
+            "options": [
+              {
+                "id": "adapt_3709_1",
+                "order": 1,
+                "value": "This hotel room extremely clean is.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3709_2",
+                "order": 2,
+                "value": "This is a hotel room extremely clean.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3709_3",
+                "order": 3,
+                "value": "Extremely clean is this hotel room.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3709_4",
+                "order": 4,
+                "value": "This hotel room is extremely clean.",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3710",
+            "order": 5,
+            "type": "single_choice",
+            "text": "5 Which sentence has the correct word order?",
+            "options": [
+              {
+                "id": "adapt_3710_1",
+                "order": 1,
+                "value": "She a German vehicle drives.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3710_2",
+                "order": 2,
+                "value": "She drives a German vehicle.",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3710_3",
+                "order": 3,
+                "value": "She drives a vehicle German.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3710_4",
+                "order": 4,
+                "value": "A vehicle German she drives.",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3711",
+            "order": 6,
+            "type": "single_choice",
+            "text": "6 Which sentence has the correct word order?",
+            "options": [
+              {
+                "id": "adapt_3711_1",
+                "order": 1,
+                "value": "That is their residence primary.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3711_2",
+                "order": 2,
+                "value": "Their primary residence is that.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3711_3",
+                "order": 3,
+                "value": "Is that their residence primary?",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3711_4",
+                "order": 4,
+                "value": "That is their primary residence.",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3713",
+            "order": 7,
+            "type": "single_choice",
+            "text": "7 Which sentence has the correct word order?",
+            "options": [
+              {
+                "id": "adapt_3713_1",
+                "order": 1,
+                "value": "It is a neighborhood extremely quiet.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3713_2",
+                "order": 2,
+                "value": "It is an extremely quiet neighborhood.",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3713_3",
+                "order": 3,
+                "value": "Extremely quiet it is a neighborhood.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3713_4",
+                "order": 4,
+                "value": "A neighborhood extremely quiet is.",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3714",
+            "order": 8,
+            "type": "single_choice",
+            "text": "8 Which sentence has the correct word order?",
+            "options": [
+              {
+                "id": "adapt_3714_1",
+                "order": 1,
+                "value": "Are the new neighbors friendly?",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3714_2",
+                "order": 2,
+                "value": "Are friendly the new neighbors?",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3714_3",
+                "order": 3,
+                "value": "Friendly are the new neighbors?",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3714_4",
+                "order": 4,
+                "value": "The new neighbors are friendly?",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3715",
+            "order": 9,
+            "type": "single_choice",
+            "text": "9 Which sentence has the correct word order?",
+            "options": [
+              {
+                "id": "adapt_3715_1",
+                "order": 1,
+                "value": "That city ancient is.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3715_2",
+                "order": 2,
+                "value": "A city ancient that is.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3715_3",
+                "order": 3,
+                "value": "That is an ancient city.",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3715_4",
+                "order": 4,
+                "value": "That is a city ancient.",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3716",
+            "order": 10,
+            "type": "single_choice",
+            "text": "10 Which sentence has the correct word order?",
+            "options": [
+              {
+                "id": "adapt_3716_1",
+                "order": 1,
+                "value": "That ancient city is peaceful.",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3716_2",
+                "order": 2,
+                "value": "That ancient city peaceful is.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3716_3",
+                "order": 3,
+                "value": "Is peaceful that ancient city?",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3716_4",
+                "order": 4,
+                "value": "That ancient city is peaceful?",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_a1_adverbs_frequency",
+    "title": "Adverbs of frequency with present simple",
+    "level": "A1",
+    "topic": "Adverbs of frequency with present simple",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-447",
+        "lessonId": "adapt_a1_adverbs_frequency",
+        "order": 1,
+        "title": "Exercise 1",
+        "instruction": "Order the following sentences, which contain adverbs of frequency.",
+        "questions": [
+          {
+            "id": "adapt_3890",
+            "order": 1,
+            "type": "single_choice",
+            "text": "1 Which sentence is correctly structured?",
+            "options": [
+              {
+                "id": "adapt_3890_1",
+                "order": 1,
+                "value": "The librarian is usually helpful.",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3890_2",
+                "order": 2,
+                "value": "The librarian usually is helpful.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3890_3",
+                "order": 3,
+                "value": "Is usually the librarian helpful?",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3890_4",
+                "order": 4,
+                "value": "Usually the librarian is helpful.",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3891",
+            "order": 2,
+            "type": "single_choice",
+            "text": "2 Which sentence is correctly structured?",
+            "options": [
+              {
+                "id": "adapt_3891_1",
+                "order": 1,
+                "value": "Seldom they drink sugary soda.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3891_2",
+                "order": 2,
+                "value": "They drink seldom sugary soda.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3891_3",
+                "order": 3,
+                "value": "They drink sugary soda seldom.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3891_4",
+                "order": 4,
+                "value": "They seldom drink sugary soda.",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3892",
+            "order": 3,
+            "type": "single_choice",
+            "text": "3 Which sentence is correctly structured?",
+            "options": [
+              {
+                "id": "adapt_3892_1",
+                "order": 1,
+                "value": "Our grandfather doesn't rarely read newspapers online.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3892_2",
+                "order": 2,
+                "value": "Our grandfather reads rarely newspapers online.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3892_3",
+                "order": 3,
+                "value": "Our grandfather reads newspapers online rarely.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3892_4",
+                "order": 4,
+                "value": "Our grandfather rarely reads newspapers online.",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3893",
+            "order": 4,
+            "type": "single_choice",
+            "text": "4 Which sentence is correctly structured?",
+            "options": [
+              {
+                "id": "adapt_3893_1",
+                "order": 1,
+                "value": "Do frequently you visit art galleries?",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3893_2",
+                "order": 2,
+                "value": "Do you frequently visit art galleries?",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3893_3",
+                "order": 3,
+                "value": "Do you visit frequently art galleries?",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3893_4",
+                "order": 4,
+                "value": "Do you visit art galleries frequently?",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3894",
+            "order": 5,
+            "type": "single_choice",
+            "text": "5 Which sentence is correctly structured?",
+            "options": [
+              {
+                "id": "adapt_3894_1",
+                "order": 1,
+                "value": "She normally doesn't wake up early.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3894_2",
+                "order": 2,
+                "value": "She doesn't wake up early normally.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3894_3",
+                "order": 3,
+                "value": "She doesn't normally wake up early.",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3894_4",
+                "order": 4,
+                "value": "Does she wake usually early up?",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3895",
+            "order": 6,
+            "type": "single_choice",
+            "text": "6 Which sentence is correctly structured?",
+            "options": [
+              {
+                "id": "adapt_3895_1",
+                "order": 1,
+                "value": "We every Saturday attend swimming sessions.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3895_2",
+                "order": 2,
+                "value": "We attend every Saturday swimming sessions.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3895_3",
+                "order": 3,
+                "value": "We attend swimming sessions every Saturday.",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3895_4",
+                "order": 4,
+                "value": "We every Saturday attend swimming sessions.",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3896",
+            "order": 7,
+            "type": "single_choice",
+            "text": "7 Which sentence is correctly structured?",
+            "options": [
+              {
+                "id": "adapt_3896_1",
+                "order": 1,
+                "value": "The children always are quite hungry after swimming.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3896_2",
+                "order": 2,
+                "value": "The children are always quite hungry after swimming.",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3896_3",
+                "order": 3,
+                "value": "The children are quite hungry after swimming always.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3896_4",
+                "order": 4,
+                "value": "Always the children are quite hungry after swimming.",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3897",
+            "order": 8,
+            "type": "single_choice",
+            "text": "8 Which sentence is correctly structured?",
+            "options": [
+              {
+                "id": "adapt_3897_1",
+                "order": 1,
+                "value": "I constantly drink coffee before noon.",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3897_2",
+                "order": 2,
+                "value": "Constantly I drink coffee before noon.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3897_3",
+                "order": 3,
+                "value": "I drink constantly coffee before noon.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3897_4",
+                "order": 4,
+                "value": "I drink coffee before noon constantly.",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3898",
+            "order": 9,
+            "type": "single_choice",
+            "text": "9 Which sentence is correctly structured?",
+            "options": [
+              {
+                "id": "adapt_3898_1",
+                "order": 1,
+                "value": "He doesn't carry an umbrella often.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3898_2",
+                "order": 2,
+                "value": "He often doesn't carry an umbrella.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3898_3",
+                "order": 3,
+                "value": "Often he doesn't carry an umbrella.",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3898_4",
+                "order": 4,
+                "value": "He doesn't often carry an umbrella.",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3899",
+            "order": 10,
+            "type": "single_choice",
+            "text": "10 Which sentence is correctly structured?",
+            "options": [
+              {
+                "id": "adapt_3899_1",
+                "order": 1,
+                "value": "Is your roommate sometimes noisy late in the evening?",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3899_2",
+                "order": 2,
+                "value": "Is sometimes your roommate noisy late in the evening?",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3899_3",
+                "order": 3,
+                "value": "Is your roommate noisy sometimes late in the evening?",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3899_4",
+                "order": 4,
+                "value": "Your roommate is sometimes noisy late in the evening?",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_a1_adverbs_manner",
+    "title": "Adverbs of manner (slowly) or adjectives (slow)?",
+    "level": "A1",
+    "topic": "Adverbs of manner (slowly) or adjectives (slow)?",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-490",
+        "lessonId": "adapt_a1_adverbs_manner",
+        "order": 2,
+        "title": "Exercise 2",
+        "instruction": "Complete the following sentences with the correct adjectives or adverbs of manner.",
+        "questions": [
+          {
+            "id": "adapt_4284",
+            "order": 1,
+            "type": "single_choice",
+            "text": "1 The courier cyclist navigates through traffic very _____.",
+            "options": [
+              {
+                "id": "adapt_4284_1",
+                "order": 1,
+                "value": "slow",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4284_2",
+                "order": 2,
+                "value": "fastly",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4284_3",
+                "order": 3,
+                "value": "fast",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4285",
+            "order": 2,
+            "type": "single_choice",
+            "text": "2 The candidate completed _____.",
+            "options": [
+              {
+                "id": "adapt_4285_1",
+                "order": 1,
+                "value": "successfully the interview",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4285_2",
+                "order": 2,
+                "value": "the interview successfully",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4285_3",
+                "order": 3,
+                "value": "successful the interview",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4286",
+            "order": 3,
+            "type": "single_choice",
+            "text": "3 The medical staff in the clinic labor very _____.",
+            "options": [
+              {
+                "id": "adapt_4286_1",
+                "order": 1,
+                "value": "hard",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4286_2",
+                "order": 2,
+                "value": "hardly",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4286_3",
+                "order": 3,
+                "value": "good",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4287",
+            "order": 4,
+            "type": "single_choice",
+            "text": "4 Mr. Henderson is an extremely _____ architect.",
+            "options": [
+              {
+                "id": "adapt_4287_1",
+                "order": 1,
+                "value": "well",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4287_2",
+                "order": 2,
+                "value": "good",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4287_3",
+                "order": 3,
+                "value": "goodly",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4288",
+            "order": 5,
+            "type": "single_choice",
+            "text": "5 The orchestra violinist plays Mozart very _____.",
+            "options": [
+              {
+                "id": "adapt_4288_1",
+                "order": 1,
+                "value": "good",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4288_2",
+                "order": 2,
+                "value": "goodly",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4288_3",
+                "order": 3,
+                "value": "well",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4290",
+            "order": 6,
+            "type": "single_choice",
+            "text": "6 The witness explained _____.",
+            "options": [
+              {
+                "id": "adapt_4290_1",
+                "order": 1,
+                "value": "accurately the incident",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4290_2",
+                "order": 2,
+                "value": "the incident accurately",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4290_3",
+                "order": 3,
+                "value": "the incident accurate",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4289",
+            "order": 7,
+            "type": "single_choice",
+            "text": "7 The professor summarized the theory quite _____.",
+            "options": [
+              {
+                "id": "adapt_4289_1",
+                "order": 1,
+                "value": "simple",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4289_2",
+                "order": 2,
+                "value": "simplely",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4289_3",
+                "order": 3,
+                "value": "simply",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4292",
+            "order": 8,
+            "type": "single_choice",
+            "text": "8 The newlyweds reside _____ in Vienna.",
+            "options": [
+              {
+                "id": "adapt_4292_1",
+                "order": 1,
+                "value": "happy",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4292_2",
+                "order": 2,
+                "value": "happyly",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4292_3",
+                "order": 3,
+                "value": "happily",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4291",
+            "order": 9,
+            "type": "single_choice",
+            "text": "9 Following lunch, the programmers _____.",
+            "options": [
+              {
+                "id": "adapt_4291_1",
+                "order": 1,
+                "value": "resolved the issue smoothly",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4291_2",
+                "order": 2,
+                "value": "smoothly resolved the issue",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4291_3",
+                "order": 3,
+                "value": "resolved the issue smooth",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4293",
+            "order": 10,
+            "type": "single_choice",
+            "text": "10 The announcement was not delivered in _____ Spanish.",
+            "options": [
+              {
+                "id": "adapt_4293_1",
+                "order": 1,
+                "value": "clearly",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4293_2",
+                "order": 2,
+                "value": "clear",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4293_3",
+                "order": 3,
+                "value": "well",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_a1_at_in_on_prepositions_of_place",
+    "title": "At, in, on: Prepositions of place",
+    "level": "A1",
+    "topic": "At, in, on: Prepositions of place",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-444",
+        "lessonId": "adapt_a1_at_in_on_prepositions_of_place",
+        "order": 1,
+        "title": "Exercise 1",
+        "instruction": "Choose at, in, on to complete the sentences.",
+        "questions": [
+          {
+            "id": "adapt_3860",
+            "order": 1,
+            "type": "gap_select",
+            "text": "1 The committee gathered {{gap1}} the conference desk.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3860_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3860_1_1",
+                    "order": 1,
+                    "value": "in",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3860_1_2",
+                    "order": 2,
+                    "value": "at",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3860_1_3",
+                    "order": 3,
+                    "value": "on",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3861",
+            "order": 2,
+            "type": "gap_select",
+            "text": "2 Liam plans to study for six months {{gap1}} Lisbon.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3861_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3861_1_1",
+                    "order": 1,
+                    "value": "on",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3861_1_2",
+                    "order": 2,
+                    "value": "in",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3861_1_3",
+                    "order": 3,
+                    "value": "at",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3862",
+            "order": 3,
+            "type": "gap_select",
+            "text": "3 The butter is not {{gap1}} the cupboard. Where did you place it?",
+            "gaps": [
+              {
+                "id": "adapt_gap_3862_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3862_1_1",
+                    "order": 1,
+                    "value": "at",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3862_1_2",
+                    "order": 2,
+                    "value": "on",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3862_1_3",
+                    "order": 3,
+                    "value": "in",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3863",
+            "order": 4,
+            "type": "gap_select",
+            "text": "4 Is the dentistry suite situated {{gap1}} the fourth floor?",
+            "gaps": [
+              {
+                "id": "adapt_gap_3863_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3863_1_1",
+                    "order": 1,
+                    "value": "on",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3863_1_2",
+                    "order": 2,
+                    "value": "in",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3863_1_3",
+                    "order": 3,
+                    "value": "at",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3864",
+            "order": 5,
+            "type": "gap_select",
+            "text": "5 Why did someone leave those documents {{gap1}} the dining table?",
+            "gaps": [
+              {
+                "id": "adapt_gap_3864_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3864_1_1",
+                    "order": 1,
+                    "value": "at",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3864_1_2",
+                    "order": 2,
+                    "value": "on",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3864_1_3",
+                    "order": 3,
+                    "value": "in",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3865",
+            "order": 6,
+            "type": "gap_select",
+            "text": "6 Kindly store the winter blankets {{gap1}} the wooden chest.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3865_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3865_1_1",
+                    "order": 1,
+                    "value": "at",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3865_1_2",
+                    "order": 2,
+                    "value": "in",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3865_1_3",
+                    "order": 3,
+                    "value": "on",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3866",
+            "order": 7,
+            "type": "gap_select",
+            "text": "7 Will the doctor be {{gap1}} the clinic this afternoon?",
+            "gaps": [
+              {
+                "id": "adapt_gap_3866_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3866_1_1",
+                    "order": 1,
+                    "value": "at the",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3866_1_2",
+                    "order": 2,
+                    "value": "at",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3866_1_3",
+                    "order": 3,
+                    "value": "in the",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3867",
+            "order": 8,
+            "type": "gap_select",
+            "text": "8 The director spoke to the attendees {{gap1}} the reception yesterday.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3867_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3867_1_1",
+                    "order": 1,
+                    "value": "at",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3867_1_2",
+                    "order": 2,
+                    "value": "on",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3867_1_3",
+                    "order": 3,
+                    "value": "in",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3868",
+            "order": 9,
+            "type": "gap_select",
+            "text": "9 We enjoy hiking in mountains, but we prefer relaxing {{gap1}} a hot bath.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3868_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3868_1_1",
+                    "order": 1,
+                    "value": "in",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3868_1_2",
+                    "order": 2,
+                    "value": "at",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3868_1_3",
+                    "order": 3,
+                    "value": "on",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3869",
+            "order": 10,
+            "type": "gap_select",
+            "text": "10 Text me when your group gets {{gap1}} the morning ferry.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3869_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_3869_1_1",
+                    "order": 1,
+                    "value": "in",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_3869_1_2",
+                    "order": 2,
+                    "value": "on",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_3869_1_3",
+                    "order": 3,
+                    "value": "at",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "adapt_quiz-445",
+        "lessonId": "adapt_a1_at_in_on_prepositions_of_place",
+        "order": 2,
+        "title": "Exercise 2",
+        "instruction": "Choose the correct prepositions of place (at, in, on) to complete the sentences.",
+        "questions": [
+          {
+            "id": "adapt_3870",
+            "order": 1,
+            "type": "single_choice",
+            "text": "1 The pharmacy is located _____ the corner of the avenue.",
+            "options": [
+              {
+                "id": "adapt_3870_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3870_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3870_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3871",
+            "order": 2,
+            "type": "single_choice",
+            "text": "2 Emily conducts research _____ Oxford University.",
+            "options": [
+              {
+                "id": "adapt_3871_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3871_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3871_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3872",
+            "order": 3,
+            "type": "single_choice",
+            "text": "3 There is a wonderful theatrical play performing _____ the opera house.",
+            "options": [
+              {
+                "id": "adapt_3872_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3872_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3872_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3873",
+            "order": 4,
+            "type": "single_choice",
+            "text": "4 'Where is Robert?' 'He is working _____ the basement.'",
+            "options": [
+              {
+                "id": "adapt_3873_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3873_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3873_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3874",
+            "order": 5,
+            "type": "single_choice",
+            "text": "5 Employees often feel excited during their initial morning _____ school.",
+            "options": [
+              {
+                "id": "adapt_3874_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3874_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3874_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3875",
+            "order": 6,
+            "type": "single_choice",
+            "text": "6 Could you hand me the ceramic vase _____ the kitchen counter?",
+            "options": [
+              {
+                "id": "adapt_3875_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3875_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3875_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3876",
+            "order": 7,
+            "type": "single_choice",
+            "text": "7 The meeting room is the third entrance _____ the left.",
+            "options": [
+              {
+                "id": "adapt_3876_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3876_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3876_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3877",
+            "order": 8,
+            "type": "single_choice",
+            "text": "8 The essays published _____ the magazine explore modern art.",
+            "options": [
+              {
+                "id": "adapt_3877_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3877_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3877_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3878",
+            "order": 9,
+            "type": "single_choice",
+            "text": "9 My cousin lived _____ Canada during winter.",
+            "options": [
+              {
+                "id": "adapt_3878_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3878_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3878_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3879",
+            "order": 10,
+            "type": "single_choice",
+            "text": "10 Passengers usually listen to music while travelling _____ the plane.",
+            "options": [
+              {
+                "id": "adapt_3879_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3879_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3879_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "adapt_quiz-446",
+        "lessonId": "adapt_a1_at_in_on_prepositions_of_place",
+        "order": 3,
+        "title": "Exercise 3",
+        "instruction": "Complete the sentences using the correct prepositions of place: at, in, on.",
+        "questions": [
+          {
+            "id": "adapt_3880",
+            "order": 1,
+            "type": "gap_text",
+            "text": "1 I am waiting {{gap1}} the pharmacy counter. Can I pick up anything for you?",
+            "gaps": [
+              {
+                "id": "adapt_gap_3880_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "at",
+                "accepted_answers": [
+                  "at"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3881",
+            "order": 2,
+            "type": "gap_text",
+            "text": "2 Oliver placed the smartphone {{gap1}} the dining room table.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3881_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "on",
+                "accepted_answers": [
+                  "on"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3882",
+            "order": 3,
+            "type": "gap_text",
+            "text": "3 The jeweler stores valuable diamonds {{gap1}} a secure safe.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3882_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "in",
+                "accepted_answers": [
+                  "in"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3883",
+            "order": 4,
+            "type": "gap_text",
+            "text": "4 The family arranged an afternoon celebration {{gap1}} the river bank.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3883_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "at",
+                "accepted_answers": [
+                  "at"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3884",
+            "order": 5,
+            "type": "gap_text",
+            "text": "5 Who is the guard standing {{gap1}} the entrance?",
+            "gaps": [
+              {
+                "id": "adapt_gap_3884_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "at",
+                "accepted_answers": [
+                  "at"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3885",
+            "order": 6,
+            "type": "gap_text",
+            "text": "6 The fresh strawberries are stored {{gap1}} the refrigerator.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3885_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "in",
+                "accepted_answers": [
+                  "in"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3886",
+            "order": 7,
+            "type": "gap_text",
+            "text": "7 Most passengers find it difficult to concentrate while {{gap1}} the subway.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3886_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "on",
+                "accepted_answers": [
+                  "on"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3887",
+            "order": 8,
+            "type": "gap_text",
+            "text": "8 The lecture hall is located {{gap1}} the third floor.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3887_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "on",
+                "accepted_answers": [
+                  "on"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3888",
+            "order": 9,
+            "type": "gap_text",
+            "text": "9 Several delegates {{gap1}} the auditorium raised objections.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3888_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "in",
+                "accepted_answers": [
+                  "in"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_3889",
+            "order": 10,
+            "type": "gap_text",
+            "text": "10 Agricultural exports {{gap1}} South America continue to expand.",
+            "gaps": [
+              {
+                "id": "adapt_gap_3889_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "in",
+                "accepted_answers": [
+                  "in"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_a1_at_in_on_prepositions_time",
+    "title": "At, in, on: Prepositions of time",
+    "level": "A1",
+    "topic": "At, in, on: Prepositions of time",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-442",
+        "lessonId": "adapt_a1_at_in_on_prepositions_time",
+        "order": 2,
+        "title": "Exercise 2",
+        "instruction": "Choose the correct prepositions of time (at, in, on) to complete the sentences.",
+        "questions": [
+          {
+            "id": "adapt_3840",
+            "order": 1,
+            "type": "single_choice",
+            "text": "1 The team must submit the report _____ sunset.",
+            "options": [
+              {
+                "id": "adapt_3840_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3840_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3840_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3841",
+            "order": 2,
+            "type": "single_choice",
+            "text": "2 Digital cameras gained widespread popularity _____ the 1990s.",
+            "options": [
+              {
+                "id": "adapt_3841_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3841_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3841_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3842",
+            "order": 3,
+            "type": "single_choice",
+            "text": "3 They plan to visit the gallery _____ Sunday afternoon.",
+            "options": [
+              {
+                "id": "adapt_3842_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3842_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3842_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3843",
+            "order": 4,
+            "type": "single_choice",
+            "text": "4 Farmers harvest ripe apples _____ the autumn.",
+            "options": [
+              {
+                "id": "adapt_3843_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3843_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3843_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3844",
+            "order": 5,
+            "type": "single_choice",
+            "text": "5 The downtown streets become peaceful _____ night.",
+            "options": [
+              {
+                "id": "adapt_3844_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3844_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3844_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3845",
+            "order": 6,
+            "type": "single_choice",
+            "text": "6 Our company will open a branch in Tokyo _____ 2028.",
+            "options": [
+              {
+                "id": "adapt_3845_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3845_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3845_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3846",
+            "order": 7,
+            "type": "single_choice",
+            "text": "7 The cultural festival begins _____ the 15th of March.",
+            "options": [
+              {
+                "id": "adapt_3846_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3846_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3846_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3847",
+            "order": 8,
+            "type": "single_choice",
+            "text": "8 The city buses stop running _____ midnight.",
+            "options": [
+              {
+                "id": "adapt_3847_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3847_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3847_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3848",
+            "order": 9,
+            "type": "single_choice",
+            "text": "9 Most governmental offices close _____ New Year's Day.",
+            "options": [
+              {
+                "id": "adapt_3848_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3848_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3848_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3849",
+            "order": 10,
+            "type": "single_choice",
+            "text": "10 Families gather together for dinner _____ Thanksgiving.",
+            "options": [
+              {
+                "id": "adapt_3849_1",
+                "order": 1,
+                "value": "at",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3849_2",
+                "order": 2,
+                "value": "in",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3849_3",
+                "order": 3,
+                "value": "on",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_a1_basic_word_order_in_english",
+    "title": "Basic word order in English",
+    "level": "A1",
+    "topic": "Basic word order in English",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-713",
+        "lessonId": "adapt_a1_basic_word_order_in_english",
+        "order": 2,
+        "title": "Exercise 2",
+        "instruction": "Choose the correct options to complete the sentences.",
+        "questions": [
+          {
+            "id": "adapt_6091",
+            "order": 1,
+            "type": "single_choice",
+            "text": "1 Maria exercises _____.",
+            "options": [
+              {
+                "id": "adapt_6091_1",
+                "order": 1,
+                "value": "her puppy by the lake every afternoon",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_6091_2",
+                "order": 2,
+                "value": "her puppy every afternoon by the lake",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_6091_3",
+                "order": 3,
+                "value": "every afternoon her puppy by the lake",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_6094",
+            "order": 2,
+            "type": "single_choice",
+            "text": "2 Jonathan accompanied _____.",
+            "options": [
+              {
+                "id": "adapt_6094_1",
+                "order": 1,
+                "value": "his daughter to school this morning",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_6094_2",
+                "order": 2,
+                "value": "to school his daughter this morning",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_6094_3",
+                "order": 3,
+                "value": "this morning his daughter to school",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_6095",
+            "order": 3,
+            "type": "single_choice",
+            "text": "3 Could you escort _____?",
+            "options": [
+              {
+                "id": "adapt_6095_1",
+                "order": 1,
+                "value": "to the station the guest after the conference",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_6095_2",
+                "order": 2,
+                "value": "the guest after the conference to the station",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_6095_3",
+                "order": 3,
+                "value": "the guest to the station after the conference",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_6102",
+            "order": 4,
+            "type": "single_choice",
+            "text": "4 The tourists ______.",
+            "options": [
+              {
+                "id": "adapt_6102_1",
+                "order": 1,
+                "value": "appreciated immensely the guided excursion",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_6102_2",
+                "order": 2,
+                "value": "appreciated the guided excursion immensely",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_6102_3",
+                "order": 3,
+                "value": "immensely appreciated the guided excursion",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_6103",
+            "order": 5,
+            "type": "single_choice",
+            "text": "5 Clara _____.",
+            "options": [
+              {
+                "id": "adapt_6103_1",
+                "order": 1,
+                "value": "purchased in Florence this painting last spring",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_6103_2",
+                "order": 2,
+                "value": "purchased this painting last spring in Florence",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_6103_3",
+                "order": 3,
+                "value": "purchased this painting in Florence last spring",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_6107",
+            "order": 6,
+            "type": "single_choice",
+            "text": "6 The technician ______.",
+            "options": [
+              {
+                "id": "adapt_6107_1",
+                "order": 1,
+                "value": "will inform the supervisor promptly",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_6107_2",
+                "order": 2,
+                "value": "will inform promptly the supervisor",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_6107_3",
+                "order": 3,
+                "value": "promptly will inform the supervisor",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_6108",
+            "order": 7,
+            "type": "single_choice",
+            "text": "7 Elena ________.",
+            "options": [
+              {
+                "id": "adapt_6108_1",
+                "order": 1,
+                "value": "deeply respects her colleagues",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_6108_2",
+                "order": 2,
+                "value": "respects her colleagues deeply",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_6108_3",
+                "order": 3,
+                "value": "respects deeply her colleagues",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_6110",
+            "order": 8,
+            "type": "single_choice",
+            "text": "8 Samuel studied ______.",
+            "options": [
+              {
+                "id": "adapt_6110_1",
+                "order": 1,
+                "value": "Spanish in Madrid during a university semester",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_6110_2",
+                "order": 2,
+                "value": "Spanish during a university semester in Madrid",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_6110_3",
+                "order": 3,
+                "value": "in Madrid Spanish during a university semester",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_6112",
+            "order": 9,
+            "type": "single_choice",
+            "text": "9 The bank clerks ______.",
+            "options": [
+              {
+                "id": "adapt_6112_1",
+                "order": 1,
+                "value": "always conclude work at 5.00 pm",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_6112_2",
+                "order": 2,
+                "value": "conclude always work at 5.00 pm",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_6112_3",
+                "order": 3,
+                "value": "conclude work at 5.00 pm always",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_6113",
+            "order": 10,
+            "type": "single_choice",
+            "text": "10 Oliver _____.",
+            "options": [
+              {
+                "id": "adapt_6113_1",
+                "order": 1,
+                "value": "does not play very often basketball",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_6113_2",
+                "order": 2,
+                "value": "does not enjoy basketball very much",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_6113_3",
+                "order": 3,
+                "value": "does not enjoy very much basketball",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "adapt_quiz-714",
+        "lessonId": "adapt_a1_basic_word_order_in_english",
+        "order": 3,
+        "title": "Exercise 3",
+        "instruction": "Write sentences using the words in the correct position.",
+        "questions": [
+          {
+            "id": "adapt_6097",
+            "order": 1,
+            "type": "gap_text",
+            "text": "1 a delicious dinner / cooked / yesterday / they / at home ⇒ They {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_6097_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "cooked a delicious dinner at home yesterday",
+                "accepted_answers": [
+                  "cooked a delicious dinner at home yesterday"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_6098",
+            "order": 2,
+            "type": "gap_text",
+            "text": "2 the briefcase / this morning / on the train / left / She ⇒ She {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_6098_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "left the briefcase on the train this morning",
+                "accepted_answers": [
+                  "left the briefcase on the train this morning"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_6099",
+            "order": 3,
+            "type": "gap_text",
+            "text": "3 regularly / Thomas / rides / to the campus / a bicycle ⇒ Thomas {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_6099_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "regularly rides a bicycle to the campus",
+                "accepted_answers": [
+                  "regularly rides a bicycle to the campus"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_6100",
+            "order": 4,
+            "type": "gap_text",
+            "text": "4 must deliver / we / the package / to the post office / before noon ⇒ We {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_6100_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "must deliver the package to the post office before noon",
+                "accepted_answers": [
+                  "must deliver the package to the post office before noon"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_6101",
+            "order": 5,
+            "type": "gap_text",
+            "text": "5 are / rarely / on weekends / the engineers / in the workshop ⇒ The engineers {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_6101_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "are rarely in the workshop on weekends",
+                "accepted_answers": [
+                  "are rarely in the workshop on weekends"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_6104",
+            "order": 6,
+            "type": "gap_text",
+            "text": "6 It / consistently / very windy / near the coast / in November / is ⇒ It {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_6104_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "is consistently very windy near the coast in November",
+                "accepted_answers": [
+                  "is consistently very windy near the coast in November"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_6105",
+            "order": 7,
+            "type": "gap_text",
+            "text": "7 practice / basketball / after classes / in the gym / They ⇒ They {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_6105_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "practice basketball in the gym after classes",
+                "accepted_answers": [
+                  "practice basketball in the gym after classes"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_6106",
+            "order": 8,
+            "type": "gap_text",
+            "text": "8 frequently / He / green tea / drinks / in the morning ⇒ He {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_6106_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "frequently drinks green tea in the morning",
+                "accepted_answers": [
+                  "frequently drinks green tea in the morning"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_6109",
+            "order": 9,
+            "type": "gap_text",
+            "text": "9 encountered / at a conference / in 2015 / Robert / his business partner ⇒ Robert {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_6109_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "encountered his business partner at a conference in 2015",
+                "accepted_answers": [
+                  "encountered his business partner at a conference in 2015"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_6111",
+            "order": 10,
+            "type": "gap_text",
+            "text": "10 usually / We / online seminars / attend / on Thursdays ⇒ We {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_6111_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "correct_answer": "usually attend online seminars on Thursdays",
+                "accepted_answers": [
+                  "usually attend online seminars on Thursdays"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_a1_comparative_adjectives",
+    "title": "Comparative adjectives: Older than, more important than, etc.",
+    "level": "A1",
+    "topic": "Comparative adjectives: Older than, more important than, etc.",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-481",
+        "lessonId": "adapt_a1_comparative_adjectives",
+        "order": 2,
+        "title": "Exercise 2",
+        "instruction": "Choose the correct comparative adjectives to complete these sentences.",
+        "questions": [
+          {
+            "id": "adapt_4203",
+            "order": 1,
+            "type": "single_choice",
+            "text": "1 During the heavy storm, all the other passengers were far calmer than _____.",
+            "options": [
+              {
+                "id": "adapt_4203_1",
+                "order": 1,
+                "value": "me",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4203_2",
+                "order": 2,
+                "value": "mine",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4203_3",
+                "order": 3,
+                "value": "my",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4204",
+            "order": 2,
+            "type": "single_choice",
+            "text": "2 Our squad is quicker _____.",
+            "options": [
+              {
+                "id": "adapt_4204_1",
+                "order": 1,
+                "value": "than them",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4204_2",
+                "order": 2,
+                "value": "than their",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4204_3",
+                "order": 3,
+                "value": "that them",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4205",
+            "order": 3,
+            "type": "single_choice",
+            "text": "3 Travelling by express train is _____ flying by commercial plane.",
+            "options": [
+              {
+                "id": "adapt_4205_1",
+                "order": 1,
+                "value": "relaxinger than",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4205_2",
+                "order": 2,
+                "value": "more relaxing that",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4205_3",
+                "order": 3,
+                "value": "more relaxing than",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4207",
+            "order": 4,
+            "type": "single_choice",
+            "text": "4 The morning exam was more stressful than the afternoon quiz. The afternoon quiz is _____.",
+            "options": [
+              {
+                "id": "adapt_4207_1",
+                "order": 1,
+                "value": "less stressful",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4207_2",
+                "order": 2,
+                "value": "stressfulless",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4207_3",
+                "order": 3,
+                "value": "less stressful than",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4206",
+            "order": 5,
+            "type": "single_choice",
+            "text": "5 The new assignment proved _____ the previous task.",
+            "options": [
+              {
+                "id": "adapt_4206_1",
+                "order": 1,
+                "value": "more simple",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4206_2",
+                "order": 2,
+                "value": "simpler than",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4206_3",
+                "order": 3,
+                "value": "more simpler than",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4208",
+            "order": 6,
+            "type": "single_choice",
+            "text": "6 The athlete is _____ than the challenger.",
+            "options": [
+              {
+                "id": "adapt_4208_1",
+                "order": 1,
+                "value": "very faster",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4208_2",
+                "order": 2,
+                "value": "much fast",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4208_3",
+                "order": 3,
+                "value": "much faster",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4209",
+            "order": 7,
+            "type": "single_choice",
+            "text": "7 Liam is energetic, but Ethan is ____.",
+            "options": [
+              {
+                "id": "adapt_4209_1",
+                "order": 1,
+                "value": "more energetic than",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4209_2",
+                "order": 2,
+                "value": "more energetic",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4209_3",
+                "order": 3,
+                "value": "energeticker",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4210",
+            "order": 8,
+            "type": "single_choice",
+            "text": "8 The port is distant, but the airport is _____.",
+            "options": [
+              {
+                "id": "adapt_4210_1",
+                "order": 1,
+                "value": "more far",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4210_2",
+                "order": 2,
+                "value": "farer",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4210_3",
+                "order": 3,
+                "value": "further",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4211",
+            "order": 9,
+            "type": "single_choice",
+            "text": "9 During the lunch break, the school cafeteria is always far _____ than the library.",
+            "options": [
+              {
+                "id": "adapt_4211_1",
+                "order": 1,
+                "value": "noisy",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4211_2",
+                "order": 2,
+                "value": "noisier",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4211_3",
+                "order": 3,
+                "value": "more noisier",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_4212",
+            "order": 10,
+            "type": "single_choice",
+            "text": "10 The critic provoked outrage when he claimed older artists are _____ younger creators.",
+            "options": [
+              {
+                "id": "adapt_4212_1",
+                "order": 1,
+                "value": "creativeless than",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4212_2",
+                "order": 2,
+                "value": "less creative that",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4212_3",
+                "order": 3,
+                "value": "less creative than",
+                "is_correct": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_a2_first_conditional_future_time_clauses",
+    "title": "First conditional and future time clauses",
+    "level": "A2",
+    "topic": "First conditional and future time clauses",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-388",
+        "lessonId": "adapt_a2_first_conditional_future_time_clauses",
+        "order": 2,
+        "title": "Exercise 2",
+        "instruction": "Choose the correct forms to complete the first conditional sentences and future time clauses below.",
+        "questions": [
+          {
+            "id": "adapt_3329",
+            "order": 1,
+            "type": "single_choice",
+            "text": "1 Where will you travel if you _____ the scholarship?",
+            "options": [
+              {
+                "id": "adapt_3329_1",
+                "order": 1,
+                "value": "might win",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3329_2",
+                "order": 2,
+                "value": "will win",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3329_3",
+                "order": 3,
+                "value": "win",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3326",
+            "order": 2,
+            "type": "multiple_choice",
+            "text": "2 As soon as you meet Sarah, you ____ amazed by how fast she speaks Spanish. (Select TWO valid choices)",
+            "options": [
+              {
+                "id": "adapt_3326_1",
+                "order": 1,
+                "value": "are",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3326_2",
+                "order": 2,
+                "value": "will be",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3326_3",
+                "order": 3,
+                "value": "might be",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3325",
+            "order": 3,
+            "type": "single_choice",
+            "text": "3 The detective will not stop until he ____ who took the necklace.",
+            "options": [
+              {
+                "id": "adapt_3325_1",
+                "order": 1,
+                "value": "discovers",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3325_2",
+                "order": 2,
+                "value": "will discover",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3325_3",
+                "order": 3,
+                "value": "should discover",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3327",
+            "order": 4,
+            "type": "single_choice",
+            "text": "4 The passengers will start boarding the plane as soon as the gate _____.",
+            "options": [
+              {
+                "id": "adapt_3327_1",
+                "order": 1,
+                "value": "opens",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3327_2",
+                "order": 2,
+                "value": "will open",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3327_3",
+                "order": 3,
+                "value": "may open",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3330",
+            "order": 5,
+            "type": "multiple_choice",
+            "text": "5 If you feel uncertain about the directions, _____ a local police officer. (Select TWO valid choices)",
+            "options": [
+              {
+                "id": "adapt_3330_1",
+                "order": 1,
+                "value": "consult",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3330_2",
+                "order": 2,
+                "value": "you consult",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3330_3",
+                "order": 3,
+                "value": "you should consult",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3331",
+            "order": 6,
+            "type": "single_choice",
+            "text": "6 If we _____ a reliable car, we won't be able to visit our grandparents.",
+            "options": [
+              {
+                "id": "adapt_3331_1",
+                "order": 1,
+                "value": "won't buy",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3331_2",
+                "order": 2,
+                "value": "don't buy",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3331_3",
+                "order": 3,
+                "value": "should buy",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3328",
+            "order": 7,
+            "type": "single_choice",
+            "text": "7 The manager _____ the contract until the legal team checks every detail.",
+            "options": [
+              {
+                "id": "adapt_3328_1",
+                "order": 1,
+                "value": "won't sign",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3328_2",
+                "order": 2,
+                "value": "doesn't sign",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3328_3",
+                "order": 3,
+                "value": "is not signing",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3332",
+            "order": 8,
+            "type": "single_choice",
+            "text": "8 If you leave your umbrella by the entrance, someone ____ it by mistake.",
+            "options": [
+              {
+                "id": "adapt_3332_1",
+                "order": 1,
+                "value": "take",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3332_2",
+                "order": 2,
+                "value": "takes",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3332_3",
+                "order": 3,
+                "value": "might take",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3333",
+            "order": 9,
+            "type": "single_choice",
+            "text": "9 When my daughter _____ university, we will move to a quiet village.",
+            "options": [
+              {
+                "id": "adapt_3333_1",
+                "order": 1,
+                "value": "finishes",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3333_2",
+                "order": 2,
+                "value": "might finish",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3333_3",
+                "order": 3,
+                "value": "will finish",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3334",
+            "order": 10,
+            "type": "multiple_choice",
+            "text": "10 If she practices every afternoon, she _____ the tennis tournament. (Select TWO valid choices)",
+            "options": [
+              {
+                "id": "adapt_3334_1",
+                "order": 1,
+                "value": "win",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3334_2",
+                "order": 2,
+                "value": "'ll win",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3334_3",
+                "order": 3,
+                "value": "might win",
+                "is_correct": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_a2_so_neither",
+    "title": "So, neither: So am I, neither do I, etc.",
+    "level": "A2",
+    "topic": "So, neither: So am I, neither do I, etc.",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-409",
+        "lessonId": "adapt_a2_so_neither",
+        "order": 2,
+        "title": "Exercise 2",
+        "instruction": "Choose the correct forms with so, neither, too, either to complete the sentences below.",
+        "questions": [
+          {
+            "id": "adapt_3493",
+            "order": 1,
+            "type": "single_choice",
+            "text": "1 A: 'I cannot attend the workshop tomorrow.' B: '_____.'",
+            "options": [
+              {
+                "id": "adapt_3493_1",
+                "order": 1,
+                "value": "Neither can't I",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3493_2",
+                "order": 2,
+                "value": "Neither can I",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3493_3",
+                "order": 3,
+                "value": "So can I",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3508",
+            "order": 2,
+            "type": "multiple_choice",
+            "text": "2 A: 'I am not attending the party this evening.' B: '_____.' (Identify TWO valid responses)",
+            "options": [
+              {
+                "id": "adapt_3508_1",
+                "order": 1,
+                "value": "Neither I am",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3508_2",
+                "order": 2,
+                "value": "Neither am I",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3508_3",
+                "order": 3,
+                "value": "I am either",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3508_4",
+                "order": 4,
+                "value": "I am not attending either",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3494",
+            "order": 3,
+            "type": "single_choice",
+            "text": "3 A: 'We haven't got enough chairs in the dining room.' B: 'Neither _____ in our office.'",
+            "options": [
+              {
+                "id": "adapt_3494_1",
+                "order": 1,
+                "value": "have we",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3494_2",
+                "order": 2,
+                "value": "we have",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3494_3",
+                "order": 3,
+                "value": "do we",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3495",
+            "order": 4,
+            "type": "multiple_choice",
+            "text": "4 A: 'We bought fresh vegetables at the farmers market.' B: '_____.' (Identify TWO valid responses)",
+            "options": [
+              {
+                "id": "adapt_3495_1",
+                "order": 1,
+                "value": "So did we",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3495_2",
+                "order": 2,
+                "value": "So are we",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3495_3",
+                "order": 3,
+                "value": "So were we",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3495_4",
+                "order": 4,
+                "value": "We bought fresh vegetables too",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3496",
+            "order": 5,
+            "type": "single_choice",
+            "text": "5 A: 'I rarely eat seafood in winter.' B: '______.'",
+            "options": [
+              {
+                "id": "adapt_3496_1",
+                "order": 1,
+                "value": "Neither do I",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3496_2",
+                "order": 2,
+                "value": "Neither am I",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3496_3",
+                "order": 3,
+                "value": "So am I",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3497",
+            "order": 6,
+            "type": "single_choice",
+            "text": "6 A: 'Marcus is not joining our team.' B: 'And _____.'",
+            "options": [
+              {
+                "id": "adapt_3497_1",
+                "order": 1,
+                "value": "so isn't Lucas",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3497_2",
+                "order": 2,
+                "value": "neither is Lucas",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3497_3",
+                "order": 3,
+                "value": "either isn't Lucas",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3507",
+            "order": 7,
+            "type": "single_choice",
+            "text": "7 A: 'I crave a hot cup of tea.' B: '_____.'",
+            "options": [
+              {
+                "id": "adapt_3507_1",
+                "order": 1,
+                "value": "So do I",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3507_2",
+                "order": 2,
+                "value": "Neither do I",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3507_3",
+                "order": 3,
+                "value": "So I do",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_3509",
+            "order": 8,
+            "type": "multiple_choice",
+            "text": "8 A: 'I was not anxious about the examination results.' B: '_____.' (Identify TWO valid responses)",
+            "options": [
+              {
+                "id": "adapt_3509_1",
+                "order": 1,
+                "value": "Neither was I",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3509_2",
+                "order": 2,
+                "value": "Neither wasn't I",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3509_3",
+                "order": 3,
+                "value": "I was anxious either",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3509_4",
+                "order": 4,
+                "value": "I was not anxious either",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3510",
+            "order": 9,
+            "type": "single_choice",
+            "text": "9 A: 'I considered the lecture fascinating.' B: '_____.'",
+            "options": [
+              {
+                "id": "adapt_3510_1",
+                "order": 1,
+                "value": "Neither did I",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3510_2",
+                "order": 2,
+                "value": "So I did",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3510_3",
+                "order": 3,
+                "value": "So did I",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_3511",
+            "order": 10,
+            "type": "multiple_choice",
+            "text": "10 A: 'The customer did not appreciate the delay.' B: '_____.' (Identify TWO valid responses)",
+            "options": [
+              {
+                "id": "adapt_3511_1",
+                "order": 1,
+                "value": "So didn't I",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3511_2",
+                "order": 2,
+                "value": "Neither didn't I",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_3511_3",
+                "order": 3,
+                "value": "Neither did I",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_3511_4",
+                "order": 4,
+                "value": "I did not appreciate it either",
+                "is_correct": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_b1-b2_present_perfect_simple_continuous",
+    "title": "Present perfect simple or continuous",
+    "level": "B1-B2",
+    "topic": "Present perfect simple or continuous",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-13",
+        "lessonId": "adapt_b1-b2_present_perfect_simple_continuous",
+        "order": 2,
+        "title": "Exercise 2",
+        "instruction": "Choose the correct option, present perfect simple or present perfect continuous, for the following sentences. If both forms are possible, use the present perfect continuous.",
+        "questions": [
+          {
+            "id": "adapt_87",
+            "order": 1,
+            "type": "single_choice",
+            "text": "1 I hope my application for the scholarship succeeds; I _____ the research papers all semester.",
+            "options": [
+              {
+                "id": "adapt_87_1",
+                "order": 1,
+                "value": "'ve studied",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_87_2",
+                "order": 2,
+                "value": "'ve been studying",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_87_3",
+                "order": 3,
+                "value": "'ve being studying",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_88",
+            "order": 2,
+            "type": "single_choice",
+            "text": "2 I _____ for the historical manuscripts since Tuesday, yet I _____ those documents in the archive.",
+            "options": [
+              {
+                "id": "adapt_88_1",
+                "order": 1,
+                "value": "'ve been looking / haven't found",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_88_2",
+                "order": 2,
+                "value": "'ve been looking / haven't been finding",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_88_3",
+                "order": 3,
+                "value": "'ve looked / haven't found",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_2410",
+            "order": 3,
+            "type": "single_choice",
+            "text": "3 My legs are exhausted because I _____ in the community garden all afternoon.",
+            "options": [
+              {
+                "id": "adapt_2410_1",
+                "order": 1,
+                "value": "'ve worked",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_2410_2",
+                "order": 2,
+                "value": "'ve been working",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_2410_3",
+                "order": 3,
+                "value": "'ve being working",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_2411",
+            "order": 4,
+            "type": "single_choice",
+            "text": "4 'The conference hall looks fantastic; you _____ the entire stage area!' 'Yes, the committee finished everything on schedule.'",
+            "options": [
+              {
+                "id": "adapt_2411_1",
+                "order": 1,
+                "value": "have redecorated",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_2411_2",
+                "order": 2,
+                "value": "have been redecorating",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_2411_3",
+                "order": 3,
+                "value": "have being redecorating",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_2412",
+            "order": 5,
+            "type": "single_choice",
+            "text": "5 Your jacket has grass stains all over it. _____ outdoors in the wet park?",
+            "options": [
+              {
+                "id": "adapt_2412_1",
+                "order": 1,
+                "value": "Have you played",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_2412_2",
+                "order": 2,
+                "value": "Have you playing",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_2412_3",
+                "order": 3,
+                "value": "Have you been playing",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_2413",
+            "order": 6,
+            "type": "single_choice",
+            "text": "6 _____ an original drama by William Shakespeare?",
+            "options": [
+              {
+                "id": "adapt_2413_1",
+                "order": 1,
+                "value": "Have you ever read",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_2413_2",
+                "order": 2,
+                "value": "Have you ever being reading",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_2413_3",
+                "order": 3,
+                "value": "Have you ever been reading",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_2414",
+            "order": 7,
+            "type": "single_choice",
+            "text": "7 I _____ your extension number since early morning. Is your workstation phone functioning properly?",
+            "options": [
+              {
+                "id": "adapt_2414_1",
+                "order": 1,
+                "value": "'ve called",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_2414_2",
+                "order": 2,
+                "value": "'ve been calling",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_2414_3",
+                "order": 3,
+                "value": "'ve calling",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_2415",
+            "order": 8,
+            "type": "single_choice",
+            "text": "8 I _____ the dispatch office several times today, but the emergency line remains busy.",
+            "options": [
+              {
+                "id": "adapt_2415_1",
+                "order": 1,
+                "value": "'ve called",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_2415_2",
+                "order": 2,
+                "value": "'ve been calling",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_2415_3",
+                "order": 3,
+                "value": "'ve being calling",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_2416",
+            "order": 9,
+            "type": "single_choice",
+            "text": "9 I _____ this research summary, but the deadline is tomorrow and three chapters are still missing.",
+            "options": [
+              {
+                "id": "adapt_2416_1",
+                "order": 1,
+                "value": "'ve written",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_2416_2",
+                "order": 2,
+                "value": "'ve writing",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_2416_3",
+                "order": 3,
+                "value": "'ve been writing",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_4573",
+            "order": 10,
+            "type": "single_choice",
+            "text": "10 I _____ to explore the Scottish Highlands, and our expedition departs next week because I _____ the railway passes!",
+            "options": [
+              {
+                "id": "adapt_4573_1",
+                "order": 1,
+                "value": "'ve always wanted / 've just bought",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_4573_2",
+                "order": 2,
+                "value": "'ve always been wanting / 've just been buying",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_4573_3",
+                "order": 3,
+                "value": "'ve always wanted / 've just been buying",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_b1-b2_questions_different_types",
+    "title": "Questions: Different types",
+    "level": "B1-B2",
+    "topic": "Questions: Different types",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-6",
+        "lessonId": "adapt_b1-b2_questions_different_types",
+        "order": 1,
+        "title": "Exercise 1",
+        "instruction": "Choose the correct forms to complete the following questions.",
+        "questions": [
+          {
+            "id": "adapt_36",
+            "order": 1,
+            "type": "gap_select",
+            "text": "1 The courier departed an hour ago, but the receptionist cannot recall where {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_36_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_36_1_1",
+                    "order": 1,
+                    "value": "is he gone",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_36_1_2",
+                    "order": 2,
+                    "value": "has he gone",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_36_1_3",
+                    "order": 3,
+                    "value": "he's gone",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_28",
+            "order": 2,
+            "type": "gap_select",
+            "text": "2 That leather briefcase in the lounge belongs to an attendee. Who {{gap1}}?",
+            "gaps": [
+              {
+                "id": "adapt_gap_28_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_28_1_1",
+                    "order": 1,
+                    "value": "belongs to",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_28_1_2",
+                    "order": 2,
+                    "value": "does it belong to",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_28_1_3",
+                    "order": 3,
+                    "value": "does it belong",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_29",
+            "order": 3,
+            "type": "gap_select",
+            "text": "3 An elderly couple resides next door. Who {{gap1}} inside that rustic cottage?",
+            "gaps": [
+              {
+                "id": "adapt_gap_29_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_29_1_1",
+                    "order": 1,
+                    "value": "does live",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_29_1_2",
+                    "order": 2,
+                    "value": "lives",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_29_1_3",
+                    "order": 3,
+                    "value": "live",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_30",
+            "order": 4,
+            "type": "gap_select",
+            "text": "4 That technical abbreviation on the blueprint signifies a specific part. What {{gap1}}?",
+            "gaps": [
+              {
+                "id": "adapt_gap_30_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_30_1_1",
+                    "order": 1,
+                    "value": "means",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_30_1_2",
+                    "order": 2,
+                    "value": "does it mean",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_30_1_3",
+                    "order": 3,
+                    "value": "it means",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_31",
+            "order": 5,
+            "type": "gap_select",
+            "text": "5 The committee delegates were arguing intensely behind closed doors. {{gap1}}?",
+            "gaps": [
+              {
+                "id": "adapt_gap_31_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_31_1_1",
+                    "order": 1,
+                    "value": "About what they were talking",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_31_1_2",
+                    "order": 2,
+                    "value": "What they were talking about",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_31_1_3",
+                    "order": 3,
+                    "value": "What were they talking about",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_32",
+            "order": 6,
+            "type": "gap_select",
+            "text": "6 A fragile ceramic plate slipped from the shelf. What {{gap1}} onto the stone floor?",
+            "gaps": [
+              {
+                "id": "adapt_gap_32_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_32_1_1",
+                    "order": 1,
+                    "value": "did fall",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_32_1_2",
+                    "order": 2,
+                    "value": "didn't fall",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_32_1_3",
+                    "order": 3,
+                    "value": "fell",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_33",
+            "order": 7,
+            "type": "gap_select",
+            "text": "7 A quiet medical archive exists nearby. Do you happen to recall {{gap1}}?",
+            "gaps": [
+              {
+                "id": "adapt_gap_33_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_33_1_1",
+                    "order": 1,
+                    "value": "where is near the library",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_33_1_2",
+                    "order": 2,
+                    "value": "where is the library",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_33_1_3",
+                    "order": 3,
+                    "value": "where the library is",
+                    "is_correct": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_34",
+            "order": 8,
+            "type": "gap_select",
+            "text": "8 Emma received tuition funding from a sponsor. We wonder who {{gap1}}.",
+            "gaps": [
+              {
+                "id": "adapt_gap_34_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_34_1_1",
+                    "order": 1,
+                    "value": "did she borrow the money",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_34_1_2",
+                    "order": 2,
+                    "value": "she borrowed the money from",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_34_1_3",
+                    "order": 3,
+                    "value": "did she borrow the money from",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_35",
+            "order": 9,
+            "type": "gap_select",
+            "text": "9 The international student struggled with an obscure idiom. What {{gap1}}?",
+            "gaps": [
+              {
+                "id": "adapt_gap_35_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_35_1_1",
+                    "order": 1,
+                    "value": "she can't understand",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_35_1_2",
+                    "order": 2,
+                    "value": "can she not understand",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_35_1_3",
+                    "order": 3,
+                    "value": "does she understand",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adapt_37",
+            "order": 10,
+            "type": "gap_select",
+            "text": "10 Julian skipped the annual charity banquet for personal reasons. Why {{gap1}}?",
+            "gaps": [
+              {
+                "id": "adapt_gap_37_1",
+                "order": 1,
+                "placeholder": "{{gap1}}",
+                "options": [
+                  {
+                    "id": "adapt_gap_37_1_1",
+                    "order": 1,
+                    "value": "he did not come to the party",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "adapt_gap_37_1_2",
+                    "order": 2,
+                    "value": "didn't he come to the party",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "adapt_gap_37_1_3",
+                    "order": 3,
+                    "value": "did not he come to the party",
+                    "is_correct": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapt_b2_generic_pronouns",
+    "title": "Generic or common-gender pronouns",
+    "level": "B2",
+    "topic": "Generic or common-gender pronouns",
+    "status": "draft",
+    "exercises": [
+      {
+        "id": "adapt_quiz-92",
+        "lessonId": "adapt_b2_generic_pronouns",
+        "order": 2,
+        "title": "Exercise 2",
+        "instruction": "Choose the best option/s for each gap below to express generic reference.",
+        "questions": [
+          {
+            "id": "adapt_749",
+            "order": 1,
+            "type": "multiple_choice",
+            "text": "1 In challenging situations, _______ rarely predict where _______ greatest strengths will come from. Choose TWO correct answers",
+            "options": [
+              {
+                "id": "adapt_749_1",
+                "order": 1,
+                "value": "They / their",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_749_2",
+                "order": 2,
+                "value": "You / your",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_749_3",
+                "order": 3,
+                "value": "We / our",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_749_4",
+                "order": 4,
+                "value": "One / one's",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_750",
+            "order": 2,
+            "type": "multiple_choice",
+            "text": "2 Maintaining _______ professional integrity during difficult negotiations is essential in leadership. Choose TWO correct answers",
+            "options": [
+              {
+                "id": "adapt_750_1",
+                "order": 1,
+                "value": "our",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_750_2",
+                "order": 2,
+                "value": "their",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_750_3",
+                "order": 3,
+                "value": "his",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_750_4",
+                "order": 4,
+                "value": "one's",
+                "is_correct": true
+              }
+            ]
+          },
+          {
+            "id": "adapt_754",
+            "order": 6,
+            "type": "multiple_choice",
+            "text": "6 Rubbing _______ tired eyes with unwashed hands can introduce harmful bacteria into the body. Choose TWO correct answers",
+            "options": [
+              {
+                "id": "adapt_754_1",
+                "order": 1,
+                "value": "his",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_754_2",
+                "order": 2,
+                "value": "one's",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_754_3",
+                "order": 3,
+                "value": "your",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_754_4",
+                "order": 4,
+                "value": "their",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_755",
+            "order": 7,
+            "type": "multiple_choice",
+            "text": "7 Upon preliminary inspection _______ might assume that modernizing the infrastructure will be straightforward. Choose TWO correct answers",
+            "options": [
+              {
+                "id": "adapt_755_1",
+                "order": 1,
+                "value": "one",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_755_2",
+                "order": 2,
+                "value": "they",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_755_3",
+                "order": 3,
+                "value": "we",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_755_4",
+                "order": 4,
+                "value": "he",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": "adapt_757",
+            "order": 9,
+            "type": "multiple_choice",
+            "text": "9 _______ ought never to evaluate a colleague based purely on first impressions. Choose TWO correct answers",
+            "options": [
+              {
+                "id": "adapt_757_1",
+                "order": 1,
+                "value": "He",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_757_2",
+                "order": 2,
+                "value": "One",
+                "is_correct": true
+              },
+              {
+                "id": "adapt_757_3",
+                "order": 3,
+                "value": "They",
+                "is_correct": false
+              },
+              {
+                "id": "adapt_757_4",
+                "order": 4,
+                "value": "You",
+                "is_correct": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

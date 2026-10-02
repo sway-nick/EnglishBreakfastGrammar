@@ -1,0 +1,1811 @@
+{
+  "metadata": {
+    "scan_timestamp": "2026-10-01T13:05:25.646528+00:00",
+    "total_questions_scanned": 5796,
+    "unreviewed_anomaly_count": 69,
+    "status": "REVIEWED",
+    "teacher_reviewed": true,
+    "reviewed_at": "2026-10-01T13:10:56.650096+00:00",
+    "review_summary": {
+      "PASS_count": 54,
+      "FIX_count": 15,
+      "fixed_qids": [
+        "141",
+        "143",
+        "1955",
+        "2006",
+        "2020",
+        "2085",
+        "2954",
+        "3528",
+        "3749",
+        "3792",
+        "3919",
+        "4016",
+        "5145",
+        "6858",
+        "13586"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "qid": "3890",
+      "review_index": 223,
+      "level": "A1",
+      "exercise_id": "quiz-447",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Adverbs of frequency with present simple",
+      "response_model": "single_choice",
+      "source_text": "1 Which sentence is correct?",
+      "adapted_text": "1 Which sentence is correctly structured?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['which sentence is'] with elevated similarity (Jaccard=0.5000, Lev=0.6579)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "The librarian is usually helpful."
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "The librarian is usually helpful.",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "The librarian usually is helpful.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Is usually the librarian helpful?",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Usually the librarian is helpful.",
+          "is_correct": 0
+        }
+      ],
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3891",
+      "review_index": 224,
+      "level": "A1",
+      "exercise_id": "quiz-447",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Adverbs of frequency with present simple",
+      "response_model": "single_choice",
+      "source_text": "2 Which sentence is correct?",
+      "adapted_text": "2 Which sentence is correctly structured?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['which sentence is'] with elevated similarity (Jaccard=0.5000, Lev=0.6579)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "They seldom drink sugary soda."
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Seldom they drink sugary soda.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "They drink seldom sugary soda.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "They drink sugary soda seldom.",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "They seldom drink sugary soda.",
+          "is_correct": 1
+        }
+      ],
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3892",
+      "review_index": 225,
+      "level": "A1",
+      "exercise_id": "quiz-447",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Adverbs of frequency with present simple",
+      "response_model": "single_choice",
+      "source_text": "3 Which sentence is correct?",
+      "adapted_text": "3 Which sentence is correctly structured?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['which sentence is'] with elevated similarity (Jaccard=0.5000, Lev=0.6579)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Our grandfather rarely reads newspapers online."
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Our grandfather doesn't rarely read newspapers online.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Our grandfather reads rarely newspapers online.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Our grandfather reads newspapers online rarely.",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Our grandfather rarely reads newspapers online.",
+          "is_correct": 1
+        }
+      ],
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3893",
+      "review_index": 226,
+      "level": "A1",
+      "exercise_id": "quiz-447",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Adverbs of frequency with present simple",
+      "response_model": "single_choice",
+      "source_text": "4 Which sentence is correct?",
+      "adapted_text": "4 Which sentence is correctly structured?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['which sentence is'] with elevated similarity (Jaccard=0.5000, Lev=0.6579)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Do you frequently visit art galleries?"
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Do frequently you visit art galleries?",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Do you frequently visit art galleries?",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "Do you visit frequently art galleries?",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Do you visit art galleries frequently?",
+          "is_correct": 0
+        }
+      ],
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3894",
+      "review_index": 227,
+      "level": "A1",
+      "exercise_id": "quiz-447",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Adverbs of frequency with present simple",
+      "response_model": "single_choice",
+      "source_text": "5 Which sentence is correct?",
+      "adapted_text": "5 Which sentence is correctly structured?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['which sentence is'] with elevated similarity (Jaccard=0.5000, Lev=0.6579)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "She doesn't normally wake up early."
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "She normally doesn't wake up early.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "She doesn't wake up early normally.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "She doesn't normally wake up early.",
+          "is_correct": 1
+        },
+        {
+          "order": 4,
+          "text": "Does she wake usually early up?",
+          "is_correct": 0
+        }
+      ],
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3895",
+      "review_index": 228,
+      "level": "A1",
+      "exercise_id": "quiz-447",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Adverbs of frequency with present simple",
+      "response_model": "single_choice",
+      "source_text": "6 Which sentence is correct?",
+      "adapted_text": "6 Which sentence is correctly structured?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['which sentence is'] with elevated similarity (Jaccard=0.5000, Lev=0.6579)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "We attend swimming sessions every Saturday."
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "We every Saturday attend swimming sessions.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "We attend every Saturday swimming sessions.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "We attend swimming sessions every Saturday.",
+          "is_correct": 1
+        },
+        {
+          "order": 4,
+          "text": "We every Saturday attend swimming sessions.",
+          "is_correct": 0
+        }
+      ],
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3896",
+      "review_index": 229,
+      "level": "A1",
+      "exercise_id": "quiz-447",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Adverbs of frequency with present simple",
+      "response_model": "single_choice",
+      "source_text": "7 Which sentence is correct?",
+      "adapted_text": "7 Which sentence is correctly structured?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['which sentence is'] with elevated similarity (Jaccard=0.5000, Lev=0.6579)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "The children are always quite hungry after swimming."
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "The children always are quite hungry after swimming.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "The children are always quite hungry after swimming.",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "The children are quite hungry after swimming always.",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Always the children are quite hungry after swimming.",
+          "is_correct": 0
+        }
+      ],
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3897",
+      "review_index": 230,
+      "level": "A1",
+      "exercise_id": "quiz-447",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Adverbs of frequency with present simple",
+      "response_model": "single_choice",
+      "source_text": "8 Which sentence is correct?",
+      "adapted_text": "8 Which sentence is correctly structured?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['which sentence is'] with elevated similarity (Jaccard=0.5000, Lev=0.6579)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "I constantly drink coffee before noon."
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "I constantly drink coffee before noon.",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Constantly I drink coffee before noon.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "I drink constantly coffee before noon.",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "I drink coffee before noon constantly.",
+          "is_correct": 0
+        }
+      ],
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3898",
+      "review_index": 231,
+      "level": "A1",
+      "exercise_id": "quiz-447",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Adverbs of frequency with present simple",
+      "response_model": "single_choice",
+      "source_text": "9 Which sentence is correct?",
+      "adapted_text": "9 Which sentence is correctly structured?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['which sentence is'] with elevated similarity (Jaccard=0.5000, Lev=0.6579)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "He doesn't often carry an umbrella."
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "He doesn't carry an umbrella often.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "He often doesn't carry an umbrella.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Often he doesn't carry an umbrella.",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "He doesn't often carry an umbrella.",
+          "is_correct": 1
+        }
+      ],
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3899",
+      "review_index": 232,
+      "level": "A1",
+      "exercise_id": "quiz-447",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Adverbs of frequency with present simple",
+      "response_model": "single_choice",
+      "source_text": "10 Which sentence is correct?",
+      "adapted_text": "10 Which sentence is correctly structured?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['which sentence is'] with elevated similarity (Jaccard=0.5000, Lev=0.6579)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Is your roommate sometimes noisy late in the evening?"
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Is your roommate sometimes noisy late in the evening?",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Is sometimes your roommate noisy late in the evening?",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Is your roommate noisy sometimes late in the evening?",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Your roommate is sometimes noisy late in the evening?",
+          "is_correct": 0
+        }
+      ],
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3914",
+      "review_index": 246,
+      "level": "A1",
+      "exercise_id": "quiz-449",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Adverbs of frequency with present simple",
+      "response_model": "gap",
+      "source_text": "4 My parents approve of my friends. (hardly ever) ⇒ My parents {{gap_1}}.",
+      "adapted_text": "The strict supervisors approve of my choices. (hardly ever) ⇒ The strict supervisors {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['approve of my'] with elevated similarity (Jaccard=0.4545, Lev=0.4815)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "hardly ever approve of my choices"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3919",
+      "review_index": 252,
+      "level": "A1",
+      "exercise_id": "quiz-449",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Adverbs of frequency with present simple",
+      "response_model": "gap",
+      "source_text": "10 I meditate. (usually/twice a day) ⇒ I {{gap_1}}.",
+      "adapted_text": "10 She practices yoga. (usually/twice a day) ⇒ She {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['twice a day', 'usually twice a'] with elevated similarity (Jaccard=0.4444, Lev=0.5909)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "usually meditate twice a day"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "3930",
+      "review_index": 383,
+      "level": "A1",
+      "exercise_id": "quiz-451",
+      "exercise_title": "Exercise 2",
+      "grammar_target": "Can, can't: Ability, possibility, permission",
+      "response_model": "gap",
+      "source_text": "1 She / dance / very well. ⇒ She {{gap_1}}. (+)",
+      "adapted_text": "1 Maria / dance / very well. ⇒ Maria {{gap_1}}. (+)",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (0.6000) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['dance very well'] with elevated similarity (Jaccard=0.6000, Lev=0.7143)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "can dance very well"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3934",
+      "review_index": 387,
+      "level": "A1",
+      "exercise_id": "quiz-451",
+      "exercise_title": "Exercise 2",
+      "grammar_target": "Can, can't: Ability, possibility, permission",
+      "response_model": "gap",
+      "source_text": "5 She / meet / you at 7. ⇒ She {{gap_1}}. (-)",
+      "adapted_text": "5 Sarah / meet / you at 7 ⇒ Sarah {{gap_1}}. (-)",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (0.6667) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['meet you at', 'you at 7'] with elevated similarity (Jaccard=0.6667, Lev=0.7576)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "can't meet you at 7"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "5145",
+      "review_index": 651,
+      "level": "A1",
+      "exercise_id": "quiz-600",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Have got",
+      "response_model": "gap",
+      "source_text": "7 Have you got a headache? ⇒ {{gap_1}} a headache?",
+      "adapted_text": "Have you got any free time? ⇒ {{gap_1}} any free time?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['have you got'] with elevated similarity (Jaccard=0.3750, Lev=0.5500)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Did you have"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "3961",
+      "review_index": 414,
+      "level": "A1",
+      "exercise_id": "quiz-454",
+      "exercise_title": "Exercise 2",
+      "grammar_target": "Present continuous: I'm doing, I'm not doing, Are you doing?",
+      "response_model": "gap",
+      "source_text": "2 A: {{gap_1}} (your father/recover) well after the operation? B: Yes, he {{gap_2}}.",
+      "adapted_text": "A: {{gap_1}} (your father/recover) quickly from his injury? B: Yes, he {{gap_2}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['your father recover'] with elevated similarity (Jaccard=0.3846, Lev=0.5849)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Is your father recovering",
+        "is"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3962",
+      "review_index": 415,
+      "level": "A1",
+      "exercise_id": "quiz-454",
+      "exercise_title": "Exercise 2",
+      "grammar_target": "Present continuous: I'm doing, I'm not doing, Are you doing?",
+      "response_model": "gap",
+      "source_text": "3 A: {{gap_1}} (they/try) to find a solution? B: Yes, they {{gap_2}}.",
+      "adapted_text": "A: {{gap_1}} (they/try) to fix the car? B: Yes, they {{gap_2}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['they try to'] with elevated similarity (Jaccard=0.4000, Lev=0.6842)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Are they trying",
+        "are"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3749",
+      "review_index": 173,
+      "level": "A1",
+      "exercise_id": "quiz-432",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "response_model": "gap",
+      "source_text": "2 you / speak / English ⇒ {{gap_1}}?",
+      "adapted_text": "you / speak / English at home ⇒ {{gap_1}}?",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (0.6000) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['you speak english'] with elevated similarity (Jaccard=0.6000, Lev=0.7241)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "PREPARED",
+      "adapted_correct_answer": [
+        "Do you speak English"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "3758",
+      "review_index": 182,
+      "level": "A1",
+      "exercise_id": "quiz-433",
+      "exercise_title": "Exercise 4",
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "response_model": "gap",
+      "source_text": "Sara is my daughter. She has (have) two daughters; they are my granddaughters. Sara 1 {{gap_1}} (not have) much free time because she 2 {{gap_2}} (work) in a shop. In the week, she 3 {{gap_3}} (get up) very early and she 4 {{gap_4}} (go) to bed quite late every day. She 5 {{gap_5}} (love) Sundays because she 6 {{gap_6}} (not work) and she 7 {{gap_7}} (spend) the day with her family. On Sundays, they 8 {{gap_8}} (not get up) very late because they always 9 {{gap_9}} (go out). My granddaughters 10 {{gap_10}} (be) always sad on Sunday evenings because it's the end of the weekend.",
+      "adapted_text": "My colleague Elena {{gap_1}} (not have) a driving licence; she {{gap_2}} (work) near the airport. Every morning, she {{gap_3}} (get up) very early; she {{gap_4}} (go) to the train station. She {{gap_5}} (love) weekends; she {{gap_6}} (not work) on Saturdays; she {{gap_7}} (spend) time outdoors. On Sundays, her cousins {{gap_8}} (not get up) early; her cousins always {{gap_9}} (go out). Her cousins {{gap_10}} (be) always happy on sunny afternoons.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['get up very', 'not get up'] with elevated similarity (Jaccard=0.2949, Lev=0.4183)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "PREPARED",
+      "adapted_correct_answer": [
+        "doesn't have",
+        "works",
+        "gets up",
+        "goes",
+        "loves",
+        "doesn't work",
+        "spends",
+        "don't get up",
+        "go out",
+        "are"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3792",
+      "review_index": 216,
+      "level": "A1",
+      "exercise_id": "quiz-437",
+      "exercise_title": "Exercise 4",
+      "grammar_target": "Questions: Word order and question words",
+      "response_model": "gap",
+      "source_text": "4 His car is red. ⇒ {{gap_1}}?",
+      "adapted_text": "His automobile is red. ⇒ {{gap_1}}?",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (0.6000) exceeds rejection threshold (> 0.50)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "What colour is his car"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "3798",
+      "review_index": 221,
+      "level": "A1",
+      "exercise_id": "quiz-437",
+      "exercise_title": "Exercise 4",
+      "grammar_target": "Questions: Word order and question words",
+      "response_model": "gap",
+      "source_text": "9 He sees Sarah every weekend. ⇒ {{gap_1}}?",
+      "adapted_text": "He sees his manager every weekend. ⇒ {{gap_1}}?",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (0.5714) exceeds rejection threshold (> 0.50)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Who does he see every weekend"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "4014",
+      "review_index": 506,
+      "level": "A1",
+      "exercise_id": "quiz-461",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Was/were: Past simple of 'be'",
+      "response_model": "gap",
+      "source_text": "3 born / she / when ⇒ {{gap_1}}?",
+      "adapted_text": "she / when / born ⇒ {{gap_1}}?",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (1.0000) exceeds rejection threshold (> 0.50)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "When was she born"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "4015",
+      "review_index": 507,
+      "level": "A1",
+      "exercise_id": "quiz-461",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Was/were: Past simple of 'be'",
+      "response_model": "gap",
+      "source_text": "4 how expensive / the hotel ⇒ {{gap_1}}?",
+      "adapted_text": "4 hotel / the / expensive / how / was ⇒ {{gap_1}}?",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (0.8000) exceeds rejection threshold (> 0.50)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "How expensive was the hotel"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "4016",
+      "review_index": 508,
+      "level": "A1",
+      "exercise_id": "quiz-461",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Was/were: Past simple of 'be'",
+      "response_model": "gap",
+      "source_text": "5 why / you / angry ⇒ {{gap_1}}?",
+      "adapted_text": "why / you / angry yesterday ⇒ {{gap_1}}?",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (0.7500) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['why you angry'] with elevated similarity (Jaccard=0.7500, Lev=0.6296)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "why were you angry"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "4017",
+      "review_index": 509,
+      "level": "A1",
+      "exercise_id": "quiz-461",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Was/were: Past simple of 'be'",
+      "response_model": "gap",
+      "source_text": "6 unconscious / I / after the accident ⇒ {{gap_1}}?",
+      "adapted_text": "I / unconscious / was / after / the / accident ⇒ {{gap_1}}?",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (0.8333) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['after the accident'] with elevated similarity (Jaccard=0.8333, Lev=0.7609)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Was I unconscious after the accident"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "4018",
+      "review_index": 510,
+      "level": "A1",
+      "exercise_id": "quiz-461",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Was/were: Past simple of 'be'",
+      "response_model": "gap",
+      "source_text": "7 the questions / difficult ⇒ {{gap_1}}?",
+      "adapted_text": "difficult / the / questions ⇒ {{gap_1}}?",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (1.0000) exceeds rejection threshold (> 0.50)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Were the questions difficult"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "4019",
+      "review_index": 511,
+      "level": "A1",
+      "exercise_id": "quiz-461",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Was/were: Past simple of 'be'",
+      "response_model": "gap",
+      "source_text": "8 the accident / what time ⇒ {{gap_1}}?",
+      "adapted_text": "what time / the accident ⇒ {{gap_1}}?",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (1.0000) exceeds rejection threshold (> 0.50)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "What time was the accident"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "4020",
+      "review_index": 512,
+      "level": "A1",
+      "exercise_id": "quiz-461",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Was/were: Past simple of 'be'",
+      "response_model": "gap",
+      "source_text": "9 you / how often / in contact with them ⇒ {{gap_1}}?",
+      "adapted_text": "9 in contact / with them / how often / you / were ⇒ {{gap_1}}?",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (0.8750) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['contact with them', 'in contact with'] with elevated similarity (Jaccard=0.8750, Lev=0.2553)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "how often were you in contact with them"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "5150",
+      "review_index": 596,
+      "level": "A1",
+      "exercise_id": "quiz-601",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Would you like...? I'd like...",
+      "response_model": "gap",
+      "source_text": "2 Do you want to come with us? ⇒ {{gap_1}} with us?",
+      "adapted_text": "Do you want to join our trip to the museum? ⇒ {{gap_1}} on our trip to the museum?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['do you want', 'you want to'] with elevated similarity (Jaccard=0.3077, Lev=0.4412)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Would you like to come"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "5157",
+      "review_index": 603,
+      "level": "A1",
+      "exercise_id": "quiz-601",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Would you like...? I'd like...",
+      "response_model": "gap",
+      "source_text": "9 Do you want to meet my family? ⇒ {{gap_1}} my family?",
+      "adapted_text": "Do you want to introduce yourself to our new neighbors? ⇒ {{gap_1}} our new neighbors?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['do you want', 'you want to'] with elevated similarity (Jaccard=0.3333, Lev=0.3333)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Would you like to meet"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "2989",
+      "review_index": 1288,
+      "level": "A2",
+      "exercise_id": "quiz-350",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Defining relative clauses: Who, which, that, where",
+      "response_model": "gap",
+      "source_text": "1 That's the neighbour. He helped me when I moved in. ⇒ That's the neighbour {{gap_1}}.",
+      "adapted_text": "I spoke to a friendly resident. He helped me when I moved in. ⇒ I spoke to a friendly resident {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['he helped me', 'helped me when'] with elevated similarity (Jaccard=0.4667, Lev=0.4444)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "who helped me when I moved in"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "2995",
+      "review_index": 1294,
+      "level": "A2",
+      "exercise_id": "quiz-350",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Defining relative clauses: Who, which, that, where",
+      "response_model": "gap",
+      "source_text": "7 That's the shop. I bought my TV in that shop. ⇒ That's the shop {{gap_1}}.",
+      "adapted_text": "Look at that store. I bought my TV in that store. ⇒ Look at the store {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (0.5833) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['bought my tv', 'i bought my'] with elevated similarity (Jaccard=0.5833, Lev=0.6462)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "where I bought my TV"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "7465",
+      "review_index": 2109,
+      "level": "A2",
+      "exercise_id": "quiz-875",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "No longer, any longer, anymore",
+      "response_model": "gap",
+      "source_text": "9 {{gap_1}}. (The property is for sale.)",
+      "adapted_text": "The owner removed the listing from the website yesterday. (The property is for sale.) ⇒ {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['is for sale', 'property is for'] with elevated similarity (Jaccard=0.4545, Lev=0.3214)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "The property is no longer for sale"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3528",
+      "review_index": 1876,
+      "level": "A2",
+      "exercise_id": "quiz-411",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Past perfect",
+      "response_model": "gap",
+      "source_text": "6 First you called. Second, I had dinner. ⇒ When you called, I {{gap_1}} dinner.",
+      "adapted_text": "First the bell rang. Second, we {{gap_1}} lunch. ⇒ When the bell rang, we {{gap_1}} lunch.",
+      "anomaly_reasons": [
+        "Gap placeholder numbers in text [1, 1] mismatch DB gaps [1]"
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "had"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "3046",
+      "review_index": 1318,
+      "level": "A2",
+      "exercise_id": "quiz-357",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Present perfect: Form and use",
+      "response_model": "gap",
+      "source_text": "1 He/lose/his keys. {{gap_1}}.",
+      "adapted_text": "The driver cannot start the vehicle. (he/lose/his keys) ⇒ {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['he lose his', 'lose his keys'] with elevated similarity (Jaccard=0.4444, Lev=0.2963)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "He has lost his keys"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3049",
+      "review_index": 1321,
+      "level": "A2",
+      "exercise_id": "quiz-357",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Present perfect: Form and use",
+      "response_model": "gap",
+      "source_text": "4 You/read/that newspaper/yet? {{gap_1}}?",
+      "adapted_text": "4 you / read / that / newspaper / yet ⇒ {{gap_1}}?",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (1.0000) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['read that newspaper', 'that newspaper yet'] with elevated similarity (Jaccard=1.0000, Lev=0.7714)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Have you read that newspaper yet"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3054",
+      "review_index": 1326,
+      "level": "A2",
+      "exercise_id": "quiz-357",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Present perfect: Form and use",
+      "response_model": "gap",
+      "source_text": "9 I/never/see/her/before. {{gap_1}}.",
+      "adapted_text": "She is a total stranger to me. (I/never/see/her/before) ⇒ {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['i never see', 'never see her'] with elevated similarity (Jaccard=0.4167, Lev=0.4074)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "I have never seen her before"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3062",
+      "review_index": 1334,
+      "level": "A2",
+      "exercise_id": "quiz-358",
+      "exercise_title": "Exercise 4",
+      "grammar_target": "Present perfect: Form and use",
+      "response_model": "gap",
+      "source_text": "7 {{gap_1}} (you/ever/work) abroad?",
+      "adapted_text": "{{gap_1}} (you/ever/work) in a restaurant?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['you ever work'] with elevated similarity (Jaccard=0.4286, Lev=0.6129)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Have you ever worked"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3065",
+      "review_index": 1337,
+      "level": "A2",
+      "exercise_id": "quiz-358",
+      "exercise_title": "Exercise 4",
+      "grammar_target": "Present perfect: Form and use",
+      "response_model": "gap",
+      "source_text": "10 {{gap_1}} (you/ever/meet) a celebrity?",
+      "adapted_text": "{{gap_1}} (you/ever/meet) a famous author at the conference?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['ever meet a', 'you ever meet'] with elevated similarity (Jaccard=0.4000, Lev=0.4082)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Have you ever met"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3571",
+      "review_index": 1919,
+      "level": "A2",
+      "exercise_id": "quiz-415",
+      "exercise_title": "Exercise 2",
+      "grammar_target": "Reported speech / Indirect speech",
+      "response_model": "single_choice",
+      "source_text": "9 'I can lend you the money' ⇒ She told me she _____ me the money.",
+      "adapted_text": "'I can lend you my bike,' said Tom ⇒ Tom promised he _____ the bike.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['can lend you', 'i can lend'] with elevated similarity (Jaccard=0.3333, Lev=0.5179)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "could lend"
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "can lend",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "could lend",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "lent",
+          "is_correct": 0
+        }
+      ],
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "3576",
+      "review_index": 1924,
+      "level": "A2",
+      "exercise_id": "quiz-416",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Reported speech / Indirect speech",
+      "response_model": "gap",
+      "source_text": "4 'I've found a wallet.' ⇒ He said that {{gap_1}}",
+      "adapted_text": "While walking home, the student noticed an item on the street and announced, 'I've found a wallet.' ⇒ He told the officer that {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['a wallet he', 'found a wallet'] with elevated similarity (Jaccard=0.2857, Lev=0.2373)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "he had found a wallet"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "2954",
+      "review_index": 1104,
+      "level": "A2",
+      "exercise_id": "quiz-343",
+      "exercise_title": "Exercise 2",
+      "grammar_target": "Subject questions, questions with preposition",
+      "response_model": "single_choice",
+      "source_text": "8 I'm happy about the results. ⇒ What _____?",
+      "adapted_text": "8 They are happy about the news. ⇒ What _____?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['happy about the'] with elevated similarity (Jaccard=0.4444, Lev=0.6176)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "are you happy about"
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "are you happy",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "are you happy about",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "you're happy about",
+          "is_correct": 0
+        }
+      ],
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "6198",
+      "review_index": 1959,
+      "level": "A2",
+      "exercise_id": "quiz-723",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Verbs with two objects",
+      "response_model": "gap",
+      "source_text": "9 She read the audience a message. ⇒ She read {{gap_1}}.",
+      "adapted_text": "The presenter read the entire audience a message. ⇒ The presenter read {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (0.6250) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['audience a message'] with elevated similarity (Jaccard=0.6250, Lev=0.5672)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "a message to the audience"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "6858",
+      "review_index": 4142,
+      "level": "B1-B2",
+      "exercise_id": "quiz-794",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Already, still, yet: What's the difference?",
+      "response_model": "gap",
+      "source_text": "9 Sunday will be a warm day. (still) ‣ {{gap_1}}.",
+      "adapted_text": "Despite the dark clouds, the weather forecast predicts {{gap_1}}. (still) ‣ {{gap_1}}",
+      "anomaly_reasons": [
+        "Gap placeholder numbers in text [1, 1] mismatch DB gaps [1]"
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Sunday will still be a warm day"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "12114",
+      "review_index": 4291,
+      "level": "B1-B2",
+      "exercise_id": "quiz-1414",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Double negatives in English",
+      "response_model": "gap",
+      "source_text": "8 They won't never agree to this plan. ⇒ They {{gap_1}} to this plan.",
+      "adapted_text": "The board members won't never agree to the proposed changes. ⇒ The board members {{gap_1}} to the proposed changes.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['never agree to', \"won't never agree\"] with elevated similarity (Jaccard=0.3333, Lev=0.4400)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "will never agree"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "141",
+      "review_index": 3588,
+      "level": "B1-B2",
+      "exercise_id": "quiz-18",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Position of adverbs and adverb phrases",
+      "response_model": "gap",
+      "source_text": "1 The house was damaged in the flood. (badly, last summer) ⇒ The house {{gap_1}}.",
+      "adapted_text": "The old cabin (badly, last summer) ⇒ The cabin {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['badly last summer', 'last summer the'] with elevated similarity (Jaccard=0.3636, Lev=0.5312)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "was badly damaged in the flood last summer"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "143",
+      "review_index": 3590,
+      "level": "B1-B2",
+      "exercise_id": "quiz-18",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Position of adverbs and adverb phrases",
+      "response_model": "gap",
+      "source_text": "3 Liam is at his friend's house. (sometimes, in the evening) ⇒ {{gap_1}}.",
+      "adapted_text": "3 Ethan stays at his cousin's apartment. (sometimes, in the evening) ⇒ {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['in the evening', 'sometimes in the'] with elevated similarity (Jaccard=0.4286, Lev=0.6508)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Liam is sometimes at his friend's house in the evening."
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "636",
+      "review_index": 4113,
+      "level": "B1-B2",
+      "exercise_id": "quiz-77",
+      "exercise_title": "Exercise 4",
+      "grammar_target": "Quantifiers: All, most, both, either, neither, any, no, none",
+      "response_model": "gap",
+      "source_text": "I have very fond memories from school. I remember nearly everything I did as a student. I keep in touch with 1 {{gap_1}} of my friends from school, almost with everyone. 2 {{gap_2}} them have jobs, except for one who is unemployed, but 3 {{gap_3}} of them have children; I’m the only one. My two best friends are also from school, Deborah, and Sam. They 4 {{gap_4}} live in the same city I live in; well, actually, I could say they are almost my neighbours because 5 {{gap_5}} of them lives very far from me. This is great because I know I can count on 6 {{gap_6}} of them if I have a problem. We never have 7 {{gap_7}} arguments, and we have 8 {{gap_8}} secrets. We tell each other everything. We see each other almost 9 {{gap_9}} day, and my son adores them. He would spend 10 {{gap_10}} day with them if he could.",
+      "adapted_text": "I enjoy working at my company. I stay connected with 1 {{gap_1}} my former coworkers, nearly all of them. 2 {{gap_2}} them work remotely now, apart from one colleague, but 3 {{gap_3}} of them commute daily; I am the single exception. My favorite teammates are Leo and Maya. They 4 {{gap_4}} work in the tech division; in fact, 5 {{gap_5}} of them lives far from the main office. I can always reach out to 6 {{gap_6}} of them whenever I need assistance. We rarely face 7 {{gap_7}} conflicts, and there are 8 {{gap_8}} disagreements between us. We talk almost 9 {{gap_9}} morning, and my manager appreciates our teamwork. She would spend 10 {{gap_10}} day collaborating with us if possible.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['of them lives', 'would spend 10'] with elevated similarity (Jaccard=0.2374, Lev=0.3396)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "most",
+        "Most of",
+        "none",
+        "both",
+        "neither",
+        "either",
+        "any",
+        "no",
+        "every",
+        "all"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "4881",
+      "review_index": 3647,
+      "level": "B1-B2",
+      "exercise_id": "quiz-571",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Review of all upper-intermediate verb tenses (CEFR B2.1)",
+      "response_model": "gap",
+      "source_text": "9 A: \"I'm cold. {{gap_1}} (you/turn on) the heating, please?\" B: \"Yes. I {{gap_2}} (do) it immediately.\"",
+      "adapted_text": "A: \"It is getting very dark in here. {{gap_1}} (you/turn on) the lights, please?\" B: \"Sure, I {{gap_2}} (do) that right now.\"",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['turn on the', 'you turn on'] with elevated similarity (Jaccard=0.3333, Lev=0.4222)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Will you turn on",
+        "will do"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "307",
+      "review_index": 3771,
+      "level": "B1-B2",
+      "exercise_id": "quiz-41",
+      "exercise_title": "Exercise 2",
+      "grammar_target": "Would and used to: Past habits and repeated actions",
+      "response_model": "gap",
+      "source_text": "When I was a child we 1 {{gap_1}} (live) in a cabin in the mountains. Back then, we 2 {{gap_2}} (not have) much money; that’s why we 3 {{gap_3}} (have) vegetables and chickens in our back garden. Every day we 4 {{gap_4}} (get up) very early and my father 5 {{gap_5}} (take) some eggs for breakfast. The weather in summer 6 {{gap_6}} (be) really nice. There was a lake near the house, and we 7 {{gap_7}} (go) there to have a swim every morning. Later, in the afternoon, my brothers and I 8 {{gap_8}} (go) fishing, and in the evening, my mother 9 {{gap_9}} (cook) whatever we had caught. It was fantastic! Winters 10 {{gap_10}} (be) rather cold. Every morning I 11 {{gap_11}} (go) to the woods to look for firewood; there 12 {{gap_12}} (be) a little fireplace in the house to keep us warm. In the evenings, my father 13 {{gap_13}} (tell) us incredible stories next to that fireplace, and we 14 {{gap_14}} (listen), full of admiration. We were poor, but we 15 {{gap_15}} (be) happy.",
+      "adapted_text": "Years ago, my family {{gap_1}} (live) in a small coastal town. In those days, we {{gap_2}} (not have) internet access; therefore, we {{gap_3}} (have) board games and books for entertainment. At dawn, my sister and I {{gap_4}} (get up) before sunrise, and our grandfather {{gap_5}} (take) us down to the shore. The ocean climate {{gap_6}} (be) remarkably mild. Since the beach was nearby, we {{gap_7}} (go) jogging along the coastline. After lunch, we {{gap_8}} (go) sailing, and at dusk, grandmother {{gap_9}} (cook) fresh seafood meals. The atmosphere {{gap_10}} (be) quite soothing. Each morning, I {{gap_11}} (go) to the harbor to watch the boats; there {{gap_12}} (be) a cozy seaside cafe that served warm tea. During dark nights, grandfather {{gap_13}} (tell) folklore legends, while we {{gap_14}} (listen) attentively. Our lifestyle was simple, yet everyone {{gap_15}} (be) content.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['go to the', 'live in a'] with elevated similarity (Jaccard=0.1617, Lev=0.3642)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "used to live",
+        "didn't use to have",
+        "used to have",
+        "would get up",
+        "would take",
+        "used to be",
+        "would go",
+        "would go",
+        "would cook",
+        "used to be",
+        "would go",
+        "used to be",
+        "would tell",
+        "would listen",
+        "used to be"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "1955",
+      "review_index": 2741,
+      "level": "B1",
+      "exercise_id": "quiz-234",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "First and second conditionals",
+      "response_model": "gap",
+      "source_text": "TERRY: Hey, RAY. If you 1 {{gap_1}} (have) time, can you go and pick up Bridget at the station? If she takes the 4 o'clock train, as she said, she 2 {{gap_2}} (arrive) at 5.15. RAY: I 3 {{gap_3}} (pick) her up if I could, but I have a meeting at 4.30. TERRY: Can't you postpone it? You are the boss after all. RAY: Yes, but I'm meeting some important clients, and it wouldn't look serious if a few hours before the meeting I 4 {{gap_4}} (tell) them that I have to put it off. And the meeting is important. I'll make quite a lot of money if everything 5 {{gap_5}} (go) well. Why don't you pick her up? TERRY: I would pick her up if my car 6 {{gap_6}} (not be) at the garage. It's been there for days, and unless there's a miracle, they 7 {{gap_7}} (not repair) it today. Something is broken and they won't be able to fix it until they 8 {{gap_8}} (find) the spare part they need. RAY: That's unlucky. Well, do you think Bridget 9 {{gap_9}} (get) angry if nobody goes to the station to pick her up? TERRY: Well, if it were me, I 10 {{gap_10}} (not get) angry.",
+      "adapted_text": "LEO: Hello Mark. Provided you {{gap_1}} spare moments, could you collect Sarah's parcel? If the train departs promptly, her transport {{gap_2}} shortly. MARK: I {{gap_3}} up the parcel willingly, but another appointment is scheduled. LEO: Can you shift the timing? MARK: A postponement sounds awkward if I {{gap_4}} our director about rescheduling. The venture succeeds provided each detail {{gap_5}} smoothly. Why not collect it yourself? LEO: I {{gap_3}} up the delivery if the scooter {{gap_6}} damaged. The mechanic {{gap_7}} the engine today without replacement parts; work stalls until staff {{gap_8}} the correct bolt. MARK: How regrettable. Are you worried that Sarah {{gap_9}} irritated? LEO: In her position, I {{gap_10}} upset.",
+      "anomaly_reasons": [
+        "Gap placeholder numbers in text [1, 2, 3, 3, 4, 5, 6, 7, 8, 9, 10] mismatch DB gaps [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "have",
+        "will arrive",
+        "would pick",
+        "told",
+        "goes",
+        "wasn't",
+        "won't repair",
+        "find",
+        "will get",
+        "wouldn't get"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "2085",
+      "review_index": 2862,
+      "level": "B1",
+      "exercise_id": "quiz-247",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Much, many, a lot, little, few, some, any, no: Quantifiers",
+      "response_model": "gap",
+      "source_text": "much many lot few little any no A: How 1 {{gap_1}} friends do you have on Facebook? B: I have a 2 {{gap_2}}; maybe one thousand. But from all those Facebook friends, very 3 {{gap_3}} are my real friends. And you? A: Well, I have 4 {{gap_4}} time for social networks because I'm always working. So I don't have 5 {{gap_5}} friends at all. B: I don't have 6 {{gap_6}} time now either, because I work long hours too, but I think I'm addicted to Facebook. A: Come on, man! If you spend the little time you have on Facebook, you should really go to therapy. lots plenty of little few A: I have 7 {{gap_7}} homework to do and very 8 {{gap_8}} time to do it. B: What kind of homework do you have? A: Trigonometry. B: Don't worry. I have 9 {{gap_9}} of experience in maths and science, and I have a 10 {{gap_10}} hours to spare this afternoon. Would you like me to help you?",
+      "adapted_text": "much many lot few little any no X: How {{gap_1}} books are in your collection? Y: I own a {{gap_2}}; around five hundred. However, among those novels, very {{gap_3}} are true classics. How about you? X: Well, I possess {{gap_4}} interest in literature since I prefer cinema. Thus I don't read {{gap_5}} novels nowadays. Y: I do not spend {{gap_6}} attention on reading either because of my busy career. lots plenty little few X: We have {{gap_7}} tasks left today and extremely {{gap_8}} energy remaining. Y: What project are you managing? X: Accounting. Y: Relax! I possess {{gap_9}} of skill with numbers, plus I have a {{gap_10}} minutes available right now. Shall we collaborate?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['few little any', 'i have a'] with elevated similarity (Jaccard=0.2222, Lev=0.3606)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "many",
+        "lot",
+        "few",
+        "no",
+        "any",
+        "much",
+        "lots of",
+        "little",
+        "plenty",
+        "few"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "1832",
+      "review_index": 2620,
+      "level": "B1",
+      "exercise_id": "quiz-218",
+      "exercise_title": "Exercise 4",
+      "grammar_target": "Passive verb forms",
+      "response_model": "gap",
+      "source_text": "4 They are going to clean the room today. ⇒ The room {{gap_1}} today.",
+      "adapted_text": "The staff are going to clean the main hall before noon. ⇒ The main hall {{gap_1}} before noon.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['are going to', 'going to clean'] with elevated similarity (Jaccard=0.3846, Lev=0.4625)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "is going to be cleaned"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "2197",
+      "review_index": 3033,
+      "level": "B1",
+      "exercise_id": "quiz-256",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Question tags: Aren't you? don't you?",
+      "response_model": "gap",
+      "source_text": "Dialogue 1 A: You haven't washed the dishes, 1 {{gap_1}}? B: No, sorry. I didn't have time. And you are angry now, 2 {{gap_2}}? A: Well, if you promise you will do something, you should do it, 3 {{gap_3}}? B: Yes, yes, OK, mum! You want me to wash them now, 4 {{gap_4}}? A: Of course I want you to wash them now, because you won't pay me to wash them for you, 5 {{gap_5}}? Dialogue 2 A: You went to Denali National Park last month, 6 {{gap_6}}? B: Yes, it was great! A: But you had been there before, 7 {{gap_7}}? B: Yes, but when you really loved a place the first time you went, it's always nice to go back, 8 {{gap_8}}? A: Of course. I'm sure the views are amazing. B: Yes, they're great. You have never been there, 9 {{gap_9}}? A: No, it's a shame. I suppose I should go one day, 10 {{gap_10}}?",
+      "adapted_text": "Dialogue 1 A: You haven't finished the report, 1 {{gap_1}}? B: Apologies, I ran out of time. You are upset with me, 2 {{gap_2}}? A: If you make a commitment, you should keep it, 3 {{gap_3}}? B: Fine, boss! You need me to complete it immediately, 4 {{gap_4}}? A: Naturally, since you won't work late without overtime pay, 5 {{gap_5}}? Dialogue 2 A: You visited Tokyo last winter, 6 {{gap_6}}? B: Yes, it was amazing! A: But you had visited Japan previously, 7 {{gap_7}}? B: True, but when a city is fantastic, returning is wonderful, 8 {{gap_8}}? A: Definitely. I imagine the city lights are breathtaking. B: Absolutely. You have never traveled there, 9 {{gap_9}}? A: Sadly no. I think I should plan a trip soon, 10 {{gap_10}}?",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['but you had', 'yes it was'] with elevated similarity (Jaccard=0.2984, Lev=0.4218)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "have you",
+        "aren't you",
+        "shouldn't you",
+        "don't you",
+        "will you",
+        "didn't you",
+        "hadn't you",
+        "isn't it",
+        "have you",
+        "shouldn't I"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "2006",
+      "review_index": 2786,
+      "level": "B1",
+      "exercise_id": "quiz-239",
+      "exercise_title": "Exercise 2",
+      "grammar_target": "Indirect speech / Reported speech",
+      "response_model": "single_choice",
+      "source_text": "5 'Where did you eat?' ⇒ Sam asked me ______.",
+      "adapted_text": "'Where did you park?' ⇒ Lucy asked me _____",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (0.5556) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['where did you'] with elevated similarity (Jaccard=0.5556, Lev=0.7812)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "where I had eaten"
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "where I had eaten",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "where had I eaten",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "where did I eat",
+          "is_correct": 0
+        }
+      ],
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "2017",
+      "review_index": 2797,
+      "level": "B1",
+      "exercise_id": "quiz-240",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Indirect speech / Reported speech",
+      "response_model": "gap",
+      "source_text": "6 'I think Jack will do something stupid' ⇒ Suzan said (that) {{gap_1}} something stupid.",
+      "adapted_text": "'I think Jack will do the work alone,' Clara said. ⇒ Clara mentioned {{gap_1}} the work alone.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['i think jack', 'jack will do'] with elevated similarity (Jaccard=0.4000, Lev=0.4286)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "she thought Jack would do"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "2020",
+      "review_index": 2798,
+      "level": "B1",
+      "exercise_id": "quiz-240",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Indirect speech / Reported speech",
+      "response_model": "gap",
+      "source_text": "7 'You must tell Ted that I will be there.' ⇒ Sara said that I {{gap_1}}.",
+      "adapted_text": "\"You are obliged to tell Ted that I will attend the meeting,\" mentioned Rachel. ⇒ Rachel mentioned that I {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['ted that i', 'tell ted that'] with elevated similarity (Jaccard=0.3158, Lev=0.4747)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "had to tell Ted that she would be there"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "7820",
+      "review_index": 3331,
+      "level": "B1",
+      "exercise_id": "quiz-923",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Would rather & Would sooner",
+      "response_model": "gap",
+      "source_text": "8 Would you like me to help you? Thanks, but I'd {{gap_1}} (rather/you/not)",
+      "adapted_text": "Do you mind if I drive your car today? I'd {{gap_1}} (rather/you/not).",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['rather you not'] with elevated similarity (Jaccard=0.2105, Lev=0.5667)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "rather you didn't"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "1263",
+      "review_index": 4920,
+      "level": "B2",
+      "exercise_id": "quiz-152",
+      "exercise_title": "Exercise 4",
+      "grammar_target": "Ellipsis and substitution: Omitting or replacing words",
+      "response_model": "gap",
+      "source_text": "1 He should go to the doctor, but he doesn't want to [...]. ⇒ {{gap_1}}",
+      "adapted_text": "They advised Sam to go to the doctor, but she refused to {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['go to the', 'the doctor but'] with elevated similarity (Jaccard=0.3571, Lev=0.4545)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "go to the doctor"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "1194",
+      "review_index": 4821,
+      "level": "B2",
+      "exercise_id": "quiz-137",
+      "exercise_title": "Exercise 4",
+      "grammar_target": "Future forms: Expressing future time",
+      "response_model": "gap",
+      "source_text": "2 {{gap_1}} (we/go) to the concert tonight? It could be fun!",
+      "adapted_text": "{{gap_1}} (we/go) to the museum tomorrow? It might be interesting.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['go to the', 'we go to'] with elevated similarity (Jaccard=0.4286, Lev=0.5000)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Shall we go"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "6221",
+      "review_index": 5079,
+      "level": "B2",
+      "exercise_id": "quiz-725",
+      "exercise_title": "Exercise 1",
+      "grammar_target": "Passive verbs with two objects",
+      "response_model": "gap",
+      "source_text": "10 The police showed two photos to the suspect. ⇒ The suspect {{gap_1}}.",
+      "adapted_text": "During the interview, the curator presented two photos to the journalist. ⇒ The journalist {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['photos to the', 'two photos to'] with elevated similarity (Jaccard=0.3333, Lev=0.4419)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "was shown two photos"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "6254",
+      "review_index": 5093,
+      "level": "B2",
+      "exercise_id": "quiz-726",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Passive verbs with two objects",
+      "response_model": "gap",
+      "source_text": "4 They have given the job to me. ⇒ The job {{gap_1}}.",
+      "adapted_text": "Management have given the project to me. ⇒ The project {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: Jaccard token similarity (0.5556) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['have given the', 'to me the'] with elevated similarity (Jaccard=0.5556, Lev=0.5882)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "has been given to me"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "1403",
+      "review_index": 5038,
+      "level": "B2",
+      "exercise_id": "quiz-160",
+      "exercise_title": "Exercise 4",
+      "grammar_target": "Relative clauses: Defining and non-defining",
+      "response_model": "gap",
+      "source_text": "9 They have appointed two new directors. Neither of them has any experience. (whom) They have appointed two new directors, {{gap_1}}.",
+      "adapted_text": "The firm hired two senior consultants. Neither of them has any experience. (whom) The firm hired two senior consultants, {{gap_1}}.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['any experience whom', 'has any experience'] with elevated similarity (Jaccard=0.4444, Lev=0.5726)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "neither of whom has any experience"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "1407",
+      "review_index": 5039,
+      "level": "B2",
+      "exercise_id": "quiz-160",
+      "exercise_title": "Exercise 4",
+      "grammar_target": "Relative clauses: Defining and non-defining",
+      "response_model": "gap",
+      "source_text": "10 The buildings are badly damaged. All of them have been hit by the storm. (which) The buildings, {{gap_1}}, are badly damaged.",
+      "adapted_text": "The ancient artifacts require extensive restoration. All of them have been hit by the storm. (which) The old relics, {{gap_1}}, are undergoing preservation.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['all of them', 'been hit by'] with elevated similarity (Jaccard=0.4783, Lev=0.5248)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "all of which have been hit by the storm"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "1013",
+      "review_index": 4627,
+      "level": "B2",
+      "exercise_id": "quiz-121",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Verb + object + infinitive/gerund: Verb patterns",
+      "response_model": "gap",
+      "source_text": "When I was a young teenager, my parents were the worst, or that's what I used to think. For a start, they didn't allow 1 {{gap_1}} (me/go out) with my friends. However much I always begged 2 {{gap_2}} (them/let) me go out, they would always force 3 {{gap_3}} (me/stay) home. As a teenager, I remember thinking that they just didn't want 4 {{gap_4}} (me/have) fun. It wasn't just that I wasn't allowed to hang out with my friends, but they were always telling me to help 5 {{gap_5}} (them/do) all sorts of things around the house: washing dishes, mopping floors, dusting my room, you name it. I remember how much I used to think I hated them at the time. I often imagined 6 {{gap_6}} (them/have) an accident, or a very nasty event that involved 7 {{gap_7}} (them/get) hurt. At the time, my utter selfishness didn't let me see that my parents just intended 8 {{gap_8}} (me/turn) out right. They didn't want 9 {{gap_9}} (their son/be) a loser, and they did everything they could to achieve that. Now I have a teenage son myself, and I have to admit that I'm doing to him everything I hated 10 {{gap_10}} (my parents/do) to me.",
+      "adapted_text": "During my early years at the software firm, the senior directors seemed overly strict. Initially, they refused to permit {{gap_1}} (me/go out) to industry networking events. No matter how frequently I requested {{gap_2}} (them/let) me participate, the managers compelled {{gap_3}} (me/stay) in the office working late. Back then, I believed they simply did not wish {{gap_4}} (me/have) any social professional life. Furthermore, they kept instructing me to assist {{gap_5}} (them/do) mundane administrative tasks like organizing archives and filing reports. I recall dreaming about {{gap_6}} (them/having) major setbacks at work or facing situations that required {{gap_7}} (them/getting) reprimanded by executive board members. In hindsight, my vanity blinded me to the fact that leadership intended {{gap_8}} (me/turn) into a dependable professional. They did not want {{gap_9}} (their son/be) unprepared for corporate challenges. Today, managing my own junior developers, I catch myself repeating the exact behaviors I disliked {{gap_10}} (my parents/do) back in those early days.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['me go out', 'my parents do'] with elevated similarity (Jaccard=0.1450, Lev=0.2980)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "me to go out",
+        "them to let",
+        "me to stay",
+        "me to have",
+        "them do",
+        "them having",
+        "them getting",
+        "me to turn",
+        "their son to be",
+        "my parents doing"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "13585",
+      "review_index": 5426,
+      "level": "C1",
+      "exercise_id": "quiz-1592",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Advanced participle clauses",
+      "response_model": "gap",
+      "source_text": "1 Because Maya knew the route well, she offered to guide the group. {{gap_1}}, Maya offered to guide the group.",
+      "adapted_text": "Since the pilot was experienced and knew the route well, he avoided the storm. {{gap_1}}, he reached the airport safely.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['knew the route', 'the route well'] with elevated similarity (Jaccard=0.1818, Lev=0.3113)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Knowing the route well"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "13586",
+      "review_index": 5427,
+      "level": "C1",
+      "exercise_id": "quiz-1592",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Advanced participle clauses",
+      "response_model": "gap",
+      "source_text": "2 Because the building was damaged in the storm, it remained closed for several weeks. {{gap_1}}, the building remained closed for several weeks.",
+      "adapted_text": "Since the coastal road was damaged in the storm, drivers were forced to take a lengthy detour. {{gap_1}}, drivers were forced to take a lengthy detour.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) ['damaged in the', 'in the storm'] with elevated similarity (Jaccard=0.2083, Lev=0.4015)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "Damaged in the storm"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "qid": "13655",
+      "review_index": 5459,
+      "level": "C1",
+      "exercise_id": "quiz-1600",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Advanced word order",
+      "response_model": "gap",
+      "source_text": "4 Dr Patel first raised the concern during Monday's briefing. It {{gap_1}} Dr Patel first raised the concern.",
+      "adapted_text": "Professor Vance initially introduced the proposal during Monday's briefing. It {{gap_1}} Professor Vance initially introduced the proposal.",
+      "anomaly_reasons": [
+        "Originality REJECTED: High-confidence shallow copy: verbatim shingle(s) [\"during monday's briefing\", \"monday's briefing it\"] with elevated similarity (Jaccard=0.3333, Lev=0.4603)."
+      ],
+      "category": "SYNTACTIC_OR_STRUCTURAL_ANOMALY",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "was during Monday's briefing that"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "qid": "1301",
+      "review_index": 4958,
+      "level": "B2",
+      "exercise_id": "quiz-151",
+      "exercise_title": "Exercise 3",
+      "grammar_target": "Compound nouns and possessive forms",
+      "response_model": "gap",
+      "source_text": "9 Do you know the man in the black suit's name? {{gap_1}}",
+      "adapted_text": "Could you tell me {{gap_1}}?",
+      "anomaly_reasons": [
+        "Identical adapted text shared with QID(s): 53, 56"
+      ],
+      "category": "CARRIER_COLLISION",
+      "teacher_review_status": "UNREVIEWED",
+      "adapted_correct_answer": [
+        "the name of the man in the black suit"
+      ],
+      "adapted_options": null,
+      "review_status": "REVIEWED_PASS"
+    }
+  ]
+}

@@ -1,0 +1,3750 @@
+{
+  "source_provider": "test-english",
+  "base_url": "https://test-english.com",
+  "discovered_at": "2026-09-30T09:30:51.251565+00:00",
+  "stats": {
+    "total_levels": 7,
+    "total_topics": 225,
+    "total_exercises": 239,
+    "topics_complete": 6,
+    "topics_partial": 219,
+    "topics_with_pagination": 6,
+    "topics_single_page_fallback": 219,
+    "network_errors": 219
+  },
+  "levels": [
+    {
+      "level_id": "a1",
+      "title": "A1 Elementary",
+      "url": "https://test-english.com/grammar-points/a1/",
+      "topic_count": 36,
+      "exercise_count": 50,
+      "topics": [
+        {
+          "topic_id": "present-simple-forms-of-to-be",
+          "level": "A1",
+          "order": 1,
+          "title": "Present simple forms of 'to be': am/is/are",
+          "url": "https://test-english.com/grammar-points/a1/present-simple-forms-of-to-be/",
+          "discovery_status": "complete",
+          "exercise_count": 4,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/present-simple-forms-of-to-be/"
+            },
+            {
+              "order": 2,
+              "page": 2,
+              "url": "https://test-english.com/grammar-points/a1/present-simple-forms-of-to-be/2/"
+            },
+            {
+              "order": 3,
+              "page": 3,
+              "url": "https://test-english.com/grammar-points/a1/present-simple-forms-of-to-be/3/"
+            },
+            {
+              "order": 4,
+              "page": 4,
+              "url": "https://test-english.com/grammar-points/a1/present-simple-forms-of-to-be/4/"
+            }
+          ]
+        },
+        {
+          "topic_id": "this-that-these-those",
+          "level": "A1",
+          "order": 2,
+          "title": "This, that, these, those",
+          "url": "https://test-english.com/grammar-points/a1/this-that-these-those/",
+          "discovery_status": "complete",
+          "exercise_count": 3,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/this-that-these-those/"
+            },
+            {
+              "order": 2,
+              "page": 2,
+              "url": "https://test-english.com/grammar-points/a1/this-that-these-those/2/"
+            },
+            {
+              "order": 3,
+              "page": 3,
+              "url": "https://test-english.com/grammar-points/a1/this-that-these-those/3/"
+            }
+          ]
+        },
+        {
+          "topic_id": "possessive-adjectives",
+          "level": "A1",
+          "order": 3,
+          "title": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+          "url": "https://test-english.com/grammar-points/a1/possessive-adjectives/",
+          "discovery_status": "complete",
+          "exercise_count": 3,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/possessive-adjectives/"
+            },
+            {
+              "order": 2,
+              "page": 2,
+              "url": "https://test-english.com/grammar-points/a1/possessive-adjectives/2/"
+            },
+            {
+              "order": 3,
+              "page": 3,
+              "url": "https://test-english.com/grammar-points/a1/possessive-adjectives/3/"
+            }
+          ]
+        },
+        {
+          "topic_id": "a-an-plurals",
+          "level": "A1",
+          "order": 4,
+          "title": "A/an, plurals: Singular and plural forms",
+          "url": "https://test-english.com/grammar-points/a1/a-an-plurals/",
+          "discovery_status": "complete",
+          "exercise_count": 3,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/a-an-plurals/"
+            },
+            {
+              "order": 2,
+              "page": 2,
+              "url": "https://test-english.com/grammar-points/a1/a-an-plurals/2/"
+            },
+            {
+              "order": 3,
+              "page": 3,
+              "url": "https://test-english.com/grammar-points/a1/a-an-plurals/3/"
+            }
+          ]
+        },
+        {
+          "topic_id": "adjectives",
+          "level": "A1",
+          "order": 5,
+          "title": "Adjectives: Old, interesting, expensive, etc.",
+          "url": "https://test-english.com/grammar-points/a1/adjectives/",
+          "discovery_status": "complete",
+          "exercise_count": 3,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/adjectives/"
+            },
+            {
+              "order": 2,
+              "page": 2,
+              "url": "https://test-english.com/grammar-points/a1/adjectives/2/"
+            },
+            {
+              "order": 3,
+              "page": 3,
+              "url": "https://test-english.com/grammar-points/a1/adjectives/3/"
+            }
+          ]
+        },
+        {
+          "topic_id": "present-simple",
+          "level": "A1",
+          "order": 6,
+          "title": "Present simple: I do, I don't, Do I?",
+          "url": "https://test-english.com/grammar-points/a1/present-simple/",
+          "discovery_status": "complete",
+          "exercise_count": 4,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/present-simple/"
+            },
+            {
+              "order": 2,
+              "page": 2,
+              "url": "https://test-english.com/grammar-points/a1/present-simple/2/"
+            },
+            {
+              "order": 3,
+              "page": 3,
+              "url": "https://test-english.com/grammar-points/a1/present-simple/3/"
+            },
+            {
+              "order": 4,
+              "page": 4,
+              "url": "https://test-english.com/grammar-points/a1/present-simple/4/"
+            }
+          ]
+        },
+        {
+          "topic_id": "questions",
+          "level": "A1",
+          "order": 7,
+          "title": "Questions: Word order and question words",
+          "url": "https://test-english.com/grammar-points/a1/questions/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/questions/"
+            }
+          ]
+        },
+        {
+          "topic_id": "adverbs-frequency",
+          "level": "A1",
+          "order": 8,
+          "title": "Adverbs of frequency with present simple",
+          "url": "https://test-english.com/grammar-points/a1/adverbs-frequency/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/adverbs-frequency/"
+            }
+          ]
+        },
+        {
+          "topic_id": "object-pronouns",
+          "level": "A1",
+          "order": 9,
+          "title": "Object pronouns vs subject pronouns: Me or I, she or her?",
+          "url": "https://test-english.com/grammar-points/a1/object-pronouns/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/object-pronouns/"
+            }
+          ]
+        },
+        {
+          "topic_id": "whose-possessive-s",
+          "level": "A1",
+          "order": 10,
+          "title": "Whose, possessive 's: Whose is this? It's Mike's",
+          "url": "https://test-english.com/grammar-points/a1/whose-possessive-s/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/whose-possessive-s/"
+            }
+          ]
+        },
+        {
+          "topic_id": "at-in-on-prepositions-time",
+          "level": "A1",
+          "order": 11,
+          "title": "At, in, on: Prepositions of time",
+          "url": "https://test-english.com/grammar-points/a1/at-in-on-prepositions-time/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/at-in-on-prepositions-time/"
+            }
+          ]
+        },
+        {
+          "topic_id": "at-in-on-prepositions-of-place",
+          "level": "A1",
+          "order": 12,
+          "title": "At, in, on: Prepositions of place",
+          "url": "https://test-english.com/grammar-points/a1/at-in-on-prepositions-of-place/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/at-in-on-prepositions-of-place/"
+            }
+          ]
+        },
+        {
+          "topic_id": "can-cant",
+          "level": "A1",
+          "order": 13,
+          "title": "Can, can't: Ability, possibility, permission",
+          "url": "https://test-english.com/grammar-points/a1/can-cant/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/can-cant/"
+            }
+          ]
+        },
+        {
+          "topic_id": "present-continuous",
+          "level": "A1",
+          "order": 14,
+          "title": "Present continuous: I'm doing, I'm not doing, Are you doing?",
+          "url": "https://test-english.com/grammar-points/a1/present-continuous/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/present-continuous/"
+            }
+          ]
+        },
+        {
+          "topic_id": "present-simple-present-continuous",
+          "level": "A1",
+          "order": 15,
+          "title": "Present simple or present continuous?",
+          "url": "https://test-english.com/grammar-points/a1/present-simple-present-continuous/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/present-simple-present-continuous/"
+            }
+          ]
+        },
+        {
+          "topic_id": "imperative-sit-dont-talk",
+          "level": "A1",
+          "order": 16,
+          "title": "The imperative: Sit down! Don’t talk!",
+          "url": "https://test-english.com/grammar-points/a1/imperative-sit-dont-talk/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/imperative-sit-dont-talk/"
+            }
+          ]
+        },
+        {
+          "topic_id": "was-were",
+          "level": "A1",
+          "order": 17,
+          "title": "Was/were: Past simple of 'be'",
+          "url": "https://test-english.com/grammar-points/a1/was-were/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/was-were/"
+            }
+          ]
+        },
+        {
+          "topic_id": "past-simple-regular-irregular",
+          "level": "A1",
+          "order": 18,
+          "title": "Past simple: Regular/irregular verbs",
+          "url": "https://test-english.com/grammar-points/a1/past-simple-regular-irregular/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/past-simple-regular-irregular/"
+            }
+          ]
+        },
+        {
+          "topic_id": "past-simple-negatives-questions",
+          "level": "A1",
+          "order": 19,
+          "title": "Past simple: Negatives and questions",
+          "url": "https://test-english.com/grammar-points/a1/past-simple-negatives-questions/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/past-simple-negatives-questions/"
+            }
+          ]
+        },
+        {
+          "topic_id": "verbs-infinitive-verbs-ing",
+          "level": "A1",
+          "order": 20,
+          "title": "Verbs + to + infinitive and verbs + -ing",
+          "url": "https://test-english.com/grammar-points/a1/verbs-infinitive-verbs-ing/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/verbs-infinitive-verbs-ing/"
+            }
+          ]
+        },
+        {
+          "topic_id": "would-like",
+          "level": "A1",
+          "order": 21,
+          "title": "Would you like...? I'd like...",
+          "url": "https://test-english.com/grammar-points/a1/would-like/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/would-like/"
+            }
+          ]
+        },
+        {
+          "topic_id": "have-got",
+          "level": "A1",
+          "order": 22,
+          "title": "Have got",
+          "url": "https://test-english.com/grammar-points/a1/have-got/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/have-got/"
+            }
+          ]
+        },
+        {
+          "topic_id": "a-some-any-countable-uncountable",
+          "level": "A1",
+          "order": 23,
+          "title": "A, some, any: Countable and uncountable nouns",
+          "url": "https://test-english.com/grammar-points/a1/a-some-any-countable-uncountable/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/a-some-any-countable-uncountable/"
+            }
+          ]
+        },
+        {
+          "topic_id": "there-is-there-are",
+          "level": "A1",
+          "order": 24,
+          "title": "There is, there are / there was, there were",
+          "url": "https://test-english.com/grammar-points/a1/there-is-there-are/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/there-is-there-are/"
+            }
+          ]
+        },
+        {
+          "topic_id": "there-it",
+          "level": "A1",
+          "order": 25,
+          "title": "There or It",
+          "url": "https://test-english.com/grammar-points/a1/there-it/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/there-it/"
+            }
+          ]
+        },
+        {
+          "topic_id": "next-to-under-between-in-front-behind-etc",
+          "level": "A1",
+          "order": 26,
+          "title": "Next to, under, between, in front of, behind, over, etc.",
+          "url": "https://test-english.com/grammar-points/a1/next-to-under-between-in-front-behind-etc/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/next-to-under-between-in-front-behind-etc/"
+            }
+          ]
+        },
+        {
+          "topic_id": "much-many-lot-little-few",
+          "level": "A1",
+          "order": 27,
+          "title": "Much, many, a lot of, a little, a few",
+          "url": "https://test-english.com/grammar-points/a1/much-many-lot-little-few/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/much-many-lot-little-few/"
+            }
+          ]
+        },
+        {
+          "topic_id": "comparative-adjectives",
+          "level": "A1",
+          "order": 28,
+          "title": "Comparative adjectives: Older than, more important than, etc.",
+          "url": "https://test-english.com/grammar-points/a1/comparative-adjectives/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/comparative-adjectives/"
+            }
+          ]
+        },
+        {
+          "topic_id": "superlative-adjectives",
+          "level": "A1",
+          "order": 29,
+          "title": "Superlative adjectives: The oldest, the most important, etc.",
+          "url": "https://test-english.com/grammar-points/a1/superlative-adjectives/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/superlative-adjectives/"
+            }
+          ]
+        },
+        {
+          "topic_id": "will-and-shall",
+          "level": "A1",
+          "order": 30,
+          "title": "'Will' and 'shall': Future",
+          "url": "https://test-english.com/grammar-points/a1/will-and-shall/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/will-and-shall/"
+            }
+          ]
+        },
+        {
+          "topic_id": "be-going-to-plans-predictions",
+          "level": "A1",
+          "order": 31,
+          "title": "Be going to: Plans and predictions",
+          "url": "https://test-english.com/grammar-points/a1/be-going-to-plans-predictions/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/be-going-to-plans-predictions/"
+            }
+          ]
+        },
+        {
+          "topic_id": "adverbs-manner",
+          "level": "A1",
+          "order": 32,
+          "title": "Adverbs of manner (slowly) or adjectives (slow)?",
+          "url": "https://test-english.com/grammar-points/a1/adverbs-manner/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/adverbs-manner/"
+            }
+          ]
+        },
+        {
+          "topic_id": "a-an-the-no-article",
+          "level": "A1",
+          "order": 33,
+          "title": "A/an, the, no article: The use of articles in English",
+          "url": "https://test-english.com/grammar-points/a1/a-an-the-no-article/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/a-an-the-no-article/"
+            }
+          ]
+        },
+        {
+          "topic_id": "conjunctions_and-but-or-so-because",
+          "level": "A1",
+          "order": 34,
+          "title": "Conjunctions: And, but, or, so, because",
+          "url": "https://test-english.com/grammar-points/a1/conjunctions_and-but-or-so-because/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/conjunctions_and-but-or-so-because/"
+            }
+          ]
+        },
+        {
+          "topic_id": "basic-word-order-in-english",
+          "level": "A1",
+          "order": 35,
+          "title": "Basic word order in English",
+          "url": "https://test-english.com/grammar-points/a1/basic-word-order-in-english/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/basic-word-order-in-english/"
+            }
+          ]
+        },
+        {
+          "topic_id": "the-difference-between-this-and-it",
+          "level": "A1",
+          "order": 36,
+          "title": "The difference between 'this' and 'it'",
+          "url": "https://test-english.com/grammar-points/a1/the-difference-between-this-and-it/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a1/the-difference-between-this-and-it/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level_id": "a2",
+      "title": "A2 Pre-intermediate",
+      "url": "https://test-english.com/grammar-points/a2/",
+      "topic_count": 41,
+      "exercise_count": 41,
+      "topics": [
+        {
+          "topic_id": "asking-questions-in-english",
+          "level": "A2",
+          "order": 1,
+          "title": "Asking questions in English: Question forms",
+          "url": "https://test-english.com/grammar-points/a2/asking-questions-in-english/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/asking-questions-in-english/"
+            }
+          ]
+        },
+        {
+          "topic_id": "subject-questions-questions-preposition",
+          "level": "A2",
+          "order": 2,
+          "title": "Subject questions, questions with preposition",
+          "url": "https://test-english.com/grammar-points/a2/subject-questions-questions-preposition/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/subject-questions-questions-preposition/"
+            }
+          ]
+        },
+        {
+          "topic_id": "present-simple-continuous",
+          "level": "A2",
+          "order": 3,
+          "title": "Present simple vs present continuous",
+          "url": "https://test-english.com/grammar-points/a2/present-simple-continuous/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/present-simple-continuous/"
+            }
+          ]
+        },
+        {
+          "topic_id": "past-simple-form-use",
+          "level": "A2",
+          "order": 4,
+          "title": "Past simple: Form and use",
+          "url": "https://test-english.com/grammar-points/a2/past-simple-form-use/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/past-simple-form-use/"
+            }
+          ]
+        },
+        {
+          "topic_id": "past-continuous-past-simple",
+          "level": "A2",
+          "order": 5,
+          "title": "Past continuous and past simple",
+          "url": "https://test-english.com/grammar-points/a2/past-continuous-past-simple/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/past-continuous-past-simple/"
+            }
+          ]
+        },
+        {
+          "topic_id": "purpose-to-for",
+          "level": "A2",
+          "order": 6,
+          "title": "Expressing purpose with 'to' and 'for'",
+          "url": "https://test-english.com/grammar-points/a2/purpose-to-for/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/purpose-to-for/"
+            }
+          ]
+        },
+        {
+          "topic_id": "however-although-time-connectors",
+          "level": "A2",
+          "order": 7,
+          "title": "However, although, because, so, and time connectors",
+          "url": "https://test-english.com/grammar-points/a2/however-although-time-connectors/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/however-although-time-connectors/"
+            }
+          ]
+        },
+        {
+          "topic_id": "will-vs-be-going-to",
+          "level": "A2",
+          "order": 8,
+          "title": "'Will' vs 'be going to': Future forms",
+          "url": "https://test-english.com/grammar-points/a2/will-vs-be-going-to/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/will-vs-be-going-to/"
+            }
+          ]
+        },
+        {
+          "topic_id": "present-continuous-future-arrangements",
+          "level": "A2",
+          "order": 9,
+          "title": "Present continuous for future arrangements",
+          "url": "https://test-english.com/grammar-points/a2/present-continuous-future-arrangements/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/present-continuous-future-arrangements/"
+            }
+          ]
+        },
+        {
+          "topic_id": "defining-relative-clauses-who-which-that-where",
+          "level": "A2",
+          "order": 10,
+          "title": "Defining relative clauses: Who, which, that, where",
+          "url": "https://test-english.com/grammar-points/a2/defining-relative-clauses-who-which-that-where/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/defining-relative-clauses-who-which-that-where/"
+            }
+          ]
+        },
+        {
+          "topic_id": "present-perfect",
+          "level": "A2",
+          "order": 11,
+          "title": "Present perfect: Form and use",
+          "url": "https://test-english.com/grammar-points/a2/present-perfect/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/present-perfect/"
+            }
+          ]
+        },
+        {
+          "topic_id": "present-perfect-or-past-simple",
+          "level": "A2",
+          "order": 12,
+          "title": "Present perfect or past simple?",
+          "url": "https://test-english.com/grammar-points/a2/present-perfect-or-past-simple/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/present-perfect-or-past-simple/"
+            }
+          ]
+        },
+        {
+          "topic_id": "something-anything-nothing-etc",
+          "level": "A2",
+          "order": 13,
+          "title": "Something, anything, nothing, etc.",
+          "url": "https://test-english.com/grammar-points/a2/something-anything-nothing-etc/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/something-anything-nothing-etc/"
+            }
+          ]
+        },
+        {
+          "topic_id": "comparative-superlative-adjectives-adverbs",
+          "level": "A2",
+          "order": 14,
+          "title": "Comparative and superlative adjectives and adverbs",
+          "url": "https://test-english.com/grammar-points/a2/comparative-superlative-adjectives-adverbs/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/comparative-superlative-adjectives-adverbs/"
+            }
+          ]
+        },
+        {
+          "topic_id": "too-too-much-too-many-enough",
+          "level": "A2",
+          "order": 15,
+          "title": "Too, too much, too many, enough",
+          "url": "https://test-english.com/grammar-points/a2/too-too-much-too-many-enough/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/too-too-much-too-many-enough/"
+            }
+          ]
+        },
+        {
+          "topic_id": "much-many-little-few-some-any",
+          "level": "A2",
+          "order": 16,
+          "title": "Much, many, little, few, some, any: Quantifiers",
+          "url": "https://test-english.com/grammar-points/a2/much-many-little-few-some-any/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/much-many-little-few-some-any/"
+            }
+          ]
+        },
+        {
+          "topic_id": "most-most-of-the-most",
+          "level": "A2",
+          "order": 17,
+          "title": "Most, most of, the most",
+          "url": "https://test-english.com/grammar-points/a2/most-most-of-the-most/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/most-most-of-the-most/"
+            }
+          ]
+        },
+        {
+          "topic_id": "infinitives-and-gerunds",
+          "level": "A2",
+          "order": 18,
+          "title": "Infinitives and gerunds: Verb patterns",
+          "url": "https://test-english.com/grammar-points/a2/infinitives-and-gerunds/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/infinitives-and-gerunds/"
+            }
+          ]
+        },
+        {
+          "topic_id": "use-verb-go-english",
+          "level": "A2",
+          "order": 19,
+          "title": "How to use the verb 'go' in English",
+          "url": "https://test-english.com/grammar-points/a2/use-verb-go-english/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/use-verb-go-english/"
+            }
+          ]
+        },
+        {
+          "topic_id": "have-to-dont-have-to-must-mustnt",
+          "level": "A2",
+          "order": 20,
+          "title": "Have to, don't have to, must, mustn't",
+          "url": "https://test-english.com/grammar-points/a2/have-to-dont-have-to-must-mustnt/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/have-to-dont-have-to-must-mustnt/"
+            }
+          ]
+        },
+        {
+          "topic_id": "should-shouldnt",
+          "level": "A2",
+          "order": 21,
+          "title": "Should, shouldn't",
+          "url": "https://test-english.com/grammar-points/a2/should-shouldnt/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/should-shouldnt/"
+            }
+          ]
+        },
+        {
+          "topic_id": "first-conditional-future-time-clauses",
+          "level": "A2",
+          "order": 22,
+          "title": "First conditional and future time clauses",
+          "url": "https://test-english.com/grammar-points/a2/first-conditional-future-time-clauses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/first-conditional-future-time-clauses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "subject-pronouns-object-pronouns-possessive-pronouns-possessive-adjectives",
+          "level": "A2",
+          "order": 23,
+          "title": "Subject and object pronouns, possessive pronouns and adjectives",
+          "url": "https://test-english.com/grammar-points/a2/subject-pronouns-object-pronouns-possessive-pronouns-possessive-adjectives/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/subject-pronouns-object-pronouns-possessive-pronouns-possessive-adjectives/"
+            }
+          ]
+        },
+        {
+          "topic_id": "second-conditional",
+          "level": "A2",
+          "order": 24,
+          "title": "Second conditional",
+          "url": "https://test-english.com/grammar-points/a2/second-conditional/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/second-conditional/"
+            }
+          ]
+        },
+        {
+          "topic_id": "present-past-simple-passive",
+          "level": "A2",
+          "order": 25,
+          "title": "Present and past simple passive: 'be' + past participle",
+          "url": "https://test-english.com/grammar-points/a2/present-past-simple-passive/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/present-past-simple-passive/"
+            }
+          ]
+        },
+        {
+          "topic_id": "used-to",
+          "level": "A2",
+          "order": 26,
+          "title": "Used to, didn't use to: Past habits and states",
+          "url": "https://test-english.com/grammar-points/a2/used-to/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/used-to/"
+            }
+          ]
+        },
+        {
+          "topic_id": "might-might-not",
+          "level": "A2",
+          "order": 27,
+          "title": "Might, might not: Possibility",
+          "url": "https://test-english.com/grammar-points/a2/might-might-not/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/might-might-not/"
+            }
+          ]
+        },
+        {
+          "topic_id": "prepositions-of-movement",
+          "level": "A2",
+          "order": 28,
+          "title": "Prepositions of movement: Along, across, over, etc.",
+          "url": "https://test-english.com/grammar-points/a2/prepositions-of-movement/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/prepositions-of-movement/"
+            }
+          ]
+        },
+        {
+          "topic_id": "so-neither",
+          "level": "A2",
+          "order": 29,
+          "title": "So, neither: So am I, neither do I, etc.",
+          "url": "https://test-english.com/grammar-points/a2/so-neither/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/so-neither/"
+            }
+          ]
+        },
+        {
+          "topic_id": "review-verb-tenses-a2",
+          "level": "A2",
+          "order": 30,
+          "title": "Review of all pre-intermediate verb tenses (CEFR A2)",
+          "url": "https://test-english.com/grammar-points/a2/review-verb-tenses-a2/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/review-verb-tenses-a2/"
+            }
+          ]
+        },
+        {
+          "topic_id": "past-perfect",
+          "level": "A2",
+          "order": 31,
+          "title": "Past perfect",
+          "url": "https://test-english.com/grammar-points/a2/past-perfect/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/past-perfect/"
+            }
+          ]
+        },
+        {
+          "topic_id": "reported-speech-indirect-speech",
+          "level": "A2",
+          "order": 32,
+          "title": "Reported speech / Indirect speech",
+          "url": "https://test-english.com/grammar-points/a2/reported-speech-indirect-speech/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/reported-speech-indirect-speech/"
+            }
+          ]
+        },
+        {
+          "topic_id": "verbs-with-two-objects",
+          "level": "A2",
+          "order": 33,
+          "title": "Verbs with two objects",
+          "url": "https://test-english.com/grammar-points/a2/verbs-with-two-objects/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/verbs-with-two-objects/"
+            }
+          ]
+        },
+        {
+          "topic_id": "the-different-uses-of-the-verb-get",
+          "level": "A2",
+          "order": 34,
+          "title": "The different uses of the verb 'get'",
+          "url": "https://test-english.com/grammar-points/a2/the-different-uses-of-the-verb-get/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/the-different-uses-of-the-verb-get/"
+            }
+          ]
+        },
+        {
+          "topic_id": "do-vs-make-difference",
+          "level": "A2",
+          "order": 35,
+          "title": "Do vs Make: What's the difference?",
+          "url": "https://test-english.com/grammar-points/a2/do-vs-make-difference/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/do-vs-make-difference/"
+            }
+          ]
+        },
+        {
+          "topic_id": "stative-vs-dynamic-verbs-or-non-action-vs-action-verbs",
+          "level": "A2",
+          "order": 36,
+          "title": "Stative vs dynamic verbs (or non-action vs action verbs)",
+          "url": "https://test-english.com/grammar-points/a2/stative-vs-dynamic-verbs-or-non-action-vs-action-verbs/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/stative-vs-dynamic-verbs-or-non-action-vs-action-verbs/"
+            }
+          ]
+        },
+        {
+          "topic_id": "phrasal-verbs-transitive-and-intransitive-separable-and-inseparable",
+          "level": "A2",
+          "order": 37,
+          "title": "Phrasal verbs: Transitive / intransitive, separable / inseparable",
+          "url": "https://test-english.com/grammar-points/a2/phrasal-verbs-transitive-and-intransitive-separable-and-inseparable/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/phrasal-verbs-transitive-and-intransitive-separable-and-inseparable/"
+            }
+          ]
+        },
+        {
+          "topic_id": "no-longer-any-longer-anymore",
+          "level": "A2",
+          "order": 38,
+          "title": "No longer, any longer, anymore",
+          "url": "https://test-english.com/grammar-points/a2/no-longer-any-longer-anymore/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/no-longer-any-longer-anymore/"
+            }
+          ]
+        },
+        {
+          "topic_id": "on-time-vs-in-time-at-the-end-vs-in-the-end",
+          "level": "A2",
+          "order": 39,
+          "title": "On time vs In time, At the end vs In the end",
+          "url": "https://test-english.com/grammar-points/a2/on-time-vs-in-time-at-the-end-vs-in-the-end/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/on-time-vs-in-time-at-the-end-vs-in-the-end/"
+            }
+          ]
+        },
+        {
+          "topic_id": "may-and-might-whats-the-difference",
+          "level": "A2",
+          "order": 40,
+          "title": "May and might: What's the difference?",
+          "url": "https://test-english.com/grammar-points/a2/may-and-might-whats-the-difference/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/may-and-might-whats-the-difference/"
+            }
+          ]
+        },
+        {
+          "topic_id": "auxiliary-verbs-do-be-and-have",
+          "level": "A2",
+          "order": 41,
+          "title": "Auxiliary verbs: do, be and have",
+          "url": "https://test-english.com/grammar-points/a2/auxiliary-verbs-do-be-and-have/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/a2/auxiliary-verbs-do-be-and-have/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level_id": "b1",
+      "title": "B1 Intermediate",
+      "url": "https://test-english.com/grammar-points/b1/",
+      "topic_count": 41,
+      "exercise_count": 41,
+      "topics": [
+        {
+          "topic_id": "present-simple-present-continuous",
+          "level": "B1",
+          "order": 1,
+          "title": "Present simple or present continuous",
+          "url": "https://test-english.com/grammar-points/b1/present-simple-present-continuous/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/present-simple-present-continuous/"
+            }
+          ]
+        },
+        {
+          "topic_id": "future-forms",
+          "level": "B1",
+          "order": 2,
+          "title": "Future forms: Will, be going to, present continuous",
+          "url": "https://test-english.com/grammar-points/b1/future-forms/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/future-forms/"
+            }
+          ]
+        },
+        {
+          "topic_id": "past-simple-present-perfect",
+          "level": "B1",
+          "order": 3,
+          "title": "Past simple or present perfect?",
+          "url": "https://test-english.com/grammar-points/b1/past-simple-present-perfect/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/past-simple-present-perfect/"
+            }
+          ]
+        },
+        {
+          "topic_id": "present-perfect-simple-present-perfect-continuous",
+          "level": "B1",
+          "order": 4,
+          "title": "Present perfect simple and present perfect continuous",
+          "url": "https://test-english.com/grammar-points/b1/present-perfect-simple-present-perfect-continuous/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/present-perfect-simple-present-perfect-continuous/"
+            }
+          ]
+        },
+        {
+          "topic_id": "during-for-while",
+          "level": "B1",
+          "order": 5,
+          "title": "During, for, while",
+          "url": "https://test-english.com/grammar-points/b1/during-for-while/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/during-for-while/"
+            }
+          ]
+        },
+        {
+          "topic_id": "comparative-superlative-adjectives-adverbs",
+          "level": "B1",
+          "order": 6,
+          "title": "Comparative and superlative adjectives and adverbs",
+          "url": "https://test-english.com/grammar-points/b1/comparative-superlative-adjectives-adverbs/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/comparative-superlative-adjectives-adverbs/"
+            }
+          ]
+        },
+        {
+          "topic_id": "an-the-no-article",
+          "level": "B1",
+          "order": 7,
+          "title": "A(n), the, no article",
+          "url": "https://test-english.com/grammar-points/b1/an-the-no-article/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/an-the-no-article/"
+            }
+          ]
+        },
+        {
+          "topic_id": "another-other-others-the-other-the-others",
+          "level": "B1",
+          "order": 8,
+          "title": "Another, other, others, the other, the others",
+          "url": "https://test-english.com/grammar-points/b1/another-other-others-the-other-the-others/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/another-other-others-the-other-the-others/"
+            }
+          ]
+        },
+        {
+          "topic_id": "can-could-be-able-to",
+          "level": "B1",
+          "order": 9,
+          "title": "Can, could, be able to: Ability and possibility",
+          "url": "https://test-english.com/grammar-points/b1/can-could-be-able-to/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/can-could-be-able-to/"
+            }
+          ]
+        },
+        {
+          "topic_id": "have-to-must-should",
+          "level": "B1",
+          "order": 10,
+          "title": "Have to, must, should: Obligation, prohibition, necessity, advice",
+          "url": "https://test-english.com/grammar-points/b1/have-to-must-should/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/have-to-must-should/"
+            }
+          ]
+        },
+        {
+          "topic_id": "reflexive-pronouns-myself-yourself",
+          "level": "B1",
+          "order": 11,
+          "title": "Reflexive pronouns: Myself, yourself, etc.",
+          "url": "https://test-english.com/grammar-points/b1/reflexive-pronouns-myself-yourself/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/reflexive-pronouns-myself-yourself/"
+            }
+          ]
+        },
+        {
+          "topic_id": "ed-ing-adjectives-adjectives-verbs",
+          "level": "B1",
+          "order": 12,
+          "title": "-Ed/-ing adjectives: Adjectives from verbs",
+          "url": "https://test-english.com/grammar-points/b1/ed-ing-adjectives-adjectives-verbs/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/ed-ing-adjectives-adjectives-verbs/"
+            }
+          ]
+        },
+        {
+          "topic_id": "past-simple-past-continuous-past-perfect",
+          "level": "B1",
+          "order": 13,
+          "title": "Past simple, past continuous, past perfect",
+          "url": "https://test-english.com/grammar-points/b1/past-simple-past-continuous-past-perfect/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/past-simple-past-continuous-past-perfect/"
+            }
+          ]
+        },
+        {
+          "topic_id": "review-verb-tenses-b1",
+          "level": "B1",
+          "order": 14,
+          "title": "Review of all intermediate verb tenses (CEFR B1)",
+          "url": "https://test-english.com/grammar-points/b1/review-verb-tenses-b1/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/review-verb-tenses-b1/"
+            }
+          ]
+        },
+        {
+          "topic_id": "usually-used-to-be-used-to-get-used-to",
+          "level": "B1",
+          "order": 15,
+          "title": "Usually, used to, be used to, get used to",
+          "url": "https://test-english.com/grammar-points/b1/usually-used-to-be-used-to-get-used-to/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/usually-used-to-be-used-to-get-used-to/"
+            }
+          ]
+        },
+        {
+          "topic_id": "passive-verb-forms",
+          "level": "B1",
+          "order": 16,
+          "title": "Passive verb forms",
+          "url": "https://test-english.com/grammar-points/b1/passive-verb-forms/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/passive-verb-forms/"
+            }
+          ]
+        },
+        {
+          "topic_id": "active-passive-voice",
+          "level": "B1",
+          "order": 17,
+          "title": "Active and passive voice",
+          "url": "https://test-english.com/grammar-points/b1/active-passive-voice/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/active-passive-voice/"
+            }
+          ]
+        },
+        {
+          "topic_id": "modal-verbs-of-deduction",
+          "level": "B1",
+          "order": 18,
+          "title": "Modal verbs of deduction: Must, may, might, could, can't",
+          "url": "https://test-english.com/grammar-points/b1/modal-verbs-of-deduction/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/modal-verbs-of-deduction/"
+            }
+          ]
+        },
+        {
+          "topic_id": "first-conditional-future-time-clauses",
+          "level": "B1",
+          "order": 19,
+          "title": "First conditional, future time clauses",
+          "url": "https://test-english.com/grammar-points/b1/first-conditional-future-time-clauses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/first-conditional-future-time-clauses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "second-conditional-unreal-situations",
+          "level": "B1",
+          "order": 20,
+          "title": "Second conditional: Unreal situations",
+          "url": "https://test-english.com/grammar-points/b1/second-conditional-unreal-situations/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/second-conditional-unreal-situations/"
+            }
+          ]
+        },
+        {
+          "topic_id": "first-and-second-conditionals",
+          "level": "B1",
+          "order": 21,
+          "title": "First and second conditionals",
+          "url": "https://test-english.com/grammar-points/b1/first-and-second-conditionals/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/first-and-second-conditionals/"
+            }
+          ]
+        },
+        {
+          "topic_id": "third-conditional-past-unreal-situations",
+          "level": "B1",
+          "order": 22,
+          "title": "Third conditional: Past unreal situations",
+          "url": "https://test-english.com/grammar-points/b1/third-conditional-past-unreal-situations/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/third-conditional-past-unreal-situations/"
+            }
+          ]
+        },
+        {
+          "topic_id": "reported-speech-indirect-speech",
+          "level": "B1",
+          "order": 23,
+          "title": "Indirect speech / Reported speech",
+          "url": "https://test-english.com/grammar-points/b1/reported-speech-indirect-speech/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/reported-speech-indirect-speech/"
+            }
+          ]
+        },
+        {
+          "topic_id": "gerund-or-infinitive-do-to-do-doing",
+          "level": "B1",
+          "order": 24,
+          "title": "Gerund or infinitive: Do, to do, doing",
+          "url": "https://test-english.com/grammar-points/b1/gerund-or-infinitive-do-to-do-doing/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/gerund-or-infinitive-do-to-do-doing/"
+            }
+          ]
+        },
+        {
+          "topic_id": "much-many-lot-little-no",
+          "level": "B1",
+          "order": 25,
+          "title": "Much, many, a lot, little, few, some, any, no: Quantifiers",
+          "url": "https://test-english.com/grammar-points/b1/much-many-lot-little-no/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/much-many-lot-little-no/"
+            }
+          ]
+        },
+        {
+          "topic_id": "all-both",
+          "level": "B1",
+          "order": 26,
+          "title": "All, both: Quantifiers",
+          "url": "https://test-english.com/grammar-points/b1/all-both/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/all-both/"
+            }
+          ]
+        },
+        {
+          "topic_id": "both-either-neither",
+          "level": "B1",
+          "order": 27,
+          "title": "Both, either, neither: Quantifiers",
+          "url": "https://test-english.com/grammar-points/b1/both-either-neither/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/both-either-neither/"
+            }
+          ]
+        },
+        {
+          "topic_id": "any-no-none",
+          "level": "B1",
+          "order": 28,
+          "title": "Any, no, none: Quantifiers",
+          "url": "https://test-english.com/grammar-points/b1/any-no-none/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/any-no-none/"
+            }
+          ]
+        },
+        {
+          "topic_id": "so-such-such-a-so-much-so-many",
+          "level": "B1",
+          "order": 29,
+          "title": "So, such, such a, so much, so many",
+          "url": "https://test-english.com/grammar-points/b1/so-such-such-a-so-much-so-many/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/so-such-such-a-so-much-so-many/"
+            }
+          ]
+        },
+        {
+          "topic_id": "defining-and-non-defining-relative-clauses",
+          "level": "B1",
+          "order": 30,
+          "title": "Defining and non-defining relative clauses",
+          "url": "https://test-english.com/grammar-points/b1/defining-and-non-defining-relative-clauses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/defining-and-non-defining-relative-clauses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "question-tags",
+          "level": "B1",
+          "order": 31,
+          "title": "Question tags: Aren't you? don't you?",
+          "url": "https://test-english.com/grammar-points/b1/question-tags/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/question-tags/"
+            }
+          ]
+        },
+        {
+          "topic_id": "clauses-contrast-purpose-reason",
+          "level": "B1",
+          "order": 32,
+          "title": "Clauses of contrast, purpose and reason",
+          "url": "https://test-english.com/grammar-points/b1/clauses-contrast-purpose-reason/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/clauses-contrast-purpose-reason/"
+            }
+          ]
+        },
+        {
+          "topic_id": "verb-preposition",
+          "level": "B1",
+          "order": 33,
+          "title": "Verb + preposition: Dependent prepositions",
+          "url": "https://test-english.com/grammar-points/b1/verb-preposition/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/verb-preposition/"
+            }
+          ]
+        },
+        {
+          "topic_id": "adjective-preposition",
+          "level": "B1",
+          "order": 34,
+          "title": "Adjective + preposition: Dependent prepositions",
+          "url": "https://test-english.com/grammar-points/b1/adjective-preposition/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/adjective-preposition/"
+            }
+          ]
+        },
+        {
+          "topic_id": "had-better-its-time",
+          "level": "B1",
+          "order": 35,
+          "title": "Had better... It's time...",
+          "url": "https://test-english.com/grammar-points/b1/had-better-its-time/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/had-better-its-time/"
+            }
+          ]
+        },
+        {
+          "topic_id": "for-since-from-difference",
+          "level": "B1",
+          "order": 36,
+          "title": "For, since, from: What's the difference?",
+          "url": "https://test-english.com/grammar-points/b1/for-since-from-difference/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/for-since-from-difference/"
+            }
+          ]
+        },
+        {
+          "topic_id": "compound-adjectives-with-numbers-a-two-day-trip",
+          "level": "B1",
+          "order": 37,
+          "title": "Compound adjectives with numbers: 'a two-day trip'",
+          "url": "https://test-english.com/grammar-points/b1/compound-adjectives-with-numbers-a-two-day-trip/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/compound-adjectives-with-numbers-a-two-day-trip/"
+            }
+          ]
+        },
+        {
+          "topic_id": "b1-phrasal-verbs-1-exercises-explanation",
+          "level": "B1",
+          "order": 38,
+          "title": "B1 Phrasal verbs 1: Exercises and explanation",
+          "url": "https://test-english.com/grammar-points/b1/b1-phrasal-verbs-1-exercises-explanation/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/b1-phrasal-verbs-1-exercises-explanation/"
+            }
+          ]
+        },
+        {
+          "topic_id": "b1-phrasal-verbs-2-exercises-and-explanation",
+          "level": "B1",
+          "order": 39,
+          "title": "B1 Phrasal verbs 2: Exercises and explanation",
+          "url": "https://test-english.com/grammar-points/b1/b1-phrasal-verbs-2-exercises-and-explanation/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/b1-phrasal-verbs-2-exercises-and-explanation/"
+            }
+          ]
+        },
+        {
+          "topic_id": "b1-phrasal-verbs-3-exercises-and-explanation",
+          "level": "B1",
+          "order": 40,
+          "title": "B1 Phrasal verbs 3: Exercises and explanation",
+          "url": "https://test-english.com/grammar-points/b1/b1-phrasal-verbs-3-exercises-and-explanation/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/b1-phrasal-verbs-3-exercises-and-explanation/"
+            }
+          ]
+        },
+        {
+          "topic_id": "would-rather-would-sooner",
+          "level": "B1",
+          "order": 41,
+          "title": "Would rather & Would sooner",
+          "url": "https://test-english.com/grammar-points/b1/would-rather-would-sooner/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1/would-rather-would-sooner/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level_id": "b1-b2",
+      "title": "B1+ Upper-intermediate",
+      "url": "https://test-english.com/grammar-points/b1-b2/",
+      "topic_count": 36,
+      "exercise_count": 36,
+      "topics": [
+        {
+          "topic_id": "questions-different-types",
+          "level": "B1-B2",
+          "order": 1,
+          "title": "Questions: Different types",
+          "url": "https://test-english.com/grammar-points/b1-b2/questions-different-types/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/questions-different-types/"
+            }
+          ]
+        },
+        {
+          "topic_id": "indirect-questions",
+          "level": "B1-B2",
+          "order": 2,
+          "title": "Indirect questions",
+          "url": "https://test-english.com/grammar-points/b1-b2/indirect-questions/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/indirect-questions/"
+            }
+          ]
+        },
+        {
+          "topic_id": "auxiliary-verbs-different-uses",
+          "level": "B1-B2",
+          "order": 3,
+          "title": "Auxiliary verbs: Different uses",
+          "url": "https://test-english.com/grammar-points/b1-b2/auxiliary-verbs-different-uses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/auxiliary-verbs-different-uses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "the-the-comparatives",
+          "level": "B1-B2",
+          "order": 4,
+          "title": "The ... the ... comparatives",
+          "url": "https://test-english.com/grammar-points/b1-b2/the-the-comparatives/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/the-the-comparatives/"
+            }
+          ]
+        },
+        {
+          "topic_id": "present-perfect-simple-continuous",
+          "level": "B1-B2",
+          "order": 5,
+          "title": "Present perfect simple or continuous",
+          "url": "https://test-english.com/grammar-points/b1-b2/present-perfect-simple-continuous/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/present-perfect-simple-continuous/"
+            }
+          ]
+        },
+        {
+          "topic_id": "adjectives-without-noun",
+          "level": "B1-B2",
+          "order": 6,
+          "title": "Adjectives without noun",
+          "url": "https://test-english.com/grammar-points/b1-b2/adjectives-without-noun/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/adjectives-without-noun/"
+            }
+          ]
+        },
+        {
+          "topic_id": "adjective-order",
+          "level": "B1-B2",
+          "order": 7,
+          "title": "Adjective order",
+          "url": "https://test-english.com/grammar-points/b1-b2/adjective-order/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/adjective-order/"
+            }
+          ]
+        },
+        {
+          "topic_id": "so-such-a-so-much-so-many",
+          "level": "B1-B2",
+          "order": 8,
+          "title": "So, such (a), so much, so many",
+          "url": "https://test-english.com/grammar-points/b1-b2/so-such-a-so-much-so-many/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/so-such-a-so-much-so-many/"
+            }
+          ]
+        },
+        {
+          "topic_id": "narrative-tenses",
+          "level": "B1-B2",
+          "order": 9,
+          "title": "Narrative tenses: All past tenses",
+          "url": "https://test-english.com/grammar-points/b1-b2/narrative-tenses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/narrative-tenses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "position-of-adverbs",
+          "level": "B1-B2",
+          "order": 10,
+          "title": "Position of adverbs and adverb phrases",
+          "url": "https://test-english.com/grammar-points/b1-b2/position-of-adverbs/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/position-of-adverbs/"
+            }
+          ]
+        },
+        {
+          "topic_id": "future-continuous-and-future-perfect",
+          "level": "B1-B2",
+          "order": 11,
+          "title": "Future continuous and future perfect",
+          "url": "https://test-english.com/grammar-points/b1-b2/future-continuous-and-future-perfect/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/future-continuous-and-future-perfect/"
+            }
+          ]
+        },
+        {
+          "topic_id": "review-verb-tenses-b1-b2",
+          "level": "B1-B2",
+          "order": 12,
+          "title": "Review of all upper-intermediate verb tenses (CEFR B2.1)",
+          "url": "https://test-english.com/grammar-points/b1-b2/review-verb-tenses-b1-b2/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/review-verb-tenses-b1-b2/"
+            }
+          ]
+        },
+        {
+          "topic_id": "zero-first-conditional-future-time-clauses",
+          "level": "B1-B2",
+          "order": 13,
+          "title": "Zero and first conditional and future time clauses",
+          "url": "https://test-english.com/grammar-points/b1-b2/zero-first-conditional-future-time-clauses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/zero-first-conditional-future-time-clauses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "second-third-conditionals",
+          "level": "B1-B2",
+          "order": 14,
+          "title": "Second and third conditionals: Unreal conditionals",
+          "url": "https://test-english.com/grammar-points/b1-b2/second-third-conditionals/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/second-third-conditionals/"
+            }
+          ]
+        },
+        {
+          "topic_id": "wishes-regrets",
+          "level": "B1-B2",
+          "order": 15,
+          "title": "Wishes and regrets: I wish/if only",
+          "url": "https://test-english.com/grammar-points/b1-b2/wishes-regrets/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/wishes-regrets/"
+            }
+          ]
+        },
+        {
+          "topic_id": "participle-adjectives",
+          "level": "B1-B2",
+          "order": 16,
+          "title": "Participles as adjectives: -ed/-ing adjectives",
+          "url": "https://test-english.com/grammar-points/b1-b2/participle-adjectives/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/participle-adjectives/"
+            }
+          ]
+        },
+        {
+          "topic_id": "used-to",
+          "level": "B1-B2",
+          "order": 17,
+          "title": "Used to, be used to, get used to",
+          "url": "https://test-english.com/grammar-points/b1-b2/used-to/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/used-to/"
+            }
+          ]
+        },
+        {
+          "topic_id": "would-and-used-to",
+          "level": "B1-B2",
+          "order": 18,
+          "title": "Would and used to: Past habits and repeated actions",
+          "url": "https://test-english.com/grammar-points/b1-b2/would-and-used-to/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/would-and-used-to/"
+            }
+          ]
+        },
+        {
+          "topic_id": "gerund-or-infinitive",
+          "level": "B1-B2",
+          "order": 19,
+          "title": "Gerund or infinitive: Verb patterns",
+          "url": "https://test-english.com/grammar-points/b1-b2/gerund-or-infinitive/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/gerund-or-infinitive/"
+            }
+          ]
+        },
+        {
+          "topic_id": "past-modal-verbs",
+          "level": "B1-B2",
+          "order": 20,
+          "title": "Past modal verbs of deduction",
+          "url": "https://test-english.com/grammar-points/b1-b2/past-modal-verbs/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/past-modal-verbs/"
+            }
+          ]
+        },
+        {
+          "topic_id": "likely-unlikely-bound-definitely-probably",
+          "level": "B1-B2",
+          "order": 21,
+          "title": "Likely, unlikely, bound, definitely, probably: Probability",
+          "url": "https://test-english.com/grammar-points/b1-b2/likely-unlikely-bound-definitely-probably/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/likely-unlikely-bound-definitely-probably/"
+            }
+          ]
+        },
+        {
+          "topic_id": "would-rather-would-prefer",
+          "level": "B1-B2",
+          "order": 22,
+          "title": "Would rather, would prefer: Expressing preference",
+          "url": "https://test-english.com/grammar-points/b1-b2/would-rather-would-prefer/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/would-rather-would-prefer/"
+            }
+          ]
+        },
+        {
+          "topic_id": "verbs-of-the-senses",
+          "level": "B1-B2",
+          "order": 23,
+          "title": "Verbs of the senses: look, sound, feel, etc.",
+          "url": "https://test-english.com/grammar-points/b1-b2/verbs-of-the-senses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/verbs-of-the-senses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "passive-voice-all-tenses",
+          "level": "B1-B2",
+          "order": 24,
+          "title": "The passive voice: All tenses",
+          "url": "https://test-english.com/grammar-points/b1-b2/passive-voice-all-tenses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/passive-voice-all-tenses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "passive-reporting-verbs",
+          "level": "B1-B2",
+          "order": 25,
+          "title": "The passive with reporting verbs: It is said that ...",
+          "url": "https://test-english.com/grammar-points/b1-b2/passive-reporting-verbs/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/passive-reporting-verbs/"
+            }
+          ]
+        },
+        {
+          "topic_id": "have-something-done",
+          "level": "B1-B2",
+          "order": 26,
+          "title": "Have something done",
+          "url": "https://test-english.com/grammar-points/b1-b2/have-something-done/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/have-something-done/"
+            }
+          ]
+        },
+        {
+          "topic_id": "reporting-verbs",
+          "level": "B1-B2",
+          "order": 27,
+          "title": "Reporting verbs: Admit doing, refuse to do, etc.",
+          "url": "https://test-english.com/grammar-points/b1-b2/reporting-verbs/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/reporting-verbs/"
+            }
+          ]
+        },
+        {
+          "topic_id": "clauses-contrast-purpose",
+          "level": "B1-B2",
+          "order": 28,
+          "title": "Clauses of contrast and purpose",
+          "url": "https://test-english.com/grammar-points/b1-b2/clauses-contrast-purpose/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/clauses-contrast-purpose/"
+            }
+          ]
+        },
+        {
+          "topic_id": "whatever-whenever-wherever-whoever-however",
+          "level": "B1-B2",
+          "order": 29,
+          "title": "Whatever, whenever, wherever, whoever, however",
+          "url": "https://test-english.com/grammar-points/b1-b2/whatever-whenever-wherever-whoever-however/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/whatever-whenever-wherever-whoever-however/"
+            }
+          ]
+        },
+        {
+          "topic_id": "quantifiers",
+          "level": "B1-B2",
+          "order": 30,
+          "title": "Quantifiers: All, most, both, either, neither, any, no, none",
+          "url": "https://test-english.com/grammar-points/b1-b2/quantifiers/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/quantifiers/"
+            }
+          ]
+        },
+        {
+          "topic_id": "already-still-yet-whats-the-difference",
+          "level": "B1-B2",
+          "order": 31,
+          "title": "Already, still, yet: What's the difference?",
+          "url": "https://test-english.com/grammar-points/b1-b2/already-still-yet-whats-the-difference/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/already-still-yet-whats-the-difference/"
+            }
+          ]
+        },
+        {
+          "topic_id": "neednt-dont-need-to-didnt-need-to-neednt-have",
+          "level": "B1-B2",
+          "order": 32,
+          "title": "Needn't, don't need to, didn't need to, needn't have",
+          "url": "https://test-english.com/grammar-points/b1-b2/neednt-dont-need-to-didnt-need-to-neednt-have/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/neednt-dont-need-to-didnt-need-to-neednt-have/"
+            }
+          ]
+        },
+        {
+          "topic_id": "pretty-rather-quite-fairly-intensifiers",
+          "level": "B1-B2",
+          "order": 33,
+          "title": "Pretty, rather, quite, fairly: Adverbs of degree",
+          "url": "https://test-english.com/grammar-points/b1-b2/pretty-rather-quite-fairly-intensifiers/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/pretty-rather-quite-fairly-intensifiers/"
+            }
+          ]
+        },
+        {
+          "topic_id": "when-i-do-vs-when-i-have-done",
+          "level": "B1-B2",
+          "order": 34,
+          "title": "When I do vs When I have done: Future time clauses",
+          "url": "https://test-english.com/grammar-points/b1-b2/when-i-do-vs-when-i-have-done/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/when-i-do-vs-when-i-have-done/"
+            }
+          ]
+        },
+        {
+          "topic_id": "do-or-make-which-is-it",
+          "level": "B1-B2",
+          "order": 35,
+          "title": "Do or Make: Which is it?",
+          "url": "https://test-english.com/grammar-points/b1-b2/do-or-make-which-is-it/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/do-or-make-which-is-it/"
+            }
+          ]
+        },
+        {
+          "topic_id": "double-negatives-in-english",
+          "level": "B1-B2",
+          "order": 36,
+          "title": "Double negatives in English",
+          "url": "https://test-english.com/grammar-points/b1-b2/double-negatives-in-english/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b1-b2/double-negatives-in-english/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level_id": "b2",
+      "title": "B2 Pre-advanced",
+      "url": "https://test-english.com/grammar-points/b2/",
+      "topic_count": 33,
+      "exercise_count": 33,
+      "topics": [
+        {
+          "topic_id": "have-auxiliary-main-verb",
+          "level": "B2",
+          "order": 1,
+          "title": "Have: Auxiliary or main verb",
+          "url": "https://test-english.com/grammar-points/b2/have-auxiliary-main-verb/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/have-auxiliary-main-verb/"
+            }
+          ]
+        },
+        {
+          "topic_id": "clauses-contrast-purpose-reason-result",
+          "level": "B2",
+          "order": 2,
+          "title": "Clauses of contrast, purpose, reason and result",
+          "url": "https://test-english.com/grammar-points/b2/clauses-contrast-purpose-reason-result/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/clauses-contrast-purpose-reason-result/"
+            }
+          ]
+        },
+        {
+          "topic_id": "generic-pronouns",
+          "level": "B2",
+          "order": 3,
+          "title": "Generic or common-gender pronouns",
+          "url": "https://test-english.com/grammar-points/b2/generic-pronouns/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/generic-pronouns/"
+            }
+          ]
+        },
+        {
+          "topic_id": "reflexive-reciprocal-pronouns",
+          "level": "B2",
+          "order": 4,
+          "title": "Reflexive and reciprocal pronouns",
+          "url": "https://test-english.com/grammar-points/b2/reflexive-reciprocal-pronouns/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/reflexive-reciprocal-pronouns/"
+            }
+          ]
+        },
+        {
+          "topic_id": "there-and-it",
+          "level": "B2",
+          "order": 5,
+          "title": "'There' and 'it': Preparatory subjects",
+          "url": "https://test-english.com/grammar-points/b2/there-and-it/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/there-and-it/"
+            }
+          ]
+        },
+        {
+          "topic_id": "narrative-tenses-used-to-would",
+          "level": "B2",
+          "order": 6,
+          "title": "Narrative tenses, used to, would",
+          "url": "https://test-english.com/grammar-points/b2/narrative-tenses-used-to-would/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/narrative-tenses-used-to-would/"
+            }
+          ]
+        },
+        {
+          "topic_id": "get",
+          "level": "B2",
+          "order": 7,
+          "title": "Get: Different meanings",
+          "url": "https://test-english.com/grammar-points/b2/get/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/get/"
+            }
+          ]
+        },
+        {
+          "topic_id": "discourse-markers",
+          "level": "B2",
+          "order": 8,
+          "title": "Discourse markers: Linking words",
+          "url": "https://test-english.com/grammar-points/b2/discourse-markers/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/discourse-markers/"
+            }
+          ]
+        },
+        {
+          "topic_id": "speculation-deduction",
+          "level": "B2",
+          "order": 9,
+          "title": "Speculation and deduction: Modal verbs and expressions",
+          "url": "https://test-english.com/grammar-points/b2/speculation-deduction/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/speculation-deduction/"
+            }
+          ]
+        },
+        {
+          "topic_id": "inversion-negative-adverbials",
+          "level": "B2",
+          "order": 10,
+          "title": "Inversion with negative adverbials: Adding emphasis",
+          "url": "https://test-english.com/grammar-points/b2/inversion-negative-adverbials/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/inversion-negative-adverbials/"
+            }
+          ]
+        },
+        {
+          "topic_id": "distancing",
+          "level": "B2",
+          "order": 11,
+          "title": "Distancing: Expressions and passive of reporting verbs",
+          "url": "https://test-english.com/grammar-points/b2/distancing/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/distancing/"
+            }
+          ]
+        },
+        {
+          "topic_id": "unreal-uses-past-tenses",
+          "level": "B2",
+          "order": 12,
+          "title": "Wish, rather, if only, it's time: Unreal uses of past tenses",
+          "url": "https://test-english.com/grammar-points/b2/unreal-uses-past-tenses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/unreal-uses-past-tenses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "verb-object-infinitive-gerund",
+          "level": "B2",
+          "order": 13,
+          "title": "Verb + object + infinitive/gerund: Verb patterns",
+          "url": "https://test-english.com/grammar-points/b2/verb-object-infinitive-gerund/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/verb-object-infinitive-gerund/"
+            }
+          ]
+        },
+        {
+          "topic_id": "unless-even-if-provided-as-long-conditionals",
+          "level": "B2",
+          "order": 14,
+          "title": "Unless, even if, provided, as long as: Other expressions in conditionals",
+          "url": "https://test-english.com/grammar-points/b2/unless-even-if-provided-as-long-conditionals/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/unless-even-if-provided-as-long-conditionals/"
+            }
+          ]
+        },
+        {
+          "topic_id": "all-conditionals-mixed-conditionals-alternatives-if-inversion",
+          "level": "B2",
+          "order": 15,
+          "title": "All conditionals: Mixed conditionals, alternatives to 'if', inversion",
+          "url": "https://test-english.com/grammar-points/b2/all-conditionals-mixed-conditionals-alternatives-if-inversion/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/all-conditionals-mixed-conditionals-alternatives-if-inversion/"
+            }
+          ]
+        },
+        {
+          "topic_id": "mixed-conditionals",
+          "level": "B2",
+          "order": 16,
+          "title": "Mixed conditionals: If I were you, I wouldn't have done it",
+          "url": "https://test-english.com/grammar-points/b2/mixed-conditionals/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/mixed-conditionals/"
+            }
+          ]
+        },
+        {
+          "topic_id": "modal-verbs-permission-obligation-prohibition-necessity",
+          "level": "B2",
+          "order": 17,
+          "title": "Modal verbs: Permission, obligation, prohibition, necessity",
+          "url": "https://test-english.com/grammar-points/b2/modal-verbs-permission-obligation-prohibition-necessity/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/modal-verbs-permission-obligation-prohibition-necessity/"
+            }
+          ]
+        },
+        {
+          "topic_id": "verbs-of-the-senses",
+          "level": "B2",
+          "order": 18,
+          "title": "Verbs of the senses",
+          "url": "https://test-english.com/grammar-points/b2/verbs-of-the-senses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/verbs-of-the-senses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "gerunds-infinitives-complex-forms",
+          "level": "B2",
+          "order": 19,
+          "title": "Gerunds and infinitives: Complex forms",
+          "url": "https://test-english.com/grammar-points/b2/gerunds-infinitives-complex-forms/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/gerunds-infinitives-complex-forms/"
+            }
+          ]
+        },
+        {
+          "topic_id": "future-forms-expressing-future-time",
+          "level": "B2",
+          "order": 20,
+          "title": "Future forms: Expressing future time",
+          "url": "https://test-english.com/grammar-points/b2/future-forms-expressing-future-time/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/future-forms-expressing-future-time/"
+            }
+          ]
+        },
+        {
+          "topic_id": "ways-express-future",
+          "level": "B2",
+          "order": 21,
+          "title": "Other ways to express future: Be about to, be due to, etc.",
+          "url": "https://test-english.com/grammar-points/b2/ways-express-future/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/ways-express-future/"
+            }
+          ]
+        },
+        {
+          "topic_id": "future-in-the-past",
+          "level": "B2",
+          "order": 22,
+          "title": "Future in the past",
+          "url": "https://test-english.com/grammar-points/b2/future-in-the-past/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/future-in-the-past/"
+            }
+          ]
+        },
+        {
+          "topic_id": "ellipsis-and-substitution",
+          "level": "B2",
+          "order": 23,
+          "title": "Ellipsis and substitution: Omitting or replacing words",
+          "url": "https://test-english.com/grammar-points/b2/ellipsis-and-substitution/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/ellipsis-and-substitution/"
+            }
+          ]
+        },
+        {
+          "topic_id": "compound-nouns-possessive-forms",
+          "level": "B2",
+          "order": 24,
+          "title": "Compound nouns and possessive forms",
+          "url": "https://test-english.com/grammar-points/b2/compound-nouns-possessive-forms/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/compound-nouns-possessive-forms/"
+            }
+          ]
+        },
+        {
+          "topic_id": "cleft-sentences",
+          "level": "B2",
+          "order": 25,
+          "title": "Cleft sentences: Adding emphasis",
+          "url": "https://test-english.com/grammar-points/b2/cleft-sentences/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/cleft-sentences/"
+            }
+          ]
+        },
+        {
+          "topic_id": "relative-clauses",
+          "level": "B2",
+          "order": 26,
+          "title": "Relative clauses: Defining and non-defining",
+          "url": "https://test-english.com/grammar-points/b2/relative-clauses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/relative-clauses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "participle-clauses",
+          "level": "B2",
+          "order": 27,
+          "title": "Participle clauses",
+          "url": "https://test-english.com/grammar-points/b2/participle-clauses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/participle-clauses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "passive-verbs-with-two-objects",
+          "level": "B2",
+          "order": 28,
+          "title": "Passive verbs with two objects",
+          "url": "https://test-english.com/grammar-points/b2/passive-verbs-with-two-objects/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/passive-verbs-with-two-objects/"
+            }
+          ]
+        },
+        {
+          "topic_id": "possessive-s-with-time-expressions-two-hours-walk",
+          "level": "B2",
+          "order": 29,
+          "title": "Possessive ’s with time expressions: Two hours’ walk",
+          "url": "https://test-english.com/grammar-points/b2/possessive-s-with-time-expressions-two-hours-walk/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/possessive-s-with-time-expressions-two-hours-walk/"
+            }
+          ]
+        },
+        {
+          "topic_id": "compound-adjectives-in-english",
+          "level": "B2",
+          "order": 30,
+          "title": "Compound adjectives in English",
+          "url": "https://test-english.com/grammar-points/b2/compound-adjectives-in-english/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/compound-adjectives-in-english/"
+            }
+          ]
+        },
+        {
+          "topic_id": "50-common-noun-preposition-collocations",
+          "level": "B2",
+          "order": 31,
+          "title": "50 common Noun + Preposition collocations",
+          "url": "https://test-english.com/grammar-points/b2/50-common-noun-preposition-collocations/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/50-common-noun-preposition-collocations/"
+            }
+          ]
+        },
+        {
+          "topic_id": "comparative-structures-modifying-comparatives",
+          "level": "B2",
+          "order": 32,
+          "title": "Comparative structures: Modifying comparatives",
+          "url": "https://test-english.com/grammar-points/b2/comparative-structures-modifying-comparatives/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/comparative-structures-modifying-comparatives/"
+            }
+          ]
+        },
+        {
+          "topic_id": "reduced-infinitives-omitting-the-infinitive-phrase-after-to",
+          "level": "B2",
+          "order": 33,
+          "title": "Reduced infinitives: Omitting the infinitive phrase after 'to'",
+          "url": "https://test-english.com/grammar-points/b2/reduced-infinitives-omitting-the-infinitive-phrase-after-to/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/b2/reduced-infinitives-omitting-the-infinitive-phrase-after-to/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level_id": "c1",
+      "title": "C1 Advanced",
+      "url": "https://test-english.com/grammar-points/c1/",
+      "topic_count": 10,
+      "exercise_count": 10,
+      "topics": [
+        {
+          "topic_id": "advanced-present-simple-and-present-continuous",
+          "level": "C1",
+          "order": 1,
+          "title": "Advanced present simple and present continuous",
+          "url": "https://test-english.com/grammar-points/c1/advanced-present-simple-and-present-continuous/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/c1/advanced-present-simple-and-present-continuous/"
+            }
+          ]
+        },
+        {
+          "topic_id": "advanced-past-simple-past-continuous-past-perfect",
+          "level": "C1",
+          "order": 2,
+          "title": "Advanced past simple, past continuous & past perfect",
+          "url": "https://test-english.com/grammar-points/c1/advanced-past-simple-past-continuous-past-perfect/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/c1/advanced-past-simple-past-continuous-past-perfect/"
+            }
+          ]
+        },
+        {
+          "topic_id": "advanced-modal-verbs-will-would-and-should",
+          "level": "C1",
+          "order": 3,
+          "title": "Advanced modal verbs: will, would and should",
+          "url": "https://test-english.com/grammar-points/c1/advanced-modal-verbs-will-would-and-should/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/c1/advanced-modal-verbs-will-would-and-should/"
+            }
+          ]
+        },
+        {
+          "topic_id": "advanced-modal-verbs-can-be-able-to-may-might",
+          "level": "C1",
+          "order": 4,
+          "title": "Advanced modal verbs: can / be able to, may / might",
+          "url": "https://test-english.com/grammar-points/c1/advanced-modal-verbs-can-be-able-to-may-might/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/c1/advanced-modal-verbs-can-be-able-to-may-might/"
+            }
+          ]
+        },
+        {
+          "topic_id": "the-subjunctive-in-english-present-and-past",
+          "level": "C1",
+          "order": 5,
+          "title": "The subjunctive in English: Present and past",
+          "url": "https://test-english.com/grammar-points/c1/the-subjunctive-in-english-present-and-past/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/c1/the-subjunctive-in-english-present-and-past/"
+            }
+          ]
+        },
+        {
+          "topic_id": "the-perfect-tenses-forms-and-uses",
+          "level": "C1",
+          "order": 6,
+          "title": "The perfect tenses: Forms and uses",
+          "url": "https://test-english.com/grammar-points/c1/the-perfect-tenses-forms-and-uses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/c1/the-perfect-tenses-forms-and-uses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "advanced-participle-clauses",
+          "level": "C1",
+          "order": 7,
+          "title": "Advanced participle clauses",
+          "url": "https://test-english.com/grammar-points/c1/advanced-participle-clauses/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/c1/advanced-participle-clauses/"
+            }
+          ]
+        },
+        {
+          "topic_id": "advanced-word-order",
+          "level": "C1",
+          "order": 8,
+          "title": "Advanced word order",
+          "url": "https://test-english.com/grammar-points/c1/advanced-word-order/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/c1/advanced-word-order/"
+            }
+          ]
+        },
+        {
+          "topic_id": "prepositions-position-and-advanced-patterns",
+          "level": "C1",
+          "order": 9,
+          "title": "Prepositions: Position and advanced patterns",
+          "url": "https://test-english.com/grammar-points/c1/prepositions-position-and-advanced-patterns/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/c1/prepositions-position-and-advanced-patterns/"
+            }
+          ]
+        },
+        {
+          "topic_id": "subject-verb-agreement-advanced-rules",
+          "level": "C1",
+          "order": 10,
+          "title": "Subject–verb agreement: Advanced rules",
+          "url": "https://test-english.com/grammar-points/c1/subject-verb-agreement-advanced-rules/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/c1/subject-verb-agreement-advanced-rules/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level_id": "shorts",
+      "title": "Grammar Shorts",
+      "url": "https://test-english.com/grammar-points/shorts/",
+      "topic_count": 28,
+      "exercise_count": 28,
+      "topics": [
+        {
+          "topic_id": "above-vs-over-grammar-shorts",
+          "level": "SHORTS",
+          "order": 1,
+          "title": "Above vs Over – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/above-vs-over-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/above-vs-over-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "although-vs-however-grammar-shorts",
+          "level": "SHORTS",
+          "order": 2,
+          "title": "Although vs However – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/although-vs-however-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/although-vs-however-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "amount-of-vs-number-of-vs-quantity-of",
+          "level": "SHORTS",
+          "order": 3,
+          "title": "Amount of vs Number of vs Quantity of – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/amount-of-vs-number-of-vs-quantity-of/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/amount-of-vs-number-of-vs-quantity-of/"
+            }
+          ]
+        },
+        {
+          "topic_id": "how-to-avoid-double-subjects-in-english-grammar-shorts",
+          "level": "SHORTS",
+          "order": 4,
+          "title": "How to avoid double subjects in English – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/how-to-avoid-double-subjects-in-english-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/how-to-avoid-double-subjects-in-english-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "between-vs-among-grammar-shorts",
+          "level": "SHORTS",
+          "order": 5,
+          "title": "Between vs Among – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/between-vs-among-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/between-vs-among-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "bring-vs-take-grammar-shorts",
+          "level": "SHORTS",
+          "order": 6,
+          "title": "Bring vs Take – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/bring-vs-take-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/bring-vs-take-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "clean-vs-wash-grammar-shorts",
+          "level": "SHORTS",
+          "order": 7,
+          "title": "Clean vs Wash – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/clean-vs-wash-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/clean-vs-wash-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "come-vs-go-grammar-shorts",
+          "level": "SHORTS",
+          "order": 8,
+          "title": "Come vs Go – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/come-vs-go-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/come-vs-go-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "have-been-vs-have-gone-grammar-shorts",
+          "level": "SHORTS",
+          "order": 9,
+          "title": "Have been vs Have gone – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/have-been-vs-have-gone-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/have-been-vs-have-gone-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "if-vs-whether-grammar-shorts",
+          "level": "SHORTS",
+          "order": 10,
+          "title": "If vs Whether – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/if-vs-whether-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/if-vs-whether-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "instead-instead-of-grammar-shorts",
+          "level": "SHORTS",
+          "order": 11,
+          "title": "Instead and Instead of – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/instead-instead-of-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/instead-instead-of-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "its-vs-its-grammar-shorts",
+          "level": "SHORTS",
+          "order": 12,
+          "title": "Its vs It's – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/its-vs-its-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/its-vs-its-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "last-vs-the-last-next-vs-the-next-grammar-shorts",
+          "level": "SHORTS",
+          "order": 13,
+          "title": "Last vs The last, Next vs The next – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/last-vs-the-last-next-vs-the-next-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/last-vs-the-last-next-vs-the-next-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "lay-vs-lie-grammar-shorts",
+          "level": "SHORTS",
+          "order": 14,
+          "title": "Lay vs Lie – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/lay-vs-lie-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/lay-vs-lie-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "less-vs-fewer-grammar-shorts",
+          "level": "SHORTS",
+          "order": 15,
+          "title": "Less vs Fewer – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/less-vs-fewer-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/less-vs-fewer-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "like-vs-as-grammar-shorts",
+          "level": "SHORTS",
+          "order": 16,
+          "title": "Like vs As – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/like-vs-as-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/like-vs-as-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "little-vs-a-little-few-vs-a-few-grammar-shorts",
+          "level": "SHORTS",
+          "order": 17,
+          "title": "Little vs A little, Few vs A few – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/little-vs-a-little-few-vs-a-few-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/little-vs-a-little-few-vs-a-few-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "look-vs-watch-vs-see-grammar-shorts",
+          "level": "SHORTS",
+          "order": 18,
+          "title": "Look vs Watch vs See – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/look-vs-watch-vs-see-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/look-vs-watch-vs-see-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "maybe-vs-may-be-grammar-shorts",
+          "level": "SHORTS",
+          "order": 19,
+          "title": "Maybe vs May be – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/maybe-vs-may-be-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/maybe-vs-may-be-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "never-vs-ever-grammar-shorts",
+          "level": "SHORTS",
+          "order": 20,
+          "title": "Never vs Ever – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/never-vs-ever-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/never-vs-ever-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "on-the-other-hand-vs-on-the-contrary-grammar-shorts",
+          "level": "SHORTS",
+          "order": 21,
+          "title": "On the other hand vs On the contrary – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/on-the-other-hand-vs-on-the-contrary-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/on-the-other-hand-vs-on-the-contrary-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "raise-vs-rise-grammar-shorts",
+          "level": "SHORTS",
+          "order": 22,
+          "title": "Raise vs Rise – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/raise-vs-rise-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/raise-vs-rise-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "forget-remember-to-do-vs-doing-grammar-shorts",
+          "level": "SHORTS",
+          "order": 23,
+          "title": "Remember & Forget: To Do vs Doing – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/forget-remember-to-do-vs-doing-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/forget-remember-to-do-vs-doing-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "say-vs-tell-grammar-shorts",
+          "level": "SHORTS",
+          "order": 24,
+          "title": "Say vs Tell – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/say-vs-tell-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/say-vs-tell-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "try-to-do-vs-try-doing-grammar-shorts",
+          "level": "SHORTS",
+          "order": 25,
+          "title": "Try to do vs Try doing – Grammar shorts",
+          "url": "https://test-english.com/grammar-points/shorts/try-to-do-vs-try-doing-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/try-to-do-vs-try-doing-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "until-vs-by-grammar-shorts",
+          "level": "SHORTS",
+          "order": 26,
+          "title": "Until vs By – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/until-vs-by-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/until-vs-by-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "whereas-vs-while-grammar-shorts",
+          "level": "SHORTS",
+          "order": 27,
+          "title": "Whereas vs While – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/whereas-vs-while-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/whereas-vs-while-grammar-shorts/"
+            }
+          ]
+        },
+        {
+          "topic_id": "wish-vs-hope-vs-expect-grammar-shorts",
+          "level": "SHORTS",
+          "order": 28,
+          "title": "Wish vs Hope vs Expect – Grammar Shorts",
+          "url": "https://test-english.com/grammar-points/shorts/wish-vs-hope-vs-expect-grammar-shorts/",
+          "discovery_status": "partial",
+          "exercise_count": 1,
+          "exercises": [
+            {
+              "order": 1,
+              "page": 1,
+              "url": "https://test-english.com/grammar-points/shorts/wish-vs-hope-vs-expect-grammar-shorts/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

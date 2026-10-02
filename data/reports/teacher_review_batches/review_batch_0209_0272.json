@@ -1,0 +1,1559 @@
+{
+  "metadata": {
+    "batch_id": "review_batch_0209_0272",
+    "generated_at": "2026-10-01T13:10:56.650096+00:00",
+    "start_index": 209,
+    "end_index": 272,
+    "item_count": 50,
+    "status": "PREPARED",
+    "teacher_reviewed": false,
+    "queue_source": "data/reports/TASK-025_full_teacher_review_queue.json",
+    "notes": "Next 50 unreviewed questions in canonical source order (indices 209 to 272)."
+  },
+  "questions": [
+    {
+      "review_index": 209,
+      "qid": "3786",
+      "level": "A1",
+      "exercise_id": "quiz-436",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "7 I keep the money in a safe.. ⇒ Where {{gap_1}}?",
+      "adapted_text": "I store the cash in a desk drawer. ⇒ Where {{gap_1}}?",
+      "source_correct_answer": [
+        "do you keep the money"
+      ],
+      "adapted_correct_answer": [
+        "do you keep the money"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.4444,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 210,
+      "qid": "3787",
+      "level": "A1",
+      "exercise_id": "quiz-436",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "8 I'm tired because it's very late. ⇒ Why {{gap_1}}?",
+      "adapted_text": "You look exhausted after the long walk. ⇒ Why {{gap_1}}?",
+      "source_correct_answer": [
+        "are you tired"
+      ],
+      "adapted_correct_answer": [
+        "are you tired"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0833,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 211,
+      "qid": "3788",
+      "level": "A1",
+      "exercise_id": "quiz-436",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "9 My doctor is Dr Stevens. ⇒ Who {{gap_1}}?",
+      "adapted_text": "9 Dr. Miller treats my family. ⇒ Who {{gap_1}}?",
+      "source_correct_answer": [
+        "is your doctor"
+      ],
+      "adapted_correct_answer": [
+        "is your doctor"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.4286,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 212,
+      "qid": "3789",
+      "level": "A1",
+      "exercise_id": "quiz-436",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "10 I clean the windows with water and vinegar. ⇒ How {{gap_1}}?",
+      "adapted_text": "10 I polish glass surfaces using a microfibre cloth. ⇒ How {{gap_1}}?",
+      "source_correct_answer": [
+        "do you clean the windows"
+      ],
+      "adapted_correct_answer": [
+        "do you clean the windows"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1538,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 213,
+      "qid": "3790",
+      "level": "A1",
+      "exercise_id": "quiz-437",
+      "exercise_title": "Exercise 4",
+      "response_model": "gap",
+      "source_text": "1 He is sometimes late for class. ⇒ {{gap_1}}?",
+      "adapted_text": "The student is rarely tardy for school. ⇒ {{gap_1}}?",
+      "source_correct_answer": [
+        "How often is he late for class"
+      ],
+      "adapted_correct_answer": [
+        "How often is he late for class"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 214,
+      "qid": "3791",
+      "level": "A1",
+      "exercise_id": "quiz-437",
+      "exercise_title": "Exercise 4",
+      "response_model": "gap",
+      "source_text": "2 I go to the mountains in summer. ⇒ {{gap_1}}?",
+      "adapted_text": "We visit the beach during July. ⇒ {{gap_1}}?",
+      "source_correct_answer": [
+        "When do you go to the mountains"
+      ],
+      "adapted_correct_answer": [
+        "When do you go to the mountains"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 215,
+      "qid": "3795",
+      "level": "A1",
+      "exercise_id": "quiz-437",
+      "exercise_title": "Exercise 4",
+      "response_model": "gap",
+      "source_text": "3 I go to the mountains in summer. ⇒ {{gap_1}}?",
+      "adapted_text": "I head up to the peaks in July. ⇒ {{gap_1}}?",
+      "source_correct_answer": [
+        "When do you go to the mountains"
+      ],
+      "adapted_correct_answer": [
+        "When do you go to the mountains"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2857,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 217,
+      "qid": "3793",
+      "level": "A1",
+      "exercise_id": "quiz-437",
+      "exercise_title": "Exercise 4",
+      "response_model": "gap",
+      "source_text": "5 I am very tired after work. ⇒ {{gap_1}}?",
+      "adapted_text": "I feel exhausted when I finish my shift. ⇒ {{gap_1}}?",
+      "source_correct_answer": [
+        "How are you after work"
+      ],
+      "adapted_correct_answer": [
+        "How are you after work"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 218,
+      "qid": "3794",
+      "level": "A1",
+      "exercise_id": "quiz-437",
+      "exercise_title": "Exercise 4",
+      "response_model": "gap",
+      "source_text": "6 I am very tired after work. ⇒ {{gap_1}}?",
+      "adapted_text": "6 I feel exhausted when my shift ends. ⇒ {{gap_1}}?",
+      "source_correct_answer": [
+        "How are you after work"
+      ],
+      "adapted_correct_answer": [
+        "How are you after work"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 219,
+      "qid": "3796",
+      "level": "A1",
+      "exercise_id": "quiz-437",
+      "exercise_title": "Exercise 4",
+      "response_model": "gap",
+      "source_text": "7 Jerry is 20 years old. {{gap_1}}?",
+      "adapted_text": "7 My cousin Jerry turned two decades this month. {{gap_1}}?",
+      "source_correct_answer": [
+        "How old is Jerry"
+      ],
+      "adapted_correct_answer": [
+        "How old is Jerry"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 220,
+      "qid": "3797",
+      "level": "A1",
+      "exercise_id": "quiz-437",
+      "exercise_title": "Exercise 4",
+      "response_model": "gap",
+      "source_text": "8 He sees Sarah every weekend. ⇒ {{gap_1}}?",
+      "adapted_text": "John meets Sarah twice a week. ⇒ {{gap_1}}?",
+      "source_correct_answer": [
+        "How often does he see Sarah"
+      ],
+      "adapted_correct_answer": [
+        "How often does he see Sarah"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 222,
+      "qid": "3799",
+      "level": "A1",
+      "exercise_id": "quiz-437",
+      "exercise_title": "Exercise 4",
+      "response_model": "gap",
+      "source_text": "10 I call her because I love her. ⇒ {{gap_1}}?",
+      "adapted_text": "10 I phone my sister every evening since she lives far away. ⇒ {{gap_1}}?",
+      "source_correct_answer": [
+        "Why do you call her"
+      ],
+      "adapted_correct_answer": [
+        "Why do you call her"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0769,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 233,
+      "qid": "3900",
+      "level": "A1",
+      "exercise_id": "quiz-448",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "1 Tom _____ to the radio.",
+      "adapted_text": "Anna _____ podcasts during work.",
+      "source_correct_answer": [
+        "never listens"
+      ],
+      "adapted_correct_answer": [
+        "never listens"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "never listens",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "doesn't never listen",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "never doesn't listen",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "never listens",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "doesn't never listen",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "never doesn't listen",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 234,
+      "qid": "3901",
+      "level": "A1",
+      "exercise_id": "quiz-448",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "2 _____ in class on time?",
+      "adapted_text": "_____ at the library on Mondays?",
+      "source_correct_answer": [
+        "Is your teacher always"
+      ],
+      "adapted_correct_answer": [
+        "Is your brother always"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Is always your teacher",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Is your teacher always",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "Always is your teacher",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Is always your brother",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Is your brother always",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "Always is your brother",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.125,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 235,
+      "qid": "3902",
+      "level": "A1",
+      "exercise_id": "quiz-448",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "3 He _____ his homework.",
+      "adapted_text": "She _____ her room.",
+      "source_correct_answer": [
+        "hardly ever does"
+      ],
+      "adapted_correct_answer": [
+        "hardly ever cleans"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "hardly ever doesn't do",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "doesn't hardly ever do",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "hardly ever does",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "hardly ever doesn't clean",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "doesn't hardly ever clean",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "hardly ever cleans",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 236,
+      "qid": "3903",
+      "level": "A1",
+      "exercise_id": "quiz-448",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "4 He _____ to class.",
+      "adapted_text": "She _____ to the gym on weekends.",
+      "source_correct_answer": [
+        "doesn't always go"
+      ],
+      "adapted_correct_answer": [
+        "doesn't always go"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "doesn't always go",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "always doesn't go",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "doesn't go always",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "doesn't always go",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "always doesn't go",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "doesn't go always",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.125,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 237,
+      "qid": "3904",
+      "level": "A1",
+      "exercise_id": "quiz-448",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "5 Alice and Tom _____.",
+      "adapted_text": "Ben and Mia _____.",
+      "source_correct_answer": [
+        "cook dinner every day"
+      ],
+      "adapted_correct_answer": [
+        "play games every day"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "cook every day dinner",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "every day cook diner",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "cook dinner every day",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "play every day games",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "every day play games",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "play games every day",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 238,
+      "qid": "3905",
+      "level": "A1",
+      "exercise_id": "quiz-448",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "6 She _____ during dinner.",
+      "adapted_text": "They _____ at work.",
+      "source_correct_answer": [
+        "hardly ever has wine"
+      ],
+      "adapted_correct_answer": [
+        "hardly ever drink coffee"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "has hardly ever wine",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "hardly ever has wine",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "has wine hardly ever",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "drink hardly ever coffee",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "hardly ever drink coffee",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "drink coffee hardly ever",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 239,
+      "qid": "3906",
+      "level": "A1",
+      "exercise_id": "quiz-448",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "7 What time _____ at the weekend?",
+      "adapted_text": "When _____ dinner on Sundays?",
+      "source_correct_answer": [
+        "do you usually get up"
+      ],
+      "adapted_correct_answer": [
+        "do you usually eat"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "do you usually get up",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "usually do you get up",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "usually you get up",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "do you usually eat",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "usually do you eat",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "usually you eat",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 240,
+      "qid": "3907",
+      "level": "A1",
+      "exercise_id": "quiz-448",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "8 We _____ our mistakes.",
+      "adapted_text": "They _____ their plans.",
+      "source_correct_answer": [
+        "don't often admit"
+      ],
+      "adapted_correct_answer": [
+        "don't often admit"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "don't often admit",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "often don't admit",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "don't admit often",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "don't often admit",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "often don't admit",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "don't admit often",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 241,
+      "qid": "3908",
+      "level": "A1",
+      "exercise_id": "quiz-448",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "9 Mark _____.",
+      "adapted_text": "9 Sarah _____ at night.",
+      "source_correct_answer": [
+        "is always busy"
+      ],
+      "adapted_correct_answer": [
+        "is always late"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "always is busy",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "is busy always",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "is always busy",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "always is late",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "is late always",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "is always late",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 242,
+      "qid": "3909",
+      "level": "A1",
+      "exercise_id": "quiz-448",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "10 My brother _____.",
+      "adapted_text": "His sister _____.",
+      "source_correct_answer": [
+        "sometimes reads comics"
+      ],
+      "adapted_correct_answer": [
+        "sometimes plays tennis"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "reads comics sometimes",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "sometimes reads comics",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "reads sometimes comics",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "plays tennis sometimes",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "sometimes plays tennis",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "plays sometimes tennis",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 243,
+      "qid": "3910",
+      "level": "A1",
+      "exercise_id": "quiz-449",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "1 She has a shower in the morning. (always) ⇒ She {{gap_1}}.",
+      "adapted_text": "Sarah cleans her bedroom before noon. (always) ⇒ Sarah {{gap_1}}.",
+      "source_correct_answer": [
+        "always has a shower in the morning"
+      ],
+      "adapted_correct_answer": [
+        "always has a shower in the morning"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 244,
+      "qid": "3911",
+      "level": "A1",
+      "exercise_id": "quiz-449",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "2 Where do you go running? (usually) ⇒ Where {{gap_1}}?",
+      "adapted_text": "How often do you exercise at the gym? (usually) ⇒ How {{gap_1}}?",
+      "source_correct_answer": [
+        "do you usually go running"
+      ],
+      "adapted_correct_answer": [
+        "do you usually go running"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 245,
+      "qid": "3912",
+      "level": "A1",
+      "exercise_id": "quiz-449",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "3 She is full of energy. (always) ⇒ She {{gap_1}}.",
+      "adapted_text": "The battery has high power. (always) ⇒ The battery {{gap_1}}.",
+      "source_correct_answer": [
+        "is always full of energy"
+      ],
+      "adapted_correct_answer": [
+        "is always full of energy"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 247,
+      "qid": "3918",
+      "level": "A1",
+      "exercise_id": "quiz-449",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "5 I listen to the radio. (every night) ⇒ I {{gap_1}}.",
+      "adapted_text": "At bedtime, I enjoy music. (every night) ⇒ I {{gap_1}}.",
+      "source_correct_answer": [
+        "listen to the radio every night"
+      ],
+      "adapted_correct_answer": [
+        "listen to the radio every night"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 248,
+      "qid": "3913",
+      "level": "A1",
+      "exercise_id": "quiz-449",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "6 He is strict with his students. (sometimes) ⇒ He {{gap_1}}.",
+      "adapted_text": "The coach is firm with players on the field. (sometimes) ⇒ The coach {{gap_1}}.",
+      "source_correct_answer": [
+        "is sometimes strict with his students."
+      ],
+      "adapted_correct_answer": [
+        "is sometimes strict with his students."
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 249,
+      "qid": "3915",
+      "level": "A1",
+      "exercise_id": "quiz-449",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "7 I don't ask for help when I need it. (usually) ⇒ I {{gap_1}} when I need it.",
+      "adapted_text": "My brothers {{gap_1}} from our parents.",
+      "source_correct_answer": [
+        "don't usually ask for help"
+      ],
+      "adapted_correct_answer": [
+        "don't usually ask for help"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 250,
+      "qid": "3916",
+      "level": "A1",
+      "exercise_id": "quiz-449",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "8 He is late for school. (never) ⇒ He {{gap_1}}.",
+      "adapted_text": "The punctual employee arrives on time for work. (never) ⇒ My boss {{gap_1}}.",
+      "source_correct_answer": [
+        "is never late for school"
+      ],
+      "adapted_correct_answer": [
+        "is never late for school"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 251,
+      "qid": "3917",
+      "level": "A1",
+      "exercise_id": "quiz-449",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "9 You make mistakes. (often) ⇒ You {{gap_1}}.",
+      "adapted_text": "When practicing new piano pieces, you certainly make careless mistakes. With (often): As a beginner pianist, you {{gap_1}} until your fingers adapt.",
+      "source_correct_answer": [
+        "often make mistakes"
+      ],
+      "adapted_correct_answer": [
+        "often make mistakes"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adverbs of frequency with present simple",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0588,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 253,
+      "qid": "4031",
+      "level": "A1",
+      "exercise_id": "quiz-462",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "1 What time can I call {{gap_1}}?",
+      "adapted_text": "When will you visit {{gap_1}} at the hospital?",
+      "source_correct_answer": [
+        "him"
+      ],
+      "adapted_correct_answer": [
+        "him"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 254,
+      "qid": "4035",
+      "level": "A1",
+      "exercise_id": "quiz-462",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "2 {{gap_1}} never listens to {{gap_2}}.",
+      "adapted_text": "{{gap_1}} often brings coffee for {{gap_2}} in the morning.",
+      "source_correct_answer": [
+        "He",
+        "us"
+      ],
+      "adapted_correct_answer": [
+        "He",
+        "us"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 255,
+      "qid": "4036",
+      "level": "A1",
+      "exercise_id": "quiz-462",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "3 'Do you like my new glasses?' 'Yes, {{gap_1}} love {{gap_2}}.",
+      "adapted_text": "'Did you see these books?' 'Yes, {{gap_1}} bought {{gap_2}} online.'",
+      "source_correct_answer": [
+        "I",
+        "them"
+      ],
+      "adapted_correct_answer": [
+        "I",
+        "them"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1429,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 256,
+      "qid": "4037",
+      "level": "A1",
+      "exercise_id": "quiz-462",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "4 Tom loves his rabbits. {{gap_1}} plays with {{gap_2}} in the garden every day.",
+      "adapted_text": "David bought new books. {{gap_1}} reads {{gap_2}} before going to sleep.",
+      "source_correct_answer": [
+        "He",
+        "them"
+      ],
+      "adapted_correct_answer": [
+        "He",
+        "them"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 257,
+      "qid": "4038",
+      "level": "A1",
+      "exercise_id": "quiz-462",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "5 Please, call {{gap_1}} soon; {{gap_2}} am very worried.",
+      "adapted_text": "Kindly text {{gap_1}} later today; {{gap_2}} am eager to hear the news.",
+      "source_correct_answer": [
+        "me",
+        "I"
+      ],
+      "adapted_correct_answer": [
+        "me",
+        "I"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0667,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 258,
+      "qid": "4039",
+      "level": "A1",
+      "exercise_id": "quiz-462",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "6 Look, Sara and Kevin. Can you see {{gap_1}}?",
+      "adapted_text": "Where are the keys? I cannot find {{gap_1}}.",
+      "source_correct_answer": [
+        "them"
+      ],
+      "adapted_correct_answer": [
+        "them"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 259,
+      "qid": "4040",
+      "level": "A1",
+      "exercise_id": "quiz-462",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "7 Tell John that {{gap_1}} can meet {{gap_2}} at the canteen.",
+      "adapted_text": "Inform Mark that {{gap_1}} should join {{gap_2}} near the library.",
+      "source_correct_answer": [
+        "he",
+        "us"
+      ],
+      "adapted_correct_answer": [
+        "he",
+        "us"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1429,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 260,
+      "qid": "4041",
+      "level": "A1",
+      "exercise_id": "quiz-462",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "8 I like your earrings. Can {{gap_1}} see {{gap_2}}?",
+      "adapted_text": "These books look interesting. Could {{gap_1}} borrow {{gap_2}}?",
+      "source_correct_answer": [
+        "I",
+        "them"
+      ],
+      "adapted_correct_answer": [
+        "I",
+        "them"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 261,
+      "qid": "4044",
+      "level": "A1",
+      "exercise_id": "quiz-462",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "9 Look at that man. Who is {{gap_1}}?",
+      "adapted_text": "Notice the new teacher standing over there. Where is {{gap_1}} from?",
+      "source_correct_answer": [
+        "he"
+      ],
+      "adapted_correct_answer": [
+        "he"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0667,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 262,
+      "qid": "4045",
+      "level": "A1",
+      "exercise_id": "quiz-462",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "10 That man over there is David. I work with {{gap_1}}.",
+      "adapted_text": "Our new department manager is Mr. Harris. We invited {{gap_1}} to the company dinner.",
+      "source_correct_answer": [
+        "him"
+      ],
+      "adapted_correct_answer": [
+        "him"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0476,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 263,
+      "qid": "4032",
+      "level": "A1",
+      "exercise_id": "quiz-463",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "1 I can't find my keys. ⇒ I can't find {{gap_1}}.",
+      "adapted_text": "Sarah bought some fresh apples, but she left {{gap_1}} on the kitchen counter.",
+      "source_correct_answer": [
+        "them"
+      ],
+      "adapted_correct_answer": [
+        "them"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 264,
+      "qid": "4048",
+      "level": "A1",
+      "exercise_id": "quiz-463",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "2 Rachel helps the students. ⇒ {{gap_1}} helps {{gap_2}}.",
+      "adapted_text": "Laura knows the new neighbors. ⇒ {{gap_1}} knows {{gap_2}}.",
+      "source_correct_answer": [
+        "She",
+        "them"
+      ],
+      "adapted_correct_answer": [
+        "She",
+        "them"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.125,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 265,
+      "qid": "4056",
+      "level": "A1",
+      "exercise_id": "quiz-463",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "3 I need to tell John the truth. ⇒ I need to tell {{gap_1}} the truth.",
+      "adapted_text": "We should call David now. ⇒ We should call {{gap_1}} now.",
+      "source_correct_answer": [
+        "him"
+      ],
+      "adapted_correct_answer": [
+        "him"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 266,
+      "qid": "4053",
+      "level": "A1",
+      "exercise_id": "quiz-463",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "4 My dad and I love chocolate. ⇒ {{gap_1}} love {{gap_2}}.",
+      "adapted_text": "My brother and I like basketball. ⇒ {{gap_1}} like {{gap_2}}.",
+      "source_correct_answer": [
+        "We",
+        "it"
+      ],
+      "adapted_correct_answer": [
+        "We",
+        "it"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.3333,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 267,
+      "qid": "4054",
+      "level": "A1",
+      "exercise_id": "quiz-463",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "5 Suzan and Tom call their daughter every day. ⇒ {{gap_1}} call {{gap_2}} every day.",
+      "adapted_text": "Lisa and Mark visit their aunt every Sunday. ⇒ {{gap_1}} visit {{gap_2}} every Sunday.",
+      "source_correct_answer": [
+        "They",
+        "her"
+      ],
+      "adapted_correct_answer": [
+        "They",
+        "her"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2308,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 268,
+      "qid": "4058",
+      "level": "A1",
+      "exercise_id": "quiz-463",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "6 I like cooking for my children. ⇒ I like cooking for {{gap_1}}.",
+      "adapted_text": "She bought fresh apples for her students. ⇒ She bought fresh apples for {{gap_1}}.",
+      "source_correct_answer": [
+        "them"
+      ],
+      "adapted_correct_answer": [
+        "them"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0833,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 269,
+      "qid": "4055",
+      "level": "A1",
+      "exercise_id": "quiz-463",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "7 Give the documents to Carmen. ⇒ Give {{gap_1}} to {{gap_2}}.",
+      "adapted_text": "Pass the books to Maria. ⇒ Pass {{gap_1}} to {{gap_2}}.",
+      "source_correct_answer": [
+        "them",
+        "her"
+      ],
+      "adapted_correct_answer": [
+        "them",
+        "her"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.25,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 270,
+      "qid": "4057",
+      "level": "A1",
+      "exercise_id": "quiz-463",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "8 Tom often plays football with my friends and me. ⇒ {{gap_1}} often plays football with {{gap_2}}.",
+      "adapted_text": "David usually cooks dinner for my family and me. ⇒ {{gap_1}} usually cooks dinner for {{gap_2}}.",
+      "source_correct_answer": [
+        "He",
+        "us"
+      ],
+      "adapted_correct_answer": [
+        "He",
+        "us"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 271,
+      "qid": "4060",
+      "level": "A1",
+      "exercise_id": "quiz-463",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "9 How old is Emma? ⇒ How old is {{gap_1}}?",
+      "adapted_text": "Where does Olivia live? ⇒ {{gap_1}} lives near the park.",
+      "source_correct_answer": [
+        "she"
+      ],
+      "adapted_correct_answer": [
+        "she"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 272,
+      "qid": "4059",
+      "level": "A1",
+      "exercise_id": "quiz-463",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "10 I need the scissors to cut the paper. ⇒ I need {{gap_1}} to cut {{gap_2}}.",
+      "adapted_text": "Bring the keys to open the gate. ⇒ Bring {{gap_1}} to open {{gap_2}}.",
+      "source_correct_answer": [
+        "them",
+        "it"
+      ],
+      "adapted_correct_answer": [
+        "them",
+        "it"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1818,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    }
+  ]
+}

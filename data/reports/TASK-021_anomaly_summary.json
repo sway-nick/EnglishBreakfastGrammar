@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "audit_task": "TASK-021",
+    "timestamp": "2026-10-01T11:51:06.298466+00:00",
+    "total_records_analyzed": 59
+  },
+  "category_counts": {
+    "category_a_choice_gap_syntax": 41,
+    "category_b_syntactic_edge_cases": 4,
+    "category_c_collision_individual_records": 7,
+    "category_c_collision_pair_records": 7,
+    "total_anomaly_records": 59
+  },
+  "classification_breakdown": {
+    "category_a": {
+      "A_REAL_PRODUCTION_FORMAT_ERROR": 41,
+      "B_VALID_INTERNAL_REPRESENTATION_FALSE_POSITIVE": 0,
+      "C_UNCERTAIN": 0
+    },
+    "category_b": {
+      "A_REAL_GRAMMAR_ERROR": 0,
+      "B_VALID_ADAPTATION_FALSE_POSITIVE": 3,
+      "C_UNCERTAIN": 1
+    },
+    "category_c": {
+      "A_ACCEPTABLE_SHARED_GRAMMAR_FRAME": 1,
+      "B_ACCEPTABLE_FORMULAIC_PHRASE": 2,
+      "C_SUSPICIOUS_DUPLICATE": 2,
+      "D_GENUINE_DUPLICATE": 2,
+      "E_UNCERTAIN": 0
+    }
+  },
+  "database_immutability_verification": {
+    "staging_hash": "3fd7250ecbd3956fb035f97b55fc70c796e465b8fb7c3e3601ccdc5645898ded",
+    "matches_baseline": true,
+    "adaptation_db_counts": {
+      "questions_validated": 5796,
+      "questions_rejected": 0,
+      "questions_pending": 0
+    }
+  }
+}

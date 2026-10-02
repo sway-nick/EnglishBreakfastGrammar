@@ -1,0 +1,1083 @@
+{
+  "id": "possessive_adjectives_and_subject_pronouns_i_my_you_your_etc",
+  "title": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+  "level": "A1",
+  "description": "",
+  "status": "parsed",
+  "order": 3,
+  "version": 1,
+  "exercises": [
+    {
+      "id": "quiz-421",
+      "lessonId": "possessive_adjectives_and_subject_pronouns_i_my_you_your_etc",
+      "order": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct subject pronouns or possessive adjectives to complete the sentences.",
+      "status": "draft",
+      "questions": [
+        {
+          "id": "3636",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Harry is {{gap1}} friend. {{gap2}} has a nice house.",
+          "gaps": [
+            {
+              "id": "gap_3636_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [
+                {
+                  "id": "gap_3636_1_1",
+                  "order": 1,
+                  "value": "my",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3636_1_2",
+                  "order": 2,
+                  "value": "I",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            },
+            {
+              "id": "gap_3636_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "options": [
+                {
+                  "id": "gap_3636_2_1",
+                  "order": 1,
+                  "value": "His",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3636_2_2",
+                  "order": 2,
+                  "value": "He",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3637",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 {{gap1}} are very happy with {{gap2}} new dog.",
+          "gaps": [
+            {
+              "id": "gap_3637_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [
+                {
+                  "id": "gap_3637_1_1",
+                  "order": 1,
+                  "value": "They",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3637_1_2",
+                  "order": 2,
+                  "value": "Their",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            },
+            {
+              "id": "gap_3637_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "options": [
+                {
+                  "id": "gap_3637_2_1",
+                  "order": 1,
+                  "value": "they",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3637_2_2",
+                  "order": 2,
+                  "value": "their",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3638",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 We love {{gap1}} little dog.",
+          "gaps": [
+            {
+              "id": "gap_3638_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [
+                {
+                  "id": "gap_3638_1_1",
+                  "order": 1,
+                  "value": "we",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3638_1_2",
+                  "order": 2,
+                  "value": "our",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3639",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 {{gap1}} wants {{gap2}} breakfast.",
+          "gaps": [
+            {
+              "id": "gap_3639_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [
+                {
+                  "id": "gap_3639_1_1",
+                  "order": 1,
+                  "value": "He",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3639_1_2",
+                  "order": 2,
+                  "value": "His",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            },
+            {
+              "id": "gap_3639_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "options": [
+                {
+                  "id": "gap_3639_2_1",
+                  "order": 1,
+                  "value": "he",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3639_2_2",
+                  "order": 2,
+                  "value": "his",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3640",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 We want to see {{gap1}} children.",
+          "gaps": [
+            {
+              "id": "gap_3640_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [
+                {
+                  "id": "gap_3640_1_1",
+                  "order": 1,
+                  "value": "our",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3640_1_2",
+                  "order": 2,
+                  "value": "ours",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3641",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Scotland is famous for {{gap1}} rainy weather.",
+          "gaps": [
+            {
+              "id": "gap_3641_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [
+                {
+                  "id": "gap_3641_1_1",
+                  "order": 1,
+                  "value": "its",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3641_1_2",
+                  "order": 2,
+                  "value": "it's",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3642",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Susan lives on {{gap1}} street. {{gap2}} house is very near.",
+          "gaps": [
+            {
+              "id": "gap_3642_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [
+                {
+                  "id": "gap_3642_1_1",
+                  "order": 1,
+                  "value": "my",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3642_1_2",
+                  "order": 2,
+                  "value": "I",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            },
+            {
+              "id": "gap_3642_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "options": [
+                {
+                  "id": "gap_3642_2_1",
+                  "order": 1,
+                  "value": "His",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3642_2_2",
+                  "order": 2,
+                  "value": "Her",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3643",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 'What are those?' ' {{gap1}} postcards.'",
+          "gaps": [
+            {
+              "id": "gap_3643_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [
+                {
+                  "id": "gap_3643_1_1",
+                  "order": 1,
+                  "value": "They are",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3643_1_2",
+                  "order": 2,
+                  "value": "It is",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3644",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I like this place and {{gap1}} special atmosphere.",
+          "gaps": [
+            {
+              "id": "gap_3644_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [
+                {
+                  "id": "gap_3644_1_1",
+                  "order": 1,
+                  "value": "its",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3644_1_2",
+                  "order": 2,
+                  "value": "it's",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3645",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I love this place. {{gap1}} very special.",
+          "gaps": [
+            {
+              "id": "gap_3645_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [
+                {
+                  "id": "gap_3645_1_1",
+                  "order": 1,
+                  "value": "Its",
+                  "is_correct": null,
+                  "feedback": ""
+                },
+                {
+                  "id": "gap_3645_1_2",
+                  "order": 2,
+                  "value": "It's",
+                  "is_correct": null,
+                  "feedback": ""
+                }
+              ],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        }
+      ],
+      "source": {
+        "source_file": "",
+        "page": 1
+      }
+    },
+    {
+      "id": "quiz-422",
+      "lessonId": "possessive_adjectives_and_subject_pronouns_i_my_you_your_etc",
+      "order": 1,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct subject pronouns or possessive adjectives to complete the following sentences.",
+      "status": "draft",
+      "questions": [
+        {
+          "id": "3646",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Go to _____ office.",
+          "gaps": [],
+          "options": [
+            {
+              "id": "3646_1",
+              "order": 1,
+              "value": "5763",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3646_2",
+              "order": 2,
+              "value": "5764",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3646_3",
+              "order": 3,
+              "value": "5765",
+              "is_correct": null,
+              "feedback": ""
+            }
+          ],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3657",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 _____ six o'clock. Let's go home.",
+          "gaps": [],
+          "options": [
+            {
+              "id": "3657_1",
+              "order": 1,
+              "value": "5766",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3657_2",
+              "order": 2,
+              "value": "5767",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3657_3",
+              "order": 3,
+              "value": "5768",
+              "is_correct": null,
+              "feedback": ""
+            }
+          ],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3658",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Our products are famous for _____ durability.",
+          "gaps": [],
+          "options": [
+            {
+              "id": "3658_1",
+              "order": 1,
+              "value": "5769",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3658_2",
+              "order": 2,
+              "value": "5770",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3658_3",
+              "order": 3,
+              "value": "5771",
+              "is_correct": null,
+              "feedback": ""
+            }
+          ],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3659",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I'm very happy about _____ marks.",
+          "gaps": [],
+          "options": [
+            {
+              "id": "3659_1",
+              "order": 1,
+              "value": "5772",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3659_2",
+              "order": 2,
+              "value": "5773",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3659_3",
+              "order": 3,
+              "value": "5774",
+              "is_correct": null,
+              "feedback": ""
+            }
+          ],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3660",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 Valeria is from Italy, but _____ 's in Ireland now.",
+          "gaps": [],
+          "options": [
+            {
+              "id": "3660_1",
+              "order": 1,
+              "value": "5775",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3660_2",
+              "order": 2,
+              "value": "5776",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3660_3",
+              "order": 3,
+              "value": "5777",
+              "is_correct": null,
+              "feedback": ""
+            }
+          ],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3661",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 These are my friends. _____ from Finland.",
+          "gaps": [],
+          "options": [
+            {
+              "id": "3661_1",
+              "order": 1,
+              "value": "5778",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3661_2",
+              "order": 2,
+              "value": "5779",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3661_3",
+              "order": 3,
+              "value": "5780",
+              "is_correct": null,
+              "feedback": ""
+            }
+          ],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3662",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 The apartment has _____ own private garden.",
+          "gaps": [],
+          "options": [
+            {
+              "id": "3662_1",
+              "order": 1,
+              "value": "5781",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3662_2",
+              "order": 2,
+              "value": "5782",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3662_3",
+              "order": 3,
+              "value": "5783",
+              "is_correct": null,
+              "feedback": ""
+            }
+          ],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3663",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Are _____ umbrellas here?",
+          "gaps": [],
+          "options": [
+            {
+              "id": "3663_1",
+              "order": 1,
+              "value": "5784",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3663_2",
+              "order": 2,
+              "value": "5785",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3663_3",
+              "order": 3,
+              "value": "5786",
+              "is_correct": null,
+              "feedback": ""
+            }
+          ],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3664",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Mark and Linda are in _____ caravan.",
+          "gaps": [],
+          "options": [
+            {
+              "id": "3664_1",
+              "order": 1,
+              "value": "5787",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3664_2",
+              "order": 2,
+              "value": "5788",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3664_3",
+              "order": 3,
+              "value": "5789",
+              "is_correct": null,
+              "feedback": ""
+            }
+          ],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3665",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I need _____ tools, please.",
+          "gaps": [],
+          "options": [
+            {
+              "id": "3665_1",
+              "order": 1,
+              "value": "5790",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3665_2",
+              "order": 2,
+              "value": "5791",
+              "is_correct": null,
+              "feedback": ""
+            },
+            {
+              "id": "3665_3",
+              "order": 3,
+              "value": "5792",
+              "is_correct": null,
+              "feedback": ""
+            }
+          ],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        }
+      ],
+      "source": {
+        "source_file": "",
+        "page": 2
+      }
+    },
+    {
+      "id": "quiz-423",
+      "lessonId": "possessive_adjectives_and_subject_pronouns_i_my_you_your_etc",
+      "order": 1,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the correct possessive adjectives: my, your, his, her, its, our, their.",
+      "status": "draft",
+      "questions": [
+        {
+          "id": "3647",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Sally is in {{gap1}} room.",
+          "gaps": [
+            {
+              "id": "gap_3647_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3648",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Paul and Benet always help {{gap1}} friends.",
+          "gaps": [
+            {
+              "id": "gap_3648_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3649",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 We live with {{gap1}} parents.",
+          "gaps": [
+            {
+              "id": "gap_3649_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3650",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Is that {{gap1}} hat?",
+          "gaps": [
+            {
+              "id": "gap_3650_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3651",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 The police officers don't have {{gap1}} guns.",
+          "gaps": [
+            {
+              "id": "gap_3651_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3655",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 The best part of this car is {{gap1}} price.",
+          "gaps": [
+            {
+              "id": "gap_3655_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3652",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Amanda lives with {{gap1}} parents.",
+          "gaps": [
+            {
+              "id": "gap_3652_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3653",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 I don't like {{gap1}} new job.",
+          "gaps": [
+            {
+              "id": "gap_3653_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3654",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 These shoes are famous for {{gap1}} comfort.",
+          "gaps": [
+            {
+              "id": "gap_3654_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        },
+        {
+          "id": "3656",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Thomas is in {{gap1}} office.",
+          "gaps": [
+            {
+              "id": "gap_3656_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "options": [],
+              "correct_answer": null,
+              "accepted_answers": [],
+              "review_required": false
+            }
+          ],
+          "options": [],
+          "hint": "",
+          "feedback": "",
+          "explanation": "",
+          "source": null
+        }
+      ],
+      "source": {
+        "source_file": "",
+        "page": 3
+      }
+    }
+  ],
+  "source": {
+    "provider": "Test-English",
+    "url": ""
+  }
+}

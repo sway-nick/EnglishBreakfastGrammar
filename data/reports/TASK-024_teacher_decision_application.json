@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "task": "TASK-024",
+    "action": "APPLY_5_TEACHER_APPROVED_CANDIDATE_DECISIONS",
+    "timestamp": "2026-10-01T12:12:43.586420+00:00",
+    "target_qids": [
+      "3068",
+      "5054",
+      "5165",
+      "7513",
+      "6742"
+    ],
+    "target_count": 5,
+    "transaction_status": "COMMITTED",
+    "reused_verifications": {
+      "full_corpus_audit": "REUSED_FROM_TASK-020",
+      "preview_gate": "REUSED_FROM_TASK-022_PASS_225_OF_225",
+      "staging_hash": "VERIFIED_3fd7250ecbd3956fb035f97b55fc70c796e465b8fb7c3e3601ccdc5645898ded",
+      "test_suites": "REUSED_FROM_TASK-022_JEST_24_OF_24_PY_40_OF_40"
+    }
+  },
+  "database_snapshot": {
+    "staging_sha256": "3fd7250ecbd3956fb035f97b55fc70c796e465b8fb7c3e3601ccdc5645898ded",
+    "adaptation_sha256_before": "2756ad757b816cf53975d0357eaa3738fa2a0f8a812ae81674e52e394c79e4cd",
+    "adaptation_sha256_after": "5101bc4690e766ffb443d48dbd6348ea142cfe3720e1aab940e57b7cbf44f60b",
+    "counts": {
+      "questions": {
+        "VALIDATED": 5796
+      },
+      "exercises": {
+        "VALIDATED": 638
+      },
+      "lessons": {
+        "VALIDATED": 225
+      }
+    }
+  },
+  "affected_scopes": {
+    "exercises": [
+      "quiz-362",
+      "quiz-591",
+      "quiz-602",
+      "quiz-782",
+      "quiz-882"
+    ],
+    "lessons": [
+      "a1_next_to_under_between_in_front_behind_etc",
+      "a1_would_like",
+      "a2_on_time_vs_in_time_at_the_end_vs_in_the_end",
+      "a2_present_perfect_or_past_simple",
+      "b1_compound_adjectives_with_numbers_a_two_day_trip"
+    ]
+  },
+  "records": [
+    {
+      "qid": "3068",
+      "worker": "Worker A",
+      "category": "SEMANTIC_COPULAR_AGREEMENT",
+      "level": "A2",
+      "exercise_id": "quiz-362",
+      "lesson_id": "a2_present_perfect_or_past_simple",
+      "response_model": "gap",
+      "old_text": "Part 1\nLEO: 1 {{gap_1}} (ever/you/hear) broadcasts by the Cambridge Baroque Quartet?\nTARA: Truly, I 2 {{gap_2}}. Which musical repertoire do they perform?\nLEO: Classical chamber works. In fact, my family 3 {{gap_3}} (see) their ensemble performing live last Friday.\nTARA: 4 {{gap_4}} (be) the auditorium acoustics satisfactory?\nLEO: Exceptionally; audiences 5 {{gap_5}} (like) each symphony.\n\nPart 2\nFELIX: At busy airport terminals, 6 {{gap_6}} (ever/you/lose) international travel documents?\nNINA: Regrettably, I 7 {{gap_7}}.\nFELIX: Along which flight corridor 8 {{gap_8}} (it/happen)?\nNINA: In Zurich; an oversized boarding envelope 9 {{gap_9}} (be) misplaced during customs transfers.\nFELIX: Afterward, what emergency procedures 10 {{gap_10}} (you/do)?",
+      "new_text": "Part 1\nLEO: 1 {{gap_1}} (ever/you/hear) broadcasts by the Cambridge Baroque Quartet?\nTARA: Truly, I 2 {{gap_2}}. Which musical repertoire do they perform?\nLEO: Classical chamber works. In fact, my family 3 {{gap_3}} (see) their ensemble performing live last Friday.\nTARA: 4 {{gap_4}} (be) the sound quality in the auditorium satisfactory?\nLEO: Exceptionally; audiences 5 {{gap_5}} (like) each symphony.\n\nPart 2\nFELIX: At busy airport terminals, 6 {{gap_6}} (ever/you/lose) international travel documents?\nNINA: Regrettably, I 7 {{gap_7}}.\nFELIX: Along which flight corridor 8 {{gap_8}} (it/happen)?\nNINA: In Zurich; an oversized boarding envelope 9 {{gap_9}} (be) misplaced during customs transfers.\nFELIX: Afterward, what emergency procedures 10 {{gap_10}} (you/do)?",
+      "answer_preserved": true,
+      "expected_answers": [
+        "Have you ever heard",
+        "haven't",
+        "saw",
+        "Was",
+        "liked",
+        "Have you ever lost",
+        "have",
+        "did it happen",
+        "was",
+        "did you do"
+      ],
+      "similarity_metrics": {
+        "jaccard_similarity": 0.2342,
+        "levenshtein_similarity": 0.3365,
+        "forbidden_shingle_detected": false,
+        "matching_shingles": [],
+        "originality_status": "VALIDATED"
+      },
+      "teacher_decision": "STATUS: NEEDS FIX -> Candidate sentence 4 replaced with teacher approved wording 'Was the sound quality in the auditorium satisfactory?'. Preserved grammar target, answer 'Was', all other 9 gaps, all answer keys, gap ordering, and response model.",
+      "validation_passed": true,
+      "validation_errors": []
+    },
+    {
+      "qid": "5054",
+      "worker": "Worker B",
+      "category": "SUSPICIOUS_DUPLICATE_CROSS_EXERCISE",
+      "level": "A1",
+      "exercise_id": "quiz-591",
+      "lesson_id": "a1_next_to_under_between_in_front_behind_etc",
+      "response_model": "gap",
+      "old_text": "The cat is hiding {{gap_1}} the sofa.",
+      "new_text": "Sophie is standing {{gap_1}} Liam in the ticket queue.",
+      "answer_preserved": true,
+      "expected_answers": [
+        "behind"
+      ],
+      "similarity_metrics": {
+        "jaccard_similarity": 0.1818,
+        "levenshtein_similarity": 0.3721,
+        "forbidden_shingle_detected": false,
+        "matching_shingles": [],
+        "originality_status": "VALIDATED"
+      },
+      "teacher_decision": "STATUS: APPROVED -> Applied approved candidate text 'Sophie is standing {{gap_1}} Liam in the ticket queue.' (Answer: 'behind'). Breaks carrier collision with QID 5038.",
+      "validation_passed": true,
+      "validation_errors": []
+    },
+    {
+      "qid": "5165",
+      "worker": "Worker C",
+      "category": "GENUINE_DUPLICATE_SAME_EXERCISE",
+      "level": "A1",
+      "exercise_id": "quiz-602",
+      "lesson_id": "a1_would_like",
+      "response_model": "single_choice",
+      "old_text": "They _____ listening to music in the evening.",
+      "new_text": "We _____ reading novels in the park on sunny afternoons.",
+      "answer_preserved": true,
+      "expected_answers": [
+        "like"
+      ],
+      "similarity_metrics": {
+        "jaccard_similarity": 0.0769,
+        "levenshtein_similarity": 0.2857,
+        "forbidden_shingle_detected": false,
+        "matching_shingles": [],
+        "originality_status": "VALIDATED"
+      },
+      "teacher_decision": "STATUS: APPROVED -> Applied approved candidate text 'We _____ reading novels in the park on sunny afternoons.' (Answer: 'like'). Breaks duplicate carrier with QID 5160. Preserved original options exactly.",
+      "validation_passed": true,
+      "validation_errors": []
+    },
+    {
+      "qid": "7513",
+      "worker": "Worker D",
+      "category": "SUSPICIOUS_DUPLICATE_CROSS_EXERCISE",
+      "level": "A2",
+      "exercise_id": "quiz-882",
+      "lesson_id": "a2_on_time_vs_in_time_at_the_end_vs_in_the_end",
+      "response_model": "gap",
+      "old_text": "We arrived at the station {{gap_1}} to catch the last train.",
+      "new_text": "The technician finished repairing the laptop {{gap_1}} for my online presentation.",
+      "answer_preserved": true,
+      "expected_answers": [
+        "in time"
+      ],
+      "similarity_metrics": {
+        "jaccard_similarity": 0.1429,
+        "levenshtein_similarity": 0.2958,
+        "forbidden_shingle_detected": false,
+        "matching_shingles": [],
+        "originality_status": "VALIDATED"
+      },
+      "teacher_decision": "STATUS: APPROVED -> Applied approved candidate text 'The technician finished repairing the laptop {{gap_1}} for my online presentation.' (Answer: 'in time'). Breaks carrier collision with QID 7493.",
+      "validation_passed": true,
+      "validation_errors": []
+    },
+    {
+      "qid": "6742",
+      "worker": "Worker E",
+      "category": "GENUINE_DUPLICATE_SAME_EXERCISE",
+      "level": "B1",
+      "exercise_id": "quiz-782",
+      "lesson_id": "b1_compound_adjectives_with_numbers_a_two_day_trip",
+      "response_model": "single_choice",
+      "old_text": "They completed a _____ hike through the national park.",
+      "new_text": "Engineers constructed a _____ tunnel beneath the Alpine ridge.",
+      "answer_preserved": true,
+      "expected_answers": [
+        "50-kilometre"
+      ],
+      "similarity_metrics": {
+        "jaccard_similarity": 0.2,
+        "levenshtein_similarity": 0.3281,
+        "forbidden_shingle_detected": false,
+        "matching_shingles": [],
+        "originality_status": "VALIDATED"
+      },
+      "teacher_decision": "STATUS: APPROVED -> Applied approved candidate text 'Engineers constructed a _____ tunnel beneath the Alpine ridge.' (Answer: '50-kilometre'). Breaks duplicate carrier with QID 6739. Preserved original options exactly.",
+      "validation_passed": true,
+      "validation_errors": []
+    }
+  ]
+}

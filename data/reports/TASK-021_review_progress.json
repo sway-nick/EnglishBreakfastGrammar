@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "queue_name": "TASK-021_sequential_teacher_review_queue",
+    "queue_source": "data/reports/TASK-021_anomaly_evidence.json",
+    "updated_at": "2026-10-01T12:26:33.080734+00:00",
+    "total_queue_questions": 59,
+    "reviewed_by_hq_count": 8,
+    "unreviewed_total": 51,
+    "currently_prepared_batch": {
+      "batch_id": "review_batch_001_050",
+      "start_index": 1,
+      "end_index": 50,
+      "item_count": 50,
+      "json_path": "data\\reports\\teacher_review_batches\\review_batch_001_050.json",
+      "md_path": "data\\reports\\teacher_review_batches\\review_batch_001_050.md",
+      "status": "PREPARED_FOR_HQ_REVIEW"
+    },
+    "remaining_unreviewed_count": 1,
+    "remaining_unreviewed_qids": [
+      "2344"
+    ]
+  },
+  "hq_reviewed_questions": {
+    "6105": {
+      "status": "PASS",
+      "task": "TASK-022",
+      "decision": "False positive, valid adaptation retained"
+    },
+    "3361": {
+      "status": "PASS",
+      "task": "TASK-022",
+      "decision": "False positive, valid adaptation retained"
+    },
+    "3365": {
+      "status": "PASS",
+      "task": "TASK-022",
+      "decision": "False positive, valid adaptation retained"
+    },
+    "3068": {
+      "status": "NEEDS_FIX",
+      "task": "TASK-024",
+      "decision": "Candidate sentence 4 replaced with teacher approved wording"
+    },
+    "5054": {
+      "status": "APPROVED",
+      "task": "TASK-024",
+      "decision": "Teacher approved candidate applied (ticket queue context)"
+    },
+    "5165": {
+      "status": "APPROVED",
+      "task": "TASK-024",
+      "decision": "Teacher approved candidate applied (reading novels context)"
+    },
+    "7513": {
+      "status": "APPROVED",
+      "task": "TASK-024",
+      "decision": "Teacher approved candidate applied (laptop repair context)"
+    },
+    "6742": {
+      "status": "APPROVED",
+      "task": "TASK-024",
+      "decision": "Teacher approved candidate applied (Alpine tunnel context)"
+    }
+  }
+}

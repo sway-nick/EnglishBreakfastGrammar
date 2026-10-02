@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "registry_name": "VERIFICATION_REGISTRY",
+    "last_updated": "2026-10-01T13:10:56.650096+00:00",
+    "policy": "DONE ONCE = DO NOT RECHECK unless dependencies change"
+  },
+  "verifications": {
+    "full_corpus_audit": {
+      "source_task": "TASK-020",
+      "result": "PASS",
+      "scope": "5,796 questions, 638 exercises, 225 lessons",
+      "dependencies": [
+        "data/staging.db",
+        "data/adaptation.db"
+      ]
+    },
+    "preview_gate": {
+      "source_task": "TASK-022",
+      "result": "PASS (225 / 225 lessons valid)",
+      "dependencies": [
+        "data/adaptation.db"
+      ]
+    },
+    "python_test_suite": {
+      "source_task": "TASK-022",
+      "result": "PASS (40 / 40 tests)",
+      "dependencies": [
+        "pipeline/",
+        "tests/"
+      ]
+    },
+    "jest_test_suite": {
+      "source_task": "TASK-022",
+      "result": "PASS (24 / 24 tests)",
+      "dependencies": [
+        "src/"
+      ]
+    },
+    "staging_database_immutability": {
+      "sha256": "3fd7250ecbd3956fb035f97b55fc70c796e465b8fb7c3e3601ccdc5645898ded",
+      "result": "VERIFIED_UNCHANGED",
+      "dependencies": [
+        "data/staging.db"
+      ]
+    },
+    "adaptation_database_state": {
+      "sha256": "f3db35242c482b624a61563445422eb798f2c176ee15a1e5fdfdb88f817eec61",
+      "counts": {
+        "questions_validated": 5796,
+        "rejected": 0,
+        "pending": 0
+      },
+      "result": "VALIDATED",
+      "dependencies": [
+        "data/adaptation.db"
+      ]
+    },
+    "teacher_decisions_applied": {
+      "source_task": "TASK-024",
+      "result": "COMMITTED (QIDs 3068, 5054, 5165, 7513, 6742)",
+      "dependencies": [
+        "data/reports/TASK-024_teacher_decision_application.json"
+      ]
+    },
+    "teacher_review_batch_0001_0050": {
+      "status": "COMMITTED",
+      "reviewed_at": "2026-10-01T12:46:40.267373+00:00",
+      "pass_count": 48,
+      "fix_count": 2,
+      "fixed_qids": [
+        "2252",
+        "3587"
+      ]
+    },
+    "teacher_review_batch_0051_0100": {
+      "status": "COMMITTED",
+      "reviewed_at": "2026-10-01T12:52:31.525069+00:00",
+      "pass_count": 48,
+      "fix_count": 2,
+      "fixed_qids": [
+        "3635",
+        "3645"
+      ]
+    },
+    "teacher_review_batch_0101_0150": {
+      "status": "COMMITTED",
+      "reviewed_at": "2026-10-01T12:57:50.036695+00:00",
+      "pass_count": 44,
+      "fix_count": 6,
+      "fixed_qids": [
+        "3682",
+        "3698",
+        "3699",
+        "3720",
+        "3721",
+        "3723"
+      ]
+    },
+    "teacher_review_batch_anomalies_0054": {
+      "status": "PREPARED",
+      "prepared_at": "2026-10-01T12:57:50.036695+00:00",
+      "item_count": 54,
+      "batch_file": "data/reports/teacher_review_batches/review_batch_anomalies_0054.json"
+    },
+    "teacher_review_anomalies_0054": {
+      "status": "COMMITTED",
+      "reviewed_at": "2026-10-01T13:02:59.162752+00:00",
+      "pass_count": 48,
+      "fix_count": 6,
+      "fixed_qids": [
+        "2948",
+        "2949",
+        "2950",
+        "2955",
+        "2956",
+        "5047"
+      ]
+    },
+    "teacher_review_batch_active": {
+      "batch_id": "review_batch_0209_0272",
+      "status": "PREPARED",
+      "prepared_at": "2026-10-01T13:10:56.650096+00:00",
+      "item_count": 50,
+      "batch_file": "data/reports/teacher_review_batches/review_batch_0209_0272.json"
+    },
+    "teacher_review_deep_scan_anomalies_0069": {
+      "status": "COMMITTED",
+      "reviewed_at": "2026-10-01T13:10:56.650096+00:00",
+      "pass_count": 54,
+      "fix_count": 15,
+      "fixed_qids": [
+        "141",
+        "143",
+        "1955",
+        "2006",
+        "2020",
+        "2085",
+        "2954",
+        "3528",
+        "3749",
+        "3792",
+        "3919",
+        "4016",
+        "5145",
+        "6858",
+        "13586"
+      ]
+    }
+  }
+}

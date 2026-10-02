@@ -1,0 +1,70 @@
+{
+  "audit_timestamp": "2026-10-01T11:42:36.332127+00:00",
+  "audit_verdict": "ANOMALIES_FOUND",
+  "total_records": 5796,
+  "validated": 5796,
+  "rejected": 0,
+  "pending": 0,
+  "id_anomalies": 0,
+  "status_anomalies": 0,
+  "content_anomalies": 41,
+  "answer_anomalies": 4,
+  "structural_anomalies": 0,
+  "similarity_anomalies": 0,
+  "duplicate_anomalies": 7,
+  "exercise_anomalies": 0,
+  "lesson_anomalies": 0,
+  "staging_hash": {
+    "expected": "3fd7250ecbd3956fb035f97b55fc70c796e465b8fb7c3e3601ccdc5645898ded",
+    "actual": "3fd7250ecbd3956fb035f97b55fc70c796e465b8fb7c3e3601ccdc5645898ded",
+    "matches": true
+  },
+  "evaluator_integrity": {
+    "clean": true,
+    "modified_files": []
+  },
+  "preview_gate": {
+    "total_lessons": 225,
+    "valid_count": 225,
+    "gate_passed": 225,
+    "status": "PASS"
+  },
+  "python_tests": {
+    "passed": 40,
+    "failed": 0,
+    "total": 40,
+    "status": "PASS"
+  },
+  "jest_tests": {
+    "passed": 24,
+    "failed": 0,
+    "total": 24,
+    "status": "PASS"
+  },
+  "similarity_metrics": {
+    "jaccard": {
+      "min": 0.0,
+      "mean": 0.121,
+      "median": 0.1,
+      "p90": 0.25,
+      "p95": 0.3,
+      "p99": 0.4545,
+      "max": 1.0
+    },
+    "levenshtein": {
+      "min": 0.0,
+      "mean": 0.3128,
+      "median": 0.3014,
+      "p90": 0.4375,
+      "p95": 0.4808,
+      "p99": 0.6,
+      "max": 0.8462
+    },
+    "forbidden_shingles_detected": 256,
+    "jaccard_gt_40": 84,
+    "jaccard_gt_50": 20,
+    "elevated_levenshtein": 479,
+    "identical_normalized_count": 0
+  },
+  "teacher_review_queue_count": 259
+}

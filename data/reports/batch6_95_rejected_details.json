@@ -1,0 +1,4233 @@
+[
+  {
+    "qid": "1788",
+    "model": "single_choice",
+    "exercise_id": "quiz-213",
+    "lesson_id": "b1_usually_used_to_be_used_to_get_used_to",
+    "source_content": "4 I'm not feeling well. I'm not used ______ until so late.",
+    "source_options": [
+      {
+        "text": "to go out",
+        "is_correct": false
+      },
+      {
+        "text": "going out",
+        "is_correct": false
+      },
+      {
+        "text": "to going out",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "She is exhausted because she isn't used _____ heavy equipment all day.",
+    "current_adapted_options": [
+      "to operate",
+      "operating",
+      "to operating"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0588,
+    "levenshtein": 0.2581,
+    "matching_shingles": []
+  },
+  {
+    "qid": "1795",
+    "model": "gap",
+    "exercise_id": "quiz-214",
+    "lesson_id": "b1_usually_used_to_be_used_to_get_used_to",
+    "source_content": "A few years ago, we used to 1 {{gap_1}} in a very small flat in a very poor area. We were used to 2 {{gap_2}} with very little. We 3 {{gap_3}} to have good furniture or a good TV, and of course, we didn't use 4 {{gap_4}} what it was to have an internet connection. In our neighbourhood, the streets used 5 {{gap_5}} dark and dirty, and 6 {{gap_6}} used to be a lot of robberies. Then we won the lottery, and everything changed for us. We bought a new flat in a very nice area of the city, where we have been living for the last three years. We 7 {{gap_7}} to sleeping in comfy beds and eating good food very quickly, but it wasn't so easy to get used to 8 {{gap_8}}. They are the kind of people who don't 9 {{gap_9}} talk to each other and they are used to 10 {{gap_10}} everything very easily. We share the same neighbourhood but we don't share the same values.",
+    "source_options": [],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "live",
+        "accepted": "[\"live\"]"
+      },
+      {
+        "gap_order": 2,
+        "correct_answer": "living",
+        "accepted": "[\"living\"]"
+      },
+      {
+        "gap_order": 3,
+        "correct_answer": "didn't use",
+        "accepted": "[\"didn't use\"]"
+      },
+      {
+        "gap_order": 4,
+        "correct_answer": "to know",
+        "accepted": "[\"to know\"]"
+      },
+      {
+        "gap_order": 5,
+        "correct_answer": "to be",
+        "accepted": "[\"to be\"]"
+      },
+      {
+        "gap_order": 6,
+        "correct_answer": "there",
+        "accepted": "[\"there\"]"
+      },
+      {
+        "gap_order": 7,
+        "correct_answer": "got used",
+        "accepted": "[\"got used\"]"
+      },
+      {
+        "gap_order": 8,
+        "correct_answer": "the neighbours",
+        "accepted": "[\"the neighbours\"]"
+      },
+      {
+        "gap_order": 9,
+        "correct_answer": "usually",
+        "accepted": "[\"usually\"]"
+      },
+      {
+        "gap_order": 10,
+        "correct_answer": "having",
+        "accepted": "[\"having\"]"
+      }
+    ],
+    "current_adapted_text": "Years ago, workers used to {{gap_1}} in small wooden huts near the factory. They were accustomed to {{gap_2}} in harsh conditions. The company {{gap_3}} to provide warm heaters, and the staff didn't use {{gap_4}} how comfortable modern offices could be. In winter, the paths used {{gap_5}} icy, and {{gap_6}} used to be frequent power cuts. Eventually, the firm moved to a modern building downtown. Everyone {{gap_7}} to working in warm rooms quite fast, but adjusting to {{gap_8}} was harder. Some managers rarely {{gap_9}} speak to interns because they are used to {{gap_10}} full control over projects.",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; countability: Countable vs uncountable noun environment shifted.; Plural/compound subject conflicts with singular verb form 'the neighbours'.",
+    "jaccard": 0.0846,
+    "levenshtein": 0.3149,
+    "matching_shingles": []
+  },
+  {
+    "qid": "7798",
+    "model": "gap",
+    "exercise_id": "quiz-921",
+    "lesson_id": "b1_would_rather_would_sooner",
+    "source_content": "6 Would you rather {{gap_1}} beautiful or intelligent?",
+    "source_options": [
+      {
+        "text": "be",
+        "is_correct": true
+      },
+      {
+        "text": "been",
+        "is_correct": false
+      },
+      {
+        "text": "to be",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "be",
+        "accepted": "[\"be\"]"
+      }
+    ],
+    "current_adapted_text": "Would you rather {{gap_1}} rich or famous?",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['would you rather'] with elevated similarity (Jaccard=0.5000, Lev=0.5366).",
+    "jaccard": 0.5,
+    "levenshtein": 0.5366,
+    "matching_shingles": [
+      "would you rather"
+    ]
+  },
+  {
+    "qid": "7807",
+    "model": "single_choice",
+    "exercise_id": "quiz-922",
+    "lesson_id": "b1_would_rather_would_sooner",
+    "source_content": "5 Would you rather _____ this film or that one?",
+    "source_options": [
+      {
+        "text": "to watch",
+        "is_correct": false
+      },
+      {
+        "text": "watch",
+        "is_correct": true
+      },
+      {
+        "text": "watched",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Would you rather _____ tea or coffee this morning?",
+    "current_adapted_options": [
+      "to drink",
+      "drink",
+      "drank"
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['would you rather'] with elevated similarity (Jaccard=0.4545, Lev=0.5581).; Correct answer diverged from source: source=['watch'], adapted=['drink']. Flagged for review.; countability: Countable vs uncountable noun environment shifted.",
+    "jaccard": 0.4545,
+    "levenshtein": 0.5581,
+    "matching_shingles": [
+      "would you rather"
+    ]
+  },
+  {
+    "qid": "7812",
+    "model": "single_choice",
+    "exercise_id": "quiz-922",
+    "lesson_id": "b1_would_rather_would_sooner",
+    "source_content": "10 I would rather _____ the window.",
+    "source_options": [
+      {
+        "text": "you not open",
+        "is_correct": false
+      },
+      {
+        "text": "didn't open",
+        "is_correct": false
+      },
+      {
+        "text": "you didn't open",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "She would rather _____ the thermostat.",
+    "current_adapted_options": [
+      "he not touch",
+      "didn't touch",
+      "he didn't touch"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.4286,
+    "levenshtein": 0.6129,
+    "matching_shingles": []
+  },
+  {
+    "qid": "109",
+    "model": "gap",
+    "exercise_id": "quiz-14",
+    "lesson_id": "b1-b2_adjectives_without_noun",
+    "source_content": "7 I think the people from Italy are very well-dressed. ⇒ I think {{gap_1}} are very well-dressed.",
+    "source_options": [],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "the Italians",
+        "accepted": "[\"the Italians\"]"
+      }
+    ],
+    "current_adapted_text": "Many travelers believe {{gap_1}} possess a passion for culinary arts and culture.",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; singular_plural: Subject/demonstrative number shifted between singular and plural.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; Plural/compound subject conflicts with singular verb form 'the Italians'.",
+    "jaccard": 0.0,
+    "levenshtein": 0.2346,
+    "matching_shingles": []
+  },
+  {
+    "qid": "110",
+    "model": "gap",
+    "exercise_id": "quiz-14",
+    "lesson_id": "b1-b2_adjectives_without_noun",
+    "source_content": "8 Life is very hard for people without a home. ⇒ Life is very hard for {{gap_1}}",
+    "source_options": [],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "the homeless",
+        "accepted": "[\"the homeless\"]"
+      }
+    ],
+    "current_adapted_text": "The local shelter provides warm meals and support for {{gap_1}} during the cold winter months.",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; singular_plural: Subject/demonstrative number shifted between singular and plural.; Plural/compound subject conflicts with singular verb form 'the homeless'.",
+    "jaccard": 0.05,
+    "levenshtein": 0.2289,
+    "matching_shingles": []
+  },
+  {
+    "qid": "2466",
+    "model": "single_choice",
+    "exercise_id": "quiz-286",
+    "lesson_id": "b1-b2_adjectives_without_noun",
+    "source_content": "2 _____ have always tried to preserve their identity and national independence.",
+    "source_options": [
+      {
+        "text": "Vietnamese",
+        "is_correct": false
+      },
+      {
+        "text": "Vietnameses",
+        "is_correct": false
+      },
+      {
+        "text": "The Vietnamese",
+        "is_correct": true
+      },
+      {
+        "text": "The Vietnameses",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Throughout history, _____ have maintained a rich cultural tradition.",
+    "current_adapted_options": [
+      "Japanese",
+      "Japaneses",
+      "The Japanese",
+      "The Japaneses"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0588,
+    "levenshtein": 0.2143,
+    "matching_shingles": []
+  },
+  {
+    "qid": "2471",
+    "model": "single_choice",
+    "exercise_id": "quiz-286",
+    "lesson_id": "b1-b2_adjectives_without_noun",
+    "source_content": "7 _____ and _____ have always had a slightly tense relationship relating to either football or warfare.",
+    "source_options": [
+      {
+        "text": "The English and the Germans",
+        "is_correct": true
+      },
+      {
+        "text": "The English and the German",
+        "is_correct": false
+      },
+      {
+        "text": "English and Germans",
+        "is_correct": false
+      },
+      {
+        "text": "English people and German",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "During trade negotiations, _____ maintained a strong diplomatic partnership regarding maritime commerce.",
+    "current_adapted_options": [
+      "The French and the Italians",
+      "The French and the Italian",
+      "French and Italians",
+      "French people and Italian"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0435,
+    "levenshtein": 0.2292,
+    "matching_shingles": []
+  },
+  {
+    "qid": "6840",
+    "model": "single_choice",
+    "exercise_id": "quiz-793",
+    "lesson_id": "b1-b2_already_still_yet_whats_the_difference",
+    "source_content": "1 You are waiting for the waiter. It has been a long time and you are impatient. Which would you say?",
+    "source_options": [
+      {
+        "text": "The waiter has already taken our order.",
+        "is_correct": false
+      },
+      {
+        "text": "The waiter hasn't taken our order yet.",
+        "is_correct": false
+      },
+      {
+        "text": "The waiter still hasn't taken our order.",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "You expect a package from the courier. Hours have passed and you feel frustrated. What would you complain?",
+    "current_adapted_options": [
+      "The courier has already delivered our package.",
+      "The courier hasn't delivered our package yet.",
+      "The courier still hasn't delivered our package."
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.16,
+    "levenshtein": 0.3981,
+    "matching_shingles": []
+  },
+  {
+    "qid": "6845",
+    "model": "single_choice",
+    "exercise_id": "quiz-793",
+    "lesson_id": "b1-b2_already_still_yet_whats_the_difference",
+    "source_content": "2 The waiter has taken your order earlier than expected. Which would you say?",
+    "source_options": [
+      {
+        "text": "The waiter has already taken our order.",
+        "is_correct": true
+      },
+      {
+        "text": "The waiter hasn't taken our order yet.",
+        "is_correct": false
+      },
+      {
+        "text": "The waiter still hasn't taken our order.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "The courier brought the parcel sooner than scheduled. What option describes this?",
+    "current_adapted_options": [
+      "The courier has already delivered our package.",
+      "The courier hasn't delivered our package yet.",
+      "The courier still hasn't delivered our package."
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0588,
+    "levenshtein": 0.3165,
+    "matching_shingles": []
+  },
+  {
+    "qid": "6844",
+    "model": "single_choice",
+    "exercise_id": "quiz-793",
+    "lesson_id": "b1-b2_already_still_yet_whats_the_difference",
+    "source_content": "3 You are waiting for the waiter. You expect he will come soon. Which would you say?",
+    "source_options": [
+      {
+        "text": "The waiter has already taken our order.",
+        "is_correct": false
+      },
+      {
+        "text": "The waiter hasn't taken our order yet.",
+        "is_correct": true
+      },
+      {
+        "text": "The waiter still hasn't taken our order.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "You are expecting a delivery package this afternoon. Which sentence fits the situation?",
+    "current_adapted_options": [
+      "The courier has already delivered the package.",
+      "The courier hasn't delivered the package yet.",
+      "The courier still hasn't delivered the package."
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1429,
+    "levenshtein": 0.3529,
+    "matching_shingles": []
+  },
+  {
+    "qid": "6841",
+    "model": "single_choice",
+    "exercise_id": "quiz-793",
+    "lesson_id": "b1-b2_already_still_yet_whats_the_difference",
+    "source_content": "4 I didn't expect you to be home until later. I'm surprised you are home.",
+    "source_options": [
+      {
+        "text": "Are you already home?",
+        "is_correct": true
+      },
+      {
+        "text": "Are you still home?",
+        "is_correct": false
+      },
+      {
+        "text": "Are you home yet?",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "I didn't expect the package to arrive until tomorrow. _____ at the office?",
+    "current_adapted_options": [
+      "Is it already here?",
+      "Is it still here?",
+      "Is it here yet?"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.2778,
+    "levenshtein": 0.403,
+    "matching_shingles": [
+      "i didn't expect"
+    ]
+  },
+  {
+    "qid": "6842",
+    "model": "single_choice",
+    "exercise_id": "quiz-793",
+    "lesson_id": "b1-b2_already_still_yet_whats_the_difference",
+    "source_content": "5 I expect you to be home now or very soon. Are you there now?",
+    "source_options": [
+      {
+        "text": "Are you already home?",
+        "is_correct": false
+      },
+      {
+        "text": "Are you still home?",
+        "is_correct": false
+      },
+      {
+        "text": "Are you home yet?",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "5 I expect the package to arrive very soon. _____",
+    "current_adapted_options": [
+      "Is the package already here?",
+      "Is the package still here?",
+      "Is the package here yet?"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.3846,
+    "levenshtein": 0.3966,
+    "matching_shingles": []
+  },
+  {
+    "qid": "6843",
+    "model": "single_choice",
+    "exercise_id": "quiz-793",
+    "lesson_id": "b1-b2_already_still_yet_whats_the_difference",
+    "source_content": "6 I know you were home. Do you continue to be there?",
+    "source_options": [
+      {
+        "text": "Are you already home?",
+        "is_correct": false
+      },
+      {
+        "text": "Are you still home?",
+        "is_correct": true
+      },
+      {
+        "text": "Are you home yet?",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "You were working in the office earlier. _____",
+    "current_adapted_options": [
+      "Are you already at the office?",
+      "Are you still at the office?",
+      "Are you at the office yet?"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0769,
+    "levenshtein": 0.3333,
+    "matching_shingles": []
+  },
+  {
+    "qid": "6846",
+    "model": "single_choice",
+    "exercise_id": "quiz-793",
+    "lesson_id": "b1-b2_already_still_yet_whats_the_difference",
+    "source_content": "7 Susan had to call you earlier, but she didn't do it. You are a little surprised and annoyed.",
+    "source_options": [
+      {
+        "text": "Susan hasn't called me yet.",
+        "is_correct": false
+      },
+      {
+        "text": "Susan still hasn't called me.",
+        "is_correct": true
+      },
+      {
+        "text": "Susan has already called me.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "7 Mark was expected to send the report this morning, but he hasn't done so. You are frustrated by the delay.",
+    "current_adapted_options": [
+      "Mark hasn't sent the report yet.",
+      "Mark still hasn't sent the report.",
+      "Mark has already sent the report."
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1333,
+    "levenshtein": 0.3235,
+    "matching_shingles": []
+  },
+  {
+    "qid": "6847",
+    "model": "single_choice",
+    "exercise_id": "quiz-793",
+    "lesson_id": "b1-b2_already_still_yet_whats_the_difference",
+    "source_content": "8 You are waiting for Susan's call. You expect that she will call you soon.",
+    "source_options": [
+      {
+        "text": "Susan hasn't called me yet.",
+        "is_correct": true
+      },
+      {
+        "text": "Susan still hasn't called me.",
+        "is_correct": false
+      },
+      {
+        "text": "Susan has already called me.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "You are expecting an email from David regarding the project. You anticipate it arriving shortly.",
+    "current_adapted_options": [
+      "David hasn't emailed me yet.",
+      "David still hasn't emailed me.",
+      "David has already emailed me."
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0909,
+    "levenshtein": 0.3191,
+    "matching_shingles": []
+  },
+  {
+    "qid": "6848",
+    "model": "single_choice",
+    "exercise_id": "quiz-793",
+    "lesson_id": "b1-b2_already_still_yet_whats_the_difference",
+    "source_content": "9 You are asking if John has left, but you suspect he has probably left.",
+    "source_options": [
+      {
+        "text": "Has John still left?",
+        "is_correct": false
+      },
+      {
+        "text": "Has John left yet?",
+        "is_correct": false
+      },
+      {
+        "text": "Has John already left?",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "You inquire if Sarah has finished her presentation, assuming she likely has.",
+    "current_adapted_options": [
+      "Has Sarah still finished?",
+      "Has Sarah finished yet?",
+      "Has Sarah already finished?"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.125,
+    "levenshtein": 0.2703,
+    "matching_shingles": []
+  },
+  {
+    "qid": "6849",
+    "model": "single_choice",
+    "exercise_id": "quiz-793",
+    "lesson_id": "b1-b2_already_still_yet_whats_the_difference",
+    "source_content": "10 You don't know if John has left, you're asking if he has left.",
+    "source_options": [
+      {
+        "text": "Has John still left?",
+        "is_correct": false
+      },
+      {
+        "text": "Has John left yet?",
+        "is_correct": true
+      },
+      {
+        "text": "Has John already left?",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "You are unsure whether Sarah has finished her homework, so you ask if she has finished.",
+    "current_adapted_options": [
+      "Has Sarah still finished?",
+      "Has Sarah finished yet?",
+      "Has Sarah already finished?"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1176,
+    "levenshtein": 0.3294,
+    "matching_shingles": []
+  },
+  {
+    "qid": "702",
+    "model": "single_choice",
+    "exercise_id": "quiz-85",
+    "lesson_id": "b1-b2_auxiliary_verbs_different_uses",
+    "source_content": "5 A: You didn't lock the door. B: I _______ the door.",
+    "source_options": [
+      {
+        "text": "did locked",
+        "is_correct": false
+      },
+      {
+        "text": "did lock",
+        "is_correct": true
+      },
+      {
+        "text": "so locked",
+        "is_correct": false
+      },
+      {
+        "text": "yes locked",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "A: You didn't send the email. B: I _____ the email.",
+    "current_adapted_options": [
+      "did sent",
+      "did send",
+      "so sent",
+      "yes sent"
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Jaccard token similarity (0.5714) exceeds rejection threshold (> 0.50).; Correct answer diverged from source: source=['did lock'], adapted=['did send']. Flagged for review.",
+    "jaccard": 0.5714,
+    "levenshtein": 0.6111,
+    "matching_shingles": []
+  },
+  {
+    "qid": "705",
+    "model": "single_choice",
+    "exercise_id": "quiz-85",
+    "lesson_id": "b1-b2_auxiliary_verbs_different_uses",
+    "source_content": "8 A: You never listen to me. B: I _______ to you, why would you say that?",
+    "source_options": [
+      {
+        "text": "can listen",
+        "is_correct": false
+      },
+      {
+        "text": "am listen",
+        "is_correct": false
+      },
+      {
+        "text": "yes listen",
+        "is_correct": false
+      },
+      {
+        "text": "do listen",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "A: You claim I never support your ideas. B: I _____ support your ideas, how can you claim otherwise?",
+    "current_adapted_options": [
+      "can support",
+      "am support",
+      "yes support",
+      "do support"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1875,
+    "levenshtein": 0.4,
+    "matching_shingles": []
+  },
+  {
+    "qid": "66",
+    "model": "gap",
+    "exercise_id": "quiz-9",
+    "lesson_id": "b1-b2_auxiliary_verbs_different_uses",
+    "source_content": "JOHN: So, Robert, you have just arrived at our university, 1 {{gap_1}} you? ROBERT: Yes. Today is my first day. JOHN: And where are you from? ROBERT: I live in Leeds, but I was born in Poland. JOHN: 2 {{gap_2}} you? That’s funny. So 3 {{gap_3}} my girlfriend. ROBERT: 4 {{gap_4}} she? Where in Poland was she born? JOHN: She’s from a city called Lublin. ROBERT: 5 {{gap_5}} she? So 6 {{gap_6}} I! JOHN: That’s a coincidence, 7 {{gap_7}} it? ROBERT: Yes, it is. And have you learnt any Polish? JOHN: No. My girlfriend speaks Polish, but I 8 {{gap_8}}. ROBERT: Neither do I. Well, I 9 {{gap_9}} speak a little Polish, but not much. We came to England when I was just two years old. Anyway, are you hungry? Would you like to eat something at the canteen? JOHN: Yes, sure. Let’s have some lunch, 10 {{gap_10}} we? ROBERT: Yes, that’s a good idea!",
+    "source_options": [],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "haven't",
+        "accepted": "[\"haven't\"]"
+      },
+      {
+        "gap_order": 2,
+        "correct_answer": "Were",
+        "accepted": "[\"Were\"]"
+      },
+      {
+        "gap_order": 3,
+        "correct_answer": "was",
+        "accepted": "[\"was\"]"
+      },
+      {
+        "gap_order": 4,
+        "correct_answer": "Was",
+        "accepted": "[\"Was\"]"
+      },
+      {
+        "gap_order": 5,
+        "correct_answer": "Is",
+        "accepted": "[\"Is\"]"
+      },
+      {
+        "gap_order": 6,
+        "correct_answer": "am",
+        "accepted": "[\"am\"]"
+      },
+      {
+        "gap_order": 7,
+        "correct_answer": "isn't",
+        "accepted": "[\"isn't\"]"
+      },
+      {
+        "gap_order": 8,
+        "correct_answer": "don't",
+        "accepted": "[\"don't\"]"
+      },
+      {
+        "gap_order": 9,
+        "correct_answer": "do",
+        "accepted": "[\"do\"]"
+      },
+      {
+        "gap_order": 10,
+        "correct_answer": "shall",
+        "accepted": "[\"shall\"]"
+      }
+    ],
+    "current_adapted_text": "MARK: You have already completed your registration, 1 {{gap_1}} you? DAVID: Yes, I finished it this morning. MARK: Where were you raised? DAVID: I reside in Bristol now, but I was raised in Scotland. MARK: 2 {{gap_2}} you? That is interesting. So 3 {{gap_3}} my cousin. DAVID: 4 {{gap_4}} she? Which town was she raised in? MARK: She is from Aberdeen. DAVID: 5 {{gap_5}} she? So 6 {{gap_6}} I! MARK: That is unusual, 7 {{gap_7}} it? DAVID: Indeed. Have you studied Gaelic? MARK: No, my cousin understands Gaelic, but I 8 {{gap_8}}. DAVID: Neither do I. Though I 9 {{gap_9}} know a few phrases. Anyway, shall we grab a coffee, 10 {{gap_10}} we? MARK: Sounds great!",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['but i 8', 'she so 6'] with elevated similarity (Jaccard=0.2500, Lev=0.3587).; countability: Countable vs uncountable noun environment shifted.",
+    "jaccard": 0.25,
+    "levenshtein": 0.3587,
+    "matching_shingles": [
+      "but i 8",
+      "she so 6"
+    ]
+  },
+  {
+    "qid": "12086",
+    "model": "single_choice",
+    "exercise_id": "quiz-1412",
+    "lesson_id": "b1-b2_double_negatives_in_english",
+    "source_content": "1 What does this sentence mean? ' I can't not tell her the truth. '",
+    "source_options": [
+      {
+        "text": "I must tell her the truth.",
+        "is_correct": true
+      },
+      {
+        "text": "I don’t have to tell her the truth.",
+        "is_correct": false
+      },
+      {
+        "text": "I will probably lie to her.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "What is the meaning of the statement 'He couldn't not attend the meeting'?",
+    "current_adapted_options": [
+      "He was required to attend the meeting.",
+      "He did not need to attend the meeting.",
+      "He likely skipped the meeting."
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.125,
+    "levenshtein": 0.4,
+    "matching_shingles": []
+  },
+  {
+    "qid": "12099",
+    "model": "single_choice",
+    "exercise_id": "quiz-1412",
+    "lesson_id": "b1-b2_double_negatives_in_english",
+    "source_content": "2 What does this sentence mean? ' It’s not uncommon for students to make this mistake. '",
+    "source_options": [
+      {
+        "text": "Students never make this mistake.",
+        "is_correct": false
+      },
+      {
+        "text": "Students rarely make this mistake.",
+        "is_correct": false
+      },
+      {
+        "text": "Students often make this mistake.",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "What does this statement mean? 'It is not unusual for travelers to lose their luggage.'",
+    "current_adapted_options": [
+      "Travelers never lose their luggage.",
+      "Travelers rarely lose their luggage.",
+      "Travelers often lose their luggage."
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.4118,
+    "levenshtein": 0.6265,
+    "matching_shingles": []
+  },
+  {
+    "qid": "12103",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-1412",
+    "lesson_id": "b1-b2_double_negatives_in_english",
+    "source_content": "3 Which of these sentences is correct in standard English? Choose TWO correct answers",
+    "source_options": [
+      {
+        "text": "We didn't invite any of our neighbours.",
+        "is_correct": true
+      },
+      {
+        "text": "We invited none of our neighbours.",
+        "is_correct": true
+      },
+      {
+        "text": "We didn't invite none of our neighbours.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "3 Which of these sentences is correct in standard English? Choose TWO correct answers",
+    "current_adapted_options": [
+      "They didn't inform any of the managers.",
+      "They informed none of the managers.",
+      "They didn't inform none of the managers."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=[\"We didn't invite any of our neighbours.\", 'We invited none of our neighbours.'], adapted=[\"They didn't inform any of the managers.\", 'They informed none of the managers.']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which these sentences"
+    ]
+  },
+  {
+    "qid": "12098",
+    "model": "single_choice",
+    "exercise_id": "quiz-1412",
+    "lesson_id": "b1-b2_double_negatives_in_english",
+    "source_content": "4 What does this sentence mean? ' I didn't not like the film, but it was too long. '",
+    "source_options": [
+      {
+        "text": "I didn’t like the film at all.",
+        "is_correct": false
+      },
+      {
+        "text": "I liked the film, but not completely.",
+        "is_correct": true
+      },
+      {
+        "text": "I loved the film.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "What does this sentence mean? 'I didn't not like the novel, but it was far too descriptive.'",
+    "current_adapted_options": [
+      "I didn't like the book at all.",
+      "I liked the book, but not completely.",
+      "I loved the book."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Jaccard token similarity (0.6667) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['does this sentence', \"mean didn't like\"] with elevated similarity (Jaccard=0.6667, Lev=0.7674).; Correct answer diverged from source: source=['I liked the film, but not completely.'], adapted=['I liked the book, but not completely.']. Flagged for review.",
+    "jaccard": 0.6667,
+    "levenshtein": 0.7674,
+    "matching_shingles": [
+      "does this sentence",
+      "mean didn't like",
+      "sentence mean didn't",
+      "this sentence mean",
+      "what does this"
+    ]
+  },
+  {
+    "qid": "12104",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-1412",
+    "lesson_id": "b1-b2_double_negatives_in_english",
+    "source_content": "6 Which of these sentences is correct in standard English? Choose TWO correct answers",
+    "source_options": [
+      {
+        "text": "She hasn't got any friends at school.",
+        "is_correct": true
+      },
+      {
+        "text": "She hasn't got no friends at school.",
+        "is_correct": false
+      },
+      {
+        "text": "She has no friends at school.",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Which of the following options are grammatically correct in standard English? Choose TWO correct answers",
+    "current_adapted_options": [
+      "He hasn't received any messages today.",
+      "He hasn't received no messages today.",
+      "He has received no messages today."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['correct in standard', 'in standard english'] with elevated similarity (Jaccard=0.4286, Lev=0.5921).; Correct answer diverged from source: source=[\"She hasn't got any friends at school.\", 'She has no friends at school.'], adapted=[\"He hasn't received any messages today.\", 'He has received no messages today.']. Flagged for review.",
+    "jaccard": 0.4286,
+    "levenshtein": 0.5921,
+    "matching_shingles": [
+      "correct in standard",
+      "in standard english"
+    ]
+  },
+  {
+    "qid": "12102",
+    "model": "single_choice",
+    "exercise_id": "quiz-1412",
+    "lesson_id": "b1-b2_double_negatives_in_english",
+    "source_content": "7 What does this sentence mean? ' 'The results are not insignificant. '",
+    "source_options": [
+      {
+        "text": "The results are important.",
+        "is_correct": true
+      },
+      {
+        "text": "The results mean nothing.",
+        "is_correct": false
+      },
+      {
+        "text": "The results are unimportant.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "What does this statement mean? 'The findings are not unimportant.'",
+    "current_adapted_options": [
+      "The results are important.",
+      "The results mean nothing.",
+      "The results are unimportant."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['what does this'] with elevated similarity (Jaccard=0.5000, Lev=0.6613).",
+    "jaccard": 0.5,
+    "levenshtein": 0.6613,
+    "matching_shingles": [
+      "what does this"
+    ]
+  },
+  {
+    "qid": "12105",
+    "model": "single_choice",
+    "exercise_id": "quiz-1412",
+    "lesson_id": "b1-b2_double_negatives_in_english",
+    "source_content": "8 Which of these sentences is correct in standard English?",
+    "source_options": [
+      {
+        "text": "They can barely wait for the holidays.",
+        "is_correct": true
+      },
+      {
+        "text": "They can't barely wait for the holidays.",
+        "is_correct": false
+      },
+      {
+        "text": "They cannot barely wait for the holidays.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "8 Which of these sentences is correct in standard English?",
+    "current_adapted_options": [
+      "She can barely contain her excitement about the concert.",
+      "She can't barely contain her excitement about the concert.",
+      "She cannot barely contain her excitement about the concert."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['They can barely wait for the holidays.'], adapted=['She can barely contain her excitement about the concert.']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which of these"
+    ]
+  },
+  {
+    "qid": "12106",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-1412",
+    "lesson_id": "b1-b2_double_negatives_in_english",
+    "source_content": "9 Which of these sentences is correct in standard English? Choose TWO correct answers",
+    "source_options": [
+      {
+        "text": "He doesn't know nobody in this town.",
+        "is_correct": false
+      },
+      {
+        "text": "He doesn't know anybody in this town.",
+        "is_correct": true
+      },
+      {
+        "text": "He knows nobody in this town.",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Which of these statements is written properly in standard English? Choose TWO correct answers.",
+    "current_adapted_options": [
+      "She doesn't see nothing in the dark room.",
+      "She doesn't see anything in the dark room.",
+      "She sees nothing in the dark room."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Jaccard token similarity (0.5455) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['which of these'] with elevated similarity (Jaccard=0.5455, Lev=0.6923).; Correct answer diverged from source: source=[\"He doesn't know anybody in this town.\", 'He knows nobody in this town.'], adapted=[\"She doesn't see anything in the dark room.\", 'She sees nothing in the dark room.']. Flagged for review.",
+    "jaccard": 0.5455,
+    "levenshtein": 0.6923,
+    "matching_shingles": [
+      "which of these"
+    ]
+  },
+  {
+    "qid": "12107",
+    "model": "single_choice",
+    "exercise_id": "quiz-1412",
+    "lesson_id": "b1-b2_double_negatives_in_english",
+    "source_content": "10 Which of these sentences is correct in standard English?",
+    "source_options": [
+      {
+        "text": "We cannot rarely go on holiday.",
+        "is_correct": false
+      },
+      {
+        "text": "We can't rarely go on holiday.",
+        "is_correct": false
+      },
+      {
+        "text": "We can rarely go on holiday.",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "10 Which of these sentences is correct in standard English?",
+    "current_adapted_options": [
+      "They cannot rarely visit museums.",
+      "They can't rarely visit museums.",
+      "They can rarely visit museums."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['We can rarely go on holiday.'], adapted=['They can rarely visit museums.']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which of these"
+    ]
+  },
+  {
+    "qid": "708",
+    "model": "single_choice",
+    "exercise_id": "quiz-86",
+    "lesson_id": "b1-b2_future_continuous_and_future_perfect",
+    "source_content": "1 When we arrive in Los Angeles, we'll need to rest, because we _______ about 800 miles.",
+    "source_options": [
+      {
+        "text": "will be driving",
+        "is_correct": false
+      },
+      {
+        "text": "will have driven",
+        "is_correct": true
+      },
+      {
+        "text": "will drive",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "By the time Sarah reaches Tokyo, she _____ for over twelve hours.",
+    "current_adapted_options": [
+      "will be flying",
+      "will have flown",
+      "will fly"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0,
+    "levenshtein": 0.2703,
+    "matching_shingles": []
+  },
+  {
+    "qid": "709",
+    "model": "single_choice",
+    "exercise_id": "quiz-86",
+    "lesson_id": "b1-b2_future_continuous_and_future_perfect",
+    "source_content": "2 By the time you arrive, I _______ something spectacular and dinner will be on the table waiting for you.",
+    "source_options": [
+      {
+        "text": "will cook",
+        "is_correct": false
+      },
+      {
+        "text": "will have cooked",
+        "is_correct": true
+      },
+      {
+        "text": "will be cooking",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "By the time the guests reach the venue, the team _____ all the decorations and the stage will be ready.",
+    "current_adapted_options": [
+      "will finish",
+      "will have finished",
+      "will be finishing"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.2174,
+    "levenshtein": 0.3579,
+    "matching_shingles": [
+      "by the time"
+    ]
+  },
+  {
+    "qid": "714",
+    "model": "single_choice",
+    "exercise_id": "quiz-86",
+    "lesson_id": "b1-b2_future_continuous_and_future_perfect",
+    "source_content": "7 I'm sure when you call him, he _______ TV. He's always in front of the TV!",
+    "source_options": [
+      {
+        "text": "'ll watch",
+        "is_correct": false
+      },
+      {
+        "text": "'ll be watching",
+        "is_correct": true
+      },
+      {
+        "text": "'ll have watched",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "I know that when Sarah arrives, Mark _____ video games. He spends hours playing every day!",
+    "current_adapted_options": [
+      "'ll play",
+      "'ll be playing",
+      "'ll have played"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0769,
+    "levenshtein": 0.2593,
+    "matching_shingles": []
+  },
+  {
+    "qid": "715",
+    "model": "single_choice",
+    "exercise_id": "quiz-86",
+    "lesson_id": "b1-b2_future_continuous_and_future_perfect",
+    "source_content": "8 We are visiting a new city every week. By the end of the summer, we _______ all the most important cities in Europe.",
+    "source_options": [
+      {
+        "text": "will visit",
+        "is_correct": false
+      },
+      {
+        "text": "will be visiting",
+        "is_correct": false
+      },
+      {
+        "text": "will have visited",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "They are reading one module each afternoon. Before the semester ends, they _____ the whole textbook.",
+    "current_adapted_options": [
+      "will read",
+      "will be reading",
+      "will have read"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0667,
+    "levenshtein": 0.3143,
+    "matching_shingles": []
+  },
+  {
+    "qid": "324",
+    "model": "single_choice",
+    "exercise_id": "quiz-43",
+    "lesson_id": "b1-b2_gerund_or_infinitive",
+    "source_content": "6 I forgot _______ you yesterday. I'm sorry.",
+    "source_options": [
+      {
+        "text": "call",
+        "is_correct": false
+      },
+      {
+        "text": "to call",
+        "is_correct": true
+      },
+      {
+        "text": "calling",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "She remembered _____ her homework before leaving for class.",
+    "current_adapted_options": [
+      "bring",
+      "to bring",
+      "bringing"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0,
+    "levenshtein": 0.2115,
+    "matching_shingles": []
+  },
+  {
+    "qid": "339",
+    "model": "gap",
+    "exercise_id": "quiz-45",
+    "lesson_id": "b1-b2_gerund_or_infinitive",
+    "source_content": "Dear Ms Collins, I am writing 1 {{gap_1}} (express) my interest in the position of Personal Assistant advertised in the newspaper last week. I am proficient at 2 {{gap_2}} (type), and I know how 3 {{gap_3}} (use) most word-processing software. I also have excellent organisational abilities as I used 4 {{gap_4}} (work) for a very big company as an event planner. I always tend 5 {{gap_5}} (look) forward to new challenges that can make me 6 {{gap_6}} (grow) in my position. I enjoy 7 {{gap_7}} (work) with people, I am flexible, and I don't mind 8 {{gap_8}} (work) overtime. As you can see from the attached letters of reference, my previous employers considered me to be a skilled secretary. I would be pleased 9 {{gap_9}} (extend) my career by working for a prestigious company like HTM. I look forward to 10 {{gap_10}} (hear) from you. Yours sincerely, Jessica Jones.",
+    "source_options": [],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "to express",
+        "accepted": "[\"to express\"]"
+      },
+      {
+        "gap_order": 2,
+        "correct_answer": "typing",
+        "accepted": "[\"typing\"]"
+      },
+      {
+        "gap_order": 3,
+        "correct_answer": "to use",
+        "accepted": "[\"to use\"]"
+      },
+      {
+        "gap_order": 4,
+        "correct_answer": "to work",
+        "accepted": "[\"to work\"]"
+      },
+      {
+        "gap_order": 5,
+        "correct_answer": "to look",
+        "accepted": "[\"to look\"]"
+      },
+      {
+        "gap_order": 6,
+        "correct_answer": "grow",
+        "accepted": "[\"grow\"]"
+      },
+      {
+        "gap_order": 7,
+        "correct_answer": "working",
+        "accepted": "[\"working\"]"
+      },
+      {
+        "gap_order": 8,
+        "correct_answer": "working",
+        "accepted": "[\"working\"]"
+      },
+      {
+        "gap_order": 9,
+        "correct_answer": "to extend",
+        "accepted": "[\"to extend\"]"
+      },
+      {
+        "gap_order": 10,
+        "correct_answer": "hearing",
+        "accepted": "[\"hearing\"]"
+      }
+    ],
+    "current_adapted_text": "Hello Mr. Davis, I am emailing {{gap_1}} my enthusiasm for the graphic designer role posted online. I am skilled at {{gap_2}} vector art, and I understand how {{gap_3}} modern editing tools. Furthermore, I used {{gap_4}} in a creative agency, so I tend {{gap_5}} for innovative tasks that make me {{gap_6}} professionally. I really enjoy {{gap_7}} in teams and don't mind {{gap_8}} late hours when necessary. I would be delighted {{gap_9}} my portfolio upon request, and I look forward to {{gap_10}} your feedback. Best regards, Alex Smith.",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Verbatim shingle detected 'i would be' with moderate/low similarity (Jaccard=0.1667 <= 0.40, Lev=0.3117 < 0.55). Routed to AI review.; Plural/compound subject conflicts with singular verb form 'to express'.",
+    "jaccard": 0.1667,
+    "levenshtein": 0.3117,
+    "matching_shingles": [
+      "i would be"
+    ]
+  },
+  {
+    "qid": "536",
+    "model": "single_choice",
+    "exercise_id": "quiz-66",
+    "lesson_id": "b1-b2_have_something_done",
+    "source_content": "8 You should have _______ the engine.",
+    "source_options": [
+      {
+        "text": "a mechanic check",
+        "is_correct": true
+      },
+      {
+        "text": "a mechanic to check",
+        "is_correct": false
+      },
+      {
+        "text": "a mechanic checking",
+        "is_correct": false
+      },
+      {
+        "text": "a mechanic to have checked",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "We ought to have _____ the documents before sending them.",
+    "current_adapted_options": [
+      "a lawyer inspect",
+      "a lawyer to inspect",
+      "a lawyer inspecting",
+      "a lawyer to have inspected"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1667,
+    "levenshtein": 0.34,
+    "matching_shingles": []
+  },
+  {
+    "qid": "2349",
+    "model": "single_choice",
+    "exercise_id": "quiz-269",
+    "lesson_id": "b1-b2_indirect_questions",
+    "source_content": "1 I'd like to know ______.",
+    "source_options": [
+      {
+        "text": "how can I contact her",
+        "is_correct": false
+      },
+      {
+        "text": "how I can contact her",
+        "is_correct": true
+      },
+      {
+        "text": "how do I contact her",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "I wonder _____.",
+    "current_adapted_options": [
+      "how can I reach the manager",
+      "how I can reach the manager",
+      "how do I reach the manager"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0,
+    "levenshtein": 0.2,
+    "matching_shingles": []
+  },
+  {
+    "qid": "2352",
+    "model": "single_choice",
+    "exercise_id": "quiz-269",
+    "lesson_id": "b1-b2_indirect_questions",
+    "source_content": "5 ______ in this house?",
+    "source_options": [
+      {
+        "text": "How much time you have been living",
+        "is_correct": false
+      },
+      {
+        "text": "How long you've been living",
+        "is_correct": false
+      },
+      {
+        "text": "How long have you been living",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "5 _____ at this company?",
+    "current_adapted_options": [
+      "How much time you have been working",
+      "How long you've been working",
+      "How long have you been working"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.2,
+    "levenshtein": 0.4667,
+    "matching_shingles": []
+  },
+  {
+    "qid": "2369",
+    "model": "single_choice",
+    "exercise_id": "quiz-269",
+    "lesson_id": "b1-b2_indirect_questions",
+    "source_content": "10 ______? Can you tell me?",
+    "source_options": [
+      {
+        "text": "Where is the new student from",
+        "is_correct": true
+      },
+      {
+        "text": "Where the new student is from",
+        "is_correct": false
+      },
+      {
+        "text": "From where is the new student",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "10 _____? Do you know?",
+    "current_adapted_options": [
+      "Where is the new manager from",
+      "Where the new manager is from",
+      "From where is the new manager"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1667,
+    "levenshtein": 0.3333,
+    "matching_shingles": []
+  },
+  {
+    "qid": "5348",
+    "model": "single_choice",
+    "exercise_id": "quiz-621",
+    "lesson_id": "b1-b2_likely_unlikely_bound_definitely_probably",
+    "source_content": "2 _____ get their money back.",
+    "source_options": [
+      {
+        "text": "It's unlikely to",
+        "is_correct": false
+      },
+      {
+        "text": "They will unlikely",
+        "is_correct": false
+      },
+      {
+        "text": "They are unlikely to",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "_____ receive approval for the project immediately.",
+    "current_adapted_options": [
+      "It's unlikely to",
+      "We will unlikely",
+      "We are unlikely to"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0,
+    "levenshtein": 0.1818,
+    "matching_shingles": []
+  },
+  {
+    "qid": "5353",
+    "model": "single_choice",
+    "exercise_id": "quiz-621",
+    "lesson_id": "b1-b2_likely_unlikely_bound_definitely_probably",
+    "source_content": "8 ______ give them a loan.",
+    "source_options": [
+      {
+        "text": "Banks will unlikely",
+        "is_correct": false
+      },
+      {
+        "text": "Banks are very unlikely that will",
+        "is_correct": false
+      },
+      {
+        "text": "It's very unlikely that banks will",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "8 _____ offer a refund.",
+    "current_adapted_options": [
+      "Airlines will unlikely",
+      "Airlines are very unlikely that will",
+      "It's very unlikely that airlines will"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1667,
+    "levenshtein": 0.1875,
+    "matching_shingles": []
+  },
+  {
+    "qid": "5354",
+    "model": "single_choice",
+    "exercise_id": "quiz-621",
+    "lesson_id": "b1-b2_likely_unlikely_bound_definitely_probably",
+    "source_content": "9 _____ give them a loan.",
+    "source_options": [
+      {
+        "text": "Banks are very unlikely to",
+        "is_correct": true
+      },
+      {
+        "text": "It's very unlikely banks to",
+        "is_correct": false
+      },
+      {
+        "text": "Banks are very unlikely that will",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "9 _____ approve the project budget.",
+    "current_adapted_options": [
+      "Investors are very unlikely to",
+      "It's very unlikely investors to",
+      "Investors are very unlikely that will"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0,
+    "levenshtein": 0.2692,
+    "matching_shingles": []
+  },
+  {
+    "qid": "2519",
+    "model": "single_choice",
+    "exercise_id": "quiz-20",
+    "lesson_id": "b1-b2_narrative_tenses",
+    "source_content": "2 Why did you change the channel? I ______ that movie.",
+    "source_options": [
+      {
+        "text": "watched",
+        "is_correct": false
+      },
+      {
+        "text": "was watching",
+        "is_correct": true
+      },
+      {
+        "text": "had watched",
+        "is_correct": false
+      },
+      {
+        "text": "had been watching",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Why did you turn off the radio? I _____ to that song.",
+    "current_adapted_options": [
+      "listened",
+      "was listening",
+      "had listened",
+      "had been listening"
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['why did you'] with elevated similarity (Jaccard=0.4286, Lev=0.5556).; Correct answer diverged from source: source=['was watching'], adapted=['was listening']. Flagged for review.",
+    "jaccard": 0.4286,
+    "levenshtein": 0.5556,
+    "matching_shingles": [
+      "why did you"
+    ]
+  },
+  {
+    "qid": "2516",
+    "model": "gap",
+    "exercise_id": "quiz-21",
+    "lesson_id": "b1-b2_narrative_tenses",
+    "source_content": "Many years ago, I 1 {{gap_1}} to spend New Year's Eve with my family. I 2 {{gap_2}} new year with my parents but I had nowhere to go, and being with my family seemed preferable to being on my own. When my parents 3 {{gap_3}} the door I could see they 4 {{gap_4}}, and that they were genuinely happy to see me. I 5 {{gap_5}} addicted to alcohol for 10 years, and for them, seeing me was the confirmation that I wasn't dead in an alley. Unfortunately, I 6 {{gap_6}} nothing new or exciting to tell them, just the same sad old stories. I 7 {{gap_7}} from crappy job to crappy job, being invariably sacked, and I 8 {{gap_8}} to crime whenever I was out of money. Same old, same old. During dinner, I 9 {{gap_9}} a few glassfuls of whisky. I 10 {{gap_10}} something to ease the pain, because for the whole evening my sisters 11 {{gap_11}} at me with such contempt that it was unbearable. My own sisters 12 {{gap_12}} me. Then I had a moment of realisation; I 13 {{gap_13}} that they would never hate me as much as I hated myself. When we finished dinner I 14 {{gap_14}} one last glass of whisky. \"I'm going into rehab,\" I said. My parents 15 {{gap_15}} at me with some kind of hope. Parents never lose hope. But my sisters just 16 {{gap_16}} down with disdain. They 17 {{gap_17}} perfectly well that I had been in rehab centres many times before, and that this time wouldn't be different. But this time, it was different. After that day, I 18 {{gap_18}} that look in my sisters' eyes every day, every time I 19 {{gap_19}} to drink. Ten years later, on a New Year's Eve, I thanked my sisters because they 20 {{gap_20}} my life. They kissed me with their new look in their eyes, the look of love.",
+    "source_options": [
+      {
+        "text": "had decided",
+        "is_correct": false
+      },
+      {
+        "text": "wasn't normally spending",
+        "is_correct": false
+      },
+      {
+        "text": "were opening",
+        "is_correct": false
+      },
+      {
+        "text": "were smiling",
+        "is_correct": true
+      },
+      {
+        "text": "was being",
+        "is_correct": false
+      },
+      {
+        "text": "had",
+        "is_correct": true
+      },
+      {
+        "text": "had been going",
+        "is_correct": true
+      },
+      {
+        "text": "resorted",
+        "is_correct": true
+      },
+      {
+        "text": "was drinking up",
+        "is_correct": false
+      },
+      {
+        "text": "was needing",
+        "is_correct": false
+      },
+      {
+        "text": "looked",
+        "is_correct": false
+      },
+      {
+        "text": "had hated",
+        "is_correct": false
+      },
+      {
+        "text": "had discovered",
+        "is_correct": false
+      },
+      {
+        "text": "raised",
+        "is_correct": true
+      },
+      {
+        "text": "looked",
+        "is_correct": true
+      },
+      {
+        "text": "had looked",
+        "is_correct": false
+      },
+      {
+        "text": "had known",
+        "is_correct": false
+      },
+      {
+        "text": "remembered",
+        "is_correct": true
+      },
+      {
+        "text": "wanted",
+        "is_correct": true
+      },
+      {
+        "text": "had been saving",
+        "is_correct": false
+      },
+      {
+        "text": "was deciding",
+        "is_correct": false
+      },
+      {
+        "text": "didn't normally spend",
+        "is_correct": true
+      },
+      {
+        "text": "opened",
+        "is_correct": true
+      },
+      {
+        "text": "smiled",
+        "is_correct": false
+      },
+      {
+        "text": "had been",
+        "is_correct": true
+      },
+      {
+        "text": "was having",
+        "is_correct": false
+      },
+      {
+        "text": "was going",
+        "is_correct": false
+      },
+      {
+        "text": "had been resorting",
+        "is_correct": false
+      },
+      {
+        "text": "drank up",
+        "is_correct": true
+      },
+      {
+        "text": "had needed",
+        "is_correct": false
+      },
+      {
+        "text": "had been looking",
+        "is_correct": true
+      },
+      {
+        "text": "hated",
+        "is_correct": true
+      },
+      {
+        "text": "was discovering",
+        "is_correct": false
+      },
+      {
+        "text": "had raised",
+        "is_correct": false
+      },
+      {
+        "text": "had looked",
+        "is_correct": false
+      },
+      {
+        "text": "had been looking",
+        "is_correct": false
+      },
+      {
+        "text": "were knowing",
+        "is_correct": false
+      },
+      {
+        "text": "had remembered",
+        "is_correct": false
+      },
+      {
+        "text": "had wanting",
+        "is_correct": false
+      },
+      {
+        "text": "were saving",
+        "is_correct": false
+      },
+      {
+        "text": "decided",
+        "is_correct": true
+      },
+      {
+        "text": "hadn't normally spent",
+        "is_correct": false
+      },
+      {
+        "text": "had been opening",
+        "is_correct": false
+      },
+      {
+        "text": "had smiled",
+        "is_correct": false
+      },
+      {
+        "text": "was",
+        "is_correct": false
+      },
+      {
+        "text": "had had",
+        "is_correct": false
+      },
+      {
+        "text": "went",
+        "is_correct": false
+      },
+      {
+        "text": "was resorting",
+        "is_correct": false
+      },
+      {
+        "text": "had drink up",
+        "is_correct": false
+      },
+      {
+        "text": "needed",
+        "is_correct": true
+      },
+      {
+        "text": "had looked",
+        "is_correct": false
+      },
+      {
+        "text": "were hating",
+        "is_correct": false
+      },
+      {
+        "text": "discovered",
+        "is_correct": true
+      },
+      {
+        "text": "was raising",
+        "is_correct": false
+      },
+      {
+        "text": "had been looking",
+        "is_correct": false
+      },
+      {
+        "text": "looked",
+        "is_correct": true
+      },
+      {
+        "text": "knew",
+        "is_correct": true
+      },
+      {
+        "text": "was remembering",
+        "is_correct": false
+      },
+      {
+        "text": "was wanting",
+        "is_correct": false
+      },
+      {
+        "text": "had saved",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "decided",
+        "accepted": "[\"decided\"]"
+      },
+      {
+        "gap_order": 2,
+        "correct_answer": "didn't normally spend",
+        "accepted": "[\"didn't normally spend\"]"
+      },
+      {
+        "gap_order": 3,
+        "correct_answer": "opened",
+        "accepted": "[\"opened\"]"
+      },
+      {
+        "gap_order": 4,
+        "correct_answer": "were smiling",
+        "accepted": "[\"were smiling\"]"
+      },
+      {
+        "gap_order": 5,
+        "correct_answer": "had been",
+        "accepted": "[\"had been\"]"
+      },
+      {
+        "gap_order": 6,
+        "correct_answer": "had",
+        "accepted": "[\"had\"]"
+      },
+      {
+        "gap_order": 7,
+        "correct_answer": "had been going",
+        "accepted": "[\"had been going\"]"
+      },
+      {
+        "gap_order": 8,
+        "correct_answer": "resorted",
+        "accepted": "[\"resorted\"]"
+      },
+      {
+        "gap_order": 9,
+        "correct_answer": "drank up",
+        "accepted": "[\"drank up\"]"
+      },
+      {
+        "gap_order": 10,
+        "correct_answer": "needed",
+        "accepted": "[\"needed\"]"
+      },
+      {
+        "gap_order": 11,
+        "correct_answer": "had been looking",
+        "accepted": "[\"had been looking\"]"
+      },
+      {
+        "gap_order": 12,
+        "correct_answer": "hated",
+        "accepted": "[\"hated\"]"
+      },
+      {
+        "gap_order": 13,
+        "correct_answer": "discovered",
+        "accepted": "[\"discovered\"]"
+      },
+      {
+        "gap_order": 14,
+        "correct_answer": "raised",
+        "accepted": "[\"raised\"]"
+      },
+      {
+        "gap_order": 15,
+        "correct_answer": "looked",
+        "accepted": "[\"looked\"]"
+      },
+      {
+        "gap_order": 16,
+        "correct_answer": "looked",
+        "accepted": "[\"looked\"]"
+      },
+      {
+        "gap_order": 17,
+        "correct_answer": "knew",
+        "accepted": "[\"knew\"]"
+      },
+      {
+        "gap_order": 18,
+        "correct_answer": "remembered",
+        "accepted": "[\"remembered\"]"
+      },
+      {
+        "gap_order": 19,
+        "correct_answer": "wanted",
+        "accepted": "[\"wanted\"]"
+      },
+      {
+        "gap_order": 20,
+        "correct_answer": "had saved",
+        "accepted": "[\"had saved\"]"
+      }
+    ],
+    "current_adapted_text": "Years ago, I 1 {{gap_1}} to visit my old school reunion. I 2 {{gap_2}} weekends attending alumni events, but my schedule was clear. When the hosts 3 {{gap_3}} the gates, I noticed they 4 {{gap_4}} warmly at incoming visitors. I 5 {{gap_5}} absent from social gatherings for a decade, so seeing old classmates felt surreal. I 6 {{gap_6}} no updates to share about my career. I 7 {{gap_7}} from one temporary assignment to another, and I 8 {{gap_8}} to freelance gigs whenever funds ran low. At lunch, I 9 {{gap_9}} some herbal tea quickly. I 10 {{gap_10}} a quiet moment to recover, as former teammates 11 {{gap_11}} at me critically during speeches. My former peers 12 {{gap_12}} my choices back then. Suddenly, I 13 {{gap_13}} that their judgments no longer defined my self-worth. As evening arrived, I 14 {{gap_14}} my glass to toast the organizers. My mentors 15 {{gap_15}} toward me with encouragement, but my rivals just 16 {{gap_16}} away calmly. They 17 {{gap_17}} that I had tried starting new businesses before without success. Yet this time proved different. Afterwards, I 18 {{gap_18}} that pivotal moment whenever I 19 {{gap_19}} to give up on my goals. A decade later, I sent a note of thanks because those challenging lessons 20 {{gap_20}} my career path.",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['ago i 1', 'and i 8'] with elevated similarity (Jaccard=0.2597, Lev=0.3648).",
+    "jaccard": 0.2597,
+    "levenshtein": 0.3648,
+    "matching_shingles": [
+      "ago i 1",
+      "and i 8",
+      "years ago i"
+    ]
+  },
+  {
+    "qid": "2517",
+    "model": "gap",
+    "exercise_id": "quiz-22",
+    "lesson_id": "b1-b2_narrative_tenses",
+    "source_content": "We thought that we were on the right path when suddenly we 1 {{gap_1}} (run into) a very familiar rock and 2 {{gap_2}} (realise) that we 3 {{gap_3}} (walk) in circles for quite a long time. We 4 {{gap_4}} (be) totally lost, and the fact that we 5 {{gap_5}} (already/finish) our water provisions wasn't very promising. We 6 {{gap_6}} (decide) to go uphill because according to John, it would be easier to spot a way out from an elevated point. He 7 {{gap_7}} (learn) that from a documentary he 8 {{gap_8}} (see) about survival. But what the documentary 9 {{gap_9}} (not teach) John was that maybe it’s not such a good idea to go up a mountain when you are exhausted and waterless. We 10 {{gap_10}} (trek) one mile when we 11 {{gap_11}} (start) to have a horrible feeling that that might be our last trek. Of course, we 12 {{gap_12}} (say) anything, but we could see in each other’s eyes that at that precise moment we 13 {{gap_13}} (think) precisely the same. We couldn't walk any longer, so we 14 {{gap_14}} (decide) to sit and rest, quietly, because neither of us wanted to share any of our gloomy thoughts. \"Hello, can I help you?\" we suddenly 15 {{gap_15}} (hear). We 16 {{gap_16}} (raise) our heads and 17 {{gap_17}} (see) a little man with slanted eyes and a childish grin. He 18 {{gap_18}} (stand) right next to us. I wondered where he 19 {{gap_19}} (come) from and how long he 20 {{gap_20}} (stand) there. But it didn't matter really, because we were safe.",
+    "source_options": [],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "ran into",
+        "accepted": "[\"ran into\"]"
+      },
+      {
+        "gap_order": 2,
+        "correct_answer": "realised",
+        "accepted": "[\"realised\"]"
+      },
+      {
+        "gap_order": 3,
+        "correct_answer": "had been walking",
+        "accepted": "[\"had been walking\"]"
+      },
+      {
+        "gap_order": 4,
+        "correct_answer": "were",
+        "accepted": "[\"were\"]"
+      },
+      {
+        "gap_order": 5,
+        "correct_answer": "had already finished",
+        "accepted": "[\"had already finished\"]"
+      },
+      {
+        "gap_order": 6,
+        "correct_answer": "decided",
+        "accepted": "[\"decided\"]"
+      },
+      {
+        "gap_order": 7,
+        "correct_answer": "had learned",
+        "accepted": "[\"had learned\"]"
+      },
+      {
+        "gap_order": 8,
+        "correct_answer": "had seen",
+        "accepted": "[\"had seen\"]"
+      },
+      {
+        "gap_order": 9,
+        "correct_answer": "hadn't taught",
+        "accepted": "[\"hadn't taught\"]"
+      },
+      {
+        "gap_order": 10,
+        "correct_answer": "had trekked",
+        "accepted": "[\"had trekked\"]"
+      },
+      {
+        "gap_order": 11,
+        "correct_answer": "started",
+        "accepted": "[\"started\"]"
+      },
+      {
+        "gap_order": 12,
+        "correct_answer": "didn't say",
+        "accepted": "[\"didn't say\"]"
+      },
+      {
+        "gap_order": 13,
+        "correct_answer": "were thinking",
+        "accepted": "[\"were thinking\"]"
+      },
+      {
+        "gap_order": 14,
+        "correct_answer": "decided",
+        "accepted": "[\"decided\"]"
+      },
+      {
+        "gap_order": 15,
+        "correct_answer": "heard",
+        "accepted": "[\"heard\"]"
+      },
+      {
+        "gap_order": 16,
+        "correct_answer": "raised",
+        "accepted": "[\"raised\"]"
+      },
+      {
+        "gap_order": 17,
+        "correct_answer": "saw",
+        "accepted": "[\"saw\"]"
+      },
+      {
+        "gap_order": 18,
+        "correct_answer": "was standing",
+        "accepted": "[\"was standing\"]"
+      },
+      {
+        "gap_order": 19,
+        "correct_answer": "had come",
+        "accepted": "[\"had come\"]"
+      },
+      {
+        "gap_order": 20,
+        "correct_answer": "had been standing",
+        "accepted": "[\"had been standing\"]"
+      }
+    ],
+    "current_adapted_text": "While exploring the dark forest, we suddenly {{gap_1}} an ancient wooden cabin and {{gap_2}} that we {{gap_3}} in circles for hours. We {{gap_4}} completely confused, and since we {{gap_5}} our food supplies, our situation was grim. We {{gap_6}} to turn back, remembering what Mark {{gap_7}} from a wilderness guide he {{gap_8}} years ago. However, what the book {{gap_9}} Mark was how scary the dark woods become at night. We {{gap_10}} just two miles when we {{gap_11}} to hear strange footsteps behind us. We {{gap_12}} a word, but both of us knew what we {{gap_13}} at that instant. Terrified, we {{gap_14}} to stop near a stream. \"Who goes there?\" we {{gap_15}} a voice say. We {{gap_16}} our flashlights and {{gap_17}} a tall park ranger. He {{gap_18}} under a pine tree. We wondered where he {{gap_19}} from and how long he {{gap_20}} there watching us.",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['and how long', 'from and how'] with elevated similarity (Jaccard=0.1287, Lev=0.3167).; countability: Countable vs uncountable noun environment shifted.",
+    "jaccard": 0.1287,
+    "levenshtein": 0.3167,
+    "matching_shingles": [
+      "and how long",
+      "from and how",
+      "how long he",
+      "in circles for",
+      "wondered where he"
+    ]
+  },
+  {
+    "qid": "7214",
+    "model": "single_choice",
+    "exercise_id": "quiz-846",
+    "lesson_id": "b1-b2_neednt_dont_need_to_didnt_need_to_neednt_have",
+    "source_content": "2 Students in possession of a doctor's certificate _____ part in the race.",
+    "source_options": [
+      {
+        "text": "don't need to take",
+        "is_correct": false
+      },
+      {
+        "text": "needn't take",
+        "is_correct": false
+      },
+      {
+        "text": "A and B are equally likely",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Employees holding a valid security pass _____ entrance fees at the exhibition.",
+    "current_adapted_options": [
+      "don't need to pay",
+      "needn't pay",
+      "Both options are equally likely"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0556,
+    "levenshtein": 0.1972,
+    "matching_shingles": []
+  },
+  {
+    "qid": "7222",
+    "model": "single_choice",
+    "exercise_id": "quiz-846",
+    "lesson_id": "b1-b2_neednt_dont_need_to_didnt_need_to_neednt_have",
+    "source_content": "3 You _____ the dishes. I was going to do that tomorrow.",
+    "source_options": [
+      {
+        "text": "didn't need to wash",
+        "is_correct": false
+      },
+      {
+        "text": "needn't have washed",
+        "is_correct": true
+      },
+      {
+        "text": "A and B are equally likely",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "She _____ the report. The manager had already submitted it yesterday.",
+    "current_adapted_options": [
+      "didn't need to write",
+      "needn't have written",
+      "A and B are equally likely"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0556,
+    "levenshtein": 0.2623,
+    "matching_shingles": []
+  },
+  {
+    "qid": "7215",
+    "model": "single_choice",
+    "exercise_id": "quiz-846",
+    "lesson_id": "b1-b2_neednt_dont_need_to_didnt_need_to_neednt_have",
+    "source_content": "4 The children _____ if they don't want to. They might get bored.",
+    "source_options": [
+      {
+        "text": "don't need to come",
+        "is_correct": false
+      },
+      {
+        "text": "needn't come",
+        "is_correct": false
+      },
+      {
+        "text": "A and B are equally likely",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Employees _____ to the office on Fridays if they prefer working remotely.",
+    "current_adapted_options": [
+      "don't need to attend",
+      "needn't attend",
+      "Both choices are equally likely"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.2353,
+    "levenshtein": 0.2727,
+    "matching_shingles": []
+  },
+  {
+    "qid": "7218",
+    "model": "single_choice",
+    "exercise_id": "quiz-846",
+    "lesson_id": "b1-b2_neednt_dont_need_to_didnt_need_to_neednt_have",
+    "source_content": "5 We _____ a taxi. Graham gave us a lift.",
+    "source_options": [
+      {
+        "text": "needn't have taken",
+        "is_correct": false
+      },
+      {
+        "text": "didn't need to take",
+        "is_correct": true
+      },
+      {
+        "text": "A and B are equally likely",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "They _____ tickets because Sarah provided free passes.",
+    "current_adapted_options": [
+      "needn't have bought",
+      "didn't need to buy",
+      "A and B are equally likely"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0,
+    "levenshtein": 0.234,
+    "matching_shingles": []
+  },
+  {
+    "qid": "7221",
+    "model": "single_choice",
+    "exercise_id": "quiz-846",
+    "lesson_id": "b1-b2_neednt_dont_need_to_didnt_need_to_neednt_have",
+    "source_content": "8 I know you were worried, but you _____. I sent you a text saying I was OK.",
+    "source_options": [
+      {
+        "text": "didn't have to worry",
+        "is_correct": false
+      },
+      {
+        "text": "needn't have worried",
+        "is_correct": true
+      },
+      {
+        "text": "A and B are equally likely",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "You brought an umbrella, but you _____. It did not rain at all.",
+    "current_adapted_options": [
+      "didn't have to bring one",
+      "needn't have brought one",
+      "A and B are equally likely"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1,
+    "levenshtein": 0.3538,
+    "matching_shingles": []
+  },
+  {
+    "qid": "7220",
+    "model": "single_choice",
+    "exercise_id": "quiz-846",
+    "lesson_id": "b1-b2_neednt_dont_need_to_didnt_need_to_neednt_have",
+    "source_content": "10 I _____ the appointment in the end, as I managed to reschedule it.",
+    "source_options": [
+      {
+        "text": "needn't have cancelled",
+        "is_correct": false
+      },
+      {
+        "text": "didn't have to cancel",
+        "is_correct": true
+      },
+      {
+        "text": "A and B are equally likely",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "10 She _____ the train ticket because her colleague offered her a lift.",
+    "current_adapted_options": [
+      "needn't have bought",
+      "didn't have to buy",
+      "A and B are equally likely"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0556,
+    "levenshtein": 0.2951,
+    "matching_shingles": []
+  },
+  {
+    "qid": "268",
+    "model": "single_choice",
+    "exercise_id": "quiz-34",
+    "lesson_id": "b1-b2_participle_adjectives",
+    "source_content": "5 It _______ me to see my marks at the end of every term. They are usually very _______ marks.",
+    "source_options": [
+      {
+        "text": "depressed / depressed",
+        "is_correct": false
+      },
+      {
+        "text": "depresses / depressing",
+        "is_correct": true
+      },
+      {
+        "text": "depresses / depressed",
+        "is_correct": false
+      },
+      {
+        "text": "depressed / depressing",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "It _______ him to read the sales reports every month. They are usually very _______ numbers.",
+    "current_adapted_options": [
+      "depressed / depressed",
+      "depresses / depressing",
+      "depresses / depressed",
+      "depressed / depressing"
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['are usually very', 'they are usually'] with elevated similarity (Jaccard=0.3636, Lev=0.5405).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "jaccard": 0.3636,
+    "levenshtein": 0.5405,
+    "matching_shingles": [
+      "are usually very",
+      "they are usually"
+    ]
+  },
+  {
+    "qid": "471",
+    "model": "single_choice",
+    "exercise_id": "quiz-59",
+    "lesson_id": "b1-b2_passive_reporting_verbs",
+    "source_content": "3 The couple _______ by the end of the year.",
+    "source_options": [
+      {
+        "text": "are rumored they will get married",
+        "is_correct": false
+      },
+      {
+        "text": "are rumored to get married",
+        "is_correct": true
+      },
+      {
+        "text": "are rumored that will get married",
+        "is_correct": false
+      },
+      {
+        "text": "are rumored to have got married",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "3 The players _____ next season.",
+    "current_adapted_options": [
+      "are rumored they will leave",
+      "are rumored to leave",
+      "are rumored that will leave",
+      "are rumored to have left"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1111,
+    "levenshtein": 0.3333,
+    "matching_shingles": []
+  },
+  {
+    "qid": "436",
+    "model": "single_choice",
+    "exercise_id": "quiz-56",
+    "lesson_id": "b1-b2_passive_voice_all_tenses",
+    "source_content": "1 The report _______ two days ago.",
+    "source_options": [
+      {
+        "text": "should been finished",
+        "is_correct": false
+      },
+      {
+        "text": "should finish",
+        "is_correct": false
+      },
+      {
+        "text": "should have been finished",
+        "is_correct": true
+      },
+      {
+        "text": "should have being finished",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "The proposal _____ before the conference last night.",
+    "current_adapted_options": [
+      "should been submitted",
+      "should submit",
+      "should have been submitted",
+      "should have being submitted"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1,
+    "levenshtein": 0.3333,
+    "matching_shingles": []
+  },
+  {
+    "qid": "361",
+    "model": "gap",
+    "exercise_id": "quiz-48",
+    "lesson_id": "b1-b2_past_modal_verbs",
+    "source_content": "Old Mr McGraw had been murdered and everybody was wondering who 1 {{gap_1}} (do) it. Two police officers were speculating about the murder. SEBASTIAN: It 2 {{gap_2}} (be) Mrs McGraw. I’m totally convinced it was her. She absolutely hated him. She 3 {{gap_3}} (use) a kitchen knife as the murder weapon, or maybe an axe from the garden tools. JESSICA: It 4 {{gap_4}} (be) Mrs McGraw. She isn’t strong enough to drag the body and put it in the car boot. It 5 {{gap_5}} (be) their older son; I would bet all my money it was him. He had motive, because Mr McGraw had disinherited him long ago, and everybody knew they hated each other. SEBASTIAN: Impossible. It 6 {{gap_6}} (be) their older son because he has a plausible alibi. He was fishing with his brother at the time of the crime, he testified. JESSICA: Then the younger son 7 {{gap_7}} (lie) to protect his brother. They 8 {{gap_8}} (agree) on an alibi after the murder. If you think about it, they 9 {{gap_9}} (plan) the murder together. It’s a reasonable possibility. Maybe the younger son was afraid that his father would disinherit him too; they had a difficult relationship. SEBASTIAN: That makes sense. They killed him so that at least one of them could get the inheritance. JESSICA: Well, if they wanted to get the money from the inheritance, they 10 {{gap_10}} (kill) their father. Because now we’ll catch them and they will be in prison and without a penny.",
+    "source_options": [],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "could have done",
+        "accepted": "[\"could have done\"]"
+      },
+      {
+        "gap_order": 2,
+        "correct_answer": "must have been",
+        "accepted": "[\"must have been\"]"
+      },
+      {
+        "gap_order": 3,
+        "correct_answer": "could have used",
+        "accepted": "[\"could have used\"]"
+      },
+      {
+        "gap_order": 4,
+        "correct_answer": "can't have been",
+        "accepted": "[\"can't have been\"]"
+      },
+      {
+        "gap_order": 5,
+        "correct_answer": "must have been",
+        "accepted": "[\"must have been\"]"
+      },
+      {
+        "gap_order": 6,
+        "correct_answer": "couldn't have been",
+        "accepted": "[\"couldn't have been\"]"
+      },
+      {
+        "gap_order": 7,
+        "correct_answer": "must have lied",
+        "accepted": "[\"must have lied\"]"
+      },
+      {
+        "gap_order": 8,
+        "correct_answer": "must have agreed",
+        "accepted": "[\"must have agreed\"]"
+      },
+      {
+        "gap_order": 9,
+        "correct_answer": "might have planned",
+        "accepted": "[\"might have planned\"]"
+      },
+      {
+        "gap_order": 10,
+        "correct_answer": "shouldn't have killed",
+        "accepted": "[\"shouldn't have killed\"]"
+      }
+    ],
+    "current_adapted_text": "The art gallery's main safe was looted, leaving investigators to figure out who {{gap_1}} (do) such a crime. Detectives were analyzing the evidence at the scene. MARK: It {{gap_2}} (be) the former curator; I'm certain she organized the theft. She held a massive grudge. She {{gap_3}} (use) a master key or a copied electronic badge to open the vault doors. CLARA: It {{gap_4}} (be) the curator. She lacks the technical skill required to disable the laser grid. It {{gap_5}} (be) the lead technician; I'd bet anything on his involvement. He had insider knowledge because his contract was terminated recently, creating resentment. MARK: No way. It {{gap_6}} (be) the technician because he was caught on security footage miles away during the burglary. CLARA: In that case, the night guard {{gap_7}} (lie) to cover for him. They {{gap_8}} (agree) on a false story before the break-in. Perhaps they {{gap_9}} (plan) the heist together; it remains a distinct probability. The guard was deep in debt. MARK: That makes sense. They stole the artwork to share the payoff. CLARA: Well, if they wanted quick wealth, they {{gap_10}} (kill) the alarm system so loudly, as the authorities caught them red-handed.",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['if they wanted', 'makes sense they'] with elevated similarity (Jaccard=0.1623, Lev=0.3508).; countability: Countable vs uncountable noun environment shifted.",
+    "jaccard": 0.1623,
+    "levenshtein": 0.3508,
+    "matching_shingles": [
+      "if they wanted",
+      "makes sense they",
+      "that makes sense",
+      "well if they"
+    ]
+  },
+  {
+    "qid": "142",
+    "model": "gap",
+    "exercise_id": "quiz-18",
+    "lesson_id": "b1-b2_position_of_adverbs",
+    "source_content": "2 We must do something. (obviously, quickly) ⇒ {{gap_1}}.",
+    "source_options": [],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "Obviously, we must do something quickly",
+        "accepted": "[\"Obviously, we must do something quickly\"]"
+      }
+    ],
+    "current_adapted_text": "There is a sudden leak in the pipe. We must do something. (obviously, quickly) ⇒ {{gap_1}}.",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['do something obviously', 'must do something'] with elevated similarity (Jaccard=0.4286, Lev=0.5333).",
+    "jaccard": 0.4286,
+    "levenshtein": 0.5333,
+    "matching_shingles": [
+      "do something obviously",
+      "must do something",
+      "something obviously quickly",
+      "we must do"
+    ]
+  },
+  {
+    "qid": "151",
+    "model": "single_choice",
+    "exercise_id": "quiz-19",
+    "lesson_id": "b1-b2_position_of_adverbs",
+    "source_content": "1 Which sentence is correct?",
+    "source_options": [
+      {
+        "text": "Does he go late to bed usually?",
+        "is_correct": false
+      },
+      {
+        "text": "Does he usually go to bed late?",
+        "is_correct": true
+      },
+      {
+        "text": "Does he go late usually to bed?",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Which sentence is correct?",
+    "current_adapted_options": [
+      "Does she drive fast to work usually?",
+      "Does she usually drive to work fast?",
+      "Does she drive fast usually to work?"
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['Does he usually go to bed late?'], adapted=['Does she usually drive to work fast?']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ]
+  },
+  {
+    "qid": "152",
+    "model": "single_choice",
+    "exercise_id": "quiz-19",
+    "lesson_id": "b1-b2_position_of_adverbs",
+    "source_content": "2 Which sentence is correct?",
+    "source_options": [
+      {
+        "text": "David walks to work every morning.",
+        "is_correct": true
+      },
+      {
+        "text": "David every morning walks to work.",
+        "is_correct": false
+      },
+      {
+        "text": "David walks every morning to work.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Which sentence is correct?",
+    "current_adapted_options": [
+      "Sarah drives to school every afternoon.",
+      "Sarah every afternoon drives to school.",
+      "Sarah drives every afternoon to school."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['David walks to work every morning.'], adapted=['Sarah drives to school every afternoon.']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ]
+  },
+  {
+    "qid": "153",
+    "model": "single_choice",
+    "exercise_id": "quiz-19",
+    "lesson_id": "b1-b2_position_of_adverbs",
+    "source_content": "3 Which sentence is NOT correct?",
+    "source_options": [
+      {
+        "text": "I ate quickly my breakfast and went out.",
+        "is_correct": true
+      },
+      {
+        "text": "I ate my breakfast quickly and went out.",
+        "is_correct": false
+      },
+      {
+        "text": "I quickly ate my breakfast and went out.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Which sentence is NOT correct?",
+    "current_adapted_options": [
+      "She finished eagerly her assignment and left the room.",
+      "She finished her assignment eagerly and left the room.",
+      "She eagerly finished her assignment and left the room."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['I ate quickly my breakfast and went out.'], adapted=['She finished eagerly her assignment and left the room.']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ]
+  },
+  {
+    "qid": "155",
+    "model": "single_choice",
+    "exercise_id": "quiz-19",
+    "lesson_id": "b1-b2_position_of_adverbs",
+    "source_content": "4 Which sentence is correct?",
+    "source_options": [
+      {
+        "text": "Did you learn a lot at school today?",
+        "is_correct": true
+      },
+      {
+        "text": "Did you learn a lot today at school?",
+        "is_correct": false
+      },
+      {
+        "text": "Did you learn today a lot at school?",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Which sentence is correct?",
+    "current_adapted_options": [
+      "Did she practice a lot at the gym yesterday?",
+      "Did she practice a lot yesterday at the gym?",
+      "Did she practice yesterday a lot at the gym?"
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['Did you learn a lot at school today?'], adapted=['Did she practice a lot at the gym yesterday?']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ]
+  },
+  {
+    "qid": "156",
+    "model": "single_choice",
+    "exercise_id": "quiz-19",
+    "lesson_id": "b1-b2_position_of_adverbs",
+    "source_content": "5 Which sentence is correct?",
+    "source_options": [
+      {
+        "text": "She hardly ever gets angry.",
+        "is_correct": true
+      },
+      {
+        "text": "She gets angry hardly ever.",
+        "is_correct": false
+      },
+      {
+        "text": "She gets hardly ever angry.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Which sentence is correct?",
+    "current_adapted_options": [
+      "He hardly ever complains about his job.",
+      "He complains about his job hardly ever.",
+      "He complains hardly ever about his job."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['She hardly ever gets angry.'], adapted=['He hardly ever complains about his job.']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ]
+  },
+  {
+    "qid": "154",
+    "model": "single_choice",
+    "exercise_id": "quiz-19",
+    "lesson_id": "b1-b2_position_of_adverbs",
+    "source_content": "6 Which sentence is NOT correct?",
+    "source_options": [
+      {
+        "text": "She obviously is thinking always about him.",
+        "is_correct": true
+      },
+      {
+        "text": "She is obviously always thinking about him.",
+        "is_correct": false
+      },
+      {
+        "text": "Obviously, she is always thinking about him.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "6 Which sentence is NOT correct?",
+    "current_adapted_options": [
+      "He clearly is working always on the project.",
+      "He is clearly always working on the project.",
+      "Clearly, he is always working on the project."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['She obviously is thinking always about him.'], adapted=['He clearly is working always on the project.']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence not"
+    ]
+  },
+  {
+    "qid": "157",
+    "model": "single_choice",
+    "exercise_id": "quiz-19",
+    "lesson_id": "b1-b2_position_of_adverbs",
+    "source_content": "7 Which sentence is correct?",
+    "source_options": [
+      {
+        "text": "They won easily the game yesterday.",
+        "is_correct": false
+      },
+      {
+        "text": "Yesterday, they won easily the game.",
+        "is_correct": false
+      },
+      {
+        "text": "They won the game easily yesterday.",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "7 Which sentence is correct?",
+    "current_adapted_options": [
+      "She solved quickly the puzzle this morning.",
+      "This morning, she solved quickly the puzzle.",
+      "She solved the puzzle quickly this morning."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['They won the game easily yesterday.'], adapted=['She solved the puzzle quickly this morning.']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ]
+  },
+  {
+    "qid": "158",
+    "model": "single_choice",
+    "exercise_id": "quiz-19",
+    "lesson_id": "b1-b2_position_of_adverbs",
+    "source_content": "8 Which sentence is correct?",
+    "source_options": [
+      {
+        "text": "He doesn't always sleep at home on Mondays.",
+        "is_correct": true
+      },
+      {
+        "text": "He always doesn't sleep at home on Mondays.",
+        "is_correct": false
+      },
+      {
+        "text": "On Mondays, he doesn't sleep always at home.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Which sentence is correct?",
+    "current_adapted_options": [
+      "She doesn't always study in the library on weekends.",
+      "She always doesn't study in the library on weekends.",
+      "On weekends, she doesn't study always in the library."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=[\"He doesn't always sleep at home on Mondays.\"], adapted=[\"She doesn't always study in the library on weekends.\"]. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ]
+  },
+  {
+    "qid": "159",
+    "model": "single_choice",
+    "exercise_id": "quiz-19",
+    "lesson_id": "b1-b2_position_of_adverbs",
+    "source_content": "9 Which sentence is correct?",
+    "source_options": [
+      {
+        "text": "They rarely eat healthily.",
+        "is_correct": true
+      },
+      {
+        "text": "They eat healthily rarely.",
+        "is_correct": false
+      },
+      {
+        "text": "Rarely they eat healthily.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Which sentence is correct?",
+    "current_adapted_options": [
+      "She seldom exercises properly.",
+      "She exercises properly seldom.",
+      "Seldom she exercises properly."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['They rarely eat healthily.'], adapted=['She seldom exercises properly.']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ]
+  },
+  {
+    "qid": "2515",
+    "model": "single_choice",
+    "exercise_id": "quiz-19",
+    "lesson_id": "b1-b2_position_of_adverbs",
+    "source_content": "10 Which sentence is correct?",
+    "source_options": [
+      {
+        "text": "I could barely think straight",
+        "is_correct": true
+      },
+      {
+        "text": "I barely could think straight",
+        "is_correct": false
+      },
+      {
+        "text": "I could think barely straight",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Which sentence is correct?",
+    "current_adapted_options": [
+      "She could hardly hear the speaker",
+      "She hardly could hear the speaker",
+      "She could hear hardly the speaker"
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['I could barely think straight'], adapted=['She could hardly hear the speaker']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ]
+  },
+  {
+    "qid": "76",
+    "model": "gap",
+    "exercise_id": "quiz-11",
+    "lesson_id": "b1-b2_present_perfect_simple_continuous",
+    "source_content": "A: 1 {{gap_1}} the dog for a walk yet? B: No, I haven’t. I 2 {{gap_2}} all day. I 3 {{gap_3}} home from work and I 4 {{gap_4}} the time to walk the dog yet. A: So how long 5 {{gap_5}} home alone? B: For about 6 hours. You 6 {{gap_6}} the dog zero times since last weekend. Why don’t you take him for a walk? A: Well, I 7 {{gap_7}} things all day too, you know. I have a very important meeting tomorrow and I 8 {{gap_8}} my presentation yet. B: Okay, I will go then. 9 {{gap_9}} the collar and the leash? A: They are in the kitchen. By the way, 10 {{gap_10}} anything yet? If not, could you get us something from the supermarket?",
+    "source_options": [
+      {
+        "text": "Have you been taken",
+        "is_correct": false
+      },
+      {
+        "text": "'m working",
+        "is_correct": false
+      },
+      {
+        "text": "'ve just been coming",
+        "is_correct": false
+      },
+      {
+        "text": "haven't had",
+        "is_correct": true
+      },
+      {
+        "text": "has the dog been",
+        "is_correct": true
+      },
+      {
+        "text": "have walked",
+        "is_correct": true
+      },
+      {
+        "text": "'ve been done",
+        "is_correct": false
+      },
+      {
+        "text": "haven't finished",
+        "is_correct": true
+      },
+      {
+        "text": "Have you seeing",
+        "is_correct": false
+      },
+      {
+        "text": "have you ate",
+        "is_correct": false
+      },
+      {
+        "text": "Have you been taking",
+        "is_correct": false
+      },
+      {
+        "text": "'ve worked",
+        "is_correct": false
+      },
+      {
+        "text": "'ve just come",
+        "is_correct": true
+      },
+      {
+        "text": "haven't been had",
+        "is_correct": false
+      },
+      {
+        "text": "has the dog",
+        "is_correct": false
+      },
+      {
+        "text": "have walking",
+        "is_correct": false
+      },
+      {
+        "text": "'ve done",
+        "is_correct": false
+      },
+      {
+        "text": "haven't been finished",
+        "is_correct": false
+      },
+      {
+        "text": "Have you been seeing",
+        "is_correct": false
+      },
+      {
+        "text": "have you eaten",
+        "is_correct": true
+      },
+      {
+        "text": "Have you taken",
+        "is_correct": true
+      },
+      {
+        "text": "'ve been working",
+        "is_correct": true
+      },
+      {
+        "text": "'ve just coming",
+        "is_correct": false
+      },
+      {
+        "text": "haven't been having",
+        "is_correct": false
+      },
+      {
+        "text": "has the dog been being",
+        "is_correct": false
+      },
+      {
+        "text": "have been walking",
+        "is_correct": false
+      },
+      {
+        "text": "'ve been doing",
+        "is_correct": true
+      },
+      {
+        "text": "haven't been finishing",
+        "is_correct": false
+      },
+      {
+        "text": "Have you seen",
+        "is_correct": true
+      },
+      {
+        "text": "have you been eating",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "Have you taken",
+        "accepted": "[\"Have you taken\"]"
+      },
+      {
+        "gap_order": 2,
+        "correct_answer": "'ve been working",
+        "accepted": "[\"'ve been working\"]"
+      },
+      {
+        "gap_order": 3,
+        "correct_answer": "'ve just come",
+        "accepted": "[\"'ve just come\"]"
+      },
+      {
+        "gap_order": 4,
+        "correct_answer": "haven't had",
+        "accepted": "[\"haven't had\"]"
+      },
+      {
+        "gap_order": 5,
+        "correct_answer": "has the dog been",
+        "accepted": "[\"has the dog been\"]"
+      },
+      {
+        "gap_order": 6,
+        "correct_answer": "have walked",
+        "accepted": "[\"have walked\"]"
+      },
+      {
+        "gap_order": 7,
+        "correct_answer": "'ve been doing",
+        "accepted": "[\"'ve been doing\"]"
+      },
+      {
+        "gap_order": 8,
+        "correct_answer": "haven't finished",
+        "accepted": "[\"haven't finished\"]"
+      },
+      {
+        "gap_order": 9,
+        "correct_answer": "Have you seen",
+        "accepted": "[\"Have you seen\"]"
+      },
+      {
+        "gap_order": 10,
+        "correct_answer": "have you eaten",
+        "accepted": "[\"have you eaten\"]"
+      }
+    ],
+    "current_adapted_text": "A: 1 {{gap_1}} the client to their hotel already? B: No, I haven't. I 2 {{gap_2}} on this report since morning. I 3 {{gap_3}} back from the airport and I 4 {{gap_4}} a moment to rest. A: How long 5 {{gap_5}} waiting in the lobby? B: Nearly two hours. You 6 {{gap_6}} with them twice today, so can you check on them? A: Well, I 7 {{gap_7}} tasks all afternoon as well. I 8 {{gap_8}} my summary for the boss. B: Fine. 9 {{gap_9}} the car keys anywhere? A: On the desk. Also, 10 {{gap_10}} lunch? If not, we can order something.",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['and i 4', 'how long 5'] with elevated similarity (Jaccard=0.2710, Lev=0.3354).",
+    "jaccard": 0.271,
+    "levenshtein": 0.3354,
+    "matching_shingles": [
+      "and i 4",
+      "how long 5",
+      "well i 7"
+    ]
+  },
+  {
+    "qid": "619",
+    "model": "single_choice",
+    "exercise_id": "quiz-75",
+    "lesson_id": "b1-b2_quantifiers",
+    "source_content": "4 Which sentence is correct?",
+    "source_options": [
+      {
+        "text": "Both we have been to Italy.",
+        "is_correct": false
+      },
+      {
+        "text": "We have both been to Italy.",
+        "is_correct": true
+      },
+      {
+        "text": "We have been to Italy both.",
+        "is_correct": false
+      },
+      {
+        "text": "Both us have been to Italy.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "4 Which sentence is correct?",
+    "current_adapted_options": [
+      "Both we have watched that movie.",
+      "We have both watched that movie.",
+      "We have watched that movie both.",
+      "Both us have watched that movie."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['We have both been to Italy.'], adapted=['We have both watched that movie.']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ]
+  },
+  {
+    "qid": "2339",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-268",
+    "lesson_id": "b1-b2_questions_different_types",
+    "source_content": "3 Why ______? Choose TWO correct options",
+    "source_options": [
+      {
+        "text": "has he not got any money",
+        "is_correct": true
+      },
+      {
+        "text": "has not he got any money",
+        "is_correct": false
+      },
+      {
+        "text": "hasn't he got any money",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Why ______ left to buy lunch? Choose TWO correct options.",
+    "current_adapted_options": [
+      "has he not got any money",
+      "hasn't he got any money",
+      "has not he got any money",
+      "has not got he any money"
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).",
+    "jaccard": 0.2,
+    "levenshtein": 0.1429,
+    "matching_shingles": []
+  },
+  {
+    "qid": "2341",
+    "model": "single_choice",
+    "exercise_id": "quiz-268",
+    "lesson_id": "b1-b2_questions_different_types",
+    "source_content": "5 When we arrived, somebody had stolen the bag. Who ______?",
+    "source_options": [
+      {
+        "text": "had he stolen the bag",
+        "is_correct": false
+      },
+      {
+        "text": "stolen the bag",
+        "is_correct": false
+      },
+      {
+        "text": "had stolen the bag",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Before the event started, someone had taken the laptop. Who _____?",
+    "current_adapted_options": [
+      "had he taken the laptop",
+      "taken the laptop",
+      "had taken the laptop"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0909,
+    "levenshtein": 0.4912,
+    "matching_shingles": []
+  },
+  {
+    "qid": "4860",
+    "model": "gap",
+    "exercise_id": "quiz-569",
+    "lesson_id": "b1-b2_review_verb_tenses_b1_b2",
+    "source_content": "8 I'm totally stressed out now, but this time next week I {{gap_1}} a mojito on a beach in Ibiza.",
+    "source_options": [
+      {
+        "text": "'ll be having",
+        "is_correct": true
+      },
+      {
+        "text": "'m having",
+        "is_correct": false
+      },
+      {
+        "text": "'ll have had",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "'ll be having",
+        "accepted": "[\"'ll be having\"]"
+      }
+    ],
+    "current_adapted_text": "Work is exhausting right now, but this time tomorrow I {{gap_1}} coffee at a quiet resort in Bali.",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['but this time', 'now but this'] with elevated similarity (Jaccard=0.2593, Lev=0.3721).; countability: Countable vs uncountable noun environment shifted.",
+    "jaccard": 0.2593,
+    "levenshtein": 0.3721,
+    "matching_shingles": [
+      "but this time",
+      "now but this"
+    ]
+  },
+  {
+    "qid": "4863",
+    "model": "single_choice",
+    "exercise_id": "quiz-570",
+    "lesson_id": "b1-b2_review_verb_tenses_b1_b2",
+    "source_content": "1 Why do you look so tired? _____ the house?",
+    "source_options": [
+      {
+        "text": "Did you clean",
+        "is_correct": false
+      },
+      {
+        "text": "Have you cleaned",
+        "is_correct": false
+      },
+      {
+        "text": "Have you been cleaning",
+        "is_correct": true
+      },
+      {
+        "text": "Do you clean",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Why are your hands covered in flour? _____ a cake?",
+    "current_adapted_options": [
+      "Did you bake",
+      "Have you baked",
+      "Have you been baking",
+      "Do you bake"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0667,
+    "levenshtein": 0.4048,
+    "matching_shingles": []
+  },
+  {
+    "qid": "4866",
+    "model": "single_choice",
+    "exercise_id": "quiz-570",
+    "lesson_id": "b1-b2_review_verb_tenses_b1_b2",
+    "source_content": "4 A: \"I'm really thirsty.\" B: \"I _____ you some water.\"",
+    "source_options": [
+      {
+        "text": "'m going to give",
+        "is_correct": false
+      },
+      {
+        "text": "will be giving",
+        "is_correct": false
+      },
+      {
+        "text": "'m giving",
+        "is_correct": false
+      },
+      {
+        "text": "'ll give",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "A: \"It's freezing in here.\" B: \"I _____ you a jacket.\"",
+    "current_adapted_options": [
+      "'m going to bring",
+      "will be bringing",
+      "'m bringing",
+      "'ll bring"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1538,
+    "levenshtein": 0.3429,
+    "matching_shingles": []
+  },
+  {
+    "qid": "4880",
+    "model": "gap",
+    "exercise_id": "quiz-571",
+    "lesson_id": "b1-b2_review_verb_tenses_b1_b2",
+    "source_content": "8 A: \"What {{gap_1}} (you/do) with that piece of metal?\" B: Nothing. I {{gap_2}} (just/find) it in the garden.",
+    "source_options": [],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "are you doing",
+        "accepted": "[\"are you doing\"]"
+      },
+      {
+        "gap_order": 2,
+        "correct_answer": "have just found",
+        "accepted": "[\"have just found\"]"
+      }
+    ],
+    "current_adapted_text": "A: \"Why {{gap_1}} (you/do) that with the old camera?\" B: \"No reason. I {{gap_2}} (just/find) it in the attic.\"",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['find it in', 'it in the'] with elevated similarity (Jaccard=0.4000, Lev=0.5974).",
+    "jaccard": 0.4,
+    "levenshtein": 0.5974,
+    "matching_shingles": [
+      "find it in",
+      "it in the"
+    ]
+  },
+  {
+    "qid": "229",
+    "model": "single_choice",
+    "exercise_id": "quiz-29",
+    "lesson_id": "b1-b2_second_third_conditionals",
+    "source_content": "8 He could have died if he ________ a helmet.",
+    "source_options": [
+      {
+        "text": "didn't wear",
+        "is_correct": false
+      },
+      {
+        "text": "hadn't been wearing",
+        "is_correct": true
+      },
+      {
+        "text": "wouldn't wear",
+        "is_correct": false
+      },
+      {
+        "text": "wouldn't have worn",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "They might have failed the exam if they _____ regularly.",
+    "current_adapted_options": [
+      "didn't study",
+      "hadn't been studying",
+      "wouldn't study",
+      "wouldn't have studied"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1538,
+    "levenshtein": 0.4082,
+    "matching_shingles": []
+  },
+  {
+    "qid": "231",
+    "model": "single_choice",
+    "exercise_id": "quiz-29",
+    "lesson_id": "b1-b2_second_third_conditionals",
+    "source_content": "10 If you had listened to me, none of this ________.",
+    "source_options": [
+      {
+        "text": "happened",
+        "is_correct": false
+      },
+      {
+        "text": "had happened",
+        "is_correct": false
+      },
+      {
+        "text": "would happen",
+        "is_correct": false
+      },
+      {
+        "text": "would have happened",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "If Sarah had followed the map, the group _____ lost.",
+    "current_adapted_options": [
+      "got",
+      "had gotten",
+      "would get",
+      "would have gotten"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1333,
+    "levenshtein": 0.4091,
+    "matching_shingles": []
+  },
+  {
+    "qid": "232",
+    "model": "gap",
+    "exercise_id": "quiz-30",
+    "lesson_id": "b1-b2_second_third_conditionals",
+    "source_content": "If the world's big problems had been addressed sooner, our lives 1 {{gap_1}} (improve) a long time ago. But politicians and world leaders don’t do enough to improve the quality of life. If I had any power, I 2 {{gap_2}} (try) to stop the destruction of our planet and I 3 {{gap_3}} (make) the world a better place for all people. First of all, I would try to stop wars because unless we put an end to all the wars, millions of people 4 {{gap_4}} (continue) to die every day. If there were no wars, all children 5 {{gap_5}} (have) their parents at home to take care of them and provide for them, and they 6 {{gap_6}} (grow up) in a happier world. Also, if I 7 {{gap_7}} (be) a world leader, I would provide clean water for all countries. If all countries 8 {{gap_8}} (have) easy access to clean water, millions of children 9 {{gap_9}} (stop) dying from diseases caused by the lack of clean water. If we don't do something about this issue soon, there 10 {{gap_10}} (be) lots of wars and deaths because of the lack of water. We also need to introduce laws to reduce pollution. If we had done this in the past, millions of species 11 {{gap_11}} (never/become) extinct, and global warming 12 {{gap_12}} (never/start). If it were up to me, I 13 {{gap_13}} (introduce) very high taxes on fuel energy and at the same time I 14 {{gap_14}} (help) big companies to invest in clean energy. Unless we take measures now, it 15 {{gap_15}} (be) too late both for ourselves and our children.",
+    "source_options": [],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "would have improved",
+        "accepted": "[\"would have improved\"]"
+      },
+      {
+        "gap_order": 2,
+        "correct_answer": "would try",
+        "accepted": "[\"would try\"]"
+      },
+      {
+        "gap_order": 3,
+        "correct_answer": "would make",
+        "accepted": "[\"would make\"]"
+      },
+      {
+        "gap_order": 4,
+        "correct_answer": "will continue",
+        "accepted": "[\"will continue\"]"
+      },
+      {
+        "gap_order": 5,
+        "correct_answer": "would have",
+        "accepted": "[\"would have\"]"
+      },
+      {
+        "gap_order": 6,
+        "correct_answer": "would grow up",
+        "accepted": "[\"would grow up\"]"
+      },
+      {
+        "gap_order": 7,
+        "correct_answer": "were",
+        "accepted": "[\"were\"]"
+      },
+      {
+        "gap_order": 8,
+        "correct_answer": "had",
+        "accepted": "[\"had\"]"
+      },
+      {
+        "gap_order": 9,
+        "correct_answer": "would stop",
+        "accepted": "[\"would stop\"]"
+      },
+      {
+        "gap_order": 10,
+        "correct_answer": "will be",
+        "accepted": "[\"will be\"]"
+      },
+      {
+        "gap_order": 11,
+        "correct_answer": "would never have become",
+        "accepted": "[\"would never have become\"]"
+      },
+      {
+        "gap_order": 12,
+        "correct_answer": "would never have started",
+        "accepted": "[\"would never have started\"]"
+      },
+      {
+        "gap_order": 13,
+        "correct_answer": "would introduce",
+        "accepted": "[\"would introduce\"]"
+      },
+      {
+        "gap_order": 14,
+        "correct_answer": "would help",
+        "accepted": "[\"would help\"]"
+      },
+      {
+        "gap_order": 15,
+        "correct_answer": "will be",
+        "accepted": "[\"will be\"]"
+      }
+    ],
+    "current_adapted_text": "If the software glitches had been resolved sooner, system performance 1 {{gap_1}} months ago. But executives rarely allocate enough resources to upgrade infrastructure. If I managed this department, I 2 {{gap_2}} to modernize our tools and I 3 {{gap_3}} daily tasks much smoother for the team. First, I would overhaul server security because unless we repair the network, users 4 {{gap_4}} to face outages. If our studio were better organized, young designers 5 {{gap_5}} proper mentorship and they 6 {{gap_6}} in a supportive environment. Also, if I 7 {{gap_7}} the company director, I would support flexible working hours. If all departments 8 {{gap_8}} reasonable workloads, employees 9 {{gap_9}} leaving from burnout. If we don't address workload stress, there 10 {{gap_10}} high turnover in every branch. If we had adopted cloud back-ups years ago, lost records 11 {{gap_11}} problematic, and system crashes 12 {{gap_12}}. If I had the authority, I 13 {{gap_13}} better guidelines and I 14 {{gap_14}} new employees adapt quickly. Unless we adjust our policies now, it 15 {{gap_15}} impossible to stay competitive.",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['also if i', 'and i 3'] with elevated similarity (Jaccard=0.2239, Lev=0.3457).; countability: Countable vs uncountable noun environment shifted.",
+    "jaccard": 0.2239,
+    "levenshtein": 0.3457,
+    "matching_shingles": [
+      "also if i",
+      "and i 3",
+      "and they 6",
+      "because unless we",
+      "if i 7",
+      "if we don't",
+      "now it 15"
+    ]
+  },
+  {
+    "qid": "2385",
+    "model": "single_choice",
+    "exercise_id": "quiz-272",
+    "lesson_id": "b1-b2_the_the_comparatives",
+    "source_content": "4 ______, the easier it is to beat the competition.",
+    "source_options": [
+      {
+        "text": "As more connections you have",
+        "is_correct": false
+      },
+      {
+        "text": "The most connections you have",
+        "is_correct": false
+      },
+      {
+        "text": "The more connections do you have",
+        "is_correct": false
+      },
+      {
+        "text": "The more connections you have",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "4 ______, the faster you will finish the race.",
+    "current_adapted_options": [
+      "As more training you do",
+      "The most training you do",
+      "The more training do you do",
+      "The more training you do"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.0,
+    "levenshtein": 0.375,
+    "matching_shingles": []
+  },
+  {
+    "qid": "288",
+    "model": "single_choice",
+    "exercise_id": "quiz-38",
+    "lesson_id": "b1-b2_used_to",
+    "source_content": "3 I _______ this kind of shoes. I find them uncomfortable.",
+    "source_options": [
+      {
+        "text": "'m not used to wearing",
+        "is_correct": true
+      },
+      {
+        "text": "don't use to wear",
+        "is_correct": false
+      },
+      {
+        "text": "'m not used to wear",
+        "is_correct": false
+      },
+      {
+        "text": "don't get used to wear",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "3 I _____ manual cars. I find them difficult to manage.",
+    "current_adapted_options": [
+      "'m not used to driving",
+      "don't use to drive",
+      "'m not used to drive",
+      "don't get used to drive"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.25,
+    "levenshtein": 0.3478,
+    "matching_shingles": [
+      "i find them"
+    ]
+  },
+  {
+    "qid": "294",
+    "model": "single_choice",
+    "exercise_id": "quiz-38",
+    "lesson_id": "b1-b2_used_to",
+    "source_content": "9 I used to _______ outdoors, so I'm not used to _______ in an office all day.",
+    "source_options": [
+      {
+        "text": "working / sitting",
+        "is_correct": false
+      },
+      {
+        "text": "working / sit",
+        "is_correct": false
+      },
+      {
+        "text": "work / sit",
+        "is_correct": false
+      },
+      {
+        "text": "work / sitting",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "9 She used to _____ late, so she isn't accustomed to _____ early for her new shift.",
+    "current_adapted_options": [
+      "working / waking",
+      "working / wake",
+      "work / wake",
+      "work / waking"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1429,
+    "levenshtein": 0.3939,
+    "matching_shingles": []
+  },
+  {
+    "qid": "409",
+    "model": "single_choice",
+    "exercise_id": "quiz-53",
+    "lesson_id": "b1-b2_verbs_of_the_senses",
+    "source_content": "4 It _______ a plane, but it _______ some kind of UFO was flying over our heads.",
+    "source_options": [
+      {
+        "text": "looked like / sounded",
+        "is_correct": false
+      },
+      {
+        "text": "looked / sounded like",
+        "is_correct": false
+      },
+      {
+        "text": "looked as if / sounded as though",
+        "is_correct": false
+      },
+      {
+        "text": "looked like / sounded as if",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "The strange engine noise _____ a small glitch, but it _____ a major malfunction had occurred in the turbine.",
+    "current_adapted_options": [
+      "sounded like / felt",
+      "sounded / felt like",
+      "sounded as if / felt as though",
+      "sounded like / felt as if"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.12,
+    "levenshtein": 0.2766,
+    "matching_shingles": []
+  },
+  {
+    "qid": "413",
+    "model": "single_choice",
+    "exercise_id": "quiz-53",
+    "lesson_id": "b1-b2_verbs_of_the_senses",
+    "source_content": "8 Can you smell that? It _______ a gas leak.",
+    "source_options": [
+      {
+        "text": "smells",
+        "is_correct": false
+      },
+      {
+        "text": "smells like",
+        "is_correct": true
+      },
+      {
+        "text": "smells as if",
+        "is_correct": false
+      },
+      {
+        "text": "smells as though",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Do you hear that noise? It _____ a engine problem.",
+    "current_adapted_options": [
+      "sounds",
+      "sounds like",
+      "sounds as if",
+      "sounds as though"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.3077,
+    "levenshtein": 0.4286,
+    "matching_shingles": []
+  },
+  {
+    "qid": "7578",
+    "model": "gap",
+    "exercise_id": "quiz-892",
+    "lesson_id": "b1-b2_when_i_do_vs_when_i_have_done",
+    "source_content": "8 I'll let you know as soon as the food {{gap_1}} ready.",
+    "source_options": [
+      {
+        "text": "has been",
+        "is_correct": false
+      },
+      {
+        "text": "is being",
+        "is_correct": false
+      },
+      {
+        "text": "is",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "is",
+        "accepted": "[\"is\"]"
+      }
+    ],
+    "current_adapted_text": "We will leave for the station as soon as the taxi {{gap_1}} here.",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['as soon as', 'soon as the'] with elevated similarity (Jaccard=0.1875, Lev=0.5000).; singular_plural: Subject/demonstrative number shifted between singular and plural.",
+    "jaccard": 0.1875,
+    "levenshtein": 0.5,
+    "matching_shingles": [
+      "as soon as",
+      "soon as the"
+    ]
+  },
+  {
+    "qid": "7584",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-893",
+    "lesson_id": "b1-b2_when_i_do_vs_when_i_have_done",
+    "source_content": "3 I'll make a decision when I _____ to Linda.",
+    "source_options": [
+      {
+        "text": "talk",
+        "is_correct": true
+      },
+      {
+        "text": "have talked",
+        "is_correct": true
+      },
+      {
+        "text": "will talk",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "We will send the package as soon as we _____ with the manager. (Choose TWO correct answers)",
+    "current_adapted_options": [
+      "talk",
+      "have talked",
+      "will talk",
+      "would talk"
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; singular_plural: Subject/demonstrative number shifted between singular and plural.",
+    "jaccard": 0.0,
+    "levenshtein": 0.3273,
+    "matching_shingles": []
+  },
+  {
+    "qid": "7582",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-893",
+    "lesson_id": "b1-b2_when_i_do_vs_when_i_have_done",
+    "source_content": "5 When the children _____ their hands, they'll have lunch.",
+    "source_options": [
+      {
+        "text": "wash",
+        "is_correct": true
+      },
+      {
+        "text": "am washing",
+        "is_correct": false
+      },
+      {
+        "text": "have washed",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Once the mechanics _____ the engine, we will start our road trip. (Choose TWO correct answers)",
+    "current_adapted_options": [
+      "wash",
+      "have washed",
+      "are washing",
+      "washes"
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "jaccard": 0.0625,
+    "levenshtein": 0.2982,
+    "matching_shingles": []
+  },
+  {
+    "qid": "7589",
+    "model": "single_choice",
+    "exercise_id": "quiz-893",
+    "lesson_id": "b1-b2_when_i_do_vs_when_i_have_done",
+    "source_content": "8 I will give you my opinion on the book when I _____ it. I can't say what I think without finishing it.",
+    "source_options": [
+      {
+        "text": "read",
+        "is_correct": false
+      },
+      {
+        "text": "am reading",
+        "is_correct": false
+      },
+      {
+        "text": "have read",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "She will send us her feedback on the project after she _____ it. She wants to make sure she reviews everything carefully.",
+    "current_adapted_options": [
+      "examines",
+      "is examining",
+      "has examined"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.129,
+    "levenshtein": 0.3274,
+    "matching_shingles": []
+  },
+  {
+    "qid": "7590",
+    "model": "single_choice",
+    "exercise_id": "quiz-893",
+    "lesson_id": "b1-b2_when_i_do_vs_when_i_have_done",
+    "source_content": "9 I will correct the homework when I _____ time.",
+    "source_options": [
+      {
+        "text": "am having",
+        "is_correct": false
+      },
+      {
+        "text": "'ve had",
+        "is_correct": false
+      },
+      {
+        "text": "have",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "She will finish the report as soon as she _____ free moments.",
+    "current_adapted_options": [
+      "is having",
+      "'s had",
+      "has"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.1429,
+    "levenshtein": 0.3333,
+    "matching_shingles": []
+  },
+  {
+    "qid": "7593",
+    "model": "gap",
+    "exercise_id": "quiz-894",
+    "lesson_id": "b1-b2_when_i_do_vs_when_i_have_done",
+    "source_content": "3 The bell on the oven will ping as soon as the pizzas {{gap_1}} ready. (be)",
+    "source_options": [],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "are",
+        "accepted": "[\"are\"]"
+      }
+    ],
+    "current_adapted_text": "Our flight status will update as soon as the pilots {{gap_1}} on board.",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['as soon as', 'soon as the'] with elevated similarity (Jaccard=0.2941, Lev=0.4444).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "jaccard": 0.2941,
+    "levenshtein": 0.4444,
+    "matching_shingles": [
+      "as soon as",
+      "soon as the"
+    ]
+  },
+  {
+    "qid": "233",
+    "model": "gap",
+    "exercise_id": "quiz-31",
+    "lesson_id": "b1-b2_wishes_regrets",
+    "source_content": "Dear Mum, I feel really unhappy! I wish I 1 {{gap_1}} this job. If only I 2 {{gap_2}} to you before I made the decision to come here. The people here are unfriendly. l wish they 3 {{gap_3}} more friendly. And I don't even have breaks! If only I 4 {{gap_4}} longer breaks. Looking at a computer screen all day is tiring; I wish my computer 5 {{gap_5}}! And I wish my boss 6 {{gap_6}} yelling at me all the time. He's always in a bad mood. It's so annoying! Also, I wish there 7 {{gap_7}} someone here I could talk to, but there is no one I can talk to. I haven't made any friends. If only I 8 {{gap_8}} some friends when I arrived here, but meeting new people is very difficult. I wish you 9 {{gap_9}} nearer to me. If only I 10 {{gap_10}} you more often! Please write soon. I miss you! Love, Mary",
+    "source_options": [
+      {
+        "text": "didn't accept",
+        "is_correct": false
+      },
+      {
+        "text": "listened",
+        "is_correct": false
+      },
+      {
+        "text": "had been",
+        "is_correct": false
+      },
+      {
+        "text": "would have",
+        "is_correct": false
+      },
+      {
+        "text": "explode",
+        "is_correct": false
+      },
+      {
+        "text": "had stopped",
+        "is_correct": false
+      },
+      {
+        "text": "had been",
+        "is_correct": false
+      },
+      {
+        "text": "had made",
+        "is_correct": true
+      },
+      {
+        "text": "would live",
+        "is_correct": false
+      },
+      {
+        "text": "could see",
+        "is_correct": true
+      },
+      {
+        "text": "hadn't accepted",
+        "is_correct": true
+      },
+      {
+        "text": "had listened",
+        "is_correct": true
+      },
+      {
+        "text": "were",
+        "is_correct": true
+      },
+      {
+        "text": "had had",
+        "is_correct": false
+      },
+      {
+        "text": "would explode",
+        "is_correct": true
+      },
+      {
+        "text": "stopped",
+        "is_correct": false
+      },
+      {
+        "text": "would be",
+        "is_correct": false
+      },
+      {
+        "text": "would have made",
+        "is_correct": false
+      },
+      {
+        "text": "had lived",
+        "is_correct": false
+      },
+      {
+        "text": "could have seen",
+        "is_correct": false
+      },
+      {
+        "text": "wouldn't accept",
+        "is_correct": false
+      },
+      {
+        "text": "would listen",
+        "is_correct": false
+      },
+      {
+        "text": "would be",
+        "is_correct": false
+      },
+      {
+        "text": "had",
+        "is_correct": true
+      },
+      {
+        "text": "will explode",
+        "is_correct": false
+      },
+      {
+        "text": "would stop",
+        "is_correct": true
+      },
+      {
+        "text": "were",
+        "is_correct": true
+      },
+      {
+        "text": "made",
+        "is_correct": false
+      },
+      {
+        "text": "lived",
+        "is_correct": true
+      },
+      {
+        "text": "would see",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [
+      {
+        "gap_order": 1,
+        "correct_answer": "hadn't accepted",
+        "accepted": "[\"hadn't accepted\"]"
+      },
+      {
+        "gap_order": 2,
+        "correct_answer": "had listened",
+        "accepted": "[\"had listened\"]"
+      },
+      {
+        "gap_order": 3,
+        "correct_answer": "were",
+        "accepted": "[\"were\"]"
+      },
+      {
+        "gap_order": 4,
+        "correct_answer": "had",
+        "accepted": "[\"had\"]"
+      },
+      {
+        "gap_order": 5,
+        "correct_answer": "would explode",
+        "accepted": "[\"would explode\"]"
+      },
+      {
+        "gap_order": 6,
+        "correct_answer": "would stop",
+        "accepted": "[\"would stop\"]"
+      },
+      {
+        "gap_order": 7,
+        "correct_answer": "were",
+        "accepted": "[\"were\"]"
+      },
+      {
+        "gap_order": 8,
+        "correct_answer": "had made",
+        "accepted": "[\"had made\"]"
+      },
+      {
+        "gap_order": 9,
+        "correct_answer": "lived",
+        "accepted": "[\"lived\"]"
+      },
+      {
+        "gap_order": 10,
+        "correct_answer": "could see",
+        "accepted": "[\"could see\"]"
+      }
+    ],
+    "current_adapted_text": "Dear Sam, I feel miserable here! I wish I {{gap_1}} the offer to join this remote training camp. If only I {{gap_2}} to your advice before packing my bags. The instructors are harsh; I wish they {{gap_3}} kinder to us. We barely get rest; if only I {{gap_4}} a longer break. Training in the freezing rain is exhausting; I wish the old heating system {{gap_5}}! And I wish the coach {{gap_6}} shouting instructions constantly. It's so frustrating! Also, I wish there {{gap_7}} an assistant here to help us. I feel isolated; if only I {{gap_8}} better preparations before moving. I wish my family {{gap_9}} closer to this facility. If only I {{gap_10}} my old friends again! Write back soon. Best, Alex",
+    "current_adapted_options": [],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['also i wish', 'and i wish'] with elevated similarity (Jaccard=0.1940, Lev=0.3658).; countability: Countable vs uncountable noun environment shifted.",
+    "jaccard": 0.194,
+    "levenshtein": 0.3658,
+    "matching_shingles": [
+      "also i wish",
+      "and i wish",
+      "i wish i",
+      "i wish my",
+      "i wish there",
+      "if only i"
+    ]
+  },
+  {
+    "qid": "250",
+    "model": "single_choice",
+    "exercise_id": "quiz-33",
+    "lesson_id": "b1-b2_wishes_regrets",
+    "source_content": "7 This book is so boring. I wish I _______ reading it.",
+    "source_options": [
+      {
+        "text": "wouldn't have started",
+        "is_correct": false
+      },
+      {
+        "text": "didn't start",
+        "is_correct": false
+      },
+      {
+        "text": "hadn't started",
+        "is_correct": true
+      },
+      {
+        "text": "wouldn't start",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "This movie is terrible. I wish I _______ the ticket.",
+    "current_adapted_options": [
+      "wouldn't have bought",
+      "didn't buy",
+      "hadn't bought",
+      "wouldn't buy"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.3077,
+    "levenshtein": 0.5238,
+    "matching_shingles": [
+      "i wish i"
+    ]
+  },
+  {
+    "qid": "299",
+    "model": "single_choice",
+    "exercise_id": "quiz-40",
+    "lesson_id": "b1-b2_would_and_used_to",
+    "source_content": "3 Which sentence is NOT correct?",
+    "source_options": [
+      {
+        "text": "I would go shopping with her every Friday.",
+        "is_correct": false
+      },
+      {
+        "text": "I would have very blond hair.",
+        "is_correct": true
+      },
+      {
+        "text": "She would call me after class to chat.",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Which sentence is NOT correct?",
+    "current_adapted_options": [
+      "We would visit the museum every summer.",
+      "He would own a large house near the lake.",
+      "They would practice the piano after school."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['I would have very blond hair.'], adapted=['He would own a large house near the lake.']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ]
+  },
+  {
+    "qid": "303",
+    "model": "single_choice",
+    "exercise_id": "quiz-40",
+    "lesson_id": "b1-b2_would_and_used_to",
+    "source_content": "7 Which sentence is NOT correct?",
+    "source_options": [
+      {
+        "text": "I didn't use to like cheese when I was younger.",
+        "is_correct": false
+      },
+      {
+        "text": "I didn't use to walk home after school.",
+        "is_correct": false
+      },
+      {
+        "text": "As a child, I would hate having to get up early.",
+        "is_correct": true
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "Which sentence is NOT correct?",
+    "current_adapted_options": [
+      "He didn't use to enjoy seafood during his youth.",
+      "She didn't use to ride a bicycle to work.",
+      "In those days, my sister would love visiting the local zoo."
+    ],
+    "rejection_stage": "deterministic_evaluator",
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['As a child, I would hate having to get up early.'], adapted=['In those days, my sister would love visiting the local zoo.']. Flagged for review.",
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ]
+  },
+  {
+    "qid": "375",
+    "model": "single_choice",
+    "exercise_id": "quiz-50",
+    "lesson_id": "b1-b2_would_rather_would_prefer",
+    "source_content": "4 I'd prefer to walk rather than _______ by car.",
+    "source_options": [
+      {
+        "text": "to go",
+        "is_correct": false
+      },
+      {
+        "text": "go",
+        "is_correct": true
+      },
+      {
+        "text": "going",
+        "is_correct": false
+      },
+      {
+        "text": "to going",
+        "is_correct": false
+      }
+    ],
+    "source_gaps": [],
+    "current_adapted_text": "She'd prefer to cook at home rather than _____ at a restaurant.",
+    "current_adapted_options": [
+      "to eat",
+      "eat",
+      "eating",
+      "to eating"
+    ],
+    "rejection_stage": "ai_semantic_review",
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "jaccard": 0.2857,
+    "levenshtein": 0.5273,
+    "matching_shingles": []
+  }
+]

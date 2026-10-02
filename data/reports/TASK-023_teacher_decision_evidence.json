@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "task": "TASK-023",
+    "timestamp": "2026-10-01T12:02:18.137163+00:00",
+    "purpose": "Machine-grounded evidence extraction for 5 unresolved teacher-decision candidates",
+    "worker_count": 5,
+    "target_qids": [
+      "3068",
+      "5054",
+      "5165",
+      "7513",
+      "6742"
+    ],
+    "source_of_truth": "SQLite databases (staging.db & adaptation.db) + TASK-022 candidate artifacts",
+    "reused_verifications": {
+      "full_corpus_audit": "REUSED_FROM_TASK-020",
+      "preview_gate": "REUSED_FROM_TASK-022_PASS_225_OF_225",
+      "staging_hash": "REUSED_FROM_TASK-022_3fd7250ecbd3956fb035f97b55fc70c796e465b8fb7c3e3601ccdc5645898ded",
+      "test_suites": "REUSED_FROM_TASK-022_JEST_24_OF_24_PY_40_OF_40"
+    }
+  },
+  "records": [
+    {
+      "worker": "Worker A",
+      "qid": "3068",
+      "category": "SEMANTIC_COPULAR_AGREEMENT",
+      "level": "A2",
+      "exercise_id": "quiz-362",
+      "exercise_title": "Exercise 4",
+      "topic": "Present perfect or past simple?",
+      "lesson_id": "a2_present_perfect_or_past_simple",
+      "response_model": "gap",
+      "grammar_target": "Present perfect or past simple?",
+      "gap_count": 10,
+      "option_count": 0,
+      "source_text": "Dialogue 1 MARK: 1 {{gap_1}} (you/ever/hear) the group The Darkness? BIANCA: No, I 2 {{gap_2}}. What kind of music do they play? MARK: Rock music. I 3 {{gap_3}} (see) them in concert last night. BIANCA: 4 {{gap_4}} (be) it a good concert? MARK: Yes, I really 5 {{gap_5}} (like) it. Dialogue 2 ANDY: 6 {{gap_6}} (you/ever/lose) your car keys? BART: Yes, I 7 {{gap_7}}. ANDY: Where 8 {{gap_8}} (it/happen)? BART: In Portugal. I 9 {{gap_9}} (be) there on holiday. ANDY: What 10 {{gap_10}} (you/do)?",
+      "source_correct_answer": [
+        "Have you ever heard",
+        "haven't",
+        "saw",
+        "Was",
+        "liked",
+        "Have you ever lost",
+        "have",
+        "did it happen",
+        "was",
+        "did you do"
+      ],
+      "source_options": [],
+      "original_adapted_text": "Part 1\nLEO: 1 {{gap_1}} (ever/you/hear) broadcasts by the Cambridge Baroque Quartet?\nTARA: Truly, I 2 {{gap_2}}. Which musical repertoire do they perform?\nLEO: Classical chamber works. In fact, my family 3 {{gap_3}} (see) their ensemble performing live last Friday.\nTARA: 4 {{gap_4}} (be) the auditorium acoustics satisfactory?\nLEO: Exceptionally; audiences 5 {{gap_5}} (like) each symphony.\n\nPart 2\nFELIX: At busy airport terminals, 6 {{gap_6}} (ever/you/lose) international travel documents?\nNINA: Regrettably, I 7 {{gap_7}}.\nFELIX: Along which flight corridor 8 {{gap_8}} (it/happen)?\nNINA: In Zurich; an oversized boarding envelope 9 {{gap_9}} (be) misplaced during customs transfers.\nFELIX: Afterward, what emergency procedures 10 {{gap_10}} (you/do)?",
+      "original_adapted_correct_answer": [
+        "Have you ever heard",
+        "haven't",
+        "saw",
+        "Was",
+        "liked",
+        "Have you ever lost",
+        "have",
+        "did it happen",
+        "was",
+        "did you do"
+      ],
+      "original_validation_anomaly_reason": "Validator flagged: Plural/compound subject conflicts with singular verb form 'Was'. Grammatical agreement tension between plural/collective noun 'acoustics' and singular past verb 'Was'.",
+      "exact_validator_flag": "Plural/compound subject conflicts with singular verb form 'Was'.",
+      "original_problematic_sentence": "TARA: 4 {{gap_4}} (be) the auditorium acoustics satisfactory?",
+      "source_answer": "Was",
+      "candidate_adapted_text": "Part 1\nLEO: 1 {{gap_1}} (ever/you/hear) broadcasts by the Cambridge Baroque Quartet?\nTARA: Truly, I 2 {{gap_2}}. Which musical repertoire do they perform?\nLEO: Classical chamber works. In fact, my family 3 {{gap_3}} (see) their ensemble performing live last Friday.\nTARA: 4 {{gap_4}} (be) the auditorium sound quality satisfactory?\nLEO: Exceptionally; audiences 5 {{gap_5}} (like) each symphony.\n\nPart 2\nFELIX: At busy airport terminals, 6 {{gap_6}} (ever/you/lose) international travel documents?\nNINA: Regrettably, I 7 {{gap_7}}.\nFELIX: Along which flight corridor 8 {{gap_8}} (it/happen)?\nNINA: In Zurich; an oversized boarding envelope 9 {{gap_9}} (be) misplaced during customs transfers.\nFELIX: Afterward, what emergency procedures 10 {{gap_10}} (you/do)?",
+      "candidate_sentence": "TARA: 4 {{gap_4}} (be) the auditorium sound quality satisfactory?",
+      "candidate_answer": "Was",
+      "candidate_options": null,
+      "task022_rationale": "In standard English, 'acoustics' (acoustic properties of a hall) functions as a plural noun requiring 'Were'. Changing the head noun to the singular compound 'auditorium sound quality' makes the target answer 'Was' ('Was the auditorium sound quality satisfactory?') grammatically flawless, natural, and unambiguous, without altering the target answer key or any other gap."
+    },
+    {
+      "worker": "Worker B",
+      "qid": "5054",
+      "category": "SUSPICIOUS_DUPLICATE_CROSS_EXERCISE",
+      "collision_id": 2,
+      "level": "A1",
+      "exercise_id": "quiz-591",
+      "exercise_title": "Exercise 3",
+      "topic": "Next to, under, between, in front of, behind, over, etc.",
+      "lesson_id": "a1_next_to_under_between_in_front_behind_etc",
+      "response_model": "gap",
+      "grammar_target": "Next to, under, between, in front of, behind, over, etc.",
+      "gap_count": 1,
+      "option_count": 0,
+      "source_text": "5 Martha is standing {{gap_1}} David (4).",
+      "source_correct_answer": [
+        "behind"
+      ],
+      "source_options": [],
+      "original_adapted_text": "The cat is hiding {{gap_1}} the sofa.",
+      "duplicated_carrier_text": "The cat is hiding {{gap_1}} the sofa.",
+      "conflicting_qid": "5038",
+      "conflicting_exercise_id": "quiz-589",
+      "conflicting_adapted_text": "The cat is hiding {{gap_1}} the sofa.",
+      "why_candidate_was_created": "Breaks duplicate carrier collision with QID 5038. QID 5038 retains the current adaptation, while QID 5054 receives an independent context.",
+      "original_validation_anomaly_reason": "Carrier collision: identical adapted text shared with QID 5038.",
+      "candidate_adapted_text": "Sophie is standing {{gap_1}} Liam in the ticket queue.",
+      "candidate_answer": "behind",
+      "candidate_options": null,
+      "task022_rationale": "Source prompt features people standing in sequence ('Martha standing behind David'). New carrier uses person queue context, breaking carrier collision with cat/sofa in quiz-589 while matching A1 preposition pedagogy."
+    },
+    {
+      "worker": "Worker C",
+      "qid": "5165",
+      "category": "GENUINE_DUPLICATE_SAME_EXERCISE",
+      "collision_id": 4,
+      "level": "A1",
+      "exercise_id": "quiz-602",
+      "exercise_title": "Exercise 2",
+      "topic": "Would you like...? I'd like...",
+      "lesson_id": "a1_would_like",
+      "response_model": "single_choice",
+      "grammar_target": "Would you like...? I'd like...",
+      "gap_count": 0,
+      "option_count": 3,
+      "source_text": "7 We _____ watching TV during dinner.",
+      "source_correct_answer": [
+        "like"
+      ],
+      "source_options": [
+        {
+          "option_order": 1,
+          "text": "'d like",
+          "is_correct": 0
+        },
+        {
+          "option_order": 2,
+          "text": "like",
+          "is_correct": 1
+        },
+        {
+          "option_order": 3,
+          "text": "'d like to",
+          "is_correct": 0
+        }
+      ],
+      "original_adapted_text": "They _____ listening to music in the evening.",
+      "duplicated_carrier_text": "They _____ listening to music in the evening.",
+      "conflicting_qid": "5160",
+      "conflicting_exercise_id": "quiz-602",
+      "conflicting_adapted_text": "They _____ listening to music in the evening.",
+      "why_candidate_was_created": "Breaks duplicate carrier collision with QID 5160. QID 5160 retains the current adaptation, while QID 5165 receives an independent context.",
+      "original_validation_anomaly_reason": "Carrier collision: identical adapted text shared with QID 5160.",
+      "candidate_adapted_text": "We _____ reading novels in the park on sunny afternoons.",
+      "candidate_answer": "like",
+      "candidate_options": [
+        "'d like",
+        "like",
+        "'d like to"
+      ],
+      "task022_rationale": "Both questions occur in quiz-602. Replaced question 7 receives a fresh gerund complement context ('reading novels in the park') testing habitual preference ('like' + -ing), preserving exact options and answer."
+    },
+    {
+      "worker": "Worker D",
+      "qid": "7513",
+      "category": "SUSPICIOUS_DUPLICATE_CROSS_EXERCISE",
+      "collision_id": 5,
+      "level": "A2",
+      "exercise_id": "quiz-882",
+      "exercise_title": "Exercise 3",
+      "topic": "On time vs In time, At the end vs In the end",
+      "lesson_id": "a2_on_time_vs_in_time_at_the_end_vs_in_the_end",
+      "response_model": "gap",
+      "grammar_target": "On time vs In time, At the end vs In the end",
+      "gap_count": 1,
+      "option_count": 0,
+      "source_text": "8 The pie will be ready {{gap_1}} for dinner.",
+      "source_correct_answer": [
+        "in time"
+      ],
+      "source_options": [],
+      "original_adapted_text": "We arrived at the station {{gap_1}} to catch the last train.",
+      "duplicated_carrier_text": "We arrived at the station {{gap_1}} to catch the last train.",
+      "conflicting_qid": "7493",
+      "conflicting_exercise_id": "quiz-880",
+      "conflicting_adapted_text": "We arrived at the station {{gap_1}} to catch the last train.",
+      "why_candidate_was_created": "Breaks duplicate carrier collision with QID 7493. QID 7493 retains the current adaptation, while QID 7513 receives an independent context.",
+      "original_validation_anomaly_reason": "Carrier collision: identical adapted text shared with QID 7493.",
+      "candidate_adapted_text": "The technician finished repairing the laptop {{gap_1}} for my online presentation.",
+      "candidate_answer": "in time",
+      "candidate_options": null,
+      "task022_rationale": "Source prompt tests 'in time for [event/deadline]'. New carrier ('finished repairing the laptop in time for my online presentation') avoids train-station duplicate while preserving exact grammar usage."
+    },
+    {
+      "worker": "Worker E",
+      "qid": "6742",
+      "category": "GENUINE_DUPLICATE_SAME_EXERCISE",
+      "collision_id": 7,
+      "level": "B1",
+      "exercise_id": "quiz-782",
+      "exercise_title": "Exercise 1",
+      "topic": "Compound adjectives with numbers: 'a two-day trip'",
+      "lesson_id": "b1_compound_adjectives_with_numbers_a_two_day_trip",
+      "response_model": "single_choice",
+      "grammar_target": "Compound adjectives with numbers: 'a two-day trip'",
+      "gap_count": 0,
+      "option_count": 3,
+      "source_text": "9 The Channel Tunnel is a _____ tunnel that connects England with France.",
+      "source_correct_answer": [
+        "50-kilometre"
+      ],
+      "source_options": [
+        {
+          "option_order": 1,
+          "text": "50-kilometre",
+          "is_correct": 1
+        },
+        {
+          "option_order": 2,
+          "text": "50-kilometres",
+          "is_correct": 0
+        },
+        {
+          "option_order": 3,
+          "text": "50 kilometres",
+          "is_correct": 0
+        }
+      ],
+      "original_adapted_text": "They completed a _____ hike through the national park.",
+      "duplicated_carrier_text": "They completed a _____ hike through the national park.",
+      "conflicting_qid": "6739",
+      "conflicting_exercise_id": "quiz-782",
+      "conflicting_adapted_text": "They completed a _____ hike through the national park.",
+      "why_candidate_was_created": "Breaks duplicate carrier collision with QID 6739. QID 6739 retains the current adaptation, while QID 6742 receives an independent context.",
+      "original_validation_anomaly_reason": "Carrier collision: identical adapted text shared with QID 6739.",
+      "candidate_adapted_text": "Engineers constructed a _____ tunnel beneath the Alpine ridge.",
+      "candidate_answer": "50-kilometre",
+      "candidate_options": [
+        "50-kilometre",
+        "50-kilometres",
+        "50 kilometres"
+      ],
+      "task022_rationale": "Both items exist in quiz-782. Retained item tests '10-mile hike'; replaced item tests '50-kilometre tunnel beneath the Alpine ridge'. Breaks intra-exercise collision cleanly while preserving options and answer."
+    }
+  ]
+}

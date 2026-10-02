@@ -1,0 +1,3110 @@
+[
+  {
+    "qid": "5294",
+    "model": "single_choice",
+    "exercise_id": "quiz-614",
+    "lesson_id": "b1_all_both",
+    "content": "1 _____ a new diet.",
+    "options": [
+      {
+        "option_id": "5294_1",
+        "question_id": "5294",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "They both have started",
+        "value": "8234",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5294_2",
+        "question_id": "5294",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "Both they have started",
+        "value": "8235",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5294_3",
+        "question_id": "5294",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "They have both started",
+        "value": "8236",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "1 _____ a language course."
+  },
+  {
+    "qid": "5297",
+    "model": "single_choice",
+    "exercise_id": "quiz-614",
+    "lesson_id": "b1_all_both",
+    "content": "4 _____ work in my office.",
+    "options": [
+      {
+        "option_id": "5297_1",
+        "question_id": "5297",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "Both her brothers",
+        "value": "8243",
+        "is_correct": 1
+      },
+      {
+        "option_id": "5297_2",
+        "question_id": "5297",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "Both of brothers",
+        "value": "8244",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5297_3",
+        "question_id": "5297",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Her both brothers",
+        "value": "8245",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "4 _____ live in London."
+  },
+  {
+    "qid": "5271",
+    "model": "single_choice",
+    "exercise_id": "quiz-614",
+    "lesson_id": "b1_all_both",
+    "content": "6 Which sentence is NOT correct?",
+    "options": [
+      {
+        "option_id": "5271_1",
+        "question_id": "5271",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "All students like holidays.",
+        "value": "8222",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5271_2",
+        "question_id": "5271",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "All of students in my class like holidays.",
+        "value": "8223",
+        "is_correct": 1
+      },
+      {
+        "option_id": "5271_3",
+        "question_id": "5271",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "All of the students in my class like holidays.",
+        "value": "8224",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['All of students in my class like holidays.'], adapted=['All of dogs in our neighborhood love playing outside.']. Flagged for review.",
+    "adapted_text": "Which sentence is NOT correct?"
+  },
+  {
+    "qid": "5291",
+    "model": "single_choice",
+    "exercise_id": "quiz-614",
+    "lesson_id": "b1_all_both",
+    "content": "7 Which sentence is NOT correct?",
+    "options": [
+      {
+        "option_id": "5291_1",
+        "question_id": "5291",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "Did you drink all of the milk?",
+        "value": "8225",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5291_2",
+        "question_id": "5291",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "Did you drink all of milk?",
+        "value": "8226",
+        "is_correct": 1
+      },
+      {
+        "option_id": "5291_3",
+        "question_id": "5291",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Did you drink it all?",
+        "value": "8227",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['Did you drink all of milk?'], adapted=['Have you read all of report?']. Flagged for review.",
+    "adapted_text": "Which sentence is NOT correct?"
+  },
+  {
+    "qid": "5292",
+    "model": "single_choice",
+    "exercise_id": "quiz-614",
+    "lesson_id": "b1_all_both",
+    "content": "8 Which sentence is NOT correct?",
+    "options": [
+      {
+        "option_id": "5292_1",
+        "question_id": "5292",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "You both must be crazy.",
+        "value": "8228",
+        "is_correct": 1
+      },
+      {
+        "option_id": "5292_2",
+        "question_id": "5292",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "You must both be crazy.",
+        "value": "8229",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5292_3",
+        "question_id": "5292",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Both of you must be crazy.",
+        "value": "8230",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['You both must be crazy.'], adapted=['They both can be tired.']. Flagged for review.",
+    "adapted_text": "Which sentence is NOT correct?"
+  },
+  {
+    "qid": "5293",
+    "model": "single_choice",
+    "exercise_id": "quiz-614",
+    "lesson_id": "b1_all_both",
+    "content": "9 Which sentence is NOT correct?",
+    "options": [
+      {
+        "option_id": "5293_1",
+        "question_id": "5293",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "The both suspects were arrested last Friday.",
+        "value": "8231",
+        "is_correct": 1
+      },
+      {
+        "option_id": "5293_2",
+        "question_id": "5293",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "Both of the suspects were arrested last Friday.",
+        "value": "8232",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5293_3",
+        "question_id": "5293",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Both the suspects were arrested last Friday.",
+        "value": "8233",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['The both suspects were arrested last Friday.'], adapted=['The both athletes were awarded medals.']. Flagged for review.",
+    "adapted_text": "Which sentence is NOT correct?"
+  },
+  {
+    "qid": "5299",
+    "model": "single_choice",
+    "exercise_id": "quiz-614",
+    "lesson_id": "b1_all_both",
+    "content": "10 Which sentence is NOT correct?",
+    "options": [
+      {
+        "option_id": "5299_1",
+        "question_id": "5299",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "He hates all us.",
+        "value": "8249",
+        "is_correct": 1
+      },
+      {
+        "option_id": "5299_2",
+        "question_id": "5299",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "He hates us all.",
+        "value": "8250",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5299_3",
+        "question_id": "5299",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "He hates all of us.",
+        "value": "8251",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['He hates all us.'], adapted=['She invited all them.']. Flagged for review.",
+    "adapted_text": "Which sentence is NOT correct?"
+  },
+  {
+    "qid": "1658",
+    "model": "gap",
+    "exercise_id": "quiz-196",
+    "lesson_id": "b1_an_the_no_article",
+    "content": "Last Sunday my family and I went to 1 {{gap_1}} zoo; we always go there at least once 2 {{gap_2}} year. Before 3 {{gap_3}} alarm clock went off, 4 {{gap_4}} kids were already up and jumping in 5 {{gap_5}} living room –they are never up on 6 {{gap_6}} Monday mornings when they have to go to 7 {{gap_7}} school. Anyway, we had 8 {{gap_8}} breakfast very quickly and went out. It was 9 {{gap_9}} sunny day, which was lucky because, obviously, we all love 10 {{gap_10}} sunny days, and even more when we don't have to go to 11 {{gap_11}} work. We got into 12 {{gap_12}} taxi and I told 13 {{gap_13}} taxi driver where we were going. Everything was perfect. But very soon we realised that 14 {{gap_14}} traffic was horrible that day. We immediately got stuck in 15 {{gap_15}} traffic jam. We asked 16 {{gap_16}} taxi driver if he knew what was happening, but he had no idea. Then, we heard on 17 {{gap_17}} radio that there had been 18 {{gap_18}} accident a few blocks ahead of us. We had run out of luck. Eventually, after two hours in traffic and 19 {{gap_19}} very expensive taxi fare, we were able to see 20 {{gap_20}} animals.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_1658_1",
+        "question_id": "1658",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "the",
+        "accepted_answers": "[\"the\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_2",
+        "question_id": "1658",
+        "gap_order": 2,
+        "input_control": "text",
+        "correct_answer": "a",
+        "accepted_answers": "[\"a\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_3",
+        "question_id": "1658",
+        "gap_order": 3,
+        "input_control": "text",
+        "correct_answer": "the",
+        "accepted_answers": "[\"the\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_4",
+        "question_id": "1658",
+        "gap_order": 4,
+        "input_control": "text",
+        "correct_answer": "the",
+        "accepted_answers": "[\"the\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_5",
+        "question_id": "1658",
+        "gap_order": 5,
+        "input_control": "text",
+        "correct_answer": "the",
+        "accepted_answers": "[\"the\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_6",
+        "question_id": "1658",
+        "gap_order": 6,
+        "input_control": "text",
+        "correct_answer": "–",
+        "accepted_answers": "[\"\\u2013\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_7",
+        "question_id": "1658",
+        "gap_order": 7,
+        "input_control": "text",
+        "correct_answer": "–",
+        "accepted_answers": "[\"\\u2013\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_8",
+        "question_id": "1658",
+        "gap_order": 8,
+        "input_control": "text",
+        "correct_answer": "–",
+        "accepted_answers": "[\"\\u2013\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_9",
+        "question_id": "1658",
+        "gap_order": 9,
+        "input_control": "text",
+        "correct_answer": "a",
+        "accepted_answers": "[\"a\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_10",
+        "question_id": "1658",
+        "gap_order": 10,
+        "input_control": "text",
+        "correct_answer": "–",
+        "accepted_answers": "[\"\\u2013\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_11",
+        "question_id": "1658",
+        "gap_order": 11,
+        "input_control": "text",
+        "correct_answer": "–",
+        "accepted_answers": "[\"\\u2013\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_12",
+        "question_id": "1658",
+        "gap_order": 12,
+        "input_control": "text",
+        "correct_answer": "a",
+        "accepted_answers": "[\"a\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_13",
+        "question_id": "1658",
+        "gap_order": 13,
+        "input_control": "text",
+        "correct_answer": "the",
+        "accepted_answers": "[\"the\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_14",
+        "question_id": "1658",
+        "gap_order": 14,
+        "input_control": "text",
+        "correct_answer": "the",
+        "accepted_answers": "[\"the\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_15",
+        "question_id": "1658",
+        "gap_order": 15,
+        "input_control": "text",
+        "correct_answer": "a",
+        "accepted_answers": "[\"a\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_16",
+        "question_id": "1658",
+        "gap_order": 16,
+        "input_control": "text",
+        "correct_answer": "the",
+        "accepted_answers": "[\"the\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_17",
+        "question_id": "1658",
+        "gap_order": 17,
+        "input_control": "text",
+        "correct_answer": "the",
+        "accepted_answers": "[\"the\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_18",
+        "question_id": "1658",
+        "gap_order": 18,
+        "input_control": "text",
+        "correct_answer": "an",
+        "accepted_answers": "[\"an\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_19",
+        "question_id": "1658",
+        "gap_order": 19,
+        "input_control": "text",
+        "correct_answer": "a",
+        "accepted_answers": "[\"a\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1658_20",
+        "question_id": "1658",
+        "gap_order": 20,
+        "input_control": "text",
+        "correct_answer": "the",
+        "accepted_answers": "[\"the\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ],
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['after two hours', 'heard on 17'] with elevated similarity (Jaccard=0.3333, Lev=0.4770).",
+    "adapted_text": "Last month my friends and I visited 1 {{gap_1}} museum; we visit it at least twice 2 {{gap_2}} year. Before 3 {{gap_3}} main entrance opened, 4 {{gap_4}} tourists were already waiting outside in 5 {{gap_5}} courtyard – they are rarely active on 6 {{gap_6}} Sunday mornings when they prefer to stay in 7 {{gap_7}} bed. Anyway, we ate 8 {{gap_8}} lunch quickly and went inside. It was 9 {{gap_9}} rainy afternoon, which was fine because we enjoy 10 {{gap_10}} quiet afternoons, especially when we don't need to attend 11 {{gap_11}} class. We boarded 12 {{gap_12}} shuttle and I asked 13 {{gap_13}} shuttle guide about the exhibits. Everything was clear, but soon we learned that 14 {{gap_14}} weather turned terrible. We were caught in 15 {{gap_15}} sudden storm. We asked 16 {{gap_16}} shuttle guide if the tour would continue, but he was unsure. Then, we heard on 17 {{gap_17}} news that there was 18 {{gap_18}} emergency nearby. Ultimately, after two hours of waiting and 19 {{gap_19}} long delay, we managed to view 20 {{gap_20}} paintings."
+  },
+  {
+    "qid": "2265",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-262",
+    "lesson_id": "b1_another_other_others_the_other_the_others",
+    "content": "2 I like this bed; ______ is cheap but uncomfortable. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "2265_1",
+        "question_id": "2265",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "other",
+        "value": "3328",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2265_2",
+        "question_id": "2265",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "the other bed",
+        "value": "3329",
+        "is_correct": 1
+      },
+      {
+        "option_id": "2265_3",
+        "question_id": "2265",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "the other one",
+        "value": "3330",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; singular_plural: Subject/demonstrative number shifted between singular and plural.",
+    "adapted_text": "2 We preferred the first apartment; ______ was spacious but far from the center. Choose TWO correct options"
+  },
+  {
+    "qid": "2271",
+    "model": "single_choice",
+    "exercise_id": "quiz-262",
+    "lesson_id": "b1_another_other_others_the_other_the_others",
+    "content": "8 The police caught two of the four prisoners who escaped and they are looking for ______.",
+    "options": [
+      {
+        "option_id": "2271_1",
+        "question_id": "2271",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "other",
+        "value": "3346",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2271_2",
+        "question_id": "2271",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "others",
+        "value": "3347",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2271_3",
+        "question_id": "2271",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "the others",
+        "value": "3348",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Plural/compound subject conflicts with singular verb form 'the others'.",
+    "adapted_text": "The teacher graded three of the five tests submitted yesterday and is now reviewing _____."
+  },
+  {
+    "qid": "2305",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-265",
+    "lesson_id": "b1_clauses_contrast_purpose_reason",
+    "content": "4 ______ I was tired, I decided to stay home. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "2305_1",
+        "question_id": "2305",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "As",
+        "value": "3391",
+        "is_correct": 1
+      },
+      {
+        "option_id": "2305_2",
+        "question_id": "2305",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "Due to",
+        "value": "3392",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2305_3",
+        "question_id": "2305",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Since",
+        "value": "3393",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; singular_plural: Subject/demonstrative number shifted between singular and plural.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; countability: Countable vs uncountable noun environment shifted.; Plural/compound subject conflicts with singular verb form 'As'.",
+    "adapted_text": "______ the weather was bad, they canceled the outdoor concert. Choose TWO correct options"
+  },
+  {
+    "qid": "1631",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-192",
+    "lesson_id": "b1_comparative_superlative_adjectives_adverbs",
+    "content": "4 Choose the two correct sentences.",
+    "options": [
+      {
+        "option_id": "1631_1",
+        "question_id": "1631",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "Your car isn't any cheaper than ours.",
+        "value": "2353",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1631_2",
+        "question_id": "1631",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "Your car isn't as cheaper as ours.",
+        "value": "2354",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1631_3",
+        "question_id": "1631",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Your car is no cheaper than ours.",
+        "value": "2355",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=[\"Your car isn't any cheaper than ours.\", 'Your car is no cheaper than ours.'], adapted=[\"His laptop isn't any faster than mine.\", 'His laptop is no faster than mine.']. Flagged for review.",
+    "adapted_text": "Choose the two correct sentences."
+  },
+  {
+    "qid": "1633",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-192",
+    "lesson_id": "b1_comparative_superlative_adjectives_adverbs",
+    "content": "6 Which two sentences mean the same?",
+    "options": [
+      {
+        "option_id": "1633_1",
+        "question_id": "1633",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "Tom is more intelligent than David.",
+        "value": "2359",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1633_2",
+        "question_id": "1633",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "David is more intelligent than Tom.",
+        "value": "2360",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1633_3",
+        "question_id": "1633",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "David isn't as intelligent as Tom.",
+        "value": "2361",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "Which two statements express the identical meaning? Choose TWO correct answers."
+  },
+  {
+    "qid": "1636",
+    "model": "single_choice",
+    "exercise_id": "quiz-192",
+    "lesson_id": "b1_comparative_superlative_adjectives_adverbs",
+    "content": "9 He is ______.",
+    "options": [
+      {
+        "option_id": "1636_1",
+        "question_id": "1636",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "the most boring teacher I've ever met",
+        "value": "2368",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1636_2",
+        "question_id": "1636",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "the most boring teacher I've never met",
+        "value": "2369",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1636_3",
+        "question_id": "1636",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "The boringest teacher I've never met",
+        "value": "2370",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "9 That was _____!"
+  },
+  {
+    "qid": "2090",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-252",
+    "lesson_id": "b1_defining_and_non_defining_relative_clauses",
+    "content": "3 Do you know the musician ______ is playing the guitar. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "2090_1",
+        "question_id": "2090",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "who",
+        "value": "2872",
+        "is_correct": 1
+      },
+      {
+        "option_id": "2090_2",
+        "question_id": "2090",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "-",
+        "value": "2873",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2090_3",
+        "question_id": "2090",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "that",
+        "value": "2874",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Normalized Levenshtein similarity (0.4681) exceeds threshold (< 0.45) on standard text (len=47).",
+    "adapted_text": "Have you seen the chef _____ is preparing the dessert? Choose TWO correct options"
+  },
+  {
+    "qid": "2092",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-252",
+    "lesson_id": "b1_defining_and_non_defining_relative_clauses",
+    "content": "5 This is the person ______ I introduced you to a few weeks ago. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "2092_1",
+        "question_id": "2092",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "which",
+        "value": "2878",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2092_2",
+        "question_id": "2092",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "that",
+        "value": "2879",
+        "is_correct": 1
+      },
+      {
+        "option_id": "2092_3",
+        "question_id": "2092",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "-",
+        "value": "2880",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).",
+    "adapted_text": "Meet the author ______ Sarah recommended during our meeting last month. Choose TWO correct options"
+  },
+  {
+    "qid": "2094",
+    "model": "single_choice",
+    "exercise_id": "quiz-252",
+    "lesson_id": "b1_defining_and_non_defining_relative_clauses",
+    "content": "7 What's the book ______ we must read this term?",
+    "options": [
+      {
+        "option_id": "2094_1",
+        "question_id": "2094",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "where",
+        "value": "2884",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2094_2",
+        "question_id": "2094",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "who",
+        "value": "2885",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2094_3",
+        "question_id": "2094",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "–",
+        "value": "2886",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "Where is the movie _____ we decided to watch tonight?"
+  },
+  {
+    "qid": "2097",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-252",
+    "lesson_id": "b1_defining_and_non_defining_relative_clauses",
+    "content": "10 This phone is much better than the first phone ______ you showed me. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "2097_1",
+        "question_id": "2097",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "whose",
+        "value": "2893",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2097_2",
+        "question_id": "2097",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "that",
+        "value": "2894",
+        "is_correct": 1
+      },
+      {
+        "option_id": "2097_3",
+        "question_id": "2097",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "–",
+        "value": "2895",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "This jacket is far warmer than the initial coat ______ Sarah tried on. Choose TWO correct options"
+  },
+  {
+    "qid": "1937",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-233",
+    "lesson_id": "b1_first_and_second_conditionals",
+    "content": "1 If your boss ________, you might lose your job. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "1937_1",
+        "question_id": "1937",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "finds out",
+        "value": "2716",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1937_2",
+        "question_id": "1937",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "would find out",
+        "value": "2717",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1937_3",
+        "question_id": "1937",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "found out",
+        "value": "2718",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; countability: Countable vs uncountable noun environment shifted.",
+    "adapted_text": "If the teacher _____ about the missing homework, she might give us extra work. Choose TWO correct options"
+  },
+  {
+    "qid": "1947",
+    "model": "single_choice",
+    "exercise_id": "quiz-233",
+    "lesson_id": "b1_first_and_second_conditionals",
+    "content": "2 We _______ the keys if we don't look for them.",
+    "options": [
+      {
+        "option_id": "1947_1",
+        "question_id": "1947",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "will never find",
+        "value": "2722",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1947_2",
+        "question_id": "1947",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "'d never find",
+        "value": "2723",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1947_3",
+        "question_id": "1947",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "never find",
+        "value": "2724",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "They _____ the train if they don't hurry up."
+  },
+  {
+    "qid": "1948",
+    "model": "single_choice",
+    "exercise_id": "quiz-233",
+    "lesson_id": "b1_first_and_second_conditionals",
+    "content": "3 Shall we go to the beach if the weather ______ OK?",
+    "options": [
+      {
+        "option_id": "1948_1",
+        "question_id": "1948",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "is",
+        "value": "2725",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1948_2",
+        "question_id": "1948",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "were",
+        "value": "2726",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1948_3",
+        "question_id": "1948",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "was",
+        "value": "2727",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; countability: Countable vs uncountable noun environment shifted.; Plural/compound subject conflicts with singular verb form 'is'.",
+    "adapted_text": "Will they start the concert if the audio system _____ ready?"
+  },
+  {
+    "qid": "1946",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-233",
+    "lesson_id": "b1_first_and_second_conditionals",
+    "content": "4 If we both saved enough money, we ______ go to Japan. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "1946_1",
+        "question_id": "1946",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "could",
+        "value": "2719",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1946_2",
+        "question_id": "1946",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "can",
+        "value": "2720",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1946_3",
+        "question_id": "1946",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "might",
+        "value": "2721",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; countability: Countable vs uncountable noun environment shifted.",
+    "adapted_text": "If the team worked extra hours, they ______ finish the project ahead of time. Choose TWO correct options"
+  },
+  {
+    "qid": "1951",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-233",
+    "lesson_id": "b1_first_and_second_conditionals",
+    "content": "7 You ______ it more interesting if you paid more attention. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "1951_1",
+        "question_id": "1951",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "will find",
+        "value": "2734",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1951_2",
+        "question_id": "1951",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "might find",
+        "value": "2735",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1951_3",
+        "question_id": "1951",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "would find",
+        "value": "2736",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; singular_plural: Subject/demonstrative number shifted between singular and plural.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "adapted_text": "They _____ the new recipe easier if they followed the step-by-step video instructions. Choose TWO correct options"
+  },
+  {
+    "qid": "1955",
+    "model": "gap",
+    "exercise_id": "quiz-234",
+    "lesson_id": "b1_first_and_second_conditionals",
+    "content": "TERRY: Hey, RAY. If you 1 {{gap_1}} (have) time, can you go and pick up Bridget at the station? If she takes the 4 o'clock train, as she said, she 2 {{gap_2}} (arrive) at 5.15. RAY: I 3 {{gap_3}} (pick) her up if I could, but I have a meeting at 4.30. TERRY: Can't you postpone it? You are the boss after all. RAY: Yes, but I'm meeting some important clients, and it wouldn't look serious if a few hours before the meeting I 4 {{gap_4}} (tell) them that I have to put it off. And the meeting is important. I'll make quite a lot of money if everything 5 {{gap_5}} (go) well. Why don't you pick her up? TERRY: I would pick her up if my car 6 {{gap_6}} (not be) at the garage. It's been there for days, and unless there's a miracle, they 7 {{gap_7}} (not repair) it today. Something is broken and they won't be able to fix it until they 8 {{gap_8}} (find) the spare part they need. RAY: That's unlucky. Well, do you think Bridget 9 {{gap_9}} (get) angry if nobody goes to the station to pick her up? TERRY: Well, if it were me, I 10 {{gap_10}} (not get) angry.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_1955_1",
+        "question_id": "1955",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "have",
+        "accepted_answers": "[\"have\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1955_2",
+        "question_id": "1955",
+        "gap_order": 2,
+        "input_control": "text",
+        "correct_answer": "will arrive",
+        "accepted_answers": "[\"will arrive\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1955_3",
+        "question_id": "1955",
+        "gap_order": 3,
+        "input_control": "text",
+        "correct_answer": "would pick",
+        "accepted_answers": "[\"would pick\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1955_4",
+        "question_id": "1955",
+        "gap_order": 4,
+        "input_control": "text",
+        "correct_answer": "told",
+        "accepted_answers": "[\"told\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1955_5",
+        "question_id": "1955",
+        "gap_order": 5,
+        "input_control": "text",
+        "correct_answer": "goes",
+        "accepted_answers": "[\"goes\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1955_6",
+        "question_id": "1955",
+        "gap_order": 6,
+        "input_control": "text",
+        "correct_answer": "wasn't",
+        "accepted_answers": "[\"wasn't\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1955_7",
+        "question_id": "1955",
+        "gap_order": 7,
+        "input_control": "text",
+        "correct_answer": "won't repair",
+        "accepted_answers": "[\"won't repair\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1955_8",
+        "question_id": "1955",
+        "gap_order": 8,
+        "input_control": "text",
+        "correct_answer": "find",
+        "accepted_answers": "[\"find\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1955_9",
+        "question_id": "1955",
+        "gap_order": 9,
+        "input_control": "text",
+        "correct_answer": "will get",
+        "accepted_answers": "[\"will get\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1955_10",
+        "question_id": "1955",
+        "gap_order": 10,
+        "input_control": "text",
+        "correct_answer": "wouldn't get",
+        "accepted_answers": "[\"wouldn't get\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ],
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['do you think', 'i could but'] with elevated similarity (Jaccard=0.2174, Lev=0.3535).; countability: Countable vs uncountable noun environment shifted.; Plural/compound subject conflicts with singular verb form 'goes'.",
+    "adapted_text": "LEO: Hi MARK. If you {{gap_1}} a free moment, could you collect Sarah's package? If the courier leaves early, it {{gap_2}} soon. MARK: I {{gap_3}} it up for you, but my schedule is packed. LEO: Can you reschedule? MARK: I could, but it wouldn't look professional if I {{gap_4}} my manager that I need to cancel now. We will win the contract if everything {{gap_5}} smoothly. Why can't you fetch it? LEO: I {{gap_3}} it up if my bike {{gap_6}} broken. The mechanics {{gap_7}} it today unless a component arrives, and they can't finish until they {{gap_8}} the right tool. MARK: That's unfortunate. Do you think Sarah {{gap_9}} upset? LEO: If it were my delivery, I {{gap_10}} upset."
+  },
+  {
+    "qid": "1884",
+    "model": "gap",
+    "exercise_id": "quiz-228",
+    "lesson_id": "b1_first_conditional_future_time_clauses",
+    "content": "Hi brother, We're at the station, but our train isn't here yet. We're worried because if the train 1 {{gap_1}} (not arrive) on time, we 2 {{gap_2}} (miss) our flight, and we 3 {{gap_3}} (have to) spend the night here. When we 4 {{gap_4}} (get) to the airport, I 5 {{gap_5}} (text) you. We are very excited about the holiday. Sandy is looking forward to taking surfing lessons. She says as soon as we 6 {{gap_6}} (check in) at the hotel, she 7 {{gap_7}} (look for) a surf instructor. However, she says she won't take any lessons if I 8 {{gap_8}} (not surf) with her. We expect the weather will be fine. If it 9 {{gap_9}} (not be), we 10 {{gap_10}} (be) very upset. We are also planning to try the local food. If the hotel restaurant 11 {{gap_11}} (be) nice, we 12 {{gap_12}} (have) a meal there as soon as we 13 {{gap_13}} (check in). One more thing, 14 {{gap_14}} (you/ water) the plants if I 15 {{gap_15}} (promise) to take you out for dinner when we come back? Take care, Andy.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_1884_1",
+        "question_id": "1884",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "doesn't arrive",
+        "accepted_answers": "[\"doesn't arrive\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_2",
+        "question_id": "1884",
+        "gap_order": 2,
+        "input_control": "text",
+        "correct_answer": "will miss",
+        "accepted_answers": "[\"will miss\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_3",
+        "question_id": "1884",
+        "gap_order": 3,
+        "input_control": "text",
+        "correct_answer": "will have to",
+        "accepted_answers": "[\"will have to\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_4",
+        "question_id": "1884",
+        "gap_order": 4,
+        "input_control": "text",
+        "correct_answer": "get",
+        "accepted_answers": "[\"get\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_5",
+        "question_id": "1884",
+        "gap_order": 5,
+        "input_control": "text",
+        "correct_answer": "will text",
+        "accepted_answers": "[\"will text\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_6",
+        "question_id": "1884",
+        "gap_order": 6,
+        "input_control": "text",
+        "correct_answer": "check in",
+        "accepted_answers": "[\"check in\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_7",
+        "question_id": "1884",
+        "gap_order": 7,
+        "input_control": "text",
+        "correct_answer": "will look for",
+        "accepted_answers": "[\"will look for\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_8",
+        "question_id": "1884",
+        "gap_order": 8,
+        "input_control": "text",
+        "correct_answer": "don't surf",
+        "accepted_answers": "[\"don't surf\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_9",
+        "question_id": "1884",
+        "gap_order": 9,
+        "input_control": "text",
+        "correct_answer": "isn't",
+        "accepted_answers": "[\"isn't\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_10",
+        "question_id": "1884",
+        "gap_order": 10,
+        "input_control": "text",
+        "correct_answer": "will be",
+        "accepted_answers": "[\"will be\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_11",
+        "question_id": "1884",
+        "gap_order": 11,
+        "input_control": "text",
+        "correct_answer": "is",
+        "accepted_answers": "[\"is\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_12",
+        "question_id": "1884",
+        "gap_order": 12,
+        "input_control": "text",
+        "correct_answer": "will have",
+        "accepted_answers": "[\"will have\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_13",
+        "question_id": "1884",
+        "gap_order": 13,
+        "input_control": "text",
+        "correct_answer": "check in",
+        "accepted_answers": "[\"check in\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_14",
+        "question_id": "1884",
+        "gap_order": 14,
+        "input_control": "text",
+        "correct_answer": "will you water",
+        "accepted_answers": "[\"will you water\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1884_15",
+        "question_id": "1884",
+        "gap_order": 15,
+        "input_control": "text",
+        "correct_answer": "promise",
+        "accepted_answers": "[\"promise\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ],
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['and we 3', 'as soon as'] with elevated similarity (Jaccard=0.3254, Lev=0.5723).",
+    "adapted_text": "Hello Sister, We are standing at the terminal, but our shuttle is late. If the driver 1 {{gap_1}} (not arrive) shortly, we 2 {{gap_2}} (miss) our ferry, and we 3 {{gap_3}} (have to) spend the night in the lobby. When we 4 {{gap_4}} (get) to the harbor, I 5 {{gap_5}} (text) Mom. We are excited about our seaside trip. Leo is keen on trying water sports. He says as soon as we 6 {{gap_6}} (check in) at the resort, he 7 {{gap_7}} (look for) a coach. However, he won't go out if I 8 {{gap_8}} (not surf) alongside him. We hope the weather is clear. If it 9 {{gap_9}} (not be) sunny, we 10 {{gap_10}} (be) disappointed. Also, if the seaside cafe 11 {{gap_11}} (be) open, we 12 {{gap_12}} (have) drinks as soon as we 13 {{gap_13}} (check in). By the way, 14 {{gap_14}} (you/ water) the flowers if I 15 {{gap_15}} (promise) to bring you a souvenir? Best, Paul."
+  },
+  {
+    "qid": "5457",
+    "model": "single_choice",
+    "exercise_id": "quiz-631",
+    "lesson_id": "b1_had_better_its_time",
+    "content": "5 You _____ Tom to the party if Sarah is going to be there.",
+    "options": [
+      {
+        "option_id": "5457_1",
+        "question_id": "5457",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "better don't invite",
+        "value": "8444",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5457_2",
+        "question_id": "5457",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "hadn't better invite",
+        "value": "8445",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5457_3",
+        "question_id": "5457",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "'d better not invite",
+        "value": "8446",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "5 You _____ the document to the client before double-checking it."
+  },
+  {
+    "qid": "5462",
+    "model": "single_choice",
+    "exercise_id": "quiz-631",
+    "lesson_id": "b1_had_better_its_time",
+    "content": "10 They _____ a solution soon, or it'll be too late.",
+    "options": [
+      {
+        "option_id": "5462_1",
+        "question_id": "5462",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "'d better find",
+        "value": "8459",
+        "is_correct": 1
+      },
+      {
+        "option_id": "5462_2",
+        "question_id": "5462",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "'d better to find",
+        "value": "8460",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5462_3",
+        "question_id": "5462",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "should better find",
+        "value": "8461",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "We _____ a mechanic before the engine breaks down completely."
+  },
+  {
+    "qid": "1701",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-201",
+    "lesson_id": "b1_have_to_must_should",
+    "content": "2 You mustn't use the swimming pool before 10. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "1701_1",
+        "question_id": "1701",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "aren't allowed to",
+        "value": "2440",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1701_2",
+        "question_id": "1701",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "don't have to",
+        "value": "2441",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1701_3",
+        "question_id": "1701",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "can't",
+        "value": "2442",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "adapted_text": "Visitors _____ enter the private archive without staff permission. Choose TWO correct options"
+  },
+  {
+    "qid": "1708",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-201",
+    "lesson_id": "b1_have_to_must_should",
+    "content": "9 You mustn't take that elevator. It's only for staff. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "1708_1",
+        "question_id": "1708",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "can't",
+        "value": "2461",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1708_2",
+        "question_id": "1708",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "aren't allowed to",
+        "value": "2462",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1708_3",
+        "question_id": "1708",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "don't have to",
+        "value": "2463",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).",
+    "adapted_text": "You <u>mustn't</u> park your bicycle in front of the emergency exit. Choose TWO correct options."
+  },
+  {
+    "qid": "1871",
+    "model": "single_choice",
+    "exercise_id": "quiz-224",
+    "lesson_id": "b1_modal_verbs_of_deduction",
+    "content": "1 Paul is behaving in a very unusual way. I think he ______ again.",
+    "options": [
+      {
+        "option_id": "1871_1",
+        "question_id": "1871",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "can't drink",
+        "value": "2626",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1871_2",
+        "question_id": "1871",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "can be drinking",
+        "value": "2627",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1871_3",
+        "question_id": "1871",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "might be drinking",
+        "value": "2628",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "The engine is making a strange sound. I suspect it _____ again."
+  },
+  {
+    "qid": "2110",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-246",
+    "lesson_id": "b1_much_many_lot_little_no",
+    "content": "1 We are really busy now. I have ______ time to spend with my family. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "2110_1",
+        "question_id": "2110",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "little",
+        "value": "2997",
+        "is_correct": 1
+      },
+      {
+        "option_id": "2110_2",
+        "question_id": "2110",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "few",
+        "value": "2998",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2110_3",
+        "question_id": "2110",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "no",
+        "value": "2999",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "adapted_text": "The project deadline is approaching fast, so the team members have _____ space left for errors. Choose TWO correct options"
+  },
+  {
+    "qid": "1774",
+    "model": "gap",
+    "exercise_id": "quiz-211",
+    "lesson_id": "b1_past_simple_past_continuous_past_perfect",
+    "content": "This story is based on true events that 1 {{gap_1}} (happen) many, many years ago in Scotland. One day, Mr Clark 2 {{gap_2}} (walk) home with a smile on his face. He 3 {{gap_3}} (carry) something very valuable in his hand: tickets for a long, long journey. After many years working and saving, Mr Clark 4 {{gap_4}} (save) all the money he needed to take all his family to the United States. Earlier that afternoon he 5 {{gap_5}} (buy) all the tickets that now he 6 {{gap_6}} (hold) in his hand. It was the opportunity of their lives. “The United States of America,” he repeated aloud just to see how nice it 7 {{gap_7}} (sound) in his ears. A few days before their departure, Mr Clark’s son 8 {{gap_8}} (play) in the street when a dog 9 {{gap_9}} (bite) him. The doctor 10 {{gap_10}} (go) to their home and 11 {{gap_11}} (treat) the child’s wound. Then he 12 {{gap_12}} (hang) a yellow sheet on their front door. That yellow sheet meant that they 13 {{gap_13}} (just/be) quarantined. They 14 {{gap_14}} (have) to stay at home for two weeks because of a potential rabies risk. Five days later, Mr Clark was at the docks. He 15 {{gap_15}} (leave) the house and now he 16 {{gap_16}} (watch) their ship leave to the United States without him or his family. When the ship 17 {{gap_17}} (disappear) in the horizon, he 18 {{gap_18}} (stand up) and 19 {{gap_19}} (go) back home, crying. A few days later, the tragic news spread throughout Scotland - the mighty Titanic 20 {{gap_20}} (sink), taking hundreds of lives with it.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_1774_1",
+        "question_id": "1774",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "happened",
+        "accepted_answers": "[\"happened\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_2",
+        "question_id": "1774",
+        "gap_order": 2,
+        "input_control": "text",
+        "correct_answer": "was walking",
+        "accepted_answers": "[\"was walking\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_3",
+        "question_id": "1774",
+        "gap_order": 3,
+        "input_control": "text",
+        "correct_answer": "was carrying",
+        "accepted_answers": "[\"was carrying\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_4",
+        "question_id": "1774",
+        "gap_order": 4,
+        "input_control": "text",
+        "correct_answer": "had saved",
+        "accepted_answers": "[\"had saved\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_5",
+        "question_id": "1774",
+        "gap_order": 5,
+        "input_control": "text",
+        "correct_answer": "had bought",
+        "accepted_answers": "[\"had bought\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_6",
+        "question_id": "1774",
+        "gap_order": 6,
+        "input_control": "text",
+        "correct_answer": "was holding",
+        "accepted_answers": "[\"was holding\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_7",
+        "question_id": "1774",
+        "gap_order": 7,
+        "input_control": "text",
+        "correct_answer": "sounded",
+        "accepted_answers": "[\"sounded\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_8",
+        "question_id": "1774",
+        "gap_order": 8,
+        "input_control": "text",
+        "correct_answer": "was playing",
+        "accepted_answers": "[\"was playing\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_9",
+        "question_id": "1774",
+        "gap_order": 9,
+        "input_control": "text",
+        "correct_answer": "bit",
+        "accepted_answers": "[\"bit\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_10",
+        "question_id": "1774",
+        "gap_order": 10,
+        "input_control": "text",
+        "correct_answer": "went",
+        "accepted_answers": "[\"went\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_11",
+        "question_id": "1774",
+        "gap_order": 11,
+        "input_control": "text",
+        "correct_answer": "treated",
+        "accepted_answers": "[\"treated\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_12",
+        "question_id": "1774",
+        "gap_order": 12,
+        "input_control": "text",
+        "correct_answer": "hung",
+        "accepted_answers": "[\"hung\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_13",
+        "question_id": "1774",
+        "gap_order": 13,
+        "input_control": "text",
+        "correct_answer": "had just been",
+        "accepted_answers": "[\"had just been\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_14",
+        "question_id": "1774",
+        "gap_order": 14,
+        "input_control": "text",
+        "correct_answer": "had",
+        "accepted_answers": "[\"had\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_15",
+        "question_id": "1774",
+        "gap_order": 15,
+        "input_control": "text",
+        "correct_answer": "had left",
+        "accepted_answers": "[\"had left\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_16",
+        "question_id": "1774",
+        "gap_order": 16,
+        "input_control": "text",
+        "correct_answer": "was watching",
+        "accepted_answers": "[\"was watching\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_17",
+        "question_id": "1774",
+        "gap_order": 17,
+        "input_control": "text",
+        "correct_answer": "disappeared",
+        "accepted_answers": "[\"disappeared\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_18",
+        "question_id": "1774",
+        "gap_order": 18,
+        "input_control": "text",
+        "correct_answer": "stood up",
+        "accepted_answers": "[\"stood up\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_19",
+        "question_id": "1774",
+        "gap_order": 19,
+        "input_control": "text",
+        "correct_answer": "went",
+        "accepted_answers": "[\"went\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1774_20",
+        "question_id": "1774",
+        "gap_order": 20,
+        "input_control": "text",
+        "correct_answer": "had sunk",
+        "accepted_answers": "[\"had sunk\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ],
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['and now he', 'meant that they'] with elevated similarity (Jaccard=0.1339, Lev=0.3454).; countability: Countable vs uncountable noun environment shifted.",
+    "adapted_text": "An unusual accident {{gap_1}} decades ago in a small village. One evening, David {{gap_2}} along the riverbank while feeling very content. He {{gap_3}} a small golden key, which was an old family heirloom. After months of searching, David {{gap_4}} enough clues to locate the ancient chest. Earlier that morning, he {{gap_5}} the map that he now {{gap_6}} securely in his palm. It felt like the discovery of a lifetime. \"The hidden treasure,\" he murmured softly to check how wonderful it {{gap_7}} to his own voice. A short while before his journey, David's nephew {{gap_8}} near the garden gate when a wild insect {{gap_9}} him. The nurse {{gap_10}} to their residence and {{gap_11}} the boy's skin. Then she {{gap_12}} a warning sign on the main entrance. That notice meant that they {{gap_13}} placed under strict observation. They {{gap_14}} to remain indoors for several days due to health safety protocols. A week later, David stood near the station platform. He {{gap_15}} his room early and now he {{gap_16}} the last train depart toward London without him. As the train {{gap_17}} into the distance, he {{gap_18}} from his seat and {{gap_19}} back to the office, feeling defeated. Later that evening, reports confirmed that the express train {{gap_20}} off the rails near the bridge."
+  },
+  {
+    "qid": "1562",
+    "model": "single_choice",
+    "exercise_id": "quiz-185",
+    "lesson_id": "b1_past_simple_present_perfect",
+    "content": "7 ______ Titanic?",
+    "options": [
+      {
+        "option_id": "1562_1",
+        "question_id": "1562",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "Did you see",
+        "value": "2302",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1562_2",
+        "question_id": "1562",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "You have seen",
+        "value": "2303",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1562_3",
+        "question_id": "1562",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Have you seen",
+        "value": "2304",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "_____ the new documentary about space exploration?"
+  },
+  {
+    "qid": "1599",
+    "model": "single_choice",
+    "exercise_id": "quiz-189",
+    "lesson_id": "b1_present_perfect_simple_present_perfect_continuous",
+    "content": "4 You ______ tennis since 10 o'clock. How many sets ______?",
+    "options": [
+      {
+        "option_id": "1599_1",
+        "question_id": "1599",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "have played / have you been playing",
+        "value": "2323",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1599_2",
+        "question_id": "1599",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "have been playing / have you played",
+        "value": "2324",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1599_3",
+        "question_id": "1599",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "are playing / have you played",
+        "value": "2325",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "They _____ video games since early morning. How many levels _____?"
+  },
+  {
+    "qid": "1600",
+    "model": "single_choice",
+    "exercise_id": "quiz-189",
+    "lesson_id": "b1_present_perfect_simple_present_perfect_continuous",
+    "content": "5 He ______ to me since we met last summer. He _______ over 100 emails.",
+    "options": [
+      {
+        "option_id": "1600_1",
+        "question_id": "1600",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "'s been writing / 's sent",
+        "value": "2326",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1600_2",
+        "question_id": "1600",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "'s written / 's been sending",
+        "value": "2327",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1600_3",
+        "question_id": "1600",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "is writing / 's sent",
+        "value": "2328",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "She _____ pictures since the project started. She _____ over 50 photos."
+  },
+  {
+    "qid": "1603",
+    "model": "single_choice",
+    "exercise_id": "quiz-189",
+    "lesson_id": "b1_present_perfect_simple_present_perfect_continuous",
+    "content": "8 A: He ______ hundreds of job applications, but he's got no answers yet. B: How long ______ for a job?",
+    "options": [
+      {
+        "option_id": "1603_1",
+        "question_id": "1603",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "'s been sending / has he been looking",
+        "value": "2335",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1603_2",
+        "question_id": "1603",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "'s sent / has he looked",
+        "value": "2336",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1603_3",
+        "question_id": "1603",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "'s sent / has he been looking",
+        "value": "2337",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "A: She _____ dozens of emails, but nobody has replied. B: How long _____ for a response?"
+  },
+  {
+    "qid": "1604",
+    "model": "single_choice",
+    "exercise_id": "quiz-189",
+    "lesson_id": "b1_present_perfect_simple_present_perfect_continuous",
+    "content": "9 Now that I ______ tidying the house, I'm going to clean it.",
+    "options": [
+      {
+        "option_id": "1604_1",
+        "question_id": "1604",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "have finished",
+        "value": "2338",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1604_2",
+        "question_id": "1604",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "have been finishing",
+        "value": "2339",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1604_3",
+        "question_id": "1604",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "am finishing",
+        "value": "2340",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "Since she _____ preparing the report, she will submit it to her manager."
+  },
+  {
+    "qid": "1515",
+    "model": "single_choice",
+    "exercise_id": "quiz-179",
+    "lesson_id": "b1_present_simple_present_continuous",
+    "content": "2 A: What time ______ this afternoon? B: I don't know. We ______ tomorrow.",
+    "options": [
+      {
+        "option_id": "1515_1",
+        "question_id": "1515",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "does the train leave / leave",
+        "value": "2227",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1515_2",
+        "question_id": "1515",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "does the train leave / are leaving",
+        "value": "2228",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1515_3",
+        "question_id": "1515",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "is the train leaving / leave",
+        "value": "2229",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "A: What time _____ today? B: I am not sure. We _____ next Friday."
+  },
+  {
+    "qid": "1516",
+    "model": "single_choice",
+    "exercise_id": "quiz-179",
+    "lesson_id": "b1_present_simple_present_continuous",
+    "content": "3 A: ______? B: Yes, but I ______ to quit.",
+    "options": [
+      {
+        "option_id": "1516_1",
+        "question_id": "1516",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "Are you smoking / try",
+        "value": "2230",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1516_2",
+        "question_id": "1516",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "Do you smoke / try",
+        "value": "2231",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1516_3",
+        "question_id": "1516",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Do you smoke / 'm trying",
+        "value": "2232",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "A: _____ coffee in the evening? B: Yes, but I _____ to cut down."
+  },
+  {
+    "qid": "1517",
+    "model": "single_choice",
+    "exercise_id": "quiz-179",
+    "lesson_id": "b1_present_simple_present_continuous",
+    "content": "4 A: I ______ on holiday two or three times a year. B: That's great! And where______ this year?",
+    "options": [
+      {
+        "option_id": "1517_1",
+        "question_id": "1517",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "go / do you go",
+        "value": "2233",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1517_2",
+        "question_id": "1517",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "'m going / do you go",
+        "value": "2234",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1517_3",
+        "question_id": "1517",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "go / are you going",
+        "value": "2235",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "A: I _____ to concerts every few months. B: Nice! And which band _____ tonight?"
+  },
+  {
+    "qid": "1520",
+    "model": "single_choice",
+    "exercise_id": "quiz-179",
+    "lesson_id": "b1_present_simple_present_continuous",
+    "content": "7 I ______ an article about the myth that says that we ______ 10% of our brains.",
+    "options": [
+      {
+        "option_id": "1520_1",
+        "question_id": "1520",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "'m writing / are only using",
+        "value": "2242",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1520_2",
+        "question_id": "1520",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "write / are only using",
+        "value": "2243",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1520_3",
+        "question_id": "1520",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "'m writing / only use",
+        "value": "2244",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "7 I _____ a report about the belief that adults _____ six hours of sleep."
+  },
+  {
+    "qid": "1522",
+    "model": "single_choice",
+    "exercise_id": "quiz-179",
+    "lesson_id": "b1_present_simple_present_continuous",
+    "content": "9 Who is that man? Why ______ at us? What ______?",
+    "options": [
+      {
+        "option_id": "1522_1",
+        "question_id": "1522",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "is he looking / is he wanting",
+        "value": "2248",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1522_2",
+        "question_id": "1522",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "is he looking / does he want",
+        "value": "2249",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1522_3",
+        "question_id": "1522",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "does he look / he wants",
+        "value": "2250",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "Look at that person outside. Why _____ toward our house? What _____?"
+  },
+  {
+    "qid": "1524",
+    "model": "gap",
+    "exercise_id": "quiz-180",
+    "lesson_id": "b1_present_simple_present_continuous",
+    "content": "Rainforests 1 {{gap_1}} (disappear), and we all 2 {{gap_2}} (know) that humans are the main cause of this destruction. Every year we 3 {{gap_3}} (cut down) an area of rainforest the size of New Jersey. Every hour we 4 {{gap_4}} (destroy) 6000 acres of rainforest (that’s 4000 football fields). What we 5 {{gap_5}} (not realise) is that we 6 {{gap_6}} (destroy) the planet where our children and grandchildren have to live. We 7 {{gap_7}} (need) the rainforests; they 8 {{gap_8}} (produce) oxygen and 9 {{gap_9}} (eliminate) carbon dioxide (C02), cleaning the atmosphere. But why 10 {{gap_10}} (the forests/disappear) so quickly? Well, experts 11 {{gap_11}} (agree) that there are two main reasons. The most important is human activity. Big companies 12 {{gap_12}} (cut down) more and more trees and this 13 {{gap_13}} (cause) damage to the land. The way of life in the rainforests 14 {{gap_14}} (also/change) because of climate change. Now there is less rain and this 15 {{gap_15}} (cause) more and more trees to die. As a consequence of the droughts, the risk of fires 16 {{gap_16}} (increase) dramatically. Fortunately, it 17 {{gap_17}} (seem) that now some governments 18 {{gap_18}} (begin) to understand the problem, and they 19 {{gap_19}} (try) to control these activities. Some of them really 20 {{gap_20}} (want) to put an end to this problem, although a few big companies with a lot of power are in their way.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_1524_1",
+        "question_id": "1524",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "are disappearing",
+        "accepted_answers": "[\"are disappearing\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_2",
+        "question_id": "1524",
+        "gap_order": 2,
+        "input_control": "text",
+        "correct_answer": "know",
+        "accepted_answers": "[\"know\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_3",
+        "question_id": "1524",
+        "gap_order": 3,
+        "input_control": "text",
+        "correct_answer": "cut down",
+        "accepted_answers": "[\"cut down\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_4",
+        "question_id": "1524",
+        "gap_order": 4,
+        "input_control": "text",
+        "correct_answer": "destroy",
+        "accepted_answers": "[\"destroy\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_5",
+        "question_id": "1524",
+        "gap_order": 5,
+        "input_control": "text",
+        "correct_answer": "don't realise",
+        "accepted_answers": "[\"don't realise\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_6",
+        "question_id": "1524",
+        "gap_order": 6,
+        "input_control": "text",
+        "correct_answer": "are destroying",
+        "accepted_answers": "[\"are destroying\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_7",
+        "question_id": "1524",
+        "gap_order": 7,
+        "input_control": "text",
+        "correct_answer": "need",
+        "accepted_answers": "[\"need\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_8",
+        "question_id": "1524",
+        "gap_order": 8,
+        "input_control": "text",
+        "correct_answer": "produce",
+        "accepted_answers": "[\"produce\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_9",
+        "question_id": "1524",
+        "gap_order": 9,
+        "input_control": "text",
+        "correct_answer": "eliminate",
+        "accepted_answers": "[\"eliminate\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_10",
+        "question_id": "1524",
+        "gap_order": 10,
+        "input_control": "text",
+        "correct_answer": "are the forests disappearing",
+        "accepted_answers": "[\"are the forests disappearing\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_11",
+        "question_id": "1524",
+        "gap_order": 11,
+        "input_control": "text",
+        "correct_answer": "agree",
+        "accepted_answers": "[\"agree\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_12",
+        "question_id": "1524",
+        "gap_order": 12,
+        "input_control": "text",
+        "correct_answer": "are cutting down",
+        "accepted_answers": "[\"are cutting down\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_13",
+        "question_id": "1524",
+        "gap_order": 13,
+        "input_control": "text",
+        "correct_answer": "is causing",
+        "accepted_answers": "[\"is causing\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_14",
+        "question_id": "1524",
+        "gap_order": 14,
+        "input_control": "text",
+        "correct_answer": "is also changing",
+        "accepted_answers": "[\"is also changing\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_15",
+        "question_id": "1524",
+        "gap_order": 15,
+        "input_control": "text",
+        "correct_answer": "is causing",
+        "accepted_answers": "[\"is causing\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_16",
+        "question_id": "1524",
+        "gap_order": 16,
+        "input_control": "text",
+        "correct_answer": "is increasing",
+        "accepted_answers": "[\"is increasing\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_17",
+        "question_id": "1524",
+        "gap_order": 17,
+        "input_control": "text",
+        "correct_answer": "seems",
+        "accepted_answers": "[\"seems\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_18",
+        "question_id": "1524",
+        "gap_order": 18,
+        "input_control": "text",
+        "correct_answer": "are beginning",
+        "accepted_answers": "[\"are beginning\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_19",
+        "question_id": "1524",
+        "gap_order": 19,
+        "input_control": "text",
+        "correct_answer": "are trying",
+        "accepted_answers": "[\"are trying\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1524_20",
+        "question_id": "1524",
+        "gap_order": 20,
+        "input_control": "text",
+        "correct_answer": "want",
+        "accepted_answers": "[\"want\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ],
+    "rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; countability: Countable vs uncountable noun environment shifted.; Plural/compound subject conflicts with singular verb form 'seems'.",
+    "adapted_text": "Glaciers {{gap_1}}, and scientists {{gap_2}} that warming oceans are the primary factor. Annually, environmentalists {{gap_3}} old barriers, while researchers {{gap_4}} harmful pollutants in freshwater zones. What observers {{gap_5}} is that we {{gap_6}} fragile ecosystems across polar habitats. Wildlife communities {{gap_7}} protected sanctuaries because natural reserves {{gap_8}} clean water and {{gap_9}} toxic chemicals. But why {{gap_10}} so rapidly? Researchers {{gap_11}} on several key issues. Industrial factories {{gap_12}} vast areas of vegetation, and this process {{gap_13}} disruption to biodiversity. Arctic weather {{gap_14}} rapidly due to global temperatures. Rising heat levels {{gap_15}} additional damage, so the overall temperature {{gap_16}} rapidly. Thankfully, it {{gap_17}} that today international organizations {{gap_18}} to institute new policies, and they {{gap_19}} to enforce these protections. Active communities {{gap_20}} to preserve these vital habitats."
+  },
+  {
+    "qid": "1731",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-204",
+    "lesson_id": "b1_reflexive_pronouns_myself_yourself",
+    "content": "2 Susan's composition is brilliant. Do you think she wrote it ______. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "1731_1",
+        "question_id": "1731",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "her",
+        "value": "2470",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1731_2",
+        "question_id": "1731",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "herself",
+        "value": "2471",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1731_3",
+        "question_id": "1731",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "by herself",
+        "value": "2472",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "adapted_text": "Elena's painting is impressive. Did she create it _____? Choose TWO correct options"
+  },
+  {
+    "qid": "1738",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-204",
+    "lesson_id": "b1_reflexive_pronouns_myself_yourself",
+    "content": "9 Which TWO sentences are correct?",
+    "options": [
+      {
+        "option_id": "1738_1",
+        "question_id": "1738",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "I fixed my watch myself.",
+        "value": "2491",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1738_2",
+        "question_id": "1738",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "I fixed myself my watch.",
+        "value": "2492",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1738_3",
+        "question_id": "1738",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "I myself fixed my watch.",
+        "value": "2493",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['I fixed my watch myself.', 'I myself fixed my watch.'], adapted=['She repaired her bicycle herself.', 'She herself repaired her bicycle.']. Flagged for review.",
+    "adapted_text": "Which TWO sentences are correct?"
+  },
+  {
+    "qid": "2002",
+    "model": "single_choice",
+    "exercise_id": "quiz-239",
+    "lesson_id": "b1_reported_speech_indirect_speech",
+    "content": "1 'I need to see Sarah this weekend.' ⇒ George said that ______.",
+    "options": [
+      {
+        "option_id": "2002_1",
+        "question_id": "2002",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "he needed to see Sarah this weekend",
+        "value": "2779",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2002_2",
+        "question_id": "2002",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "he was needing to see Sarah that weekend",
+        "value": "2780",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2002_3",
+        "question_id": "2002",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "he needed to see Sarah that weekend",
+        "value": "2781",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "'I want to call David this morning.' ⇒ Emma mentioned that ______."
+  },
+  {
+    "qid": "2004",
+    "model": "single_choice",
+    "exercise_id": "quiz-239",
+    "lesson_id": "b1_reported_speech_indirect_speech",
+    "content": "3 'I haven't seen Barbara since last year.' ⇒ Brendan told me ______.",
+    "options": [
+      {
+        "option_id": "2004_1",
+        "question_id": "2004",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "he didn't see Barbara since last year",
+        "value": "2785",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2004_2",
+        "question_id": "2004",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "he hadn't seen Barbara since the year before",
+        "value": "2786",
+        "is_correct": 1
+      },
+      {
+        "option_id": "2004_3",
+        "question_id": "2004",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "he hadn't seen Barbara since last year",
+        "value": "2787",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "'I haven't visited Sarah since last month.' ⇒ Lucas mentioned _____."
+  },
+  {
+    "qid": "2007",
+    "model": "single_choice",
+    "exercise_id": "quiz-239",
+    "lesson_id": "b1_reported_speech_indirect_speech",
+    "content": "6 'Where are you going tomorrow?' ⇒ Sandra asked me ______.",
+    "options": [
+      {
+        "option_id": "2007_1",
+        "question_id": "2007",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "where was I going tomorrow",
+        "value": "2794",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2007_2",
+        "question_id": "2007",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "where was I going the next day",
+        "value": "2795",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2007_3",
+        "question_id": "2007",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "where I was going the following day",
+        "value": "2796",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Jaccard token similarity (0.7143) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['are you tomorrow'] with elevated similarity (Jaccard=0.7143, Lev=0.8636).",
+    "adapted_text": "\"Where are you going tomorrow?\" ⇒ Kevin asked me ______."
+  },
+  {
+    "qid": "2008",
+    "model": "single_choice",
+    "exercise_id": "quiz-239",
+    "lesson_id": "b1_reported_speech_indirect_speech",
+    "content": "7 'May I smoke in this room?' ⇒ Micky asked me ______.",
+    "options": [
+      {
+        "option_id": "2008_1",
+        "question_id": "2008",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "if he may smoke in this room",
+        "value": "2797",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2008_2",
+        "question_id": "2008",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "if he might smoke in that room",
+        "value": "2798",
+        "is_correct": 1
+      },
+      {
+        "option_id": "2008_3",
+        "question_id": "2008",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "whether he smoked in that room",
+        "value": "2799",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "'May I sit at this table?' ⇒ David asked the receptionist _____."
+  },
+  {
+    "qid": "2009",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-239",
+    "lesson_id": "b1_reported_speech_indirect_speech",
+    "content": "8 'I'm living in Australia.' Sarah told me ______. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "2009_1",
+        "question_id": "2009",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "she is living in Australia",
+        "value": "2800",
+        "is_correct": 1
+      },
+      {
+        "option_id": "2009_2",
+        "question_id": "2009",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "she had lived in Australia",
+        "value": "2801",
+        "is_correct": 0
+      },
+      {
+        "option_id": "2009_3",
+        "question_id": "2009",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "she was living in Australia",
+        "value": "2802",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "'I am working in London.' Elena mentioned ______. Choose TWO correct options"
+  },
+  {
+    "qid": "2014",
+    "model": "gap",
+    "exercise_id": "quiz-240",
+    "lesson_id": "b1_reported_speech_indirect_speech",
+    "content": "2 'Are you going to the beach today?' ⇒ She asked me {{gap_1}}.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_2014_1",
+        "question_id": "2014",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "if I was going to the beach that day",
+        "accepted_answers": "[\"if I was going to the beach that day\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ],
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['are you today'] with elevated similarity (Jaccard=0.2500, Lev=0.5714).; gender: Gender of primary person shifted.",
+    "adapted_text": "'Are you going to the beach today?' my brother inquired. ⇒ He wanted to know {{gap_1}}."
+  },
+  {
+    "qid": "2019",
+    "model": "gap",
+    "exercise_id": "quiz-240",
+    "lesson_id": "b1_reported_speech_indirect_speech",
+    "content": "5 'I may not be ready next week.' ⇒ Tomas said that he {{gap_1}} week.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_2019_1",
+        "question_id": "2019",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "might not be ready the following",
+        "accepted_answers": "[\"might not be ready the following\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ],
+    "rejection_reason": "Jaccard token similarity (0.6364) exceeds rejection threshold (> 0.50).",
+    "adapted_text": "'I may not be ready until next week,' said Julian. ⇒ Julian stated that he {{gap_1}} week."
+  },
+  {
+    "qid": "4913",
+    "model": "single_choice",
+    "exercise_id": "quiz-575",
+    "lesson_id": "b1_review_verb_tenses_b1",
+    "content": "5 A: You look fitter! B: Yes, I _____ at the gym for the last few months.",
+    "options": [
+      {
+        "option_id": "4913_1",
+        "question_id": "4913",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "'m working out",
+        "value": "7543",
+        "is_correct": 0
+      },
+      {
+        "option_id": "4913_2",
+        "question_id": "4913",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "'ve been working out",
+        "value": "7544",
+        "is_correct": 1
+      },
+      {
+        "option_id": "4913_3",
+        "question_id": "4913",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "work out",
+        "value": "7545",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "A: Your Spanish is so fluent! B: Thanks, I _____ lessons online for the past half year."
+  },
+  {
+    "qid": "4917",
+    "model": "single_choice",
+    "exercise_id": "quiz-575",
+    "lesson_id": "b1_review_verb_tenses_b1",
+    "content": "7 Look at the traffic. We _____ late.",
+    "options": [
+      {
+        "option_id": "4917_1",
+        "question_id": "4917",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "are going to be",
+        "value": "7555",
+        "is_correct": 1
+      },
+      {
+        "option_id": "4917_2",
+        "question_id": "4917",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "will be",
+        "value": "7556",
+        "is_correct": 0
+      },
+      {
+        "option_id": "4917_3",
+        "question_id": "4917",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "are being",
+        "value": "7557",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "Look at those dark clouds. It _____ rain."
+  },
+  {
+    "qid": "1920",
+    "model": "single_choice",
+    "exercise_id": "quiz-230",
+    "lesson_id": "b1_second_conditional_unreal_situations",
+    "content": "5 Would you mind if I ______ the window?",
+    "options": [
+      {
+        "option_id": "1920_1",
+        "question_id": "1920",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "open",
+        "value": "2695",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1920_2",
+        "question_id": "1920",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "would open",
+        "value": "2696",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1920_3",
+        "question_id": "1920",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "opened",
+        "value": "2697",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['would you mind', 'you mind if'] with elevated similarity (Jaccard=0.5000, Lev=0.6579).; Correct answer diverged from source: source=['opened'], adapted=['finished']. Flagged for review.; singular_plural: Subject/demonstrative number shifted between singular and plural.",
+    "adapted_text": "Would you mind if we _____ the meeting early?"
+  },
+  {
+    "qid": "1966",
+    "model": "multiple_choice",
+    "exercise_id": "quiz-236",
+    "lesson_id": "b1_third_conditional_past_unreal_situations",
+    "content": "1 You ______ me if you had gone to the party. Choose TWO correct options",
+    "options": [
+      {
+        "option_id": "1966_1",
+        "question_id": "1966",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "would have seen",
+        "value": "2746",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1966_2",
+        "question_id": "1966",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "could see",
+        "value": "2747",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1966_3",
+        "question_id": "1966",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "might have seen",
+        "value": "2748",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; singular_plural: Subject/demonstrative number shifted between singular and plural.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "adapted_text": "They ______ the rare artifact if they had attended the museum tour. Choose TWO correct options"
+  },
+  {
+    "qid": "1969",
+    "model": "single_choice",
+    "exercise_id": "quiz-236",
+    "lesson_id": "b1_third_conditional_past_unreal_situations",
+    "content": "3 They ______ him if I ______ them the money.",
+    "options": [
+      {
+        "option_id": "1969_1",
+        "question_id": "1969",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "would have killed / didn't give",
+        "value": "2749",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1969_2",
+        "question_id": "1969",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "would have killed / hadn't given",
+        "value": "2750",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1969_3",
+        "question_id": "1969",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "had killed him / wouldn't give",
+        "value": "2751",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "The company ______ the contract if we ______ them better terms."
+  },
+  {
+    "qid": "1971",
+    "model": "single_choice",
+    "exercise_id": "quiz-236",
+    "lesson_id": "b1_third_conditional_past_unreal_situations",
+    "content": "5 If I ______ so hard all my life, I might have spent more time with my kids.",
+    "options": [
+      {
+        "option_id": "1971_1",
+        "question_id": "1971",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "hadn't worked",
+        "value": "2761",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1971_2",
+        "question_id": "1971",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "wouldn't have worked",
+        "value": "2762",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1971_3",
+        "question_id": "1971",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "didn't work",
+        "value": "2763",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "If Sarah _____ for the exam, she could have joined us at the beach."
+  },
+  {
+    "qid": "1973",
+    "model": "single_choice",
+    "exercise_id": "quiz-236",
+    "lesson_id": "b1_third_conditional_past_unreal_situations",
+    "content": "8 I ______ the exam even if I had studied harder.",
+    "options": [
+      {
+        "option_id": "1973_1",
+        "question_id": "1973",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "wouldn't pass",
+        "value": "2767",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1973_2",
+        "question_id": "1973",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "wouldn't have passed",
+        "value": "2768",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1973_3",
+        "question_id": "1973",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "hadn't passed",
+        "value": "2769",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "She _____ the flight even if she had left earlier."
+  },
+  {
+    "qid": "1974",
+    "model": "single_choice",
+    "exercise_id": "quiz-236",
+    "lesson_id": "b1_third_conditional_past_unreal_situations",
+    "content": "9 If I ______ you the truth, you wouldn't have believed me.",
+    "options": [
+      {
+        "option_id": "1974_1",
+        "question_id": "1974",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "told",
+        "value": "2770",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1974_2",
+        "question_id": "1974",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "would have told",
+        "value": "2771",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1974_3",
+        "question_id": "1974",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "had told",
+        "value": "2772",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [],
+    "rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "adapted_text": "If Marco _____ the directions, he wouldn't have lost his way."
+  }
+]

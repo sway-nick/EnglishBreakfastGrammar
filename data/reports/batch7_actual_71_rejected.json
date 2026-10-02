@@ -1,0 +1,3511 @@
+[
+  {
+    "adapted_question_id": "adapt_194",
+    "source_question_id": "194",
+    "exercise_id": "quiz-26",
+    "lesson_id": "b1-b2_zero_first_conditional_future_time_clauses",
+    "response_model": "single_choice",
+    "source_text": "3 When you arrive, we __________ in the garden.",
+    "adapted_text": "By the time the train reaches the station, they _____ for us at the cafe.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['will be playing'], adapted=['will be waiting']. Flagged for review.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "194_1",
+        "question_id": "194",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "play",
+        "value": "166",
+        "is_correct": 0
+      },
+      {
+        "option_id": "194_2",
+        "question_id": "194",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "are playing",
+        "value": "167",
+        "is_correct": 0
+      },
+      {
+        "option_id": "194_3",
+        "question_id": "194",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "will be playing",
+        "value": "168",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_196",
+    "source_question_id": "196",
+    "exercise_id": "quiz-26",
+    "lesson_id": "b1-b2_zero_first_conditional_future_time_clauses",
+    "response_model": "single_choice",
+    "source_text": "5 If you feel tired tomorrow, you __________ enough sleep.",
+    "adapted_text": "If the cake tastes dry, you _____ enough butter.",
+    "notes": "Normalized Levenshtein similarity (0.4651) exceeds threshold (< 0.45) on standard text (len=43).; Correct answer diverged from source: source=[\"haven't had\"], adapted=[\"haven't added\"]. Flagged for review.; countability: Countable vs uncountable noun environment shifted.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "196_1",
+        "question_id": "196",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "won't have had",
+        "value": "172",
+        "is_correct": 0
+      },
+      {
+        "option_id": "196_2",
+        "question_id": "196",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "haven't had",
+        "value": "173",
+        "is_correct": 1
+      },
+      {
+        "option_id": "196_3",
+        "question_id": "196",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "aren't going to have",
+        "value": "174",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_199",
+    "source_question_id": "199",
+    "exercise_id": "quiz-26",
+    "lesson_id": "b1-b2_zero_first_conditional_future_time_clauses",
+    "response_model": "single_choice",
+    "source_text": "8 When you __________ the test, I will be praying for you.",
+    "adapted_text": "When Sarah _____ the presentation, we will cheer for her.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['start'], adapted=['starts']. Flagged for review.; singular_plural: Subject/demonstrative number shifted between singular and plural.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "199_1",
+        "question_id": "199",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "start",
+        "value": "181",
+        "is_correct": 1
+      },
+      {
+        "option_id": "199_2",
+        "question_id": "199",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "will start",
+        "value": "182",
+        "is_correct": 0
+      },
+      {
+        "option_id": "199_3",
+        "question_id": "199",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "are going to start",
+        "value": "183",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_201",
+    "source_question_id": "201",
+    "exercise_id": "quiz-26",
+    "lesson_id": "b1-b2_zero_first_conditional_future_time_clauses",
+    "response_model": "single_choice",
+    "source_text": "10 If he __________ when you arrive, please be quiet.",
+    "adapted_text": "If she _____ studying when you enter the room, do not disturb her.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['is sleeping'], adapted=['is studying']. Flagged for review.; gender: Gender of primary person shifted.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "201_1",
+        "question_id": "201",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "will sleep",
+        "value": "187",
+        "is_correct": 0
+      },
+      {
+        "option_id": "201_2",
+        "question_id": "201",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "is sleeping",
+        "value": "188",
+        "is_correct": 1
+      },
+      {
+        "option_id": "201_3",
+        "question_id": "201",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "will be sleeping",
+        "value": "189",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_206",
+    "source_question_id": "206",
+    "exercise_id": "quiz-27",
+    "lesson_id": "b1-b2_zero_first_conditional_future_time_clauses",
+    "response_model": "gap",
+    "source_text": "4 I’ll be ready as soon as you {{gap_1}} (be).",
+    "adapted_text": "We will begin the presentation as soon as you {{gap_1}} (be) prepared.",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['as soon as', 'soon as you'] with elevated similarity (Jaccard=0.3077, Lev=0.5085).; singular_plural: Subject/demonstrative number shifted between singular and plural.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_206_1",
+        "question_id": "206",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "are",
+        "accepted_answers": "[\"are\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ]
+  },
+  {
+    "adapted_question_id": "adapt_1028",
+    "source_question_id": "1028",
+    "exercise_id": "quiz-123",
+    "lesson_id": "b2_all_conditionals_mixed_conditionals_alternatives_if_inversion",
+    "response_model": "multiple_choice",
+    "source_text": "6 This might never have happened ______ me earlier. Choose TWO correct options",
+    "adapted_text": "The project would not have succeeded _____ the required funding in time. Choose TWO correct options",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['had you told', 'if you had told'], adapted=['had you provided', 'if you had provided']. Flagged for review.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "1028_1",
+        "question_id": "1028",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "if you would have told",
+        "value": "1508",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1028_2",
+        "question_id": "1028",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "had you told",
+        "value": "1509",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1028_3",
+        "question_id": "1028",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "if you had told",
+        "value": "1510",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1028_4",
+        "question_id": "1028",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "if you told",
+        "value": "1511",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1034",
+    "source_question_id": "1034",
+    "exercise_id": "quiz-124",
+    "lesson_id": "b2_all_conditionals_mixed_conditionals_alternatives_if_inversion",
+    "response_model": "gap",
+    "source_text": "Dialogue 1 ANN: How was your Spanish exam, Claire? CLAIRE: Fine, I guess. I got a B. I could have got a better mark provided I 1 {{gap_1}} (work) harder on the verbs. And you? ANN: I didn’t study and I failed, but I 2 {{gap_2}} (fail) even if I had studied, that’s why I decided not to do it. CLAIRE: That’s not true. Nobody fails an exam as long as they 3 {{gap_3}} (study). ANN: That’s easy for you to say. If you 4 {{gap_4}} (be) in my shoes, you would think differently. Sometimes people work hard, but they don’t get the results they want. It’s different for you; for you, it’s easy to succeed in whatever you want to succeed in. CLAIRE: That’s unfair. I wouldn’t be where I am today if I 5 {{gap_5}} (not work) very hard all these past years. Dialogue 2 MOTHER: You can't go out. That's out of the question. SON: Please, mum. Can I go out on condition I 6 {{gap_6}} (do) all my homework before leaving? MOTHER: Well, if you 7 {{gap_7}} (do) your homework when I asked you, you would be allowed to go out now. SON: But I didn't hear you. If I had heard you, I 8 {{gap_8}} (do) it. MOTHER: That's the problem; you never listen. It 9 {{gap_9}} (not hurt) if you listened to me once in a while. If you 10 {{gap_10}} (do) it more often, your life would be much easier.",
+    "adapted_text": "Dialogue 1 LEO: How was your coding project, Nora? NORA: Decent, I think. I secured second place. I could have finished first provided I {{gap_1}} late into the night. And you? LEO: I skipped it entirely, but I {{gap_2}} anyway even if I had submitted an entry. NORA: Nonsense! Nobody loses a contest as long as they {{gap_3}} diligently. LEO: Easy for you to claim! If you {{gap_4}} a beginner like me, you'd view things differently. NORA: That is unfair. I wouldn't be a senior developer today if I {{gap_5}} tirelessly over the years. Dialogue 2 MANAGER: You cannot leave early today. EMPLOYEE: Please, boss. May I depart on condition I {{gap_6}} the report now? MANAGER: Well, if you {{gap_7}} the analysis earlier, you would be free to go now. EMPLOYEE: But I missed the reminder! If I had noticed it, I {{gap_8}} it immediately. MANAGER: Exactly, you never check updates. It {{gap_9}} if you paid attention. If you {{gap_10}} so, your workflow would run much smoother.",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['as long as', 'easy for you'] with elevated similarity (Jaccard=0.2303, Lev=0.4114).; countability: Countable vs uncountable noun environment shifted.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_1034_1",
+        "question_id": "1034",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "had worked",
+        "accepted_answers": "[\"had worked\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1034_2",
+        "question_id": "1034",
+        "gap_order": 2,
+        "input_control": "text",
+        "correct_answer": "would have failed",
+        "accepted_answers": "[\"would have failed\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1034_3",
+        "question_id": "1034",
+        "gap_order": 3,
+        "input_control": "text",
+        "correct_answer": "study",
+        "accepted_answers": "[\"study\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1034_4",
+        "question_id": "1034",
+        "gap_order": 4,
+        "input_control": "text",
+        "correct_answer": "were",
+        "accepted_answers": "[\"were\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1034_5",
+        "question_id": "1034",
+        "gap_order": 5,
+        "input_control": "text",
+        "correct_answer": "hadn't worked",
+        "accepted_answers": "[\"hadn't worked\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1034_6",
+        "question_id": "1034",
+        "gap_order": 6,
+        "input_control": "text",
+        "correct_answer": "do",
+        "accepted_answers": "[\"do\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1034_7",
+        "question_id": "1034",
+        "gap_order": 7,
+        "input_control": "text",
+        "correct_answer": "had done",
+        "accepted_answers": "[\"had done\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1034_8",
+        "question_id": "1034",
+        "gap_order": 8,
+        "input_control": "text",
+        "correct_answer": "would have done",
+        "accepted_answers": "[\"would have done\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1034_9",
+        "question_id": "1034",
+        "gap_order": 9,
+        "input_control": "text",
+        "correct_answer": "wouldn't hurt",
+        "accepted_answers": "[\"wouldn't hurt\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1034_10",
+        "question_id": "1034",
+        "gap_order": 10,
+        "input_control": "text",
+        "correct_answer": "did",
+        "accepted_answers": "[\"did\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ]
+  },
+  {
+    "adapted_question_id": "adapt_1313",
+    "source_question_id": "1313",
+    "exercise_id": "quiz-154",
+    "lesson_id": "b2_cleft_sentences",
+    "response_model": "single_choice",
+    "source_text": "6 Which sentence is INCORRECT?",
+    "adapted_text": "Which sentence is INCORRECT?",
+    "notes": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['It’s sell his car that he did to pay the mortgage.'], adapted=['It’s leave her job that she did to fund the startup.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "1313_1",
+        "question_id": "1313",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "It was to pay the mortgage that he sold his new car.",
+        "value": "1837",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1313_2",
+        "question_id": "1313",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "The reason why he sold his new car was to pay the mortgage.",
+        "value": "1838",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1313_3",
+        "question_id": "1313",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "It’s sell his car that he did to pay the mortgage.",
+        "value": "1839",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1313_4",
+        "question_id": "1313",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "What he did was sell his car to pay the mortgage.",
+        "value": "1840",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1314",
+    "source_question_id": "1314",
+    "exercise_id": "quiz-154",
+    "lesson_id": "b2_cleft_sentences",
+    "response_model": "single_choice",
+    "source_text": "7 Which sentence is INCORRECT?",
+    "adapted_text": "7 Which sentence is INCORRECT?",
+    "notes": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['His car was to pay the mortgage he sold.'], adapted=['Her painting was to support the charity she donated.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "1314_1",
+        "question_id": "1314",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "What he sold to pay the mortgage was his car.",
+        "value": "1841",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1314_2",
+        "question_id": "1314",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "His car was to pay the mortgage he sold.",
+        "value": "1842",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1314_3",
+        "question_id": "1314",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "His car was what he sold to pay the mortgage.",
+        "value": "1843",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1314_4",
+        "question_id": "1314",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "It was his car that he sold to pay the mortgage.",
+        "value": "1844",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1315",
+    "source_question_id": "1315",
+    "exercise_id": "quiz-154",
+    "lesson_id": "b2_cleft_sentences",
+    "response_model": "single_choice",
+    "source_text": "8 Which sentence is INCORRECT?",
+    "adapted_text": "Which sentence is INCORRECT?",
+    "notes": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=[\"It's that we did wait for help.\"], adapted=[\"It's that she managed call the manager.\"]. Flagged for review.",
+    "options": [
+      {
+        "option_id": "1315_1",
+        "question_id": "1315",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "What we did was wait for help.",
+        "value": "1845",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1315_2",
+        "question_id": "1315",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "The only thing we did was wait for help.",
+        "value": "1846",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1315_3",
+        "question_id": "1315",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "It's that we did wait for help.",
+        "value": "1847",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1315_4",
+        "question_id": "1315",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "All we did was wait for help.",
+        "value": "1848",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1316",
+    "source_question_id": "1316",
+    "exercise_id": "quiz-154",
+    "lesson_id": "b2_cleft_sentences",
+    "response_model": "single_choice",
+    "source_text": "9 Which sentence is INCORRECT?",
+    "adapted_text": "Which sentence is INCORRECT?",
+    "notes": "Identical text: adapted sentence is unchanged from source after normalization.",
+    "options": [
+      {
+        "option_id": "1316_1",
+        "question_id": "1316",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "It was Bill who helped us.",
+        "value": "1849",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1316_2",
+        "question_id": "1316",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "Bill was the person who helped us.",
+        "value": "1850",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1316_3",
+        "question_id": "1316",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "The person who helped us was Bill.",
+        "value": "1851",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1316_4",
+        "question_id": "1316",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "Bill was helped us.",
+        "value": "1852",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1317",
+    "source_question_id": "1317",
+    "exercise_id": "quiz-154",
+    "lesson_id": "b2_cleft_sentences",
+    "response_model": "single_choice",
+    "source_text": "10 Which sentence is INCORRECT?",
+    "adapted_text": "Which sentence is INCORRECT?",
+    "notes": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=[\"Music from the 70's is we play.\"], adapted=['Organic tea is they serve.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "1317_1",
+        "question_id": "1317",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "It's music from the 70's that we play.",
+        "value": "1853",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1317_2",
+        "question_id": "1317",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "What we play is music from the 70's.",
+        "value": "1854",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1317_3",
+        "question_id": "1317",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Music from the 70's is we play.",
+        "value": "1855",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1317_4",
+        "question_id": "1317",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "All we play is music from the 70's.",
+        "value": "1856",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1337",
+    "source_question_id": "1337",
+    "exercise_id": "quiz-156",
+    "lesson_id": "b2_cleft_sentences",
+    "response_model": "gap",
+    "source_text": "5 We checked all the windows. {{gap_1}} check all the windows.",
+    "adapted_text": "They cleaned the entire kitchen. {{gap_1}} wipe down every surface.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; Plural/compound subject conflicts with singular verb form 'What we did was'.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_1337_1",
+        "question_id": "1337",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "What we did was",
+        "accepted_answers": "[\"What we did was\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ]
+  },
+  {
+    "adapted_question_id": "adapt_10102",
+    "source_question_id": "10102",
+    "exercise_id": "quiz-1179",
+    "lesson_id": "b2_comparative_structures_modifying_comparatives",
+    "response_model": "single_choice",
+    "source_text": "1 That car isn't nearly as safe as people think. = That car is...",
+    "adapted_text": "That river isn't nearly as safe as tourists assume. = That river is _____",
+    "notes": "Jaccard token similarity (0.6000) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['as safe as', \"isn't nearly as\"] with elevated similarity (Jaccard=0.6000, Lev=0.6615).",
+    "options": [
+      {
+        "option_id": "10102_1",
+        "question_id": "10102",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "safer than people think.",
+        "value": "18241",
+        "is_correct": 0
+      },
+      {
+        "option_id": "10102_2",
+        "question_id": "10102",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "much more dangerous than people think.",
+        "value": "18242",
+        "is_correct": 1
+      },
+      {
+        "option_id": "10102_3",
+        "question_id": "10102",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "a little more dangerous than people think.",
+        "value": "18243",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_10103",
+    "source_question_id": "10103",
+    "exercise_id": "quiz-1179",
+    "lesson_id": "b2_comparative_structures_modifying_comparatives",
+    "response_model": "single_choice",
+    "source_text": "2 The movie was nowhere near as entertaining as I expected. = The movie was...",
+    "adapted_text": "The performance was nowhere near as exciting as we anticipated. = The performance was _____",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['nowhere near as', 'was nowhere near'] with elevated similarity (Jaccard=0.5000, Lev=0.5952).; singular_plural: Subject/demonstrative number shifted between singular and plural.",
+    "options": [
+      {
+        "option_id": "10103_1",
+        "question_id": "10103",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "more entertaining than I expected.",
+        "value": "18244",
+        "is_correct": 0
+      },
+      {
+        "option_id": "10103_2",
+        "question_id": "10103",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "much less entertaining than I expected.",
+        "value": "18245",
+        "is_correct": 1
+      },
+      {
+        "option_id": "10103_3",
+        "question_id": "10103",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "a little less entertaining than I expected.",
+        "value": "18246",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_10111",
+    "source_question_id": "10111",
+    "exercise_id": "quiz-1179",
+    "lesson_id": "b2_comparative_structures_modifying_comparatives",
+    "response_model": "single_choice",
+    "source_text": "3 The workload is not much heavier than it was last week. = The workload is...",
+    "adapted_text": "The price of gas is not much higher than it was yesterday. = The price of gas is _____",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['is not much'] with elevated similarity (Jaccard=0.4000, Lev=0.6076).",
+    "options": [
+      {
+        "option_id": "10111_1",
+        "question_id": "10111",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "slightly lighter than it was last week.",
+        "value": "18268",
+        "is_correct": 0
+      },
+      {
+        "option_id": "10111_2",
+        "question_id": "10111",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "a bit heavier than it was last week.",
+        "value": "18269",
+        "is_correct": 1
+      },
+      {
+        "option_id": "10111_3",
+        "question_id": "10111",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "almost as heavy as it was last week.",
+        "value": "18270",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_10106",
+    "source_question_id": "10106",
+    "exercise_id": "quiz-1179",
+    "lesson_id": "b2_comparative_structures_modifying_comparatives",
+    "response_model": "single_choice",
+    "source_text": "6 The party was not at all as fun as last year's. = The party was...",
+    "adapted_text": "The conference was not at all as engaging as expected. = The conference was _____",
+    "notes": "Jaccard token similarity (0.6000) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['at all as', 'not at all'] with elevated similarity (Jaccard=0.6000, Lev=0.5405).",
+    "options": [
+      {
+        "option_id": "10106_1",
+        "question_id": "10106",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "much less fun than last year's.",
+        "value": "18253",
+        "is_correct": 1
+      },
+      {
+        "option_id": "10106_2",
+        "question_id": "10106",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "far more fun than last year's.",
+        "value": "18254",
+        "is_correct": 0
+      },
+      {
+        "option_id": "10106_3",
+        "question_id": "10106",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "a bit less fun than last year's.",
+        "value": "18255",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_10110",
+    "source_question_id": "10110",
+    "exercise_id": "quiz-1179",
+    "lesson_id": "b2_comparative_structures_modifying_comparatives",
+    "response_model": "single_choice",
+    "source_text": "7 The temperature outside is slightly more comfortable than yesterday. = The temperature outside is...",
+    "adapted_text": "7 The new software is slightly more efficient than the previous version. = The new software is _____",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['not much more comfortable than yesterday.'], adapted=['not much more efficient than the previous version.']. Flagged for review.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "10110_1",
+        "question_id": "10110",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "a bit less comfortable than yesterday.",
+        "value": "18265",
+        "is_correct": 0
+      },
+      {
+        "option_id": "10110_2",
+        "question_id": "10110",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "not quite as comfortable as yesterday.",
+        "value": "18266",
+        "is_correct": 0
+      },
+      {
+        "option_id": "10110_3",
+        "question_id": "10110",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "not much more comfortable than yesterday.",
+        "value": "18267",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_10107",
+    "source_question_id": "10107",
+    "exercise_id": "quiz-1179",
+    "lesson_id": "b2_comparative_structures_modifying_comparatives",
+    "response_model": "single_choice",
+    "source_text": "8 This task is by far the simplest. = This task is...",
+    "adapted_text": "This route is by far the shortest. = This route is _____",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['is by far'] with elevated similarity (Jaccard=0.5000, Lev=0.7143).; Correct answer diverged from source: source=['nowhere near as complex as the others.'], adapted=['nowhere near as long as the alternatives.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "10107_1",
+        "question_id": "10107",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "nowhere near as complex as the others.",
+        "value": "18256",
+        "is_correct": 1
+      },
+      {
+        "option_id": "10107_2",
+        "question_id": "10107",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "a bit simpler than the others.",
+        "value": "18257",
+        "is_correct": 0
+      },
+      {
+        "option_id": "10107_3",
+        "question_id": "10107",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "not nearly as simple as the others",
+        "value": "18258",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_10109",
+    "source_question_id": "10109",
+    "exercise_id": "quiz-1179",
+    "lesson_id": "b2_comparative_structures_modifying_comparatives",
+    "response_model": "single_choice",
+    "source_text": "10 The new laptop is a bit less powerful than I anticipated. = The new laptop is...",
+    "adapted_text": "10 The hotel room was a bit less spacious than we expected. = The hotel room was _____",
+    "notes": "Normalized Levenshtein similarity (0.5263) exceeds threshold (< 0.45) on standard text (len=76).; Correct answer diverged from source: source=['slightly less powerful than I anticipated.'], adapted=['slightly less spacious than we expected.']. Flagged for review.; singular_plural: Subject/demonstrative number shifted between singular and plural.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "10109_1",
+        "question_id": "10109",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "slightly less powerful than I anticipated.",
+        "value": "18262",
+        "is_correct": 1
+      },
+      {
+        "option_id": "10109_2",
+        "question_id": "10109",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "not nearly as powerful as I anticipated.",
+        "value": "18263",
+        "is_correct": 0
+      },
+      {
+        "option_id": "10109_3",
+        "question_id": "10109",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "roughly as powerful as I anticipated.",
+        "value": "18264",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1279",
+    "source_question_id": "1279",
+    "exercise_id": "quiz-150",
+    "lesson_id": "b2_compound_nouns_possessive_forms",
+    "response_model": "single_choice",
+    "source_text": "1 This is ______.",
+    "adapted_text": "That is _____",
+    "notes": "Short text (len=7 < 40): combined elevated Levenshtein (0.7143 >= 0.45) and token similarity (0.3333 >= 0.25).; Correct answer diverged from source: source=['the brother of the student I told you about.'], adapted=['the car of the colleague I met yesterday']. Flagged for review.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "1279_1",
+        "question_id": "1279",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "the brother of the student I told you about.",
+        "value": "1806",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1279_2",
+        "question_id": "1279",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "the student I told you about's brother.",
+        "value": "1807",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1279_3",
+        "question_id": "1279",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "the brother of the student's I told you about.",
+        "value": "1808",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1287",
+    "source_question_id": "1287",
+    "exercise_id": "quiz-150",
+    "lesson_id": "b2_compound_nouns_possessive_forms",
+    "response_model": "single_choice",
+    "source_text": "5 There are two new ______ in our street.",
+    "adapted_text": "They opened several local _____ near the city center.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; singular_plural: Subject/demonstrative number shifted between singular and plural.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; Plural/compound subject conflicts with singular verb form 'shoe shops'.",
+    "options": [
+      {
+        "option_id": "1287_1",
+        "question_id": "1287",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "shoe's shops",
+        "value": "1818",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1287_2",
+        "question_id": "1287",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "shoes shops",
+        "value": "1819",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1287_3",
+        "question_id": "1287",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "shoe shops",
+        "value": "1820",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1290",
+    "source_question_id": "1290",
+    "exercise_id": "quiz-150",
+    "lesson_id": "b2_compound_nouns_possessive_forms",
+    "response_model": "single_choice",
+    "source_text": "7 A: Is that a ______? I need one to light the incense. B: No, that's just the ______ where I keep my old coins.",
+    "adapted_text": "A: Did you bring a _____? I need to store these spare screws. B: No, that is an empty _____ that contained small tea bags.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['box of matches / matchbox'], adapted=['box of tea / toolbox']. Flagged for review.; singular_plural: Subject/demonstrative number shifted between singular and plural.; countability: Countable vs uncountable noun environment shifted.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "1290_1",
+        "question_id": "1290",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "matchbox / matchbox",
+        "value": "1827",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1290_2",
+        "question_id": "1290",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "matchbox / box of matches",
+        "value": "1828",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1290_3",
+        "question_id": "1290",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "box of matches / matchbox",
+        "value": "1829",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1290_4",
+        "question_id": "1290",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "box of matches / box of matches",
+        "value": "1830",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1291",
+    "source_question_id": "1291",
+    "exercise_id": "quiz-150",
+    "lesson_id": "b2_compound_nouns_possessive_forms",
+    "response_model": "single_choice",
+    "source_text": "8 ______ was a total success.",
+    "adapted_text": "_____ exceeded all our expectations.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=[\"Yesterday's party\"], adapted=[\"Yesterday's performance\"]. Flagged for review.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "1291_1",
+        "question_id": "1291",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "The party of yesterday",
+        "value": "1831",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1291_2",
+        "question_id": "1291",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "Yesterday's party",
+        "value": "1832",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1291_3",
+        "question_id": "1291",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Yesterday party",
+        "value": "1833",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1289",
+    "source_question_id": "1289",
+    "exercise_id": "quiz-150",
+    "lesson_id": "b2_compound_nouns_possessive_forms",
+    "response_model": "multiple_choice",
+    "source_text": "10 The ______ is disappointing. Choose TWO correct options",
+    "adapted_text": "Management expressed deep concern regarding the ______. Choose TWO correct options.",
+    "notes": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).",
+    "options": [
+      {
+        "option_id": "1289_1",
+        "question_id": "1289",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "team's lack of ambition",
+        "value": "1824",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1289_2",
+        "question_id": "1289",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "lack of ambition of the team",
+        "value": "1825",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1289_3",
+        "question_id": "1289",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "team lack of ambition",
+        "value": "1826",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_856",
+    "source_question_id": "856",
+    "exercise_id": "quiz-103",
+    "lesson_id": "b2_discourse_markers",
+    "response_model": "gap",
+    "source_text": "7 The north of the country is industrialised and rich {{gap_1}} the south is quite poor, with an economy based on agriculture.",
+    "adapted_text": "The morning shift was extremely busy and demanding, {{gap_1}} the afternoon staff enjoyed a relatively calm period.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Plural/compound subject conflicts with singular verb form 'whereas'.",
+    "options": [
+      {
+        "option_id": "gap_856_1_1",
+        "question_id": "856",
+        "gap_id": "gap_856_1",
+        "option_order": 1,
+        "text": "whereas",
+        "value": "whereas",
+        "is_correct": 1
+      },
+      {
+        "option_id": "gap_856_1_2",
+        "question_id": "856",
+        "gap_id": "gap_856_1",
+        "option_order": 2,
+        "text": "on the whole",
+        "value": "on the whole",
+        "is_correct": 0
+      },
+      {
+        "option_id": "gap_856_1_3",
+        "question_id": "856",
+        "gap_id": "gap_856_1",
+        "option_order": 3,
+        "text": "furthermore",
+        "value": "furthermore",
+        "is_correct": 0
+      }
+    ],
+    "gaps": [
+      {
+        "gap_id": "gap_856_1",
+        "question_id": "856",
+        "gap_order": 1,
+        "input_control": "select",
+        "correct_answer": "whereas",
+        "accepted_answers": "[\"whereas\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ]
+  },
+  {
+    "adapted_question_id": "adapt_945",
+    "source_question_id": "945",
+    "exercise_id": "quiz-113",
+    "lesson_id": "b2_distancing",
+    "response_model": "multiple_choice",
+    "source_text": "4 _______ continue for the next 24 to 72 hours",
+    "adapted_text": "_______ persist throughout the coming week. Choose TWO correct answers",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['It is expected that the blackouts will', 'The blackouts are expected to'], adapted=['It is expected that the heavy storms will', 'The heavy storms are expected to']. Flagged for review.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "945_1",
+        "question_id": "945",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "It is expected that the blackouts will",
+        "value": "1364",
+        "is_correct": 1
+      },
+      {
+        "option_id": "945_2",
+        "question_id": "945",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "The blackouts are expected to",
+        "value": "1365",
+        "is_correct": 1
+      },
+      {
+        "option_id": "945_3",
+        "question_id": "945",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "The blackouts are expected will",
+        "value": "1366",
+        "is_correct": 0
+      },
+      {
+        "option_id": "945_4",
+        "question_id": "945",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "There is expected that the blackouts will",
+        "value": "1367",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1266",
+    "source_question_id": "1266",
+    "exercise_id": "quiz-152",
+    "lesson_id": "b2_ellipsis_and_substitution",
+    "response_model": "gap",
+    "source_text": "4 They didn't visit us, although we'd been hoping they would [...]. ⇒ {{gap_1}}",
+    "adapted_text": "The relatives failed to visit us, even though the family expected they would {{gap_1}}.",
+    "notes": "Normalized Levenshtein similarity (0.4533) exceeds threshold (< 0.45) on standard text (len=75).; Plural/compound subject conflicts with singular verb form 'visit us'.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_1266_1",
+        "question_id": "1266",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "visit us",
+        "accepted_answers": "[\"visit us\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ]
+  },
+  {
+    "adapted_question_id": "adapt_1192",
+    "source_question_id": "1192",
+    "exercise_id": "quiz-136",
+    "lesson_id": "b2_future_forms_expressing_future_time",
+    "response_model": "single_choice",
+    "source_text": "10 We ______ into our new flat at the end of next week. Choose the INCORRECT answer",
+    "adapted_text": "They ______ to a new headquarters at the end of next month. Choose the INCORRECT answer.",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['at the end', 'end of next'] with elevated similarity (Jaccard=0.4444, Lev=0.6806).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "options": [
+      {
+        "option_id": "1192_1",
+        "question_id": "1192",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "were moving",
+        "value": "1732",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1192_2",
+        "question_id": "1192",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "are moving",
+        "value": "1733",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1192_3",
+        "question_id": "1192",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "'ll be moving",
+        "value": "1734",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1192_4",
+        "question_id": "1192",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "are going to move",
+        "value": "1735",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1114",
+    "source_question_id": "1114",
+    "exercise_id": "quiz-133",
+    "lesson_id": "b2_gerunds_infinitives_complex_forms",
+    "response_model": "single_choice",
+    "source_text": "8 I hate ______ in August. I would rather ______ a day off on the beach.",
+    "adapted_text": "He dislikes _____ during rush hour. He would rather _____ peaceful music at home.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['having to work / be enjoying'], adapted=['having to commute / be listening']. Flagged for review.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; countability: Countable vs uncountable noun environment shifted.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "1114_1",
+        "question_id": "1114",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "have to work / be enjoying",
+        "value": "1640",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1114_2",
+        "question_id": "1114",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "having to work / to be enjoying",
+        "value": "1641",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1114_3",
+        "question_id": "1114",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "to have to work / being enjoying",
+        "value": "1642",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1114_4",
+        "question_id": "1114",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "having to work / be enjoying",
+        "value": "1643",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_834",
+    "source_question_id": "834",
+    "exercise_id": "quiz-101",
+    "lesson_id": "b2_get",
+    "response_model": "gap",
+    "source_text": "8 Where did you get {{gap_1}}? They're really nice.",
+    "adapted_text": "How did you manage to purchase {{gap_1}}? They look fantastic on you.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Plural/compound subject conflicts with singular verb form 'those shoes'.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_834_1",
+        "question_id": "834",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "those shoes",
+        "accepted_answers": "[\"those shoes\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ]
+  },
+  {
+    "adapted_question_id": "adapt_837",
+    "source_question_id": "837",
+    "exercise_id": "quiz-102",
+    "lesson_id": "b2_get",
+    "response_model": "single_choice",
+    "source_text": "2 I _______ for her birthday. (=bought a ring for my wife)",
+    "adapted_text": "He _____ after his graduation. (=bought a watch for his brother)",
+    "notes": "Normalized Levenshtein similarity (0.4737) exceeds threshold (< 0.45) on standard text (len=57).; Correct answer diverged from source: source=['got my wife a ring'], adapted=['got his brother a watch']. Flagged for review.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "837_1",
+        "question_id": "837",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "got my wife a ring",
+        "value": "1157",
+        "is_correct": 1
+      },
+      {
+        "option_id": "837_2",
+        "question_id": "837",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "'ve got my wife to a ring",
+        "value": "1158",
+        "is_correct": 0
+      },
+      {
+        "option_id": "837_3",
+        "question_id": "837",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "got to my wife a ring",
+        "value": "1159",
+        "is_correct": 0
+      },
+      {
+        "option_id": "837_4",
+        "question_id": "837",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "got a ring my wife",
+        "value": "1160",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_841",
+    "source_question_id": "841",
+    "exercise_id": "quiz-102",
+    "lesson_id": "b2_get",
+    "response_model": "single_choice",
+    "source_text": "5 You should _______. (=pay someone to do your nails)",
+    "adapted_text": "We need to _____ before the trip. (=pay someone to service our car)",
+    "notes": "Verbatim shingle detected 'pay someone to' with moderate/low similarity (Jaccard=0.2143 <= 0.40, Lev=0.4167 < 0.55). Routed to AI review.; Correct answer diverged from source: source=['get your nails done'], adapted=['get our car serviced']. Flagged for review.; singular_plural: Subject/demonstrative number shifted between singular and plural.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "841_1",
+        "question_id": "841",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "get someone do your nails",
+        "value": "1196",
+        "is_correct": 0
+      },
+      {
+        "option_id": "841_2",
+        "question_id": "841",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "get your nails",
+        "value": "1197",
+        "is_correct": 0
+      },
+      {
+        "option_id": "841_3",
+        "question_id": "841",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "get to do your nails",
+        "value": "1198",
+        "is_correct": 0
+      },
+      {
+        "option_id": "841_4",
+        "question_id": "841",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "get your nails done",
+        "value": "1199",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_843",
+    "source_question_id": "843",
+    "exercise_id": "quiz-102",
+    "lesson_id": "b2_get",
+    "response_model": "single_choice",
+    "source_text": "7 I can’t _______ still at the dinner table. (=make my child sit)",
+    "adapted_text": "The teacher couldn't _____ quiet during the morning presentation. (=make her students stay)",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['get my child to sit'], adapted=['get her students to stay']. Flagged for review.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "843_1",
+        "question_id": "843",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "get my child to sit",
+        "value": "1204",
+        "is_correct": 1
+      },
+      {
+        "option_id": "843_2",
+        "question_id": "843",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "get to sit my child",
+        "value": "1205",
+        "is_correct": 0
+      },
+      {
+        "option_id": "843_3",
+        "question_id": "843",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "get sitting my child",
+        "value": "1206",
+        "is_correct": 0
+      },
+      {
+        "option_id": "843_4",
+        "question_id": "843",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "get my child sit",
+        "value": "1207",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_846",
+    "source_question_id": "846",
+    "exercise_id": "quiz-102",
+    "lesson_id": "b2_get",
+    "response_model": "single_choice",
+    "source_text": "9 Can you help me _______ the room upstairs? (=move)",
+    "adapted_text": "Will you assist us to _____ the basement before sunset? (=move)",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['get this sofa to'], adapted=['get this box to']. Flagged for review.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "846_1",
+        "question_id": "846",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "get this sofa to",
+        "value": "1216",
+        "is_correct": 1
+      },
+      {
+        "option_id": "846_2",
+        "question_id": "846",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "get this sofa",
+        "value": "1217",
+        "is_correct": 0
+      },
+      {
+        "option_id": "846_3",
+        "question_id": "846",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "'ve got this sofa to",
+        "value": "1218",
+        "is_correct": 0
+      },
+      {
+        "option_id": "846_4",
+        "question_id": "846",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "get moving this sofa to",
+        "value": "1219",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_847",
+    "source_question_id": "847",
+    "exercise_id": "quiz-102",
+    "lesson_id": "b2_get",
+    "response_model": "single_choice",
+    "source_text": "10 I _______ a year in my new job. (=receive/earn money)",
+    "adapted_text": "They _______ per year at the design agency. (=receive/earn money)",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['receive earn money'] with elevated similarity (Jaccard=0.2500, Lev=0.5893).; singular_plural: Subject/demonstrative number shifted between singular and plural.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "options": [
+      {
+        "option_id": "847_1",
+        "question_id": "847",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "'ve got £22,000",
+        "value": "1220",
+        "is_correct": 0
+      },
+      {
+        "option_id": "847_2",
+        "question_id": "847",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "get £22,000",
+        "value": "1221",
+        "is_correct": 1
+      },
+      {
+        "option_id": "847_3",
+        "question_id": "847",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "get to earning",
+        "value": "1222",
+        "is_correct": 0
+      },
+      {
+        "option_id": "847_4",
+        "question_id": "847",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "get earning",
+        "value": "1223",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_653",
+    "source_question_id": "653",
+    "exercise_id": "quiz-79",
+    "lesson_id": "b2_have_auxiliary_main_verb",
+    "response_model": "single_choice",
+    "source_text": "7 Did you _______ when you bought the new glasses?",
+    "adapted_text": "Did she _____ before moving into the apartment?",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['have your eyes tested'], adapted=['have her room painted']. Flagged for review.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "653_1",
+        "question_id": "653",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "have tested your eyes",
+        "value": "844",
+        "is_correct": 0
+      },
+      {
+        "option_id": "653_2",
+        "question_id": "653",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "have your eyes tested",
+        "value": "845",
+        "is_correct": 1
+      },
+      {
+        "option_id": "653_3",
+        "question_id": "653",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "had your eyes tested",
+        "value": "846",
+        "is_correct": 0
+      },
+      {
+        "option_id": "653_4",
+        "question_id": "653",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "have to test your eyes",
+        "value": "847",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_654",
+    "source_question_id": "654",
+    "exercise_id": "quiz-79",
+    "lesson_id": "b2_have_auxiliary_main_verb",
+    "response_model": "multiple_choice",
+    "source_text": "8 Which two sentences are correct? Choose TWO correct options",
+    "adapted_text": "Which two options correctly express obligation or strong belief? Choose TWO correct options",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=[\"You've got to be joking.\", 'You have to be joking'], adapted=[\"They've got to be kidding\", 'They have to be kidding']. Flagged for review.; singular_plural: Subject/demonstrative number shifted between singular and plural.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "654_1",
+        "question_id": "654",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "You've got to be joking.",
+        "value": "848",
+        "is_correct": 1
+      },
+      {
+        "option_id": "654_2",
+        "question_id": "654",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "You must have be joking",
+        "value": "849",
+        "is_correct": 0
+      },
+      {
+        "option_id": "654_3",
+        "question_id": "654",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "You have to be joking",
+        "value": "850",
+        "is_correct": 1
+      },
+      {
+        "option_id": "654_4",
+        "question_id": "654",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "You've to be joking",
+        "value": "851",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_5404",
+    "source_question_id": "5404",
+    "exercise_id": "quiz-627",
+    "lesson_id": "b2_mixed_conditionals",
+    "response_model": "single_choice",
+    "source_text": "2 I feel fine because I took the medicine. If I _____ the medicine, I would still be in pain.",
+    "adapted_text": "Lucas is energetic now because he ate breakfast. If he _____ breakfast, he would still be hungry.",
+    "notes": "Verbatim shingle detected 'would still be' with moderate/low similarity (Jaccard=0.2381 <= 0.40, Lev=0.3977 < 0.55). Routed to AI review.; Correct answer diverged from source: source=[\"hadn't taken\"], adapted=[\"hadn't eaten\"]. Flagged for review.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "5404_1",
+        "question_id": "5404",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "wouldn't take",
+        "value": "8402",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5404_2",
+        "question_id": "5404",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "wouldn't have taken",
+        "value": "8403",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5404_3",
+        "question_id": "5404",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "didn't take",
+        "value": "8404",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5404_4",
+        "question_id": "5404",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "hadn't taken",
+        "value": "8405",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_5395",
+    "source_question_id": "5395",
+    "exercise_id": "quiz-627",
+    "lesson_id": "b2_mixed_conditionals",
+    "response_model": "single_choice",
+    "source_text": "4 I didn't know that you were there because I'm not a psychic. I _____ that you were there if I were a psychic.",
+    "adapted_text": "I failed to decipher the message because I am not a cryptographer. I _____ the meaning if I were a cryptographer.",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['i were a', 'if i were'] with elevated similarity (Jaccard=0.2857, Lev=0.4000).",
+    "options": [
+      {
+        "option_id": "5395_1",
+        "question_id": "5395",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "would have known",
+        "value": "8382",
+        "is_correct": 1
+      },
+      {
+        "option_id": "5395_2",
+        "question_id": "5395",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "had known",
+        "value": "8383",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5395_3",
+        "question_id": "5395",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "would know",
+        "value": "8384",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5395_4",
+        "question_id": "5395",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "knew",
+        "value": "8385",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_805",
+    "source_question_id": "805",
+    "exercise_id": "quiz-98",
+    "lesson_id": "b2_narrative_tenses_used_to_would",
+    "response_model": "multiple_choice",
+    "source_text": "1 I remember that when I was in 8th grade there was a bully in my class who _______ on me. Choose two correct answers",
+    "adapted_text": "During our summer retreats at the lake house, my grandfather _______ early to go fishing. Choose two correct answers",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['always used to pick', 'would always pick'], adapted=['always used to get up', 'would always get up']. Flagged for review.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "805_1",
+        "question_id": "805",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "always used to pick",
+        "value": "1090",
+        "is_correct": 1
+      },
+      {
+        "option_id": "805_2",
+        "question_id": "805",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "had always picked",
+        "value": "1091",
+        "is_correct": 0
+      },
+      {
+        "option_id": "805_3",
+        "question_id": "805",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "would always pick",
+        "value": "1092",
+        "is_correct": 1
+      },
+      {
+        "option_id": "805_4",
+        "question_id": "805",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "used always to pick",
+        "value": "1093",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_809",
+    "source_question_id": "809",
+    "exercise_id": "quiz-98",
+    "lesson_id": "b2_narrative_tenses_used_to_would",
+    "response_model": "single_choice",
+    "source_text": "2 I _______ so hard and for so long, that when I saw that I _______ the exam I was in tears.",
+    "adapted_text": "She _____ continuously for hours, so when she noticed that she _____ the deadline, she felt devastated.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['had been studying / had failed'], adapted=['had been working / had missed']. Flagged for review.; singular_plural: Subject/demonstrative number shifted between singular and plural.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "809_1",
+        "question_id": "809",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "had been studying / had failed",
+        "value": "1106",
+        "is_correct": 1
+      },
+      {
+        "option_id": "809_2",
+        "question_id": "809",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "had studied / was failing",
+        "value": "1107",
+        "is_correct": 0
+      },
+      {
+        "option_id": "809_3",
+        "question_id": "809",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "studied / failed",
+        "value": "1108",
+        "is_correct": 0
+      },
+      {
+        "option_id": "809_4",
+        "question_id": "809",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "had been studying / failed",
+        "value": "1109",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_810",
+    "source_question_id": "810",
+    "exercise_id": "quiz-98",
+    "lesson_id": "b2_narrative_tenses_used_to_would",
+    "response_model": "single_choice",
+    "source_text": "5 I went into the bathroom and saw that somebody _______ the bath tap open and water _______ over the edge of the tub.",
+    "adapted_text": "She walked into the kitchen and noticed that someone _____ the stove burner on and smoke _____ out of the pan.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['had left / was spilling'], adapted=['had left / was pouring']. Flagged for review.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; countability: Countable vs uncountable noun environment shifted.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "810_1",
+        "question_id": "810",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "had left / spilled",
+        "value": "1110",
+        "is_correct": 0
+      },
+      {
+        "option_id": "810_2",
+        "question_id": "810",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "left / had been spilling",
+        "value": "1111",
+        "is_correct": 0
+      },
+      {
+        "option_id": "810_3",
+        "question_id": "810",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "had been leaving / was spilling",
+        "value": "1112",
+        "is_correct": 0
+      },
+      {
+        "option_id": "810_4",
+        "question_id": "810",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "had left / was spilling",
+        "value": "1113",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_814",
+    "source_question_id": "814",
+    "exercise_id": "quiz-98",
+    "lesson_id": "b2_narrative_tenses_used_to_would",
+    "response_model": "single_choice",
+    "source_text": "10 We _______ for approximately ten minutes when the car stopped running; we _______ of petrol.",
+    "adapted_text": "They _____ for about an hour when the generator failed; the battery _____ of power.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['had been driving / had run out'], adapted=['had been working / had run out']. Flagged for review.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "814_1",
+        "question_id": "814",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "had driven / ran out",
+        "value": "1126",
+        "is_correct": 0
+      },
+      {
+        "option_id": "814_2",
+        "question_id": "814",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "had been driving / had run out",
+        "value": "1127",
+        "is_correct": 1
+      },
+      {
+        "option_id": "814_3",
+        "question_id": "814",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "were driving / ran out",
+        "value": "1128",
+        "is_correct": 0
+      },
+      {
+        "option_id": "814_4",
+        "question_id": "814",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "drove / had been running out",
+        "value": "1129",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_815",
+    "source_question_id": "815",
+    "exercise_id": "quiz-99",
+    "lesson_id": "b2_narrative_tenses_used_to_would",
+    "response_model": "gap",
+    "source_text": "A long time ago, my first wife and I 1 {{gap_1}} (decide) to go on a trip to London for a few days. Before the trip, we were very excited because we 2 {{gap_2}} (never/be) to London before. We 3 {{gap_3}} (want) to visit Miguel, a close friend who 4 {{gap_4}} (move) to Britain for work and who 5 {{gap_5}} (work) in London for a couple of months. He was very homesick because he still 6 {{gap_6}} (not have) any friends in England, and Laura and I 7 {{gap_7}} (want) to pay him a visit to cheer him up a bit. However, Miguel 8 {{gap_8}} (tell) us we had to stay in a hotel, because he 9 {{gap_9}} (rent) a room in a shared flat and we couldn’t stay in his home. Back then, when my ex-wife and I travelled anywhere, we 10 {{gap_10}} (book) hotel rooms well in advance, and we 11 {{gap_11}} (check) hotel reviews on TripAdvisor every time, but this time we 12 {{gap_12}} (be) very busy the weeks before the trip so a few days before the trip, we 13 {{gap_13}} (decide) that we would look for a hotel once in London. Unfortunately, hotel rooms in London are quite popular in August, and several hours after our arrival in the big capital we still 14 {{gap_14}} (not find) a room in any affordable place. Eventually we 15 {{gap_15}} (find) a hotel which, surprisingly, was well located and not very expensive. But we soon 16 {{gap_16}} (discover) why there were available rooms in that so well-located hotel. To start with, the room number was a scribble written on a sheet of paper that someone 17 {{gap_17}} (hang) on the door with sellotape, and once you were in, the room was dirty and horribly smelly. It looked as if nobody 18 {{gap_18}} (clean) it for ages. In the bathroom there was no mirror, the toilet was clogged and there were lots of hairs in the basin. It was so disgusting that we 19 {{gap_19}} (decide) to pay for a much more expensive room in a much less well-located hotel and we 20 {{gap_20}} (end up) as depressed as our good friend Miguel.",
+    "adapted_text": "Years ago, my colleague and I {{gap_1}} (decide) to attend a conference in Tokyo. We were thrilled because we {{gap_2}} (never/be) to Japan. We {{gap_3}} (want) to meet Ken, a former team member who {{gap_4}} (move) there for a project and {{gap_5}} (work) in the city for several months. Ken felt lonely because he still {{gap_6}} (not have) any local colleagues, and we {{gap_7}} (want) to visit him. However, Ken {{gap_8}} (tell) us to find an apartment because he {{gap_9}} (rent) a small studio. Normally, when traveling, we {{gap_10}} (book) apartments months prior, and we {{gap_11}} (check) user ratings online, but that month we {{gap_12}} (be) overloaded with assignments. So, we {{gap_13}} (decide) to look for accommodation upon landing. Unfortunately, listings were scarce, and hours after arriving we still {{gap_14}} (not find) a suitable spot. Finally, we {{gap_15}} (find) a studio that seemed central and affordable. Soon, we {{gap_16}} (discover) the reason for its availability. A handwritten note someone {{gap_17}} (hang) on the door served as the key box instructions, and inside, it seemed no one {{gap_18}} (clean) the place recently. Unhappy, we {{gap_19}} (decide) to switch to an expensive downtown hotel, and we {{gap_20}} (end up) exhausted.",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['because he still', 'hang on the'] with elevated similarity (Jaccard=0.2444, Lev=0.4037).",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_815_1",
+        "question_id": "815",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "decided",
+        "accepted_answers": "[\"decided\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_2",
+        "question_id": "815",
+        "gap_order": 2,
+        "input_control": "text",
+        "correct_answer": "had never been",
+        "accepted_answers": "[\"had never been\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_3",
+        "question_id": "815",
+        "gap_order": 3,
+        "input_control": "text",
+        "correct_answer": "wanted",
+        "accepted_answers": "[\"wanted\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_4",
+        "question_id": "815",
+        "gap_order": 4,
+        "input_control": "text",
+        "correct_answer": "had moved",
+        "accepted_answers": "[\"had moved\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_5",
+        "question_id": "815",
+        "gap_order": 5,
+        "input_control": "text",
+        "correct_answer": "had been working",
+        "accepted_answers": "[\"had been working\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_6",
+        "question_id": "815",
+        "gap_order": 6,
+        "input_control": "text",
+        "correct_answer": "didn't have",
+        "accepted_answers": "[\"didn't have\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_7",
+        "question_id": "815",
+        "gap_order": 7,
+        "input_control": "text",
+        "correct_answer": "wanted",
+        "accepted_answers": "[\"wanted\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_8",
+        "question_id": "815",
+        "gap_order": 8,
+        "input_control": "text",
+        "correct_answer": "had told",
+        "accepted_answers": "[\"had told\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_9",
+        "question_id": "815",
+        "gap_order": 9,
+        "input_control": "text",
+        "correct_answer": "had rented",
+        "accepted_answers": "[\"had rented\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_10",
+        "question_id": "815",
+        "gap_order": 10,
+        "input_control": "text",
+        "correct_answer": "used to book",
+        "accepted_answers": "[\"used to book\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_11",
+        "question_id": "815",
+        "gap_order": 11,
+        "input_control": "text",
+        "correct_answer": "would check",
+        "accepted_answers": "[\"would check\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_12",
+        "question_id": "815",
+        "gap_order": 12,
+        "input_control": "text",
+        "correct_answer": "had been",
+        "accepted_answers": "[\"had been\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_13",
+        "question_id": "815",
+        "gap_order": 13,
+        "input_control": "text",
+        "correct_answer": "decided",
+        "accepted_answers": "[\"decided\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_14",
+        "question_id": "815",
+        "gap_order": 14,
+        "input_control": "text",
+        "correct_answer": "hadn't found",
+        "accepted_answers": "[\"hadn't found\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_15",
+        "question_id": "815",
+        "gap_order": 15,
+        "input_control": "text",
+        "correct_answer": "found",
+        "accepted_answers": "[\"found\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_16",
+        "question_id": "815",
+        "gap_order": 16,
+        "input_control": "text",
+        "correct_answer": "discovered",
+        "accepted_answers": "[\"discovered\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_17",
+        "question_id": "815",
+        "gap_order": 17,
+        "input_control": "text",
+        "correct_answer": "had hung",
+        "accepted_answers": "[\"had hung\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_18",
+        "question_id": "815",
+        "gap_order": 18,
+        "input_control": "text",
+        "correct_answer": "had cleaned",
+        "accepted_answers": "[\"had cleaned\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_19",
+        "question_id": "815",
+        "gap_order": 19,
+        "input_control": "text",
+        "correct_answer": "decided",
+        "accepted_answers": "[\"decided\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_815_20",
+        "question_id": "815",
+        "gap_order": 20,
+        "input_control": "text",
+        "correct_answer": "ended up",
+        "accepted_answers": "[\"ended up\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ]
+  },
+  {
+    "adapted_question_id": "adapt_1387",
+    "source_question_id": "1387",
+    "exercise_id": "quiz-162",
+    "lesson_id": "b2_participle_clauses",
+    "response_model": "single_choice",
+    "source_text": "5 ______, Mark retired from international competition.",
+    "adapted_text": "______, Elena decided to open her own private restaurant.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['Having won every major judo title'], adapted=['Having won every major culinary award']. Flagged for review.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "1387_1",
+        "question_id": "1387",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "Having won every major judo title",
+        "value": "1929",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1387_2",
+        "question_id": "1387",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "Won every major judo title",
+        "value": "1930",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1387_3",
+        "question_id": "1387",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "He having won every major judo title",
+        "value": "1931",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1390",
+    "source_question_id": "1390",
+    "exercise_id": "quiz-162",
+    "lesson_id": "b2_participle_clauses",
+    "response_model": "single_choice",
+    "source_text": "8 Which sentence is CORRECT?",
+    "adapted_text": "Which sentence is CORRECT?",
+    "notes": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['Made of stone, the house is quite cool in summer.'], adapted=['Crafted from leather, the coat is remarkably durable in harsh weather.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "1390_1",
+        "question_id": "1390",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "The house being made of stone, it is quite cool in summer.",
+        "value": "1938",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1390_2",
+        "question_id": "1390",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "Made of stone, the house is quite cool in summer.",
+        "value": "1939",
+        "is_correct": 1
+      },
+      {
+        "option_id": "1390_3",
+        "question_id": "1390",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Making it of stone, the house is quite cool in summer.",
+        "value": "1940",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1379",
+    "source_question_id": "1379",
+    "exercise_id": "quiz-163",
+    "lesson_id": "b2_participle_clauses",
+    "response_model": "gap",
+    "source_text": "7 After I dropped him at the station, I drove straight to the supermarket. After {{gap_1}}, I drove straight to the supermarket.",
+    "adapted_text": "After I dropped him at the station, I headed directly to the office. After {{gap_1}}, I headed directly to the office.",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['after i dropped', 'i dropped i'] with elevated similarity (Jaccard=0.4000, Lev=0.6071).",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_1379_1",
+        "question_id": "1379",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "dropping him at the station",
+        "accepted_answers": "[\"dropping him at the station\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ]
+  },
+  {
+    "adapted_question_id": "adapt_6222",
+    "source_question_id": "6222",
+    "exercise_id": "quiz-724",
+    "lesson_id": "b2_passive_verbs_with_two_objects",
+    "response_model": "multiple_choice",
+    "source_text": "1 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct sentences.",
+    "notes": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['Steve was sent a postcard.', 'A postcard was sent to Steve.'], adapted=['Clara was offered a contract.', 'A contract was offered to Clara.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "6222_1",
+        "question_id": "6222",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "They sent to Steve a postcard.",
+        "value": "10599",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6222_2",
+        "question_id": "6222",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "Steve was sent a postcard.",
+        "value": "10596",
+        "is_correct": 1
+      },
+      {
+        "option_id": "6222_3",
+        "question_id": "6222",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "They were sent a postcard to Steve.",
+        "value": "10598",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6222_4",
+        "question_id": "6222",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "A postcard was sent to Steve.",
+        "value": "10597",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_6223",
+    "source_question_id": "6223",
+    "exercise_id": "quiz-724",
+    "lesson_id": "b2_passive_verbs_with_two_objects",
+    "response_model": "multiple_choice",
+    "source_text": "2 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct sentences.",
+    "notes": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['We were brought a glass of wine.', 'A glass of wine was brought to us.'], adapted=['The candidates were offered a new contract.', 'A new contract was offered to the candidates.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "6223_1",
+        "question_id": "6223",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "We were brought a glass of wine.",
+        "value": "10600",
+        "is_correct": 1
+      },
+      {
+        "option_id": "6223_2",
+        "question_id": "6223",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "A glass of wine brought to us.",
+        "value": "10603",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6223_3",
+        "question_id": "6223",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "They were brought a glass of wine to us.",
+        "value": "10602",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6223_4",
+        "question_id": "6223",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "A glass of wine was brought to us.",
+        "value": "10601",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_6224",
+    "source_question_id": "6224",
+    "exercise_id": "quiz-724",
+    "lesson_id": "b2_passive_verbs_with_two_objects",
+    "response_model": "multiple_choice",
+    "source_text": "3 Choose TWO correct sentences.",
+    "adapted_text": "Select TWO grammatically correct options.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['The patient was given the facts.', 'The facts were given to the patient.'], adapted=['The applicant was offered the position.', 'The position was offered to the applicant.']. Flagged for review.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "6224_1",
+        "question_id": "6224",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "The facts gave to the patient.",
+        "value": "10607",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6224_2",
+        "question_id": "6224",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "The doctor were given the facts to the patient.",
+        "value": "10606",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6224_3",
+        "question_id": "6224",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "The patient was given the facts.",
+        "value": "10604",
+        "is_correct": 1
+      },
+      {
+        "option_id": "6224_4",
+        "question_id": "6224",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "The facts were given to the patient.",
+        "value": "10605",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_6225",
+    "source_question_id": "6225",
+    "exercise_id": "quiz-724",
+    "lesson_id": "b2_passive_verbs_with_two_objects",
+    "response_model": "multiple_choice",
+    "source_text": "4 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct sentences.",
+    "notes": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['The robber had been lent the vehicle the previous day.', 'The vehicle had been lent to the robber the previous day.'], adapted=['The musician had been offered the violin the week before.', 'The violin had been offered to the musician the week before.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "6225_1",
+        "question_id": "6225",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "The robber had been lent the vehicle the previous day.",
+        "value": "10609",
+        "is_correct": 1
+      },
+      {
+        "option_id": "6225_2",
+        "question_id": "6225",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "The vehicle had lent to the robber the previous day.",
+        "value": "10611",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6225_3",
+        "question_id": "6225",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Someone had been lent the vehicle to the robber the previous day.",
+        "value": "10610",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6225_4",
+        "question_id": "6225",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "The vehicle had been lent to the robber the previous day.",
+        "value": "10608",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_6226",
+    "source_question_id": "6226",
+    "exercise_id": "quiz-724",
+    "lesson_id": "b2_passive_verbs_with_two_objects",
+    "response_model": "multiple_choice",
+    "source_text": "5 Choose TWO correct sentences.",
+    "adapted_text": "5 Choose TWO correct sentences.",
+    "notes": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['A fake Rolex was sold to Steve.', 'Steve was sold a fake Rolex.'], adapted=['A rare painting was given to Clara.', 'Clara was given a rare painting.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "6226_1",
+        "question_id": "6226",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "A fake Rolex sold to Steve.",
+        "value": "10615",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6226_2",
+        "question_id": "6226",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "A fake Rolex was sold to Steve.",
+        "value": "10613",
+        "is_correct": 1
+      },
+      {
+        "option_id": "6226_3",
+        "question_id": "6226",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Someone was sold Steve a fake Rolex.",
+        "value": "10614",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6226_4",
+        "question_id": "6226",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "Steve was sold a fake Rolex.",
+        "value": "10612",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_6227",
+    "source_question_id": "6227",
+    "exercise_id": "quiz-724",
+    "lesson_id": "b2_passive_verbs_with_two_objects",
+    "response_model": "multiple_choice",
+    "source_text": "6 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct sentences.",
+    "notes": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['A promotion has been offered to him.', 'He has been offered a promotion.'], adapted=['A scholarship has been awarded to her.', 'She has been awarded a scholarship.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "6227_1",
+        "question_id": "6227",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "A promotion has been offered to him.",
+        "value": "10617",
+        "is_correct": 1
+      },
+      {
+        "option_id": "6227_2",
+        "question_id": "6227",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "A promotion has been offered to him his boss.",
+        "value": "10619",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6227_3",
+        "question_id": "6227",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "His boss has been offered him a promotion.",
+        "value": "10618",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6227_4",
+        "question_id": "6227",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "He has been offered a promotion.",
+        "value": "10616",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_6228",
+    "source_question_id": "6228",
+    "exercise_id": "quiz-724",
+    "lesson_id": "b2_passive_verbs_with_two_objects",
+    "response_model": "multiple_choice",
+    "source_text": "7 Choose TWO correct sentences.",
+    "adapted_text": "Select TWO grammatically correct options.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=[\"The truth wasn't told to me.\", \"I wasn't told the truth.\"], adapted=[\"The real facts weren't told to her.\", \"She wasn't told the real facts.\"]. Flagged for review.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "6228_1",
+        "question_id": "6228",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "They weren't told me the truth.",
+        "value": "10623",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6228_2",
+        "question_id": "6228",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "The truth wasn't told to me.",
+        "value": "10621",
+        "is_correct": 1
+      },
+      {
+        "option_id": "6228_3",
+        "question_id": "6228",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "I wasn't told the truth.",
+        "value": "10620",
+        "is_correct": 1
+      },
+      {
+        "option_id": "6228_4",
+        "question_id": "6228",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "The truth didn't tell to me.",
+        "value": "10622",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_6229",
+    "source_question_id": "6229",
+    "exercise_id": "quiz-724",
+    "lesson_id": "b2_passive_verbs_with_two_objects",
+    "response_model": "multiple_choice",
+    "source_text": "8 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct sentences.",
+    "notes": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['Our students are taught English and Spanish.', 'English and Spanish are taught to our students.'], adapted=['The new recruits are shown safety guidelines and emergency procedures.', 'Safety guidelines and emergency procedures are shown to the new recruits.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "6229_1",
+        "question_id": "6229",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "Our students are taught English and Spanish.",
+        "value": "10624",
+        "is_correct": 1
+      },
+      {
+        "option_id": "6229_2",
+        "question_id": "6229",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "We are taught English and Spanish to our students.",
+        "value": "10626",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6229_3",
+        "question_id": "6229",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "English and Spanish teach our students.",
+        "value": "10627",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6229_4",
+        "question_id": "6229",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "English and Spanish are taught to our students.",
+        "value": "10625",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_6245",
+    "source_question_id": "6245",
+    "exercise_id": "quiz-724",
+    "lesson_id": "b2_passive_verbs_with_two_objects",
+    "response_model": "multiple_choice",
+    "source_text": "9 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct options.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['The news was given to the employees.', 'The employees were given the news.'], adapted=['The report was sent to the directors.', 'The directors were sent the report.']. Flagged for review.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "6245_1",
+        "question_id": "6245",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "They were given the news to the employees.",
+        "value": "10684",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6245_2",
+        "question_id": "6245",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "The news was given to the employees.",
+        "value": "10683",
+        "is_correct": 1
+      },
+      {
+        "option_id": "6245_3",
+        "question_id": "6245",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "The news gave to the employees.",
+        "value": "10685",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6245_4",
+        "question_id": "6245",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "The employees were given the news.",
+        "value": "10682",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_6247",
+    "source_question_id": "6247",
+    "exercise_id": "quiz-724",
+    "lesson_id": "b2_passive_verbs_with_two_objects",
+    "response_model": "multiple_choice",
+    "source_text": "10 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct sentences.",
+    "notes": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['He was written a letter of support.', 'A letter of support was written to him.'], adapted=['She was sent an email of recommendation.', 'An email of recommendation was sent to her.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "6247_1",
+        "question_id": "6247",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "A letter of support wrote to him.",
+        "value": "10693",
+        "is_correct": 0
+      },
+      {
+        "option_id": "6247_2",
+        "question_id": "6247",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "He was written a letter of support.",
+        "value": "10691",
+        "is_correct": 1
+      },
+      {
+        "option_id": "6247_3",
+        "question_id": "6247",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "A letter of support was written to him.",
+        "value": "10690",
+        "is_correct": 1
+      },
+      {
+        "option_id": "6247_4",
+        "question_id": "6247",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "Someone was written a letter of support to him.",
+        "value": "10692",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1353",
+    "source_question_id": "1353",
+    "exercise_id": "quiz-158",
+    "lesson_id": "b2_relative_clauses",
+    "response_model": "single_choice",
+    "source_text": "2 This is the man ______. Choose the INCORRECT answer",
+    "adapted_text": "That is the client _____. Choose the INCORRECT answer",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['the incorrect answer'] with elevated similarity (Jaccard=0.5000, Lev=0.8205).; Correct answer diverged from source: source=['with who I used to work.'], adapted=['to who I needed to speak.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "1353_1",
+        "question_id": "1353",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "who I used to work with.",
+        "value": "1877",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1353_2",
+        "question_id": "1353",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "with whom I used to work.",
+        "value": "1878",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1353_3",
+        "question_id": "1353",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "I used to work with.",
+        "value": "1879",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1353_4",
+        "question_id": "1353",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "with who I used to work.",
+        "value": "1880",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_789",
+    "source_question_id": "789",
+    "exercise_id": "quiz-95",
+    "lesson_id": "b2_there_and_it",
+    "response_model": "gap",
+    "source_text": "1 {{gap_1}} has always been very hard for foreigners to get used to the British weather, because 2 {{gap_2}} 's always raining and 3 {{gap_3}} 's not much to do outdoors. Winters can get very long, and 4 {{gap_4}} 's likely that one won't get to see the sun for long periods of time, whichever the season. 5 {{gap_5}} can be very hard for people to live here permanently, especially for the outdoorsy type of person, so 6 {{gap_6}} 's a good reason for migrants to think it twice before they decide to make the move. But 7 {{gap_7}} seems to be something that expats living in Britain like about our country, because in a survey carried out in 2013, 69% of expats living in Britain said they liked it here. 8 {{gap_8}} appears that the things they don't like about us, which are basically the weather, the food and our heavy drinking culture, aren't enough to make them change the overall positive opinion they have of Britain and the British. Maybe 9 {{gap_9}} 's the politics, the economy, the football, or our sense of humour —who knows!— but 10 {{gap_10}} 's obviously something good enough here to make them stay.",
+    "adapted_text": "1 {{gap_1}} has always been difficult for newcomers to adjust to night shifts, as 2 {{gap_2}} 's frequently quiet and 3 {{gap_3}} 's little energy around the office. Hours pass slowly, and 4 {{gap_4}} 's probable that staff will feel fatigued easily. 5 {{gap_5}} can be challenging for employees to maintain this routine long-term, so 6 {{gap_6}} 's valid justification for managers to check on them. Yet 7 {{gap_7}} seems to be genuine satisfaction among nocturnal workers, since in a recent internal review, most participants reported enjoying the calm atmosphere. 8 {{gap_8}} appears that minor drawbacks are not sufficient to ruin their overall impression of the workplace. Perhaps 9 {{gap_9}} 's the peace, the extra pay, or the friendly team, but 10 {{gap_10}} 's clearly a special appeal to working late.",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['has always been', 'seems to be'] with elevated similarity (Jaccard=0.1844, Lev=0.3496).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; countability: Countable vs uncountable noun environment shifted.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_789_1",
+        "question_id": "789",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "It",
+        "accepted_answers": "[\"It\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_789_2",
+        "question_id": "789",
+        "gap_order": 2,
+        "input_control": "text",
+        "correct_answer": "it",
+        "accepted_answers": "[\"it\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_789_3",
+        "question_id": "789",
+        "gap_order": 3,
+        "input_control": "text",
+        "correct_answer": "there",
+        "accepted_answers": "[\"there\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_789_4",
+        "question_id": "789",
+        "gap_order": 4,
+        "input_control": "text",
+        "correct_answer": "it",
+        "accepted_answers": "[\"it\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_789_5",
+        "question_id": "789",
+        "gap_order": 5,
+        "input_control": "text",
+        "correct_answer": "It",
+        "accepted_answers": "[\"It\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_789_6",
+        "question_id": "789",
+        "gap_order": 6,
+        "input_control": "text",
+        "correct_answer": "there",
+        "accepted_answers": "[\"there\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_789_7",
+        "question_id": "789",
+        "gap_order": 7,
+        "input_control": "text",
+        "correct_answer": "there",
+        "accepted_answers": "[\"there\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_789_8",
+        "question_id": "789",
+        "gap_order": 8,
+        "input_control": "text",
+        "correct_answer": "It",
+        "accepted_answers": "[\"It\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_789_9",
+        "question_id": "789",
+        "gap_order": 9,
+        "input_control": "text",
+        "correct_answer": "it",
+        "accepted_answers": "[\"it\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_789_10",
+        "question_id": "789",
+        "gap_order": 10,
+        "input_control": "text",
+        "correct_answer": "there",
+        "accepted_answers": "[\"there\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ]
+  },
+  {
+    "adapted_question_id": "adapt_792",
+    "source_question_id": "792",
+    "exercise_id": "quiz-96",
+    "lesson_id": "b2_there_and_it",
+    "response_model": "gap",
+    "source_text": "3 We decided to go home because {{gap_1}} getting cold.",
+    "adapted_text": "They left the outdoor festival early since {{gap_1}} starting to rain.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; Plural/compound subject conflicts with singular verb form 'it was'.",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_792_1",
+        "question_id": "792",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "it was",
+        "accepted_answers": "[\"it was\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ]
+  },
+  {
+    "adapted_question_id": "adapt_5368",
+    "source_question_id": "5368",
+    "exercise_id": "quiz-624",
+    "lesson_id": "b2_unless_even_if_provided_as_long_conditionals",
+    "response_model": "multiple_choice",
+    "source_text": "2 You can use my computer _____ you promise to be careful. Choose TWO correct options",
+    "adapted_text": "Guests can borrow camping gear _____ they return everything clean. Choose TWO correct options",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; singular_plural: Subject/demonstrative number shifted between singular and plural.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; Plural/compound subject conflicts with singular verb form 'as long as'.",
+    "options": [
+      {
+        "option_id": "5368_1",
+        "question_id": "5368",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "provided",
+        "value": "8334",
+        "is_correct": 1
+      },
+      {
+        "option_id": "5368_2",
+        "question_id": "5368",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "unless",
+        "value": "8335",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5368_3",
+        "question_id": "5368",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "as long as",
+        "value": "8336",
+        "is_correct": 1
+      },
+      {
+        "option_id": "5368_4",
+        "question_id": "5368",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "in case",
+        "value": "8337",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_5375",
+    "source_question_id": "5375",
+    "exercise_id": "quiz-624",
+    "lesson_id": "b2_unless_even_if_provided_as_long_conditionals",
+    "response_model": "multiple_choice",
+    "source_text": "7 Only members can go in. Choose TWO options with the same meaning",
+    "adapted_text": "Only authorized personnel may access the server room. Choose TWO options with the same meaning:",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['the same meaning', 'with the same'] with elevated similarity (Jaccard=0.3636, Lev=0.4730).; Correct answer diverged from source: source=[\"Unless you are a member, you can't go in.\", 'You can go in only if you are a member.'], adapted=['Unless you have a pass, you cannot enter.', 'You can enter only if you have a pass.']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "5375_1",
+        "question_id": "5375",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "Unless you are a member, you can't go in.",
+        "value": "8354",
+        "is_correct": 1
+      },
+      {
+        "option_id": "5375_2",
+        "question_id": "5375",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "You can go in even if you are a member.",
+        "value": "8355",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5375_3",
+        "question_id": "5375",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "You can go in wether or not you are a member.",
+        "value": "8356",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5375_4",
+        "question_id": "5375",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "You can go in only if you are a member.",
+        "value": "8357",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_5377",
+    "source_question_id": "5377",
+    "exercise_id": "quiz-624",
+    "lesson_id": "b2_unless_even_if_provided_as_long_conditionals",
+    "response_model": "single_choice",
+    "source_text": "10 You can offer as much as you want, I'll never work for you. (Choose the option with similar meaning).",
+    "adapted_text": "10 No matter how much you beg, she will refused to sell her antique vase. (Select the option with similar meaning)",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['option with similar', 'the option with'] with elevated similarity (Jaccard=0.2400, Lev=0.5446).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "options": [
+      {
+        "option_id": "5377_1",
+        "question_id": "5377",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "Even if you offer a lot of money",
+        "value": "8362",
+        "is_correct": 1
+      },
+      {
+        "option_id": "5377_2",
+        "question_id": "5377",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "Provided you offer a lot of money",
+        "value": "8363",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5377_3",
+        "question_id": "5377",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "Unless you offer a lot of money",
+        "value": "8364",
+        "is_correct": 0
+      },
+      {
+        "option_id": "5377_4",
+        "question_id": "5377",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "As long as you offer a lot of money",
+        "value": "8365",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_965",
+    "source_question_id": "965",
+    "exercise_id": "quiz-116",
+    "lesson_id": "b2_unreal_uses_past_tenses",
+    "response_model": "single_choice",
+    "source_text": "4 You don't like the essay topic we chose, do you? Would you rather we _______ a different topic?",
+    "adapted_text": "You seem unhappy with the hotel room we selected earlier. Would you rather we _____ a different hotel?",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['would you rather', 'you rather we'] with elevated similarity (Jaccard=0.3500, Lev=0.5638).; Correct answer diverged from source: source=['had chosen'], adapted=['had picked']. Flagged for review.",
+    "options": [
+      {
+        "option_id": "965_1",
+        "question_id": "965",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "would chose",
+        "value": "1404",
+        "is_correct": 0
+      },
+      {
+        "option_id": "965_2",
+        "question_id": "965",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "would have chosen",
+        "value": "1405",
+        "is_correct": 0
+      },
+      {
+        "option_id": "965_3",
+        "question_id": "965",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "had chosen",
+        "value": "1406",
+        "is_correct": 1
+      },
+      {
+        "option_id": "965_4",
+        "question_id": "965",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "chose",
+        "value": "1407",
+        "is_correct": 0
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_969",
+    "source_question_id": "969",
+    "exercise_id": "quiz-116",
+    "lesson_id": "b2_unreal_uses_past_tenses",
+    "response_model": "multiple_choice",
+    "source_text": "8 Do you want to take the bus or would you rather _______ the subway? Choose TWO correct options",
+    "adapted_text": "Are you planning to order pizza, or would you rather _______ sushi instead? Choose TWO correct options",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['or would you', 'would you rather'] with elevated similarity (Jaccard=0.3125, Lev=0.5385).",
+    "options": [
+      {
+        "option_id": "969_1",
+        "question_id": "969",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "to take",
+        "value": "1420",
+        "is_correct": 0
+      },
+      {
+        "option_id": "969_2",
+        "question_id": "969",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "take",
+        "value": "1421",
+        "is_correct": 1
+      },
+      {
+        "option_id": "969_3",
+        "question_id": "969",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "we take",
+        "value": "1422",
+        "is_correct": 0
+      },
+      {
+        "option_id": "969_4",
+        "question_id": "969",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "we took",
+        "value": "1423",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_985",
+    "source_question_id": "985",
+    "exercise_id": "quiz-117",
+    "lesson_id": "b2_unreal_uses_past_tenses",
+    "response_model": "gap",
+    "source_text": "6 I would have preferred you to talk to me before saying anything. (rather) I'd {{gap_1}} to me before saying anything.",
+    "adapted_text": "I would have preferred it if you had consulted me earlier. (rather) I'd {{gap_1}} about the project before making a decision.",
+    "notes": "High-confidence shallow copy: verbatim shingle(s) ['i would have', 'would have preferred'] with elevated similarity (Jaccard=0.3333, Lev=0.5000).",
+    "options": [],
+    "gaps": [
+      {
+        "gap_id": "gap_985_1",
+        "question_id": "985",
+        "gap_order": 1,
+        "input_control": "text",
+        "correct_answer": "rather you had talked",
+        "accepted_answers": "[\"rather you had talked\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ]
+  },
+  {
+    "adapted_question_id": "adapt_994",
+    "source_question_id": "994",
+    "exercise_id": "quiz-120",
+    "lesson_id": "b2_verb_object_infinitive_gerund",
+    "response_model": "single_choice",
+    "source_text": "1 I'd love my parents ______ me ______ whatever I want.",
+    "adapted_text": "She would prefer her boss _____ her _____ the schedule independently.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['to let / do'], adapted=['to let / choose']. Flagged for review.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "994_1",
+        "question_id": "994",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "let / do",
+        "value": "1448",
+        "is_correct": 0
+      },
+      {
+        "option_id": "994_2",
+        "question_id": "994",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "let / to do",
+        "value": "1449",
+        "is_correct": 0
+      },
+      {
+        "option_id": "994_3",
+        "question_id": "994",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "to let / to do",
+        "value": "1450",
+        "is_correct": 0
+      },
+      {
+        "option_id": "994_4",
+        "question_id": "994",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "to let / do",
+        "value": "1451",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1012",
+    "source_question_id": "1012",
+    "exercise_id": "quiz-120",
+    "lesson_id": "b2_verb_object_infinitive_gerund",
+    "response_model": "single_choice",
+    "source_text": "10 An Indian girl's father has arranged ______ the son of a very wealthy friend of his",
+    "adapted_text": "10 The project manager has arranged _____ the new client during her trip to London.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['for her to marry'], adapted=['for her to meet']. Flagged for review.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "1012_1",
+        "question_id": "1012",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "her marry",
+        "value": "1488",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1012_2",
+        "question_id": "1012",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "her marrying",
+        "value": "1489",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1012_3",
+        "question_id": "1012",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "her to marry",
+        "value": "1490",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1012_4",
+        "question_id": "1012",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "for her to marry",
+        "value": "1491",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "adapted_question_id": "adapt_1075",
+    "source_question_id": "1075",
+    "exercise_id": "quiz-129",
+    "lesson_id": "b2_verbs_of_the_senses",
+    "response_model": "gap",
+    "source_text": "10 I {{gap_1}} at her as I am speaking to you and she {{gap_2}} fantastic.",
+    "adapted_text": "Right now I {{gap_1}} at the paintings in the gallery and this artwork {{gap_2}} impressive.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Plural/compound subject conflicts with singular verb form 'looks'.",
+    "options": [
+      {
+        "option_id": "gap_1075_1_1",
+        "question_id": "1075",
+        "gap_id": "gap_1075_1",
+        "option_order": 1,
+        "text": "look",
+        "value": "look",
+        "is_correct": 0
+      },
+      {
+        "option_id": "gap_1075_2_1",
+        "question_id": "1075",
+        "gap_id": "gap_1075_2",
+        "option_order": 1,
+        "text": "is looking",
+        "value": "is looking",
+        "is_correct": 0
+      },
+      {
+        "option_id": "gap_1075_1_2",
+        "question_id": "1075",
+        "gap_id": "gap_1075_1",
+        "option_order": 2,
+        "text": "'m looking",
+        "value": "'m looking",
+        "is_correct": 1
+      },
+      {
+        "option_id": "gap_1075_2_2",
+        "question_id": "1075",
+        "gap_id": "gap_1075_2",
+        "option_order": 2,
+        "text": "looks",
+        "value": "looks",
+        "is_correct": 1
+      }
+    ],
+    "gaps": [
+      {
+        "gap_id": "gap_1075_1",
+        "question_id": "1075",
+        "gap_order": 1,
+        "input_control": "select",
+        "correct_answer": "'m looking",
+        "accepted_answers": "[\"'m looking\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "gap_id": "gap_1075_2",
+        "question_id": "1075",
+        "gap_order": 2,
+        "input_control": "select",
+        "correct_answer": "looks",
+        "accepted_answers": "[\"looks\"]",
+        "case_sensitive": 0,
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ]
+  },
+  {
+    "adapted_question_id": "adapt_1162",
+    "source_question_id": "1162",
+    "exercise_id": "quiz-143",
+    "lesson_id": "b2_ways_express_future",
+    "response_model": "single_choice",
+    "source_text": "10 The government ______ its decision at a press conference on Friday.",
+    "adapted_text": "The airline _____ its new international flight schedule next Monday.",
+    "notes": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Correct answer diverged from source: source=['is due to announce'], adapted=['is due to release']. Flagged for review.; AI Review: REJECT - Answer divergence: target answer not preserved in adapted context.",
+    "options": [
+      {
+        "option_id": "1162_1",
+        "question_id": "1162",
+        "gap_id": null,
+        "option_order": 1,
+        "text": "is about to announce",
+        "value": "1692",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1162_2",
+        "question_id": "1162",
+        "gap_id": null,
+        "option_order": 2,
+        "text": "is unlikely to announce",
+        "value": "1693",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1162_3",
+        "question_id": "1162",
+        "gap_id": null,
+        "option_order": 3,
+        "text": "is on the verge of announcing",
+        "value": "1694",
+        "is_correct": 0
+      },
+      {
+        "option_id": "1162_4",
+        "question_id": "1162",
+        "gap_id": null,
+        "option_order": 4,
+        "text": "is due to announce",
+        "value": "1695",
+        "is_correct": 1
+      }
+    ],
+    "gaps": []
+  }
+]

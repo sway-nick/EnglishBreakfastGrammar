@@ -1,0 +1,1319 @@
+{
+  "metadata": {
+    "batch_id": "review_batch_0151_0208",
+    "generated_at": "2026-10-01T13:02:59.162752+00:00",
+    "start_index": 151,
+    "end_index": 208,
+    "item_count": 50,
+    "status": "PREPARED",
+    "teacher_reviewed": false,
+    "queue_source": "data/reports/TASK-025_full_teacher_review_queue.json",
+    "notes": "Next 50 unreviewed questions in canonical source order (indices 151 to 208)."
+  },
+  "questions": [
+    {
+      "review_index": 151,
+      "qid": "3726",
+      "level": "A1",
+      "exercise_id": "quiz-429",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "10 box / empty ⇒ This box {{gap_1}}. It's {{gap_2}}",
+      "adapted_text": "The chest {{gap_1}}. Indeed, it is {{gap_2}}.",
+      "source_correct_answer": [
+        "is empty",
+        "an empty box"
+      ],
+      "adapted_correct_answer": [
+        "is empty",
+        "an empty box"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 152,
+      "qid": "3728",
+      "level": "A1",
+      "exercise_id": "quiz-430",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "1 I {{gap_1}} tea.",
+      "adapted_text": "I {{gap_1}} coffee in the evening.",
+      "source_correct_answer": [
+        "don't drink"
+      ],
+      "adapted_correct_answer": [
+        "don't drink"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1667,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 153,
+      "qid": "3729",
+      "level": "A1",
+      "exercise_id": "quiz-430",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "2 She {{gap_1}} two brothers.",
+      "adapted_text": "My aunt {{gap_1}} a very cute dog in her house.",
+      "source_correct_answer": [
+        "has"
+      ],
+      "adapted_correct_answer": [
+        "has"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 154,
+      "qid": "3730",
+      "level": "A1",
+      "exercise_id": "quiz-430",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "3 Tom {{gap_1}} work until 10 today.",
+      "adapted_text": "The new movie {{gap_1}} before 8 PM tonight.",
+      "source_correct_answer": [
+        "doesn't start"
+      ],
+      "adapted_correct_answer": [
+        "doesn't start"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 155,
+      "qid": "3731",
+      "level": "A1",
+      "exercise_id": "quiz-430",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "4 {{gap_1}} an instrument?",
+      "adapted_text": "{{gap_1}} video games after school?",
+      "source_correct_answer": [
+        "Do you play"
+      ],
+      "adapted_correct_answer": [
+        "Do you play"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 156,
+      "qid": "3732",
+      "level": "A1",
+      "exercise_id": "quiz-430",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "5 The museum {{gap_1}} at 10 o'clock.",
+      "adapted_text": "The local bakery {{gap_1}} early every morning.",
+      "source_correct_answer": [
+        "opens"
+      ],
+      "adapted_correct_answer": [
+        "opens"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 157,
+      "qid": "3733",
+      "level": "A1",
+      "exercise_id": "quiz-430",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "6 Peter and Megan often {{gap_1}} to the cinema.",
+      "adapted_text": "Sarah and Tom usually {{gap_1}} to the park on Sundays.",
+      "source_correct_answer": [
+        "go"
+      ],
+      "adapted_correct_answer": [
+        "go"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2308,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 158,
+      "qid": "3734",
+      "level": "A1",
+      "exercise_id": "quiz-430",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "7 John {{gap_1}} very late.",
+      "adapted_text": "Peter {{gap_1}} early on Sunday mornings.",
+      "source_correct_answer": [
+        "doesn't get up"
+      ],
+      "adapted_correct_answer": [
+        "doesn't get up"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 159,
+      "qid": "3735",
+      "level": "A1",
+      "exercise_id": "quiz-430",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "8 What time {{gap_1}} home in the morning?",
+      "adapted_text": "When {{gap_1}} for the office every day?",
+      "source_correct_answer": [
+        "do they leave"
+      ],
+      "adapted_correct_answer": [
+        "do they leave"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0909,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 160,
+      "qid": "3736",
+      "level": "A1",
+      "exercise_id": "quiz-430",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "9 What language {{gap_1}}?",
+      "adapted_text": "Which subject {{gap_1}} at school?",
+      "source_correct_answer": [
+        "does he study"
+      ],
+      "adapted_correct_answer": [
+        "does he study"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 161,
+      "qid": "3737",
+      "level": "A1",
+      "exercise_id": "quiz-430",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "10 My son never {{gap_1}} cartoons.",
+      "adapted_text": "His daughter always {{gap_1}} the evening news before dinner.",
+      "source_correct_answer": [
+        "watches"
+      ],
+      "adapted_correct_answer": [
+        "watches"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 162,
+      "qid": "3738",
+      "level": "A1",
+      "exercise_id": "quiz-431",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "1 He is a student. ⇒ He {{gap_1}} a student.",
+      "adapted_text": "The store is open today. ⇒ The store {{gap_1}} open today.",
+      "source_correct_answer": [
+        "isn't"
+      ],
+      "adapted_correct_answer": [
+        "isn't"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.125,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 163,
+      "qid": "3739",
+      "level": "A1",
+      "exercise_id": "quiz-431",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "2 Peter works in an office. ⇒ Peter {{gap_1}} in an office.",
+      "adapted_text": "John has a job at the factory, but Alex {{gap_1}} on Sundays.",
+      "source_correct_answer": [
+        "doesn't work"
+      ],
+      "adapted_correct_answer": [
+        "doesn't work"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 164,
+      "qid": "3740",
+      "level": "A1",
+      "exercise_id": "quiz-431",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "3 My parents live in Arizona. ⇒ My parents {{gap_1}} in Arizona.",
+      "adapted_text": "My cousins reside in Boston. ⇒ My cousins {{gap_1}} near the city center.",
+      "source_correct_answer": [
+        "don't live"
+      ],
+      "adapted_correct_answer": [
+        "don't live"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1818,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 165,
+      "qid": "3741",
+      "level": "A1",
+      "exercise_id": "quiz-431",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "4 Suzan likes cats. ⇒ Suzan {{gap_1}} cats.",
+      "adapted_text": "Peter enjoys coffee, but his brother {{gap_1}} hot tea.",
+      "source_correct_answer": [
+        "doesn't like"
+      ],
+      "adapted_correct_answer": [
+        "doesn't like"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 166,
+      "qid": "3742",
+      "level": "A1",
+      "exercise_id": "quiz-431",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "5 He has brothers and sisters. ⇒ He {{gap_1}} any brothers or sisters.",
+      "adapted_text": "Mark owns a bicycle, but he {{gap_1}} a car.",
+      "source_correct_answer": [
+        "doesn't have"
+      ],
+      "adapted_correct_answer": [
+        "doesn't have"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0769,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 167,
+      "qid": "3743",
+      "level": "A1",
+      "exercise_id": "quiz-431",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "6 She speaks three languages. ⇒ She {{gap_1}} three languages.",
+      "adapted_text": "The new manager speaks French fluently. ⇒ The new manager {{gap_1}} French fluently.",
+      "source_correct_answer": [
+        "doesn't speak"
+      ],
+      "adapted_correct_answer": [
+        "doesn't speak"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1111,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 168,
+      "qid": "3744",
+      "level": "A1",
+      "exercise_id": "quiz-431",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "7 John and I want to be musicians. ⇒ John and I {{gap_1}} to be musicians.",
+      "adapted_text": "My friends and I {{gap_1}} to travel by bus.",
+      "source_correct_answer": [
+        "don't want"
+      ],
+      "adapted_correct_answer": [
+        "don't want"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2727,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 169,
+      "qid": "3745",
+      "level": "A1",
+      "exercise_id": "quiz-431",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "8 They play tennis. ⇒ They {{gap_1}} tennis.",
+      "adapted_text": "My brothers like sports. ⇒ My brothers {{gap_1}} golf on Sundays.",
+      "source_correct_answer": [
+        "don't play"
+      ],
+      "adapted_correct_answer": [
+        "don't play"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 170,
+      "qid": "3746",
+      "level": "A1",
+      "exercise_id": "quiz-431",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "9 She gets home late. ⇒ She {{gap_1}} home late.",
+      "adapted_text": "Maria gets nervous before exams. ⇒ Maria {{gap_1}} nervous before exams.",
+      "source_correct_answer": [
+        "doesn't get"
+      ],
+      "adapted_correct_answer": [
+        "doesn't get"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.125,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 171,
+      "qid": "3747",
+      "level": "A1",
+      "exercise_id": "quiz-431",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "10 Anna and Paul live in the center. ⇒ Anna and Paul {{gap_1}} in the center.",
+      "adapted_text": "Mark and Sarah reside in the suburbs. ⇒ Mark and Sarah {{gap_1}} near the downtown area.",
+      "source_correct_answer": [
+        "don't live"
+      ],
+      "adapted_correct_answer": [
+        "don't live"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2308,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 172,
+      "qid": "3748",
+      "level": "A1",
+      "exercise_id": "quiz-432",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "1 Laura / play / tennis ⇒ {{gap_1}}?",
+      "adapted_text": "1 Sarah / enjoy / sports ⇒ {{gap_1}}?",
+      "source_correct_answer": [
+        "Does Laura play tennis"
+      ],
+      "adapted_correct_answer": [
+        "Does Laura play tennis"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 173,
+      "qid": "3749",
+      "level": "A1",
+      "exercise_id": "quiz-432",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "2 you / speak / English ⇒ {{gap_1}}?",
+      "adapted_text": "you / speak / English at home ⇒ {{gap_1}}?",
+      "source_correct_answer": [
+        "Do you speak English"
+      ],
+      "adapted_correct_answer": [
+        "Do you speak English"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 174,
+      "qid": "3750",
+      "level": "A1",
+      "exercise_id": "quiz-432",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "3 you / want / some coffee ⇒ {{gap_1}}?",
+      "adapted_text": "At the café, the waiter asks: {{gap_1}}?",
+      "source_correct_answer": [
+        "Do you want some coffee"
+      ],
+      "adapted_correct_answer": [
+        "Do you want some coffee"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 175,
+      "qid": "3751",
+      "level": "A1",
+      "exercise_id": "quiz-432",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "4 Where / he / live ⇒ Where {{gap_1}}?",
+      "adapted_text": "What city {{gap_1}} in during the winter months?",
+      "source_correct_answer": [
+        "does he live"
+      ],
+      "adapted_correct_answer": [
+        "does he live"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 176,
+      "qid": "3752",
+      "level": "A1",
+      "exercise_id": "quiz-432",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "5 How often / they / go to the cinema ⇒ How often {{gap_1}}?",
+      "adapted_text": "In their free time, how frequently {{gap_1}}?",
+      "source_correct_answer": [
+        "do they go to the cinema"
+      ],
+      "adapted_correct_answer": [
+        "do they go to the cinema"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1429,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 177,
+      "qid": "3753",
+      "level": "A1",
+      "exercise_id": "quiz-432",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "6 What time / Suzan / start work ⇒ What time {{gap_1}}?",
+      "adapted_text": "When she goes to the office in the morning, what time {{gap_1}}?",
+      "source_correct_answer": [
+        "does Suzan start work"
+      ],
+      "adapted_correct_answer": [
+        "does Suzan start work"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 178,
+      "qid": "3754",
+      "level": "A1",
+      "exercise_id": "quiz-432",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "7 Where / she / work ⇒ Where {{gap_1}}?",
+      "adapted_text": "At which company {{gap_1}} during the week?",
+      "source_correct_answer": [
+        "does she work"
+      ],
+      "adapted_correct_answer": [
+        "does she work"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 179,
+      "qid": "3755",
+      "level": "A1",
+      "exercise_id": "quiz-432",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "8 you / listen to music ⇒ {{gap_1}}?",
+      "adapted_text": "8 you / enjoy songs ⇒ {{gap_1}}?",
+      "source_correct_answer": [
+        "Do you listen to music"
+      ],
+      "adapted_correct_answer": [
+        "Do you listen to music"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 180,
+      "qid": "3756",
+      "level": "A1",
+      "exercise_id": "quiz-432",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "9 he / watch / series ⇒ {{gap_1}}?",
+      "adapted_text": "9 he / follow / drama shows ⇒ {{gap_1}}?",
+      "source_correct_answer": [
+        "Does he watch series"
+      ],
+      "adapted_correct_answer": [
+        "Does he watch series"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 181,
+      "qid": "3757",
+      "level": "A1",
+      "exercise_id": "quiz-432",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "10 How often / they / travel ⇒ How often {{gap_1}}?",
+      "adapted_text": "Where {{gap_1}} abroad during the summer?",
+      "source_correct_answer": [
+        "do they travel"
+      ],
+      "adapted_correct_answer": [
+        "do they travel"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 182,
+      "qid": "3758",
+      "level": "A1",
+      "exercise_id": "quiz-433",
+      "exercise_title": "Exercise 4",
+      "response_model": "gap",
+      "source_text": "Sara is my daughter. She has (have) two daughters; they are my granddaughters. Sara 1 {{gap_1}} (not have) much free time because she 2 {{gap_2}} (work) in a shop. In the week, she 3 {{gap_3}} (get up) very early and she 4 {{gap_4}} (go) to bed quite late every day. She 5 {{gap_5}} (love) Sundays because she 6 {{gap_6}} (not work) and she 7 {{gap_7}} (spend) the day with her family. On Sundays, they 8 {{gap_8}} (not get up) very late because they always 9 {{gap_9}} (go out). My granddaughters 10 {{gap_10}} (be) always sad on Sunday evenings because it's the end of the weekend.",
+      "adapted_text": "My colleague Elena {{gap_1}} (not have) a driving licence; she {{gap_2}} (work) near the airport. Every morning, she {{gap_3}} (get up) very early; she {{gap_4}} (go) to the train station. She {{gap_5}} (love) weekends; she {{gap_6}} (not work) on Saturdays; she {{gap_7}} (spend) time outdoors. On Sundays, her cousins {{gap_8}} (not get up) early; her cousins always {{gap_9}} (go out). Her cousins {{gap_10}} (be) always happy on sunny afternoons.",
+      "source_correct_answer": [
+        "doesn't have",
+        "works",
+        "gets up",
+        "goes",
+        "loves",
+        "doesn't work",
+        "spends",
+        "don't get up",
+        "go out",
+        "are"
+      ],
+      "adapted_correct_answer": [
+        "doesn't have",
+        "works",
+        "gets up",
+        "goes",
+        "loves",
+        "doesn't work",
+        "spends",
+        "don't get up",
+        "go out",
+        "are"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Present simple: I do, I don't, Do I?",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2394,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 183,
+      "qid": "3759",
+      "level": "A1",
+      "exercise_id": "quiz-434",
+      "exercise_title": "Exercise 1",
+      "response_model": "single_choice",
+      "source_text": "1 _____ to the gym?",
+      "adapted_text": "_____ to the library?",
+      "source_correct_answer": [
+        "How often do you go"
+      ],
+      "adapted_correct_answer": [
+        "How often do you go"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "How often you go",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "How often you do go",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "How often do you go",
+          "is_correct": 1
+        },
+        {
+          "order": 4,
+          "text": "How often go you",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "How often you go",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "How often you do go",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "How often do you go",
+          "is_correct": 1
+        },
+        {
+          "order": 4,
+          "text": "How often go you",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.5,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 189,
+      "qid": "3765",
+      "level": "A1",
+      "exercise_id": "quiz-434",
+      "exercise_title": "Exercise 1",
+      "response_model": "single_choice",
+      "source_text": "7 _____ for breakfast?",
+      "adapted_text": "_____ in their backpacks?",
+      "source_correct_answer": [
+        "What do they have"
+      ],
+      "adapted_correct_answer": [
+        "What do they have"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "What they have",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "What they do have",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "What do they have",
+          "is_correct": 1
+        },
+        {
+          "order": 4,
+          "text": "What have they",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "What they have",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "What they do have",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "What do they have",
+          "is_correct": 1
+        },
+        {
+          "order": 4,
+          "text": "What have they",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 193,
+      "qid": "3769",
+      "level": "A1",
+      "exercise_id": "quiz-435",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "1 ' {{gap_1}} do you buy your vegetables?' 'In the market.'",
+      "adapted_text": "'{{gap_1}} do you usually study for exams?' 'At the downtown library.'",
+      "source_correct_answer": [
+        "Where"
+      ],
+      "adapted_correct_answer": [
+        "Where"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 194,
+      "qid": "3770",
+      "level": "A1",
+      "exercise_id": "quiz-435",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "2 ' {{gap_1}} is your father?' 'He's 57.'",
+      "adapted_text": "' {{gap_1}} is your teacher?' 'She is 34.'",
+      "source_correct_answer": [
+        "How old"
+      ],
+      "adapted_correct_answer": [
+        "How old"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.25,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 195,
+      "qid": "3771",
+      "level": "A1",
+      "exercise_id": "quiz-435",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "3 ' {{gap_1}} are you in the library?' 'Because I have an exam and I need to study.'",
+      "adapted_text": "\"{{gap_1}} is Sarah staying at home today?\" \"Since she feels sick and wants to rest.\"",
+      "source_correct_answer": [
+        "Why"
+      ],
+      "adapted_correct_answer": [
+        "Why"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0769,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 196,
+      "qid": "3772",
+      "level": "A1",
+      "exercise_id": "quiz-435",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "4 ' {{gap_1}} do you have your exam?' 'Next Monday.'",
+      "adapted_text": "'{{gap_1}} is your flight to Paris?' 'Tomorrow morning.'",
+      "source_correct_answer": [
+        "When"
+      ],
+      "adapted_correct_answer": [
+        "When"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0769,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 197,
+      "qid": "3773",
+      "level": "A1",
+      "exercise_id": "quiz-435",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "5 ' {{gap_1}} do they have their breakfast?' 'At 7.'",
+      "adapted_text": "'{{gap_1}} does the library close tonight?' 'At 8 p.m.'",
+      "source_correct_answer": [
+        "When"
+      ],
+      "adapted_correct_answer": [
+        "When"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0714,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 198,
+      "qid": "3774",
+      "level": "A1",
+      "exercise_id": "quiz-435",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "6 ' {{gap_1}} do you call when you need help?' 'Peter.'",
+      "adapted_text": "'{{gap_1}} did you meet at the cafe?' 'Sarah.'",
+      "source_correct_answer": [
+        "Who"
+      ],
+      "adapted_correct_answer": [
+        "Who"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0769,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 199,
+      "qid": "3775",
+      "level": "A1",
+      "exercise_id": "quiz-435",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "7 ' {{gap_1}} does John call you?' 'Every day.'",
+      "adapted_text": "'{{gap_1}} do you visit the library?' 'Twice a week.'",
+      "source_correct_answer": [
+        "How often"
+      ],
+      "adapted_correct_answer": [
+        "How often"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0769,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 200,
+      "qid": "3776",
+      "level": "A1",
+      "exercise_id": "quiz-435",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "8 ' {{gap_1}} do you go to work?' 'By bus.'",
+      "adapted_text": "'{{gap_1}} do you travel to school?' 'By train.'",
+      "source_correct_answer": [
+        "How"
+      ],
+      "adapted_correct_answer": [
+        "How"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.4,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 201,
+      "qid": "3777",
+      "level": "A1",
+      "exercise_id": "quiz-435",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "9 ' {{gap_1}} tall is Ronny?' 'He's six feet tall.'",
+      "adapted_text": "'{{gap_1}} old is this building?' 'It is fifty years old.'",
+      "source_correct_answer": [
+        "How"
+      ],
+      "adapted_correct_answer": [
+        "How"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0833,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 202,
+      "qid": "3778",
+      "level": "A1",
+      "exercise_id": "quiz-435",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "10 ' {{gap_1}} do you spend your holidays?' 'We always go to a little village near the sea.'",
+      "adapted_text": "'{{gap_1}} do you usually study?' 'I usually go to the local library.'",
+      "source_correct_answer": [
+        "Where"
+      ],
+      "adapted_correct_answer": [
+        "Where"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.25,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 203,
+      "qid": "3780",
+      "level": "A1",
+      "exercise_id": "quiz-436",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "1 She reads magazines. ⇒ What {{gap_1}}?",
+      "adapted_text": "Lucy likes poetry. ⇒ What {{gap_1}}?",
+      "source_correct_answer": [
+        "does she read"
+      ],
+      "adapted_correct_answer": [
+        "does she read"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1667,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 204,
+      "qid": "3781",
+      "level": "A1",
+      "exercise_id": "quiz-436",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "2 My birthday is on 10th April. ⇒ When {{gap_1}}?",
+      "adapted_text": "The party takes place in May. ⇒ When {{gap_1}}?",
+      "source_correct_answer": [
+        "is your birthday"
+      ],
+      "adapted_correct_answer": [
+        "is your birthday"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0909,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 205,
+      "qid": "3782",
+      "level": "A1",
+      "exercise_id": "quiz-436",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "3 She lives in a big house. ⇒ Where {{gap_1}}?",
+      "adapted_text": "Sarah stays in a quiet neighborhood. ⇒ Where {{gap_1}}?",
+      "source_correct_answer": [
+        "does she live"
+      ],
+      "adapted_correct_answer": [
+        "does she live"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.3,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 206,
+      "qid": "3783",
+      "level": "A1",
+      "exercise_id": "quiz-436",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "4 I study because I want to learn. ⇒ Why {{gap_1}}?",
+      "adapted_text": "I read textbooks every weekend to prepare for exams. ⇒ Why {{gap_1}} every weekend?",
+      "source_correct_answer": [
+        "do you study"
+      ],
+      "adapted_correct_answer": [
+        "do you study"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2308,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 207,
+      "qid": "3784",
+      "level": "A1",
+      "exercise_id": "quiz-436",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "5 She is sometimes wrong. ⇒ How often {{gap_1}}?",
+      "adapted_text": "Sarah makes mistakes occasionally. ⇒ How often {{gap_1}} during the exam?",
+      "source_correct_answer": [
+        "is she wrong"
+      ],
+      "adapted_correct_answer": [
+        "is she wrong"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    },
+    {
+      "review_index": 208,
+      "qid": "3785",
+      "level": "A1",
+      "exercise_id": "quiz-436",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "6 I love Christina. ⇒ Who {{gap_1}}?",
+      "adapted_text": "6 Which person {{gap_1}} most in your family?",
+      "source_correct_answer": [
+        "do you love"
+      ],
+      "adapted_correct_answer": [
+        "do you love"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false
+    }
+  ]
+}

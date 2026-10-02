@@ -1,0 +1,2243 @@
+[
+  {
+    "qid": "194",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "3 When you arrive, we __________ in the garden.",
+    "adapted_text": "By the time the train reaches the station, they _____ for us at the cafe.",
+    "source_correct_answer": [
+      "will be playing"
+    ],
+    "adapted_correct_answer": [
+      "will be waiting"
+    ],
+    "jaccard": 0.0588,
+    "levenshtein": 0.2923,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "play",
+      "are playing",
+      "will be playing"
+    ],
+    "adapted_options": [
+      "wait",
+      "are waiting",
+      "will be waiting"
+    ]
+  },
+  {
+    "qid": "196",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "5 If you feel tired tomorrow, you __________ enough sleep.",
+    "adapted_text": "If the cake tastes dry, you _____ enough butter.",
+    "source_correct_answer": [
+      "haven't had"
+    ],
+    "adapted_correct_answer": [
+      "haven't added"
+    ],
+    "jaccard": 0.25,
+    "levenshtein": 0.4651,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "countability: Countable vs uncountable noun environment shifted."
+    ],
+    "source_options": [
+      "won't have had",
+      "haven't had",
+      "aren't going to have"
+    ],
+    "adapted_options": [
+      "won't have added",
+      "haven't added",
+      "aren't going to add"
+    ]
+  },
+  {
+    "qid": "199",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "8 When you __________ the test, I will be praying for you.",
+    "adapted_text": "When Sarah _____ the presentation, we will cheer for her.",
+    "source_correct_answer": [
+      "start"
+    ],
+    "adapted_correct_answer": [
+      "starts"
+    ],
+    "jaccard": 0.2857,
+    "levenshtein": 0.4286,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "singular_plural: Subject/demonstrative number shifted between singular and plural."
+    ],
+    "source_options": [
+      "start",
+      "will start",
+      "are going to start"
+    ],
+    "adapted_options": [
+      "starts",
+      "will start",
+      "is going to start"
+    ]
+  },
+  {
+    "qid": "201",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "10 If he __________ when you arrive, please be quiet.",
+    "adapted_text": "If she _____ studying when you enter the room, do not disturb her.",
+    "source_correct_answer": [
+      "is sleeping"
+    ],
+    "adapted_correct_answer": [
+      "is studying"
+    ],
+    "jaccard": 0.1875,
+    "levenshtein": 0.3793,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "gender: Gender of primary person shifted."
+    ],
+    "source_options": [
+      "will sleep",
+      "is sleeping",
+      "will be sleeping"
+    ],
+    "adapted_options": [
+      "will study",
+      "is studying",
+      "will be studying"
+    ]
+  },
+  {
+    "qid": "206",
+    "model": "gap",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['as soon as', 'soon as you'] with elevated similarity (Jaccard=0.3077, Lev=0.5085).; singular_plural: Subject/demonstrative number shifted between singular and plural.",
+    "source_text": "4 I’ll be ready as soon as you {{gap_1}} (be).",
+    "adapted_text": "We will begin the presentation as soon as you {{gap_1}} (be) prepared.",
+    "source_correct_answer": [
+      "are"
+    ],
+    "adapted_correct_answer": [
+      "are"
+    ],
+    "jaccard": 0.3077,
+    "levenshtein": 0.5085,
+    "matching_shingles": [
+      "as soon as",
+      "soon as you"
+    ],
+    "high_risk_mutations": [
+      "singular_plural: Subject/demonstrative number shifted between singular and plural."
+    ],
+    "gap_count_source": 1,
+    "gap_count_adapted": 1
+  },
+  {
+    "qid": "1028",
+    "model": "multiple_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "6 This might never have happened ______ me earlier. Choose TWO correct options",
+    "adapted_text": "The project would not have succeeded _____ the required funding in time. Choose TWO correct options",
+    "source_correct_answer": [
+      "had you told",
+      "if you had told"
+    ],
+    "adapted_correct_answer": [
+      "had you provided",
+      "if you had provided"
+    ],
+    "jaccard": 0.0625,
+    "levenshtein": 0.2923,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "if you would have told",
+      "had you told",
+      "if you had told",
+      "if you told"
+    ],
+    "adapted_options": [
+      "if you would have provided",
+      "had you provided",
+      "if you had provided",
+      "if you provided"
+    ]
+  },
+  {
+    "qid": "1034",
+    "model": "gap",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['as long as', 'easy for you'] with elevated similarity (Jaccard=0.2303, Lev=0.4114).; countability: Countable vs uncountable noun environment shifted.",
+    "source_text": "Dialogue 1 ANN: How was your Spanish exam, Claire? CLAIRE: Fine, I guess. I got a B. I could have got a better mark provided I 1 {{gap_1}} (work) harder on the verbs. And you? ANN: I didn’t study and I failed, but I 2 {{gap_2}} (fail) even if I had studied, that’s why I decided not to do it. CLAIRE: That’s not true. Nobody fails an exam as long as they 3 {{gap_3}} (study). ANN: That’s easy for you to say. If you 4 {{gap_4}} (be) in my shoes, you would think differently. Sometimes people work hard, but they don’t get the results they want. It’s different for you; for you, it’s easy to succeed in whatever you want to succeed in. CLAIRE: That’s unfair. I wouldn’t be where I am today if I 5 {{gap_5}} (not work) very hard all these past years. Dialogue 2 MOTHER: You can't go out. That's out of the question. SON: Please, mum. Can I go out on condition I 6 {{gap_6}} (do) all my homework before leaving? MOTHER: Well, if you 7 {{gap_7}} (do) your homework when I asked you, you would be allowed to go out now. SON: But I didn't hear you. If I had heard you, I 8 {{gap_8}} (do) it. MOTHER: That's the problem; you never listen. It 9 {{gap_9}} (not hurt) if you listened to me once in a while. If you 10 {{gap_10}} (do) it more often, your life would be much easier.",
+    "adapted_text": "Dialogue 1 LEO: How was your coding project, Nora? NORA: Decent, I think. I secured second place. I could have finished first provided I {{gap_1}} late into the night. And you? LEO: I skipped it entirely, but I {{gap_2}} anyway even if I had submitted an entry. NORA: Nonsense! Nobody loses a contest as long as they {{gap_3}} diligently. LEO: Easy for you to claim! If you {{gap_4}} a beginner like me, you'd view things differently. NORA: That is unfair. I wouldn't be a senior developer today if I {{gap_5}} tirelessly over the years. Dialogue 2 MANAGER: You cannot leave early today. EMPLOYEE: Please, boss. May I depart on condition I {{gap_6}} the report now? MANAGER: Well, if you {{gap_7}} the analysis earlier, you would be free to go now. EMPLOYEE: But I missed the reminder! If I had noticed it, I {{gap_8}} it immediately. MANAGER: Exactly, you never check updates. It {{gap_9}} if you paid attention. If you {{gap_10}} so, your workflow would run much smoother.",
+    "source_correct_answer": [
+      "had worked",
+      "would have failed",
+      "study",
+      "were",
+      "hadn't worked",
+      "do",
+      "had done",
+      "would have done",
+      "wouldn't hurt",
+      "did"
+    ],
+    "adapted_correct_answer": [
+      "had worked",
+      "would have failed",
+      "study",
+      "were",
+      "hadn't worked",
+      "do",
+      "had done",
+      "would have done",
+      "wouldn't hurt",
+      "did"
+    ],
+    "jaccard": 0.2303,
+    "levenshtein": 0.4114,
+    "matching_shingles": [
+      "as long as",
+      "easy for you",
+      "even if i",
+      "for you to",
+      "how was your",
+      "long as they",
+      "on condition i",
+      "today if i",
+      "well if you",
+      "years dialogue 2"
+    ],
+    "high_risk_mutations": [
+      "countability: Countable vs uncountable noun environment shifted."
+    ],
+    "gap_count_source": 10,
+    "gap_count_adapted": 10
+  },
+  {
+    "qid": "1313",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['It’s sell his car that he did to pay the mortgage.'], adapted=['It’s leave her job that she did to fund the startup.']. Flagged for review.",
+    "source_text": "6 Which sentence is INCORRECT?",
+    "adapted_text": "Which sentence is INCORRECT?",
+    "source_correct_answer": [
+      "It’s sell his car that he did to pay the mortgage."
+    ],
+    "adapted_correct_answer": [
+      "It’s leave her job that she did to fund the startup."
+    ],
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "It was to pay the mortgage that he sold his new car.",
+      "The reason why he sold his new car was to pay the mortgage.",
+      "It’s sell his car that he did to pay the mortgage.",
+      "What he did was sell his car to pay the mortgage."
+    ],
+    "adapted_options": [
+      "It was to fund the startup that she left her corporate job.",
+      "The reason why she left her corporate job was to fund the startup.",
+      "It’s leave her job that she did to fund the startup.",
+      "What she did was leave her corporate job to fund the startup."
+    ]
+  },
+  {
+    "qid": "1314",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['His car was to pay the mortgage he sold.'], adapted=['Her painting was to support the charity she donated.']. Flagged for review.",
+    "source_text": "7 Which sentence is INCORRECT?",
+    "adapted_text": "7 Which sentence is INCORRECT?",
+    "source_correct_answer": [
+      "His car was to pay the mortgage he sold."
+    ],
+    "adapted_correct_answer": [
+      "Her painting was to support the charity she donated."
+    ],
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "What he sold to pay the mortgage was his car.",
+      "His car was to pay the mortgage he sold.",
+      "His car was what he sold to pay the mortgage.",
+      "It was his car that he sold to pay the mortgage."
+    ],
+    "adapted_options": [
+      "What she donated to support the charity was her painting.",
+      "Her painting was to support the charity she donated.",
+      "Her painting was what she donated to support the charity.",
+      "It was her painting that she donated to support the charity."
+    ]
+  },
+  {
+    "qid": "1315",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=[\"It's that we did wait for help.\"], adapted=[\"It's that she managed call the manager.\"]. Flagged for review.",
+    "source_text": "8 Which sentence is INCORRECT?",
+    "adapted_text": "Which sentence is INCORRECT?",
+    "source_correct_answer": [
+      "It's that we did wait for help."
+    ],
+    "adapted_correct_answer": [
+      "It's that she managed call the manager."
+    ],
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "What we did was wait for help.",
+      "The only thing we did was wait for help.",
+      "It's that we did wait for help.",
+      "All we did was wait for help."
+    ],
+    "adapted_options": [
+      "What they managed was call the manager.",
+      "The only thing she managed was call the manager.",
+      "It's that she managed call the manager.",
+      "All they managed was call the manager."
+    ]
+  },
+  {
+    "qid": "1316",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.",
+    "source_text": "9 Which sentence is INCORRECT?",
+    "adapted_text": "Which sentence is INCORRECT?",
+    "source_correct_answer": [
+      "Bill was helped us."
+    ],
+    "adapted_correct_answer": [
+      "Bill was helped us."
+    ],
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence is"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "It was Bill who helped us.",
+      "Bill was the person who helped us.",
+      "The person who helped us was Bill.",
+      "Bill was helped us."
+    ],
+    "adapted_options": [
+      "It was Clara who called them.",
+      "Clara was the individual who called them.",
+      "The individual who called them was Clara.",
+      "Bill was helped us."
+    ]
+  },
+  {
+    "qid": "1317",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=[\"Music from the 70's is we play.\"], adapted=['Organic tea is they serve.']. Flagged for review.",
+    "source_text": "10 Which sentence is INCORRECT?",
+    "adapted_text": "Which sentence is INCORRECT?",
+    "source_correct_answer": [
+      "Music from the 70's is we play."
+    ],
+    "adapted_correct_answer": [
+      "Organic tea is they serve."
+    ],
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence incorrect"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "It's music from the 70's that we play.",
+      "What we play is music from the 70's.",
+      "Music from the 70's is we play.",
+      "All we play is music from the 70's."
+    ],
+    "adapted_options": [
+      "It's organic tea that they serve.",
+      "What they serve is organic tea.",
+      "Organic tea is they serve.",
+      "All they serve is organic tea."
+    ]
+  },
+  {
+    "qid": "1337",
+    "model": "gap",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; Plural/compound subject conflicts with singular verb form 'What we did was'.",
+    "source_text": "5 We checked all the windows. {{gap_1}} check all the windows.",
+    "adapted_text": "They cleaned the entire kitchen. {{gap_1}} wipe down every surface.",
+    "source_correct_answer": [
+      "What we did was"
+    ],
+    "adapted_correct_answer": [
+      "What we did was"
+    ],
+    "jaccard": 0.0769,
+    "levenshtein": 0.2909,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "gap_count_source": 1,
+    "gap_count_adapted": 1
+  },
+  {
+    "qid": "10102",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Jaccard token similarity (0.6000) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['as safe as', \"isn't nearly as\"] with elevated similarity (Jaccard=0.6000, Lev=0.6615).",
+    "source_text": "1 That car isn't nearly as safe as people think. = That car is...",
+    "adapted_text": "That river isn't nearly as safe as tourists assume. = That river is _____",
+    "source_correct_answer": [
+      "much more dangerous than people think."
+    ],
+    "adapted_correct_answer": [
+      "much more dangerous than people think."
+    ],
+    "jaccard": 0.6,
+    "levenshtein": 0.6615,
+    "matching_shingles": [
+      "as safe as",
+      "isn't nearly as",
+      "nearly as safe"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "safer than people think.",
+      "much more dangerous than people think.",
+      "a little more dangerous than people think."
+    ],
+    "adapted_options": [
+      "safer than tourists assume.",
+      "much more dangerous than people think.",
+      "a little more dangerous than tourists assume."
+    ]
+  },
+  {
+    "qid": "10103",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['nowhere near as', 'was nowhere near'] with elevated similarity (Jaccard=0.5000, Lev=0.5952).; singular_plural: Subject/demonstrative number shifted between singular and plural.",
+    "source_text": "2 The movie was nowhere near as entertaining as I expected. = The movie was...",
+    "adapted_text": "The performance was nowhere near as exciting as we anticipated. = The performance was _____",
+    "source_correct_answer": [
+      "much less entertaining than I expected."
+    ],
+    "adapted_correct_answer": [
+      "much less entertaining than I expected."
+    ],
+    "jaccard": 0.5,
+    "levenshtein": 0.5952,
+    "matching_shingles": [
+      "nowhere near as",
+      "was nowhere near"
+    ],
+    "high_risk_mutations": [
+      "singular_plural: Subject/demonstrative number shifted between singular and plural."
+    ],
+    "source_options": [
+      "more entertaining than I expected.",
+      "much less entertaining than I expected.",
+      "a little less entertaining than I expected."
+    ],
+    "adapted_options": [
+      "more exciting than we anticipated",
+      "much less entertaining than I expected.",
+      "a little less exciting than we anticipated"
+    ]
+  },
+  {
+    "qid": "10111",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['is not much'] with elevated similarity (Jaccard=0.4000, Lev=0.6076).",
+    "source_text": "3 The workload is not much heavier than it was last week. = The workload is...",
+    "adapted_text": "The price of gas is not much higher than it was yesterday. = The price of gas is _____",
+    "source_correct_answer": [
+      "a bit heavier than it was last week."
+    ],
+    "adapted_correct_answer": [
+      "a bit heavier than it was last week."
+    ],
+    "jaccard": 0.4,
+    "levenshtein": 0.6076,
+    "matching_shingles": [
+      "is not much"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "slightly lighter than it was last week.",
+      "a bit heavier than it was last week.",
+      "almost as heavy as it was last week."
+    ],
+    "adapted_options": [
+      "slightly lower than it was yesterday.",
+      "a bit heavier than it was last week.",
+      "almost as high as it was yesterday."
+    ]
+  },
+  {
+    "qid": "10106",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Jaccard token similarity (0.6000) exceeds rejection threshold (> 0.50).; High-confidence shallow copy: verbatim shingle(s) ['at all as', 'not at all'] with elevated similarity (Jaccard=0.6000, Lev=0.5405).",
+    "source_text": "6 The party was not at all as fun as last year's. = The party was...",
+    "adapted_text": "The conference was not at all as engaging as expected. = The conference was _____",
+    "source_correct_answer": [
+      "much less fun than last year's."
+    ],
+    "adapted_correct_answer": [
+      "much less fun than last year's"
+    ],
+    "jaccard": 0.6,
+    "levenshtein": 0.5405,
+    "matching_shingles": [
+      "at all as",
+      "not at all",
+      "was not at"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "much less fun than last year's.",
+      "far more fun than last year's.",
+      "a bit less fun than last year's."
+    ],
+    "adapted_options": [
+      "much less fun than last year's",
+      "far more fun than last year's",
+      "a bit less fun than last year's"
+    ]
+  },
+  {
+    "qid": "10110",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "7 The temperature outside is slightly more comfortable than yesterday. = The temperature outside is...",
+    "adapted_text": "7 The new software is slightly more efficient than the previous version. = The new software is _____",
+    "source_correct_answer": [
+      "not much more comfortable than yesterday."
+    ],
+    "adapted_correct_answer": [
+      "not much more efficient than the previous version."
+    ],
+    "jaccard": 0.25,
+    "levenshtein": 0.4167,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "a bit less comfortable than yesterday.",
+      "not quite as comfortable as yesterday.",
+      "not much more comfortable than yesterday."
+    ],
+    "adapted_options": [
+      "a bit less efficient than the previous version.",
+      "not quite as efficient as the previous version.",
+      "not much more efficient than the previous version."
+    ]
+  },
+  {
+    "qid": "10107",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['is by far'] with elevated similarity (Jaccard=0.5000, Lev=0.7143).; Correct answer diverged from source: source=['nowhere near as complex as the others.'], adapted=['nowhere near as long as the alternatives.']. Flagged for review.",
+    "source_text": "8 This task is by far the simplest. = This task is...",
+    "adapted_text": "This route is by far the shortest. = This route is _____",
+    "source_correct_answer": [
+      "nowhere near as complex as the others."
+    ],
+    "adapted_correct_answer": [
+      "nowhere near as long as the alternatives."
+    ],
+    "jaccard": 0.5,
+    "levenshtein": 0.7143,
+    "matching_shingles": [
+      "is by far"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "nowhere near as complex as the others.",
+      "a bit simpler than the others.",
+      "not nearly as simple as the others"
+    ],
+    "adapted_options": [
+      "nowhere near as long as the alternatives.",
+      "a bit shorter than the alternatives.",
+      "not nearly as short as the alternatives."
+    ]
+  },
+  {
+    "qid": "10109",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "10 The new laptop is a bit less powerful than I anticipated. = The new laptop is...",
+    "adapted_text": "10 The hotel room was a bit less spacious than we expected. = The hotel room was _____",
+    "source_correct_answer": [
+      "slightly less powerful than I anticipated."
+    ],
+    "adapted_correct_answer": [
+      "slightly less spacious than we expected."
+    ],
+    "jaccard": 0.25,
+    "levenshtein": 0.5263,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "singular_plural: Subject/demonstrative number shifted between singular and plural."
+    ],
+    "source_options": [
+      "slightly less powerful than I anticipated.",
+      "not nearly as powerful as I anticipated.",
+      "roughly as powerful as I anticipated."
+    ],
+    "adapted_options": [
+      "slightly less spacious than we expected.",
+      "not nearly as spacious as we expected.",
+      "roughly as spacious as we expected."
+    ]
+  },
+  {
+    "qid": "1279",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "1 This is ______.",
+    "adapted_text": "That is _____",
+    "source_correct_answer": [
+      "the brother of the student I told you about."
+    ],
+    "adapted_correct_answer": [
+      "the car of the colleague I met yesterday"
+    ],
+    "jaccard": 0.3333,
+    "levenshtein": 0.7143,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "the brother of the student I told you about.",
+      "the student I told you about's brother.",
+      "the brother of the student's I told you about."
+    ],
+    "adapted_options": [
+      "the car of the colleague I met yesterday",
+      "the colleague I met yesterday's car",
+      "the car of the colleague's I met yesterday"
+    ]
+  },
+  {
+    "qid": "1287",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; singular_plural: Subject/demonstrative number shifted between singular and plural.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; Plural/compound subject conflicts with singular verb form 'shoe shops'.",
+    "source_text": "5 There are two new ______ in our street.",
+    "adapted_text": "They opened several local _____ near the city center.",
+    "source_correct_answer": [
+      "shoe shops"
+    ],
+    "adapted_correct_answer": [
+      "shoe shops"
+    ],
+    "jaccard": 0.0,
+    "levenshtein": 0.3043,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "singular_plural: Subject/demonstrative number shifted between singular and plural.",
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "shoe's shops",
+      "shoes shops",
+      "shoe shops"
+    ],
+    "adapted_options": [
+      "shoe's shops",
+      "shoes shops",
+      "shoe shops"
+    ]
+  },
+  {
+    "qid": "1290",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "7 A: Is that a ______? I need one to light the incense. B: No, that's just the ______ where I keep my old coins.",
+    "adapted_text": "A: Did you bring a _____? I need to store these spare screws. B: No, that is an empty _____ that contained small tea bags.",
+    "source_correct_answer": [
+      "box of matches / matchbox"
+    ],
+    "adapted_correct_answer": [
+      "box of tea / toolbox"
+    ],
+    "jaccard": 0.2258,
+    "levenshtein": 0.37,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "singular_plural: Subject/demonstrative number shifted between singular and plural.",
+      "countability: Countable vs uncountable noun environment shifted."
+    ],
+    "source_options": [
+      "matchbox / matchbox",
+      "matchbox / box of matches",
+      "box of matches / matchbox",
+      "box of matches / box of matches"
+    ],
+    "adapted_options": [
+      "toolbox / toolbox",
+      "toolbox / box of tea",
+      "box of tea / toolbox",
+      "box of tea / box of tea"
+    ]
+  },
+  {
+    "qid": "1291",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "8 ______ was a total success.",
+    "adapted_text": "_____ exceeded all our expectations.",
+    "source_correct_answer": [
+      "Yesterday's party"
+    ],
+    "adapted_correct_answer": [
+      "Yesterday's performance"
+    ],
+    "jaccard": 0.0,
+    "levenshtein": 0.2069,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "The party of yesterday",
+      "Yesterday's party",
+      "Yesterday party"
+    ],
+    "adapted_options": [
+      "The performance of yesterday",
+      "Yesterday's performance",
+      "Yesterday performance"
+    ]
+  },
+  {
+    "qid": "1289",
+    "model": "multiple_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Option cardinality mismatch: got 4, expected 3; Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).",
+    "source_text": "10 The ______ is disappointing. Choose TWO correct options",
+    "adapted_text": "Management expressed deep concern regarding the ______. Choose TWO correct options.",
+    "source_correct_answer": [
+      "team's lack of ambition",
+      "lack of ambition of the team"
+    ],
+    "adapted_correct_answer": [
+      "team's lack of ambition",
+      "lack of ambition of the team"
+    ],
+    "jaccard": 0.0,
+    "levenshtein": 0.2128,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "team's lack of ambition",
+      "lack of ambition of the team",
+      "team lack of ambition"
+    ],
+    "adapted_options": [
+      "team's lack of ambition",
+      "lack of ambition of the team",
+      "team lack of ambition",
+      "lack of ambition team"
+    ]
+  },
+  {
+    "qid": "856",
+    "model": "gap",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Plural/compound subject conflicts with singular verb form 'whereas'.",
+    "source_text": "7 The north of the country is industrialised and rich {{gap_1}} the south is quite poor, with an economy based on agriculture.",
+    "adapted_text": "The morning shift was extremely busy and demanding, {{gap_1}} the afternoon staff enjoyed a relatively calm period.",
+    "source_correct_answer": [
+      "whereas"
+    ],
+    "adapted_correct_answer": [
+      "whereas"
+    ],
+    "jaccard": 0.0667,
+    "levenshtein": 0.25,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "gap_count_source": 1,
+    "gap_count_adapted": 1
+  },
+  {
+    "qid": "945",
+    "model": "multiple_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "4 _______ continue for the next 24 to 72 hours",
+    "adapted_text": "_______ persist throughout the coming week. Choose TWO correct answers",
+    "source_correct_answer": [
+      "It is expected that the blackouts will",
+      "The blackouts are expected to"
+    ],
+    "adapted_correct_answer": [
+      "It is expected that the heavy storms will",
+      "The heavy storms are expected to"
+    ],
+    "jaccard": 0.0,
+    "levenshtein": 0.1667,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "It is expected that the blackouts will",
+      "The blackouts are expected to",
+      "The blackouts are expected will",
+      "There is expected that the blackouts will"
+    ],
+    "adapted_options": [
+      "It is expected that the heavy storms will",
+      "The heavy storms are expected to",
+      "The heavy storms are expected will",
+      "There is expected that the heavy storms will"
+    ]
+  },
+  {
+    "qid": "1266",
+    "model": "gap",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Normalized Levenshtein similarity (0.4533) exceeds threshold (< 0.45) on standard text (len=75).; Plural/compound subject conflicts with singular verb form 'visit us'.",
+    "source_text": "4 They didn't visit us, although we'd been hoping they would [...]. ⇒ {{gap_1}}",
+    "adapted_text": "The relatives failed to visit us, even though the family expected they would {{gap_1}}.",
+    "source_correct_answer": [
+      "visit us"
+    ],
+    "adapted_correct_answer": [
+      "visit us"
+    ],
+    "jaccard": 0.1333,
+    "levenshtein": 0.4533,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "gap_count_source": 1,
+    "gap_count_adapted": 1
+  },
+  {
+    "qid": "1192",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['at the end', 'end of next'] with elevated similarity (Jaccard=0.4444, Lev=0.6806).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "source_text": "10 We ______ into our new flat at the end of next week. Choose the INCORRECT answer",
+    "adapted_text": "They ______ to a new headquarters at the end of next month. Choose the INCORRECT answer.",
+    "source_correct_answer": [
+      "were moving"
+    ],
+    "adapted_correct_answer": [
+      "were moving"
+    ],
+    "jaccard": 0.4444,
+    "levenshtein": 0.6806,
+    "matching_shingles": [
+      "at the end",
+      "end of next",
+      "the end of",
+      "the incorrect answer"
+    ],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "were moving",
+      "are moving",
+      "'ll be moving",
+      "are going to move"
+    ],
+    "adapted_options": [
+      "were moving",
+      "are moving",
+      "'ll be moving",
+      "are going to move"
+    ]
+  },
+  {
+    "qid": "1114",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "8 I hate ______ in August. I would rather ______ a day off on the beach.",
+    "adapted_text": "He dislikes _____ during rush hour. He would rather _____ peaceful music at home.",
+    "source_correct_answer": [
+      "having to work / be enjoying"
+    ],
+    "adapted_correct_answer": [
+      "having to commute / be listening"
+    ],
+    "jaccard": 0.0952,
+    "levenshtein": 0.3433,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+      "countability: Countable vs uncountable noun environment shifted."
+    ],
+    "source_options": [
+      "have to work / be enjoying",
+      "having to work / to be enjoying",
+      "to have to work / being enjoying",
+      "having to work / be enjoying"
+    ],
+    "adapted_options": [
+      "have to commute / be listening",
+      "having to commute / to be listening",
+      "to have to commute / being listening",
+      "having to commute / be listening"
+    ]
+  },
+  {
+    "qid": "834",
+    "model": "gap",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Plural/compound subject conflicts with singular verb form 'those shoes'.",
+    "source_text": "8 Where did you get {{gap_1}}? They're really nice.",
+    "adapted_text": "How did you manage to purchase {{gap_1}}? They look fantastic on you.",
+    "source_correct_answer": [
+      "those shoes"
+    ],
+    "adapted_correct_answer": [
+      "those shoes"
+    ],
+    "jaccard": 0.1333,
+    "levenshtein": 0.3509,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "gap_count_source": 1,
+    "gap_count_adapted": 1
+  },
+  {
+    "qid": "837",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "2 I _______ for her birthday. (=bought a ring for my wife)",
+    "adapted_text": "He _____ after his graduation. (=bought a watch for his brother)",
+    "source_correct_answer": [
+      "got my wife a ring"
+    ],
+    "adapted_correct_answer": [
+      "got his brother a watch"
+    ],
+    "jaccard": 0.1818,
+    "levenshtein": 0.4737,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "got my wife a ring",
+      "'ve got my wife to a ring",
+      "got to my wife a ring",
+      "got a ring my wife"
+    ],
+    "adapted_options": [
+      "got his brother a watch",
+      "'ve got his brother to a watch",
+      "got to his brother a watch",
+      "got a watch his brother"
+    ]
+  },
+  {
+    "qid": "841",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "5 You should _______. (=pay someone to do your nails)",
+    "adapted_text": "We need to _____ before the trip. (=pay someone to service our car)",
+    "source_correct_answer": [
+      "get your nails done"
+    ],
+    "adapted_correct_answer": [
+      "get our car serviced"
+    ],
+    "jaccard": 0.2143,
+    "levenshtein": 0.4167,
+    "matching_shingles": [
+      "pay someone to"
+    ],
+    "high_risk_mutations": [
+      "singular_plural: Subject/demonstrative number shifted between singular and plural.",
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "get someone do your nails",
+      "get your nails",
+      "get to do your nails",
+      "get your nails done"
+    ],
+    "adapted_options": [
+      "get someone service our car",
+      "get our car",
+      "get to service our car",
+      "get our car serviced"
+    ]
+  },
+  {
+    "qid": "843",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "7 I can’t _______ still at the dinner table. (=make my child sit)",
+    "adapted_text": "The teacher couldn't _____ quiet during the morning presentation. (=make her students stay)",
+    "source_correct_answer": [
+      "get my child to sit"
+    ],
+    "adapted_correct_answer": [
+      "get her students to stay"
+    ],
+    "jaccard": 0.1111,
+    "levenshtein": 0.3494,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "get my child to sit",
+      "get to sit my child",
+      "get sitting my child",
+      "get my child sit"
+    ],
+    "adapted_options": [
+      "get her students to stay",
+      "get to stay her students",
+      "get staying her students",
+      "get her students stay"
+    ]
+  },
+  {
+    "qid": "846",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "9 Can you help me _______ the room upstairs? (=move)",
+    "adapted_text": "Will you assist us to _____ the basement before sunset? (=move)",
+    "source_correct_answer": [
+      "get this sofa to"
+    ],
+    "adapted_correct_answer": [
+      "get this box to"
+    ],
+    "jaccard": 0.2143,
+    "levenshtein": 0.3929,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "get this sofa to",
+      "get this sofa",
+      "'ve got this sofa to",
+      "get moving this sofa to"
+    ],
+    "adapted_options": [
+      "get this box to",
+      "get this box",
+      "'ve got this box to",
+      "get moving this box to"
+    ]
+  },
+  {
+    "qid": "847",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['receive earn money'] with elevated similarity (Jaccard=0.2500, Lev=0.5893).; singular_plural: Subject/demonstrative number shifted between singular and plural.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "source_text": "10 I _______ a year in my new job. (=receive/earn money)",
+    "adapted_text": "They _______ per year at the design agency. (=receive/earn money)",
+    "source_correct_answer": [
+      "get £22,000"
+    ],
+    "adapted_correct_answer": [
+      "get £22,000"
+    ],
+    "jaccard": 0.25,
+    "levenshtein": 0.5893,
+    "matching_shingles": [
+      "receive earn money"
+    ],
+    "high_risk_mutations": [
+      "singular_plural: Subject/demonstrative number shifted between singular and plural.",
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "'ve got £22,000",
+      "get £22,000",
+      "get to earning",
+      "get earning"
+    ],
+    "adapted_options": [
+      "'ve got £22,000",
+      "get £22,000",
+      "get to earning",
+      "get earning"
+    ]
+  },
+  {
+    "qid": "653",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "7 Did you _______ when you bought the new glasses?",
+    "adapted_text": "Did she _____ before moving into the apartment?",
+    "source_correct_answer": [
+      "have your eyes tested"
+    ],
+    "adapted_correct_answer": [
+      "have her room painted"
+    ],
+    "jaccard": 0.1667,
+    "levenshtein": 0.275,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "have tested your eyes",
+      "have your eyes tested",
+      "had your eyes tested",
+      "have to test your eyes"
+    ],
+    "adapted_options": [
+      "have painted her room",
+      "have her room painted",
+      "had her room painted",
+      "have to paint her room"
+    ]
+  },
+  {
+    "qid": "654",
+    "model": "multiple_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "8 Which two sentences are correct? Choose TWO correct options",
+    "adapted_text": "Which two options correctly express obligation or strong belief? Choose TWO correct options",
+    "source_correct_answer": [
+      "You've got to be joking.",
+      "You have to be joking"
+    ],
+    "adapted_correct_answer": [
+      "They've got to be kidding",
+      "They have to be kidding"
+    ],
+    "jaccard": 0.1667,
+    "levenshtein": 0.3492,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "singular_plural: Subject/demonstrative number shifted between singular and plural."
+    ],
+    "source_options": [
+      "You've got to be joking.",
+      "You must have be joking",
+      "You have to be joking",
+      "You've to be joking"
+    ],
+    "adapted_options": [
+      "They've got to be kidding",
+      "They must have be kidding",
+      "They have to be kidding",
+      "They've to be kidding"
+    ]
+  },
+  {
+    "qid": "5404",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "2 I feel fine because I took the medicine. If I _____ the medicine, I would still be in pain.",
+    "adapted_text": "Lucas is energetic now because he ate breakfast. If he _____ breakfast, he would still be hungry.",
+    "source_correct_answer": [
+      "hadn't taken"
+    ],
+    "adapted_correct_answer": [
+      "hadn't eaten"
+    ],
+    "jaccard": 0.2381,
+    "levenshtein": 0.3977,
+    "matching_shingles": [
+      "would still be"
+    ],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "wouldn't take",
+      "wouldn't have taken",
+      "didn't take",
+      "hadn't taken"
+    ],
+    "adapted_options": [
+      "wouldn't eat",
+      "wouldn't have eaten",
+      "didn't eat",
+      "hadn't eaten"
+    ]
+  },
+  {
+    "qid": "5395",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['i were a', 'if i were'] with elevated similarity (Jaccard=0.2857, Lev=0.4000).",
+    "source_text": "4 I didn't know that you were there because I'm not a psychic. I _____ that you were there if I were a psychic.",
+    "adapted_text": "I failed to decipher the message because I am not a cryptographer. I _____ the meaning if I were a cryptographer.",
+    "source_correct_answer": [
+      "would have known"
+    ],
+    "adapted_correct_answer": [
+      "would have known"
+    ],
+    "jaccard": 0.2857,
+    "levenshtein": 0.4,
+    "matching_shingles": [
+      "i were a",
+      "if i were"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "would have known",
+      "had known",
+      "would know",
+      "knew"
+    ],
+    "adapted_options": [
+      "would have known",
+      "had known",
+      "would know",
+      "knew"
+    ]
+  },
+  {
+    "qid": "805",
+    "model": "multiple_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "1 I remember that when I was in 8th grade there was a bully in my class who _______ on me. Choose two correct answers",
+    "adapted_text": "During our summer retreats at the lake house, my grandfather _______ early to go fishing. Choose two correct answers",
+    "source_correct_answer": [
+      "always used to pick",
+      "would always pick"
+    ],
+    "adapted_correct_answer": [
+      "always used to get up",
+      "would always get up"
+    ],
+    "jaccard": 0.0357,
+    "levenshtein": 0.2278,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "always used to pick",
+      "had always picked",
+      "would always pick",
+      "used always to pick"
+    ],
+    "adapted_options": [
+      "always used to get up",
+      "had always gotten up",
+      "would always get up",
+      "used always to get up"
+    ]
+  },
+  {
+    "qid": "809",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "2 I _______ so hard and for so long, that when I saw that I _______ the exam I was in tears.",
+    "adapted_text": "She _____ continuously for hours, so when she noticed that she _____ the deadline, she felt devastated.",
+    "source_correct_answer": [
+      "had been studying / had failed"
+    ],
+    "adapted_correct_answer": [
+      "had been working / had missed"
+    ],
+    "jaccard": 0.2381,
+    "levenshtein": 0.3636,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "singular_plural: Subject/demonstrative number shifted between singular and plural.",
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "had been studying / had failed",
+      "had studied / was failing",
+      "studied / failed",
+      "had been studying / failed"
+    ],
+    "adapted_options": [
+      "had been working / had missed",
+      "had worked / was missing",
+      "worked / missed",
+      "had been working / missed"
+    ]
+  },
+  {
+    "qid": "810",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "5 I went into the bathroom and saw that somebody _______ the bath tap open and water _______ over the edge of the tub.",
+    "adapted_text": "She walked into the kitchen and noticed that someone _____ the stove burner on and smoke _____ out of the pan.",
+    "source_correct_answer": [
+      "had left / was spilling"
+    ],
+    "adapted_correct_answer": [
+      "had left / was pouring"
+    ],
+    "jaccard": 0.1786,
+    "levenshtein": 0.4343,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+      "countability: Countable vs uncountable noun environment shifted."
+    ],
+    "source_options": [
+      "had left / spilled",
+      "left / had been spilling",
+      "had been leaving / was spilling",
+      "had left / was spilling"
+    ],
+    "adapted_options": [
+      "had left / poured",
+      "left / had been pouring",
+      "had been leaving / was pouring",
+      "had left / was pouring"
+    ]
+  },
+  {
+    "qid": "814",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "10 We _______ for approximately ten minutes when the car stopped running; we _______ of petrol.",
+    "adapted_text": "They _____ for about an hour when the generator failed; the battery _____ of power.",
+    "source_correct_answer": [
+      "had been driving / had run out"
+    ],
+    "adapted_correct_answer": [
+      "had been working / had run out"
+    ],
+    "jaccard": 0.2,
+    "levenshtein": 0.3378,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "had driven / ran out",
+      "had been driving / had run out",
+      "were driving / ran out",
+      "drove / had been running out"
+    ],
+    "adapted_options": [
+      "had worked / ran out",
+      "had been working / had run out",
+      "were working / ran out",
+      "worked / had been running out"
+    ]
+  },
+  {
+    "qid": "815",
+    "model": "gap",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['because he still', 'hang on the'] with elevated similarity (Jaccard=0.2444, Lev=0.4037).",
+    "source_text": "A long time ago, my first wife and I 1 {{gap_1}} (decide) to go on a trip to London for a few days. Before the trip, we were very excited because we 2 {{gap_2}} (never/be) to London before. We 3 {{gap_3}} (want) to visit Miguel, a close friend who 4 {{gap_4}} (move) to Britain for work and who 5 {{gap_5}} (work) in London for a couple of months. He was very homesick because he still 6 {{gap_6}} (not have) any friends in England, and Laura and I 7 {{gap_7}} (want) to pay him a visit to cheer him up a bit. However, Miguel 8 {{gap_8}} (tell) us we had to stay in a hotel, because he 9 {{gap_9}} (rent) a room in a shared flat and we couldn’t stay in his home. Back then, when my ex-wife and I travelled anywhere, we 10 {{gap_10}} (book) hotel rooms well in advance, and we 11 {{gap_11}} (check) hotel reviews on TripAdvisor every time, but this time we 12 {{gap_12}} (be) very busy the weeks before the trip so a few days before the trip, we 13 {{gap_13}} (decide) that we would look for a hotel once in London. Unfortunately, hotel rooms in London are quite popular in August, and several hours after our arrival in the big capital we still 14 {{gap_14}} (not find) a room in any affordable place. Eventually we 15 {{gap_15}} (find) a hotel which, surprisingly, was well located and not very expensive. But we soon 16 {{gap_16}} (discover) why there were available rooms in that so well-located hotel. To start with, the room number was a scribble written on a sheet of paper that someone 17 {{gap_17}} (hang) on the door with sellotape, and once you were in, the room was dirty and horribly smelly. It looked as if nobody 18 {{gap_18}} (clean) it for ages. In the bathroom there was no mirror, the toilet was clogged and there were lots of hairs in the basin. It was so disgusting that we 19 {{gap_19}} (decide) to pay for a much more expensive room in a much less well-located hotel and we 20 {{gap_20}} (end up) as depressed as our good friend Miguel.",
+    "adapted_text": "Years ago, my colleague and I {{gap_1}} (decide) to attend a conference in Tokyo. We were thrilled because we {{gap_2}} (never/be) to Japan. We {{gap_3}} (want) to meet Ken, a former team member who {{gap_4}} (move) there for a project and {{gap_5}} (work) in the city for several months. Ken felt lonely because he still {{gap_6}} (not have) any local colleagues, and we {{gap_7}} (want) to visit him. However, Ken {{gap_8}} (tell) us to find an apartment because he {{gap_9}} (rent) a small studio. Normally, when traveling, we {{gap_10}} (book) apartments months prior, and we {{gap_11}} (check) user ratings online, but that month we {{gap_12}} (be) overloaded with assignments. So, we {{gap_13}} (decide) to look for accommodation upon landing. Unfortunately, listings were scarce, and hours after arriving we still {{gap_14}} (not find) a suitable spot. Finally, we {{gap_15}} (find) a studio that seemed central and affordable. Soon, we {{gap_16}} (discover) the reason for its availability. A handwritten note someone {{gap_17}} (hang) on the door served as the key box instructions, and inside, it seemed no one {{gap_18}} (clean) the place recently. Unhappy, we {{gap_19}} (decide) to switch to an expensive downtown hotel, and we {{gap_20}} (end up) exhausted.",
+    "source_correct_answer": [
+      "decided",
+      "had never been",
+      "wanted",
+      "had moved",
+      "had been working",
+      "didn't have",
+      "wanted",
+      "had told",
+      "had rented",
+      "used to book",
+      "would check",
+      "had been",
+      "decided",
+      "hadn't found",
+      "found",
+      "discovered",
+      "had hung",
+      "had cleaned",
+      "decided",
+      "ended up"
+    ],
+    "adapted_correct_answer": [
+      "decided",
+      "had never been",
+      "wanted",
+      "had moved",
+      "had been working",
+      "didn't have",
+      "wanted",
+      "had told",
+      "had rented",
+      "used to book",
+      "would check",
+      "had been",
+      "decided",
+      "hadn't found",
+      "found",
+      "discovered",
+      "had hung",
+      "had cleaned",
+      "decided",
+      "ended up"
+    ],
+    "jaccard": 0.2444,
+    "levenshtein": 0.4037,
+    "matching_shingles": [
+      "because he still",
+      "hang on the",
+      "hotel and we",
+      "not find a",
+      "on the door"
+    ],
+    "high_risk_mutations": [],
+    "gap_count_source": 20,
+    "gap_count_adapted": 20
+  },
+  {
+    "qid": "1387",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "5 ______, Mark retired from international competition.",
+    "adapted_text": "______, Elena decided to open her own private restaurant.",
+    "source_correct_answer": [
+      "Having won every major judo title"
+    ],
+    "adapted_correct_answer": [
+      "Having won every major culinary award"
+    ],
+    "jaccard": 0.0,
+    "levenshtein": 0.25,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "Having won every major judo title",
+      "Won every major judo title",
+      "He having won every major judo title"
+    ],
+    "adapted_options": [
+      "Having won every major culinary award",
+      "Won every major culinary award",
+      "She having won every major culinary award"
+    ]
+  },
+  {
+    "qid": "1390",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['Made of stone, the house is quite cool in summer.'], adapted=['Crafted from leather, the coat is remarkably durable in harsh weather.']. Flagged for review.",
+    "source_text": "8 Which sentence is CORRECT?",
+    "adapted_text": "Which sentence is CORRECT?",
+    "source_correct_answer": [
+      "Made of stone, the house is quite cool in summer."
+    ],
+    "adapted_correct_answer": [
+      "Crafted from leather, the coat is remarkably durable in harsh weather."
+    ],
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [
+      "which sentence correct"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "The house being made of stone, it is quite cool in summer.",
+      "Made of stone, the house is quite cool in summer.",
+      "Making it of stone, the house is quite cool in summer."
+    ],
+    "adapted_options": [
+      "The coat being crafted from leather, it is remarkably durable in harsh weather.",
+      "Crafted from leather, the coat is remarkably durable in harsh weather.",
+      "Crafting it from leather, the coat is remarkably durable in harsh weather."
+    ]
+  },
+  {
+    "qid": "1379",
+    "model": "gap",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['after i dropped', 'i dropped i'] with elevated similarity (Jaccard=0.4000, Lev=0.6071).",
+    "source_text": "7 After I dropped him at the station, I drove straight to the supermarket. After {{gap_1}}, I drove straight to the supermarket.",
+    "adapted_text": "After I dropped him at the station, I headed directly to the office. After {{gap_1}}, I headed directly to the office.",
+    "source_correct_answer": [
+      "dropping him at the station"
+    ],
+    "adapted_correct_answer": [
+      "dropping him at the station"
+    ],
+    "jaccard": 0.4,
+    "levenshtein": 0.6071,
+    "matching_shingles": [
+      "after i dropped",
+      "i dropped i"
+    ],
+    "high_risk_mutations": [],
+    "gap_count_source": 1,
+    "gap_count_adapted": 1
+  },
+  {
+    "qid": "6222",
+    "model": "multiple_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['Steve was sent a postcard.', 'A postcard was sent to Steve.'], adapted=['Clara was offered a contract.', 'A contract was offered to Clara.']. Flagged for review.",
+    "source_text": "1 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct sentences.",
+    "source_correct_answer": [
+      "Steve was sent a postcard.",
+      "A postcard was sent to Steve."
+    ],
+    "adapted_correct_answer": [
+      "Clara was offered a contract.",
+      "A contract was offered to Clara."
+    ],
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "They sent to Steve a postcard.",
+      "Steve was sent a postcard.",
+      "They were sent a postcard to Steve.",
+      "A postcard was sent to Steve."
+    ],
+    "adapted_options": [
+      "They offered to Clara a contract.",
+      "Clara was offered a contract.",
+      "They were offered a contract to Clara.",
+      "A contract was offered to Clara."
+    ]
+  },
+  {
+    "qid": "6223",
+    "model": "multiple_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['We were brought a glass of wine.', 'A glass of wine was brought to us.'], adapted=['The candidates were offered a new contract.', 'A new contract was offered to the candidates.']. Flagged for review.",
+    "source_text": "2 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct sentences.",
+    "source_correct_answer": [
+      "We were brought a glass of wine.",
+      "A glass of wine was brought to us."
+    ],
+    "adapted_correct_answer": [
+      "The candidates were offered a new contract.",
+      "A new contract was offered to the candidates."
+    ],
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "We were brought a glass of wine.",
+      "A glass of wine brought to us.",
+      "They were brought a glass of wine to us.",
+      "A glass of wine was brought to us."
+    ],
+    "adapted_options": [
+      "The candidates were offered a new contract.",
+      "A new contract offered to the candidates.",
+      "They were offered a new contract to the candidates.",
+      "A new contract was offered to the candidates."
+    ]
+  },
+  {
+    "qid": "6224",
+    "model": "multiple_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "3 Choose TWO correct sentences.",
+    "adapted_text": "Select TWO grammatically correct options.",
+    "source_correct_answer": [
+      "The patient was given the facts.",
+      "The facts were given to the patient."
+    ],
+    "adapted_correct_answer": [
+      "The applicant was offered the position.",
+      "The position was offered to the applicant."
+    ],
+    "jaccard": 0.0,
+    "levenshtein": 0.1379,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "The facts gave to the patient.",
+      "The doctor were given the facts to the patient.",
+      "The patient was given the facts.",
+      "The facts were given to the patient."
+    ],
+    "adapted_options": [
+      "The details gave to the buyer.",
+      "The agent were awarded the prize to the applicant.",
+      "The applicant was offered the position.",
+      "The position was offered to the applicant."
+    ]
+  },
+  {
+    "qid": "6225",
+    "model": "multiple_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['The robber had been lent the vehicle the previous day.', 'The vehicle had been lent to the robber the previous day.'], adapted=['The musician had been offered the violin the week before.', 'The violin had been offered to the musician the week before.']. Flagged for review.",
+    "source_text": "4 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct sentences.",
+    "source_correct_answer": [
+      "The robber had been lent the vehicle the previous day.",
+      "The vehicle had been lent to the robber the previous day."
+    ],
+    "adapted_correct_answer": [
+      "The musician had been offered the violin the week before.",
+      "The violin had been offered to the musician the week before."
+    ],
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "The robber had been lent the vehicle the previous day.",
+      "The vehicle had lent to the robber the previous day.",
+      "Someone had been lent the vehicle to the robber the previous day.",
+      "The vehicle had been lent to the robber the previous day."
+    ],
+    "adapted_options": [
+      "The musician had been offered the violin the week before.",
+      "The violin had offered to the musician the week before.",
+      "Someone had been offered the violin to the musician the week before.",
+      "The violin had been offered to the musician the week before."
+    ]
+  },
+  {
+    "qid": "6226",
+    "model": "multiple_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['A fake Rolex was sold to Steve.', 'Steve was sold a fake Rolex.'], adapted=['A rare painting was given to Clara.', 'Clara was given a rare painting.']. Flagged for review.",
+    "source_text": "5 Choose TWO correct sentences.",
+    "adapted_text": "5 Choose TWO correct sentences.",
+    "source_correct_answer": [
+      "A fake Rolex was sold to Steve.",
+      "Steve was sold a fake Rolex."
+    ],
+    "adapted_correct_answer": [
+      "A rare painting was given to Clara.",
+      "Clara was given a rare painting."
+    ],
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "A fake Rolex sold to Steve.",
+      "A fake Rolex was sold to Steve.",
+      "Someone was sold Steve a fake Rolex.",
+      "Steve was sold a fake Rolex."
+    ],
+    "adapted_options": [
+      "A rare painting given to Clara.",
+      "A rare painting was given to Clara.",
+      "Someone was given Clara a rare painting.",
+      "Clara was given a rare painting."
+    ]
+  },
+  {
+    "qid": "6227",
+    "model": "multiple_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['A promotion has been offered to him.', 'He has been offered a promotion.'], adapted=['A scholarship has been awarded to her.', 'She has been awarded a scholarship.']. Flagged for review.",
+    "source_text": "6 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct sentences.",
+    "source_correct_answer": [
+      "A promotion has been offered to him.",
+      "He has been offered a promotion."
+    ],
+    "adapted_correct_answer": [
+      "A scholarship has been awarded to her.",
+      "She has been awarded a scholarship."
+    ],
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "A promotion has been offered to him.",
+      "A promotion has been offered to him his boss.",
+      "His boss has been offered him a promotion.",
+      "He has been offered a promotion."
+    ],
+    "adapted_options": [
+      "A scholarship has been awarded to her.",
+      "A scholarship has been awarded to her the board.",
+      "The board has been awarded her a scholarship.",
+      "She has been awarded a scholarship."
+    ]
+  },
+  {
+    "qid": "6228",
+    "model": "multiple_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "7 Choose TWO correct sentences.",
+    "adapted_text": "Select TWO grammatically correct options.",
+    "source_correct_answer": [
+      "The truth wasn't told to me.",
+      "I wasn't told the truth."
+    ],
+    "adapted_correct_answer": [
+      "The real facts weren't told to her.",
+      "She wasn't told the real facts."
+    ],
+    "jaccard": 0.0,
+    "levenshtein": 0.1379,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "They weren't told me the truth.",
+      "The truth wasn't told to me.",
+      "I wasn't told the truth.",
+      "The truth didn't tell to me."
+    ],
+    "adapted_options": [
+      "They weren't told her the real facts.",
+      "The real facts weren't told to her.",
+      "She wasn't told the real facts.",
+      "The real facts didn't tell to her."
+    ]
+  },
+  {
+    "qid": "6229",
+    "model": "multiple_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['Our students are taught English and Spanish.', 'English and Spanish are taught to our students.'], adapted=['The new recruits are shown safety guidelines and emergency procedures.', 'Safety guidelines and emergency procedures are shown to the new recruits.']. Flagged for review.",
+    "source_text": "8 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct sentences.",
+    "source_correct_answer": [
+      "Our students are taught English and Spanish.",
+      "English and Spanish are taught to our students."
+    ],
+    "adapted_correct_answer": [
+      "The new recruits are shown safety guidelines and emergency procedures.",
+      "Safety guidelines and emergency procedures are shown to the new recruits."
+    ],
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "Our students are taught English and Spanish.",
+      "We are taught English and Spanish to our students.",
+      "English and Spanish teach our students.",
+      "English and Spanish are taught to our students."
+    ],
+    "adapted_options": [
+      "The new recruits are shown safety guidelines and emergency procedures.",
+      "We are shown safety guidelines and emergency procedures to the recruits.",
+      "Safety guidelines and emergency procedures show our recruits.",
+      "Safety guidelines and emergency procedures are shown to the new recruits."
+    ]
+  },
+  {
+    "qid": "6245",
+    "model": "multiple_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "9 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct options.",
+    "source_correct_answer": [
+      "The news was given to the employees.",
+      "The employees were given the news."
+    ],
+    "adapted_correct_answer": [
+      "The report was sent to the directors.",
+      "The directors were sent the report."
+    ],
+    "jaccard": 0.0,
+    "levenshtein": 0.0,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "They were given the news to the employees.",
+      "The news was given to the employees.",
+      "The news gave to the employees.",
+      "The employees were given the news."
+    ],
+    "adapted_options": [
+      "They were sent the report to the directors.",
+      "The report was sent to the directors.",
+      "The report sent to the directors.",
+      "The directors were sent the report."
+    ]
+  },
+  {
+    "qid": "6247",
+    "model": "multiple_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Identical text: adapted sentence is unchanged from source after normalization.; Correct answer diverged from source: source=['He was written a letter of support.', 'A letter of support was written to him.'], adapted=['She was sent an email of recommendation.', 'An email of recommendation was sent to her.']. Flagged for review.",
+    "source_text": "10 Choose TWO correct sentences.",
+    "adapted_text": "Choose TWO correct sentences.",
+    "source_correct_answer": [
+      "He was written a letter of support.",
+      "A letter of support was written to him."
+    ],
+    "adapted_correct_answer": [
+      "She was sent an email of recommendation.",
+      "An email of recommendation was sent to her."
+    ],
+    "jaccard": 1.0,
+    "levenshtein": 1.0,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "A letter of support wrote to him.",
+      "He was written a letter of support.",
+      "A letter of support was written to him.",
+      "Someone was written a letter of support to him."
+    ],
+    "adapted_options": [
+      "An email of recommendation sent to her.",
+      "She was sent an email of recommendation.",
+      "An email of recommendation was sent to her.",
+      "Someone was sent an email of recommendation to her."
+    ]
+  },
+  {
+    "qid": "1353",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['the incorrect answer'] with elevated similarity (Jaccard=0.5000, Lev=0.8205).; Correct answer diverged from source: source=['with who I used to work.'], adapted=['to who I needed to speak.']. Flagged for review.",
+    "source_text": "2 This is the man ______. Choose the INCORRECT answer",
+    "adapted_text": "That is the client _____. Choose the INCORRECT answer",
+    "source_correct_answer": [
+      "with who I used to work."
+    ],
+    "adapted_correct_answer": [
+      "to who I needed to speak."
+    ],
+    "jaccard": 0.5,
+    "levenshtein": 0.8205,
+    "matching_shingles": [
+      "the incorrect answer"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "who I used to work with.",
+      "with whom I used to work.",
+      "I used to work with.",
+      "with who I used to work."
+    ],
+    "adapted_options": [
+      "who I needed to speak to.",
+      "to whom I needed to speak.",
+      "I needed to speak to.",
+      "to who I needed to speak."
+    ]
+  },
+  {
+    "qid": "789",
+    "model": "gap",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['has always been', 'seems to be'] with elevated similarity (Jaccard=0.1844, Lev=0.3496).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; countability: Countable vs uncountable noun environment shifted.",
+    "source_text": "1 {{gap_1}} has always been very hard for foreigners to get used to the British weather, because 2 {{gap_2}} 's always raining and 3 {{gap_3}} 's not much to do outdoors. Winters can get very long, and 4 {{gap_4}} 's likely that one won't get to see the sun for long periods of time, whichever the season. 5 {{gap_5}} can be very hard for people to live here permanently, especially for the outdoorsy type of person, so 6 {{gap_6}} 's a good reason for migrants to think it twice before they decide to make the move. But 7 {{gap_7}} seems to be something that expats living in Britain like about our country, because in a survey carried out in 2013, 69% of expats living in Britain said they liked it here. 8 {{gap_8}} appears that the things they don't like about us, which are basically the weather, the food and our heavy drinking culture, aren't enough to make them change the overall positive opinion they have of Britain and the British. Maybe 9 {{gap_9}} 's the politics, the economy, the football, or our sense of humour —who knows!— but 10 {{gap_10}} 's obviously something good enough here to make them stay.",
+    "adapted_text": "1 {{gap_1}} has always been difficult for newcomers to adjust to night shifts, as 2 {{gap_2}} 's frequently quiet and 3 {{gap_3}} 's little energy around the office. Hours pass slowly, and 4 {{gap_4}} 's probable that staff will feel fatigued easily. 5 {{gap_5}} can be challenging for employees to maintain this routine long-term, so 6 {{gap_6}} 's valid justification for managers to check on them. Yet 7 {{gap_7}} seems to be genuine satisfaction among nocturnal workers, since in a recent internal review, most participants reported enjoying the calm atmosphere. 8 {{gap_8}} appears that minor drawbacks are not sufficient to ruin their overall impression of the workplace. Perhaps 9 {{gap_9}} 's the peace, the extra pay, or the friendly team, but 10 {{gap_10}} 's clearly a special appeal to working late.",
+    "source_correct_answer": [
+      "It",
+      "it",
+      "there",
+      "it",
+      "It",
+      "there",
+      "there",
+      "It",
+      "it",
+      "there"
+    ],
+    "adapted_correct_answer": [
+      "It",
+      "it",
+      "there",
+      "it",
+      "It",
+      "there",
+      "there",
+      "It",
+      "it",
+      "there"
+    ],
+    "jaccard": 0.1844,
+    "levenshtein": 0.3496,
+    "matching_shingles": [
+      "has always been",
+      "seems to be"
+    ],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+      "countability: Countable vs uncountable noun environment shifted."
+    ],
+    "gap_count_source": 10,
+    "gap_count_adapted": 10
+  },
+  {
+    "qid": "792",
+    "model": "gap",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; Plural/compound subject conflicts with singular verb form 'it was'.",
+    "source_text": "3 We decided to go home because {{gap_1}} getting cold.",
+    "adapted_text": "They left the outdoor festival early since {{gap_1}} starting to rain.",
+    "source_correct_answer": [
+      "it was"
+    ],
+    "adapted_correct_answer": [
+      "it was"
+    ],
+    "jaccard": 0.0588,
+    "levenshtein": 0.2881,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "gap_count_source": 1,
+    "gap_count_adapted": 1
+  },
+  {
+    "qid": "5368",
+    "model": "multiple_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; singular_plural: Subject/demonstrative number shifted between singular and plural.; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).; Plural/compound subject conflicts with singular verb form 'as long as'.",
+    "source_text": "2 You can use my computer _____ you promise to be careful. Choose TWO correct options",
+    "adapted_text": "Guests can borrow camping gear _____ they return everything clean. Choose TWO correct options",
+    "source_correct_answer": [
+      "provided",
+      "as long as"
+    ],
+    "adapted_correct_answer": [
+      "provided",
+      "as long as"
+    ],
+    "jaccard": 0.0588,
+    "levenshtein": 0.2881,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "singular_plural: Subject/demonstrative number shifted between singular and plural.",
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "provided",
+      "unless",
+      "as long as",
+      "in case"
+    ],
+    "adapted_options": [
+      "provided",
+      "unless",
+      "as long as",
+      "in case"
+    ]
+  },
+  {
+    "qid": "5375",
+    "model": "multiple_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['the same meaning', 'with the same'] with elevated similarity (Jaccard=0.3636, Lev=0.4730).; Correct answer diverged from source: source=[\"Unless you are a member, you can't go in.\", 'You can go in only if you are a member.'], adapted=['Unless you have a pass, you cannot enter.', 'You can enter only if you have a pass.']. Flagged for review.",
+    "source_text": "7 Only members can go in. Choose TWO options with the same meaning",
+    "adapted_text": "Only authorized personnel may access the server room. Choose TWO options with the same meaning:",
+    "source_correct_answer": [
+      "Unless you are a member, you can't go in.",
+      "You can go in only if you are a member."
+    ],
+    "adapted_correct_answer": [
+      "Unless you have a pass, you cannot enter.",
+      "You can enter only if you have a pass."
+    ],
+    "jaccard": 0.3636,
+    "levenshtein": 0.473,
+    "matching_shingles": [
+      "the same meaning",
+      "with the same"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "Unless you are a member, you can't go in.",
+      "You can go in even if you are a member.",
+      "You can go in wether or not you are a member.",
+      "You can go in only if you are a member."
+    ],
+    "adapted_options": [
+      "Unless you have a pass, you cannot enter.",
+      "You cannot enter even if you have a pass.",
+      "You can enter whether or not you have a pass.",
+      "You can enter only if you have a pass."
+    ]
+  },
+  {
+    "qid": "5377",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['option with similar', 'the option with'] with elevated similarity (Jaccard=0.2400, Lev=0.5446).; pronoun: Grammatical person shifted (1st, 2nd, or 3rd person).",
+    "source_text": "10 You can offer as much as you want, I'll never work for you. (Choose the option with similar meaning).",
+    "adapted_text": "10 No matter how much you beg, she will refused to sell her antique vase. (Select the option with similar meaning)",
+    "source_correct_answer": [
+      "Even if you offer a lot of money"
+    ],
+    "adapted_correct_answer": [
+      "Even if you offer a lot of money"
+    ],
+    "jaccard": 0.24,
+    "levenshtein": 0.5446,
+    "matching_shingles": [
+      "option with similar",
+      "the option with",
+      "with similar meaning"
+    ],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "Even if you offer a lot of money",
+      "Provided you offer a lot of money",
+      "Unless you offer a lot of money",
+      "As long as you offer a lot of money"
+    ],
+    "adapted_options": [
+      "Even if you offer a lot of money",
+      "Provided you offer a lot of money",
+      "Unless you offer a lot of money",
+      "As long as you offer a lot of money"
+    ]
+  },
+  {
+    "qid": "965",
+    "model": "single_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['would you rather', 'you rather we'] with elevated similarity (Jaccard=0.3500, Lev=0.5638).; Correct answer diverged from source: source=['had chosen'], adapted=['had picked']. Flagged for review.",
+    "source_text": "4 You don't like the essay topic we chose, do you? Would you rather we _______ a different topic?",
+    "adapted_text": "You seem unhappy with the hotel room we selected earlier. Would you rather we _____ a different hotel?",
+    "source_correct_answer": [
+      "had chosen"
+    ],
+    "adapted_correct_answer": [
+      "had picked"
+    ],
+    "jaccard": 0.35,
+    "levenshtein": 0.5638,
+    "matching_shingles": [
+      "would you rather",
+      "you rather we"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "would chose",
+      "would have chosen",
+      "had chosen",
+      "chose"
+    ],
+    "adapted_options": [
+      "would picked",
+      "would have picked",
+      "had picked",
+      "picked"
+    ]
+  },
+  {
+    "qid": "969",
+    "model": "multiple_choice",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['or would you', 'would you rather'] with elevated similarity (Jaccard=0.3125, Lev=0.5385).",
+    "source_text": "8 Do you want to take the bus or would you rather _______ the subway? Choose TWO correct options",
+    "adapted_text": "Are you planning to order pizza, or would you rather _______ sushi instead? Choose TWO correct options",
+    "source_correct_answer": [
+      "take",
+      "we took"
+    ],
+    "adapted_correct_answer": [
+      "take",
+      "we took"
+    ],
+    "jaccard": 0.3125,
+    "levenshtein": 0.5385,
+    "matching_shingles": [
+      "or would you",
+      "would you rather"
+    ],
+    "high_risk_mutations": [],
+    "source_options": [
+      "to take",
+      "take",
+      "we take",
+      "we took"
+    ],
+    "adapted_options": [
+      "to take",
+      "take",
+      "we take",
+      "we took"
+    ]
+  },
+  {
+    "qid": "985",
+    "model": "gap",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "High-confidence shallow copy: verbatim shingle(s) ['i would have', 'would have preferred'] with elevated similarity (Jaccard=0.3333, Lev=0.5000).",
+    "source_text": "6 I would have preferred you to talk to me before saying anything. (rather) I'd {{gap_1}} to me before saying anything.",
+    "adapted_text": "I would have preferred it if you had consulted me earlier. (rather) I'd {{gap_1}} about the project before making a decision.",
+    "source_correct_answer": [
+      "rather you had talked"
+    ],
+    "adapted_correct_answer": [
+      "rather you had talked"
+    ],
+    "jaccard": 0.3333,
+    "levenshtein": 0.5,
+    "matching_shingles": [
+      "i would have",
+      "would have preferred"
+    ],
+    "high_risk_mutations": [],
+    "gap_count_source": 1,
+    "gap_count_adapted": 1
+  },
+  {
+    "qid": "994",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "1 I'd love my parents ______ me ______ whatever I want.",
+    "adapted_text": "She would prefer her boss _____ her _____ the schedule independently.",
+    "source_correct_answer": [
+      "to let / do"
+    ],
+    "adapted_correct_answer": [
+      "to let / choose"
+    ],
+    "jaccard": 0.0,
+    "levenshtein": 0.2679,
+    "matching_shingles": [],
+    "high_risk_mutations": [
+      "pronoun: Grammatical person shifted (1st, 2nd, or 3rd person)."
+    ],
+    "source_options": [
+      "let / do",
+      "let / to do",
+      "to let / to do",
+      "to let / do"
+    ],
+    "adapted_options": [
+      "let / choose",
+      "let / to choose",
+      "to let / to choose",
+      "to let / choose"
+    ]
+  },
+  {
+    "qid": "1012",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "10 An Indian girl's father has arranged ______ the son of a very wealthy friend of his",
+    "adapted_text": "10 The project manager has arranged _____ the new client during her trip to London.",
+    "source_correct_answer": [
+      "for her to marry"
+    ],
+    "adapted_correct_answer": [
+      "for her to meet"
+    ],
+    "jaccard": 0.1429,
+    "levenshtein": 0.3467,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "her marry",
+      "her marrying",
+      "her to marry",
+      "for her to marry"
+    ],
+    "adapted_options": [
+      "her meet",
+      "her meeting",
+      "her to meet",
+      "for her to meet"
+    ]
+  },
+  {
+    "qid": "1075",
+    "model": "gap",
+    "rejection_stage": "deterministic_evaluator",
+    "exact_rejection_reason": "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles).; Plural/compound subject conflicts with singular verb form 'looks'.",
+    "source_text": "10 I {{gap_1}} at her as I am speaking to you and she {{gap_2}} fantastic.",
+    "adapted_text": "Right now I {{gap_1}} at the paintings in the gallery and this artwork {{gap_2}} impressive.",
+    "source_correct_answer": [
+      "'m looking",
+      "looks"
+    ],
+    "adapted_correct_answer": [
+      "'m looking",
+      "looks"
+    ],
+    "jaccard": 0.15,
+    "levenshtein": 0.3239,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "gap_count_source": 2,
+    "gap_count_adapted": 2
+  },
+  {
+    "qid": "1162",
+    "model": "single_choice",
+    "rejection_stage": "ai_semantic_review",
+    "exact_rejection_reason": "Answer divergence: target answer not preserved in adapted context.",
+    "source_text": "10 The government ______ its decision at a press conference on Friday.",
+    "adapted_text": "The airline _____ its new international flight schedule next Monday.",
+    "source_correct_answer": [
+      "is due to announce"
+    ],
+    "adapted_correct_answer": [
+      "is due to release"
+    ],
+    "jaccard": 0.1176,
+    "levenshtein": 0.3443,
+    "matching_shingles": [],
+    "high_risk_mutations": [],
+    "source_options": [
+      "is about to announce",
+      "is unlikely to announce",
+      "is on the verge of announcing",
+      "is due to announce"
+    ],
+    "adapted_options": [
+      "is about to release",
+      "is unlikely to release",
+      "is on the verge of releasing",
+      "is due to release"
+    ]
+  }
+]

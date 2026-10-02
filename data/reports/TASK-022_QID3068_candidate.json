@@ -1,0 +1,34 @@
+{
+  "qid": "3068",
+  "exercise_id": "quiz-358",
+  "level": "A2",
+  "topic": "Past simple or present perfect?",
+  "response_model": "gap",
+  "status": "TEACHER_REVIEW_REQUIRED",
+  "committed_to_db": false,
+  "source_text": "Dialogue 1 MARK: 1 {{gap_1}} (you/ever/hear) the group The Darkness? BIANCA: No, I 2 {{gap_2}}. What kind of music do they play? MARK: Rock music. I 3 {{gap_3}} (see) them in concert last night. BIANCA: 4 {{gap_4}} (be) it a good concert? MARK: Yes, I really 5 {{gap_5}} (like) it. Dialogue 2 ANDY: 6 {{gap_6}} (you/ever/lose) your car keys? BART: Yes, I 7 {{gap_7}}. ANDY: Where 8 {{gap_8}} (it/happen)? BART: In Portugal. I 9 {{gap_9}} (be) there on holiday. ANDY: What 10 {{gap_10}} (you/do)?",
+  "current_adapted_text": "Part 1\nLEO: 1 {{gap_1}} (ever/you/hear) broadcasts by the Cambridge Baroque Quartet?\nTARA: Truly, I 2 {{gap_2}}. Which musical repertoire do they perform?\nLEO: Classical chamber works. In fact, my family 3 {{gap_3}} (see) their ensemble performing live last Friday.\nTARA: 4 {{gap_4}} (be) the auditorium acoustics satisfactory?\nLEO: Exceptionally; audiences 5 {{gap_5}} (like) each symphony.\n\nPart 2\nFELIX: At busy airport terminals, 6 {{gap_6}} (ever/you/lose) international travel documents?\nNINA: Regrettably, I 7 {{gap_7}}.\nFELIX: Along which flight corridor 8 {{gap_8}} (it/happen)?\nNINA: In Zurich; an oversized boarding envelope 9 {{gap_9}} (be) misplaced during customs transfers.\nFELIX: Afterward, what emergency procedures 10 {{gap_10}} (you/do)?",
+  "proposed_candidate_text": "Part 1\nLEO: 1 {{gap_1}} (ever/you/hear) broadcasts by the Cambridge Baroque Quartet?\nTARA: Truly, I 2 {{gap_2}}. Which musical repertoire do they perform?\nLEO: Classical chamber works. In fact, my family 3 {{gap_3}} (see) their ensemble performing live last Friday.\nTARA: 4 {{gap_4}} (be) the auditorium sound quality satisfactory?\nLEO: Exceptionally; audiences 5 {{gap_5}} (like) each symphony.\n\nPart 2\nFELIX: At busy airport terminals, 6 {{gap_6}} (ever/you/lose) international travel documents?\nNINA: Regrettably, I 7 {{gap_7}}.\nFELIX: Along which flight corridor 8 {{gap_8}} (it/happen)?\nNINA: In Zurich; an oversized boarding envelope 9 {{gap_9}} (be) misplaced during customs transfers.\nFELIX: Afterward, what emergency procedures 10 {{gap_10}} (you/do)?",
+  "target_answers": [
+    "Have you ever heard",
+    "haven't",
+    "saw",
+    "Was",
+    "liked",
+    "Have you ever lost",
+    "have",
+    "did it happen",
+    "was",
+    "did you do"
+  ],
+  "gap_4_target_answer": "Was",
+  "original_gap_4_context": "TARA: 4 {{gap_4}} (be) the auditorium acoustics satisfactory?",
+  "proposed_gap_4_context": "TARA: 4 {{gap_4}} (be) the auditorium sound quality satisfactory?",
+  "grammatical_rationale": "In standard English, 'acoustics' (acoustic properties of a hall) functions as a plural noun requiring 'Were'. Changing the head noun to the singular compound 'auditorium sound quality' makes the target answer 'Was' ('Was the auditorium sound quality satisfactory?') grammatically flawless, natural, and unambiguous, without altering the target answer key or any other gap.",
+  "similarity_metrics": {
+    "jaccard": 0.2342,
+    "levenshtein": 0.3402,
+    "originality_status": "VALIDATED",
+    "matching_shingles": []
+  }
+}

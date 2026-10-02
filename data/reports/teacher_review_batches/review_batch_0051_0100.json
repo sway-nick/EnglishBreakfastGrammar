@@ -1,0 +1,1624 @@
+{
+  "metadata": {
+    "batch_id": "review_batch_0051_0100",
+    "generated_at": "2026-10-01T12:46:40.267373+00:00",
+    "start_index": 51,
+    "end_index": 100,
+    "item_count": 50,
+    "status": "REVIEWED",
+    "teacher_reviewed": true,
+    "queue_source": "data/reports/TASK-025_full_teacher_review_queue.json",
+    "notes": "Next 50 unreviewed questions in canonical source order (indices 51 to 100).",
+    "reviewed_at": "2026-10-01T12:52:31.525069+00:00",
+    "review_summary": {
+      "PASS_count": 48,
+      "FIX_count": 2,
+      "fixed_qids": [
+        "3635",
+        "3645"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "review_index": 51,
+      "qid": "3625",
+      "level": "A1",
+      "exercise_id": "quiz-419",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "10 _____ are my cats.",
+      "adapted_text": "_____ are her books on the shelf.",
+      "source_correct_answer": [
+        "those"
+      ],
+      "adapted_correct_answer": [
+        "those"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "this",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "those",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "this",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "those",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "This, that, these, those",
+      "relevant_machine_flags": {
+        "similarity_score": 0.125,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 52,
+      "qid": "3626",
+      "level": "A1",
+      "exercise_id": "quiz-420",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "1 This is a flower ⇒ {{gap_1}} flowers.",
+      "adapted_text": "Look at this single photograph on the wall. ⇒ {{gap_1}} pictures from our recent vacation.",
+      "source_correct_answer": [
+        "These are"
+      ],
+      "adapted_correct_answer": [
+        "These are"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "This, that, these, those",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0588,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 53,
+      "qid": "3627",
+      "level": "A1",
+      "exercise_id": "quiz-420",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "2 That is a box. ⇒ {{gap_1}} boxes.",
+      "adapted_text": "That is a package on the shelf. ⇒ {{gap_1}} packages on the shelf.",
+      "source_correct_answer": [
+        "Those are"
+      ],
+      "adapted_correct_answer": [
+        "Those are"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "This, that, these, those",
+      "relevant_machine_flags": {
+        "similarity_score": 0.3,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 54,
+      "qid": "3628",
+      "level": "A1",
+      "exercise_id": "quiz-420",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "3 That is my father. ⇒ {{gap_1}} my parents.",
+      "adapted_text": "Look at that tall building across the river. ⇒ {{gap_1}} modern office towers.",
+      "source_correct_answer": [
+        "Those are"
+      ],
+      "adapted_correct_answer": [
+        "Those are"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "This, that, these, those",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0667,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 55,
+      "qid": "3629",
+      "level": "A1",
+      "exercise_id": "quiz-420",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "4 Are those your friends? ⇒ {{gap_1}} your friend?",
+      "adapted_text": "Are those old books? ⇒ {{gap_1}} an ancient book?",
+      "source_correct_answer": [
+        "Is that"
+      ],
+      "adapted_correct_answer": [
+        "Is that"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "This, that, these, those",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 56,
+      "qid": "3630",
+      "level": "A1",
+      "exercise_id": "quiz-420",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "5 What are those things? ⇒ What {{gap_1}} thing?",
+      "adapted_text": "How strange are those objects? ⇒ How strange {{gap_1}} object?",
+      "source_correct_answer": [
+        "is that"
+      ],
+      "adapted_correct_answer": [
+        "is that"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "This, that, these, those",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2222,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 57,
+      "qid": "3631",
+      "level": "A1",
+      "exercise_id": "quiz-420",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "6 These documents are important. ⇒ {{gap_1}} important.",
+      "adapted_text": "These papers are vital. ⇒ {{gap_1}} vital.",
+      "source_correct_answer": [
+        "This document is"
+      ],
+      "adapted_correct_answer": [
+        "This document is"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "This, that, these, those",
+      "relevant_machine_flags": {
+        "similarity_score": 0.3333,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 58,
+      "qid": "3632",
+      "level": "A1",
+      "exercise_id": "quiz-420",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "7 Are these your shoes? ⇒ {{gap_1}} your shoe?",
+      "adapted_text": "Are those your new winter boots over there? ⇒ {{gap_1}} your favourite leather boot near the door?",
+      "source_correct_answer": [
+        "Is this"
+      ],
+      "adapted_correct_answer": [
+        "Is this"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "This, that, these, those",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1176,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 59,
+      "qid": "3633",
+      "level": "A1",
+      "exercise_id": "quiz-420",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "8 That's a good car. ⇒ {{gap_1}} good cars.",
+      "adapted_text": "That is a fast bicycle. ⇒ {{gap_1}} fast bicycles.",
+      "source_correct_answer": [
+        "Those are"
+      ],
+      "adapted_correct_answer": [
+        "Those are"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "This, that, these, those",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 60,
+      "qid": "3634",
+      "level": "A1",
+      "exercise_id": "quiz-420",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "9 This is John. ⇒ {{gap_1}} John and Carla.",
+      "adapted_text": "This is my classmate. ⇒ {{gap_1}} my classmates, David and Emma.",
+      "source_correct_answer": [
+        "These are"
+      ],
+      "adapted_correct_answer": [
+        "These are"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "This, that, these, those",
+      "relevant_machine_flags": {
+        "similarity_score": 0.3,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 61,
+      "qid": "3635",
+      "level": "A1",
+      "exercise_id": "quiz-420",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "10 These are cheap computers. ⇒ {{gap_1}} a cheap computer.",
+      "adapted_text": "{{gap_1}} a heavy box.",
+      "source_correct_answer": [
+        "This is"
+      ],
+      "adapted_correct_answer": [
+        "This is"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "This, that, these, those",
+      "relevant_machine_flags": {
+        "similarity_score": 0.125,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "review_index": 62,
+      "qid": "3636",
+      "level": "A1",
+      "exercise_id": "quiz-421",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "1 Harry is {{gap_1}} friend. {{gap_2}} has a nice house.",
+      "adapted_text": "Leo is {{gap_1}} neighbor. {{gap_2}} drives a red car.",
+      "source_correct_answer": [
+        "my",
+        "He"
+      ],
+      "adapted_correct_answer": [
+        "my",
+        "He"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1667,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 63,
+      "qid": "3637",
+      "level": "A1",
+      "exercise_id": "quiz-421",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "2 {{gap_1}} are very happy with {{gap_2}} new dog.",
+      "adapted_text": "{{gap_1}} are satisfied with {{gap_2}} modern house.",
+      "source_correct_answer": [
+        "They",
+        "their"
+      ],
+      "adapted_correct_answer": [
+        "They",
+        "their"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2222,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 64,
+      "qid": "3638",
+      "level": "A1",
+      "exercise_id": "quiz-421",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "3 We love {{gap_1}} little dog.",
+      "adapted_text": "We painted {{gap_1}} new apartment last weekend.",
+      "source_correct_answer": [
+        "our"
+      ],
+      "adapted_correct_answer": [
+        "our"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1111,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 65,
+      "qid": "3639",
+      "level": "A1",
+      "exercise_id": "quiz-421",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "4 {{gap_1}} wants {{gap_2}} breakfast.",
+      "adapted_text": "{{gap_1}} drives {{gap_2}} car to work every morning.",
+      "source_correct_answer": [
+        "He",
+        "his"
+      ],
+      "adapted_correct_answer": [
+        "He",
+        "his"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 66,
+      "qid": "3640",
+      "level": "A1",
+      "exercise_id": "quiz-421",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "5 We want to see {{gap_1}} children.",
+      "adapted_text": "We need to collect {{gap_1}} luggage at the airport.",
+      "source_correct_answer": [
+        "our"
+      ],
+      "adapted_correct_answer": [
+        "our"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1818,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 67,
+      "qid": "3641",
+      "level": "A1",
+      "exercise_id": "quiz-421",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "6 Scotland is famous for {{gap_1}} rainy weather.",
+      "adapted_text": "The hotel is known for {{gap_1}} beautiful garden.",
+      "source_correct_answer": [
+        "its"
+      ],
+      "adapted_correct_answer": [
+        "its"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1818,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 68,
+      "qid": "3642",
+      "level": "A1",
+      "exercise_id": "quiz-421",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "7 Susan lives on {{gap_1}} street. {{gap_2}} house is very near.",
+      "adapted_text": "Emma works at {{gap_1}} company. {{gap_2}} office is on the top floor.",
+      "source_correct_answer": [
+        "my",
+        "Her"
+      ],
+      "adapted_correct_answer": [
+        "my",
+        "Her"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.125,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 69,
+      "qid": "3643",
+      "level": "A1",
+      "exercise_id": "quiz-421",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "8 'What are those?' ' {{gap_1}} postcards.'",
+      "adapted_text": "'What are these items?' '{{gap_1}} old souvenirs.'",
+      "source_correct_answer": [
+        "They are"
+      ],
+      "adapted_correct_answer": [
+        "They are"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1429,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 70,
+      "qid": "3644",
+      "level": "A1",
+      "exercise_id": "quiz-421",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "9 I like this place and {{gap_1}} special atmosphere.",
+      "adapted_text": "At the museum, we admired {{gap_1}} unique history.",
+      "source_correct_answer": [
+        "its"
+      ],
+      "adapted_correct_answer": [
+        "its"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 71,
+      "qid": "3645",
+      "level": "A1",
+      "exercise_id": "quiz-421",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "10 I love this place. {{gap_1}} very special.",
+      "adapted_text": "We visited the museum yesterday. {{gap_1}} full of fascinating exhibits.",
+      "source_correct_answer": [
+        "It's"
+      ],
+      "adapted_correct_answer": [
+        "It's"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "review_index": 72,
+      "qid": "3646",
+      "level": "A1",
+      "exercise_id": "quiz-422",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "1 Go to _____ office.",
+      "adapted_text": "Please open _____ book.",
+      "source_correct_answer": [
+        "your"
+      ],
+      "adapted_correct_answer": [
+        "your"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "you",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "your",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "yours",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "you",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "your",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "yours",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 73,
+      "qid": "3657",
+      "level": "A1",
+      "exercise_id": "quiz-422",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "2 _____ six o'clock. Let's go home.",
+      "adapted_text": "_____ nearly midnight. We should sleep.",
+      "source_correct_answer": [
+        "It's"
+      ],
+      "adapted_correct_answer": [
+        "It's"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "It's",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Its",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "His",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "It's",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Its",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "His",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 74,
+      "qid": "3658",
+      "level": "A1",
+      "exercise_id": "quiz-422",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "3 Our products are famous for _____ durability.",
+      "adapted_text": "3 These artists are known for _____ paintings.",
+      "source_correct_answer": [
+        "their"
+      ],
+      "adapted_correct_answer": [
+        "their"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "their",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "its",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "they",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "their",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "its",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "they",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 75,
+      "qid": "3659",
+      "level": "A1",
+      "exercise_id": "quiz-422",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "4 I'm very happy about _____ marks.",
+      "adapted_text": "She really likes _____ new jacket.",
+      "source_correct_answer": [
+        "your"
+      ],
+      "adapted_correct_answer": [
+        "your"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "you",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "your",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "yours",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "you",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "your",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "yours",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 76,
+      "qid": "3660",
+      "level": "A1",
+      "exercise_id": "quiz-422",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "5 Valeria is from Italy, but _____ 's in Ireland now.",
+      "adapted_text": "Maria was born in Spain, but _____ 's living in France today.",
+      "source_correct_answer": [
+        "she"
+      ],
+      "adapted_correct_answer": [
+        "she"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "his",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "her",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "she",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "his",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "her",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "she",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1875,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 77,
+      "qid": "3661",
+      "level": "A1",
+      "exercise_id": "quiz-422",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "6 These are my friends. _____ from Finland.",
+      "adapted_text": "I love those cars. _____ very fast.",
+      "source_correct_answer": [
+        "They're"
+      ],
+      "adapted_correct_answer": [
+        "They're"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Their",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "They're",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "They",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Their",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "They're",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "They",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 78,
+      "qid": "3662",
+      "level": "A1",
+      "exercise_id": "quiz-422",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "7 The apartment has _____ own private garden.",
+      "adapted_text": "The company changed _____ official logo recently.",
+      "source_correct_answer": [
+        "its"
+      ],
+      "adapted_correct_answer": [
+        "its"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "it's",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "its",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "his",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "it's",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "its",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "his",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0909,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 79,
+      "qid": "3663",
+      "level": "A1",
+      "exercise_id": "quiz-422",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "8 Are _____ umbrellas here?",
+      "adapted_text": "Are _____ passports on the table?",
+      "source_correct_answer": [
+        "our"
+      ],
+      "adapted_correct_answer": [
+        "our"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "we",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "ours",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "our",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "we",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "ours",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "our",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1429,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 80,
+      "qid": "3664",
+      "level": "A1",
+      "exercise_id": "quiz-422",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "9 Mark and Linda are in _____ caravan.",
+      "adapted_text": "9 Peter and Emma are sitting in _____ garden.",
+      "source_correct_answer": [
+        "their"
+      ],
+      "adapted_correct_answer": [
+        "their"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "they",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "their",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "its",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "they",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "their",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "its",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.3,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 81,
+      "qid": "3665",
+      "level": "A1",
+      "exercise_id": "quiz-422",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "10 I need _____ tools, please.",
+      "adapted_text": "Can I borrow _____ notebook for class?",
+      "source_correct_answer": [
+        "your"
+      ],
+      "adapted_correct_answer": [
+        "your"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "your",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "you",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "yours",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "your",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "you",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "yours",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1111,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 82,
+      "qid": "3647",
+      "level": "A1",
+      "exercise_id": "quiz-423",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "1 Sally is in {{gap_1}} room.",
+      "adapted_text": "Emma is looking for {{gap_1}} lost jacket.",
+      "source_correct_answer": [
+        "her"
+      ],
+      "adapted_correct_answer": [
+        "her"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1111,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 83,
+      "qid": "3648",
+      "level": "A1",
+      "exercise_id": "quiz-423",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "2 Paul and Benet always help {{gap_1}} friends.",
+      "adapted_text": "The students usually visit {{gap_1}} grandparents on weekends.",
+      "source_correct_answer": [
+        "their"
+      ],
+      "adapted_correct_answer": [
+        "their"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 84,
+      "qid": "3649",
+      "level": "A1",
+      "exercise_id": "quiz-423",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "3 We live with {{gap_1}} parents.",
+      "adapted_text": "We always clean {{gap_1}} classroom after the final lesson.",
+      "source_correct_answer": [
+        "our"
+      ],
+      "adapted_correct_answer": [
+        "our"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0909,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 85,
+      "qid": "3650",
+      "level": "A1",
+      "exercise_id": "quiz-423",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "4 Is that {{gap_1}} hat?",
+      "adapted_text": "Did you bring {{gap_1}} umbrella today?",
+      "source_correct_answer": [
+        "your"
+      ],
+      "adapted_correct_answer": [
+        "your"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 86,
+      "qid": "3651",
+      "level": "A1",
+      "exercise_id": "quiz-423",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "5 The police officers don't have {{gap_1}} guns.",
+      "adapted_text": "The musicians forgot {{gap_1}} instruments in the tour bus.",
+      "source_correct_answer": [
+        "their"
+      ],
+      "adapted_correct_answer": [
+        "their"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0833,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 87,
+      "qid": "3655",
+      "level": "A1",
+      "exercise_id": "quiz-423",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "6 The best part of this car is {{gap_1}} price.",
+      "adapted_text": "The old restaurant is famous for {{gap_1}} delicious food.",
+      "source_correct_answer": [
+        "its"
+      ],
+      "adapted_correct_answer": [
+        "its"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1429,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 88,
+      "qid": "3652",
+      "level": "A1",
+      "exercise_id": "quiz-423",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "7 Amanda lives with {{gap_1}} parents.",
+      "adapted_text": "Sarah called {{gap_1}} sister after work.",
+      "source_correct_answer": [
+        "her"
+      ],
+      "adapted_correct_answer": [
+        "her"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 89,
+      "qid": "3653",
+      "level": "A1",
+      "exercise_id": "quiz-423",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "8 I don't like {{gap_1}} new job.",
+      "adapted_text": "I often lose {{gap_1}} house keys.",
+      "source_correct_answer": [
+        "my"
+      ],
+      "adapted_correct_answer": [
+        "my"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1111,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 90,
+      "qid": "3654",
+      "level": "A1",
+      "exercise_id": "quiz-423",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "9 These shoes are famous for {{gap_1}} comfort.",
+      "adapted_text": "The students forgot {{gap_1}} backpacks at school.",
+      "source_correct_answer": [
+        "their"
+      ],
+      "adapted_correct_answer": [
+        "their"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 91,
+      "qid": "3656",
+      "level": "A1",
+      "exercise_id": "quiz-423",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "10 Thomas is in {{gap_1}} office.",
+      "adapted_text": "David left {{gap_1}} laptop on the desk.",
+      "source_correct_answer": [
+        "his"
+      ],
+      "adapted_correct_answer": [
+        "his"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 92,
+      "qid": "3666",
+      "level": "A1",
+      "exercise_id": "quiz-424",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "1 It's {{gap_1}} animal.",
+      "adapted_text": "1 Look over there, it is {{gap_1}} eagle.",
+      "source_correct_answer": [
+        "an"
+      ],
+      "adapted_correct_answer": [
+        "an"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 93,
+      "qid": "3667",
+      "level": "A1",
+      "exercise_id": "quiz-424",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "2 I need {{gap_1}} new bed.",
+      "adapted_text": "2 We should buy {{gap_1}} wooden desk.",
+      "source_correct_answer": [
+        "a"
+      ],
+      "adapted_correct_answer": [
+        "a"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 94,
+      "qid": "3668",
+      "level": "A1",
+      "exercise_id": "quiz-424",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "3 It's {{gap_1}} useful machine.",
+      "adapted_text": "3 A smartphone is {{gap_1}} useful tool.",
+      "source_correct_answer": [
+        "a"
+      ],
+      "adapted_correct_answer": [
+        "a"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 95,
+      "qid": "3669",
+      "level": "A1",
+      "exercise_id": "quiz-424",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "4 I'm {{gap_1}} waiter.",
+      "adapted_text": "4 My uncle works as {{gap_1}} plumber.",
+      "source_correct_answer": [
+        "a"
+      ],
+      "adapted_correct_answer": [
+        "a"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 96,
+      "qid": "3670",
+      "level": "A1",
+      "exercise_id": "quiz-424",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "5 Do you have {{gap_1}} umbrella?",
+      "adapted_text": "5 Did you pack {{gap_1}} extra umbrella?",
+      "source_correct_answer": [
+        "an"
+      ],
+      "adapted_correct_answer": [
+        "an"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1667,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 97,
+      "qid": "3671",
+      "level": "A1",
+      "exercise_id": "quiz-424",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "6 I'm {{gap_1}} English teacher.",
+      "adapted_text": "6 She wants to be {{gap_1}} Italian chef.",
+      "source_correct_answer": [
+        "an"
+      ],
+      "adapted_correct_answer": [
+        "an"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 98,
+      "qid": "3672",
+      "level": "A1",
+      "exercise_id": "quiz-424",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "7 I need {{gap_1}} hat.",
+      "adapted_text": "7 He bought {{gap_1}} warm scarf for winter.",
+      "source_correct_answer": [
+        "a"
+      ],
+      "adapted_correct_answer": [
+        "a"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 99,
+      "qid": "3673",
+      "level": "A1",
+      "exercise_id": "quiz-424",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "8 Is she {{gap_1}} student?",
+      "adapted_text": "8 Is your brother {{gap_1}} pilot?",
+      "source_correct_answer": [
+        "a"
+      ],
+      "adapted_correct_answer": [
+        "a"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1667,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 100,
+      "qid": "3674",
+      "level": "A1",
+      "exercise_id": "quiz-424",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "9 We have {{gap_1}} ugly duck.",
+      "adapted_text": "9 There is {{gap_1}} unusual bird in the tree.",
+      "source_correct_answer": [
+        "an"
+      ],
+      "adapted_correct_answer": [
+        "an"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    }
+  ]
+}

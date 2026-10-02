@@ -1,0 +1,2857 @@
+{
+  "metadata": {
+    "batch_id": "review_batch_001_050",
+    "generated_at": "2026-10-01T12:26:33.073167+00:00",
+    "start_index": 1,
+    "end_index": 50,
+    "item_count": 50,
+    "status": "PREPARED_FOR_HQ_REVIEW",
+    "teacher_reviewed": false,
+    "queue_source": "data/reports/TASK-021_anomaly_evidence.json",
+    "remaining_unreviewed_in_queue": 1
+  },
+  "questions": [
+    {
+      "review_index": 1,
+      "qid": "3760",
+      "level": "A1",
+      "exercise_id": "quiz-434",
+      "exercise_title": "Exercise 1",
+      "response_model": "single_choice",
+      "source_text": "2 _____?",
+      "adapted_text": "A: Emma wakes up early every day. B: _____?",
+      "source_correct_answer": [
+        "What time does she get up"
+      ],
+      "adapted_correct_answer": [
+        "What time does she get up"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "What time does she get up",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "What time she does get up",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "What time she gets up",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "What time gets up she",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "What time does she get up",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "What time she does get up",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "What time she gets up",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "What time gets up she",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 2,
+      "qid": "3761",
+      "level": "A1",
+      "exercise_id": "quiz-434",
+      "exercise_title": "Exercise 1",
+      "response_model": "single_choice",
+      "source_text": "3 _____?",
+      "adapted_text": "A: There's a new visitor near the entrance. B: _____?",
+      "source_correct_answer": [
+        "Who is the man over there"
+      ],
+      "adapted_correct_answer": [
+        "Who is the man over there"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Who is the man over there",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Who the man over there is",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Who the man is over there",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Who over there is the man",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Who is the man over there",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Who the man over there is",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Who the man is over there",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Who over there is the man",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 3,
+      "qid": "3762",
+      "level": "A1",
+      "exercise_id": "quiz-434",
+      "exercise_title": "Exercise 1",
+      "response_model": "single_choice",
+      "source_text": "4 _____?",
+      "adapted_text": "A: Your sister grew up abroad. B: _____?",
+      "source_correct_answer": [
+        "Where is your sister from"
+      ],
+      "adapted_correct_answer": [
+        "Where is your sister from"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Where your sister is from",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Where is your sister from",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "Where from is your sister",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Where does your sister be from",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Where your sister is from",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Where is your sister from",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "Where from is your sister",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Where does your sister be from",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 4,
+      "qid": "3763",
+      "level": "A1",
+      "exercise_id": "quiz-434",
+      "exercise_title": "Exercise 1",
+      "response_model": "single_choice",
+      "source_text": "5 _____?",
+      "adapted_text": "A: Mark sits at a desk all day. B: _____?",
+      "source_correct_answer": [
+        "Does he do exercise"
+      ],
+      "adapted_correct_answer": [
+        "Does he do exercise"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "He does exercise",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "He does do exercise",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Do he does exercise",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Does he do exercise",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "He does exercise",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "He does do exercise",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Do he does exercise",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Does he do exercise",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 5,
+      "qid": "3764",
+      "level": "A1",
+      "exercise_id": "quiz-434",
+      "exercise_title": "Exercise 1",
+      "response_model": "single_choice",
+      "source_text": "6 _____?",
+      "adapted_text": "A: You're applying for the hotel position. B: _____?",
+      "source_correct_answer": [
+        "Why do you want this job"
+      ],
+      "adapted_correct_answer": [
+        "Why do you want this job"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Why you do want this job",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Why you want this job",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Why do you want this job",
+          "is_correct": 1
+        },
+        {
+          "order": 4,
+          "text": "Why want you this job",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Why you do want this job",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Why you want this job",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Why do you want this job",
+          "is_correct": 1
+        },
+        {
+          "order": 4,
+          "text": "Why want you this job",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 6,
+      "qid": "3766",
+      "level": "A1",
+      "exercise_id": "quiz-434",
+      "exercise_title": "Exercise 1",
+      "response_model": "single_choice",
+      "source_text": "8 _____?",
+      "adapted_text": "A: I need to discuss the project with you. B: _____?",
+      "source_correct_answer": [
+        "When are you free"
+      ],
+      "adapted_correct_answer": [
+        "When are you free"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "When you are free",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "When free are you",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "When do you be free",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "When are you free",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "When you are free",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "When free are you",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "When do you be free",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "When are you free",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 7,
+      "qid": "3767",
+      "level": "A1",
+      "exercise_id": "quiz-434",
+      "exercise_title": "Exercise 1",
+      "response_model": "single_choice",
+      "source_text": "9 _____?",
+      "adapted_text": "A: I haven't met your sister yet. B: _____?",
+      "source_correct_answer": [
+        "How old is your sister"
+      ],
+      "adapted_correct_answer": [
+        "How old is your sister"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "How your sister is old",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "How old is your sister",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "How old your sister is",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "How old does your sister be",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "How your sister is old",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "How old is your sister",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "How old your sister is",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "How old does your sister be",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 8,
+      "qid": "3768",
+      "level": "A1",
+      "exercise_id": "quiz-434",
+      "exercise_title": "Exercise 1",
+      "response_model": "single_choice",
+      "source_text": "10 _____?",
+      "adapted_text": "A: You said your friend grew up abroad. B: _____?",
+      "source_correct_answer": [
+        "Is your friend from Canada"
+      ],
+      "adapted_correct_answer": [
+        "Is your friend from Canada"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Is your friend from Canada",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Is from Canada your friend",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Your friend is from Canada",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Does your friend be from Canada",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Is your friend from Canada",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Is from Canada your friend",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Your friend is from Canada",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Does your friend be from Canada",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Questions: Word order and question words",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 9,
+      "qid": "3994",
+      "level": "A1",
+      "exercise_id": "quiz-457",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "5 Can you hear that? Our neighbours _____.",
+      "adapted_text": "What's that noise from upstairs? The people next door _____ again.",
+      "source_correct_answer": [
+        "are arguing"
+      ],
+      "adapted_correct_answer": [
+        "are arguing"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "argue",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "arguing",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "are arguing",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "argue",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "arguing",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "are arguing",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Present simple or present continuous?",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0667
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 10,
+      "qid": "3998",
+      "level": "A1",
+      "exercise_id": "quiz-457",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "9 'Where is Jane?' 'In the living room. She___________ a movie.'",
+      "adapted_text": "Where's Maya? She's in the study. She _____ a documentary on her tablet.",
+      "source_correct_answer": [
+        "'s watching"
+      ],
+      "adapted_correct_answer": [
+        "'s watching"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "'s watching",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "watching",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "watches",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "'s watching",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "watching",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "watches",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Present simple or present continuous?",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.2222
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 11,
+      "qid": "3999",
+      "level": "A1",
+      "exercise_id": "quiz-457",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "10 I _____________ TV when I'm having dinner.",
+      "adapted_text": "I usually study with music, but I _____ videos while I'm working.",
+      "source_correct_answer": [
+        "never watch"
+      ],
+      "adapted_correct_answer": [
+        "never watch"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "'m never watching",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "never watch",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "'m never watch",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "'m never watching",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "never watch",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "'m never watch",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Present simple or present continuous?",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.1429
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 12,
+      "qid": "4085",
+      "level": "A1",
+      "exercise_id": "quiz-469",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "2 _____ to the party last weekend?",
+      "adapted_text": "The concert was great! _____ to it last night?",
+      "source_correct_answer": [
+        "Did you go"
+      ],
+      "adapted_correct_answer": [
+        "Did you go"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Did you go",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Went you",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Did you went",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Did you go",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Went you",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Did you went",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Past simple: Negatives and questions",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.3
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 13,
+      "qid": "4090",
+      "level": "A1",
+      "exercise_id": "quiz-469",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "7 How much _____ for it?",
+      "adapted_text": "That handmade lamp looks expensive. How much _____ for it?",
+      "source_correct_answer": [
+        "did you pay"
+      ],
+      "adapted_correct_answer": [
+        "did you pay"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "did you paid",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "did you pay",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "paid you",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "did you paid",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "did you pay",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "paid you",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Past simple: Negatives and questions",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.4444
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 14,
+      "qid": "4091",
+      "level": "A1",
+      "exercise_id": "quiz-469",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "8 They _____ the play very much.",
+      "adapted_text": "We stayed for the whole performance, but we _____ the final act.",
+      "source_correct_answer": [
+        "didn't enjoy"
+      ],
+      "adapted_correct_answer": [
+        "didn't enjoy"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "weren't enjoy",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "didn't enjoyed",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "didn't enjoy",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "weren't enjoy",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "didn't enjoyed",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "didn't enjoy",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Past simple: Negatives and questions",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0769
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 15,
+      "qid": "4151",
+      "level": "A1",
+      "exercise_id": "quiz-475",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "9 _____ milk and cookies in the kitchen.",
+      "adapted_text": "_____ a tray with tea, fruit, and cups on the table.",
+      "source_correct_answer": [
+        "There is"
+      ],
+      "adapted_correct_answer": [
+        "There is"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "There are",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "There is",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "There aren't",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "There are",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "There is",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "There aren't",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "There is, there are / there was, there were",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.1429
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 16,
+      "qid": "4236",
+      "level": "A1",
+      "exercise_id": "quiz-484",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "2 _____ the world lives in Indonesia.",
+      "adapted_text": "_____ our village lives near the river.",
+      "source_correct_answer": [
+        "The oldest man in"
+      ],
+      "adapted_correct_answer": [
+        "The oldest man in"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "The oldest man of",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "The oldest man in",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "The most old man of",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "The oldest man of",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "The oldest man in",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "The most old man of",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Superlative adjectives: The oldest, the most important, etc.",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.1429
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 17,
+      "qid": "2947",
+      "level": "A2",
+      "exercise_id": "quiz-343",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "1 I dreamt about our old house in Cornwall. ⇒ What _____?",
+      "adapted_text": "I recently had a strange dream about my old school. ⇒ What _____?",
+      "source_correct_answer": [
+        "did you dream about"
+      ],
+      "adapted_correct_answer": [
+        "did you dream about"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "dreamt you",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "dreamt you about",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "did you dream about",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "dreamt you",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "dreamt you about",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "did you dream about",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Subject questions, questions with preposition",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.2143
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 18,
+      "qid": "2948",
+      "level": "A2",
+      "exercise_id": "quiz-343",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "2 I always listen to Jack's advice. ⇒ What _____?",
+      "adapted_text": "I enjoy listening to podcasts on my commute. ⇒ What _____?",
+      "source_correct_answer": [
+        "do you always listen to"
+      ],
+      "adapted_correct_answer": [
+        "do you always listen to"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "you do always listen to",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "do you always listen to",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "do you always listen",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "you do always listen to",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "do you always listen to",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "do you always listen",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Subject questions, questions with preposition",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.2
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 19,
+      "qid": "2949",
+      "level": "A2",
+      "exercise_id": "quiz-343",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "3 Jason kissed Virginia at the playground. ⇒ _____ at the playground?",
+      "adapted_text": "Someone kissed Virginia after the show. ⇒ _____ at the theater?",
+      "source_correct_answer": [
+        "Who kissed Virginia"
+      ],
+      "adapted_correct_answer": [
+        "Who kissed Virginia"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Who kissed Virginia",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Who did kiss Virginia",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Who did Virginia kiss",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Who kissed Virginia",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Who did kiss Virginia",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Who did Virginia kiss",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Subject questions, questions with preposition",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.25
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 20,
+      "qid": "2950",
+      "level": "A2",
+      "exercise_id": "quiz-343",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "4 Jason kissed Virginia at the playground. ⇒ _____ at the playground?",
+      "adapted_text": "Jason met Linda at the café. ⇒ _____ at the café?",
+      "source_correct_answer": [
+        "Who did Jason kiss"
+      ],
+      "adapted_correct_answer": [
+        "Who did Jason kiss"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Who Jason kissed",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Who did Jason kiss",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "Who kissed Jason",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Who Jason kissed",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Who did Jason kiss",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "Who kissed Jason",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Subject questions, questions with preposition",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.25
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 21,
+      "qid": "2951",
+      "level": "A2",
+      "exercise_id": "quiz-343",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "5 Lewis asked his boss for a promotion. ⇒ What _____?",
+      "adapted_text": "Lewis asked his boss for a day off. ⇒ What _____?",
+      "source_correct_answer": [
+        "did Lewis ask his boss for"
+      ],
+      "adapted_correct_answer": [
+        "did Lewis ask his boss for"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Lewis did ask his boss for",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Lewis asked his boss for",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "did Lewis ask his boss for",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Lewis did ask his boss for",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Lewis asked his boss for",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "did Lewis ask his boss for",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Subject questions, questions with preposition",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.5
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 22,
+      "qid": "2953",
+      "level": "A2",
+      "exercise_id": "quiz-343",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "7 Lewis asked his boss for a promotion. ⇒ _____ for a promotion?",
+      "adapted_text": "Lewis asked his manager for a raise. ⇒ _____ for a raise?",
+      "source_correct_answer": [
+        "Who did Lewis ask"
+      ],
+      "adapted_correct_answer": [
+        "Who did Lewis ask"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Who did Lewis ask",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Who asked Lewis",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Who did ask Lewis",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Who did Lewis ask",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Who asked Lewis",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Who did ask Lewis",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Subject questions, questions with preposition",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.5
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 23,
+      "qid": "2955",
+      "level": "A2",
+      "exercise_id": "quiz-343",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "9 Alexander Graham Bell invented the telephone. ⇒ What _____?",
+      "adapted_text": "At the science museum, we learned that Alexander Graham Bell created the telephone. ⇒ What _____?",
+      "source_correct_answer": [
+        "did Alexander Graham Bell invent"
+      ],
+      "adapted_correct_answer": [
+        "did Alexander Graham Bell invent"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "did Alexander Graham Bell invent",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "invented Alexander Graham Bell",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "did invent Alexander Graham Bell",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "did Alexander Graham Bell invent",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "invented Alexander Graham Bell",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "did invent Alexander Graham Bell",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Subject questions, questions with preposition",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.2727
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 24,
+      "qid": "2956",
+      "level": "A2",
+      "exercise_id": "quiz-343",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "10 Alexander Fleming discovered penicillin. ⇒ Who _____?",
+      "adapted_text": "At the science museum, we learned about Alexander Fleming and penicillin. ⇒ Who _____?",
+      "source_correct_answer": [
+        "discovered penicillin"
+      ],
+      "adapted_correct_answer": [
+        "discovered penicillin"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "did Alexander Fleming discover",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "did discover penicillin",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "discovered penicillin",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "did Alexander Fleming discover",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "did discover penicillin",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "discovered penicillin",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Subject questions, questions with preposition",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.2727
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 25,
+      "qid": "2680",
+      "level": "A2",
+      "exercise_id": "quiz-279",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "2 I ________.",
+      "adapted_text": "I have plenty of free time, but I _____.",
+      "source_correct_answer": [
+        "don't do sport very often"
+      ],
+      "adapted_correct_answer": [
+        "don't do sport very often"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "aren't very often doing sport",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "don't very often do sport",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "don't do sport very often",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "aren't very often doing sport",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "don't very often do sport",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "don't do sport very often",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Present simple vs present continuous",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.1429
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 26,
+      "qid": "2880",
+      "level": "A2",
+      "exercise_id": "quiz-330",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "1 After the conference, I _____ that a man _____ the walls of the building.",
+      "adapted_text": "On my way to the station, I _____ a street artist while he _____ a wall.",
+      "source_correct_answer": [
+        "saw / was painting"
+      ],
+      "adapted_correct_answer": [
+        "saw / was painting"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "was seeing / was painting",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "saw / was painting",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "was seeing / painted",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "was seeing / was painting",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "saw / was painting",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "was seeing / painted",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Past continuous and past simple",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.15
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 27,
+      "qid": "2882",
+      "level": "A2",
+      "exercise_id": "quiz-330",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "3 I _____ the vase while I _____ the bookshelf.",
+      "adapted_text": "During the move, I _____ a lamp while I _____ the living room.",
+      "source_correct_answer": [
+        "broke / was cleaning"
+      ],
+      "adapted_correct_answer": [
+        "broke / was cleaning"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "broke / was cleaning",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "broke / cleaned",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "was breaking / was cleaning",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "broke / was cleaning",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "broke / cleaned",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "was breaking / was cleaning",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Past continuous and past simple",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.2727
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 28,
+      "qid": "2888",
+      "level": "A2",
+      "exercise_id": "quiz-330",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "9 When I last _____ her she ______ high-heeled shoes.",
+      "adapted_text": "At the airport yesterday, I _____ my cousin, and she _____ a blue jacket.",
+      "source_correct_answer": [
+        "saw / was wearing"
+      ],
+      "adapted_correct_answer": [
+        "saw / was wearing"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "saw / wore",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "was seeing / was wearing",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "saw / was wearing",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "saw / wore",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "was seeing / was wearing",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "saw / was wearing",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Past continuous and past simple",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.1111
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 29,
+      "qid": "5193",
+      "level": "A2",
+      "exercise_id": "quiz-605",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "5 I need to go home _____ my homework.",
+      "adapted_text": "I need a quiet evening _____ my report.",
+      "source_correct_answer": [
+        "to finish"
+      ],
+      "adapted_correct_answer": [
+        "to finish"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "for finishing",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "to finish",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "for finish",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "for finishing",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "to finish",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "for finish",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Expressing purpose with 'to' and 'for'",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.3
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 30,
+      "qid": "2890",
+      "level": "A2",
+      "exercise_id": "quiz-336",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "2 A: I've bought this paint because I _____ the kitchen. B: I'm sure it _____ fantastic.",
+      "adapted_text": "A: We chose a new colour because I _____ the study.\nB: I'm sure it _____ much brighter.",
+      "source_correct_answer": [
+        "'m going to paint / will look"
+      ],
+      "adapted_correct_answer": [
+        "'m going to paint / will look"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "'m going to paint / will look",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "will paint / 's looking",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "will paint / will look",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "'m going to paint / will look",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "will paint / 's looking",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "will paint / will look",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "'Will' vs 'be going to': Future forms",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.3158
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 31,
+      "qid": "2891",
+      "level": "A2",
+      "exercise_id": "quiz-336",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "3 A: What _____ after you graduate? B: I _____ around the world.",
+      "adapted_text": "A: What _____ during the summer break?\nB: I _____ around South America.",
+      "source_correct_answer": [
+        "are you going to do / 'm going to travel"
+      ],
+      "adapted_correct_answer": [
+        "are you going to do / 'm going to travel"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "will you do / 'm going to travel",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "are you going to do / 'm going to travel",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "are you going to do / will travel",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "will you do / 'm going to travel",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "are you going to do / 'm going to travel",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "are you going to do / will travel",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "'Will' vs 'be going to': Future forms",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.3333
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 32,
+      "qid": "2897",
+      "level": "A2",
+      "exercise_id": "quiz-336",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "9 A: They are winning 2-1 and there are only 2 minutes left. They _____ this match. B: No, I think maybe Manchester United _____ a goal in the last minute.",
+      "adapted_text": "They are leading 3-1 with only a minute left. They _____ this match.\nB: Maybe, but our team _____ another goal before the whistle.",
+      "source_correct_answer": [
+        "are going to win / will score"
+      ],
+      "adapted_correct_answer": [
+        "are going to win / will score"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "are going to win / will score",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "will win / will score",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "are going to win / are going to score",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "are going to win / will score",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "will win / will score",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "are going to win / are going to score",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "'Will' vs 'be going to': Future forms",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.3438
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 33,
+      "qid": "2962",
+      "level": "A2",
+      "exercise_id": "quiz-346",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "5 A: 'Did you remember to make the reservation?' B: 'Oh no, I forgot. I _____ the hotel right now.'",
+      "adapted_text": "A: The hotel reservation isn't confirmed.\nB: Don't worry. I _____ them now.",
+      "source_correct_answer": [
+        "'ll call"
+      ],
+      "adapted_correct_answer": [
+        "'ll call"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "'ll call",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "'m calling",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "'m going to call",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "'ll call",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "'m calling",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "'m going to call",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Present continuous for future arrangements",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.2632
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 34,
+      "qid": "2963",
+      "level": "A2",
+      "exercise_id": "quiz-346",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "6 A: 'Why did you buy a guitar if you can't play?' B. 'No, but I _____.'",
+      "adapted_text": "A: Can you play the guitar yet?\nB: Not yet, but I _____.",
+      "source_correct_answer": [
+        "'m going to learn"
+      ],
+      "adapted_correct_answer": [
+        "'m going to learn"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "will learn",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "'m learning",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "'m going to learn",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "will learn",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "'m learning",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "'m going to learn",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Present continuous for future arrangements",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.2941
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 35,
+      "qid": "3076",
+      "level": "A2",
+      "exercise_id": "quiz-360",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "4 He _____ in London for three years and now he lives in Dublin.",
+      "adapted_text": "She _____ in Lisbon for two years before moving to Madrid.",
+      "source_correct_answer": [
+        "lived"
+      ],
+      "adapted_correct_answer": [
+        "lived"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "'s lived",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "lives",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "lived",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "'s lived",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "lives",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "lived",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Present perfect or past simple?",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.1765
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 36,
+      "qid": "3077",
+      "level": "A2",
+      "exercise_id": "quiz-360",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "5 _____ the door when you left?",
+      "adapted_text": "_____ the windows before you left the office?",
+      "source_correct_answer": [
+        "Did you lock"
+      ],
+      "adapted_correct_answer": [
+        "Did you lock"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Did you lock",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Did you locked",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Have you locked",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Did you lock",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Did you locked",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Have you locked",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Present perfect or past simple?",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.2857
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 37,
+      "qid": "3082",
+      "level": "A2",
+      "exercise_id": "quiz-360",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "8 A: '_____ their homework yet?' B: 'Yes, they _____ it when they arrived from school.'",
+      "adapted_text": "A: _____ their project yet?\nB: Yes, they _____ it before dinner.",
+      "source_correct_answer": [
+        "Have the kids done / did"
+      ],
+      "adapted_correct_answer": [
+        "Have the kids done / did"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Have the kids done / did",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Did the kids do / did",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Did the kids do / 've done",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Have the kids done / did",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Did the kids do / did",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Did the kids do / 've done",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Present perfect or past simple?",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.3846
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 38,
+      "qid": "6180",
+      "level": "A2",
+      "exercise_id": "quiz-722",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "1 He showed _____.",
+      "adapted_text": "After the incident, the witness sent _____.",
+      "source_correct_answer": [
+        "the police a video of the robbers."
+      ],
+      "adapted_correct_answer": [
+        "the police a video of the robbers."
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "the police a video of the robbers.",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "to the police a video of the robbers.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "a video of the robbers for the police",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "the police a video of the robbers.",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "to the police a video of the robbers.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "a video of the robbers for the police",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Verbs with two objects",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 39,
+      "qid": "6186",
+      "level": "A2",
+      "exercise_id": "quiz-722",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "7 He reads _____ every night.",
+      "adapted_text": "Every evening, the teacher reads _____ before bed.",
+      "source_correct_answer": [
+        "them a story"
+      ],
+      "adapted_correct_answer": [
+        "them a story"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "them a story",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "to them a story",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "a story them",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "them a story",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "to them a story",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "a story them",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Verbs with two objects",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.2222
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 40,
+      "qid": "6188",
+      "level": "A2",
+      "exercise_id": "quiz-722",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "9 He has offered _____.",
+      "adapted_text": "He wanted to help his brother, so he offered _____ after the interview.",
+      "source_correct_answer": [
+        "a job to his brother"
+      ],
+      "adapted_correct_answer": [
+        "a job to his brother"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "to his brother a job",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "a job his brother",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "a job to his brother",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "to his brother a job",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "a job his brother",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "a job to his brother",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Verbs with two objects",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.2222
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 41,
+      "qid": "6189",
+      "level": "A2",
+      "exercise_id": "quiz-722",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "10 Send _____.",
+      "adapted_text": "Please send _____ after the meeting.",
+      "source_correct_answer": [
+        "them a copy"
+      ],
+      "adapted_correct_answer": [
+        "them a copy"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "a copy them",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "to them a copy",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "them a copy",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "a copy them",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "to them a copy",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "them a copy",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Verbs with two objects",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_A_CHOICE_GAP_PLACEHOLDER",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.2
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 42,
+      "qid": "53",
+      "level": "B1-B2",
+      "exercise_id": "quiz-8",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "1 Where is he from? ⇒ Do you know {{gap_1}}?",
+      "adapted_text": "Could you tell me {{gap_1}}?",
+      "source_correct_answer": [
+        "where he is from"
+      ],
+      "adapted_correct_answer": [
+        "where he is from"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Indirect questions",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_C_CROSS_ADAPTATION_COLLISION",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.1667
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 43,
+      "qid": "5038",
+      "level": "A1",
+      "exercise_id": "quiz-589",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "9 The ball is {{gap_1}} the net.",
+      "adapted_text": "The cat is hiding {{gap_1}} the sofa.",
+      "source_correct_answer": [
+        "behind"
+      ],
+      "adapted_correct_answer": [
+        "behind"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Next to, under, between, in front of, behind, over, etc.",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_C_CROSS_ADAPTATION_COLLISION",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.2857
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 44,
+      "qid": "5044",
+      "level": "A1",
+      "exercise_id": "quiz-590",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "5 The ball is _____ the dog.",
+      "adapted_text": "The car is _____ the house.",
+      "source_correct_answer": [
+        "in front of"
+      ],
+      "adapted_correct_answer": [
+        "in front of"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "in front of",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "opposite",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "between",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "next to",
+          "is_correct": 0
+        },
+        {
+          "order": 5,
+          "text": "behind",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "in front of",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "opposite",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "between",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "next to",
+          "is_correct": 0
+        },
+        {
+          "order": 5,
+          "text": "behind",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Next to, under, between, in front of, behind, over, etc.",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_C_CROSS_ADAPTATION_COLLISION",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.3333
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 45,
+      "qid": "5160",
+      "level": "A1",
+      "exercise_id": "quiz-602",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "2 I _____ playing computer games with my friends.",
+      "adapted_text": "They _____ listening to music in the evening.",
+      "source_correct_answer": [
+        "like"
+      ],
+      "adapted_correct_answer": [
+        "like"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "like",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "'d like",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "'d like to",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "like",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "'d like",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "'d like to",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Would you like...? I'd like...",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_C_CROSS_ADAPTATION_COLLISION",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 46,
+      "qid": "7493",
+      "level": "A2",
+      "exercise_id": "quiz-880",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "8 I hope I make it there {{gap_1}} to say goodbye to him.",
+      "adapted_text": "We arrived at the station {{gap_1}} to catch the last train.",
+      "source_correct_answer": [
+        "in time"
+      ],
+      "adapted_correct_answer": [
+        "in time"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "On time vs In time, At the end vs In the end",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_C_CROSS_ADAPTATION_COLLISION",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0588
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 47,
+      "qid": "2356",
+      "level": "B1-B2",
+      "exercise_id": "quiz-269",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "9 Do you have any idea ______?",
+      "adapted_text": "Could you tell me _____?",
+      "source_correct_answer": [
+        "who the man in black is"
+      ],
+      "adapted_correct_answer": [
+        "who the man in black is"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "is who the man in black",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "who's the man in black",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "who the man in black is",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "is who the man in black",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "who's the man in black",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "who the man in black is",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Indirect questions",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_C_CROSS_ADAPTATION_COLLISION",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.125
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 48,
+      "qid": "6739",
+      "level": "B1",
+      "exercise_id": "quiz-782",
+      "exercise_title": "Exercise 1",
+      "response_model": "single_choice",
+      "source_text": "6 The accident caused a _____ queue.",
+      "adapted_text": "They completed a _____ hike through the national park.",
+      "source_correct_answer": [
+        "10-mile"
+      ],
+      "adapted_correct_answer": [
+        "10-mile"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "10-mile",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "10-miles",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "10 miles",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "10-mile",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "10-miles",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "10 miles",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Compound adjectives with numbers: 'a two-day trip'",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_C_CROSS_ADAPTATION_COLLISION",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.1818
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 49,
+      "qid": "56",
+      "level": "B1-B2",
+      "exercise_id": "quiz-8",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "4 Have you finished the report yet? ⇒ I'd like to know {{gap_1}}.",
+      "adapted_text": "Could you tell me {{gap_1}}?",
+      "source_correct_answer": [
+        "if you have finished the report yet"
+      ],
+      "adapted_correct_answer": [
+        "if you have finished the report yet"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Indirect questions",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_C_CROSS_ADAPTATION_COLLISION",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.0
+      },
+      "priority_flag": "HIGH"
+    },
+    {
+      "review_index": 50,
+      "qid": "5047",
+      "level": "A1",
+      "exercise_id": "quiz-590",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "9 The ball is _____ the dog.",
+      "adapted_text": "The car is _____ the house.",
+      "source_correct_answer": [
+        "in front of"
+      ],
+      "adapted_correct_answer": [
+        "in front of"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "in front of",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "next to",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "under",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "over",
+          "is_correct": 0
+        },
+        {
+          "order": 5,
+          "text": "behind",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "in front of",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "next to",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "under",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "over",
+          "is_correct": 0
+        },
+        {
+          "order": 5,
+          "text": "behind",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Next to, under, between, in front of, behind, over, etc.",
+      "relevant_machine_flags": {
+        "original_anomaly_category": "CATEGORY_C_CROSS_ADAPTATION_COLLISION",
+        "current_status": "VALIDATED",
+        "similarity_score": 0.3333
+      },
+      "priority_flag": "HIGH"
+    }
+  ]
+}

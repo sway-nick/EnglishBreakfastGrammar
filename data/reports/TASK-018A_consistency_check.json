@@ -1,0 +1,993 @@
+{
+  "summary": {
+    "generated_at": "2026-10-01T08:31:00.335747+00:00",
+    "total_records_checked": 28,
+    "total_pass": 28,
+    "total_fail": 0,
+    "candidate_corrections_safe_to_proceed_count": 17,
+    "candidate_corrections_safe_to_proceed_qids": [
+      2894,
+      2964,
+      3361,
+      3382,
+      3694,
+      4045,
+      4054,
+      4188,
+      4214,
+      4501,
+      5069,
+      5085,
+      5088,
+      5142,
+      5144,
+      5736,
+      7139
+    ],
+    "candidate_corrections_requiring_regeneration_count": 11,
+    "candidate_corrections_requiring_regeneration_qids": [
+      2823,
+      2847,
+      2952,
+      3067,
+      3068,
+      3365,
+      3579,
+      3917,
+      4254,
+      4852,
+      5134
+    ]
+  },
+  "records": [
+    {
+      "qid": 2823,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "gap",
+      "audit_category": "C. GENUINE SHALLOW COPY / ORIGINALITY FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REJECTED",
+        "jaccard": 0.3497,
+        "levenshtein": 0.4863,
+        "matching_shingles": [
+          "and we 10",
+          "and we 4",
+          "day we 19",
+          "first night in",
+          "not be any",
+          "spend the first",
+          "stay there for",
+          "the day we",
+          "the first night",
+          "the week we",
+          "there for the",
+          "week we 11"
+        ],
+        "reasons": [
+          "High-confidence shallow copy: verbatim shingle(s) ['and we 10', 'and we 4'] with elevated similarity (Jaccard=0.3497, Lev=0.4863)."
+        ],
+        "readiness": "REQUIRES_REGENERATION"
+      },
+      "source_text_excerpt": "Two summers ago we 1 {{gap_1}} (have) a holiday in Scotland. We 2 {{gap_2}} (drive) there from Londo",
+      "candidate_text_excerpt": "Four autumns ago our research crew 1 {{gap_1}} (have) an expedition in the Yorkshire Dales. We 2 {{g",
+      "expected_grammar_target": "Past Simple narrative affirmative and negative irregular verbs across 20 blanks",
+      "expected_answer_preservation": "All 20 source answers preserved in exact original sequence",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 2847,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "gap",
+      "audit_category": "C. GENUINE SHALLOW COPY / ORIGINALITY FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REJECTED",
+        "jaccard": 0.3373,
+        "levenshtein": 0.3585,
+        "matching_shingles": [
+          "and he 4",
+          "arrive at the",
+          "get off the",
+          "jacket and 10",
+          "take off his"
+        ],
+        "reasons": [
+          "High-confidence shallow copy: verbatim shingle(s) ['and he 4', 'arrive at the'] with elevated similarity (Jaccard=0.3373, Lev=0.3585)."
+        ],
+        "readiness": "REQUIRES_REGENERATION"
+      },
+      "source_text_excerpt": "When I 1 {{gap_1}} (arrive) at the station, Raimond 2 {{gap_2}} (wait) for me. He 3 {{gap_3}} (wear)",
+      "candidate_text_excerpt": "When the volunteer team 1 {{gap_1}} (arrive) at the mountain base, Marcus 2 {{gap_2}} (wait) beside ",
+      "expected_grammar_target": "Narrative tenses: Past Simple vs Past Continuous across 20 verbs",
+      "expected_answer_preservation": "All 20 source answers preserved in exact original sequence",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 2894,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "single_choice",
+      "audit_category": "B. GENUINE ANSWER-PRESERVATION FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "VALIDATED",
+        "jaccard": 0.3182,
+        "levenshtein": 0.3627,
+        "matching_shingles": [],
+        "reasons": [
+          "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles)."
+        ],
+        "readiness": "SAFE_TO_PROCEED"
+      },
+      "source_text_excerpt": "6 A: ______ to work today? B: Yes, but the traffic is awful, so I _____ late.",
+      "candidate_text_excerpt": "6 A: ______ to the regional conference this morning? B: Yes, but extensive road repairs are schedule",
+      "expected_grammar_target": "Future intention ('Are you going to drive') vs prediction with present evidence ('m going to be late)",
+      "expected_answer_preservation": "Exact source answer restored (\"Are you going to drive / 'm going to be\")",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 2952,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "single_choice",
+      "audit_category": "B. GENUINE ANSWER-PRESERVATION FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REJECTED",
+        "jaccard": 0.4615,
+        "levenshtein": 0.4536,
+        "matching_shingles": [
+          "asked his boss",
+          "boss for a",
+          "his boss for",
+          "lewis asked his"
+        ],
+        "reasons": [
+          "High-confidence shallow copy: verbatim shingle(s) ['asked his boss', 'boss for a'] with elevated similarity (Jaccard=0.4615, Lev=0.4536)."
+        ],
+        "readiness": "REQUIRES_REGENERATION"
+      },
+      "source_text_excerpt": "6 Lewis asked his boss for a promotion. ⇒ _____ for a promotion?",
+      "candidate_text_excerpt": "6 During the annual review, Lewis asked his boss for a department transfer. ⇒ _____ for a department",
+      "expected_grammar_target": "Subject question with 'Who' (no auxiliary inversion): 'Who asked his boss ...?'",
+      "expected_answer_preservation": "Exact source answer restored ('Who asked his boss')",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 2964,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "single_choice",
+      "audit_category": "B. GENUINE ANSWER-PRESERVATION FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REVIEW_REQUIRED",
+        "jaccard": 0.2727,
+        "levenshtein": 0.4227,
+        "matching_shingles": [
+          "don't worry i"
+        ],
+        "reasons": [
+          "Verbatim shingle detected 'don't worry i' with moderate/low similarity (Jaccard=0.2727 <= 0.40, Lev=0.4227 < 0.55). Routed to AI review."
+        ],
+        "readiness": "SAFE_PENDING_AI_REVIEW"
+      },
+      "source_text_excerpt": "7 A: 'I can't see without my glasses.' B: 'Don't worry. I _____ the letter for you.'",
+      "candidate_text_excerpt": "A: 'The tiny print on this legal disclaimer is completely illegible.' B: 'Don't worry. I _____ the c",
+      "expected_grammar_target": "Spontaneous offer/decision with 'will' ('ll read) in conversational context",
+      "expected_answer_preservation": "Exact source answer restored (\"'ll read\")",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 3067,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "gap",
+      "audit_category": "C. GENUINE SHALLOW COPY / ORIGINALITY FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REJECTED",
+        "jaccard": 0.2959,
+        "levenshtein": 0.4585,
+        "matching_shingles": [
+          "ever be to",
+          "never be to",
+          "you be to",
+          "you ever be",
+          "you ever travel",
+          "you go there"
+        ],
+        "reasons": [
+          "High-confidence shallow copy: verbatim shingle(s) ['ever be to', 'never be to'] with elevated similarity (Jaccard=0.2959, Lev=0.4585)."
+        ],
+        "readiness": "REQUIRES_REGENERATION"
+      },
+      "source_text_excerpt": "PETER: 1 {{gap_1}} (you/ever/be) to England? LAURA: I 2 {{gap_2}} (never/be) to England, but I’d lik",
+      "candidate_text_excerpt": "CARL: 1 {{gap_1}} (you/ever/be) to Iceland on tour? NORA: I 2 {{gap_2}} (never/be) to Reykjavik, but",
+      "expected_grammar_target": "Present Perfect vs Past Simple in life experience dialogue (ever/never vs specific past time)",
+      "expected_answer_preservation": "All 10 source answers preserved in exact sequence",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 3068,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "gap",
+      "audit_category": "C. GENUINE SHALLOW COPY / ORIGINALITY FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REJECTED",
+        "jaccard": 0.3371,
+        "levenshtein": 0.437,
+        "matching_shingles": [
+          "ever hear the",
+          "ever lose your",
+          "no i 2",
+          "yes i 7",
+          "you ever hear",
+          "you ever lose"
+        ],
+        "reasons": [
+          "High-confidence shallow copy: verbatim shingle(s) ['ever hear the', 'ever lose your'] with elevated similarity (Jaccard=0.3371, Lev=0.4370)."
+        ],
+        "readiness": "REQUIRES_REGENERATION"
+      },
+      "source_text_excerpt": "Dialogue 1 MARK: 1 {{gap_1}} (you/ever/hear) the group The Darkness? BIANCA: No, I 2 {{gap_2}}. What",
+      "candidate_text_excerpt": "SIMON: 1 {{gap_1}} (you/ever/hear) the podcast series History Uncovered? TARA: No, I 2 {{gap_2}}. Wh",
+      "expected_grammar_target": "Present Perfect short answers and Past Simple follow-up questions",
+      "expected_answer_preservation": "All 10 source answers preserved in exact sequence",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 3361,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "single_choice",
+      "audit_category": "D. LIKELY FALSE POSITIVE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "VALIDATED",
+        "jaccard": 0.1538,
+        "levenshtein": 0.3113,
+        "matching_shingles": [],
+        "reasons": [
+          "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles)."
+        ],
+        "readiness": "SAFE_TO_PROCEED"
+      },
+      "source_text_excerpt": "7 \"Whose medicines are these?\" \"They are not _____. Ask Sally, maybe they are _____\"",
+      "candidate_text_excerpt": "7 \"We found expensive wireless headphones in the lecture hall; whose property are they?\" \"They are c",
+      "expected_grammar_target": "Possessive pronouns 'mine' and 'hers' in compound response choice",
+      "expected_answer_preservation": "Exact source answer preserved ('mine/hers')",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 3365,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "gap",
+      "audit_category": "D. LIKELY FALSE POSITIVE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REJECTED",
+        "jaccard": 0.2585,
+        "levenshtein": 0.3607,
+        "matching_shingles": [
+          "hear that you",
+          "news from 2",
+          "react when you",
+          "thanks for 1",
+          "to hear that"
+        ],
+        "reasons": [
+          "High-confidence shallow copy: verbatim shingle(s) ['hear that you', 'news from 2'] with elevated similarity (Jaccard=0.2585, Lev=0.3607)."
+        ],
+        "readiness": "REQUIRES_REGENERATION"
+      },
+      "source_text_excerpt": "Dear James, Thanks for 1 {{gap_1}} email. It was very nice to have news from 2 {{gap_2}}. I was very",
+      "candidate_text_excerpt": "Dear Elena, Thanks for 1 {{gap_1}} detailed letter. It was wonderful to receive news from 2 {{gap_2}",
+      "expected_grammar_target": "Subject, object, and possessive pronouns across a letter (your, you, her, she, them, they, Its, it, we, our)",
+      "expected_answer_preservation": "All 10 source answers preserved in exact original sequence",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 3382,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "single_choice",
+      "audit_category": "B. GENUINE ANSWER-PRESERVATION FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "VALIDATED",
+        "jaccard": 0.2941,
+        "levenshtein": 0.3684,
+        "matching_shingles": [],
+        "reasons": [
+          "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles)."
+        ],
+        "readiness": "SAFE_TO_PROCEED"
+      },
+      "source_text_excerpt": "7 I don't know the answer. If I knew the answer, I _____ you.",
+      "candidate_text_excerpt": "7 We are uncertain about the conference schedule. If we knew the exact timetable, I _____ you immedi",
+      "expected_grammar_target": "Second conditional consequence clause: 'would' + bare infinitive ('d tell)",
+      "expected_answer_preservation": "Exact source answer restored (\"'d tell\")",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 3579,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "gap",
+      "audit_category": "C. GENUINE SHALLOW COPY / ORIGINALITY FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REJECTED",
+        "jaccard": 0.4375,
+        "levenshtein": 0.3947,
+        "matching_shingles": [
+          "me your passport",
+          "must show me",
+          "show me your",
+          "you must show"
+        ],
+        "reasons": [
+          "High-confidence shallow copy: verbatim shingle(s) ['me your passport', 'must show me'] with elevated similarity (Jaccard=0.4375, Lev=0.3947)."
+        ],
+        "readiness": "REQUIRES_REGENERATION"
+      },
+      "source_text_excerpt": "7 'You must show me your passport.' ⇒ She told me that {{gap_1}}.",
+      "candidate_text_excerpt": "'At the border gate, you must show me your passport,' instructed the border official. ⇒ The border o",
+      "expected_grammar_target": "Reported speech transformation of obligation ('must' -> 'had to' + 1st person pronoun shift)",
+      "expected_answer_preservation": "Exact source answer preserved ('I had to show her my passport')",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 3694,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "gap",
+      "audit_category": "A. GENUINE GRAMMAR / STRUCTURAL FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "VALIDATED",
+        "jaccard": 0.1667,
+        "levenshtein": 0.2424,
+        "matching_shingles": [],
+        "reasons": [
+          "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles)."
+        ],
+        "readiness": "SAFE_TO_PROCEED"
+      },
+      "source_text_excerpt": "9 {{gap_1}} elephant ⇒ {{gap_2}}",
+      "candidate_text_excerpt": "In the wildlife park: {{gap_1}} elephant ⇒ two {{gap_2}}",
+      "expected_grammar_target": "Indefinite article 'an' before vowel-initial noun + regular plural suffix '-s'",
+      "expected_answer_preservation": "Exact source answers preserved ('an', 'elephants')",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 3917,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "gap",
+      "audit_category": "A. GENUINE GRAMMAR / STRUCTURAL FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REJECTED",
+        "jaccard": 0.5,
+        "levenshtein": 0.5,
+        "matching_shingles": [
+          "make mistakes often",
+          "mistakes often you",
+          "you make mistakes"
+        ],
+        "reasons": [
+          "High-confidence shallow copy: verbatim shingle(s) ['make mistakes often', 'mistakes often you'] with elevated similarity (Jaccard=0.5000, Lev=0.5000)."
+        ],
+        "readiness": "REQUIRES_REGENERATION"
+      },
+      "source_text_excerpt": "9 You make mistakes. (often) ⇒ You {{gap_1}}.",
+      "candidate_text_excerpt": "During complex grammar exams, you make mistakes. (often) ⇒ You {{gap_1}}.",
+      "expected_grammar_target": "Adverb of frequency 'often' position immediately before lexical verb 'make'",
+      "expected_answer_preservation": "Exact source answer preserved ('often make mistakes')",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 4045,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "gap",
+      "audit_category": "A. GENUINE GRAMMAR / STRUCTURAL FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "VALIDATED",
+        "jaccard": 0.0476,
+        "levenshtein": 0.2778,
+        "matching_shingles": [],
+        "reasons": [
+          "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles)."
+        ],
+        "readiness": "SAFE_TO_PROCEED"
+      },
+      "source_text_excerpt": "10 That man over there is David. I work with {{gap_1}}.",
+      "candidate_text_excerpt": "Our new department manager is Mr. Harris. We invited {{gap_1}} to the company dinner.",
+      "expected_grammar_target": "Object pronoun 'him' referring to singular masculine noun antecedent 'Mr. Harris'",
+      "expected_answer_preservation": "Exact source answer preserved ('him')",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 4054,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "gap",
+      "audit_category": "D. LIKELY FALSE POSITIVE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REVIEW_REQUIRED",
+        "jaccard": 0.2308,
+        "levenshtein": 0.5323,
+        "matching_shingles": [],
+        "reasons": [
+          "Normalized Levenshtein similarity (0.5323) exceeds threshold (< 0.45) on standard text (len=62)."
+        ],
+        "readiness": "SAFE_PENDING_AI_REVIEW"
+      },
+      "source_text_excerpt": "5 Suzan and Tom call their daughter every day. ⇒ {{gap_1}} call {{gap_2}} every day.",
+      "candidate_text_excerpt": "Lisa and Mark visit their aunt every Sunday. ⇒ {{gap_1}} visit {{gap_2}} every Sunday.",
+      "expected_grammar_target": "Subject pronoun 'They' (plural) and object pronoun 'her' (singular feminine)",
+      "expected_answer_preservation": "Exact source answers preserved ('They', 'her')",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 4188,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "gap",
+      "audit_category": "D. LIKELY FALSE POSITIVE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REVIEW_REQUIRED",
+        "jaccard": 0.1481,
+        "levenshtein": 0.3434,
+        "matching_shingles": [
+          "two or three"
+        ],
+        "reasons": [
+          "Verbatim shingle detected 'two or three' with moderate/low similarity (Jaccard=0.1481 <= 0.40, Lev=0.3434 < 0.55). Routed to AI review."
+        ],
+        "readiness": "SAFE_PENDING_AI_REVIEW"
+      },
+      "source_text_excerpt": "5 They only scored one goal. They didn't have {{gap_1}} opportunities to score; maybe two or three.",
+      "candidate_text_excerpt": "Because the bakery was nearly closed, we didn't find {{gap_1}} fresh croissants on display; perhaps ",
+      "expected_grammar_target": "Quantifier 'many' with countable plural noun 'croissants' in negative statement",
+      "expected_answer_preservation": "Exact source answer preserved ('many')",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 4214,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "gap",
+      "audit_category": "D. LIKELY FALSE POSITIVE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "VALIDATED",
+        "jaccard": 0.1667,
+        "levenshtein": 0.3636,
+        "matching_shingles": [],
+        "reasons": [
+          "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles)."
+        ],
+        "readiness": "SAFE_TO_PROCEED"
+      },
+      "source_text_excerpt": "2 This bar is {{gap_1}} (noisy) the bars in my street.",
+      "candidate_text_excerpt": "Our downtown cafeteria is {{gap_1}} (noisy) the quiet cafés near the university library.",
+      "expected_grammar_target": "Comparative adjective form 'noisier than' (y -> ier + than)",
+      "expected_answer_preservation": "Exact source answer preserved ('noisier than')",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 4254,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "gap",
+      "audit_category": "D. LIKELY FALSE POSITIVE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REJECTED",
+        "jaccard": 0.243,
+        "levenshtein": 0.4057,
+        "matching_shingles": [
+          "come back until",
+          "not come back"
+        ],
+        "reasons": [
+          "High-confidence shallow copy: verbatim shingle(s) ['come back until', 'not come back'] with elevated similarity (Jaccard=0.2430, Lev=0.4057)."
+        ],
+        "readiness": "REQUIRES_REGENERATION"
+      },
+      "source_text_excerpt": "Hi Tim, How are you? 1 {{gap_1}} (you/visit) us this summer? In July we 2 {{gap_2}} (have) a big par",
+      "candidate_text_excerpt": "Dear Sam, {{gap_1}} (you/visit) our countryside cottage next month? Soon we {{gap_2}} (have) a welco",
+      "expected_grammar_target": "Future form 'be going to' across questions, affirmative statements, and negative statements",
+      "expected_answer_preservation": "All 10 source answers preserved in exact order",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 4501,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "gap",
+      "audit_category": "C. GENUINE SHALLOW COPY / ORIGINALITY FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "VALIDATED",
+        "jaccard": 0.1296,
+        "levenshtein": 0.3067,
+        "matching_shingles": [],
+        "reasons": [
+          "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles)."
+        ],
+        "readiness": "SAFE_TO_PROCEED"
+      },
+      "source_text_excerpt": "Dialogue 2 ROY: What time 5 {{gap_1}} tomorrow? VALERIA: Very early. I 6 {{gap_2}} the 6.50 train. R",
+      "candidate_text_excerpt": "MARK: At what hour 1 {{gap_1}} for the design conference tomorrow? NICOLE: At dawn. I 2 {{gap_2}} th",
+      "expected_grammar_target": "Future forms: Present Continuous for scheduled travel arrangement vs 'be going to' for prior intention",
+      "expected_answer_preservation": "All 3 source answers preserved in exact original sequence (gap 1 = are you leaving, gap 2 = 'm taking, gap 3 = 'm going to buy)",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 4852,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "gap",
+      "audit_category": "C. GENUINE SHALLOW COPY / ORIGINALITY FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REJECTED",
+        "jaccard": 0.33,
+        "levenshtein": 0.4133,
+        "matching_shingles": [
+          "by the way",
+          "definitely by the",
+          "do you know",
+          "know what 2",
+          "patrick do you",
+          "the way what",
+          "way what 15",
+          "yes i 1",
+          "you know what",
+          "you up in"
+        ],
+        "reasons": [
+          "High-confidence shallow copy: verbatim shingle(s) ['by the way', 'definitely by the'] with elevated similarity (Jaccard=0.3300, Lev=0.4133)."
+        ],
+        "readiness": "REQUIRES_REGENERATION"
+      },
+      "source_text_excerpt": "AUTUMN: Hello? SARAH: Hi, Autumn; it’s Sarah. AUTUMN: Hi, Sarah. Everything OK? SARAH: Yes, I 1 {{ga",
+      "candidate_text_excerpt": "LEO: Reception desk? CLARA: Good morning, Leo; it’s Clara from Logistics. LEO: Hello, Clara. Is the ",
+      "expected_grammar_target": "Review of mixed tenses (Present Continuous, Past Simple, Past Continuous, will, going to) across 20 dialogue gaps",
+      "expected_answer_preservation": "All 20 source answers preserved in exact original order matching staging.db",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 5069,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "single_choice",
+      "audit_category": "D. LIKELY FALSE POSITIVE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "VALIDATED",
+        "jaccard": 0.1053,
+        "levenshtein": 0.2571,
+        "matching_shingles": [],
+        "reasons": [
+          "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles)."
+        ],
+        "readiness": "SAFE_TO_PROCEED"
+      },
+      "source_text_excerpt": "1 _____ to the cinema. There is a good film today.",
+      "candidate_text_excerpt": "The heavy rain has finally stopped. _____ for a walk in the botanical gardens.",
+      "expected_grammar_target": "Imperative suggestion with 'Let's go'",
+      "expected_answer_preservation": "Exact source answer preserved (\"Let's go\")",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 5085,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "gap",
+      "audit_category": "D. LIKELY FALSE POSITIVE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REVIEW_REQUIRED",
+        "jaccard": 0.1739,
+        "levenshtein": 0.33,
+        "matching_shingles": [
+          "i will open"
+        ],
+        "reasons": [
+          "Verbatim shingle detected 'i will open' with moderate/low similarity (Jaccard=0.1739 <= 0.40, Lev=0.3300 < 0.55). Routed to AI review."
+        ],
+        "readiness": "SAFE_PENDING_AI_REVIEW"
+      },
+      "source_text_excerpt": "7 A: 'I will open a bottle of wine.' B: 'No, {{gap_1}} a bottle of wine, please. I prefer beer.",
+      "candidate_text_excerpt": "EMMA: \"I will open the balcony window.\" LIAM: \"Please {{gap_1}} the window right now; the freezing w",
+      "expected_grammar_target": "Negative imperative 'don't open' in conversational response",
+      "expected_answer_preservation": "Exact source answer preserved (\"don't open\")",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 5088,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "gap",
+      "audit_category": "D. LIKELY FALSE POSITIVE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "VALIDATED",
+        "jaccard": 0.1364,
+        "levenshtein": 0.2626,
+        "matching_shingles": [],
+        "reasons": [
+          "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles)."
+        ],
+        "readiness": "SAFE_TO_PROCEED"
+      },
+      "source_text_excerpt": "10 A: 'Do you want to talk about work?' B: 'No, {{gap_1}} about work. Let's talk about something dif",
+      "candidate_text_excerpt": "CLARA: \"Should we discuss office problems tonight?\" DAN: \"No, {{gap_1}} about office problems; let's",
+      "expected_grammar_target": "Negative suggestion with 'let's not talk'",
+      "expected_answer_preservation": "Exact source answer preserved (\"let's not talk\")",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 5134,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "gap",
+      "audit_category": "C. GENUINE SHALLOW COPY / ORIGINALITY FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REJECTED",
+        "jaccard": 0.5,
+        "levenshtein": 0.5165,
+        "matching_shingles": [
+          "do you have",
+          "have you got",
+          "yes i do"
+        ],
+        "reasons": [
+          "High-confidence shallow copy: verbatim shingle(s) ['do you have', 'have you got'] with elevated similarity (Jaccard=0.5000, Lev=0.5165)."
+        ],
+        "readiness": "REQUIRES_REGENERATION"
+      },
+      "source_text_excerpt": "6 A: Do you have a laptop? B: Yes, I do. ⇒ A: Have you got a laptop? B: Yes, I {{gap_1}}.",
+      "candidate_text_excerpt": "SPEAKER 1: Do you have extra notebooks for class? SPEAKER 2: Yes, I do. ⇒ SPEAKER 1: Have you got ex",
+      "expected_grammar_target": "Transformation from 'Do you have' short response to 'have got' short response ('Yes, I have')",
+      "expected_answer_preservation": "Exact source answer preserved ('have')",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 5142,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "gap",
+      "audit_category": "C. GENUINE SHALLOW COPY / ORIGINALITY FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REVIEW_REQUIRED",
+        "jaccard": 0.25,
+        "levenshtein": 0.2571,
+        "matching_shingles": [
+          "hasn't got a"
+        ],
+        "reasons": [
+          "Verbatim shingle detected 'hasn't got a' with moderate/low similarity (Jaccard=0.2500 <= 0.40, Lev=0.2571 < 0.55). Routed to AI review."
+        ],
+        "readiness": "SAFE_PENDING_AI_REVIEW"
+      },
+      "source_text_excerpt": "4 She hasn't got a sister. ⇒ She {{gap_1}} a sister.",
+      "candidate_text_excerpt": "In the remote mountain village, the doctor hasn't got a car. ⇒ In the remote mountain village, the d",
+      "expected_grammar_target": "Past tense transformation from present 'hasn't got' to past 'didn't have'",
+      "expected_answer_preservation": "Exact source answer preserved (\"didn't have\")",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 5144,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "gap",
+      "audit_category": "C. GENUINE SHALLOW COPY / ORIGINALITY FAILURE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "REVIEW_REQUIRED",
+        "jaccard": 0.25,
+        "levenshtein": 0.1982,
+        "matching_shingles": [
+          "has she got"
+        ],
+        "reasons": [
+          "Verbatim shingle detected 'has she got' with moderate/low similarity (Jaccard=0.2500 <= 0.40, Lev=0.1982 < 0.55). Routed to AI review."
+        ],
+        "readiness": "SAFE_PENDING_AI_REVIEW"
+      },
+      "source_text_excerpt": "6 Has she got a cold? ⇒ {{gap_1}} a cold?",
+      "candidate_text_excerpt": "Before the long overseas journey, has she got travel insurance? ⇒ Before the long overseas journey, ",
+      "expected_grammar_target": "Past question transformation of 'Has she got ...?' to 'Did she have ...?'",
+      "expected_answer_preservation": "Exact source answer preserved ('Did she have')",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 5736,
+      "batch": "Historical Batch 1",
+      "level": "A1",
+      "item_type": "single_choice",
+      "audit_category": "D. LIKELY FALSE POSITIVE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "VALIDATED",
+        "jaccard": 0.1429,
+        "levenshtein": 0.3385,
+        "matching_shingles": [],
+        "reasons": [
+          "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles)."
+        ],
+        "readiness": "SAFE_TO_PROCEED"
+      },
+      "source_text_excerpt": "2 I get home at around 7 p.m., _____ then I make dinner.",
+      "candidate_text_excerpt": "The express train reaches Oxford at 6 p.m., _____ then we take a local bus.",
+      "expected_grammar_target": "Coordinating conjunction of sequence 'and then'",
+      "expected_answer_preservation": "Exact source answer preserved ('and')",
+      "source_options_unchanged": true
+    },
+    {
+      "qid": 7139,
+      "batch": "Batch 4",
+      "level": "A2",
+      "item_type": "gap",
+      "audit_category": "D. LIKELY FALSE POSITIVE",
+      "status": "PASS",
+      "field_consistency": {
+        "mismatches_count": 0,
+        "mismatches": []
+      },
+      "critical_candidate_rules": {
+        "violations_count": 0,
+        "violations": []
+      },
+      "evaluator_simulation": {
+        "simulated_status": "VALIDATED",
+        "jaccard": 0.0,
+        "levenshtein": 0.2029,
+        "matching_shingles": [],
+        "reasons": [
+          "Passes all originality thresholds (Jaccard <= 0.40, Levenshtein calibrated, 0 forbidden shingles)."
+        ],
+        "readiness": "SAFE_TO_PROCEED"
+      },
+      "source_text_excerpt": "10 Daniel {{gap_1}} brown hair and blue eyes.",
+      "candidate_text_excerpt": "10 The senior architect {{gap_1}} extensive experience in sustainable urban design.",
+      "expected_grammar_target": "Present Simple third-person singular verb 'has' for possession/attributes",
+      "expected_answer_preservation": "Exact source answer preserved ('has')",
+      "source_options_unchanged": true
+    }
+  ]
+}

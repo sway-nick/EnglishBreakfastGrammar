@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "task": "TASK-022",
+    "generated_at": "2026-10-01T11:57:20.284028+00:00",
+    "status": "TEACHER_REVIEW_REQUIRED",
+    "committed_to_db": false,
+    "description": "One replacement candidate per collision group to break duplicate carriers while preserving target answers."
+  },
+  "collision_groups": [
+    {
+      "collision_id": 2,
+      "type": "SUSPICIOUS_DUPLICATE_CROSS_EXERCISE",
+      "duplicated_carrier": "The cat is hiding {{gap_1}} the sofa.",
+      "retained_question": {
+        "qid": "5038",
+        "exercise_id": "quiz-589",
+        "level": "A1",
+        "topic": "Next to, under, between, in front of, behind, over, etc.",
+        "action": "RETAIN_CURRENT_ADAPTATION",
+        "source_text": "9 The ball is {{gap_1}} the net.",
+        "adapted_text": "The cat is hiding {{gap_1}} the sofa.",
+        "correct_answer": "behind"
+      },
+      "replaced_question": {
+        "qid": "5054",
+        "exercise_id": "quiz-591",
+        "level": "A1",
+        "topic": "Next to, under, between, in front of, behind, over, etc.",
+        "action": "PROPOSED_CANDIDATE_REPLACEMENT",
+        "source_text": "5 Martha is standing {{gap_1}} David (4).",
+        "current_adapted_text": "The cat is hiding {{gap_1}} the sofa.",
+        "proposed_candidate_text": "Sophie is standing {{gap_1}} Liam in the ticket queue.",
+        "correct_answer": "behind",
+        "pedagogical_rationale": "Source prompt features people standing in sequence ('Martha standing behind David'). New carrier uses person queue context, breaking carrier collision with cat/sofa in quiz-589 while matching A1 preposition pedagogy.",
+        "similarity_to_source": 0.1818
+      }
+    },
+    {
+      "collision_id": 4,
+      "type": "GENUINE_DUPLICATE_SAME_EXERCISE",
+      "duplicated_carrier": "They _____ listening to music in the evening.",
+      "retained_question": {
+        "qid": "5160",
+        "exercise_id": "quiz-602",
+        "level": "A1",
+        "topic": "Would you like...? I'd like...",
+        "action": "RETAIN_CURRENT_ADAPTATION",
+        "source_text": "2 I _____ playing computer games with my friends.",
+        "adapted_text": "They _____ listening to music in the evening.",
+        "correct_answer": "like",
+        "options": [
+          "like",
+          "'d like",
+          "'d like to"
+        ]
+      },
+      "replaced_question": {
+        "qid": "5165",
+        "exercise_id": "quiz-602",
+        "level": "A1",
+        "topic": "Would you like...? I'd like...",
+        "action": "PROPOSED_CANDIDATE_REPLACEMENT",
+        "source_text": "7 We _____ watching TV during dinner.",
+        "current_adapted_text": "They _____ listening to music in the evening.",
+        "proposed_candidate_text": "We _____ reading novels in the park on sunny afternoons.",
+        "correct_answer": "like",
+        "options": [
+          "'d like",
+          "like",
+          "'d like to"
+        ],
+        "pedagogical_rationale": "Both questions occur in quiz-602. Replaced question 7 receives a fresh gerund complement context ('reading novels in the park') testing habitual preference ('like' + -ing), preserving exact options and answer.",
+        "similarity_to_source": 0.0769
+      }
+    },
+    {
+      "collision_id": 5,
+      "type": "SUSPICIOUS_DUPLICATE_CROSS_EXERCISE",
+      "duplicated_carrier": "We arrived at the station {{gap_1}} to catch the last train.",
+      "retained_question": {
+        "qid": "7493",
+        "exercise_id": "quiz-880",
+        "level": "A2",
+        "topic": "On time vs In time, At the end vs In the end",
+        "action": "RETAIN_CURRENT_ADAPTATION",
+        "source_text": "8 I hope I make it there {{gap_1}} to say goodbye to him.",
+        "adapted_text": "We arrived at the station {{gap_1}} to catch the last train.",
+        "correct_answer": "in time"
+      },
+      "replaced_question": {
+        "qid": "7513",
+        "exercise_id": "quiz-882",
+        "level": "A2",
+        "topic": "On time vs In time, At the end vs In the end",
+        "action": "PROPOSED_CANDIDATE_REPLACEMENT",
+        "source_text": "8 The pie will be ready {{gap_1}} for dinner.",
+        "current_adapted_text": "We arrived at the station {{gap_1}} to catch the last train.",
+        "proposed_candidate_text": "The technician finished repairing the laptop {{gap_1}} for my online presentation.",
+        "correct_answer": "in time",
+        "pedagogical_rationale": "Source prompt tests 'in time for [event/deadline]'. New carrier ('finished repairing the laptop in time for my online presentation') avoids train-station duplicate while preserving exact grammar usage.",
+        "similarity_to_source": 0.1429
+      }
+    },
+    {
+      "collision_id": 7,
+      "type": "GENUINE_DUPLICATE_SAME_EXERCISE",
+      "duplicated_carrier": "They completed a _____ hike through the national park.",
+      "retained_question": {
+        "qid": "6739",
+        "exercise_id": "quiz-782",
+        "level": "B1",
+        "topic": "Compound adjectives with numbers: 'a two-day trip'",
+        "action": "RETAIN_CURRENT_ADAPTATION",
+        "source_text": "6 The accident caused a _____ queue.",
+        "adapted_text": "They completed a _____ hike through the national park.",
+        "correct_answer": "10-mile",
+        "options": [
+          "10-mile",
+          "10-miles",
+          "10 miles"
+        ]
+      },
+      "replaced_question": {
+        "qid": "6742",
+        "exercise_id": "quiz-782",
+        "level": "B1",
+        "topic": "Compound adjectives with numbers: 'a two-day trip'",
+        "action": "PROPOSED_CANDIDATE_REPLACEMENT",
+        "source_text": "9 The Channel Tunnel is a _____ tunnel that connects England with France.",
+        "current_adapted_text": "They completed a _____ hike through the national park.",
+        "proposed_candidate_text": "Engineers constructed a _____ tunnel beneath the Alpine ridge.",
+        "correct_answer": "50-kilometre",
+        "options": [
+          "50-kilometre",
+          "50-kilometres",
+          "50 kilometres"
+        ],
+        "pedagogical_rationale": "Both items exist in quiz-782. Retained item tests '10-mile hike'; replaced item tests '50-kilometre tunnel beneath the Alpine ridge'. Breaks intra-exercise collision cleanly while preserving options and answer.",
+        "similarity_to_source": 0.2
+      }
+    }
+  ]
+}

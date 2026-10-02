@@ -1,0 +1,1736 @@
+{
+  "metadata": {
+    "batch_id": "review_batch_0101_0150",
+    "generated_at": "2026-10-01T12:52:31.525069+00:00",
+    "start_index": 101,
+    "end_index": 150,
+    "item_count": 50,
+    "status": "REVIEWED",
+    "teacher_reviewed": true,
+    "queue_source": "data/reports/TASK-025_full_teacher_review_queue.json",
+    "notes": "Next 50 unreviewed questions in canonical source order (indices 101 to 150).",
+    "reviewed_at": "2026-10-01T12:57:50.036695+00:00",
+    "review_summary": {
+      "PASS_count": 44,
+      "FIX_count": 6,
+      "fixed_qids": [
+        "3682",
+        "3698",
+        "3699",
+        "3720",
+        "3721",
+        "3723"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "review_index": 101,
+      "qid": "3675",
+      "level": "A1",
+      "exercise_id": "quiz-424",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "10 I need {{gap_1}} hour.",
+      "adapted_text": "10 The doctor requested {{gap_1}} honest explanation.",
+      "source_correct_answer": [
+        "an"
+      ],
+      "adapted_correct_answer": [
+        "an"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 102,
+      "qid": "3676",
+      "level": "A1",
+      "exercise_id": "quiz-425",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "1 a university ⇒ {{gap_1}}",
+      "adapted_text": "1 a dictionary ⇒ {{gap_1}}",
+      "source_correct_answer": [
+        "universities"
+      ],
+      "adapted_correct_answer": [
+        "dictionaries"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.3333,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 103,
+      "qid": "3677",
+      "level": "A1",
+      "exercise_id": "quiz-425",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "2 a sandwich ⇒ {{gap_1}}",
+      "adapted_text": "2 a beach ⇒ {{gap_1}}",
+      "source_correct_answer": [
+        "sandwiches"
+      ],
+      "adapted_correct_answer": [
+        "beaches"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.3333,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 104,
+      "qid": "3678",
+      "level": "A1",
+      "exercise_id": "quiz-425",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "3 a street ⇒ {{gap_1}}",
+      "adapted_text": "3 a bridge ⇒ {{gap_1}}",
+      "source_correct_answer": [
+        "streets"
+      ],
+      "adapted_correct_answer": [
+        "bridges"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.3333,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 105,
+      "qid": "3679",
+      "level": "A1",
+      "exercise_id": "quiz-425",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "4 a rich man ⇒ rich {{gap_1}}",
+      "adapted_text": "4 a brave woman ⇒ brave {{gap_1}}",
+      "source_correct_answer": [
+        "men"
+      ],
+      "adapted_correct_answer": [
+        "women"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 106,
+      "qid": "3680",
+      "level": "A1",
+      "exercise_id": "quiz-425",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "5 one foot ⇒ two {{gap_1}}",
+      "adapted_text": "5 one tooth ⇒ two {{gap_1}}",
+      "source_correct_answer": [
+        "feet"
+      ],
+      "adapted_correct_answer": [
+        "teeth"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.5,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 107,
+      "qid": "3681",
+      "level": "A1",
+      "exercise_id": "quiz-425",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "6 a dirty bag ⇒ dirty {{gap_1}}",
+      "adapted_text": "6 a wooden box ⇒ wooden {{gap_1}}",
+      "source_correct_answer": [
+        "bags"
+      ],
+      "adapted_correct_answer": [
+        "boxes"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 108,
+      "qid": "3682",
+      "level": "A1",
+      "exercise_id": "quiz-425",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "7 an expensive watch ⇒ expensive {{gap_1}}",
+      "adapted_text": "7 a wooden match ⇒ wooden {{gap_1}}",
+      "source_correct_answer": [
+        "watches"
+      ],
+      "adapted_correct_answer": [
+        "matches"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "review_index": 109,
+      "qid": "3683",
+      "level": "A1",
+      "exercise_id": "quiz-425",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "8 a new phone ⇒ new {{gap_1}}",
+      "adapted_text": "8 a fast laptop ⇒ fast {{gap_1}}",
+      "source_correct_answer": [
+        "phones"
+      ],
+      "adapted_correct_answer": [
+        "laptops"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 110,
+      "qid": "3684",
+      "level": "A1",
+      "exercise_id": "quiz-425",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "9 a nice photograph ⇒ nice {{gap_1}}",
+      "adapted_text": "9 a beautiful painting ⇒ beautiful {{gap_1}}",
+      "source_correct_answer": [
+        "photographs"
+      ],
+      "adapted_correct_answer": [
+        "paintings"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 111,
+      "qid": "3685",
+      "level": "A1",
+      "exercise_id": "quiz-425",
+      "exercise_title": "Exercise 2",
+      "response_model": "gap",
+      "source_text": "10 One glass of wine ⇒ two {{gap_1}} of wine",
+      "adapted_text": "10 One bottle of water ⇒ two {{gap_1}} of water",
+      "source_correct_answer": [
+        "glasses"
+      ],
+      "adapted_correct_answer": [
+        "bottles"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.4286,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 112,
+      "qid": "3686",
+      "level": "A1",
+      "exercise_id": "quiz-426",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "1 {{gap_1}} bus ⇒ {{gap_2}}",
+      "adapted_text": "{{gap_1}} yellow bus ⇒ five {{gap_2}}",
+      "source_correct_answer": [
+        "a",
+        "buses"
+      ],
+      "adapted_correct_answer": [
+        "a",
+        "buses"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.3333,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 113,
+      "qid": "3687",
+      "level": "A1",
+      "exercise_id": "quiz-426",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "2 {{gap_1}} nice family ⇒ nice {{gap_2}}",
+      "adapted_text": "It is {{gap_1}} friendly neighborhood for young {{gap_2}}.",
+      "source_correct_answer": [
+        "a",
+        "families"
+      ],
+      "adapted_correct_answer": [
+        "a",
+        "families"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 114,
+      "qid": "3688",
+      "level": "A1",
+      "exercise_id": "quiz-426",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "3 {{gap_1}} Italian child ⇒ Italian {{gap_2}}",
+      "adapted_text": "3 {{gap_1}} American child ⇒ American {{gap_2}}",
+      "source_correct_answer": [
+        "an",
+        "children"
+      ],
+      "adapted_correct_answer": [
+        "an",
+        "children"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.3333,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 115,
+      "qid": "3689",
+      "level": "A1",
+      "exercise_id": "quiz-426",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "4 {{gap_1}} strong tooth ⇒ strong {{gap_2}}",
+      "adapted_text": "He has {{gap_1}} sharp tooth, but animals have many sharp {{gap_2}}.",
+      "source_correct_answer": [
+        "a",
+        "teeth"
+      ],
+      "adapted_correct_answer": [
+        "a",
+        "teeth"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1111,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 116,
+      "qid": "3690",
+      "level": "A1",
+      "exercise_id": "quiz-426",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "5 {{gap_1}} nice dress ⇒ nice {{gap_2}}",
+      "adapted_text": "She bought {{gap_1}} beautiful dress, but the store had many lovely {{gap_2}} on display.",
+      "source_correct_answer": [
+        "a",
+        "dresses"
+      ],
+      "adapted_correct_answer": [
+        "a",
+        "dresses"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0769,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 117,
+      "qid": "3691",
+      "level": "A1",
+      "exercise_id": "quiz-426",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "6 {{gap_1}} angry wife ⇒ angry {{gap_2}}",
+      "adapted_text": "{{gap_1}} ancient king had three {{gap_2}}.",
+      "source_correct_answer": [
+        "an",
+        "wives"
+      ],
+      "adapted_correct_answer": [
+        "an",
+        "wives"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 118,
+      "qid": "3692",
+      "level": "A1",
+      "exercise_id": "quiz-426",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "7 {{gap_1}} uniform ⇒ {{gap_2}}",
+      "adapted_text": "The officer wears {{gap_1}} neat outfit at work, but the guards have matching {{gap_2}}.",
+      "source_correct_answer": [
+        "a",
+        "uniforms"
+      ],
+      "adapted_correct_answer": [
+        "a",
+        "uniforms"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 119,
+      "qid": "3693",
+      "level": "A1",
+      "exercise_id": "quiz-426",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "8 {{gap_1}} amazing website ⇒ amazing {{gap_2}}",
+      "adapted_text": "8 {{gap_1}} awesome app ⇒ awesome {{gap_2}}",
+      "source_correct_answer": [
+        "an",
+        "websites"
+      ],
+      "adapted_correct_answer": [
+        "an",
+        "websites"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 120,
+      "qid": "3694",
+      "level": "A1",
+      "exercise_id": "quiz-426",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "9 {{gap_1}} elephant ⇒ {{gap_2}}",
+      "adapted_text": "In the wildlife park: {{gap_1}} elephant ⇒ two {{gap_2}}",
+      "source_correct_answer": [
+        "an",
+        "elephants"
+      ],
+      "adapted_correct_answer": [
+        "an",
+        "elephants"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1667,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 121,
+      "qid": "3695",
+      "level": "A1",
+      "exercise_id": "quiz-426",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "10 {{gap_1}} empty library ⇒ empty {{gap_2}}",
+      "adapted_text": "It is {{gap_1}} old building, but the town needs public {{gap_2}}.",
+      "source_correct_answer": [
+        "an",
+        "libraries"
+      ],
+      "adapted_correct_answer": [
+        "an",
+        "libraries"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "A/an, plurals: Singular and plural forms",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 122,
+      "qid": "3696",
+      "level": "A1",
+      "exercise_id": "quiz-427",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "1 With this makeup, your eyes {{gap_1}}.",
+      "adapted_text": "1 In that bright lighting, your portraits {{gap_1}}.",
+      "source_correct_answer": [
+        "look different"
+      ],
+      "adapted_correct_answer": [
+        "look fantastic"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 123,
+      "qid": "3697",
+      "level": "A1",
+      "exercise_id": "quiz-427",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "2 These are {{gap_1}}.",
+      "adapted_text": "2 Those artifacts are {{gap_1}}.",
+      "source_correct_answer": [
+        "important documents"
+      ],
+      "adapted_correct_answer": [
+        "valuable treasures"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.25,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 124,
+      "qid": "3698",
+      "level": "A1",
+      "exercise_id": "quiz-427",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "3 {{gap_1}} in their new house?",
+      "adapted_text": "3 {{gap_1}} with the recent promotion?",
+      "source_correct_answer": [
+        "Are they happy"
+      ],
+      "adapted_correct_answer": [
+        "Is he satisfied"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "review_index": 125,
+      "qid": "3699",
+      "level": "A1",
+      "exercise_id": "quiz-427",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "4 He has {{gap_1}}.",
+      "adapted_text": "4 Maria started {{gap_1}}.",
+      "source_correct_answer": [
+        "an interesting job"
+      ],
+      "adapted_correct_answer": [
+        "an exciting career"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "review_index": 126,
+      "qid": "3700",
+      "level": "A1",
+      "exercise_id": "quiz-427",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "5 Sit down. You {{gap_1}}.",
+      "adapted_text": "5 Take a short break. You {{gap_1}}.",
+      "source_correct_answer": [
+        "look tired"
+      ],
+      "adapted_correct_answer": [
+        "appear exhausted"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1429,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 127,
+      "qid": "3701",
+      "level": "A1",
+      "exercise_id": "quiz-427",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "6 Our holidays {{gap_1}}.",
+      "adapted_text": "6 The weekend performances {{gap_1}}.",
+      "source_correct_answer": [
+        "are fantastic"
+      ],
+      "adapted_correct_answer": [
+        "were extraordinary"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 128,
+      "qid": "3702",
+      "level": "A1",
+      "exercise_id": "quiz-427",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "7 John has problems at home. {{gap_1}}?",
+      "adapted_text": "7 Sarah faces difficulties at work. {{gap_1}}?",
+      "source_correct_answer": [
+        "Are his marks good"
+      ],
+      "adapted_correct_answer": [
+        "Are her results acceptable"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.1111,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 129,
+      "qid": "3703",
+      "level": "A1",
+      "exercise_id": "quiz-427",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "8 Their project {{gap_1}}.",
+      "adapted_text": "8 The architect's proposal {{gap_1}}.",
+      "source_correct_answer": [
+        "sounds interesting"
+      ],
+      "adapted_correct_answer": [
+        "sounds practical"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 130,
+      "qid": "3704",
+      "level": "A1",
+      "exercise_id": "quiz-427",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "9 These cookies {{gap_1}}.",
+      "adapted_text": "9 The freshly baked pastries {{gap_1}}.",
+      "source_correct_answer": [
+        "are excellent"
+      ],
+      "adapted_correct_answer": [
+        "are delicious"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 131,
+      "qid": "3705",
+      "level": "A1",
+      "exercise_id": "quiz-427",
+      "exercise_title": "Exercise 1",
+      "response_model": "gap",
+      "source_text": "10 Her eyes {{gap_1}}.",
+      "adapted_text": "10 The autumn leaves {{gap_1}}.",
+      "source_correct_answer": [
+        "are blue"
+      ],
+      "adapted_correct_answer": [
+        "are golden"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 132,
+      "qid": "3706",
+      "level": "A1",
+      "exercise_id": "quiz-428",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "1 Which is the correct order?",
+      "adapted_text": "1 Which sentence has the correct word order?",
+      "source_correct_answer": [
+        "Your idea is great."
+      ],
+      "adapted_correct_answer": [
+        "Her suggestion is fantastic."
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Your great idea is.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Your idea is great.",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "Great your idea is.",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Your idea great is.",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Her fantastic suggestion is.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Her suggestion is fantastic.",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "Fantastic her suggestion is.",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Her suggestion fantastic is.",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 133,
+      "qid": "3707",
+      "level": "A1",
+      "exercise_id": "quiz-428",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "2 Which is the correct order?",
+      "adapted_text": "2 Which sentence has the correct word order?",
+      "source_correct_answer": [
+        "She is an exceptional student."
+      ],
+      "adapted_correct_answer": [
+        "He is a talented musician."
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "She an exceptional student is.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "She is a student exceptional.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "She is an exceptional student.",
+          "is_correct": 1
+        },
+        {
+          "order": 4,
+          "text": "She a student exceptional is.",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "He a talented musician is.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "He is a musician talented.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "He is a talented musician.",
+          "is_correct": 1
+        },
+        {
+          "order": 4,
+          "text": "He a musician talented is.",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 134,
+      "qid": "3708",
+      "level": "A1",
+      "exercise_id": "quiz-428",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "3 Which is the correct order?",
+      "adapted_text": "3 Which sentence has the correct word order?",
+      "source_correct_answer": [
+        "Is this shirt Italian?"
+      ],
+      "adapted_correct_answer": [
+        "Is that jacket Japanese?"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Is this shirt Italian?",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Is Italian this shirt?",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "This shirt Italian is?",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "This shirt is Italian?",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Is that jacket Japanese?",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Is Japanese that jacket?",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "That jacket Japanese is?",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "That jacket is Japanese?",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 135,
+      "qid": "3709",
+      "level": "A1",
+      "exercise_id": "quiz-428",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "4 Which is the correct order?",
+      "adapted_text": "4 Which sentence has the correct word order?",
+      "source_correct_answer": [
+        "That restaurant is very dirty."
+      ],
+      "adapted_correct_answer": [
+        "This hotel room is extremely clean."
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "That restaurant very dirty is.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "That is a restaurant very dirty.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Very dirty is that restaurant.",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "That restaurant is very dirty.",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "This hotel room extremely clean is.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "This is a hotel room extremely clean.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Extremely clean is this hotel room.",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "This hotel room is extremely clean.",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 136,
+      "qid": "3710",
+      "level": "A1",
+      "exercise_id": "quiz-428",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "5 Which is the correct order?",
+      "adapted_text": "5 Which sentence has the correct word order?",
+      "source_correct_answer": [
+        "He has a Korean car."
+      ],
+      "adapted_correct_answer": [
+        "She drives a German vehicle."
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "He a Korean car has.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "He has a Korean car.",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "He has a car Korean.",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "A car Korean he has.",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "She a German vehicle drives.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "She drives a German vehicle.",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "She drives a vehicle German.",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "A vehicle German she drives.",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 137,
+      "qid": "3711",
+      "level": "A1",
+      "exercise_id": "quiz-428",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "6 Which is the correct order?",
+      "adapted_text": "6 Which sentence has the correct word order?",
+      "source_correct_answer": [
+        "This is our favourite restaurant."
+      ],
+      "adapted_correct_answer": [
+        "That is their primary residence."
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "This is our restaurant favourite.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Our favourite restaurant is this.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Is this our restaurant favourite?",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "This is our favourite restaurant.",
+          "is_correct": 1
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "That is their residence primary.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "Their primary residence is that.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Is that their residence primary?",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "That is their primary residence.",
+          "is_correct": 1
+        }
+      ],
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 138,
+      "qid": "3713",
+      "level": "A1",
+      "exercise_id": "quiz-428",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "7 Which is the correct order?",
+      "adapted_text": "7 Which sentence has the correct word order?",
+      "source_correct_answer": [
+        "It's a very modern building."
+      ],
+      "adapted_correct_answer": [
+        "It is an extremely quiet neighborhood."
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "It's a building very modern.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "It's a very modern building.",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "Very modern it's a building.",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "A building very modern is.",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "It is a neighborhood extremely quiet.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "It is an extremely quiet neighborhood.",
+          "is_correct": 1
+        },
+        {
+          "order": 3,
+          "text": "Extremely quiet it is a neighborhood.",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "A neighborhood extremely quiet is.",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 139,
+      "qid": "3714",
+      "level": "A1",
+      "exercise_id": "quiz-428",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "8 Which is the correct order?",
+      "adapted_text": "8 Which sentence has the correct word order?",
+      "source_correct_answer": [
+        "Are your friends German?"
+      ],
+      "adapted_correct_answer": [
+        "Are the new neighbors friendly?"
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "Are your friends German?",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Are German your friends?",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "German are your friends?",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "Your friends are German?",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "Are the new neighbors friendly?",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "Are friendly the new neighbors?",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Friendly are the new neighbors?",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "The new neighbors are friendly?",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 140,
+      "qid": "3715",
+      "level": "A1",
+      "exercise_id": "quiz-428",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "9 Which is the correct order?",
+      "adapted_text": "9 Which sentence has the correct word order?",
+      "source_correct_answer": [
+        "This is a difficult language."
+      ],
+      "adapted_correct_answer": [
+        "That is an ancient city."
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "This language difficult is.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "A language difficult this is.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "This is a difficult language.",
+          "is_correct": 1
+        },
+        {
+          "order": 4,
+          "text": "This is a language difficult.",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "That city ancient is.",
+          "is_correct": 0
+        },
+        {
+          "order": 2,
+          "text": "A city ancient that is.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "That is an ancient city.",
+          "is_correct": 1
+        },
+        {
+          "order": 4,
+          "text": "That is a city ancient.",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 141,
+      "qid": "3716",
+      "level": "A1",
+      "exercise_id": "quiz-428",
+      "exercise_title": "Exercise 2",
+      "response_model": "single_choice",
+      "source_text": "10 Which is the correct order?",
+      "adapted_text": "10 Which sentence has the correct word order?",
+      "source_correct_answer": [
+        "This language is difficult."
+      ],
+      "adapted_correct_answer": [
+        "That ancient city is peaceful."
+      ],
+      "source_options": [
+        {
+          "order": 1,
+          "text": "This language is difficult.",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "This language difficult is.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Is difficult this language?",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "This language is difficult?",
+          "is_correct": 0
+        }
+      ],
+      "adapted_options": [
+        {
+          "order": 1,
+          "text": "That ancient city is peaceful.",
+          "is_correct": 1
+        },
+        {
+          "order": 2,
+          "text": "That ancient city peaceful is.",
+          "is_correct": 0
+        },
+        {
+          "order": 3,
+          "text": "Is peaceful that ancient city?",
+          "is_correct": 0
+        },
+        {
+          "order": 4,
+          "text": "That ancient city is peaceful?",
+          "is_correct": 0
+        }
+      ],
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 142,
+      "qid": "3717",
+      "level": "A1",
+      "exercise_id": "quiz-429",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "1 exam / easy ⇒ This exam {{gap_1}}. It's {{gap_2}}",
+      "adapted_text": "test / easy ⇒ The final test {{gap_1}}. It is {{gap_2}}.",
+      "source_correct_answer": [
+        "is easy",
+        "an easy exam"
+      ],
+      "adapted_correct_answer": [
+        "is easy",
+        "an easy exam"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 143,
+      "qid": "3718",
+      "level": "A1",
+      "exercise_id": "quiz-429",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "2 watch / old ⇒ This watch {{gap_1}}. It's {{gap_2}}.",
+      "adapted_text": "The grandfather clock {{gap_1}}. Indeed, my father gave me {{gap_2}}.",
+      "source_correct_answer": [
+        "is old",
+        "an old watch"
+      ],
+      "adapted_correct_answer": [
+        "is old",
+        "an old watch"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 144,
+      "qid": "3719",
+      "level": "A1",
+      "exercise_id": "quiz-429",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "3 exotic / countries ⇒ These countries {{gap_1}}. They're {{gap_2}}.",
+      "adapted_text": "Those places {{gap_1}}. Many travelers want to visit {{gap_2}}.",
+      "source_correct_answer": [
+        "are exotic",
+        "exotic countries"
+      ],
+      "adapted_correct_answer": [
+        "are exotic",
+        "exotic countries"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 145,
+      "qid": "3720",
+      "level": "A1",
+      "exercise_id": "quiz-429",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "4 view / amazing ⇒ The view {{gap_1}}. It's {{gap_2}}.",
+      "adapted_text": "The view from the mountain {{gap_1}}. Everyone agrees it is {{gap_2}}.",
+      "source_correct_answer": [
+        "is amazing",
+        "an amazing view"
+      ],
+      "adapted_correct_answer": [
+        "is amazing",
+        "an amazing view"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "review_index": 146,
+      "qid": "3721",
+      "level": "A1",
+      "exercise_id": "quiz-429",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "5 difficult / situation ⇒ The situation {{gap_1}}. It's {{gap_2}}.",
+      "adapted_text": "The situation at work {{gap_1}}. It has become {{gap_2}}.",
+      "source_correct_answer": [
+        "is difficult",
+        "a difficult situation"
+      ],
+      "adapted_correct_answer": [
+        "is difficult",
+        "a difficult situation"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.2222,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "review_index": 147,
+      "qid": "3722",
+      "level": "A1",
+      "exercise_id": "quiz-429",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "6 cars / fast ⇒ These cars {{gap_1}}. They are {{gap_2}}.",
+      "adapted_text": "Vehicles in the competition {{gap_1}}. Drivers usually prefer {{gap_2}}.",
+      "source_correct_answer": [
+        "are fast",
+        "fast cars"
+      ],
+      "adapted_correct_answer": [
+        "are fast",
+        "fast cars"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 148,
+      "qid": "3723",
+      "level": "A1",
+      "exercise_id": "quiz-429",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "7 dangerous / city ⇒ It's {{gap_1}}. This city {{gap_2}}.",
+      "adapted_text": "Gotham is {{gap_1}}. This city {{gap_2}}.",
+      "source_correct_answer": [
+        "a dangerous city",
+        "is dangerous"
+      ],
+      "adapted_correct_answer": [
+        "a dangerous city",
+        "is dangerous"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.3333,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_FIX"
+    },
+    {
+      "review_index": 149,
+      "qid": "3724",
+      "level": "A1",
+      "exercise_id": "quiz-429",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "8 expensive / clothes ⇒ These clothes {{gap_1}}. They're {{gap_2}}.",
+      "adapted_text": "The designer dresses at the boutique {{gap_1}}. She never buys {{gap_2}}.",
+      "source_correct_answer": [
+        "are expensive",
+        "expensive clothes"
+      ],
+      "adapted_correct_answer": [
+        "are expensive",
+        "expensive clothes"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    },
+    {
+      "review_index": 150,
+      "qid": "3725",
+      "level": "A1",
+      "exercise_id": "quiz-429",
+      "exercise_title": "Exercise 3",
+      "response_model": "gap",
+      "source_text": "9 man / strong ⇒ He's {{gap_1}}. This man {{gap_2}}",
+      "adapted_text": "My neighbor is {{gap_1}}. The firefighter {{gap_2}}.",
+      "source_correct_answer": [
+        "a strong man",
+        "is strong"
+      ],
+      "adapted_correct_answer": [
+        "a strong man",
+        "is strong"
+      ],
+      "source_options": null,
+      "adapted_options": null,
+      "grammar_target": "Adjectives: Old, interesting, expensive, etc.",
+      "relevant_machine_flags": {
+        "similarity_score": 0.0,
+        "adaptation_status": "VALIDATED"
+      },
+      "priority_anomaly": false,
+      "review_status": "REVIEWED_PASS"
+    }
+  ]
+}

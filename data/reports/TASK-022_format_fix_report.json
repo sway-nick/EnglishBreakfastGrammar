@@ -1,0 +1,439 @@
+{
+  "metadata": {
+    "task": "TASK-022",
+    "action": "MECHANICAL_CONVERSION_APPLIED",
+    "timestamp": "2026-10-01T11:57:20.286324+00:00",
+    "target_count": 41,
+    "applied_count": 41,
+    "rollback_triggered": false
+  },
+  "database_snapshot": {
+    "adaptation_sha256_before": "99c794dee1ada51e8712cf01bf2cf703e7b10119605f9c6db568a8b16b51404d",
+    "adaptation_sha256_after": "2756ad757b816cf53975d0357eaa3738fa2a0f8a812ae81674e52e394c79e4cd",
+    "staging_sha256": "3fd7250ecbd3956fb035f97b55fc70c796e465b8fb7c3e3601ccdc5645898ded",
+    "counts_before": {
+      "VALIDATED": 5796
+    },
+    "counts_after": {
+      "VALIDATED": 5796
+    }
+  },
+  "verification_results": {
+    "preview_gate": "PASS (225 / 225 lessons)",
+    "jest_tests": "PASS (24 / 24 tests)",
+    "python_tests": "PASS (40 / 40 tests)",
+    "sqlite_pragmas": "PASS (0 FK violations, integrity=ok)"
+  },
+  "records_modified": [
+    {
+      "qid": "3760",
+      "response_model": "single_choice",
+      "before": "A: Emma wakes up early every day. B: {{gap_1}}?",
+      "after": "A: Emma wakes up early every day. B: _____?",
+      "correct_answers": [
+        "What time does she get up"
+      ],
+      "options_count": 4
+    },
+    {
+      "qid": "3761",
+      "response_model": "single_choice",
+      "before": "A: There's a new visitor near the entrance. B: {{gap_1}}?",
+      "after": "A: There's a new visitor near the entrance. B: _____?",
+      "correct_answers": [
+        "Who is the man over there"
+      ],
+      "options_count": 4
+    },
+    {
+      "qid": "3762",
+      "response_model": "single_choice",
+      "before": "A: Your sister grew up abroad. B: {{gap_1}}?",
+      "after": "A: Your sister grew up abroad. B: _____?",
+      "correct_answers": [
+        "Where is your sister from"
+      ],
+      "options_count": 4
+    },
+    {
+      "qid": "3763",
+      "response_model": "single_choice",
+      "before": "A: Mark sits at a desk all day. B: {{gap_1}}?",
+      "after": "A: Mark sits at a desk all day. B: _____?",
+      "correct_answers": [
+        "Does he do exercise"
+      ],
+      "options_count": 4
+    },
+    {
+      "qid": "3764",
+      "response_model": "single_choice",
+      "before": "A: You're applying for the hotel position. B: {{gap_1}}?",
+      "after": "A: You're applying for the hotel position. B: _____?",
+      "correct_answers": [
+        "Why do you want this job"
+      ],
+      "options_count": 4
+    },
+    {
+      "qid": "3766",
+      "response_model": "single_choice",
+      "before": "A: I need to discuss the project with you. B: {{gap_1}}?",
+      "after": "A: I need to discuss the project with you. B: _____?",
+      "correct_answers": [
+        "When are you free"
+      ],
+      "options_count": 4
+    },
+    {
+      "qid": "3767",
+      "response_model": "single_choice",
+      "before": "A: I haven't met your sister yet. B: {{gap_1}}?",
+      "after": "A: I haven't met your sister yet. B: _____?",
+      "correct_answers": [
+        "How old is your sister"
+      ],
+      "options_count": 4
+    },
+    {
+      "qid": "3768",
+      "response_model": "single_choice",
+      "before": "A: You said your friend grew up abroad. B: {{gap_1}}?",
+      "after": "A: You said your friend grew up abroad. B: _____?",
+      "correct_answers": [
+        "Is your friend from Canada"
+      ],
+      "options_count": 4
+    },
+    {
+      "qid": "3994",
+      "response_model": "single_choice",
+      "before": "What's that noise from upstairs? The people next door {{gap_1}} again.",
+      "after": "What's that noise from upstairs? The people next door _____ again.",
+      "correct_answers": [
+        "are arguing"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "3998",
+      "response_model": "single_choice",
+      "before": "Where's Maya? She's in the study. She {{gap_1}} a documentary on her tablet.",
+      "after": "Where's Maya? She's in the study. She _____ a documentary on her tablet.",
+      "correct_answers": [
+        "'s watching"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "3999",
+      "response_model": "single_choice",
+      "before": "I usually study with music, but I {{gap_1}} videos while I'm working.",
+      "after": "I usually study with music, but I _____ videos while I'm working.",
+      "correct_answers": [
+        "never watch"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "4085",
+      "response_model": "single_choice",
+      "before": "The concert was great! {{gap_1}} to it last night?",
+      "after": "The concert was great! _____ to it last night?",
+      "correct_answers": [
+        "Did you go"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "4090",
+      "response_model": "single_choice",
+      "before": "That handmade lamp looks expensive. How much {{gap_1}} for it?",
+      "after": "That handmade lamp looks expensive. How much _____ for it?",
+      "correct_answers": [
+        "did you pay"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "4091",
+      "response_model": "single_choice",
+      "before": "We stayed for the whole performance, but we {{gap_1}} the final act.",
+      "after": "We stayed for the whole performance, but we _____ the final act.",
+      "correct_answers": [
+        "didn't enjoy"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "4151",
+      "response_model": "single_choice",
+      "before": "{{gap_1}} a tray with tea, fruit, and cups on the table.",
+      "after": "_____ a tray with tea, fruit, and cups on the table.",
+      "correct_answers": [
+        "There is"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "4236",
+      "response_model": "single_choice",
+      "before": "{{gap_1}} our village lives near the river.",
+      "after": "_____ our village lives near the river.",
+      "correct_answers": [
+        "The oldest man in"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2947",
+      "response_model": "single_choice",
+      "before": "I recently had a strange dream about my old school. ⇒ What {{gap_1}}?",
+      "after": "I recently had a strange dream about my old school. ⇒ What _____?",
+      "correct_answers": [
+        "did you dream about"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2948",
+      "response_model": "single_choice",
+      "before": "I enjoy listening to podcasts on my commute. ⇒ What {{gap_1}}?",
+      "after": "I enjoy listening to podcasts on my commute. ⇒ What _____?",
+      "correct_answers": [
+        "do you always listen to"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2949",
+      "response_model": "single_choice",
+      "before": "Someone kissed Virginia after the show. ⇒ {{gap_1}} at the theater?",
+      "after": "Someone kissed Virginia after the show. ⇒ _____ at the theater?",
+      "correct_answers": [
+        "Who kissed Virginia"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2950",
+      "response_model": "single_choice",
+      "before": "Jason met Linda at the café. ⇒ {{gap_1}} at the café?",
+      "after": "Jason met Linda at the café. ⇒ _____ at the café?",
+      "correct_answers": [
+        "Who did Jason kiss"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2951",
+      "response_model": "single_choice",
+      "before": "Lewis asked his boss for a day off. ⇒ What {{gap_1}}?",
+      "after": "Lewis asked his boss for a day off. ⇒ What _____?",
+      "correct_answers": [
+        "did Lewis ask his boss for"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2953",
+      "response_model": "single_choice",
+      "before": "Lewis asked his manager for a raise. ⇒ {{gap_1}} for a raise?",
+      "after": "Lewis asked his manager for a raise. ⇒ _____ for a raise?",
+      "correct_answers": [
+        "Who did Lewis ask"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2955",
+      "response_model": "single_choice",
+      "before": "At the science museum, we learned that Alexander Graham Bell created the telephone. ⇒ What {{gap_1}}?",
+      "after": "At the science museum, we learned that Alexander Graham Bell created the telephone. ⇒ What _____?",
+      "correct_answers": [
+        "did Alexander Graham Bell invent"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2956",
+      "response_model": "single_choice",
+      "before": "At the science museum, we learned about Alexander Fleming and penicillin. ⇒ Who {{gap_1}}?",
+      "after": "At the science museum, we learned about Alexander Fleming and penicillin. ⇒ Who _____?",
+      "correct_answers": [
+        "discovered penicillin"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2680",
+      "response_model": "single_choice",
+      "before": "I have plenty of free time, but I {{gap_1}}.",
+      "after": "I have plenty of free time, but I _____.",
+      "correct_answers": [
+        "don't do sport very often"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2880",
+      "response_model": "single_choice",
+      "before": "On my way to the station, I {{gap_1}} a street artist while he {{gap_2}} a wall.",
+      "after": "On my way to the station, I _____ a street artist while he _____ a wall.",
+      "correct_answers": [
+        "saw / was painting"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2882",
+      "response_model": "single_choice",
+      "before": "During the move, I {{gap_1}} a lamp while I {{gap_2}} the living room.",
+      "after": "During the move, I _____ a lamp while I _____ the living room.",
+      "correct_answers": [
+        "broke / was cleaning"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2888",
+      "response_model": "single_choice",
+      "before": "At the airport yesterday, I {{gap_1}} my cousin, and she {{gap_2}} a blue jacket.",
+      "after": "At the airport yesterday, I _____ my cousin, and she _____ a blue jacket.",
+      "correct_answers": [
+        "saw / was wearing"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "5193",
+      "response_model": "single_choice",
+      "before": "I need a quiet evening {{gap_1}} my report.",
+      "after": "I need a quiet evening _____ my report.",
+      "correct_answers": [
+        "to finish"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2890",
+      "response_model": "single_choice",
+      "before": "A: We chose a new colour because I {{gap_1}} the study.\nB: I'm sure it {{gap_2}} much brighter.",
+      "after": "A: We chose a new colour because I _____ the study.\nB: I'm sure it _____ much brighter.",
+      "correct_answers": [
+        "'m going to paint / will look"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2891",
+      "response_model": "single_choice",
+      "before": "A: What {{gap_1}} during the summer break?\nB: I {{gap_2}} around South America.",
+      "after": "A: What _____ during the summer break?\nB: I _____ around South America.",
+      "correct_answers": [
+        "are you going to do / 'm going to travel"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2897",
+      "response_model": "single_choice",
+      "before": "They are leading 3-1 with only a minute left. They {{gap_1}} this match.\nB: Maybe, but our team {{gap_2}} another goal before the whistle.",
+      "after": "They are leading 3-1 with only a minute left. They _____ this match.\nB: Maybe, but our team _____ another goal before the whistle.",
+      "correct_answers": [
+        "are going to win / will score"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2962",
+      "response_model": "single_choice",
+      "before": "A: The hotel reservation isn't confirmed.\nB: Don't worry. I {{gap_1}} them now.",
+      "after": "A: The hotel reservation isn't confirmed.\nB: Don't worry. I _____ them now.",
+      "correct_answers": [
+        "'ll call"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "2963",
+      "response_model": "single_choice",
+      "before": "A: Can you play the guitar yet?\nB: Not yet, but I {{gap_1}}.",
+      "after": "A: Can you play the guitar yet?\nB: Not yet, but I _____.",
+      "correct_answers": [
+        "'m going to learn"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "3076",
+      "response_model": "single_choice",
+      "before": "She {{gap_1}} in Lisbon for two years before moving to Madrid.",
+      "after": "She _____ in Lisbon for two years before moving to Madrid.",
+      "correct_answers": [
+        "lived"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "3077",
+      "response_model": "single_choice",
+      "before": "{{gap_1}} the windows before you left the office?",
+      "after": "_____ the windows before you left the office?",
+      "correct_answers": [
+        "Did you lock"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "3082",
+      "response_model": "single_choice",
+      "before": "A: {{gap_1}} their project yet?\nB: Yes, they {{gap_2}} it before dinner.",
+      "after": "A: _____ their project yet?\nB: Yes, they _____ it before dinner.",
+      "correct_answers": [
+        "Have the kids done / did"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "6180",
+      "response_model": "single_choice",
+      "before": "After the incident, the witness sent {{gap_1}}.",
+      "after": "After the incident, the witness sent _____.",
+      "correct_answers": [
+        "the police a video of the robbers."
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "6186",
+      "response_model": "single_choice",
+      "before": "Every evening, the teacher reads {{gap_1}} before bed.",
+      "after": "Every evening, the teacher reads _____ before bed.",
+      "correct_answers": [
+        "them a story"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "6188",
+      "response_model": "single_choice",
+      "before": "He wanted to help his brother, so he offered {{gap_1}} after the interview.",
+      "after": "He wanted to help his brother, so he offered _____ after the interview.",
+      "correct_answers": [
+        "a job to his brother"
+      ],
+      "options_count": 3
+    },
+    {
+      "qid": "6189",
+      "response_model": "single_choice",
+      "before": "Please send {{gap_1}} after the meeting.",
+      "after": "Please send _____ after the meeting.",
+      "correct_answers": [
+        "them a copy"
+      ],
+      "options_count": 3
+    }
+  ]
+}
