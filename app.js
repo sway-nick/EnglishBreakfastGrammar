@@ -1,15 +1,15 @@
-import { GrammarService } from './services/grammarService.js?v=3.1';
-import { StorageService } from './services/storageService.js?v=3.1';
-import { t, setLanguage } from './services/i18n.js?v=3.1';
+import { GrammarService } from './services/grammarService.js';
+import { StorageService } from './services/storageService.js';
+import { t, setLanguage, getLanguage } from './services/i18n.js';
 
-import { renderHeader } from './components/Header.js?v=3.1';
-import { renderBurgerDrawer } from './components/BurgerDrawer.js?v=3.1';
-import { renderLevelGrid } from './components/LevelGrid.js?v=3.1';
-import { renderLessonList } from './components/LessonList.js?v=3.1';
-import { renderGrammarRuleView } from './components/GrammarRuleView.js?v=3.1';
-import { renderTestEngine } from './components/TestEngine.js?v=3.1';
-import { renderTestResultModal } from './components/TestResultModal.js?v=3.1';
-import { renderLeaderboardView, initLeaderboardEvents } from './components/LeaderboardView.js?v=3.1';
+import { renderHeader } from './components/Header.js';
+import { renderBurgerDrawer } from './components/BurgerDrawer.js';
+import { renderLevelGrid } from './components/LevelGrid.js';
+import { renderLessonList } from './components/LessonList.js';
+import { renderGrammarRuleView } from './components/GrammarRuleView.js';
+import { renderTestEngine } from './components/TestEngine.js';
+import { renderTestResultModal } from './components/TestResultModal.js';
+import { renderLeaderboardView, initLeaderboardEvents } from './components/LeaderboardView.js';
 
 class App {
   constructor() {
@@ -22,21 +22,28 @@ class App {
       testUserAnswers: {}
     };
 
+    // Bind events immediately so all clicks work even before async data arrives
+    this.bindGlobalEvents();
     this.init();
   }
 
   async init() {
     try {
       this.applyTheme(StorageService.getTheme());
-      this.state.catalog = await GrammarService.getCatalog();
-      this.bindGlobalEvents();
-      this.render();
     } catch (e) {
-      console.error('App init error:', e);
-    } finally {
-      if (window.hideAppSplashScreen) {
-        window.hideAppSplashScreen();
-      }
+      console.warn('Theme apply error:', e);
+    }
+
+    try {
+      this.state.catalog = await GrammarService.getCatalog();
+    } catch (e) {
+      console.error('Catalog load error:', e);
+    }
+
+    this.render();
+
+    if (window.hideAppSplashScreen) {
+      window.hideAppSplashScreen();
     }
   }
 
@@ -44,11 +51,11 @@ class App {
     StorageService.setTheme(theme);
     const isDark = theme === 'dark';
     if (isDark) {
-      document.body.classList.add('dark-theme');
-      document.documentElement.classList.add('dark-theme');
+      document.body?.classList.add('dark-theme');
+      document.documentElement?.classList.add('dark-theme');
     } else {
-      document.body.classList.remove('dark-theme');
-      document.documentElement.classList.remove('dark-theme');
+      document.body?.classList.remove('dark-theme');
+      document.documentElement?.classList.remove('dark-theme');
     }
   }
 
@@ -173,10 +180,13 @@ class App {
       // 10. Lesson card click
       const lessonCard = e.target.closest('.lesson-card');
       if (lessonCard) {
-        try {
-          const lessonId = lessonCard.getAttribute('data-lesson-id');
-          const lesson = await GrammarService.getLesson(lessonId);
-          if (lesson) {
+        const lessonId = lessonCard.getAttribute('data-lesson-id');
+        if (lessonId) {
+          try {
+            let lesson = await GrammarService.getLesson(lessonId);
+            if (!lesson) {
+              lesson = { lesson_id: lessonId, title: 'Урок', level: this.state.selectedLevelId || 'A1' };
+            }
             const lang = getLanguage();
             try {
               lesson._localizedRule = await GrammarService.getRuleForLesson(lesson, lang);
@@ -184,9 +194,10 @@ class App {
               console.warn('Could not load localized rule:', ruleErr);
             }
             this.navigate('theory', { lesson });
+          } catch (err) {
+            console.error('Error loading lesson:', err);
+            this.navigate('theory', { lesson: { lesson_id: lessonId, title: 'Урок', level: this.state.selectedLevelId || 'A1' } });
           }
-        } catch (err) {
-          console.error('Error loading lesson:', err);
         }
         return;
       }
