@@ -1,7 +1,7 @@
 /**
- * Dense & Delicate Micro-Golden Dust Trail Engine
- * Creates a dense, silky trail of microscopic golden fairy dust under the finger/cursor,
- * softly hovering and slowly settling in the air before dissolving into thin air.
+ * Weightless Golden Stardust Trail Engine
+ * Creates a dense, silky trail of microscopic golden dust motes that hover weightlessly
+ * in the air under the finger/cursor, settling almost imperceptibly slowly before fading.
  */
 
 export const DEFAULT_DUST_CONFIG = {
@@ -10,10 +10,10 @@ export const DEFAULT_DUST_CONFIG = {
   brightness: 0.55,     // Soft, warm luminescence
   glow: 0.35,           // Delicate starlight glow
   life: 1.6,            // Hover duration in seconds
-  gravity: 8,           // Very slow, gentle hovering descent
-  sway: 1.2,            // Subtle natural air shimmer
-  spread: 7,            // Tight stream directly around touch point
-  maxFall: 45,          // Dissolves gracefully after slight settling
+  gravity: 1.2,         // Ultra-slow, near-weightless hover drift
+  sway: 0.8,            // Gentle organic micro-drift
+  spread: 6,            // Tight stream directly around touch point
+  maxFall: 25,          // Minimal drop before dissolving
   glints: 20,           // Twinkling micro-sparkles
   tint: "gold"
 };
@@ -131,7 +131,7 @@ class MagicDustController {
     const spread = this.config.spread;
     for (let i = 0; i < count; i++) {
       const angle = Math.random() * Math.PI * 2;
-      const speed = (0.1 + Math.random() * 0.7) * (spread * 0.25);
+      const speed = (0.05 + Math.random() * 0.4) * (spread * 0.2);
       const isShimmer = Math.random() * 100 < this.config.glints;
 
       const baseColor = this.goldColors[Math.floor(Math.random() * this.goldColors.length)];
@@ -141,16 +141,16 @@ class MagicDustController {
         y: y + (Math.random() - 0.5) * spread,
         startY: y,
         vx: Math.cos(angle) * speed,
-        vy: Math.sin(angle) * speed * 0.25 - 0.1, // Initial soft float
+        vy: Math.sin(angle) * speed * 0.15, // Near zero vertical start velocity
         baseColor,
         isShimmer,
         size: (0.3 + Math.random() * 0.5) * this.config.size, // Microscopic (0.25px - 0.55px)
         age: 0,
         maxLife: (0.9 + Math.random() * 0.5) * this.config.life,
         swayPhase: Math.random() * Math.PI * 2,
-        swaySpeed: 1.2 + Math.random() * 2.0,
+        swaySpeed: 1.0 + Math.random() * 1.5,
         twinklePhase: Math.random() * Math.PI * 2,
-        twinkleSpeed: 3.5 + Math.random() * 5.0
+        twinkleSpeed: 3.0 + Math.random() * 4.5
       });
     }
   }
@@ -199,15 +199,15 @@ class MagicDustController {
 
       if (fallDistance > maxFall) continue;
 
-      // Extremely gentle floating motion with atmospheric damping
-      p.vy += gravity * dt * 0.25;
-      p.vx *= 0.95;
-      p.vy *= 0.96;
+      // Ultra-slow weightless hover physics
+      p.vy += gravity * dt * 0.08;
+      p.vx *= 0.94;
+      p.vy *= 0.94;
 
       p.swayPhase += p.swaySpeed * dt;
       p.twinklePhase += p.twinkleSpeed * dt;
 
-      p.x += (p.vx + Math.sin(p.swayPhase) * sway * 0.15) * dt * 60;
+      p.x += (p.vx + Math.sin(p.swayPhase) * sway * 0.08) * dt * 60;
       p.y += p.vy * dt * 60;
 
       // Soft progressive fade envelope
@@ -215,10 +215,10 @@ class MagicDustController {
       if (progress < 0.1) {
         alpha = progress / 0.1;
       } else {
-        alpha = Math.pow(1 - (progress - 0.1) / 0.9, 1.6);
+        alpha = Math.pow(1 - (progress - 0.1) / 0.9, 1.5);
       }
 
-      // Smooth fade out when approaching max descent
+      // Smooth fade out as particle approaches end of life
       if (fallDistance > maxFall * 0.6) {
         const dropFade = 1 - (fallDistance - maxFall * 0.6) / (maxFall * 0.4);
         alpha *= Math.max(0, dropFade);
@@ -233,7 +233,7 @@ class MagicDustController {
 
       if (alpha <= 0.005) continue;
 
-      const curSize = p.size * (1.0 - progress * 0.2);
+      const curSize = p.size * (1.0 - progress * 0.15);
 
       // Render glowing micro-mote
       this.ctx.shadowBlur = curSize * 3.5 * glowFactor;
