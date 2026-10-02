@@ -60,9 +60,9 @@ class AudioServiceController {
 
     if (!this.audio) return;
 
-    // 1. Moving to theory (rules) or test -> fade out and pause
+    // 1. Moving to theory (rules) or test -> fade out 2x slower (1800ms smooth dissolve)
     if (newScreen === 'theory' || newScreen === 'test') {
-      this.fadeOut(900);
+      this.fadeOut(1800);
     } 
     // 2. Navigating in menu screens (levels, lessons, leaderboard)
     else {
@@ -76,12 +76,12 @@ class AudioServiceController {
     }
   }
 
-  fadeOut(durationMs = 900) {
+  fadeOut(durationMs = 1800) {
     if (!this.audio || this.audio.paused) return;
     if (this.fadeInterval) clearInterval(this.fadeInterval);
 
     const startVol = this.audio.volume;
-    const steps = 18;
+    const steps = 36; // Extra smooth dissolution
     const stepTime = Math.max(20, durationMs / steps);
     const volStep = startVol / steps;
 
