@@ -1,20 +1,20 @@
 /**
- * Weightless Golden Stardust Trail Engine
- * Creates a dense, silky trail of microscopic golden dust motes that hover weightlessly
- * in the air under the finger/cursor, settling almost imperceptibly slowly before fading.
+ * Zero-Gravity Micro-Golden Stardust Trail Engine
+ * Creates a dense, rich, silky trail of ultra-microscopic golden dust that levitates weightlessly
+ * in place under the finger/cursor with near-zero vertical fall, slowly dissolving into the air.
  */
 
 export const DEFAULT_DUST_CONFIG = {
-  density: 18,          // Rich, dense dust stream
-  size: 0.45,           // Microscopic particle size (0.25px - 0.55px)
-  brightness: 0.55,     // Soft, warm luminescence
+  density: 26,          // Very dense, rich dust trail
+  size: 0.22,           // Ultra-microscopic particle size (0.15px - 0.35px)
+  brightness: 0.55,     // Soft, warm golden luminescence
   glow: 0.35,           // Delicate starlight glow
-  life: 1.6,            // Hover duration in seconds
-  gravity: 1.2,         // Ultra-slow, near-weightless hover drift
-  sway: 0.8,            // Gentle organic micro-drift
-  spread: 6,            // Tight stream directly around touch point
-  maxFall: 25,          // Minimal drop before dissolving
-  glints: 20,           // Twinkling micro-sparkles
+  life: 1.5,            // Levitation duration in seconds
+  gravity: 0.1,         // 10x slower: near-zero gravity levitation
+  sway: 0.4,            // Microscopic air shimmer
+  spread: 6,            // Tight stream directly beneath fingertip
+  maxFall: 10,          // Virtually zero fall distance before fading
+  glints: 22,           // Shimmering micro-sparkles
   tint: "gold"
 };
 
@@ -77,20 +77,20 @@ class MagicDustController {
       if (!this.isEnabled) return;
 
       if (this.lastSpawnPos) {
-        // High density interpolation along movement path
+        // Ultra-dense fine interpolation along stroke path
         const dx = x - this.lastSpawnPos.x;
         const dy = y - this.lastSpawnPos.y;
         const dist = Math.hypot(dx, dy);
-        const steps = Math.min(10, Math.max(1, Math.floor(dist / 4.5)));
+        const steps = Math.min(14, Math.max(1, Math.floor(dist / 2.5)));
 
         for (let s = 0; s < steps; s++) {
           const t = (s + 1) / steps;
           const ix = this.lastSpawnPos.x + dx * t;
           const iy = this.lastSpawnPos.y + dy * t;
-          this.spawnBurst(ix, iy, 4);
+          this.spawnBurst(ix, iy, 5);
         }
       } else {
-        this.spawnBurst(x, y, 8);
+        this.spawnBurst(x, y, 14);
       }
 
       this.lastSpawnPos = { x, y };
@@ -131,7 +131,7 @@ class MagicDustController {
     const spread = this.config.spread;
     for (let i = 0; i < count; i++) {
       const angle = Math.random() * Math.PI * 2;
-      const speed = (0.05 + Math.random() * 0.4) * (spread * 0.2);
+      const speed = (0.02 + Math.random() * 0.25) * (spread * 0.15);
       const isShimmer = Math.random() * 100 < this.config.glints;
 
       const baseColor = this.goldColors[Math.floor(Math.random() * this.goldColors.length)];
@@ -139,18 +139,19 @@ class MagicDustController {
       this.particles.push({
         x: x + (Math.random() - 0.5) * spread,
         y: y + (Math.random() - 0.5) * spread,
+        startX: x,
         startY: y,
         vx: Math.cos(angle) * speed,
-        vy: Math.sin(angle) * speed * 0.15, // Near zero vertical start velocity
+        vy: Math.sin(angle) * speed * 0.05, // Virtually zero initial vertical drift
         baseColor,
         isShimmer,
-        size: (0.3 + Math.random() * 0.5) * this.config.size, // Microscopic (0.25px - 0.55px)
+        size: (0.2 + Math.random() * 0.4) * this.config.size, // Ultra-microscopic (0.15px - 0.35px)
         age: 0,
-        maxLife: (0.9 + Math.random() * 0.5) * this.config.life,
+        maxLife: (0.9 + Math.random() * 0.4) * this.config.life,
         swayPhase: Math.random() * Math.PI * 2,
-        swaySpeed: 1.0 + Math.random() * 1.5,
+        swaySpeed: 0.8 + Math.random() * 1.2,
         twinklePhase: Math.random() * Math.PI * 2,
-        twinkleSpeed: 3.0 + Math.random() * 4.5
+        twinkleSpeed: 2.5 + Math.random() * 4.0
       });
     }
   }
@@ -199,15 +200,15 @@ class MagicDustController {
 
       if (fallDistance > maxFall) continue;
 
-      // Ultra-slow weightless hover physics
-      p.vy += gravity * dt * 0.08;
-      p.vx *= 0.94;
-      p.vy *= 0.94;
+      // Zero-gravity levitation with gentle damping
+      p.vy += gravity * dt * 0.01;
+      p.vx *= 0.92;
+      p.vy *= 0.92;
 
       p.swayPhase += p.swaySpeed * dt;
       p.twinklePhase += p.twinkleSpeed * dt;
 
-      p.x += (p.vx + Math.sin(p.swayPhase) * sway * 0.08) * dt * 60;
+      p.x += (p.vx + Math.sin(p.swayPhase) * sway * 0.04) * dt * 60;
       p.y += p.vy * dt * 60;
 
       // Soft progressive fade envelope
@@ -215,19 +216,13 @@ class MagicDustController {
       if (progress < 0.1) {
         alpha = progress / 0.1;
       } else {
-        alpha = Math.pow(1 - (progress - 0.1) / 0.9, 1.5);
-      }
-
-      // Smooth fade out as particle approaches end of life
-      if (fallDistance > maxFall * 0.6) {
-        const dropFade = 1 - (fallDistance - maxFall * 0.6) / (maxFall * 0.4);
-        alpha *= Math.max(0, dropFade);
+        alpha = Math.pow(1 - (progress - 0.1) / 0.9, 1.4);
       }
 
       alpha *= baseBrightness;
 
       if (p.isShimmer) {
-        const twinkle = 0.8 + 0.2 * Math.sin(p.twinklePhase);
+        const twinkle = 0.85 + 0.15 * Math.sin(p.twinklePhase);
         alpha *= twinkle;
       }
 
@@ -235,13 +230,13 @@ class MagicDustController {
 
       const curSize = p.size * (1.0 - progress * 0.15);
 
-      // Render glowing micro-mote
+      // Render ultra-microscopic glowing speck
       this.ctx.shadowBlur = curSize * 3.5 * glowFactor;
-      this.ctx.shadowColor = p.baseColor + `${Math.min(0.7, alpha * 1.1)})`;
+      this.ctx.shadowColor = p.baseColor + `${Math.min(0.65, alpha * 1.1)})`;
       this.ctx.fillStyle = p.baseColor + `${alpha})`;
 
       this.ctx.beginPath();
-      this.ctx.arc(p.x, p.y, Math.max(0.25, curSize), 0, Math.PI * 2);
+      this.ctx.arc(p.x, p.y, Math.max(0.18, curSize), 0, Math.PI * 2);
       this.ctx.fill();
 
       nextParticles.push(p);
