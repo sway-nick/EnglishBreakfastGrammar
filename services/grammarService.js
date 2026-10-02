@@ -136,27 +136,51 @@ export const GrammarService = {
   },
 
   checkGapAnswer(userAnswer, gap) {
+    if (!gap) return { isCorrect: false, correctAnswer: '' };
     const normUser = this.normalizeText(userAnswer);
-    if (!normUser) return { isCorrect: false, correctAnswer: gap.correct_answer || (gap.accepted_answers && gap.accepted_answers[0]) || '' };
 
-    const accepted = (gap.accepted_answers || []).map(a => this.normalizeText(a));
+    const correctVals = [];
     if (gap.correct_answer) {
-      accepted.push(this.normalizeText(gap.correct_answer));
+      correctVals.push(String(gap.correct_answer));
+    }
+    if (Array.isArray(gap.accepted_answers)) {
+      gap.accepted_answers.forEach(a => {
+        if (a !== null && a !== undefined) correctVals.push(String(a));
+      });
+    }
+    if (Array.isArray(gap.options)) {
+      gap.options.forEach(opt => {
+        if (opt && opt.is_correct) {
+          const v = opt.text ?? opt.value ?? opt;
+          if (v !== null && v !== undefined) correctVals.push(String(v));
+        }
+      });
     }
 
-    const isCorrect = accepted.includes(normUser);
+    const normAccepted = correctVals.map(a => this.normalizeText(a)).filter(Boolean);
+    const isCorrect = normUser !== '' && normAccepted.includes(normUser);
+    const displayCorrect = correctVals[0] || (normAccepted[0] ?? '');
+
     return {
       isCorrect,
-      correctAnswer: gap.correct_answer || gap.accepted_answers?.[0] || ''
+      correctAnswer: displayCorrect
     };
   },
 
   checkOptionAnswer(selectedOptionId, options) {
-    const chosen = options.find(o => o.option_id === selectedOptionId);
+    if (!options || !Array.isArray(options) || !options.length) {
+      return { isCorrect: false, correctAnswer: '' };
+    }
+    const chosen = options.find(o => 
+      String(o.id) === String(selectedOptionId) || 
+      String(o.option_id) === String(selectedOptionId) || 
+      String(o.value) === String(selectedOptionId) ||
+      String(o.text) === String(selectedOptionId)
+    );
     const correctOpt = options.find(o => o.is_correct);
     return {
       isCorrect: Boolean(chosen && chosen.is_correct),
-      correctAnswer: correctOpt ? correctOpt.text : ''
+      correctAnswer: correctOpt ? (correctOpt.text || correctOpt.value || '') : ''
     };
   }
 };

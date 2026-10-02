@@ -758,7 +758,9 @@ html, body {
 
 .gap-input {
   display: inline-block;
-  min-width: 100px;
+  vertical-align: middle;
+  min-width: 90px;
+  max-width: 180px;
   padding: 4px 10px;
   font-size: 15px;
   font-weight: 700;
@@ -779,6 +781,7 @@ html, body {
 
 .gap-select {
   display: inline-block;
+  vertical-align: middle;
   padding: 5px 12px;
   font-size: 15px;
   font-weight: 700;

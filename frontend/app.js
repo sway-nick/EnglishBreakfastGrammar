@@ -233,7 +233,16 @@ class App {
         return;
       }
 
-      // 14. Check Test Answers button
+      // 14. Check Test Answers (Single Exercise or Global)
+      const checkExBtn = e.target.closest('.btn-check-exercise');
+      if (checkExBtn) {
+        const exId = checkExBtn.getAttribute('data-exercise-id');
+        if (exId) {
+          this.evaluateExercise(exId);
+        }
+        return;
+      }
+
       if (e.target.closest('#btn-check-test-answers')) {
         this.evaluateTest();
         return;
@@ -251,6 +260,7 @@ class App {
       if (e.target.closest('#btn-result-retry')) {
         const modal = document.getElementById('test-result-modal');
         if (modal) modal.remove();
+        this.state.checkedExercises = new Set();
         this.navigate('test', { lesson: this.state.currentLesson });
         return;
       }
@@ -290,78 +300,142 @@ class App {
     });
   }
 
-  evaluateTest() {
+  evaluateExercise(exerciseId) {
     const lesson = this.state.currentLesson;
     if (!lesson || !lesson.exercises) return;
 
+    const ex = lesson.exercises.find((e, idx) => {
+      const eid = e.id || e.exercise_id || (`ex_${idx + 1}`);
+      return String(eid) === String(exerciseId);
+    });
+    if (!ex) return;
+
+    let exTotal = 0;
+    let exEarned = 0;
+
+    (ex.questions || []).forEach((q, qIdx) => {
+      const qId = q.id || q.question_id || (`q_${qIdx + 1}`);
+      exTotal++;
+      let questionCorrect = true;
+      let correctHints = [];
+
+      // Case 1: Evaluate Gaps (Select or Text input)
+      if (q.gaps && q.gaps.length > 0) {
+        q.gaps.forEach((gap, gIdx) => {
+          const gapId = gap.id || gap.gap_id || (`gap_${qId}_${gIdx + 1}`);
+          const gapEl = document.querySelector(`[data-question-id="${qId}"][data-gap-id="${gapId}"], [data-gap-id="${gapId}"]`);
+          const userVal = gapEl ? gapEl.value : '';
+          const res = GrammarService.checkGapAnswer(userVal, gap);
+
+          if (gapEl) {
+            gapEl.classList.remove('is-correct', 'is-wrong');
+            gapEl.classList.add(res.isCorrect ? 'is-correct' : 'is-wrong');
+          }
+
+          if (!res.isCorrect) {
+            questionCorrect = false;
+            if (res.correctAnswer) {
+              correctHints.push(res.correctAnswer);
+            }
+          }
+        });
+      }
+      // Case 2: Evaluate Choice Options
+      else if (q.options && q.options.length > 0) {
+        const isMulti = q.response_model === 'multiple_choice' || q.type === 'multiple_choice';
+        if (!isMulti) {
+          const selectedRadio = document.querySelector(`input[name="q_${qId}"]:checked`);
+          const selectedOptId = selectedRadio ? selectedRadio.value : null;
+          const res = GrammarService.checkOptionAnswer(selectedOptId, q.options);
+
+          const allLabels = document.querySelectorAll(`[data-question-id="${qId}"].choice-label, .question-item[data-question-id="${qId}"] .choice-label`);
+          allLabels.forEach(lbl => {
+            const optId = lbl.getAttribute('data-option-id');
+            const opt = q.options.find(o => String(o.id || o.option_id || o.value || o.text) === String(optId));
+            lbl.classList.remove('is-correct', 'is-wrong');
+            if (opt && opt.is_correct) {
+              lbl.classList.add('is-correct');
+            } else if (optId === selectedOptId && !res.isCorrect) {
+              lbl.classList.add('is-wrong');
+            }
+          });
+
+          if (!res.isCorrect) {
+            questionCorrect = false;
+            if (res.correctAnswer) {
+              correctHints.push(res.correctAnswer);
+            }
+          }
+        }
+      }
+
+      if (questionCorrect) {
+        exEarned++;
+      }
+
+      // Show feedback block
+      const feedbackEl = document.getElementById(`feedback-${qId}`);
+      if (feedbackEl) {
+        feedbackEl.style.display = 'block';
+        feedbackEl.className = `answer-feedback ${questionCorrect ? 'correct' : 'wrong'}`;
+        let explanationText = q.explanation ? `<div style="margin-top: 4px; font-size: 13px; opacity: 0.9;">${q.explanation}</div>` : '';
+        if (questionCorrect) {
+          feedbackEl.innerHTML = `<div>✓ Правильно!</div>${explanationText}`;
+        } else {
+          const hintStr = correctHints.length ? `Правильный ответ: <strong>${correctHints.join(', ')}</strong>` : 'Неверно';
+          feedbackEl.innerHTML = `<div>✗ ${hintStr}</div>${explanationText}`;
+        }
+      }
+    });
+
+    // Update exercise badge
+    const badgeEl = document.getElementById(`ex-badge-${exerciseId}`);
+    if (badgeEl) {
+      const exPercent = Math.round((exEarned / (exTotal || 1)) * 100);
+      badgeEl.style.display = 'inline-block';
+      if (exPercent >= 80) {
+        badgeEl.style.background = 'rgba(34, 197, 94, 0.15)';
+        badgeEl.style.color = '#15803d';
+        badgeEl.innerHTML = `✓ Результат: ${exEarned} из ${exTotal} (${exPercent}%)`;
+      } else if (exPercent >= 50) {
+        badgeEl.style.background = 'rgba(245, 158, 11, 0.15)';
+        badgeEl.style.color = '#b45309';
+        badgeEl.innerHTML = `⚡ Результат: ${exEarned} из ${exTotal} (${exPercent}%)`;
+      } else {
+        badgeEl.style.background = 'rgba(239, 68, 68, 0.15)';
+        badgeEl.style.color = '#b91c1c';
+        badgeEl.innerHTML = `✗ Результат: ${exEarned} из ${exTotal} (${exPercent}%)`;
+      }
+    }
+
+    // Track checked exercises
+    if (!this.state.checkedExercises) {
+      this.state.checkedExercises = new Set();
+    }
+    this.state.checkedExercises.add(String(exerciseId));
+
+    // Check if all exercises are checked
+    const allChecked = lesson.exercises.every((e, idx) => {
+      const eid = String(e.id || e.exercise_id || (`ex_${idx + 1}`));
+      return this.state.checkedExercises.has(eid);
+    });
+
+    if (allChecked) {
+      this.finishTest(lesson);
+    }
+  }
+
+  finishTest(lesson) {
     let totalPoints = 0;
     let earnedPoints = 0;
 
     lesson.exercises.forEach(ex => {
-      (ex.questions || []).forEach(q => {
+      (ex.questions || []).forEach((q, qIdx) => {
+        const qId = q.id || q.question_id || (`q_${qIdx + 1}`);
         totalPoints++;
-        let questionCorrect = true;
-        let correctHint = '';
-
-        // Evaluate Gaps
-        if (q.gaps && q.gaps.length > 0) {
-          q.gaps.forEach(gap => {
-            const gapInput = document.querySelector(`[data-gap-id="${gap.gap_id}"]`);
-            const userVal = gapInput ? gapInput.value : '';
-            const res = GrammarService.checkGapAnswer(userVal, gap);
-
-            if (gapInput) {
-              gapInput.classList.remove('is-correct', 'is-wrong');
-              gapInput.classList.add(res.isCorrect ? 'is-correct' : 'is-wrong');
-            }
-
-            if (!res.isCorrect) {
-              questionCorrect = false;
-              correctHint += (correctHint ? ', ' : '') + `Правильно: «${res.correctAnswer}»`;
-            }
-          });
-        }
-        // Evaluate Choice Options
-        else if (q.options && q.options.length > 0) {
-          const isMulti = q.response_model === 'multiple_choice';
-          if (!isMulti) {
-            const selectedRadio = document.querySelector(`input[name="q_${q.question_id}"]:checked`);
-            const selectedOptId = selectedRadio ? selectedRadio.value : null;
-            const res = GrammarService.checkOptionAnswer(selectedOptId, q.options);
-
-            const allLabels = document.querySelectorAll(`[data-question-id="${q.question_id}"].choice-label, .question-item[data-question-id="${q.question_id}"] .choice-label`);
-            allLabels.forEach(lbl => {
-              const optId = lbl.getAttribute('data-option-id');
-              const opt = q.options.find(o => o.option_id === optId);
-              if (opt && opt.is_correct) {
-                lbl.classList.add('is-correct');
-              } else if (optId === selectedOptId && !res.isCorrect) {
-                lbl.classList.add('is-wrong');
-              }
-            });
-
-            if (!res.isCorrect) {
-              questionCorrect = false;
-              correctHint = `Правильный ответ: «${res.correctAnswer}»`;
-            }
-          }
-        }
-
-        if (questionCorrect) {
+        const feedbackEl = document.getElementById(`feedback-${qId}`);
+        if (feedbackEl && feedbackEl.classList.contains('correct')) {
           earnedPoints++;
-        }
-
-        // Show feedback block
-        const feedbackEl = document.getElementById(`feedback-${q.question_id}`);
-        if (feedbackEl) {
-          feedbackEl.style.display = 'block';
-          feedbackEl.className = `answer-feedback ${questionCorrect ? 'correct' : 'wrong'}`;
-          let explanationText = q.explanation || '';
-          if (questionCorrect) {
-            feedbackEl.innerHTML = `✓ Отлично! ${explanationText}`;
-          } else {
-            feedbackEl.innerHTML = `✗ ${correctHint}. ${explanationText}`;
-          }
         }
       });
     });
@@ -370,8 +444,9 @@ class App {
     const xpReward = percent >= 80 ? 50 : (percent >= 50 ? 25 : 10);
 
     // Save Progress
+    const lessonId = lesson.id || lesson.lesson_id;
     StorageService.addXP(xpReward);
-    StorageService.setLessonCompleted(lesson.lesson_id, percent);
+    StorageService.setLessonCompleted(lessonId, percent);
 
     // Update Header counters instantly
     const xpVal = document.getElementById('header-xp-val');
@@ -381,6 +456,16 @@ class App {
     const modalContainer = document.createElement('div');
     modalContainer.innerHTML = renderTestResultModal(percent, xpReward);
     document.body.appendChild(modalContainer.firstElementChild);
+  }
+
+  evaluateTest() {
+    const lesson = this.state.currentLesson;
+    if (!lesson || !lesson.exercises) return;
+
+    lesson.exercises.forEach((ex, idx) => {
+      const exId = ex.id || ex.exercise_id || (`ex_${idx + 1}`);
+      this.evaluateExercise(exId);
+    });
   }
 
   render() {
