@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1-b2_indirect_questions",
+  "level": "B1-B2",
+  "title": "Indirect questions",
+  "description": "Практический тест и правила по теме: Indirect questions",
+  "theory": {
+    "title": "Правила и грамматика: Indirect questions",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Indirect questions».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Indirect questions» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-270",
+      "lessonId": "b1-b2_indirect_questions",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct forms to complete the following questions. There are direct and indirect questions.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_indirect-questions.html",
+      "questions": [
+        {
+          "id": "2357",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I don't know the answer. How many times {{gap1}} to tell you?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2357_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "do I have",
+              "accepted_answers": [
+                "do I have"
+              ],
+              "options": [
+                {
+                  "id": "gap_2357_1_1",
+                  "order": 1,
+                  "text": "I do have",
+                  "value": "I do have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2357_1_2",
+                  "order": 2,
+                  "text": "I have",
+                  "value": "I have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2357_1_3",
+                  "order": 3,
+                  "text": "do I have",
+                  "value": "do I have",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2358",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I don't know {{gap1}} so unhappy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2358_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "why he's always",
+              "accepted_answers": [
+                "why he's always"
+              ],
+              "options": [
+                {
+                  "id": "gap_2358_1_1",
+                  "order": 1,
+                  "text": "why is he always",
+                  "value": "why is he always",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2358_1_2",
+                  "order": 2,
+                  "text": "why he's always",
+                  "value": "why he's always",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2358_1_3",
+                  "order": 3,
+                  "text": "whether is he always",
+                  "value": "whether is he always",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2359",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Do you have any idea when {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2359_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "the results will be published",
+              "accepted_answers": [
+                "the results will be published"
+              ],
+              "options": [
+                {
+                  "id": "gap_2359_1_1",
+                  "order": 1,
+                  "text": "will be the results published",
+                  "value": "will be the results published",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2359_1_2",
+                  "order": 2,
+                  "text": "the results will be published",
+                  "value": "the results will be published",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2359_1_3",
+                  "order": 3,
+                  "text": "will the results be published",
+                  "value": "will the results be published",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2365",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 How many people {{gap1}} for the party?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2365_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "did you call",
+              "accepted_answers": [
+                "did you call"
+              ],
+              "options": [
+                {
+                  "id": "gap_2365_1_1",
+                  "order": 1,
+                  "text": "did you call",
+                  "value": "did you call",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2365_1_2",
+                  "order": 2,
+                  "text": "called you",
+                  "value": "called you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2365_1_3",
+                  "order": 3,
+                  "text": "you called",
+                  "value": "you called",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2362",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 I wonder {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2362_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "how long this cold weather will last",
+              "accepted_answers": [
+                "how long this cold weather will last"
+              ],
+              "options": [
+                {
+                  "id": "gap_2362_1_1",
+                  "order": 1,
+                  "text": "how long this cold weather will last",
+                  "value": "how long this cold weather will last",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2362_1_2",
+                  "order": 2,
+                  "text": "how long will this cold weather last",
+                  "value": "how long will this cold weather last",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2362_1_3",
+                  "order": 3,
+                  "text": "how this cold weather will last",
+                  "value": "how this cold weather will last",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2363",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Did she tell you how often {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2363_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "you should take the vitamins",
+              "accepted_answers": [
+                "you should take the vitamins"
+              ],
+              "options": [
+                {
+                  "id": "gap_2363_1_1",
+                  "order": 1,
+                  "text": "you should take the vitamins",
+                  "value": "you should take the vitamins",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2363_1_2",
+                  "order": 2,
+                  "text": "do you take the vitamins",
+                  "value": "do you take the vitamins",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2363_1_3",
+                  "order": 3,
+                  "text": "should you take the vitamins",
+                  "value": "should you take the vitamins",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2364",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 I'd like to know {{gap1}} for the experiment.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2364_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "whether I can use the new product",
+              "accepted_answers": [
+                "whether I can use the new product"
+              ],
+              "options": [
+                {
+                  "id": "gap_2364_1_1",
+                  "order": 1,
+                  "text": "if can I use the new product",
+                  "value": "if can I use the new product",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2364_1_2",
+                  "order": 2,
+                  "text": "whether I can use the new product",
+                  "value": "whether I can use the new product",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2364_1_3",
+                  "order": 3,
+                  "text": "whether can I use the new product",
+                  "value": "whether can I use the new product",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2366",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Could you tell me why {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2366_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "you are leaving",
+              "accepted_answers": [
+                "you are leaving"
+              ],
+              "options": [
+                {
+                  "id": "gap_2366_1_1",
+                  "order": 1,
+                  "text": "do you leave",
+                  "value": "do you leave",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2366_1_2",
+                  "order": 2,
+                  "text": "you are leaving",
+                  "value": "you are leaving",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2366_1_3",
+                  "order": 3,
+                  "text": "are you leaving",
+                  "value": "are you leaving",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2367",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Can I ask you how long {{gap1}} here?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2367_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "you have been living",
+              "accepted_answers": [
+                "you have been living"
+              ],
+              "options": [
+                {
+                  "id": "gap_2367_1_1",
+                  "order": 1,
+                  "text": "have you been living",
+                  "value": "have you been living",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2367_1_2",
+                  "order": 2,
+                  "text": "have you lived",
+                  "value": "have you lived",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2367_1_3",
+                  "order": 3,
+                  "text": "you have been living",
+                  "value": "you have been living",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2368",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Why {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2368_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "shouldn't I call her",
+              "accepted_answers": [
+                "shouldn't I call her"
+              ],
+              "options": [
+                {
+                  "id": "gap_2368_1_1",
+                  "order": 1,
+                  "text": "I wouldn't call her",
+                  "value": "I wouldn't call her",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2368_1_2",
+                  "order": 2,
+                  "text": "shouldn't I call her",
+                  "value": "shouldn't I call her",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2368_1_3",
+                  "order": 3,
+                  "text": "I shouldn't call her",
+                  "value": "I shouldn't call her",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-269",
+      "lessonId": "b1-b2_indirect_questions",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct forms to complete the questions below. There are direct and indirect questions.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_indirect-questions_2.html",
+      "questions": [
+        {
+          "id": "2349",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I'd like to know ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2349_1",
+              "order": 1,
+              "text": "how can I contact her",
+              "value": "3500",
+              "is_correct": false
+            },
+            {
+              "id": "2349_2",
+              "order": 2,
+              "text": "how I can contact her",
+              "value": "3501",
+              "is_correct": true
+            },
+            {
+              "id": "2349_3",
+              "order": 3,
+              "text": "how do I contact her",
+              "value": "3502",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2350",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I was wondering ______ the recipe.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2350_1",
+              "order": 1,
+              "text": "where you found",
+              "value": "3503",
+              "is_correct": true
+            },
+            {
+              "id": "2350_2",
+              "order": 2,
+              "text": "where did you find",
+              "value": "3504",
+              "is_correct": false
+            },
+            {
+              "id": "2350_3",
+              "order": 3,
+              "text": "where found you",
+              "value": "3505",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2351",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Would you mind telling me ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2351_1",
+              "order": 1,
+              "text": "how much did the sofa cost",
+              "value": "3506",
+              "is_correct": false
+            },
+            {
+              "id": "2351_2",
+              "order": 2,
+              "text": "how much cost the sofa",
+              "value": "3507",
+              "is_correct": false
+            },
+            {
+              "id": "2351_3",
+              "order": 3,
+              "text": "how much the sofa cost",
+              "value": "3508",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2360",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 How long ______ to finish the project?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2360_1",
+              "order": 1,
+              "text": "it is going to take",
+              "value": "3524",
+              "is_correct": false
+            },
+            {
+              "id": "2360_2",
+              "order": 2,
+              "text": "is it going to take",
+              "value": "3525",
+              "is_correct": true
+            },
+            {
+              "id": "2360_3",
+              "order": 3,
+              "text": "it's going to take",
+              "value": "3526",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2352",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 ______ in this house?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2352_1",
+              "order": 1,
+              "text": "How much time you have been living",
+              "value": "3509",
+              "is_correct": false
+            },
+            {
+              "id": "2352_2",
+              "order": 2,
+              "text": "How long you've been living",
+              "value": "3510",
+              "is_correct": false
+            },
+            {
+              "id": "2352_3",
+              "order": 3,
+              "text": "How long have you been living",
+              "value": "3511",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2353",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Could you tell me ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2353_1",
+              "order": 1,
+              "text": "what are you afraid",
+              "value": "3512",
+              "is_correct": false
+            },
+            {
+              "id": "2353_2",
+              "order": 2,
+              "text": "what you are afraid",
+              "value": "3513",
+              "is_correct": false
+            },
+            {
+              "id": "2353_3",
+              "order": 3,
+              "text": "what you are afraid of",
+              "value": "3514",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2354",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Do you know ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2354_1",
+              "order": 1,
+              "text": "if is he going to come",
+              "value": "3515",
+              "is_correct": false
+            },
+            {
+              "id": "2354_2",
+              "order": 2,
+              "text": "if he's going to come",
+              "value": "3516",
+              "is_correct": true
+            },
+            {
+              "id": "2354_3",
+              "order": 3,
+              "text": "whether is he going to come",
+              "value": "3517",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2355",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I'd like to know ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2355_1",
+              "order": 1,
+              "text": "why you are acting so weird",
+              "value": "3518",
+              "is_correct": true
+            },
+            {
+              "id": "2355_2",
+              "order": 2,
+              "text": "why are you acting so weird",
+              "value": "3519",
+              "is_correct": false
+            },
+            {
+              "id": "2355_3",
+              "order": 3,
+              "text": "why act you so weird",
+              "value": "3520",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2356",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Do you have any idea ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2356_1",
+              "order": 1,
+              "text": "is who the man in black",
+              "value": "3521",
+              "is_correct": false
+            },
+            {
+              "id": "2356_2",
+              "order": 2,
+              "text": "who's the man in black",
+              "value": "3522",
+              "is_correct": false
+            },
+            {
+              "id": "2356_3",
+              "order": 3,
+              "text": "who the man in black is",
+              "value": "3523",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2369",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 ______? Can you tell me?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2369_1",
+              "order": 1,
+              "text": "Where is the new student from",
+              "value": "3530",
+              "is_correct": true
+            },
+            {
+              "id": "2369_2",
+              "order": 2,
+              "text": "Where the new student is from",
+              "value": "3531",
+              "is_correct": false
+            },
+            {
+              "id": "2369_3",
+              "order": 3,
+              "text": "From where is the new student",
+              "value": "3532",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-8",
+      "lessonId": "b1-b2_indirect_questions",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Turn these direct questions into indirect questions.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_indirect-questions_3.html",
+      "questions": [
+        {
+          "id": "53",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Where is he from? ⇒ Do you know {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_53_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "where he is from",
+              "accepted_answers": [
+                "where he is from"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "54",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 How many countries has he travelled to? ⇒ I wonder {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_54_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "how many countries he has travelled to",
+              "accepted_answers": [
+                "how many countries he has travelled to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "55",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Where did you go? ⇒ Can you tell me {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_55_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "where you went",
+              "accepted_answers": [
+                "where you went"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "56",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Have you finished the report yet? ⇒ I'd like to know {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_56_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "if you have finished the report yet",
+              "accepted_answers": [
+                "if you have finished the report yet"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "57",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Does he go out very often? ⇒ I've no idea whether {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_57_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "he goes out very often",
+              "accepted_answers": [
+                "he goes out very often"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "58",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Who was she talking to? ⇒ I wonder who {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_58_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "she was talking to",
+              "accepted_answers": [
+                "she was talking to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "59",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Where is the nearest station? ⇒ Could you tell me where {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_59_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the nearest station is",
+              "accepted_answers": [
+                "the nearest station is"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "60",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Why can't you help your new colleague? ⇒ Would you mind telling me why {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_60_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "you can't help your new colleague",
+              "accepted_answers": [
+                "you can't help your new colleague"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "61",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 What is our new boss like? ⇒ I'd like to find out what {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_61_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "our new boss is like",
+              "accepted_answers": [
+                "our new boss is like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "62",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 How could you do that? ⇒ I don't know how {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_62_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "you could do that",
+              "accepted_answers": [
+                "you could do that"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

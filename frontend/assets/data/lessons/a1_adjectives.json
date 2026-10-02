@@ -1,0 +1,1240 @@
+{
+  "lesson_id": "a1_adjectives",
+  "level": "A1",
+  "title": "Adjectives: Old, interesting, expensive, etc.",
+  "description": "Практический тест и правила по теме: Adjectives: Old, interesting, expensive, etc.",
+  "theory": {
+    "title": "Правила и грамматика: Adjectives: Old, interesting, expensive, etc.",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Adjectives: Old, interesting, expensive, etc.».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Adjectives: Old, interesting, expensive, etc.» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-427",
+      "lessonId": "a1_adjectives",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct forms with adjectives to complete the following sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_adjectives.html",
+      "questions": [
+        {
+          "id": "3696",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 With this makeup, your eyes {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3696_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "look different",
+              "accepted_answers": [
+                "look different"
+              ],
+              "options": [
+                {
+                  "id": "gap_3696_1_1",
+                  "order": 1,
+                  "text": "look different",
+                  "value": "look different",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3696_1_2",
+                  "order": 2,
+                  "text": "different look",
+                  "value": "different look",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3696_1_3",
+                  "order": 3,
+                  "text": "look differents",
+                  "value": "look differents",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3697",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 These are {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3697_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "important documents",
+              "accepted_answers": [
+                "important documents"
+              ],
+              "options": [
+                {
+                  "id": "gap_3697_1_1",
+                  "order": 1,
+                  "text": "important documents",
+                  "value": "important documents",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3697_1_2",
+                  "order": 2,
+                  "text": "documents importants",
+                  "value": "documents importants",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3697_1_3",
+                  "order": 3,
+                  "text": "documents important",
+                  "value": "documents important",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3698",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 {{gap1}} in their new house?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3698_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Are they happy",
+              "accepted_answers": [
+                "Are they happy"
+              ],
+              "options": [
+                {
+                  "id": "gap_3698_1_1",
+                  "order": 1,
+                  "text": "Are happy they",
+                  "value": "Are happy they",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3698_1_2",
+                  "order": 2,
+                  "text": "Are they happy",
+                  "value": "Are they happy",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3698_1_3",
+                  "order": 3,
+                  "text": "Are they happies",
+                  "value": "Are they happies",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3699",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 He has {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3699_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "an interesting job",
+              "accepted_answers": [
+                "an interesting job"
+              ],
+              "options": [
+                {
+                  "id": "gap_3699_1_1",
+                  "order": 1,
+                  "text": "a job interesting",
+                  "value": "a job interesting",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3699_1_2",
+                  "order": 2,
+                  "text": "an interesting job",
+                  "value": "an interesting job",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3700",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Sit down. You {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3700_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "look tired",
+              "accepted_answers": [
+                "look tired"
+              ],
+              "options": [
+                {
+                  "id": "gap_3700_1_1",
+                  "order": 1,
+                  "text": "look tired",
+                  "value": "look tired",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3700_1_2",
+                  "order": 2,
+                  "text": "tired look",
+                  "value": "tired look",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3700_1_3",
+                  "order": 3,
+                  "text": "smell tired",
+                  "value": "smell tired",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3701",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Our holidays {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3701_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are fantastic",
+              "accepted_answers": [
+                "are fantastic"
+              ],
+              "options": [
+                {
+                  "id": "gap_3701_1_1",
+                  "order": 1,
+                  "text": "fantastic are",
+                  "value": "fantastic are",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3701_1_2",
+                  "order": 2,
+                  "text": "are fantastic",
+                  "value": "are fantastic",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3701_1_3",
+                  "order": 3,
+                  "text": "are fantastics",
+                  "value": "are fantastics",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3702",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 John has problems at home. {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3702_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Are his marks good",
+              "accepted_answers": [
+                "Are his marks good"
+              ],
+              "options": [
+                {
+                  "id": "gap_3702_1_1",
+                  "order": 1,
+                  "text": "Are goods his marks",
+                  "value": "Are goods his marks",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3702_1_2",
+                  "order": 2,
+                  "text": "Are his marks good",
+                  "value": "Are his marks good",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3702_1_3",
+                  "order": 3,
+                  "text": "Are good his marks",
+                  "value": "Are good his marks",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3703",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Their project {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3703_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "sounds interesting",
+              "accepted_answers": [
+                "sounds interesting"
+              ],
+              "options": [
+                {
+                  "id": "gap_3703_1_1",
+                  "order": 1,
+                  "text": "interesting looks",
+                  "value": "interesting looks",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3703_1_2",
+                  "order": 2,
+                  "text": "tastes interesting",
+                  "value": "tastes interesting",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3703_1_3",
+                  "order": 3,
+                  "text": "sounds interesting",
+                  "value": "sounds interesting",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3704",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 These cookies {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3704_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are excellent",
+              "accepted_answers": [
+                "are excellent"
+              ],
+              "options": [
+                {
+                  "id": "gap_3704_1_1",
+                  "order": 1,
+                  "text": "are excellent",
+                  "value": "are excellent",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3704_1_2",
+                  "order": 2,
+                  "text": "are excellents",
+                  "value": "are excellents",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3704_1_3",
+                  "order": 3,
+                  "text": "excellent are",
+                  "value": "excellent are",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3705",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Her eyes {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3705_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are blue",
+              "accepted_answers": [
+                "are blue"
+              ],
+              "options": [
+                {
+                  "id": "gap_3705_1_1",
+                  "order": 1,
+                  "text": "blue are",
+                  "value": "blue are",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3705_1_2",
+                  "order": 2,
+                  "text": "are blues",
+                  "value": "are blues",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3705_1_3",
+                  "order": 3,
+                  "text": "are blue",
+                  "value": "are blue",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-428",
+      "lessonId": "a1_adjectives",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Put the words in the correct order.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_adjectives_2.html",
+      "questions": [
+        {
+          "id": "3706",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Which is the correct order?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3706_1",
+              "order": 1,
+              "text": "Your great idea is.",
+              "value": "7910",
+              "is_correct": false
+            },
+            {
+              "id": "3706_2",
+              "order": 2,
+              "text": "Your idea is great.",
+              "value": "7911",
+              "is_correct": true
+            },
+            {
+              "id": "3706_3",
+              "order": 3,
+              "text": "Great your idea is.",
+              "value": "7912",
+              "is_correct": false
+            },
+            {
+              "id": "3706_4",
+              "order": 4,
+              "text": "Your idea great is.",
+              "value": "7913",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3707",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 Which is the correct order?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3707_1",
+              "order": 1,
+              "text": "She an exceptional student is.",
+              "value": "7914",
+              "is_correct": false
+            },
+            {
+              "id": "3707_2",
+              "order": 2,
+              "text": "She is a student exceptional.",
+              "value": "7915",
+              "is_correct": false
+            },
+            {
+              "id": "3707_3",
+              "order": 3,
+              "text": "She is an exceptional student.",
+              "value": "7916",
+              "is_correct": true
+            },
+            {
+              "id": "3707_4",
+              "order": 4,
+              "text": "She a student exceptional is.",
+              "value": "7917",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3708",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Which is the correct order?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3708_1",
+              "order": 1,
+              "text": "Is this shirt Italian?",
+              "value": "7918",
+              "is_correct": true
+            },
+            {
+              "id": "3708_2",
+              "order": 2,
+              "text": "Is Italian this shirt?",
+              "value": "7919",
+              "is_correct": false
+            },
+            {
+              "id": "3708_3",
+              "order": 3,
+              "text": "This shirt Italian is?",
+              "value": "7920",
+              "is_correct": false
+            },
+            {
+              "id": "3708_4",
+              "order": 4,
+              "text": "This shirt is Italian?",
+              "value": "7921",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3709",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Which is the correct order?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3709_1",
+              "order": 1,
+              "text": "That restaurant very dirty is.",
+              "value": "7922",
+              "is_correct": false
+            },
+            {
+              "id": "3709_2",
+              "order": 2,
+              "text": "That is a restaurant very dirty.",
+              "value": "7923",
+              "is_correct": false
+            },
+            {
+              "id": "3709_3",
+              "order": 3,
+              "text": "Very dirty is that restaurant.",
+              "value": "7924",
+              "is_correct": false
+            },
+            {
+              "id": "3709_4",
+              "order": 4,
+              "text": "That restaurant is very dirty.",
+              "value": "7925",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3710",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 Which is the correct order?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3710_1",
+              "order": 1,
+              "text": "He a Korean car has.",
+              "value": "7926",
+              "is_correct": false
+            },
+            {
+              "id": "3710_2",
+              "order": 2,
+              "text": "He has a Korean car.",
+              "value": "7927",
+              "is_correct": true
+            },
+            {
+              "id": "3710_3",
+              "order": 3,
+              "text": "He has a car Korean.",
+              "value": "7928",
+              "is_correct": false
+            },
+            {
+              "id": "3710_4",
+              "order": 4,
+              "text": "A car Korean he has.",
+              "value": "7929",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3711",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Which is the correct order?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3711_1",
+              "order": 1,
+              "text": "This is our restaurant favourite.",
+              "value": "7890",
+              "is_correct": false
+            },
+            {
+              "id": "3711_2",
+              "order": 2,
+              "text": "Our favourite restaurant is this.",
+              "value": "7891",
+              "is_correct": false
+            },
+            {
+              "id": "3711_3",
+              "order": 3,
+              "text": "Is this our restaurant favourite?",
+              "value": "7892",
+              "is_correct": false
+            },
+            {
+              "id": "3711_4",
+              "order": 4,
+              "text": "This is our favourite restaurant.",
+              "value": "7893",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3713",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Which is the correct order?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3713_1",
+              "order": 1,
+              "text": "It's a building very modern.",
+              "value": "7894",
+              "is_correct": false
+            },
+            {
+              "id": "3713_2",
+              "order": 2,
+              "text": "It's a very modern building.",
+              "value": "7895",
+              "is_correct": true
+            },
+            {
+              "id": "3713_3",
+              "order": 3,
+              "text": "Very modern it's a building.",
+              "value": "7896",
+              "is_correct": false
+            },
+            {
+              "id": "3713_4",
+              "order": 4,
+              "text": "A building very modern is.",
+              "value": "7897",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3714",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Which is the correct order?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3714_1",
+              "order": 1,
+              "text": "Are your friends German?",
+              "value": "7898",
+              "is_correct": true
+            },
+            {
+              "id": "3714_2",
+              "order": 2,
+              "text": "Are German your friends?",
+              "value": "7899",
+              "is_correct": false
+            },
+            {
+              "id": "3714_3",
+              "order": 3,
+              "text": "German are your friends?",
+              "value": "7900",
+              "is_correct": false
+            },
+            {
+              "id": "3714_4",
+              "order": 4,
+              "text": "Your friends are German?",
+              "value": "7901",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3715",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Which is the correct order?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3715_1",
+              "order": 1,
+              "text": "This language difficult is.",
+              "value": "7902",
+              "is_correct": false
+            },
+            {
+              "id": "3715_2",
+              "order": 2,
+              "text": "A language difficult this is.",
+              "value": "7903",
+              "is_correct": false
+            },
+            {
+              "id": "3715_3",
+              "order": 3,
+              "text": "This is a difficult language.",
+              "value": "7904",
+              "is_correct": true
+            },
+            {
+              "id": "3715_4",
+              "order": 4,
+              "text": "This is a language difficult.",
+              "value": "7905",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3716",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Which is the correct order?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3716_1",
+              "order": 1,
+              "text": "This language is difficult.",
+              "value": "7906",
+              "is_correct": true
+            },
+            {
+              "id": "3716_2",
+              "order": 2,
+              "text": "This language difficult is.",
+              "value": "7907",
+              "is_correct": false
+            },
+            {
+              "id": "3716_3",
+              "order": 3,
+              "text": "Is difficult this language?",
+              "value": "7908",
+              "is_correct": false
+            },
+            {
+              "id": "3716_4",
+              "order": 4,
+              "text": "This language is difficult?",
+              "value": "7909",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-429",
+      "lessonId": "a1_adjectives",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the senteces using (a/an) adjective + noun or using be + adjective.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_adjectives_3.html",
+      "questions": [
+        {
+          "id": "3717",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 exam / easy ⇒ This exam {{gap1}}. It's {{gap2}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3717_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is easy",
+              "accepted_answers": [
+                "is easy"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3717_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "an easy exam",
+              "accepted_answers": [
+                "an easy exam"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3718",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 watch / old ⇒ This watch {{gap1}}. It's {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3718_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is old",
+              "accepted_answers": [
+                "is old"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3718_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "an old watch",
+              "accepted_answers": [
+                "an old watch"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3719",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 exotic / countries ⇒ These countries {{gap1}}. They're {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3719_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are exotic",
+              "accepted_answers": [
+                "are exotic"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3719_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "exotic countries",
+              "accepted_answers": [
+                "exotic countries"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3720",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 view / amazing ⇒ The view {{gap1}}. It's {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3720_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is amazing",
+              "accepted_answers": [
+                "is amazing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3720_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "an amazing view",
+              "accepted_answers": [
+                "an amazing view"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3721",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 difficult / situation ⇒ The situation {{gap1}}. It's {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3721_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is difficult",
+              "accepted_answers": [
+                "is difficult"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3721_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "a difficult situation",
+              "accepted_answers": [
+                "a difficult situation"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3722",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 cars / fast ⇒ These cars {{gap1}}. They are {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3722_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are fast",
+              "accepted_answers": [
+                "are fast"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3722_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "fast cars",
+              "accepted_answers": [
+                "fast cars"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3723",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 dangerous / city ⇒ It's {{gap1}}. This city {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3723_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a dangerous city",
+              "accepted_answers": [
+                "a dangerous city"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3723_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "is dangerous",
+              "accepted_answers": [
+                "is dangerous"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3724",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 expensive / clothes ⇒ These clothes {{gap1}}. They're {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3724_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are expensive",
+              "accepted_answers": [
+                "are expensive"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3724_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "expensive clothes",
+              "accepted_answers": [
+                "expensive clothes"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3725",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 man / strong ⇒ He's {{gap1}}. This man {{gap2}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3725_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a strong man",
+              "accepted_answers": [
+                "a strong man"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3725_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "is strong",
+              "accepted_answers": [
+                "is strong"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3726",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 box / empty ⇒ This box {{gap1}}. It's {{gap2}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3726_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is empty",
+              "accepted_answers": [
+                "is empty"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3726_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "an empty box",
+              "accepted_answers": [
+                "an empty box"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

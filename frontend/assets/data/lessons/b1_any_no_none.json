@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1_any_no_none",
+  "level": "B1",
+  "title": "Any, no, none: Quantifiers",
+  "description": "Практический тест и правила по теме: Any, no, none: Quantifiers",
+  "theory": {
+    "title": "Правила и грамматика: Any, no, none: Quantifiers",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Any, no, none: Quantifiers».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Any, no, none: Quantifiers» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-617",
+      "lessonId": "b1_any_no_none",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose any/no/none to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_any-no-none.html",
+      "questions": [
+        {
+          "id": "5306",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 We couldn't find {{gap1}} open restaurants.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5306_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": [
+                {
+                  "id": "gap_5306_1_1",
+                  "order": 1,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5306_1_2",
+                  "order": 2,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5306_1_3",
+                  "order": 3,
+                  "text": "no",
+                  "value": "no",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5307",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Do you have {{gap1}} pets?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5307_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": [
+                {
+                  "id": "gap_5307_1_1",
+                  "order": 1,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5307_1_2",
+                  "order": 2,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5307_1_3",
+                  "order": 3,
+                  "text": "no",
+                  "value": "no",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5308",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 There are still {{gap1}} answers about what happened to her.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5308_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "no",
+              "accepted_answers": [
+                "no"
+              ],
+              "options": [
+                {
+                  "id": "gap_5308_1_1",
+                  "order": 1,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5308_1_2",
+                  "order": 2,
+                  "text": "no",
+                  "value": "no",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5308_1_3",
+                  "order": 3,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5309",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 A: How much milk did you buy? B: {{gap1}}. Sorry, I forgot.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5309_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "None",
+              "accepted_answers": [
+                "None"
+              ],
+              "options": [
+                {
+                  "id": "gap_5309_1_1",
+                  "order": 1,
+                  "text": "None",
+                  "value": "None",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5309_1_2",
+                  "order": 2,
+                  "text": "No",
+                  "value": "No",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5309_1_3",
+                  "order": 3,
+                  "text": "Any",
+                  "value": "Any",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5311",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 You can use {{gap1}} computer in the room. All of them work.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5311_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": [
+                {
+                  "id": "gap_5311_1_1",
+                  "order": 1,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5311_1_2",
+                  "order": 2,
+                  "text": "no",
+                  "value": "no",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5311_1_3",
+                  "order": 3,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5310",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 {{gap1}} of the films are available on streaming platforms.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5310_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "None",
+              "accepted_answers": [
+                "None"
+              ],
+              "options": [
+                {
+                  "id": "gap_5310_1_1",
+                  "order": 1,
+                  "text": "None",
+                  "value": "None",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5310_1_2",
+                  "order": 2,
+                  "text": "No",
+                  "value": "No",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5310_1_3",
+                  "order": 3,
+                  "text": "Any",
+                  "value": "Any",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5312",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 We're worried. We've had {{gap1}} news from them since they left.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5312_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "no",
+              "accepted_answers": [
+                "no"
+              ],
+              "options": [
+                {
+                  "id": "gap_5312_1_1",
+                  "order": 1,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5312_1_2",
+                  "order": 2,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5312_1_3",
+                  "order": 3,
+                  "text": "no",
+                  "value": "no",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5313",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I didn't ask {{gap1}} questions.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5313_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": [
+                {
+                  "id": "gap_5313_1_1",
+                  "order": 1,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5313_1_2",
+                  "order": 2,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5313_1_3",
+                  "order": 3,
+                  "text": "no",
+                  "value": "no",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5314",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 A: How many chapters have you finished? B: {{gap1}}. I've had no time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5314_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "None",
+              "accepted_answers": [
+                "None"
+              ],
+              "options": [
+                {
+                  "id": "gap_5314_1_1",
+                  "order": 1,
+                  "text": "No",
+                  "value": "No",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5314_1_2",
+                  "order": 2,
+                  "text": "Any",
+                  "value": "Any",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5314_1_3",
+                  "order": 3,
+                  "text": "None",
+                  "value": "None",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5315",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Did you have {{gap1}} problems?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5315_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": [
+                {
+                  "id": "gap_5315_1_1",
+                  "order": 1,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5315_1_2",
+                  "order": 2,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5315_1_3",
+                  "order": 3,
+                  "text": "no",
+                  "value": "no",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-618",
+      "lessonId": "b1_any_no_none",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_any-no-none_2.html",
+      "questions": [
+        {
+          "id": "5316",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Did you go _____?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5316_1",
+              "order": 1,
+              "text": "anywhere",
+              "value": "8270",
+              "is_correct": true
+            },
+            {
+              "id": "5316_2",
+              "order": 2,
+              "text": "nowhere",
+              "value": "8271",
+              "is_correct": false
+            },
+            {
+              "id": "5316_3",
+              "order": 3,
+              "text": "no place",
+              "value": "8272",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5317",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 A: What did you do? B: _____. We went back home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5317_1",
+              "order": 1,
+              "text": "Nothing",
+              "value": "8273",
+              "is_correct": true
+            },
+            {
+              "id": "5317_2",
+              "order": 2,
+              "text": "Anything",
+              "value": "8274",
+              "is_correct": false
+            },
+            {
+              "id": "5317_3",
+              "order": 3,
+              "text": "Nowhere",
+              "value": "8275",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5318",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 A: How many episodes did you watch? B:_____. I read a book.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5318_1",
+              "order": 1,
+              "text": "No",
+              "value": "8276",
+              "is_correct": false
+            },
+            {
+              "id": "5318_2",
+              "order": 2,
+              "text": "Nothing",
+              "value": "8277",
+              "is_correct": false
+            },
+            {
+              "id": "5318_3",
+              "order": 3,
+              "text": "None",
+              "value": "8278",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5319",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I didn't tell _____ what happened.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5319_1",
+              "order": 1,
+              "text": "nobody",
+              "value": "8279",
+              "is_correct": false
+            },
+            {
+              "id": "5319_2",
+              "order": 2,
+              "text": "anybody",
+              "value": "8280",
+              "is_correct": true
+            },
+            {
+              "id": "5319_3",
+              "order": 3,
+              "text": "no person",
+              "value": "8281",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5320",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 Shh, be quiet please! _____ could hear us.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5320_1",
+              "order": 1,
+              "text": "Anybody",
+              "value": "8282",
+              "is_correct": true
+            },
+            {
+              "id": "5320_2",
+              "order": 2,
+              "text": "Nobody",
+              "value": "8283",
+              "is_correct": false
+            },
+            {
+              "id": "5320_3",
+              "order": 3,
+              "text": "No person",
+              "value": "8284",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5321",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 You did _____ of the things I asked you to do.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5321_1",
+              "order": 1,
+              "text": "any",
+              "value": "8285",
+              "is_correct": false
+            },
+            {
+              "id": "5321_2",
+              "order": 2,
+              "text": "no",
+              "value": "8286",
+              "is_correct": false
+            },
+            {
+              "id": "5321_3",
+              "order": 3,
+              "text": "none",
+              "value": "8287",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5322",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 I asked all my friends, but _____ could help me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5322_1",
+              "order": 1,
+              "text": "anybody",
+              "value": "8288",
+              "is_correct": false
+            },
+            {
+              "id": "5322_2",
+              "order": 2,
+              "text": "none of they",
+              "value": "8289",
+              "is_correct": false
+            },
+            {
+              "id": "5322_3",
+              "order": 3,
+              "text": "none of them",
+              "value": "8290",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5323",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I called three times but _____ picked up the phone.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5323_1",
+              "order": 1,
+              "text": "None",
+              "value": "8291",
+              "is_correct": false
+            },
+            {
+              "id": "5323_2",
+              "order": 2,
+              "text": "Nothing",
+              "value": "8292",
+              "is_correct": false
+            },
+            {
+              "id": "5323_3",
+              "order": 3,
+              "text": "Nobody",
+              "value": "8293",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5324",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 _____ news is good news.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5324_1",
+              "order": 1,
+              "text": "Any",
+              "value": "8294",
+              "is_correct": false
+            },
+            {
+              "id": "5324_2",
+              "order": 2,
+              "text": "No",
+              "value": "8295",
+              "is_correct": true
+            },
+            {
+              "id": "5324_3",
+              "order": 3,
+              "text": "None",
+              "value": "8296",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5325",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Nobody did _____ for me when I needed help.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5325_1",
+              "order": 1,
+              "text": "nothing",
+              "value": "8297",
+              "is_correct": false
+            },
+            {
+              "id": "5325_2",
+              "order": 2,
+              "text": "none",
+              "value": "8298",
+              "is_correct": false
+            },
+            {
+              "id": "5325_3",
+              "order": 3,
+              "text": "anything",
+              "value": "8299",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-619",
+      "lessonId": "b1_any_no_none",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with no, any, none or anything, anybody, anywhere, nothing, nobody, nowhere.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_any-no-none_3.html",
+      "questions": [
+        {
+          "id": "5326",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 We didn't hear {{gap1}} the night of the event.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5326_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "anything",
+              "accepted_answers": [
+                "anything"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5327",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 There were {{gap1}} witnesses who could testify.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5327_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "no",
+              "accepted_answers": [
+                "no"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5328",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 We didn't go {{gap1}}. We stayed at home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5328_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "anywhere",
+              "accepted_answers": [
+                "anywhere"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5329",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 {{gap1}} will tell me what to do. I'm an independent person.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5329_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Nobody",
+              "accepted_answers": [
+                "Nobody"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5330",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Did you have {{gap1}} visitors last Sunday?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5330_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5331",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 A: How many visitors did you have? B: {{gap1}}. I was alone all day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5331_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "None",
+              "accepted_answers": [
+                "None"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5332",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 A: Who visited you last Sunday? B: {{gap1}}. I was alone all day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5332_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Nobody",
+              "accepted_answers": [
+                "Nobody"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5333",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 {{gap1}} of the suspects have been publicly named.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5333_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "None",
+              "accepted_answers": [
+                "None"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5334",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I'm sorry, but it's too late. There is {{gap1}} we can do now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5334_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "nothing",
+              "accepted_answers": [
+                "nothing"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5335",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Please, ask. I'm here to answer {{gap1}} questions you might have.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5335_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1_all_both",
+  "level": "B1",
+  "title": "All, both: Quantifiers",
+  "description": "Практический тест и правила по теме: All, both: Quantifiers",
+  "theory": {
+    "title": "Правила и грамматика: All, both: Quantifiers",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «All, both: Quantifiers».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «All, both: Quantifiers» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-613",
+      "lessonId": "b1_all_both",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct forms of all/both to complete the sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_all-both.html",
+      "questions": [
+        {
+          "id": "5270",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 {{gap1}} happy to see you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5270_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "We are both",
+              "accepted_answers": [
+                "We are both"
+              ],
+              "options": [
+                {
+                  "id": "gap_5270_1_1",
+                  "order": 1,
+                  "text": "We both are",
+                  "value": "We both are",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5270_1_2",
+                  "order": 2,
+                  "text": "We are both",
+                  "value": "We are both",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5270_1_3",
+                  "order": 3,
+                  "text": "Both us",
+                  "value": "Both us",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5282",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I liked {{gap1}} music in your playlist.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5282_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "all the",
+              "accepted_answers": [
+                "all the"
+              ],
+              "options": [
+                {
+                  "id": "gap_5282_1_1",
+                  "order": 1,
+                  "text": "all",
+                  "value": "all",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5282_1_2",
+                  "order": 2,
+                  "text": "all of",
+                  "value": "all of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5282_1_3",
+                  "order": 3,
+                  "text": "all the",
+                  "value": "all the",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5283",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 {{gap1}} students worked hard to get good grades.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5283_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Both of the",
+              "accepted_answers": [
+                "Both of the"
+              ],
+              "options": [
+                {
+                  "id": "gap_5283_1_1",
+                  "order": 1,
+                  "text": "Both of",
+                  "value": "Both of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5283_1_2",
+                  "order": 2,
+                  "text": "Both of the",
+                  "value": "Both of the",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5283_1_3",
+                  "order": 3,
+                  "text": "The both",
+                  "value": "The both",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5285",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 She has two sons and loves {{gap1}} equally.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5285_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "them both",
+              "accepted_answers": [
+                "them both"
+              ],
+              "options": [
+                {
+                  "id": "gap_5285_1_1",
+                  "order": 1,
+                  "text": "both them",
+                  "value": "both them",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5285_1_2",
+                  "order": 2,
+                  "text": "them both",
+                  "value": "them both",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5285_1_3",
+                  "order": 3,
+                  "text": "the both of them",
+                  "value": "the both of them",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5284",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 {{gap1}} were shocked when we found out the truth.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5284_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "All of us",
+              "accepted_answers": [
+                "All of us"
+              ],
+              "options": [
+                {
+                  "id": "gap_5284_1_1",
+                  "order": 1,
+                  "text": "All us",
+                  "value": "All us",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5284_1_2",
+                  "order": 2,
+                  "text": "We all",
+                  "value": "We all",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5284_1_3",
+                  "order": 3,
+                  "text": "All of us",
+                  "value": "All of us",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5286",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 {{gap1}} admit their mistakes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5286_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "They should both",
+              "accepted_answers": [
+                "They should both"
+              ],
+              "options": [
+                {
+                  "id": "gap_5286_1_1",
+                  "order": 1,
+                  "text": "They both should",
+                  "value": "They both should",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5286_1_2",
+                  "order": 2,
+                  "text": "Both them should",
+                  "value": "Both them should",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5286_1_3",
+                  "order": 3,
+                  "text": "They should both",
+                  "value": "They should both",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5287",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Count the coins and put {{gap1}} in a bag.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5287_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "them all",
+              "accepted_answers": [
+                "them all"
+              ],
+              "options": [
+                {
+                  "id": "gap_5287_1_1",
+                  "order": 1,
+                  "text": "them all",
+                  "value": "them all",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5287_1_2",
+                  "order": 2,
+                  "text": "they all",
+                  "value": "they all",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5287_1_3",
+                  "order": 3,
+                  "text": "all them",
+                  "value": "all them",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5288",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 We like {{gap1}} schools. We can't decide.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5288_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "both",
+              "accepted_answers": [
+                "both"
+              ],
+              "options": [
+                {
+                  "id": "gap_5288_1_1",
+                  "order": 1,
+                  "text": "the both",
+                  "value": "the both",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5288_1_2",
+                  "order": 2,
+                  "text": "both",
+                  "value": "both",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5288_1_3",
+                  "order": 3,
+                  "text": "both of",
+                  "value": "both of",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5289",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 {{gap1}} you need to relax.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5289_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Both of",
+              "accepted_answers": [
+                "Both of"
+              ],
+              "options": [
+                {
+                  "id": "gap_5289_1_1",
+                  "order": 1,
+                  "text": "Both",
+                  "value": "Both",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5289_1_2",
+                  "order": 2,
+                  "text": "Both of",
+                  "value": "Both of",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5289_1_3",
+                  "order": 3,
+                  "text": "The both of",
+                  "value": "The both of",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5290",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 {{gap1}} animals should have the same rights as humans.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5290_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "All",
+              "accepted_answers": [
+                "All"
+              ],
+              "options": [
+                {
+                  "id": "gap_5290_1_1",
+                  "order": 1,
+                  "text": "All",
+                  "value": "All",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5290_1_2",
+                  "order": 2,
+                  "text": "All the",
+                  "value": "All the",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5290_1_3",
+                  "order": 3,
+                  "text": "All of",
+                  "value": "All of",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-614",
+      "lessonId": "b1_all_both",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the right option in the following questions.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_all-both_2.html",
+      "questions": [
+        {
+          "id": "5294",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 _____ a new diet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5294_1",
+              "order": 1,
+              "text": "They both have started",
+              "value": "8234",
+              "is_correct": false
+            },
+            {
+              "id": "5294_2",
+              "order": 2,
+              "text": "Both they have started",
+              "value": "8235",
+              "is_correct": false
+            },
+            {
+              "id": "5294_3",
+              "order": 3,
+              "text": "They have both started",
+              "value": "8236",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5295",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 He fell and ______ eggs got broken.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5295_1",
+              "order": 1,
+              "text": "all the",
+              "value": "8237",
+              "is_correct": true
+            },
+            {
+              "id": "5295_2",
+              "order": 2,
+              "text": "all",
+              "value": "8238",
+              "is_correct": false
+            },
+            {
+              "id": "5295_3",
+              "order": 3,
+              "text": "all of",
+              "value": "8239",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5296",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 The teacher sent _____ home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5296_1",
+              "order": 1,
+              "text": "them both",
+              "value": "8240",
+              "is_correct": true
+            },
+            {
+              "id": "5296_2",
+              "order": 2,
+              "text": "they both",
+              "value": "8241",
+              "is_correct": false
+            },
+            {
+              "id": "5296_3",
+              "order": 3,
+              "text": "the both of them",
+              "value": "8242",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5297",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 _____ work in my office.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5297_1",
+              "order": 1,
+              "text": "Both her brothers",
+              "value": "8243",
+              "is_correct": true
+            },
+            {
+              "id": "5297_2",
+              "order": 2,
+              "text": "Both of brothers",
+              "value": "8244",
+              "is_correct": false
+            },
+            {
+              "id": "5297_3",
+              "order": 3,
+              "text": "Her both brothers",
+              "value": "8245",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5298",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 _____ accused of fraud.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5298_1",
+              "order": 1,
+              "text": "They both have been",
+              "value": "8246",
+              "is_correct": false
+            },
+            {
+              "id": "5298_2",
+              "order": 2,
+              "text": "They have both been",
+              "value": "8247",
+              "is_correct": true
+            },
+            {
+              "id": "5298_3",
+              "order": 3,
+              "text": "Both them have been",
+              "value": "8248",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5271",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Which sentence is NOT correct?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5271_1",
+              "order": 1,
+              "text": "All students like holidays.",
+              "value": "8222",
+              "is_correct": false
+            },
+            {
+              "id": "5271_2",
+              "order": 2,
+              "text": "All of students in my class like holidays.",
+              "value": "8223",
+              "is_correct": true
+            },
+            {
+              "id": "5271_3",
+              "order": 3,
+              "text": "All of the students in my class like holidays.",
+              "value": "8224",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5291",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Which sentence is NOT correct?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5291_1",
+              "order": 1,
+              "text": "Did you drink all of the milk?",
+              "value": "8225",
+              "is_correct": false
+            },
+            {
+              "id": "5291_2",
+              "order": 2,
+              "text": "Did you drink all of milk?",
+              "value": "8226",
+              "is_correct": true
+            },
+            {
+              "id": "5291_3",
+              "order": 3,
+              "text": "Did you drink it all?",
+              "value": "8227",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5292",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Which sentence is NOT correct?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5292_1",
+              "order": 1,
+              "text": "You both must be crazy.",
+              "value": "8228",
+              "is_correct": true
+            },
+            {
+              "id": "5292_2",
+              "order": 2,
+              "text": "You must both be crazy.",
+              "value": "8229",
+              "is_correct": false
+            },
+            {
+              "id": "5292_3",
+              "order": 3,
+              "text": "Both of you must be crazy.",
+              "value": "8230",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5293",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Which sentence is NOT correct?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5293_1",
+              "order": 1,
+              "text": "The both suspects were arrested last Friday.",
+              "value": "8231",
+              "is_correct": true
+            },
+            {
+              "id": "5293_2",
+              "order": 2,
+              "text": "Both of the suspects were arrested last Friday.",
+              "value": "8232",
+              "is_correct": false
+            },
+            {
+              "id": "5293_3",
+              "order": 3,
+              "text": "Both the suspects were arrested last Friday.",
+              "value": "8233",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5299",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Which sentence is NOT correct?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5299_1",
+              "order": 1,
+              "text": "He hates all us.",
+              "value": "8249",
+              "is_correct": true
+            },
+            {
+              "id": "5299_2",
+              "order": 2,
+              "text": "He hates us all.",
+              "value": "8250",
+              "is_correct": false
+            },
+            {
+              "id": "5299_3",
+              "order": 3,
+              "text": "He hates all of us.",
+              "value": "8251",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-615",
+      "lessonId": "b1_all_both",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Re-write the sentences using all/both in mid position (=before the verb, after be, after the first auxiliary).",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_all-both_3.html",
+      "questions": [
+        {
+          "id": "5272",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Both Simon and Pete like Aleisha. ⇒ {{gap1}} Aleisha.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5272_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "They both like",
+              "accepted_answers": [
+                "They both like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5273",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 All of us were invited to the wedding. ⇒ {{gap1}} to the wedding.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5273_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "We were all invited",
+              "accepted_answers": [
+                "We were all invited"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5274",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Both of them have been working on the case. ⇒ {{gap1}} on the case.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5274_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "They have both been working",
+              "accepted_answers": [
+                "They have both been working"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5275",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Have all of them arrived? ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5275_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Have they all arrived",
+              "accepted_answers": [
+                "Have they all arrived"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5276",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Both Sonia and Will can help you with those boxes. ⇒ {{gap1}} you with those boxes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5276_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Sonia and Will can both help",
+              "accepted_answers": [
+                "Sonia and Will can both help"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5277",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Both of us hated the film. ⇒ {{gap1}} the film.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5277_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "We both hated",
+              "accepted_answers": [
+                "We both hated"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5278",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 All the students were surprised and excited. ⇒ {{gap1}} surprised and excited.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5278_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "The students were all",
+              "accepted_answers": [
+                "The students were all"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5279",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Did both of you get a promotion? ⇒ {{gap1}} a promotion?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5279_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Did you both get",
+              "accepted_answers": [
+                "Did you both get"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5280",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 All of us have learned a lot during this course. ⇒ {{gap1}} a lot during this course.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5280_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "We have all learned",
+              "accepted_answers": [
+                "We have all learned"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5281",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Both of them looked at me and left. ⇒ {{gap1}} at me and left.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5281_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "They both looked",
+              "accepted_answers": [
+                "They both looked"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

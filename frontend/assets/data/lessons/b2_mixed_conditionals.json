@@ -1,0 +1,1137 @@
+{
+  "lesson_id": "b2_mixed_conditionals",
+  "level": "B2",
+  "title": "Mixed conditionals: If I were you, I wouldn't have done it",
+  "description": "Практический тест и правила по теме: Mixed conditionals: If I were you, I wouldn't have done it",
+  "theory": {
+    "title": "Правила и грамматика: Mixed conditionals: If I were you, I wouldn't have done it",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Mixed conditionals: If I were you, I wouldn't have done it».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Mixed conditionals: If I were you, I wouldn't have done it» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-626",
+      "lessonId": "b2_mixed_conditionals",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct options to complete the following mixed conditional sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_mixed-conditionals.html",
+      "questions": [
+        {
+          "id": "5388",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 If I hadn't fought for our relationship, we {{gap1}} together now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5388_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "wouldn't be",
+              "accepted_answers": [
+                "wouldn't be"
+              ],
+              "options": [
+                {
+                  "id": "gap_5388_1_1",
+                  "order": 1,
+                  "text": "weren't",
+                  "value": "weren't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5388_1_2",
+                  "order": 2,
+                  "text": "wouldn't be",
+                  "value": "wouldn't be",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5388_1_3",
+                  "order": 3,
+                  "text": "wouldn't have been",
+                  "value": "wouldn't have been",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5391",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I would be happier if I {{gap1}} 'yes' when she asked me to marry her.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5391_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had said",
+              "accepted_answers": [
+                "had said"
+              ],
+              "options": [
+                {
+                  "id": "gap_5391_1_1",
+                  "order": 1,
+                  "text": "would say",
+                  "value": "would say",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5391_1_2",
+                  "order": 2,
+                  "text": "said",
+                  "value": "said",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5391_1_3",
+                  "order": 3,
+                  "text": "had said",
+                  "value": "had said",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5392",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 If you weren't such a jerk, they {{gap1}} you to yesterday's party.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5392_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "would have invited",
+              "accepted_answers": [
+                "would have invited"
+              ],
+              "options": [
+                {
+                  "id": "gap_5392_1_1",
+                  "order": 1,
+                  "text": "would invite",
+                  "value": "would invite",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5392_1_2",
+                  "order": 2,
+                  "text": "would have invited",
+                  "value": "would have invited",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5392_1_3",
+                  "order": 3,
+                  "text": "had invited",
+                  "value": "had invited",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5389",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 If you {{gap1}} a map, as I told you, we wouldn't be lost now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5389_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had taken",
+              "accepted_answers": [
+                "had taken"
+              ],
+              "options": [
+                {
+                  "id": "gap_5389_1_1",
+                  "order": 1,
+                  "text": "took",
+                  "value": "took",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5389_1_2",
+                  "order": 2,
+                  "text": "had taken",
+                  "value": "had taken",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5389_1_3",
+                  "order": 3,
+                  "text": "would have taken",
+                  "value": "would have taken",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5390",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 If I didn't love you, I {{gap1}} you last year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5390_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "wouldn't have married",
+              "accepted_answers": [
+                "wouldn't have married"
+              ],
+              "options": [
+                {
+                  "id": "gap_5390_1_1",
+                  "order": 1,
+                  "text": "wouldn't marry you",
+                  "value": "wouldn't marry you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5390_1_2",
+                  "order": 2,
+                  "text": "wouldn't have married",
+                  "value": "wouldn't have married",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5390_1_3",
+                  "order": 3,
+                  "text": "hadn't married",
+                  "value": "hadn't married",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5393",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 If I had more time, I {{gap1}} you last night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5393_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "would have called",
+              "accepted_answers": [
+                "would have called"
+              ],
+              "options": [
+                {
+                  "id": "gap_5393_1_1",
+                  "order": 1,
+                  "text": "would call",
+                  "value": "would call",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5393_1_2",
+                  "order": 2,
+                  "text": "called",
+                  "value": "called",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5393_1_3",
+                  "order": 3,
+                  "text": "would have called",
+                  "value": "would have called",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5397",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 If you {{gap1}} that job, you would be miserable now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5397_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'d accepted",
+              "accepted_answers": [
+                "'d accepted"
+              ],
+              "options": [
+                {
+                  "id": "gap_5397_1_1",
+                  "order": 1,
+                  "text": "would have accepted",
+                  "value": "would have accepted",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5397_1_2",
+                  "order": 2,
+                  "text": "'d accepted",
+                  "value": "'d accepted",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5397_1_3",
+                  "order": 3,
+                  "text": "would accept",
+                  "value": "would accept",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5396",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I'm afraid of flying. If I {{gap1}} afraid of flying, we'd have travelled by plane.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5396_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "weren't",
+              "accepted_answers": [
+                "weren't"
+              ],
+              "options": [
+                {
+                  "id": "gap_5396_1_1",
+                  "order": 1,
+                  "text": "hadn't been",
+                  "value": "hadn't been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5396_1_2",
+                  "order": 2,
+                  "text": "weren't",
+                  "value": "weren't",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5396_1_3",
+                  "order": 3,
+                  "text": "wouldn't have been",
+                  "value": "wouldn't have been",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5398",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 If you {{gap1}} dad's car without permission last night, you might be in trouble.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5398_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'d taken",
+              "accepted_answers": [
+                "'d taken"
+              ],
+              "options": [
+                {
+                  "id": "gap_5398_1_1",
+                  "order": 1,
+                  "text": "took",
+                  "value": "took",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5398_1_2",
+                  "order": 2,
+                  "text": "'d taken",
+                  "value": "'d taken",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5398_1_3",
+                  "order": 3,
+                  "text": "would have taken",
+                  "value": "would have taken",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5399",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 You wouldn't have this job if I {{gap1}} you for the interview.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5399_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "hadn't prepared",
+              "accepted_answers": [
+                "hadn't prepared"
+              ],
+              "options": [
+                {
+                  "id": "gap_5399_1_1",
+                  "order": 1,
+                  "text": "didn't prepare",
+                  "value": "didn't prepare",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5399_1_2",
+                  "order": 2,
+                  "text": "hadn't prepared",
+                  "value": "hadn't prepared",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5399_1_3",
+                  "order": 3,
+                  "text": "wouldn't have prepared",
+                  "value": "wouldn't have prepared",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-627",
+      "lessonId": "b2_mixed_conditionals",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct options to complete following mixed conditional sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_mixed-conditionals_2.html",
+      "questions": [
+        {
+          "id": "5386",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 He says he's your friend, but he didn't help you. If he were your friend, he _____ you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5386_1",
+              "order": 1,
+              "text": "had helped",
+              "value": "8370",
+              "is_correct": false
+            },
+            {
+              "id": "5386_2",
+              "order": 2,
+              "text": "would have helped",
+              "value": "8371",
+              "is_correct": true
+            },
+            {
+              "id": "5386_3",
+              "order": 3,
+              "text": "would help",
+              "value": "8372",
+              "is_correct": false
+            },
+            {
+              "id": "5386_4",
+              "order": 4,
+              "text": "helped",
+              "value": "8373",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5404",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I feel fine because I took the medicine. If I _____ the medicine, I would still be in pain.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5404_1",
+              "order": 1,
+              "text": "wouldn't take",
+              "value": "8402",
+              "is_correct": false
+            },
+            {
+              "id": "5404_2",
+              "order": 2,
+              "text": "wouldn't have taken",
+              "value": "8403",
+              "is_correct": false
+            },
+            {
+              "id": "5404_3",
+              "order": 3,
+              "text": "didn't take",
+              "value": "8404",
+              "is_correct": false
+            },
+            {
+              "id": "5404_4",
+              "order": 4,
+              "text": "hadn't taken",
+              "value": "8405",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5394",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I'm not patient, and I didn't wait for them. If I were more patient, I _____ for them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5394_1",
+              "order": 1,
+              "text": "would wait",
+              "value": "8378",
+              "is_correct": false
+            },
+            {
+              "id": "5394_2",
+              "order": 2,
+              "text": "would have waited",
+              "value": "8379",
+              "is_correct": true
+            },
+            {
+              "id": "5394_3",
+              "order": 3,
+              "text": "waited",
+              "value": "8380",
+              "is_correct": false
+            },
+            {
+              "id": "5394_4",
+              "order": 4,
+              "text": "had waited",
+              "value": "8381",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5395",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I didn't know that you were there because I'm not a psychic. I _____ that you were there if I were a psychic.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5395_1",
+              "order": 1,
+              "text": "would have known",
+              "value": "8382",
+              "is_correct": true
+            },
+            {
+              "id": "5395_2",
+              "order": 2,
+              "text": "had known",
+              "value": "8383",
+              "is_correct": false
+            },
+            {
+              "id": "5395_3",
+              "order": 3,
+              "text": "would know",
+              "value": "8384",
+              "is_correct": false
+            },
+            {
+              "id": "5395_4",
+              "order": 4,
+              "text": "knew",
+              "value": "8385",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5387",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I am where I am today because you helped me. I _____ where I am today if you hadn't helped me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5387_1",
+              "order": 1,
+              "text": "wouldn't have been",
+              "value": "8374",
+              "is_correct": false
+            },
+            {
+              "id": "5387_2",
+              "order": 2,
+              "text": "hadn't been",
+              "value": "8375",
+              "is_correct": false
+            },
+            {
+              "id": "5387_3",
+              "order": 3,
+              "text": "weren't",
+              "value": "8376",
+              "is_correct": false
+            },
+            {
+              "id": "5387_4",
+              "order": 4,
+              "text": "wouldn't be",
+              "value": "8377",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5400",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I should be your coach. If I _____ your coach, you would have won many more trophies.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5400_1",
+              "order": 1,
+              "text": "were",
+              "value": "8386",
+              "is_correct": true
+            },
+            {
+              "id": "5400_2",
+              "order": 2,
+              "text": "had been",
+              "value": "8387",
+              "is_correct": false
+            },
+            {
+              "id": "5400_3",
+              "order": 3,
+              "text": "would be",
+              "value": "8388",
+              "is_correct": false
+            },
+            {
+              "id": "5400_4",
+              "order": 4,
+              "text": "would have been",
+              "value": "8389",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5401",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 If I were ill, I _____ to work yesterday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5401_1",
+              "order": 1,
+              "text": "wouldn't have gone",
+              "value": "8390",
+              "is_correct": true
+            },
+            {
+              "id": "5401_2",
+              "order": 2,
+              "text": "wouldn't go",
+              "value": "8391",
+              "is_correct": false
+            },
+            {
+              "id": "5401_3",
+              "order": 3,
+              "text": "hadn't gone",
+              "value": "8392",
+              "is_correct": false
+            },
+            {
+              "id": "5401_4",
+              "order": 4,
+              "text": "didn't go",
+              "value": "8393",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5403",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 If he hadn't been wearing a helmet, he _____ dead now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5403_1",
+              "order": 1,
+              "text": "might be",
+              "value": "8398",
+              "is_correct": true
+            },
+            {
+              "id": "5403_2",
+              "order": 2,
+              "text": "might have been",
+              "value": "8399",
+              "is_correct": false
+            },
+            {
+              "id": "5403_3",
+              "order": 3,
+              "text": "were",
+              "value": "8400",
+              "is_correct": false
+            },
+            {
+              "id": "5403_4",
+              "order": 4,
+              "text": "had been",
+              "value": "8401",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5402",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I didn't understand his letter because I don't speak Russian. If I _____ Russian, I would have understood his letter.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5402_1",
+              "order": 1,
+              "text": "would speak",
+              "value": "8394",
+              "is_correct": false
+            },
+            {
+              "id": "5402_2",
+              "order": 2,
+              "text": "would have spoken",
+              "value": "8395",
+              "is_correct": false
+            },
+            {
+              "id": "5402_3",
+              "order": 3,
+              "text": "spoke",
+              "value": "8396",
+              "is_correct": true
+            },
+            {
+              "id": "5402_4",
+              "order": 4,
+              "text": "had spoken",
+              "value": "8397",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5405",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I'm tired because I went to bed late. If I hadn't gone to bed so late, I _____ tired now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5405_1",
+              "order": 1,
+              "text": "wouldn't have been",
+              "value": "8406",
+              "is_correct": false
+            },
+            {
+              "id": "5405_2",
+              "order": 2,
+              "text": "wouldn't be",
+              "value": "8407",
+              "is_correct": true
+            },
+            {
+              "id": "5405_3",
+              "order": 3,
+              "text": "weren't",
+              "value": "8408",
+              "is_correct": false
+            },
+            {
+              "id": "5405_4",
+              "order": 4,
+              "text": "hadn't been",
+              "value": "8409",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-628",
+      "lessonId": "b2_mixed_conditionals",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete these mixed conditional sentences with the verbs in brackets. Use past simple, past perfect, would + infinitive or would + have + past participle.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_mixed-conditionals_3.html",
+      "questions": [
+        {
+          "id": "5406",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 If you {{gap1}} (not eat) so much, you wouldn't be feeling sick now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5406_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "hadn't eaten",
+              "accepted_answers": [
+                "hadn't eaten"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5407",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 If we had money, we {{gap1}} (move) to a bigger house years ago.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5407_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would have moved",
+              "accepted_answers": [
+                "would have moved"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5408",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 If I were you, I {{gap1}} (act) differently. Your behaviour was unacceptable.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5408_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would have acted",
+              "accepted_answers": [
+                "would have acted"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5409",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 We are second now. We {{gap1}} (be) top of the league if we hadn't lost our last match.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5409_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would be",
+              "accepted_answers": [
+                "would be"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5410",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 If he weren't so lazy, he {{gap1}} (finish) the assignment when it was due.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5410_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would have finished",
+              "accepted_answers": [
+                "would have finished"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5413",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I would be equally proud of you if you {{gap1}} (not achieve) so many things in your life.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5413_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "hadn't achieved",
+              "accepted_answers": [
+                "hadn't achieved"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5411",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 If I didn't work so hard, I {{gap1}} (not get) the job I have.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5411_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "wouldn't have got",
+              "accepted_answers": [
+                "wouldn't have got"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5412",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 If he had done anything wrong, we {{gap1}} (know) it by now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5412_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would know",
+              "accepted_answers": [
+                "would know"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5414",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 He'd still be here if you {{gap1}} (not scare) him away.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5414_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "hadn't scared",
+              "accepted_answers": [
+                "hadn't scared"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5415",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I would have a better job if I {{gap1}} (go) to university.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5415_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had gone",
+              "accepted_answers": [
+                "had gone"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

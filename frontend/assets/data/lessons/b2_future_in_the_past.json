@@ -1,0 +1,1137 @@
+{
+  "lesson_id": "b2_future_in_the_past",
+  "level": "B2",
+  "title": "Future in the past",
+  "description": "Практический тест и правила по теме: Future in the past",
+  "theory": {
+    "title": "Правила и грамматика: Future in the past",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Future in the past».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Future in the past» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-138",
+      "lessonId": "b2_future_in_the_past",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the most appropriate form to refer to the future in the past to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_future-in-the-past.html",
+      "questions": [
+        {
+          "id": "1208",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I saw he had a gun, but I didn't think he {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1208_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was going to shoot",
+              "accepted_answers": [
+                "was going to shoot"
+              ],
+              "options": [
+                {
+                  "id": "gap_1208_1_1",
+                  "order": 1,
+                  "text": "was going to shoot",
+                  "value": "was going to shoot",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1208_1_2",
+                  "order": 2,
+                  "text": "will shoot",
+                  "value": "will shoot",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1208_1_3",
+                  "order": 3,
+                  "text": "was shooting",
+                  "value": "was shooting",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1209",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I knew you {{gap1}} the exam. You didn't make any effort!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1209_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "would fail",
+              "accepted_answers": [
+                "would fail"
+              ],
+              "options": [
+                {
+                  "id": "gap_1209_1_1",
+                  "order": 1,
+                  "text": "were failing",
+                  "value": "were failing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1209_1_2",
+                  "order": 2,
+                  "text": "are going to fail",
+                  "value": "are going to fail",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1209_1_3",
+                  "order": 3,
+                  "text": "would fail",
+                  "value": "would fail",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1211",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 I lost my passport the day before we {{gap1}} for our honeymoon.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1211_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were leaving",
+              "accepted_answers": [
+                "were leaving"
+              ],
+              "options": [
+                {
+                  "id": "gap_1211_1_1",
+                  "order": 1,
+                  "text": "left",
+                  "value": "left",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1211_1_2",
+                  "order": 2,
+                  "text": "were leaving",
+                  "value": "were leaving",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1211_1_3",
+                  "order": 3,
+                  "text": "would leave",
+                  "value": "would leave",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1213",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Sorry, I {{gap1}} you today, but I forgot.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1213_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was going to call",
+              "accepted_answers": [
+                "was going to call"
+              ],
+              "options": [
+                {
+                  "id": "gap_1213_1_1",
+                  "order": 1,
+                  "text": "was calling",
+                  "value": "was calling",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1213_1_2",
+                  "order": 2,
+                  "text": "would call",
+                  "value": "would call",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1213_1_3",
+                  "order": 3,
+                  "text": "was going to call",
+                  "value": "was going to call",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1215",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 She promised she {{gap1}} an end to the situation but failed to do so.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1215_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "would put",
+              "accepted_answers": [
+                "would put"
+              ],
+              "options": [
+                {
+                  "id": "gap_1215_1_1",
+                  "order": 1,
+                  "text": "was putting",
+                  "value": "was putting",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1215_1_2",
+                  "order": 2,
+                  "text": "would put",
+                  "value": "would put",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1215_1_3",
+                  "order": 3,
+                  "text": "would have put",
+                  "value": "would have put",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1216",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 He asked whether I {{gap1}} him, but there was nothing I could do.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1216_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "would help",
+              "accepted_answers": [
+                "would help"
+              ],
+              "options": [
+                {
+                  "id": "gap_1216_1_1",
+                  "order": 1,
+                  "text": "would help",
+                  "value": "would help",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1216_1_2",
+                  "order": 2,
+                  "text": "will help",
+                  "value": "will help",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1216_1_3",
+                  "order": 3,
+                  "text": "was helping",
+                  "value": "was helping",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1217",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 He {{gap1}} to Iraq, but he came down with an infection before the trip.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1217_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was going to be sent",
+              "accepted_answers": [
+                "was going to be sent"
+              ],
+              "options": [
+                {
+                  "id": "gap_1217_1_1",
+                  "order": 1,
+                  "text": "would be sent",
+                  "value": "would be sent",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1217_1_2",
+                  "order": 2,
+                  "text": "was going to be sent",
+                  "value": "was going to be sent",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1217_1_3",
+                  "order": 3,
+                  "text": "was sending",
+                  "value": "was sending",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1219",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 That night I was very excited because the next morning I {{gap1}} back home on the first train.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1219_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was going",
+              "accepted_answers": [
+                "was going"
+              ],
+              "options": [
+                {
+                  "id": "gap_1219_1_1",
+                  "order": 1,
+                  "text": "would go",
+                  "value": "would go",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1219_1_2",
+                  "order": 2,
+                  "text": "was going",
+                  "value": "was going",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1219_1_3",
+                  "order": 3,
+                  "text": "went",
+                  "value": "went",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1220",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I told him not to call me that evening, because I {{gap1}} for my finals all night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1220_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "would be studying",
+              "accepted_answers": [
+                "would be studying"
+              ],
+              "options": [
+                {
+                  "id": "gap_1220_1_1",
+                  "order": 1,
+                  "text": "was studying",
+                  "value": "was studying",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1220_1_2",
+                  "order": 2,
+                  "text": "would be studying",
+                  "value": "would be studying",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1220_1_3",
+                  "order": 3,
+                  "text": "studied",
+                  "value": "studied",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1221",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I {{gap1}} the car, but I thought I didn't really need it and decided not to do it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1221_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was going to buy",
+              "accepted_answers": [
+                "was going to buy"
+              ],
+              "options": [
+                {
+                  "id": "gap_1221_1_1",
+                  "order": 1,
+                  "text": "would buy",
+                  "value": "would buy",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1221_1_2",
+                  "order": 2,
+                  "text": "was going to buy",
+                  "value": "was going to buy",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1221_1_3",
+                  "order": 3,
+                  "text": "was buying",
+                  "value": "was buying",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-139",
+      "lessonId": "b2_future_in_the_past",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct or most appropriate form/s to refer to the future in the past for the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_future-in-the-past_2.html",
+      "questions": [
+        {
+          "id": "1203",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I ______ Sam for money, but I didn't because I don't want to owe him anything.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1203_1",
+              "order": 1,
+              "text": "was asking",
+              "value": "1736",
+              "is_correct": false
+            },
+            {
+              "id": "1203_2",
+              "order": 2,
+              "text": "would ask",
+              "value": "1737",
+              "is_correct": false
+            },
+            {
+              "id": "1203_3",
+              "order": 3,
+              "text": "will ask",
+              "value": "1738",
+              "is_correct": false
+            },
+            {
+              "id": "1203_4",
+              "order": 4,
+              "text": "was going to ask",
+              "value": "1739",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1206",
+          "order": 2,
+          "type": "multiple_choice",
+          "text": "2 I had a feeling that the party ______ a disaster. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1206_1",
+              "order": 1,
+              "text": "would be",
+              "value": "1748",
+              "is_correct": true
+            },
+            {
+              "id": "1206_2",
+              "order": 2,
+              "text": "was being",
+              "value": "1749",
+              "is_correct": false
+            },
+            {
+              "id": "1206_3",
+              "order": 3,
+              "text": "was to be",
+              "value": "1750",
+              "is_correct": false
+            },
+            {
+              "id": "1206_4",
+              "order": 4,
+              "text": "was going to be",
+              "value": "1751",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1204",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 We didn't expect that he ______ like that.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1204_1",
+              "order": 1,
+              "text": "would react",
+              "value": "1740",
+              "is_correct": true
+            },
+            {
+              "id": "1204_2",
+              "order": 2,
+              "text": "was reacting",
+              "value": "1741",
+              "is_correct": false
+            },
+            {
+              "id": "1204_3",
+              "order": 3,
+              "text": "would be reacted",
+              "value": "1742",
+              "is_correct": false
+            },
+            {
+              "id": "1204_4",
+              "order": 4,
+              "text": "will react",
+              "value": "1743",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1212",
+          "order": 4,
+          "type": "multiple_choice",
+          "text": "4 She ______ her speech when someone threw an egg at her. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1212_1",
+              "order": 1,
+              "text": "would finish",
+              "value": "1760",
+              "is_correct": false
+            },
+            {
+              "id": "1212_2",
+              "order": 2,
+              "text": "was about to finish",
+              "value": "1761",
+              "is_correct": true
+            },
+            {
+              "id": "1212_3",
+              "order": 3,
+              "text": "was going to finish",
+              "value": "1762",
+              "is_correct": true
+            },
+            {
+              "id": "1212_4",
+              "order": 4,
+              "text": "would be finishing",
+              "value": "1763",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1205",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I told you she ______ everybody. She can't keep a secret.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1205_1",
+              "order": 1,
+              "text": "was going to tell",
+              "value": "1744",
+              "is_correct": true
+            },
+            {
+              "id": "1205_2",
+              "order": 2,
+              "text": "was telling",
+              "value": "1745",
+              "is_correct": false
+            },
+            {
+              "id": "1205_3",
+              "order": 3,
+              "text": "will tell",
+              "value": "1746",
+              "is_correct": false
+            },
+            {
+              "id": "1205_4",
+              "order": 4,
+              "text": "told",
+              "value": "1747",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1210",
+          "order": 6,
+          "type": "multiple_choice",
+          "text": "6 After finishing his last book, I asked him what he ______ next, but he just didn't know. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1210_1",
+              "order": 1,
+              "text": "was doing",
+              "value": "1756",
+              "is_correct": false
+            },
+            {
+              "id": "1210_2",
+              "order": 2,
+              "text": "would be doing",
+              "value": "1757",
+              "is_correct": true
+            },
+            {
+              "id": "1210_3",
+              "order": 3,
+              "text": "did",
+              "value": "1758",
+              "is_correct": false
+            },
+            {
+              "id": "1210_4",
+              "order": 4,
+              "text": "was going to do",
+              "value": "1759",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1207",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 The baby ______ be born in March, but it was finally born in April.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1207_1",
+              "order": 1,
+              "text": "was about to",
+              "value": "1752",
+              "is_correct": false
+            },
+            {
+              "id": "1207_2",
+              "order": 2,
+              "text": "was due to",
+              "value": "1753",
+              "is_correct": true
+            },
+            {
+              "id": "1207_3",
+              "order": 3,
+              "text": "would",
+              "value": "1754",
+              "is_correct": false
+            },
+            {
+              "id": "1207_4",
+              "order": 4,
+              "text": "was on the verge of",
+              "value": "1755",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1214",
+          "order": 8,
+          "type": "multiple_choice",
+          "text": "8 The couple who died in the fire ______ married at the end of the month. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1214_1",
+              "order": 1,
+              "text": "were getting",
+              "value": "1764",
+              "is_correct": true
+            },
+            {
+              "id": "1214_2",
+              "order": 2,
+              "text": "would get",
+              "value": "1765",
+              "is_correct": false
+            },
+            {
+              "id": "1214_3",
+              "order": 3,
+              "text": "were due to get",
+              "value": "1766",
+              "is_correct": true
+            },
+            {
+              "id": "1214_4",
+              "order": 4,
+              "text": "are getting",
+              "value": "1767",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1218",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 The next day we ______ to Germany where we ______ a press conference.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1218_1",
+              "order": 1,
+              "text": "would fly / attended",
+              "value": "1768",
+              "is_correct": false
+            },
+            {
+              "id": "1218_2",
+              "order": 2,
+              "text": "were going to fly / attended",
+              "value": "1769",
+              "is_correct": false
+            },
+            {
+              "id": "1218_3",
+              "order": 3,
+              "text": "will fly / would attend",
+              "value": "1770",
+              "is_correct": false
+            },
+            {
+              "id": "1218_4",
+              "order": 4,
+              "text": "were flying / were due to attend",
+              "value": "1771",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1222",
+          "order": 10,
+          "type": "multiple_choice",
+          "text": "10 A family of six, who ______ the following week, died when the building collapsed. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1222_1",
+              "order": 1,
+              "text": "were to move out",
+              "value": "1772",
+              "is_correct": true
+            },
+            {
+              "id": "1222_2",
+              "order": 2,
+              "text": "would be moved out",
+              "value": "1773",
+              "is_correct": false
+            },
+            {
+              "id": "1222_3",
+              "order": 3,
+              "text": "moved out",
+              "value": "1774",
+              "is_correct": false
+            },
+            {
+              "id": "1222_4",
+              "order": 4,
+              "text": "were going to move out",
+              "value": "1775",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-140",
+      "lessonId": "b2_future_in_the_past",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps using the verb in brackets in a future form so that it expresses the idea suggested above. Do NOT use contractions.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_future-in-the-past_3.html",
+      "questions": [
+        {
+          "id": "1223",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 intention or plan The last time I spoke to you, you {{gap1}} (start) a business. Did you do it?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1223_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "were going to start",
+              "accepted_answers": [
+                "were going to start"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1224",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 arrangement Sorry, I forgot we {{gap1}} (have) dinner together today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1224_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "were having",
+              "accepted_answers": [
+                "were having"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1225",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 prediction I knew you {{gap1}} (get) upset.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1225_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would get",
+              "accepted_answers": [
+                "would get"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1226",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 arrangement I'm sorry I didn't stop to say hi yesterday, but I {{gap1}} (meet) my boss at 7.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1226_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was meeting",
+              "accepted_answers": [
+                "was meeting"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1229",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 action in progress We knew that in a week's time we {{gap1}} (lie) on the beach.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1229_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would be lying",
+              "accepted_answers": [
+                "would be lying"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1227",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 intention or plan When {{gap1}} (you/tell) us?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1227_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "were you going to tell",
+              "accepted_answers": [
+                "were you going to tell"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1228",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 promise You assured us that {{gap1}} (there/be) no delays.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1228_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "there would be",
+              "accepted_answers": [
+                "there would be"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1230",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 timetabled event The train {{gap1}} (depart) at 8, so we had to hurry to the station.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1230_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was due to depart",
+              "accepted_answers": [
+                "was due to depart"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1231",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 action in progress I knew if I didn't call, he {{gap1}} (try) to contact me all day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1231_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would be trying",
+              "accepted_answers": [
+                "would be trying"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1232",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 intention or plan If she knew Sam {{gap1}} (leave), she could have told us.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1232_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was going to leave",
+              "accepted_answers": [
+                "was going to leave"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

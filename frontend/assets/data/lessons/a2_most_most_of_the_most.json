@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "a2_most_most_of_the_most",
+  "level": "A2",
+  "title": "Most, most of, the most",
+  "description": "Практический тест и правила по теме: Most, most of, the most",
+  "theory": {
+    "title": "Правила и грамматика: Most, most of, the most",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Most, most of, the most».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Most, most of, the most» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-715",
+      "lessonId": "a2_most_most_of_the_most",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose most, most of or the most to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_most-most-of-the-most.html",
+      "questions": [
+        {
+          "id": "6114",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 {{gap1}} the people in the audience were wearing masks.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6114_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Most of",
+              "accepted_answers": [
+                "Most of"
+              ],
+              "options": [
+                {
+                  "id": "gap_6114_1_1",
+                  "order": 1,
+                  "text": "Most",
+                  "value": "Most",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6114_1_2",
+                  "order": 2,
+                  "text": "Most of",
+                  "value": "Most of",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6114_1_3",
+                  "order": 3,
+                  "text": "The most",
+                  "value": "The most",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6124",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 {{gap1}} people don't wear masks.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6124_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Most",
+              "accepted_answers": [
+                "Most"
+              ],
+              "options": [
+                {
+                  "id": "gap_6124_1_1",
+                  "order": 1,
+                  "text": "Most",
+                  "value": "Most",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6124_1_2",
+                  "order": 2,
+                  "text": "Most of",
+                  "value": "Most of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6124_1_3",
+                  "order": 3,
+                  "text": "The most",
+                  "value": "The most",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6123",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 {{gap1}} important things in life are health and love.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6123_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "The most",
+              "accepted_answers": [
+                "The most"
+              ],
+              "options": [
+                {
+                  "id": "gap_6123_1_1",
+                  "order": 1,
+                  "text": "The most",
+                  "value": "The most",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6123_1_2",
+                  "order": 2,
+                  "text": "Most",
+                  "value": "Most",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6123_1_3",
+                  "order": 3,
+                  "text": "Most of",
+                  "value": "Most of",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6118",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Chloe invited {{gap1}} her friends to her birthday party.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6118_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "most of",
+              "accepted_answers": [
+                "most of"
+              ],
+              "options": [
+                {
+                  "id": "gap_6118_1_1",
+                  "order": 1,
+                  "text": "the most",
+                  "value": "the most",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6118_1_2",
+                  "order": 2,
+                  "text": "most of",
+                  "value": "most of",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6118_1_3",
+                  "order": 3,
+                  "text": "most",
+                  "value": "most",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6125",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 {{gap1}} people in Northern Europe can speak English.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6125_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Most",
+              "accepted_answers": [
+                "Most"
+              ],
+              "options": [
+                {
+                  "id": "gap_6125_1_1",
+                  "order": 1,
+                  "text": "Most of",
+                  "value": "Most of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6125_1_2",
+                  "order": 2,
+                  "text": "Most",
+                  "value": "Most",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6125_1_3",
+                  "order": 3,
+                  "text": "The most",
+                  "value": "The most",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6117",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Studies show that {{gap1}} teenagers need 9 hours of sleep.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6117_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "most",
+              "accepted_answers": [
+                "most"
+              ],
+              "options": [
+                {
+                  "id": "gap_6117_1_1",
+                  "order": 1,
+                  "text": "the most",
+                  "value": "the most",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6117_1_2",
+                  "order": 2,
+                  "text": "most",
+                  "value": "most",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6117_1_3",
+                  "order": 3,
+                  "text": "most of",
+                  "value": "most of",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6122",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 He bought {{gap1}} expensive watch in the shop.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6122_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "the most",
+              "accepted_answers": [
+                "the most"
+              ],
+              "options": [
+                {
+                  "id": "gap_6122_1_1",
+                  "order": 1,
+                  "text": "most of",
+                  "value": "most of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6122_1_2",
+                  "order": 2,
+                  "text": "the most",
+                  "value": "the most",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6122_1_3",
+                  "order": 3,
+                  "text": "most",
+                  "value": "most",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6119",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 There were lots of people and I didn't know {{gap1}} them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6119_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "most of",
+              "accepted_answers": [
+                "most of"
+              ],
+              "options": [
+                {
+                  "id": "gap_6119_1_1",
+                  "order": 1,
+                  "text": "most of",
+                  "value": "most of",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6119_1_2",
+                  "order": 2,
+                  "text": "most",
+                  "value": "most",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6119_1_3",
+                  "order": 3,
+                  "text": "the most",
+                  "value": "the most",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6120",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 {{gap1}} teachers continue using exams.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6120_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Most",
+              "accepted_answers": [
+                "Most"
+              ],
+              "options": [
+                {
+                  "id": "gap_6120_1_1",
+                  "order": 1,
+                  "text": "The most",
+                  "value": "The most",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6120_1_2",
+                  "order": 2,
+                  "text": "Most",
+                  "value": "Most",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6120_1_3",
+                  "order": 3,
+                  "text": "Most of",
+                  "value": "Most of",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6121",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Lori is {{gap1}} optimistic of the group.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6121_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "the most",
+              "accepted_answers": [
+                "the most"
+              ],
+              "options": [
+                {
+                  "id": "gap_6121_1_1",
+                  "order": 1,
+                  "text": "most",
+                  "value": "most",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6121_1_2",
+                  "order": 2,
+                  "text": "the most",
+                  "value": "the most",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6121_1_3",
+                  "order": 3,
+                  "text": "most of",
+                  "value": "most of",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-716",
+      "lessonId": "a2_most_most_of_the_most",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose most, most of or the most to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_most-most-of-the-most_2.html",
+      "questions": [
+        {
+          "id": "6115",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 At the party, I introduced Sally to ______ my friends.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6115_1",
+              "order": 1,
+              "text": "most",
+              "value": "10397",
+              "is_correct": false
+            },
+            {
+              "id": "6115_2",
+              "order": 2,
+              "text": "most of",
+              "value": "10398",
+              "is_correct": true
+            },
+            {
+              "id": "6115_3",
+              "order": 3,
+              "text": "the most",
+              "value": "10399",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6135",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 France, Spain and Italy are _____ popular tourist destinations in Europe.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6135_1",
+              "order": 1,
+              "text": "most",
+              "value": "10427",
+              "is_correct": false
+            },
+            {
+              "id": "6135_2",
+              "order": 2,
+              "text": "most of",
+              "value": "10428",
+              "is_correct": false
+            },
+            {
+              "id": "6135_3",
+              "order": 3,
+              "text": "the most",
+              "value": "10429",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6127",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 ______ the students in my class have lunch at the cafeteria.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6127_1",
+              "order": 1,
+              "text": "Most",
+              "value": "10403",
+              "is_correct": false
+            },
+            {
+              "id": "6127_2",
+              "order": 2,
+              "text": "Most of",
+              "value": "10404",
+              "is_correct": true
+            },
+            {
+              "id": "6127_3",
+              "order": 3,
+              "text": "The most",
+              "value": "10405",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6128",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 _____ people use social media platforms such as Twitter, Facebook, Instagram, etc.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6128_1",
+              "order": 1,
+              "text": "Most",
+              "value": "10406",
+              "is_correct": true
+            },
+            {
+              "id": "6128_2",
+              "order": 2,
+              "text": "Most of",
+              "value": "10407",
+              "is_correct": false
+            },
+            {
+              "id": "6128_3",
+              "order": 3,
+              "text": "The most",
+              "value": "10408",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6134",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 What are _____ useful languages to learn?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6134_1",
+              "order": 1,
+              "text": "most",
+              "value": "10424",
+              "is_correct": false
+            },
+            {
+              "id": "6134_2",
+              "order": 2,
+              "text": "most of",
+              "value": "10425",
+              "is_correct": false
+            },
+            {
+              "id": "6134_3",
+              "order": 3,
+              "text": "the most",
+              "value": "10426",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6132",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 We spent ______ our holiday lying on the beach.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6132_1",
+              "order": 1,
+              "text": "most",
+              "value": "10418",
+              "is_correct": false
+            },
+            {
+              "id": "6132_2",
+              "order": 2,
+              "text": "most of",
+              "value": "10419",
+              "is_correct": true
+            },
+            {
+              "id": "6132_3",
+              "order": 3,
+              "text": "the most",
+              "value": "10420",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6130",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 The weather isn't great here in winter. It rains _____ days.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6130_1",
+              "order": 1,
+              "text": "most",
+              "value": "10412",
+              "is_correct": true
+            },
+            {
+              "id": "6130_2",
+              "order": 2,
+              "text": "most of",
+              "value": "10413",
+              "is_correct": false
+            },
+            {
+              "id": "6130_3",
+              "order": 3,
+              "text": "the most",
+              "value": "10414",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6126",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 The coach and ______ the players are Canadian.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6126_1",
+              "order": 1,
+              "text": "most",
+              "value": "10400",
+              "is_correct": false
+            },
+            {
+              "id": "6126_2",
+              "order": 2,
+              "text": "most of",
+              "value": "10401",
+              "is_correct": true
+            },
+            {
+              "id": "6126_3",
+              "order": 3,
+              "text": "the most",
+              "value": "10402",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6131",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 In _____ schools in Japan, students bring a lunch box from home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6131_1",
+              "order": 1,
+              "text": "most",
+              "value": "10415",
+              "is_correct": true
+            },
+            {
+              "id": "6131_2",
+              "order": 2,
+              "text": "most of",
+              "value": "10416",
+              "is_correct": false
+            },
+            {
+              "id": "6131_3",
+              "order": 3,
+              "text": "the most",
+              "value": "10417",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6133",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 We use _____ advanced techniques.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6133_1",
+              "order": 1,
+              "text": "most",
+              "value": "10421",
+              "is_correct": false
+            },
+            {
+              "id": "6133_2",
+              "order": 2,
+              "text": "most of",
+              "value": "10422",
+              "is_correct": false
+            },
+            {
+              "id": "6133_3",
+              "order": 3,
+              "text": "the most",
+              "value": "10423",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-717",
+      "lessonId": "a2_most_most_of_the_most",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with most, most of or the most.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_most-most-of-the-most_3.html",
+      "questions": [
+        {
+          "id": "6139",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 He ate {{gap1}} the cake.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6139_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "most of",
+              "accepted_answers": [
+                "most of"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6137",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 There is a high risk of fire in {{gap1}} areas.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6137_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "most",
+              "accepted_answers": [
+                "most"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6143",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 They went to {{gap1}} famous restaurants in the region.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6143_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the most",
+              "accepted_answers": [
+                "the most"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6116",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 {{gap1}} people believe what they read online.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6116_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Most",
+              "accepted_answers": [
+                "Most"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6136",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 {{gap1}} mornings, she writes two or three pages.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6136_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Most",
+              "accepted_answers": [
+                "Most"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6140",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 He spent {{gap1}} his life in prison.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6140_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "most of",
+              "accepted_answers": [
+                "most of"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6144",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 These are {{gap1}} comfortable shoes in the shop.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6144_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the most",
+              "accepted_answers": [
+                "the most"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6138",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Becoming a professional football player is the dream of {{gap1}} young boys.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6138_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "most",
+              "accepted_answers": [
+                "most"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6141",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 {{gap1}} the people in my neighbourhood are nice and friendly.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6141_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Most of",
+              "accepted_answers": [
+                "Most of"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6142",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 This is {{gap1}} ridiculous idea I've ever heard.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6142_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the most",
+              "accepted_answers": [
+                "the most"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

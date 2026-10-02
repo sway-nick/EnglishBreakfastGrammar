@@ -1,0 +1,857 @@
+{
+  "lesson_id": "a1_present_continuous",
+  "level": "A1",
+  "title": "Present continuous: I'm doing, I'm not doing, Are you doing?",
+  "description": "Практический тест и правила по теме: Present continuous: I'm doing, I'm not doing, Are you doing?",
+  "theory": {
+    "title": "Правила и грамматика: Present continuous: I'm doing, I'm not doing, Are you doing?",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Present continuous: I'm doing, I'm not doing, Are you doing?».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Present continuous: I'm doing, I'm not doing, Are you doing?» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-453",
+      "lessonId": "a1_present_continuous",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Write positive or negative sentences in present continuous using the verbs in brackets. Use Use short forms when possible.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-continuous.html",
+      "questions": [
+        {
+          "id": "3950",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 He {{gap1}} (save) money because he wants to buy a car.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3950_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'s saving",
+              "accepted_answers": [
+                "'s saving"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3951",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 You {{gap1}} (not listen) to me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3951_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "aren't listening",
+              "accepted_answers": [
+                "aren't listening"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3952",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 My parents {{gap1}} (look) for a new apartment.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3952_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are looking",
+              "accepted_answers": [
+                "are looking"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3953",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 The victim {{gap1}} (not cooperate) with the police.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3953_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "isn't cooperating",
+              "accepted_answers": [
+                "isn't cooperating"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3954",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 We {{gap1}} (plan) a trip to Japan.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3954_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'re planning",
+              "accepted_answers": [
+                "'re planning"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3955",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I {{gap1}} (cook) fish for dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3955_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'m cooking",
+              "accepted_answers": [
+                "'m cooking"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3956",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 The water {{gap1}} (boil). You can put the pasta now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3956_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is boiling",
+              "accepted_answers": [
+                "is boiling"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3957",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 He {{gap1}} (not train) because he has health problems.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3957_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "isn't training",
+              "accepted_answers": [
+                "isn't training"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3958",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I {{gap1}} (not work) at present. I'm unemployed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3958_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'m not working",
+              "accepted_answers": [
+                "'m not working"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3959",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 It {{gap1}} (not rain) now. We can go to the park.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3959_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "isn't raining",
+              "accepted_answers": [
+                "isn't raining"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-454",
+      "lessonId": "a1_present_continuous",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Write questions and short answers in present continuous with the words in brackets. Use Use short forms when possible.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-continuous_2.html",
+      "questions": [
+        {
+          "id": "3960",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 A: {{gap1}} (you/cry)? B: No, I {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3960_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Are you crying",
+              "accepted_answers": [
+                "Are you crying"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3960_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "'m not",
+              "accepted_answers": [
+                "'m not"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3961",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 A: {{gap1}} (your father/recover) well after the operation? B: Yes, he {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3961_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Is your father recovering",
+              "accepted_answers": [
+                "Is your father recovering"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3961_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3962",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 A: {{gap1}} (they/try) to find a solution? B: Yes, they {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3962_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Are they trying",
+              "accepted_answers": [
+                "Are they trying"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3962_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3963",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 A: {{gap1}} (the baby/sleep)? B: No, she {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3963_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Is the baby sleeping",
+              "accepted_answers": [
+                "Is the baby sleeping"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3963_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "isn't",
+              "accepted_answers": [
+                "isn't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3964",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 A: {{gap1}} (we/do) the right thing? B: Yes, we {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3964_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Are we doing",
+              "accepted_answers": [
+                "Are we doing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3964_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3965",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 A: {{gap1}} (he/study) for his exams? B: No, he {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3965_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Is he studying",
+              "accepted_answers": [
+                "Is he studying"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3965_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "isn't",
+              "accepted_answers": [
+                "isn't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3966",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 A: {{gap1}} (you eat) my pizza? B: Yes, I {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3966_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Are you eating",
+              "accepted_answers": [
+                "Are you eating"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3966_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "am",
+              "accepted_answers": [
+                "am"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3967",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 A: {{gap1}} (you/pay) by credit card? B: No, I {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3967_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Are you paying",
+              "accepted_answers": [
+                "Are you paying"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3967_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "'m not",
+              "accepted_answers": [
+                "'m not"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3968",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 A: {{gap1}} (they/win) the match? B: Yes, they {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3968_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Are they winning",
+              "accepted_answers": [
+                "Are they winning"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3968_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3969",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 A: {{gap1}} (Tom/run) in the race? B: No, he {{gap2}}. He's here with me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3969_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Is Tom running",
+              "accepted_answers": [
+                "Is Tom running"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3969_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "isn't",
+              "accepted_answers": [
+                "isn't"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-455",
+      "lessonId": "a1_present_continuous",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the dialogues with the verbs in brackets in present continuous. Use short forms when possible.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-continuous_3.html",
+      "questions": [
+        {
+          "id": "3970",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Suzan: Hi Mark. What {{gap1}} (you/do)?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3970_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are you doing",
+              "accepted_answers": [
+                "are you doing"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3971",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Mark: I {{gap1}} (watch) TV.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3971_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'m watching",
+              "accepted_answers": [
+                "'m watching"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3972",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Suzan: What {{gap1}} (you/watch)?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3972_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are you watching",
+              "accepted_answers": [
+                "are you watching"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3973",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Mark: A football match. Liverpool {{gap1}} (play) against Manchester United.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3973_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'s playing",
+              "accepted_answers": [
+                "'s playing"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3974",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Suzan: {{gap1}} (you/enjoy) it?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3974_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Are you enjoying",
+              "accepted_answers": [
+                "Are you enjoying"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3975",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Mark: Yes, I {{gap1}}. It's a great match.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3975_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'m watching",
+              "accepted_answers": [
+                "'m watching"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3976",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Suzan: {{gap1}} (your team/win)?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3976_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Is your team winning",
+              "accepted_answers": [
+                "Is your team winning"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3977",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Mark: Yes! But what about you? What {{gap1}} (you/do)?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3977_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are you doing",
+              "accepted_answers": [
+                "are you doing"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3978",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Suzan: I'm with Alice. We {{gap1}} (study) for our maths exam.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3978_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'re studying",
+              "accepted_answers": [
+                "'re studying"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3979",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Mark: Well, I'm sure you {{gap1}} (not enjoy) maths. Do you want to take a break and come to my house?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3979_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "aren't enjoying",
+              "accepted_answers": [
+                "aren't enjoying"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

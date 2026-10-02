@@ -1,0 +1,1137 @@
+{
+  "lesson_id": "b2_have_auxiliary_main_verb",
+  "level": "B2",
+  "title": "Have: Auxiliary or main verb",
+  "description": "Практический тест и правила по теме: Have: Auxiliary or main verb",
+  "theory": {
+    "title": "Правила и грамматика: Have: Auxiliary or main verb",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Have: Auxiliary or main verb».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Have: Auxiliary or main verb» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-78",
+      "lessonId": "b2_have_auxiliary_main_verb",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct form of have to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_have-auxiliary-main-verb.html",
+      "questions": [
+        {
+          "id": "637",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 When I was a child I {{gap1}} a bicycle.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_637_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn’t have",
+              "accepted_answers": [
+                "didn’t have"
+              ],
+              "options": [
+                {
+                  "id": "gap_637_1_1",
+                  "order": 1,
+                  "text": "didn’t have",
+                  "value": "didn’t have",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_637_1_2",
+                  "order": 2,
+                  "text": "hadn’t",
+                  "value": "hadn’t",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_637_1_3",
+                  "order": 3,
+                  "text": "hadn’t got",
+                  "value": "hadn’t got",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "638",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 You’ve been tidying up, {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_638_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "haven’t you",
+              "accepted_answers": [
+                "haven’t you"
+              ],
+              "options": [
+                {
+                  "id": "gap_638_1_1",
+                  "order": 1,
+                  "text": "aren’t you",
+                  "value": "aren’t you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_638_1_2",
+                  "order": 2,
+                  "text": "haven’t you",
+                  "value": "haven’t you",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_638_1_3",
+                  "order": 3,
+                  "text": "don’t you",
+                  "value": "don’t you",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "639",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 {{gap1}} to do it now? Can’t I do it later?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_639_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Do I have",
+              "accepted_answers": [
+                "Do I have"
+              ],
+              "options": [
+                {
+                  "id": "gap_639_1_1",
+                  "order": 1,
+                  "text": "I’ve to",
+                  "value": "I’ve to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_639_1_2",
+                  "order": 2,
+                  "text": "Have I",
+                  "value": "Have I",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_639_1_3",
+                  "order": 3,
+                  "text": "Do I have",
+                  "value": "Do I have",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "640",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I {{gap1}} much time today, can we meet tomorrow?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_640_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "haven’t got",
+              "accepted_answers": [
+                "haven’t got"
+              ],
+              "options": [
+                {
+                  "id": "gap_640_1_1",
+                  "order": 1,
+                  "text": "not have",
+                  "value": "not have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_640_1_2",
+                  "order": 2,
+                  "text": "’m not having",
+                  "value": "’m not having",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_640_1_3",
+                  "order": 3,
+                  "text": "haven’t got",
+                  "value": "haven’t got",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "641",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 She can’t talk now. She {{gap1}} a shower.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_641_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'s having",
+              "accepted_answers": [
+                "'s having"
+              ],
+              "options": [
+                {
+                  "id": "gap_641_1_1",
+                  "order": 1,
+                  "text": "has",
+                  "value": "has",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_641_1_2",
+                  "order": 2,
+                  "text": "'s",
+                  "value": "'s",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_641_1_3",
+                  "order": 3,
+                  "text": "'s having",
+                  "value": "'s having",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "642",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 They {{gap1}} a big house in the suburbs.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_642_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have",
+              "accepted_answers": [
+                "have"
+              ],
+              "options": [
+                {
+                  "id": "gap_642_1_1",
+                  "order": 1,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_642_1_2",
+                  "order": 2,
+                  "text": "’ve",
+                  "value": "’ve",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_642_1_3",
+                  "order": 3,
+                  "text": "got",
+                  "value": "got",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "643",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 How long have you {{gap1}} your house by the beach?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_643_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had",
+              "accepted_answers": [
+                "had"
+              ],
+              "options": [
+                {
+                  "id": "gap_643_1_1",
+                  "order": 1,
+                  "text": "got",
+                  "value": "got",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_643_1_2",
+                  "order": 2,
+                  "text": "been having",
+                  "value": "been having",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_643_1_3",
+                  "order": 3,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "644",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 You had to call me earlier, {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_644_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn’t you",
+              "accepted_answers": [
+                "didn’t you"
+              ],
+              "options": [
+                {
+                  "id": "gap_644_1_1",
+                  "order": 1,
+                  "text": "hadn’t you",
+                  "value": "hadn’t you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_644_1_2",
+                  "order": 2,
+                  "text": "mustn’t you",
+                  "value": "mustn’t you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_644_1_3",
+                  "order": 3,
+                  "text": "didn’t you",
+                  "value": "didn’t you",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "645",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 It was dangerous. We might {{gap1}} had an accident.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_645_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have",
+              "accepted_answers": [
+                "have"
+              ],
+              "options": [
+                {
+                  "id": "gap_645_1_1",
+                  "order": 1,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_645_1_2",
+                  "order": 2,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_645_1_3",
+                  "order": 3,
+                  "text": "been",
+                  "value": "been",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "646",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 The room looks so nice because I {{gap1}} it redecorated last week.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_646_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had",
+              "accepted_answers": [
+                "had"
+              ],
+              "options": [
+                {
+                  "id": "gap_646_1_1",
+                  "order": 1,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_646_1_2",
+                  "order": 2,
+                  "text": "did",
+                  "value": "did",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_646_1_3",
+                  "order": 3,
+                  "text": "’ve",
+                  "value": "’ve",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-79",
+      "lessonId": "b2_have_auxiliary_main_verb",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct form of have for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_have-auxiliary-main-verb_2.html",
+      "questions": [
+        {
+          "id": "647",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Don't call at 10 because we _______ dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "647_1",
+              "order": 1,
+              "text": "'ll have had",
+              "value": "820",
+              "is_correct": false
+            },
+            {
+              "id": "647_2",
+              "order": 2,
+              "text": "'ll have dinner",
+              "value": "821",
+              "is_correct": false
+            },
+            {
+              "id": "647_3",
+              "order": 3,
+              "text": "'ll be having",
+              "value": "822",
+              "is_correct": true
+            },
+            {
+              "id": "647_4",
+              "order": 4,
+              "text": "'ll having",
+              "value": "823",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "648",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 The two robbers are believed _______ in a white sports car.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "648_1",
+              "order": 1,
+              "text": "to have fled",
+              "value": "824",
+              "is_correct": true
+            },
+            {
+              "id": "648_2",
+              "order": 2,
+              "text": "to flee",
+              "value": "825",
+              "is_correct": false
+            },
+            {
+              "id": "648_3",
+              "order": 3,
+              "text": "to have been fled",
+              "value": "826",
+              "is_correct": false
+            },
+            {
+              "id": "648_4",
+              "order": 4,
+              "text": "to be fled",
+              "value": "827",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "649",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 If I _______ met you, I wouldn't _______ known the true meaning of love.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "649_1",
+              "order": 1,
+              "text": "hadn't / had",
+              "value": "828",
+              "is_correct": false
+            },
+            {
+              "id": "649_2",
+              "order": 2,
+              "text": "hadn't / have",
+              "value": "829",
+              "is_correct": true
+            },
+            {
+              "id": "649_3",
+              "order": 3,
+              "text": "had / have got",
+              "value": "830",
+              "is_correct": false
+            },
+            {
+              "id": "649_4",
+              "order": 4,
+              "text": "haven't / got",
+              "value": "831",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "650",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I _______ this book for a long time, and I think I'll never finish it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "650_1",
+              "order": 1,
+              "text": "'ve written",
+              "value": "832",
+              "is_correct": false
+            },
+            {
+              "id": "650_2",
+              "order": 2,
+              "text": "have to write",
+              "value": "833",
+              "is_correct": false
+            },
+            {
+              "id": "650_3",
+              "order": 3,
+              "text": "have it written",
+              "value": "834",
+              "is_correct": false
+            },
+            {
+              "id": "650_4",
+              "order": 4,
+              "text": "'ve been writing",
+              "value": "835",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "651",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I _______ a drink with Mark tonight.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "651_1",
+              "order": 1,
+              "text": "have",
+              "value": "836",
+              "is_correct": false
+            },
+            {
+              "id": "651_2",
+              "order": 2,
+              "text": "have to",
+              "value": "837",
+              "is_correct": false
+            },
+            {
+              "id": "651_3",
+              "order": 3,
+              "text": "'m having",
+              "value": "838",
+              "is_correct": true
+            },
+            {
+              "id": "651_4",
+              "order": 4,
+              "text": "'ll have had",
+              "value": "839",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "652",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Come back tomorrow morning. I _______ your suit by then.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "652_1",
+              "order": 1,
+              "text": "will have finished",
+              "value": "840",
+              "is_correct": true
+            },
+            {
+              "id": "652_2",
+              "order": 2,
+              "text": "have finished",
+              "value": "841",
+              "is_correct": false
+            },
+            {
+              "id": "652_3",
+              "order": 3,
+              "text": "'m having finished",
+              "value": "842",
+              "is_correct": false
+            },
+            {
+              "id": "652_4",
+              "order": 4,
+              "text": "will have finish",
+              "value": "843",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "653",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Did you _______ when you bought the new glasses?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "653_1",
+              "order": 1,
+              "text": "have tested your eyes",
+              "value": "844",
+              "is_correct": false
+            },
+            {
+              "id": "653_2",
+              "order": 2,
+              "text": "have your eyes tested",
+              "value": "845",
+              "is_correct": true
+            },
+            {
+              "id": "653_3",
+              "order": 3,
+              "text": "had your eyes tested",
+              "value": "846",
+              "is_correct": false
+            },
+            {
+              "id": "653_4",
+              "order": 4,
+              "text": "have to test your eyes",
+              "value": "847",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "654",
+          "order": 8,
+          "type": "multiple_choice",
+          "text": "8 Which two sentences are correct? Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "654_1",
+              "order": 1,
+              "text": "You've got to be joking.",
+              "value": "848",
+              "is_correct": true
+            },
+            {
+              "id": "654_2",
+              "order": 2,
+              "text": "You must have be joking",
+              "value": "849",
+              "is_correct": false
+            },
+            {
+              "id": "654_3",
+              "order": 3,
+              "text": "You have to be joking",
+              "value": "850",
+              "is_correct": true
+            },
+            {
+              "id": "654_4",
+              "order": 4,
+              "text": "You've to be joking",
+              "value": "851",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "655",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 _______ wait for a long time to see the doctor?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "655_1",
+              "order": 1,
+              "text": "Had you got to",
+              "value": "852",
+              "is_correct": false
+            },
+            {
+              "id": "655_2",
+              "order": 2,
+              "text": "Had you",
+              "value": "853",
+              "is_correct": false
+            },
+            {
+              "id": "655_3",
+              "order": 3,
+              "text": "Have you",
+              "value": "854",
+              "is_correct": false
+            },
+            {
+              "id": "655_4",
+              "order": 4,
+              "text": "Did you have to",
+              "value": "855",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "656",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 You'd already finished your degree when we met, _______ you?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "656_1",
+              "order": 1,
+              "text": "haven't",
+              "value": "856",
+              "is_correct": false
+            },
+            {
+              "id": "656_2",
+              "order": 2,
+              "text": "had you not",
+              "value": "857",
+              "is_correct": false
+            },
+            {
+              "id": "656_3",
+              "order": 3,
+              "text": "didn't",
+              "value": "858",
+              "is_correct": false
+            },
+            {
+              "id": "656_4",
+              "order": 4,
+              "text": "hadn't",
+              "value": "859",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-80",
+      "lessonId": "b2_have_auxiliary_main_verb",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Transform the sentences using a form of have so that they have the same meaning as the sentences before. Do NOT use short forms",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_have-auxiliary-main-verb_3.html",
+      "questions": [
+        {
+          "id": "657",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I paid a mechanic to fix my car. ⇒ I {{gap1}} fixed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_657_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had my car",
+              "accepted_answers": [
+                "had my car"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "658",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 I'm glad that I met you last night. ⇒ I'm glad {{gap1}} you last night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_658_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to have met",
+              "accepted_answers": [
+                "to have met"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "659",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I will write the report next Monday. ⇒ I {{gap1}} the report by Tuesday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_659_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "will have written",
+              "accepted_answers": [
+                "will have written"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "660",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 We got married in 2011. ⇒ We {{gap1}} since 2011.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_660_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been married",
+              "accepted_answers": [
+                "have been married"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "661",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 The police believe the murderer used a pair of scissors to kill the victim. ⇒ The murderer {{gap1}} a pair of scissors to kill the victim.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_661_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is believed to have used",
+              "accepted_answers": [
+                "is believed to have used"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "662",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 We started talking 2 hours ago. ⇒ We {{gap1}} for two hours.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_662_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been talking",
+              "accepted_answers": [
+                "have been talking"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "663",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 She left before I arrived at the restaurant. ⇒ When I arrived to the restaurant she {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_663_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had left",
+              "accepted_answers": [
+                "had left"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "664",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Perhaps they arrived on the first train this morning. ⇒ They {{gap1}} on the first train this morning.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_664_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "may have arrived",
+              "accepted_answers": [
+                "may have arrived"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "665",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Is it necessary that you pick up your sister at the station? ⇒ {{gap1}} got to pick up your sister at the station?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_665_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Have you",
+              "accepted_answers": [
+                "Have you"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "666",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I'm sure it was a terrible experience. ⇒ It {{gap1}} a terrible experience.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_666_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "must have been",
+              "accepted_answers": [
+                "must have been"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

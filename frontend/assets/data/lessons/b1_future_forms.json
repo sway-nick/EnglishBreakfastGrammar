@@ -1,0 +1,968 @@
+{
+  "lesson_id": "b1_future_forms",
+  "level": "B1",
+  "title": "Future forms: Will, be going to, present continuous",
+  "description": "Практический тест и правила по теме: Future forms: Will, be going to, present continuous",
+  "theory": {
+    "title": "Правила и грамматика: Future forms: Will, be going to, present continuous",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Future forms: Will, be going to, present continuous».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Future forms: Will, be going to, present continuous» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-182",
+      "lessonId": "b1_future_forms",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the most suitable future forms for the gaps below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_future-forms.html",
+      "questions": [
+        {
+          "id": "1535",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 What time ______ work on Monday?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1535_1",
+              "order": 1,
+              "text": "do you finish",
+              "value": "2254",
+              "is_correct": true
+            },
+            {
+              "id": "1535_2",
+              "order": 2,
+              "text": "will you finish",
+              "value": "2255",
+              "is_correct": false
+            },
+            {
+              "id": "1535_3",
+              "order": 3,
+              "text": "are you going to finish",
+              "value": "2256",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1536",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 ______ this weekend?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1536_1",
+              "order": 1,
+              "text": "Do you go out",
+              "value": "2257",
+              "is_correct": false
+            },
+            {
+              "id": "1536_2",
+              "order": 2,
+              "text": "Will you go out",
+              "value": "2258",
+              "is_correct": false
+            },
+            {
+              "id": "1536_3",
+              "order": 3,
+              "text": "Are you going out",
+              "value": "2259",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1537",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I'm sorry I made you so angry. I ______ it again",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1537_1",
+              "order": 1,
+              "text": "won't do",
+              "value": "2260",
+              "is_correct": true
+            },
+            {
+              "id": "1537_2",
+              "order": 2,
+              "text": "'m not going to do",
+              "value": "2261",
+              "is_correct": false
+            },
+            {
+              "id": "1537_3",
+              "order": 3,
+              "text": "'m not doing",
+              "value": "2262",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1538",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 It's really hot. ______ the window, please?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1538_1",
+              "order": 1,
+              "text": "Are you going to open",
+              "value": "2263",
+              "is_correct": false
+            },
+            {
+              "id": "1538_2",
+              "order": 2,
+              "text": "Will you open",
+              "value": "2264",
+              "is_correct": true
+            },
+            {
+              "id": "1538_3",
+              "order": 3,
+              "text": "Do you open",
+              "value": "2265",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1539",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I don't think I ______ come tomorrow.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1539_1",
+              "order": 1,
+              "text": "'m being able to",
+              "value": "2266",
+              "is_correct": false
+            },
+            {
+              "id": "1539_2",
+              "order": 2,
+              "text": "am able to",
+              "value": "2267",
+              "is_correct": false
+            },
+            {
+              "id": "1539_3",
+              "order": 3,
+              "text": "will be able to",
+              "value": "2268",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1540",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 A: Where are you going? B:I ______ something for dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1540_1",
+              "order": 1,
+              "text": "'m going to buy",
+              "value": "2269",
+              "is_correct": true
+            },
+            {
+              "id": "1540_2",
+              "order": 2,
+              "text": "'ll buy",
+              "value": "2270",
+              "is_correct": false
+            },
+            {
+              "id": "1540_3",
+              "order": 3,
+              "text": "'m buying",
+              "value": "2271",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1541",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 You can insist all you want; I ______ you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1541_1",
+              "order": 1,
+              "text": "'m not helping",
+              "value": "2272",
+              "is_correct": false
+            },
+            {
+              "id": "1541_2",
+              "order": 2,
+              "text": "don't help",
+              "value": "2273",
+              "is_correct": false
+            },
+            {
+              "id": "1541_3",
+              "order": 3,
+              "text": "won't help",
+              "value": "2274",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1542",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 _______ doing that, please? I'm trying to concentrate.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1542_1",
+              "order": 1,
+              "text": "Are you going to stop",
+              "value": "2275",
+              "is_correct": false
+            },
+            {
+              "id": "1542_2",
+              "order": 2,
+              "text": "Will you stop",
+              "value": "2276",
+              "is_correct": true
+            },
+            {
+              "id": "1542_3",
+              "order": 3,
+              "text": "Do you stop",
+              "value": "2277",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1543",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 ______ tonight? There's a new restaurant that looks promising.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1543_1",
+              "order": 1,
+              "text": "Shall we eat out",
+              "value": "2278",
+              "is_correct": true
+            },
+            {
+              "id": "1543_2",
+              "order": 2,
+              "text": "Will we eat out",
+              "value": "2279",
+              "is_correct": false
+            },
+            {
+              "id": "1543_3",
+              "order": 3,
+              "text": "Are we going to eat out",
+              "value": "2280",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1544",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I'm sure the baby ______ blue eyes, like her mother.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1544_1",
+              "order": 1,
+              "text": "is going to have",
+              "value": "2281",
+              "is_correct": false
+            },
+            {
+              "id": "1544_2",
+              "order": 2,
+              "text": "will have",
+              "value": "2282",
+              "is_correct": true
+            },
+            {
+              "id": "1544_3",
+              "order": 3,
+              "text": "is having",
+              "value": "2283",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-181",
+      "lessonId": "b1_future_forms",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the most suitable future forms to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_future-forms_2.html",
+      "questions": [
+        {
+          "id": "1525",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Look! That car over there {{gap1}}!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1525_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is going to crash",
+              "accepted_answers": [
+                "is going to crash"
+              ],
+              "options": [
+                {
+                  "id": "gap_1525_1_1",
+                  "order": 1,
+                  "text": "is going to crash",
+                  "value": "is going to crash",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1525_1_2",
+                  "order": 2,
+                  "text": "is crashing",
+                  "value": "is crashing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1525_1_3",
+                  "order": 3,
+                  "text": "will crash",
+                  "value": "will crash",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1526",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 {{gap1}} the music down, please?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1526_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Will you turn",
+              "accepted_answers": [
+                "Will you turn"
+              ],
+              "options": [
+                {
+                  "id": "gap_1526_1_1",
+                  "order": 1,
+                  "text": "Are you going to turn",
+                  "value": "Are you going to turn",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1526_1_2",
+                  "order": 2,
+                  "text": "Are you turning",
+                  "value": "Are you turning",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1526_1_3",
+                  "order": 3,
+                  "text": "Will you turn",
+                  "value": "Will you turn",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1527",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 The film {{gap1}} at 5 p.m.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1527_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "starts",
+              "accepted_answers": [
+                "starts"
+              ],
+              "options": [
+                {
+                  "id": "gap_1527_1_1",
+                  "order": 1,
+                  "text": "is starting",
+                  "value": "is starting",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1527_1_2",
+                  "order": 2,
+                  "text": "is going to start",
+                  "value": "is going to start",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1527_1_3",
+                  "order": 3,
+                  "text": "starts",
+                  "value": "starts",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1528",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I'm sure you {{gap1}} the lottery one day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1528_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "will win",
+              "accepted_answers": [
+                "will win"
+              ],
+              "options": [
+                {
+                  "id": "gap_1528_1_1",
+                  "order": 1,
+                  "text": "will win",
+                  "value": "will win",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1528_1_2",
+                  "order": 2,
+                  "text": "are going to win",
+                  "value": "are going to win",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1528_1_3",
+                  "order": 3,
+                  "text": "are winning",
+                  "value": "are winning",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1529",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Don't you have any money on you? Don't worry, I {{gap1}} for the taxi.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1529_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'ll pay",
+              "accepted_answers": [
+                "'ll pay"
+              ],
+              "options": [
+                {
+                  "id": "gap_1529_1_1",
+                  "order": 1,
+                  "text": "'ll pay",
+                  "value": "'ll pay",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1529_1_2",
+                  "order": 2,
+                  "text": "'m paying",
+                  "value": "'m paying",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1529_1_3",
+                  "order": 3,
+                  "text": "'m going to pay",
+                  "value": "'m going to pay",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1530",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 According to my diary, we {{gap1}} the buyers at 7p.m. tomorrow.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1530_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are meeting",
+              "accepted_answers": [
+                "are meeting"
+              ],
+              "options": [
+                {
+                  "id": "gap_1530_1_1",
+                  "order": 1,
+                  "text": "are meeting",
+                  "value": "are meeting",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1530_1_2",
+                  "order": 2,
+                  "text": "will meet",
+                  "value": "will meet",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1530_1_3",
+                  "order": 3,
+                  "text": "meet",
+                  "value": "meet",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1531",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 It's cold. {{gap1}} the heating on?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1531_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Shall I turn",
+              "accepted_answers": [
+                "Shall I turn"
+              ],
+              "options": [
+                {
+                  "id": "gap_1531_1_1",
+                  "order": 1,
+                  "text": "Shall I turn",
+                  "value": "Shall I turn",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1531_1_2",
+                  "order": 2,
+                  "text": "Do I turn",
+                  "value": "Do I turn",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1531_1_3",
+                  "order": 3,
+                  "text": "Am I going to turn",
+                  "value": "Am I going to turn",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1532",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I can't see you tomorrow. I {{gap1}} football with my university friends.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1532_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'m playing",
+              "accepted_answers": [
+                "'m playing"
+              ],
+              "options": [
+                {
+                  "id": "gap_1532_1_1",
+                  "order": 1,
+                  "text": "'m playing",
+                  "value": "'m playing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1532_1_2",
+                  "order": 2,
+                  "text": "will play",
+                  "value": "will play",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1532_1_3",
+                  "order": 3,
+                  "text": "play",
+                  "value": "play",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1533",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 A: Maria phoned you. B: OK. I {{gap1}} her back.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1533_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "will call",
+              "accepted_answers": [
+                "will call"
+              ],
+              "options": [
+                {
+                  "id": "gap_1533_1_1",
+                  "order": 1,
+                  "text": "am calling",
+                  "value": "am calling",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1533_1_2",
+                  "order": 2,
+                  "text": "am going to call",
+                  "value": "am going to call",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1533_1_3",
+                  "order": 3,
+                  "text": "will call",
+                  "value": "will call",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1534",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Thanks for the money. I {{gap1}} you back on Friday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1534_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "will pay",
+              "accepted_answers": [
+                "will pay"
+              ],
+              "options": [
+                {
+                  "id": "gap_1534_1_1",
+                  "order": 1,
+                  "text": "will pay",
+                  "value": "will pay",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1534_1_2",
+                  "order": 2,
+                  "text": "'m going to pay",
+                  "value": "'m going to pay",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1534_1_3",
+                  "order": 3,
+                  "text": "'m paying",
+                  "value": "'m paying",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-183",
+      "lessonId": "b1_future_forms",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the dialogue with the most suitable future forms: present continuous, be going to, will, or shall.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_future-forms_3.html",
+      "questions": [
+        {
+          "id": "1545",
+          "order": 1,
+          "type": "gap_text",
+          "text": "MARIA: What 1 {{gap1}} (you/do) this evening? 2 {{gap2}} (we/go out)? ROSA: Not this evening. I 3 {{gap3}} (work) on a project until late. MARIA: And when do you think you 4 {{gap4}} (be) free for a drink? ROSA: I don't know. I have my diary here with me; let me see. What about tomorrow? 5 {{gap5}} (you/do) anything? MARIA: I 6 {{gap6}} (see) my dentist tomorrow. Is Thursday OK? ROSA: Yes, Thursday is perfect. MARIA: OK. What time 7 {{gap7}} (we/meet)? ROSA: I 8 {{gap8}} (meet) a friend at 6. Is 7 OK? MARIA: Yes, great. But I don't have my car. ROSA: Don't worry, I 9 {{gap9}} (take) mine. 10 {{gap10}} (I/pick you up) at 7 then? MARIA: OK, thanks.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1545_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are you doing",
+              "accepted_answers": [
+                "are you doing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1545_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Shall we go out",
+              "accepted_answers": [
+                "Shall we go out"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1545_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "am working",
+              "accepted_answers": [
+                "am working"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1545_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "will be",
+              "accepted_answers": [
+                "will be"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1545_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "Are you doing",
+              "accepted_answers": [
+                "Are you doing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1545_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "am seeing",
+              "accepted_answers": [
+                "am seeing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1545_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "shall we meet",
+              "accepted_answers": [
+                "shall we meet"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1545_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "am meeting",
+              "accepted_answers": [
+                "am meeting"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1545_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "will take",
+              "accepted_answers": [
+                "will take"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1545_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "Shall I pick you up",
+              "accepted_answers": [
+                "Shall I pick you up"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

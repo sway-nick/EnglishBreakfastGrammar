@@ -1,0 +1,968 @@
+{
+  "lesson_id": "b1_first_and_second_conditionals",
+  "level": "B1",
+  "title": "First and second conditionals",
+  "description": "Практический тест и правила по теме: First and second conditionals",
+  "theory": {
+    "title": "Правила и грамматика: First and second conditionals",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «First and second conditionals».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «First and second conditionals» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-232",
+      "lessonId": "b1_first_and_second_conditionals",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct form of the verbs to make first or second conditional sentences..",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_first-and-second-conditionals.html",
+      "questions": [
+        {
+          "id": "1882",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 If you {{gap1}} free tonight, we might go out for a drink, or to the cinema.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1882_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": [
+                {
+                  "id": "gap_1882_1_1",
+                  "order": 1,
+                  "text": "will be",
+                  "value": "will be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1882_1_2",
+                  "order": 2,
+                  "text": "would be",
+                  "value": "would be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1882_1_3",
+                  "order": 3,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1883",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 He {{gap1}} depressed if he fails the exam.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1883_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "will be",
+              "accepted_answers": [
+                "will be"
+              ],
+              "options": [
+                {
+                  "id": "gap_1883_1_1",
+                  "order": 1,
+                  "text": "will be",
+                  "value": "will be",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1883_1_2",
+                  "order": 2,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1883_1_3",
+                  "order": 3,
+                  "text": "would be",
+                  "value": "would be",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1938",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 If I didn't know you, I {{gap1}} you were crazy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1938_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "would think",
+              "accepted_answers": [
+                "would think"
+              ],
+              "options": [
+                {
+                  "id": "gap_1938_1_1",
+                  "order": 1,
+                  "text": "will think",
+                  "value": "will think",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1938_1_2",
+                  "order": 2,
+                  "text": "thought",
+                  "value": "thought",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1938_1_3",
+                  "order": 3,
+                  "text": "would think",
+                  "value": "would think",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1939",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Tell me the truth if you {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1939_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can",
+              "accepted_answers": [
+                "can"
+              ],
+              "options": [
+                {
+                  "id": "gap_1939_1_1",
+                  "order": 1,
+                  "text": "will",
+                  "value": "will",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1939_1_2",
+                  "order": 2,
+                  "text": "could",
+                  "value": "could",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1939_1_3",
+                  "order": 3,
+                  "text": "can",
+                  "value": "can",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1940",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 If you had a bigger salary, you {{gap1}} more unnecessary things.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1940_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "would buy",
+              "accepted_answers": [
+                "would buy"
+              ],
+              "options": [
+                {
+                  "id": "gap_1940_1_1",
+                  "order": 1,
+                  "text": "would buy",
+                  "value": "would buy",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1940_1_2",
+                  "order": 2,
+                  "text": "will buy",
+                  "value": "will buy",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1940_1_3",
+                  "order": 3,
+                  "text": "buy",
+                  "value": "buy",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1941",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 If it {{gap1}} for Tom, I wouldn't be here.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1941_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "weren't",
+              "accepted_answers": [
+                "weren't"
+              ],
+              "options": [
+                {
+                  "id": "gap_1941_1_1",
+                  "order": 1,
+                  "text": "won't be",
+                  "value": "won't be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1941_1_2",
+                  "order": 2,
+                  "text": "isn't",
+                  "value": "isn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1941_1_3",
+                  "order": 3,
+                  "text": "weren't",
+                  "value": "weren't",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1942",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 You should call me if you {{gap1}} anything unusual.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1942_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "see",
+              "accepted_answers": [
+                "see"
+              ],
+              "options": [
+                {
+                  "id": "gap_1942_1_1",
+                  "order": 1,
+                  "text": "saw",
+                  "value": "saw",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1942_1_2",
+                  "order": 2,
+                  "text": "see",
+                  "value": "see",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1942_1_3",
+                  "order": 3,
+                  "text": "will see",
+                  "value": "will see",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1943",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 If they had this player, they {{gap1}} a single match.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1943_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "wouldn't lose",
+              "accepted_answers": [
+                "wouldn't lose"
+              ],
+              "options": [
+                {
+                  "id": "gap_1943_1_1",
+                  "order": 1,
+                  "text": "wouldn't lose",
+                  "value": "wouldn't lose",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1943_1_2",
+                  "order": 2,
+                  "text": "didn't lose",
+                  "value": "didn't lose",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1943_1_3",
+                  "order": 3,
+                  "text": "won't lose",
+                  "value": "won't lose",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1944",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Our lives would be much easier if you {{gap1}} closer to home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1944_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "worked",
+              "accepted_answers": [
+                "worked"
+              ],
+              "options": [
+                {
+                  "id": "gap_1944_1_1",
+                  "order": 1,
+                  "text": "work",
+                  "value": "work",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1944_1_2",
+                  "order": 2,
+                  "text": "worked",
+                  "value": "worked",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1944_1_3",
+                  "order": 3,
+                  "text": "would work",
+                  "value": "would work",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1945",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 If I got a job in France, we {{gap1}} crêpes every day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1945_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "might eat",
+              "accepted_answers": [
+                "might eat"
+              ],
+              "options": [
+                {
+                  "id": "gap_1945_1_1",
+                  "order": 1,
+                  "text": "might eat",
+                  "value": "might eat",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1945_1_2",
+                  "order": 2,
+                  "text": "can eat",
+                  "value": "can eat",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1945_1_3",
+                  "order": 3,
+                  "text": "will eat",
+                  "value": "will eat",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-233",
+      "lessonId": "b1_first_and_second_conditionals",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct form for each gap below to make either the first or the second conditional.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_first-and-second-conditionals_2.html",
+      "questions": [
+        {
+          "id": "1937",
+          "order": 1,
+          "type": "multiple_choice",
+          "text": "1 If your boss ________, you might lose your job. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1937_1",
+              "order": 1,
+              "text": "finds out",
+              "value": "2716",
+              "is_correct": true
+            },
+            {
+              "id": "1937_2",
+              "order": 2,
+              "text": "would find out",
+              "value": "2717",
+              "is_correct": false
+            },
+            {
+              "id": "1937_3",
+              "order": 3,
+              "text": "found out",
+              "value": "2718",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1947",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 We _______ the keys if we don't look for them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1947_1",
+              "order": 1,
+              "text": "will never find",
+              "value": "2722",
+              "is_correct": true
+            },
+            {
+              "id": "1947_2",
+              "order": 2,
+              "text": "'d never find",
+              "value": "2723",
+              "is_correct": false
+            },
+            {
+              "id": "1947_3",
+              "order": 3,
+              "text": "never find",
+              "value": "2724",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1948",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Shall we go to the beach if the weather ______ OK?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1948_1",
+              "order": 1,
+              "text": "is",
+              "value": "2725",
+              "is_correct": true
+            },
+            {
+              "id": "1948_2",
+              "order": 2,
+              "text": "were",
+              "value": "2726",
+              "is_correct": false
+            },
+            {
+              "id": "1948_3",
+              "order": 3,
+              "text": "was",
+              "value": "2727",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1946",
+          "order": 4,
+          "type": "multiple_choice",
+          "text": "4 If we both saved enough money, we ______ go to Japan. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1946_1",
+              "order": 1,
+              "text": "could",
+              "value": "2719",
+              "is_correct": true
+            },
+            {
+              "id": "1946_2",
+              "order": 2,
+              "text": "can",
+              "value": "2720",
+              "is_correct": false
+            },
+            {
+              "id": "1946_3",
+              "order": 3,
+              "text": "might",
+              "value": "2721",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1949",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 If you ______ the job, you should tell her.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1949_1",
+              "order": 1,
+              "text": "didn't want",
+              "value": "2728",
+              "is_correct": false
+            },
+            {
+              "id": "1949_2",
+              "order": 2,
+              "text": "don't want",
+              "value": "2729",
+              "is_correct": true
+            },
+            {
+              "id": "1949_3",
+              "order": 3,
+              "text": "won't want",
+              "value": "2730",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1950",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 We couldn't afford the house even if we both ______ double our salaries.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1950_1",
+              "order": 1,
+              "text": "earn",
+              "value": "2731",
+              "is_correct": false
+            },
+            {
+              "id": "1950_2",
+              "order": 2,
+              "text": "would earn",
+              "value": "2732",
+              "is_correct": false
+            },
+            {
+              "id": "1950_3",
+              "order": 3,
+              "text": "earned",
+              "value": "2733",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1951",
+          "order": 7,
+          "type": "multiple_choice",
+          "text": "7 You ______ it more interesting if you paid more attention. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1951_1",
+              "order": 1,
+              "text": "will find",
+              "value": "2734",
+              "is_correct": false
+            },
+            {
+              "id": "1951_2",
+              "order": 2,
+              "text": "might find",
+              "value": "2735",
+              "is_correct": true
+            },
+            {
+              "id": "1951_3",
+              "order": 3,
+              "text": "would find",
+              "value": "2736",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1952",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I ______ you my secret unless you _____ me yours.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1952_1",
+              "order": 1,
+              "text": "won't tell / tell",
+              "value": "2737",
+              "is_correct": true
+            },
+            {
+              "id": "1952_2",
+              "order": 2,
+              "text": "wouldn't tell / tell",
+              "value": "2738",
+              "is_correct": false
+            },
+            {
+              "id": "1952_3",
+              "order": 3,
+              "text": "told / would tell",
+              "value": "2739",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1953",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Do you think he ______ if we invited him?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1953_1",
+              "order": 1,
+              "text": "will come",
+              "value": "2740",
+              "is_correct": false
+            },
+            {
+              "id": "1953_2",
+              "order": 2,
+              "text": "come",
+              "value": "2741",
+              "is_correct": false
+            },
+            {
+              "id": "1953_3",
+              "order": 3,
+              "text": "would come",
+              "value": "2742",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1954",
+          "order": 10,
+          "type": "multiple_choice",
+          "text": "10 It ______ better if you ______ a bit of salt. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1954_1",
+              "order": 1,
+              "text": "would taste / added",
+              "value": "2743",
+              "is_correct": true
+            },
+            {
+              "id": "1954_2",
+              "order": 2,
+              "text": "should taste / would add",
+              "value": "2744",
+              "is_correct": false
+            },
+            {
+              "id": "1954_3",
+              "order": 3,
+              "text": "will taste / add",
+              "value": "2745",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-234",
+      "lessonId": "b1_first_and_second_conditionals",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the verbs in brackets present/past or with will/won’t/would/wouldn’t to make first or second conditional sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_first-and-second-conditionals_3.html",
+      "questions": [
+        {
+          "id": "1955",
+          "order": 1,
+          "type": "gap_text",
+          "text": "TERRY: Hey, RAY. If you 1 {{gap1}} (have) time, can you go and pick up Bridget at the station? If she takes the 4 o'clock train, as she said, she 2 {{gap2}} (arrive) at 5.15. RAY: I 3 {{gap3}} (pick) her up if I could, but I have a meeting at 4.30. TERRY: Can't you postpone it? You are the boss after all. RAY: Yes, but I'm meeting some important clients, and it wouldn't look serious if a few hours before the meeting I 4 {{gap4}} (tell) them that I have to put it off. And the meeting is important. I'll make quite a lot of money if everything 5 {{gap5}} (go) well. Why don't you pick her up? TERRY: I would pick her up if my car 6 {{gap6}} (not be) at the garage. It's been there for days, and unless there's a miracle, they 7 {{gap7}} (not repair) it today. Something is broken and they won't be able to fix it until they 8 {{gap8}} (find) the spare part they need. RAY: That's unlucky. Well, do you think Bridget 9 {{gap9}} (get) angry if nobody goes to the station to pick her up? TERRY: Well, if it were me, I 10 {{gap10}} (not get) angry.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1955_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have",
+              "accepted_answers": [
+                "have"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1955_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "will arrive",
+              "accepted_answers": [
+                "will arrive"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1955_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "would pick",
+              "accepted_answers": [
+                "would pick"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1955_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "told",
+              "accepted_answers": [
+                "told"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1955_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "goes",
+              "accepted_answers": [
+                "goes"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1955_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "wasn't",
+              "accepted_answers": [
+                "wasn't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1955_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "won't repair",
+              "accepted_answers": [
+                "won't repair"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1955_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "find",
+              "accepted_answers": [
+                "find"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1955_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "will get",
+              "accepted_answers": [
+                "will get"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1955_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "wouldn't get",
+              "accepted_answers": [
+                "wouldn't get"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

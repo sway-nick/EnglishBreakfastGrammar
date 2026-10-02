@@ -1,0 +1,1007 @@
+{
+  "lesson_id": "a1_a_an_plurals",
+  "level": "A1",
+  "title": "A/an, plurals: Singular and plural forms",
+  "description": "Практический тест и правила по теме: A/an, plurals: Singular and plural forms",
+  "theory": {
+    "title": "Правила и грамматика: A/an, plurals: Singular and plural forms",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «A/an, plurals: Singular and plural forms».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «A/an, plurals: Singular and plural forms» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-424",
+      "lessonId": "a1_a_an_plurals",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose a/an for the following words.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_a-an-plurals.html",
+      "questions": [
+        {
+          "id": "3666",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 It's {{gap1}} animal.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3666_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "an",
+              "accepted_answers": [
+                "an"
+              ],
+              "options": [
+                {
+                  "id": "gap_3666_1_1",
+                  "order": 1,
+                  "text": "an",
+                  "value": "an",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3666_1_2",
+                  "order": 2,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3667",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I need {{gap1}} new bed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3667_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": [
+                {
+                  "id": "gap_3667_1_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3667_1_2",
+                  "order": 2,
+                  "text": "an",
+                  "value": "an",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3668",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 It's {{gap1}} useful machine.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3668_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": [
+                {
+                  "id": "gap_3668_1_1",
+                  "order": 1,
+                  "text": "an",
+                  "value": "an",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3668_1_2",
+                  "order": 2,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3669",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I'm {{gap1}} waiter.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3669_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": [
+                {
+                  "id": "gap_3669_1_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3669_1_2",
+                  "order": 2,
+                  "text": "an",
+                  "value": "an",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3670",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Do you have {{gap1}} umbrella?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3670_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "an",
+              "accepted_answers": [
+                "an"
+              ],
+              "options": [
+                {
+                  "id": "gap_3670_1_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3670_1_2",
+                  "order": 2,
+                  "text": "an",
+                  "value": "an",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3671",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 I'm {{gap1}} English teacher.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3671_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "an",
+              "accepted_answers": [
+                "an"
+              ],
+              "options": [
+                {
+                  "id": "gap_3671_1_1",
+                  "order": 1,
+                  "text": "an",
+                  "value": "an",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3671_1_2",
+                  "order": 2,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3672",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 I need {{gap1}} hat.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3672_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": [
+                {
+                  "id": "gap_3672_1_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3672_1_2",
+                  "order": 2,
+                  "text": "an",
+                  "value": "an",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3673",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Is she {{gap1}} student?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3673_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": [
+                {
+                  "id": "gap_3673_1_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3673_1_2",
+                  "order": 2,
+                  "text": "an",
+                  "value": "an",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3674",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 We have {{gap1}} ugly duck.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3674_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "an",
+              "accepted_answers": [
+                "an"
+              ],
+              "options": [
+                {
+                  "id": "gap_3674_1_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3674_1_2",
+                  "order": 2,
+                  "text": "an",
+                  "value": "an",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3675",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I need {{gap1}} hour.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3675_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "an",
+              "accepted_answers": [
+                "an"
+              ],
+              "options": [
+                {
+                  "id": "gap_3675_1_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3675_1_2",
+                  "order": 2,
+                  "text": "an",
+                  "value": "an",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-425",
+      "lessonId": "a1_a_an_plurals",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Write the plurals of the following singular words.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_a-an-plurals_2.html",
+      "questions": [
+        {
+          "id": "3676",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 a university ⇒ {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3676_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "universities",
+              "accepted_answers": [
+                "universities"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3677",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 a sandwich ⇒ {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3677_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "sandwiches",
+              "accepted_answers": [
+                "sandwiches"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3678",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 a street ⇒ {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3678_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "streets",
+              "accepted_answers": [
+                "streets"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3679",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 a rich man ⇒ rich {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3679_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "men",
+              "accepted_answers": [
+                "men"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3680",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 one foot ⇒ two {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3680_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "feet",
+              "accepted_answers": [
+                "feet"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3681",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 a dirty bag ⇒ dirty {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3681_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "bags",
+              "accepted_answers": [
+                "bags"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3682",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 an expensive watch ⇒ expensive {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3682_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "watches",
+              "accepted_answers": [
+                "watches"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3683",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 a new phone ⇒ new {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3683_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "phones",
+              "accepted_answers": [
+                "phones"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3684",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 a nice photograph ⇒ nice {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3684_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "photographs",
+              "accepted_answers": [
+                "photographs"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3685",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 One glass of wine ⇒ two {{gap1}} of wine",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3685_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "glasses",
+              "accepted_answers": [
+                "glasses"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-426",
+      "lessonId": "a1_a_an_plurals",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Write a/an before the singular words and write the plural forms.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_a-an-plurals_3.html",
+      "questions": [
+        {
+          "id": "3686",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 {{gap1}} bus ⇒ {{gap2}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3686_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3686_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "buses",
+              "accepted_answers": [
+                "buses"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3687",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 {{gap1}} nice family ⇒ nice {{gap2}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3687_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3687_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "families",
+              "accepted_answers": [
+                "families"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3688",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 {{gap1}} Italian child ⇒ Italian {{gap2}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3688_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "an",
+              "accepted_answers": [
+                "an"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3688_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "children",
+              "accepted_answers": [
+                "children"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3689",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 {{gap1}} strong tooth ⇒ strong {{gap2}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3689_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3689_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "teeth",
+              "accepted_answers": [
+                "teeth"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3690",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 {{gap1}} nice dress ⇒ nice {{gap2}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3690_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3690_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "dresses",
+              "accepted_answers": [
+                "dresses"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3691",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 {{gap1}} angry wife ⇒ angry {{gap2}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3691_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "an",
+              "accepted_answers": [
+                "an"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3691_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "wives",
+              "accepted_answers": [
+                "wives"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3692",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 {{gap1}} uniform ⇒ {{gap2}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3692_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3692_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "uniforms",
+              "accepted_answers": [
+                "uniforms"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3693",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 {{gap1}} amazing website ⇒ amazing {{gap2}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3693_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "an",
+              "accepted_answers": [
+                "an"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3693_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "websites",
+              "accepted_answers": [
+                "websites"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3694",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 {{gap1}} elephant ⇒ {{gap2}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3694_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "an",
+              "accepted_answers": [
+                "an"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3694_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "elephants",
+              "accepted_answers": [
+                "elephants"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3695",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 {{gap1}} empty library ⇒ empty {{gap2}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3695_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "an",
+              "accepted_answers": [
+                "an"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3695_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "libraries",
+              "accepted_answers": [
+                "libraries"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

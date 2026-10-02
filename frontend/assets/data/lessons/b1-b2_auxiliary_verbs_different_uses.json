@@ -1,0 +1,1038 @@
+{
+  "lesson_id": "b1-b2_auxiliary_verbs_different_uses",
+  "level": "B1-B2",
+  "title": "Auxiliary verbs: Different uses",
+  "description": "Практический тест и правила по теме: Auxiliary verbs: Different uses",
+  "theory": {
+    "title": "Правила и грамматика: Auxiliary verbs: Different uses",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Auxiliary verbs: Different uses».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Auxiliary verbs: Different uses» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-84",
+      "lessonId": "b1-b2_auxiliary_verbs_different_uses",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_auxiliary-verbs-different-uses.html",
+      "questions": [
+        {
+          "id": "688",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 A: I've never seen anything like this before. B: Neither {{gap1}} I.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_688_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have",
+              "accepted_answers": [
+                "have"
+              ],
+              "options": [
+                {
+                  "id": "gap_688_1_1",
+                  "order": 1,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_688_1_2",
+                  "order": 2,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_688_1_3",
+                  "order": 3,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "689",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 A: I had very good marks this term. B: {{gap1}}? That's great!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_689_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Did you",
+              "accepted_answers": [
+                "Did you"
+              ],
+              "options": [
+                {
+                  "id": "gap_689_1_1",
+                  "order": 1,
+                  "text": "Had you",
+                  "value": "Had you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_689_1_2",
+                  "order": 2,
+                  "text": "Did you",
+                  "value": "Did you",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_689_1_3",
+                  "order": 3,
+                  "text": "You did",
+                  "value": "You did",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "690",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 A: Let's go to the movies, {{gap1}}? B: OK, and after the cinema we could go for a drink somewhere.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_690_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "shall we",
+              "accepted_answers": [
+                "shall we"
+              ],
+              "options": [
+                {
+                  "id": "gap_690_1_1",
+                  "order": 1,
+                  "text": "shall we",
+                  "value": "shall we",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_690_1_2",
+                  "order": 2,
+                  "text": "don't we",
+                  "value": "don't we",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_690_1_3",
+                  "order": 3,
+                  "text": "won't we",
+                  "value": "won't we",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "691",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 A: She doesn't eat meat; I think she is a vegetarian. B: She {{gap1}} meat, but not very often.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_691_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "does eat",
+              "accepted_answers": [
+                "does eat"
+              ],
+              "options": [
+                {
+                  "id": "gap_691_1_1",
+                  "order": 1,
+                  "text": "sure eats",
+                  "value": "sure eats",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_691_1_2",
+                  "order": 2,
+                  "text": "do eats",
+                  "value": "do eats",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_691_1_3",
+                  "order": 3,
+                  "text": "does eat",
+                  "value": "does eat",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "692",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 A: She wants to buy a new house but he {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_692_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "doesn't",
+              "accepted_answers": [
+                "doesn't"
+              ],
+              "options": [
+                {
+                  "id": "gap_692_1_1",
+                  "order": 1,
+                  "text": "doesn't",
+                  "value": "doesn't",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_692_1_2",
+                  "order": 2,
+                  "text": "isn't",
+                  "value": "isn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_692_1_3",
+                  "order": 3,
+                  "text": "does",
+                  "value": "does",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "693",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 A: We should finish before we leave, {{gap1}} we? B: Yes, we can't leave until we finish.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_693_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "shouldn't",
+              "accepted_answers": [
+                "shouldn't"
+              ],
+              "options": [
+                {
+                  "id": "gap_693_1_1",
+                  "order": 1,
+                  "text": "shouldn't",
+                  "value": "shouldn't",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_693_1_2",
+                  "order": 2,
+                  "text": "should",
+                  "value": "should",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_693_1_3",
+                  "order": 3,
+                  "text": "don't",
+                  "value": "don't",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "694",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 A: I used to play rugby when I was younger. B: {{gap1}}? I didn't know that about you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_694_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Did you",
+              "accepted_answers": [
+                "Did you"
+              ],
+              "options": [
+                {
+                  "id": "gap_694_1_1",
+                  "order": 1,
+                  "text": "Had you",
+                  "value": "Had you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_694_1_2",
+                  "order": 2,
+                  "text": "Were you",
+                  "value": "Were you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_694_1_3",
+                  "order": 3,
+                  "text": "Did you",
+                  "value": "Did you",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "695",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 A: Were they living in London when he got the job overseas? B: Yes, they {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_695_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": [
+                {
+                  "id": "gap_695_1_1",
+                  "order": 1,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_695_1_2",
+                  "order": 2,
+                  "text": "did",
+                  "value": "did",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_695_1_3",
+                  "order": 3,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "696",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 A: I wouldn't ever do that to him. B: {{gap1}}? Well, that's good to know.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_696_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Wouldn't you",
+              "accepted_answers": [
+                "Wouldn't you"
+              ],
+              "options": [
+                {
+                  "id": "gap_696_1_1",
+                  "order": 1,
+                  "text": "Isn't it",
+                  "value": "Isn't it",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_696_1_2",
+                  "order": 2,
+                  "text": "Would you",
+                  "value": "Would you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_696_1_3",
+                  "order": 3,
+                  "text": "Wouldn't you",
+                  "value": "Wouldn't you",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "697",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 A: You didn't do the dishes last night. B: I {{gap1}} the dishes; these aren't the dishes from last night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_697_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "did do",
+              "accepted_answers": [
+                "did do"
+              ],
+              "options": [
+                {
+                  "id": "gap_697_1_1",
+                  "order": 1,
+                  "text": "did them",
+                  "value": "did them",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_697_1_2",
+                  "order": 2,
+                  "text": "was done",
+                  "value": "was done",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_697_1_3",
+                  "order": 3,
+                  "text": "did do",
+                  "value": "did do",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-85",
+      "lessonId": "b1-b2_auxiliary_verbs_different_uses",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option for the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_auxiliary-verbs-different-uses_2.html",
+      "questions": [
+        {
+          "id": "698",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I love cheese, but my husband _______. He hates it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "698_1",
+              "order": 1,
+              "text": "isn't",
+              "value": "900",
+              "is_correct": false
+            },
+            {
+              "id": "698_2",
+              "order": 2,
+              "text": "don't",
+              "value": "901",
+              "is_correct": false
+            },
+            {
+              "id": "698_3",
+              "order": 3,
+              "text": "doesn't like",
+              "value": "902",
+              "is_correct": false
+            },
+            {
+              "id": "698_4",
+              "order": 4,
+              "text": "doesn't",
+              "value": "903",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "699",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 A: Is it OK if we stay tonight? B: Yes, _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "699_1",
+              "order": 1,
+              "text": "it is",
+              "value": "904",
+              "is_correct": true
+            },
+            {
+              "id": "699_2",
+              "order": 2,
+              "text": "it's",
+              "value": "905",
+              "is_correct": false
+            },
+            {
+              "id": "699_3",
+              "order": 3,
+              "text": "you can",
+              "value": "906",
+              "is_correct": false
+            },
+            {
+              "id": "699_4",
+              "order": 4,
+              "text": "you do",
+              "value": "907",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "700",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 A: I won't say anything. B: Neither _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "700_1",
+              "order": 1,
+              "text": "won't I",
+              "value": "908",
+              "is_correct": false
+            },
+            {
+              "id": "700_2",
+              "order": 2,
+              "text": "will I",
+              "value": "909",
+              "is_correct": true
+            },
+            {
+              "id": "700_3",
+              "order": 3,
+              "text": "do I",
+              "value": "910",
+              "is_correct": false
+            },
+            {
+              "id": "700_4",
+              "order": 4,
+              "text": "won't me",
+              "value": "911",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "701",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 A: He's very tired. B: _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "701_1",
+              "order": 1,
+              "text": "So she is",
+              "value": "912",
+              "is_correct": false
+            },
+            {
+              "id": "701_2",
+              "order": 2,
+              "text": "So is her",
+              "value": "913",
+              "is_correct": false
+            },
+            {
+              "id": "701_3",
+              "order": 3,
+              "text": "So is she",
+              "value": "914",
+              "is_correct": true
+            },
+            {
+              "id": "701_4",
+              "order": 4,
+              "text": "So she does",
+              "value": "915",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "702",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 A: You didn't lock the door. B: I _______ the door.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "702_1",
+              "order": 1,
+              "text": "did locked",
+              "value": "916",
+              "is_correct": false
+            },
+            {
+              "id": "702_2",
+              "order": 2,
+              "text": "did lock",
+              "value": "917",
+              "is_correct": true
+            },
+            {
+              "id": "702_3",
+              "order": 3,
+              "text": "so locked",
+              "value": "918",
+              "is_correct": false
+            },
+            {
+              "id": "702_4",
+              "order": 4,
+              "text": "yes locked",
+              "value": "919",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "703",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 A: You aren't ready yet, _______? B: No, I _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "703_1",
+              "order": 1,
+              "text": "isn't it / am",
+              "value": "920",
+              "is_correct": false
+            },
+            {
+              "id": "703_2",
+              "order": 2,
+              "text": "aren't you / 'm not",
+              "value": "921",
+              "is_correct": false
+            },
+            {
+              "id": "703_3",
+              "order": 3,
+              "text": "is it / 'm not",
+              "value": "922",
+              "is_correct": false
+            },
+            {
+              "id": "703_4",
+              "order": 4,
+              "text": "are you / 'm not",
+              "value": "923",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "704",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 A: Pass me that pen, _______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "704_1",
+              "order": 1,
+              "text": "will you",
+              "value": "924",
+              "is_correct": true
+            },
+            {
+              "id": "704_2",
+              "order": 2,
+              "text": "don't you",
+              "value": "925",
+              "is_correct": false
+            },
+            {
+              "id": "704_3",
+              "order": 3,
+              "text": "won't you",
+              "value": "926",
+              "is_correct": false
+            },
+            {
+              "id": "704_4",
+              "order": 4,
+              "text": "shall you",
+              "value": "927",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "705",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 A: You never listen to me. B: I _______ to you, why would you say that?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "705_1",
+              "order": 1,
+              "text": "can listen",
+              "value": "928",
+              "is_correct": false
+            },
+            {
+              "id": "705_2",
+              "order": 2,
+              "text": "am listen",
+              "value": "929",
+              "is_correct": false
+            },
+            {
+              "id": "705_3",
+              "order": 3,
+              "text": "yes listen",
+              "value": "930",
+              "is_correct": false
+            },
+            {
+              "id": "705_4",
+              "order": 4,
+              "text": "do listen",
+              "value": "931",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "706",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 A: I love romantic comedies. B: I _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "706_1",
+              "order": 1,
+              "text": "don't",
+              "value": "932",
+              "is_correct": true
+            },
+            {
+              "id": "706_2",
+              "order": 2,
+              "text": "'m not",
+              "value": "933",
+              "is_correct": false
+            },
+            {
+              "id": "706_3",
+              "order": 3,
+              "text": "don't like",
+              "value": "934",
+              "is_correct": false
+            },
+            {
+              "id": "706_4",
+              "order": 4,
+              "text": "wouldn't",
+              "value": "935",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "707",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I thought I had set the alarm, but _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "707_1",
+              "order": 1,
+              "text": "It wasn't",
+              "value": "936",
+              "is_correct": false
+            },
+            {
+              "id": "707_2",
+              "order": 2,
+              "text": "I hadn't",
+              "value": "937",
+              "is_correct": true
+            },
+            {
+              "id": "707_3",
+              "order": 3,
+              "text": "hadn't I",
+              "value": "938",
+              "is_correct": false
+            },
+            {
+              "id": "707_4",
+              "order": 4,
+              "text": "it isn't",
+              "value": "939",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-9",
+      "lessonId": "b1-b2_auxiliary_verbs_different_uses",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences with the correct auxiliary verbs in the correct form.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_auxiliary-verbs-different-uses_3.html",
+      "questions": [
+        {
+          "id": "66",
+          "order": 1,
+          "type": "gap_text",
+          "text": "JOHN: So, Robert, you have just arrived at our university, 1 {{gap1}} you? ROBERT: Yes. Today is my first day. JOHN: And where are you from? ROBERT: I live in Leeds, but I was born in Poland. JOHN: 2 {{gap2}} you? That’s funny. So 3 {{gap3}} my girlfriend. ROBERT: 4 {{gap4}} she? Where in Poland was she born? JOHN: She’s from a city called Lublin. ROBERT: 5 {{gap5}} she? So 6 {{gap6}} I! JOHN: That’s a coincidence, 7 {{gap7}} it? ROBERT: Yes, it is. And have you learnt any Polish? JOHN: No. My girlfriend speaks Polish, but I 8 {{gap8}}. ROBERT: Neither do I. Well, I 9 {{gap9}} speak a little Polish, but not much. We came to England when I was just two years old. Anyway, are you hungry? Would you like to eat something at the canteen? JOHN: Yes, sure. Let’s have some lunch, 10 {{gap10}} we? ROBERT: Yes, that’s a good idea!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_66_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "haven't",
+              "accepted_answers": [
+                "haven't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_66_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Were",
+              "accepted_answers": [
+                "Were"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_66_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_66_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "Was",
+              "accepted_answers": [
+                "Was"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_66_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "Is",
+              "accepted_answers": [
+                "Is"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_66_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "am",
+              "accepted_answers": [
+                "am"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_66_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "isn't",
+              "accepted_answers": [
+                "isn't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_66_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "don't",
+              "accepted_answers": [
+                "don't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_66_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "do",
+              "accepted_answers": [
+                "do"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_66_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "shall",
+              "accepted_answers": [
+                "shall"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

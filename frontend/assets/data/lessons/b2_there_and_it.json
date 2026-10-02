@@ -1,0 +1,1252 @@
+{
+  "lesson_id": "b2_there_and_it",
+  "level": "B2",
+  "title": "'There' and 'it': Preparatory subjects",
+  "description": "Практический тест и правила по теме: 'There' and 'it': Preparatory subjects",
+  "theory": {
+    "title": "Правила и грамматика: 'There' and 'it': Preparatory subjects",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «'There' and 'it': Preparatory subjects».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «'There' and 'it': Preparatory subjects» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-93",
+      "lessonId": "b2_there_and_it",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct form of there and it to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_there-and-it.html",
+      "questions": [
+        {
+          "id": "769",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 {{gap1}} 's been an hour since I ordered my pizza.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_769_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": [
+                {
+                  "id": "gap_769_1_1",
+                  "order": 1,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_769_1_2",
+                  "order": 2,
+                  "text": "There",
+                  "value": "There",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "770",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 {{gap1}} 's been a lot of improvement in the quality of our products.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_770_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "There",
+              "accepted_answers": [
+                "There"
+              ],
+              "options": [
+                {
+                  "id": "gap_770_1_1",
+                  "order": 1,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_770_1_2",
+                  "order": 2,
+                  "text": "There",
+                  "value": "There",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 {{gap1}} 's been hard for him to find a job.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_771_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": [
+                {
+                  "id": "gap_771_1_1",
+                  "order": 1,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_771_1_2",
+                  "order": 2,
+                  "text": "There",
+                  "value": "There",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 {{gap1}} will be a pleasure to have you as a guest here.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_772_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": [
+                {
+                  "id": "gap_772_1_1",
+                  "order": 1,
+                  "text": "there",
+                  "value": "there",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_772_1_2",
+                  "order": 2,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 {{gap1}} 's very cold today; {{gap2}} 's been snowing all night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_773_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": [
+                {
+                  "id": "gap_773_1_1",
+                  "order": 1,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_773_1_2",
+                  "order": 2,
+                  "text": "There",
+                  "value": "There",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_773_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": [
+                {
+                  "id": "gap_773_2_1",
+                  "order": 1,
+                  "text": "it",
+                  "value": "it",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_773_2_2",
+                  "order": 2,
+                  "text": "there",
+                  "value": "there",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "774",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 {{gap1}} 's a police officer at the door; {{gap2}} seems that we've been making too much noise.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_774_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "There",
+              "accepted_answers": [
+                "There"
+              ],
+              "options": [
+                {
+                  "id": "gap_774_1_1",
+                  "order": 1,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_774_1_2",
+                  "order": 2,
+                  "text": "There",
+                  "value": "There",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_774_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": [
+                {
+                  "id": "gap_774_2_1",
+                  "order": 1,
+                  "text": "it",
+                  "value": "it",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_774_2_2",
+                  "order": 2,
+                  "text": "there",
+                  "value": "there",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "775",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 {{gap1}} must have been amazing to be the first person to discover this cave.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_775_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": [
+                {
+                  "id": "gap_775_1_1",
+                  "order": 1,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_775_1_2",
+                  "order": 2,
+                  "text": "There",
+                  "value": "There",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "776",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 The fire spread very quickly. {{gap1}} must have been something flammable in the house.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_776_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "There",
+              "accepted_answers": [
+                "There"
+              ],
+              "options": [
+                {
+                  "id": "gap_776_1_1",
+                  "order": 1,
+                  "text": "it",
+                  "value": "it",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_776_1_2",
+                  "order": 2,
+                  "text": "There",
+                  "value": "There",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "777",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Why do you get up so early? {{gap1}} 's a holiday today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_777_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": [
+                {
+                  "id": "gap_777_1_1",
+                  "order": 1,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_777_1_2",
+                  "order": 2,
+                  "text": "There",
+                  "value": "There",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "778",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 {{gap1}} shouldn't take you too long to finish the report.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_778_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": [
+                {
+                  "id": "gap_778_1_1",
+                  "order": 1,
+                  "text": "There",
+                  "value": "There",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_778_1_2",
+                  "order": 2,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-94",
+      "lessonId": "b2_there_and_it",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Complete the sentences using there and it.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_there-and-it_2.html",
+      "questions": [
+        {
+          "id": "779",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 _______ 's very cozy in our boat and _______ 's plenty of room for my wife and me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "779_1",
+              "order": 1,
+              "text": "It / it",
+              "value": "1050",
+              "is_correct": false
+            },
+            {
+              "id": "779_2",
+              "order": 2,
+              "text": "It / there",
+              "value": "1051",
+              "is_correct": true
+            },
+            {
+              "id": "779_3",
+              "order": 3,
+              "text": "There / it",
+              "value": "1052",
+              "is_correct": false
+            },
+            {
+              "id": "779_4",
+              "order": 4,
+              "text": "There / there",
+              "value": "1053",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "780",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 _______ 's been a long journey. Is _______ anywhere we can have some rest?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "780_1",
+              "order": 1,
+              "text": "It / it",
+              "value": "1054",
+              "is_correct": false
+            },
+            {
+              "id": "780_2",
+              "order": 2,
+              "text": "It / there",
+              "value": "1055",
+              "is_correct": true
+            },
+            {
+              "id": "780_3",
+              "order": 3,
+              "text": "There / it",
+              "value": "1056",
+              "is_correct": false
+            },
+            {
+              "id": "780_4",
+              "order": 4,
+              "text": "There / there",
+              "value": "1057",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "781",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 _______ 's nothing on TV tonight; _______ 's a pity that we don't have Netflix.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "781_1",
+              "order": 1,
+              "text": "It / it",
+              "value": "1058",
+              "is_correct": false
+            },
+            {
+              "id": "781_2",
+              "order": 2,
+              "text": "It / there",
+              "value": "1059",
+              "is_correct": false
+            },
+            {
+              "id": "781_3",
+              "order": 3,
+              "text": "There / it",
+              "value": "1060",
+              "is_correct": true
+            },
+            {
+              "id": "781_4",
+              "order": 4,
+              "text": "There / there",
+              "value": "1061",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "782",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 _______ would have been much better to stay; _______ won't be any restaurants open today because _______ 's a holiday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "782_1",
+              "order": 1,
+              "text": "It / there / it",
+              "value": "1062",
+              "is_correct": true
+            },
+            {
+              "id": "782_2",
+              "order": 2,
+              "text": "It / it / there",
+              "value": "1063",
+              "is_correct": false
+            },
+            {
+              "id": "782_3",
+              "order": 3,
+              "text": "There / there / it",
+              "value": "1064",
+              "is_correct": false
+            },
+            {
+              "id": "782_4",
+              "order": 4,
+              "text": "There / it / there",
+              "value": "1065",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "783",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 _______ used to be an amusement park where we lived; _______ was very exciting to go there with the children.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "783_1",
+              "order": 1,
+              "text": "It / it",
+              "value": "1066",
+              "is_correct": false
+            },
+            {
+              "id": "783_2",
+              "order": 2,
+              "text": "It / there",
+              "value": "1067",
+              "is_correct": false
+            },
+            {
+              "id": "783_3",
+              "order": 3,
+              "text": "There / it",
+              "value": "1068",
+              "is_correct": true
+            },
+            {
+              "id": "783_4",
+              "order": 4,
+              "text": "There / there",
+              "value": "1069",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "784",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 _______ 's too late; _______ won't be any seats left when we arrive.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "784_1",
+              "order": 1,
+              "text": "It / it",
+              "value": "1070",
+              "is_correct": false
+            },
+            {
+              "id": "784_2",
+              "order": 2,
+              "text": "It / there",
+              "value": "1071",
+              "is_correct": true
+            },
+            {
+              "id": "784_3",
+              "order": 3,
+              "text": "There / it",
+              "value": "1072",
+              "is_correct": false
+            },
+            {
+              "id": "784_4",
+              "order": 4,
+              "text": "There / there",
+              "value": "1073",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "785",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 _______ 's somebody at the door. Open it, _______ must be Carl.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "785_1",
+              "order": 1,
+              "text": "It / it",
+              "value": "1074",
+              "is_correct": false
+            },
+            {
+              "id": "785_2",
+              "order": 2,
+              "text": "It / there",
+              "value": "1075",
+              "is_correct": false
+            },
+            {
+              "id": "785_3",
+              "order": 3,
+              "text": "There / it",
+              "value": "1076",
+              "is_correct": true
+            },
+            {
+              "id": "785_4",
+              "order": 4,
+              "text": "There / there",
+              "value": "1077",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "786",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 _______ takes two hours to get there; _______ would be better if we left now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "786_1",
+              "order": 1,
+              "text": "It / it",
+              "value": "1078",
+              "is_correct": true
+            },
+            {
+              "id": "786_2",
+              "order": 2,
+              "text": "It / there",
+              "value": "1079",
+              "is_correct": false
+            },
+            {
+              "id": "786_3",
+              "order": 3,
+              "text": "There / it",
+              "value": "1080",
+              "is_correct": false
+            },
+            {
+              "id": "786_4",
+              "order": 4,
+              "text": "There / there",
+              "value": "1081",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "787",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 _______ seems to be a problem; _______ looks like someone has erased all the information.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "787_1",
+              "order": 1,
+              "text": "It / it",
+              "value": "1082",
+              "is_correct": false
+            },
+            {
+              "id": "787_2",
+              "order": 2,
+              "text": "It / there",
+              "value": "1083",
+              "is_correct": false
+            },
+            {
+              "id": "787_3",
+              "order": 3,
+              "text": "There / it",
+              "value": "1084",
+              "is_correct": true
+            },
+            {
+              "id": "787_4",
+              "order": 4,
+              "text": "There / there",
+              "value": "1085",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "788",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 _______ used to be very cold at night but _______ didn't matter, because we had a fire place.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "788_1",
+              "order": 1,
+              "text": "It / it",
+              "value": "1086",
+              "is_correct": true
+            },
+            {
+              "id": "788_2",
+              "order": 2,
+              "text": "It / there",
+              "value": "1087",
+              "is_correct": false
+            },
+            {
+              "id": "788_3",
+              "order": 3,
+              "text": "There / it",
+              "value": "1088",
+              "is_correct": false
+            },
+            {
+              "id": "788_4",
+              "order": 4,
+              "text": "There / there",
+              "value": "1089",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-95",
+      "lessonId": "b2_there_and_it",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with there or it.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_there-and-it_3.html",
+      "questions": [
+        {
+          "id": "789",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 {{gap1}} has always been very hard for foreigners to get used to the British weather, because 2 {{gap2}} 's always raining and 3 {{gap3}} 's not much to do outdoors. Winters can get very long, and 4 {{gap4}} 's likely that one won't get to see the sun for long periods of time, whichever the season. 5 {{gap5}} can be very hard for people to live here permanently, especially for the outdoorsy type of person, so 6 {{gap6}} 's a good reason for migrants to think it twice before they decide to make the move. But 7 {{gap7}} seems to be something that expats living in Britain like about our country, because in a survey carried out in 2013, 69% of expats living in Britain said they liked it here. 8 {{gap8}} appears that the things they don't like about us, which are basically the weather, the food and our heavy drinking culture, aren't enough to make them change the overall positive opinion they have of Britain and the British. Maybe 9 {{gap9}} 's the politics, the economy, the football, or our sense of humour —who knows!— but 10 {{gap10}} 's obviously something good enough here to make them stay.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_789_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_789_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_789_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "there",
+              "accepted_answers": [
+                "there"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_789_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_789_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_789_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "there",
+              "accepted_answers": [
+                "there"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_789_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "there",
+              "accepted_answers": [
+                "there"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_789_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_789_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_789_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "there",
+              "accepted_answers": [
+                "there"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-96",
+      "lessonId": "b2_there_and_it",
+      "order": 4,
+      "page": 4,
+      "title": "Exercise 4",
+      "instruction": "Fill in each gap with there or it and an appropriate verb form. Use only TWO words in each gap. Do NOT use short forms.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_there-and-it_4.html",
+      "questions": [
+        {
+          "id": "790",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 {{gap1}} be fun to stay with you next weekend.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_790_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "It would",
+              "accepted_answers": [
+                "It would"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "793",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 {{gap1}} to be a mistake in the answer. This can't be right.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_793_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "There has",
+              "accepted_answers": [
+                "There has"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "792",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 We decided to go home because {{gap1}} getting cold.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_792_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "it was",
+              "accepted_answers": [
+                "it was"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "791",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 {{gap1}} impossible to play the match, so we cancelled it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_791_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "It was",
+              "accepted_answers": [
+                "It was"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "795",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 {{gap1}} to be a pub in my street, but they closed it down last year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_795_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "There used",
+              "accepted_answers": [
+                "There used"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "794",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 {{gap1}} me who wrote the letter.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_794_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "It was",
+              "accepted_answers": [
+                "It was"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "796",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 {{gap1}} have been very difficult to run 20 miles in the desert. You should be proud.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_796_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "It must",
+              "accepted_answers": [
+                "It must"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "797",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 {{gap1}} been a lot of speculation over who the next minister will be.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_797_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "There has",
+              "accepted_answers": [
+                "There has"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "798",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 {{gap1}} been a long time since I wrote you, but I've been very busy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_798_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "It has",
+              "accepted_answers": [
+                "It has"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "799",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 {{gap1}} not much we can do now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_799_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "There is",
+              "accepted_answers": [
+                "There is"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

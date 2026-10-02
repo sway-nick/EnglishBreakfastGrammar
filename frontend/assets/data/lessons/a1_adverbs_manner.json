@@ -1,0 +1,1257 @@
+{
+  "lesson_id": "a1_adverbs_manner",
+  "level": "A1",
+  "title": "Adverbs of manner (slowly) or adjectives (slow)?",
+  "description": "Практический тест и правила по теме: Adverbs of manner (slowly) or adjectives (slow)?",
+  "theory": {
+    "title": "Правила и грамматика: Adverbs of manner (slowly) or adjectives (slow)?",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Adverbs of manner (slowly) or adjectives (slow)?».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Adverbs of manner (slowly) or adjectives (slow)?» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-489",
+      "lessonId": "a1_adverbs_manner",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose adjectives or adverbs of manner to complete the following sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_adverbs-manner.html",
+      "questions": [
+        {
+          "id": "4274",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Peter is a {{gap1}} driver. He drives very {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4274_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "careful",
+              "accepted_answers": [
+                "careful"
+              ],
+              "options": [
+                {
+                  "id": "gap_4274_1_1",
+                  "order": 1,
+                  "text": "careful",
+                  "value": "careful",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4274_1_2",
+                  "order": 2,
+                  "text": "carefully",
+                  "value": "carefully",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4274_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "carefully",
+              "accepted_answers": [
+                "carefully"
+              ],
+              "options": [
+                {
+                  "id": "gap_4274_2_1",
+                  "order": 1,
+                  "text": "careful",
+                  "value": "careful",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4274_2_2",
+                  "order": 2,
+                  "text": "carefully",
+                  "value": "carefully",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4275",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Turtles walk {{gap1}} because they are {{gap2}} animals.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4275_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "slowly",
+              "accepted_answers": [
+                "slowly"
+              ],
+              "options": [
+                {
+                  "id": "gap_4275_1_1",
+                  "order": 1,
+                  "text": "slow",
+                  "value": "slow",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4275_1_2",
+                  "order": 2,
+                  "text": "slowly",
+                  "value": "slowly",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4275_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "slow",
+              "accepted_answers": [
+                "slow"
+              ],
+              "options": [
+                {
+                  "id": "gap_4275_2_1",
+                  "order": 1,
+                  "text": "slowly",
+                  "value": "slowly",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4275_2_2",
+                  "order": 2,
+                  "text": "slow",
+                  "value": "slow",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4276",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 A {{gap1}} person usually speaks {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4276_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "cautious",
+              "accepted_answers": [
+                "cautious"
+              ],
+              "options": [
+                {
+                  "id": "gap_4276_1_1",
+                  "order": 1,
+                  "text": "cautiously",
+                  "value": "cautiously",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4276_1_2",
+                  "order": 2,
+                  "text": "cautious",
+                  "value": "cautious",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4276_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "cautiously",
+              "accepted_answers": [
+                "cautiously"
+              ],
+              "options": [
+                {
+                  "id": "gap_4276_2_1",
+                  "order": 1,
+                  "text": "cautious",
+                  "value": "cautious",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4276_2_2",
+                  "order": 2,
+                  "text": "cautiously",
+                  "value": "cautiously",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4277",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 They are {{gap1}}; they are speaking {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4277_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "quiet",
+              "accepted_answers": [
+                "quiet"
+              ],
+              "options": [
+                {
+                  "id": "gap_4277_1_1",
+                  "order": 1,
+                  "text": "quietly",
+                  "value": "quietly",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4277_1_2",
+                  "order": 2,
+                  "text": "quiet",
+                  "value": "quiet",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4277_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "quietly",
+              "accepted_answers": [
+                "quietly"
+              ],
+              "options": [
+                {
+                  "id": "gap_4277_2_1",
+                  "order": 1,
+                  "text": "quiet",
+                  "value": "quiet",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4277_2_2",
+                  "order": 2,
+                  "text": "quietly",
+                  "value": "quietly",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4278",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Gordon plays very {{gap1}}. He is a {{gap2}} player.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4278_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "well",
+              "accepted_answers": [
+                "well"
+              ],
+              "options": [
+                {
+                  "id": "gap_4278_1_1",
+                  "order": 1,
+                  "text": "good",
+                  "value": "good",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4278_1_2",
+                  "order": 2,
+                  "text": "well",
+                  "value": "well",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4278_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "good",
+              "accepted_answers": [
+                "good"
+              ],
+              "options": [
+                {
+                  "id": "gap_4278_2_1",
+                  "order": 1,
+                  "text": "well",
+                  "value": "well",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4278_2_2",
+                  "order": 2,
+                  "text": "good",
+                  "value": "good",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4279",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 He did a {{gap1}} exam. He passed the exam {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4279_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "brilliant",
+              "accepted_answers": [
+                "brilliant"
+              ],
+              "options": [
+                {
+                  "id": "gap_4279_1_1",
+                  "order": 1,
+                  "text": "brilliant",
+                  "value": "brilliant",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4279_1_2",
+                  "order": 2,
+                  "text": "brilliantly",
+                  "value": "brilliantly",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4279_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "brilliantly",
+              "accepted_answers": [
+                "brilliantly"
+              ],
+              "options": [
+                {
+                  "id": "gap_4279_2_1",
+                  "order": 1,
+                  "text": "brilliantly",
+                  "value": "brilliantly",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4279_2_2",
+                  "order": 2,
+                  "text": "brilliant",
+                  "value": "brilliant",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4280",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 We had {{gap1}} snow yesterday. It snowed {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4280_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "heavy",
+              "accepted_answers": [
+                "heavy"
+              ],
+              "options": [
+                {
+                  "id": "gap_4280_1_1",
+                  "order": 1,
+                  "text": "heavily",
+                  "value": "heavily",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4280_1_2",
+                  "order": 2,
+                  "text": "heavy",
+                  "value": "heavy",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4280_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "heavily",
+              "accepted_answers": [
+                "heavily"
+              ],
+              "options": [
+                {
+                  "id": "gap_4280_2_1",
+                  "order": 1,
+                  "text": "heavy",
+                  "value": "heavy",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4280_2_2",
+                  "order": 2,
+                  "text": "heavily",
+                  "value": "heavily",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4281",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 He looked at me {{gap1}}. He has a very {{gap2}} look.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4281_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "angrily",
+              "accepted_answers": [
+                "angrily"
+              ],
+              "options": [
+                {
+                  "id": "gap_4281_1_1",
+                  "order": 1,
+                  "text": "angry",
+                  "value": "angry",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4281_1_2",
+                  "order": 2,
+                  "text": "angrily",
+                  "value": "angrily",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4281_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "angry",
+              "accepted_answers": [
+                "angry"
+              ],
+              "options": [
+                {
+                  "id": "gap_4281_2_1",
+                  "order": 1,
+                  "text": "angry",
+                  "value": "angry",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4281_2_2",
+                  "order": 2,
+                  "text": "angrily",
+                  "value": "angrily",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4282",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 We slept {{gap1}} in our {{gap2}} bed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4282_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "comfortably",
+              "accepted_answers": [
+                "comfortably"
+              ],
+              "options": [
+                {
+                  "id": "gap_4282_1_1",
+                  "order": 1,
+                  "text": "comfortably",
+                  "value": "comfortably",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4282_1_2",
+                  "order": 2,
+                  "text": "comfortable",
+                  "value": "comfortable",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4282_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "comfortable",
+              "accepted_answers": [
+                "comfortable"
+              ],
+              "options": [
+                {
+                  "id": "gap_4282_2_1",
+                  "order": 1,
+                  "text": "comfortably",
+                  "value": "comfortably",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4282_2_2",
+                  "order": 2,
+                  "text": "comfortable",
+                  "value": "comfortable",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4283",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 He plays {{gap1}} because he is a {{gap2}} player.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4283_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "badly",
+              "accepted_answers": [
+                "badly"
+              ],
+              "options": [
+                {
+                  "id": "gap_4283_1_1",
+                  "order": 1,
+                  "text": "bad",
+                  "value": "bad",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4283_1_2",
+                  "order": 2,
+                  "text": "badly",
+                  "value": "badly",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4283_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "bad",
+              "accepted_answers": [
+                "bad"
+              ],
+              "options": [
+                {
+                  "id": "gap_4283_2_1",
+                  "order": 1,
+                  "text": "badly",
+                  "value": "badly",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4283_2_2",
+                  "order": 2,
+                  "text": "bad",
+                  "value": "bad",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-490",
+      "lessonId": "a1_adverbs_manner",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Complete the following sentences with the correct adjectives or adverbs of manner.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_adverbs-manner_2.html",
+      "questions": [
+        {
+          "id": "4284",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 He normally drives very _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4284_1",
+              "order": 1,
+              "text": "slow",
+              "value": "6132",
+              "is_correct": false
+            },
+            {
+              "id": "4284_2",
+              "order": 2,
+              "text": "fastly",
+              "value": "6133",
+              "is_correct": false
+            },
+            {
+              "id": "4284_3",
+              "order": 3,
+              "text": "fast",
+              "value": "6134",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4285",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I passed _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4285_1",
+              "order": 1,
+              "text": "easily the test",
+              "value": "6135",
+              "is_correct": false
+            },
+            {
+              "id": "4285_2",
+              "order": 2,
+              "text": "the test easily",
+              "value": "6136",
+              "is_correct": true
+            },
+            {
+              "id": "4285_3",
+              "order": 3,
+              "text": "easy the test",
+              "value": "6137",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4286",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 The people in this company work very _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4286_1",
+              "order": 1,
+              "text": "hard",
+              "value": "6138",
+              "is_correct": true
+            },
+            {
+              "id": "4286_2",
+              "order": 2,
+              "text": "hardly",
+              "value": "6139",
+              "is_correct": false
+            },
+            {
+              "id": "4286_3",
+              "order": 3,
+              "text": "good",
+              "value": "6140",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4287",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 She is a _____ teacher.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4287_1",
+              "order": 1,
+              "text": "well",
+              "value": "6141",
+              "is_correct": false
+            },
+            {
+              "id": "4287_2",
+              "order": 2,
+              "text": "good",
+              "value": "6142",
+              "is_correct": true
+            },
+            {
+              "id": "4287_3",
+              "order": 3,
+              "text": "goodly",
+              "value": "6143",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4288",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 She teaches English very _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4288_1",
+              "order": 1,
+              "text": "good",
+              "value": "6144",
+              "is_correct": false
+            },
+            {
+              "id": "4288_2",
+              "order": 2,
+              "text": "goodly",
+              "value": "6145",
+              "is_correct": false
+            },
+            {
+              "id": "4288_3",
+              "order": 3,
+              "text": "well",
+              "value": "6146",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4290",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 You answered _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4290_1",
+              "order": 1,
+              "text": "correctly the question",
+              "value": "6150",
+              "is_correct": false
+            },
+            {
+              "id": "4290_2",
+              "order": 2,
+              "text": "the question correctly",
+              "value": "6151",
+              "is_correct": true
+            },
+            {
+              "id": "4290_3",
+              "order": 3,
+              "text": "the question correct",
+              "value": "6152",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4289",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 The article describes the situation very _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4289_1",
+              "order": 1,
+              "text": "simple",
+              "value": "6147",
+              "is_correct": false
+            },
+            {
+              "id": "4289_2",
+              "order": 2,
+              "text": "simplely",
+              "value": "6148",
+              "is_correct": false
+            },
+            {
+              "id": "4289_3",
+              "order": 3,
+              "text": "simply",
+              "value": "6149",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4292",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 They live _____ in Munich.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4292_1",
+              "order": 1,
+              "text": "happy",
+              "value": "6156",
+              "is_correct": false
+            },
+            {
+              "id": "4292_2",
+              "order": 2,
+              "text": "happyly",
+              "value": "6157",
+              "is_correct": false
+            },
+            {
+              "id": "4292_3",
+              "order": 3,
+              "text": "happily",
+              "value": "6158",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4291",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 After the break, we _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4291_1",
+              "order": 1,
+              "text": "finished the job easily",
+              "value": "6153",
+              "is_correct": true
+            },
+            {
+              "id": "4291_2",
+              "order": 2,
+              "text": "easily finished the job",
+              "value": "6154",
+              "is_correct": false
+            },
+            {
+              "id": "4291_3",
+              "order": 3,
+              "text": "finished the job easy",
+              "value": "6155",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4293",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 He didn't speak _____ English.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4293_1",
+              "order": 1,
+              "text": "clearly",
+              "value": "6159",
+              "is_correct": false
+            },
+            {
+              "id": "4293_2",
+              "order": 2,
+              "text": "clear",
+              "value": "6160",
+              "is_correct": true
+            },
+            {
+              "id": "4293_3",
+              "order": 3,
+              "text": "well",
+              "value": "6161",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-491",
+      "lessonId": "a1_adverbs_manner",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences using adjectives or adverbs. Use the adjectives in the list and the adverbs formed from those adjectives.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_adverbs-manner_3.html",
+      "questions": [
+        {
+          "id": "4294",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Please, can you speak {{gap1}}? I don't understand you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4294_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "slowly",
+              "accepted_answers": [
+                "slowly"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4295",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 He won the race. He ran very {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4295_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "fast",
+              "accepted_answers": [
+                "fast"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4296",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Your answer is {{gap1}}. Can you answer it again?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4296_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "wrong",
+              "accepted_answers": [
+                "wrong"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4297",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 We were one hour late, but he waited {{gap1}} until we arrived.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4297_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "patiently",
+              "accepted_answers": [
+                "patiently"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4298",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 It was an {{gap1}} question. I answered it without thinking.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4298_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "easy",
+              "accepted_answers": [
+                "easy"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4299",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 You answered the question {{gap1}}. Can you answer it again?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4299_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "incorrectly",
+              "accepted_answers": [
+                "incorrectly"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4300",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Please, be {{gap1}} with him. He's young and inexperienced.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4300_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "patient",
+              "accepted_answers": [
+                "patient"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4301",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 He's a really {{gap1}} runner. He wins a lot of races.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4301_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "fast",
+              "accepted_answers": [
+                "fast"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4302",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 The water isn't {{gap1}}; it's dirty.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4302_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "clean",
+              "accepted_answers": [
+                "clean"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4303",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 We climbed the mountain {{gap1}}. We weren't tired after doing it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4303_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "easily",
+              "accepted_answers": [
+                "easily"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

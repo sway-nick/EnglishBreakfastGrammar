@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1_during_for_while",
+  "level": "B1",
+  "title": "During, for, while",
+  "description": "Практический тест и правила по теме: During, for, while",
+  "theory": {
+    "title": "Правила и грамматика: During, for, while",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «During, for, while».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «During, for, while» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-546",
+      "lessonId": "b1_during_for_while",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose during, for, while to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_during-for-while.html",
+      "questions": [
+        {
+          "id": "4705",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 She has been sleeping {{gap1}} ten hours.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4705_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": [
+                {
+                  "id": "gap_4705_1_1",
+                  "order": 1,
+                  "text": "during",
+                  "value": "during",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4705_1_2",
+                  "order": 2,
+                  "text": "while",
+                  "value": "while",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4705_1_3",
+                  "order": 3,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4706",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I lived in London {{gap1}} over two years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4706_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": [
+                {
+                  "id": "gap_4706_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4706_1_2",
+                  "order": 2,
+                  "text": "during",
+                  "value": "during",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4706_1_3",
+                  "order": 3,
+                  "text": "while",
+                  "value": "while",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4709",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 I met George {{gap1}} my trip to Barcelona.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4709_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "during",
+              "accepted_answers": [
+                "during"
+              ],
+              "options": [
+                {
+                  "id": "gap_4709_1_1",
+                  "order": 1,
+                  "text": "while",
+                  "value": "while",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4709_1_2",
+                  "order": 2,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4709_1_3",
+                  "order": 3,
+                  "text": "during",
+                  "value": "during",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4712",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 The singer fell ill {{gap1}} they were on tour.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4712_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "while",
+              "accepted_answers": [
+                "while"
+              ],
+              "options": [
+                {
+                  "id": "gap_4712_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4712_1_2",
+                  "order": 2,
+                  "text": "during",
+                  "value": "during",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4712_1_3",
+                  "order": 3,
+                  "text": "while",
+                  "value": "while",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4707",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 She gets up at 6 and meditates {{gap1}} an hour before going to work.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4707_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": [
+                {
+                  "id": "gap_4707_1_1",
+                  "order": 1,
+                  "text": "during",
+                  "value": "during",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4707_1_2",
+                  "order": 2,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4707_1_3",
+                  "order": 3,
+                  "text": "while",
+                  "value": "while",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4710",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 He scored a goal {{gap1}} the second half of the match.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4710_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "during",
+              "accepted_answers": [
+                "during"
+              ],
+              "options": [
+                {
+                  "id": "gap_4710_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4710_1_2",
+                  "order": 2,
+                  "text": "while",
+                  "value": "while",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4710_1_3",
+                  "order": 3,
+                  "text": "during",
+                  "value": "during",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4711",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 She fell asleep {{gap1}} the exam.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4711_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "during",
+              "accepted_answers": [
+                "during"
+              ],
+              "options": [
+                {
+                  "id": "gap_4711_1_1",
+                  "order": 1,
+                  "text": "while",
+                  "value": "while",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4711_1_2",
+                  "order": 2,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4711_1_3",
+                  "order": 3,
+                  "text": "during",
+                  "value": "during",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4708",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Paul has been in a wheelchair {{gap1}} most of his life.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4708_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": [
+                {
+                  "id": "gap_4708_1_1",
+                  "order": 1,
+                  "text": "during",
+                  "value": "during",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4708_1_2",
+                  "order": 2,
+                  "text": "while",
+                  "value": "while",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4708_1_3",
+                  "order": 3,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4713",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I met Sally {{gap1}} I was on holiday in Scotland.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4713_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "while",
+              "accepted_answers": [
+                "while"
+              ],
+              "options": [
+                {
+                  "id": "gap_4713_1_1",
+                  "order": 1,
+                  "text": "while",
+                  "value": "while",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4713_1_2",
+                  "order": 2,
+                  "text": "during",
+                  "value": "during",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4713_1_3",
+                  "order": 3,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4714",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 We should travel {{gap1}} we are still young.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4714_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "while",
+              "accepted_answers": [
+                "while"
+              ],
+              "options": [
+                {
+                  "id": "gap_4714_1_1",
+                  "order": 1,
+                  "text": "while",
+                  "value": "while",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4714_1_2",
+                  "order": 2,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4714_1_3",
+                  "order": 3,
+                  "text": "during",
+                  "value": "during",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-547",
+      "lessonId": "b1_during_for_while",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose during, for, while for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_during-for-while_2.html",
+      "questions": [
+        {
+          "id": "4715",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I cut my finger ____ I was cooking.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4715_1",
+              "order": 1,
+              "text": "while",
+              "value": "7195",
+              "is_correct": true
+            },
+            {
+              "id": "4715_2",
+              "order": 2,
+              "text": "during",
+              "value": "7196",
+              "is_correct": false
+            },
+            {
+              "id": "4715_3",
+              "order": 3,
+              "text": "for",
+              "value": "7197",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4716",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 He was texting his friends _____ breakfast.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4716_1",
+              "order": 1,
+              "text": "while",
+              "value": "7198",
+              "is_correct": false
+            },
+            {
+              "id": "4716_2",
+              "order": 2,
+              "text": "during",
+              "value": "7199",
+              "is_correct": true
+            },
+            {
+              "id": "4716_3",
+              "order": 3,
+              "text": "for",
+              "value": "7200",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4717",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 She had an anxiety attack _____ the funeral.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4717_1",
+              "order": 1,
+              "text": "while",
+              "value": "7201",
+              "is_correct": false
+            },
+            {
+              "id": "4717_2",
+              "order": 2,
+              "text": "during",
+              "value": "7202",
+              "is_correct": true
+            },
+            {
+              "id": "4717_3",
+              "order": 3,
+              "text": "for",
+              "value": "7203",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4718",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 She lived in a homeless shelter _____ two years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4718_1",
+              "order": 1,
+              "text": "while",
+              "value": "7204",
+              "is_correct": false
+            },
+            {
+              "id": "4718_2",
+              "order": 2,
+              "text": "during",
+              "value": "7205",
+              "is_correct": false
+            },
+            {
+              "id": "4718_3",
+              "order": 3,
+              "text": "for",
+              "value": "7206",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4719",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 Dr Karl was offended and he was quiet _____ the rest of the evening.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4719_1",
+              "order": 1,
+              "text": "while",
+              "value": "7207",
+              "is_correct": false
+            },
+            {
+              "id": "4719_2",
+              "order": 2,
+              "text": "during",
+              "value": "7208",
+              "is_correct": false
+            },
+            {
+              "id": "4719_3",
+              "order": 3,
+              "text": "for",
+              "value": "7209",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4720",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Enjoy your victory _____ you can, because the next time we will beat you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4720_1",
+              "order": 1,
+              "text": "while",
+              "value": "7210",
+              "is_correct": true
+            },
+            {
+              "id": "4720_2",
+              "order": 2,
+              "text": "during",
+              "value": "7211",
+              "is_correct": false
+            },
+            {
+              "id": "4720_3",
+              "order": 3,
+              "text": "for",
+              "value": "7212",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4721",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 He fell and broke his hip _____ his last visit to Germany.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4721_1",
+              "order": 1,
+              "text": "while",
+              "value": "7213",
+              "is_correct": false
+            },
+            {
+              "id": "4721_2",
+              "order": 2,
+              "text": "during",
+              "value": "7214",
+              "is_correct": true
+            },
+            {
+              "id": "4721_3",
+              "order": 3,
+              "text": "for",
+              "value": "7215",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4722",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 They went on hunger strike and didn't eat anything _____ a month.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4722_1",
+              "order": 1,
+              "text": "while",
+              "value": "7216",
+              "is_correct": false
+            },
+            {
+              "id": "4722_2",
+              "order": 2,
+              "text": "during",
+              "value": "7217",
+              "is_correct": false
+            },
+            {
+              "id": "4722_3",
+              "order": 3,
+              "text": "for",
+              "value": "7218",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4723",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I finished the composition _____ I was having breakfast.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4723_1",
+              "order": 1,
+              "text": "while",
+              "value": "7219",
+              "is_correct": true
+            },
+            {
+              "id": "4723_2",
+              "order": 2,
+              "text": "during",
+              "value": "7220",
+              "is_correct": false
+            },
+            {
+              "id": "4723_3",
+              "order": 3,
+              "text": "for",
+              "value": "7221",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4724",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Women shouldn't be exposed to secondhand smoke _____ pregnancy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4724_1",
+              "order": 1,
+              "text": "while",
+              "value": "7222",
+              "is_correct": false
+            },
+            {
+              "id": "4724_2",
+              "order": 2,
+              "text": "during",
+              "value": "7223",
+              "is_correct": true
+            },
+            {
+              "id": "4724_3",
+              "order": 3,
+              "text": "for",
+              "value": "7224",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-548",
+      "lessonId": "b1_during_for_while",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the words during, for or while.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_during-for-while_3.html",
+      "questions": [
+        {
+          "id": "4725",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I can't concentrate if you keep talking {{gap1}} I'm trying to study.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4725_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "while",
+              "accepted_answers": [
+                "while"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4726",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 You can't take pictures {{gap1}} the ceremony.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4726_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "during",
+              "accepted_answers": [
+                "during"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4727",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I couldn't sleep {{gap1}} two days.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4727_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4728",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I've been studying English {{gap1}} a couple of years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4728_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4729",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 The modern Olympics have been held {{gap1}} the summer months every four years since 1896.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4729_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "during",
+              "accepted_answers": [
+                "during"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4730",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Did anybody call {{gap1}} I was away?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4730_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "while",
+              "accepted_answers": [
+                "while"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4731",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Please, be quiet {{gap1}} the children sleep.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4731_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "while",
+              "accepted_answers": [
+                "while"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4732",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 The Secretary announced her new plans {{gap1}} the speech.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4732_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "during",
+              "accepted_answers": [
+                "during"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4733",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 We haven't been in contact {{gap1}} some time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4733_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4734",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 We've been married {{gap1}} 15 years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4734_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

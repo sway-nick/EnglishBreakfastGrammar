@@ -1,0 +1,1159 @@
+{
+  "lesson_id": "b1_present_perfect_simple_present_perfect_continuous",
+  "level": "B1",
+  "title": "Present perfect simple and present perfect continuous",
+  "description": "Практический тест и правила по теме: Present perfect simple and present perfect continuous",
+  "theory": {
+    "title": "Правила и грамматика: Present perfect simple and present perfect continuous",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Present perfect simple and present perfect continuous».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Present perfect simple and present perfect continuous» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-188",
+      "lessonId": "b1_present_perfect_simple_present_perfect_continuous",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the present perfect simple or present perfect continuous to complete the sentences below. If both tenses are possible, use the present perfect continuous.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_present-perfect-simple-present-perfect-continuous.html",
+      "questions": [
+        {
+          "id": "1586",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I {{gap1}} and my legs are really tired now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1586_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'ve been cycling",
+              "accepted_answers": [
+                "'ve been cycling"
+              ],
+              "options": [
+                {
+                  "id": "gap_1586_1_1",
+                  "order": 1,
+                  "text": "'ve been cycling",
+                  "value": "'ve been cycling",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1586_1_2",
+                  "order": 2,
+                  "text": "'ve cycled",
+                  "value": "'ve cycled",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1587",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I'm sorry I'm late, {{gap1}} for a long time?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1587_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have you been waiting",
+              "accepted_answers": [
+                "have you been waiting"
+              ],
+              "options": [
+                {
+                  "id": "gap_1587_1_1",
+                  "order": 1,
+                  "text": "have you been waiting",
+                  "value": "have you been waiting",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1587_1_2",
+                  "order": 2,
+                  "text": "have you waited",
+                  "value": "have you waited",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1588",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 How long {{gap1}} Peter?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1588_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have you known",
+              "accepted_answers": [
+                "have you known"
+              ],
+              "options": [
+                {
+                  "id": "gap_1588_1_1",
+                  "order": 1,
+                  "text": "have you known",
+                  "value": "have you known",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1588_1_2",
+                  "order": 2,
+                  "text": "have you been knowing",
+                  "value": "have you been knowing",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1589",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Somebody {{gap1}} my cookies. There are none left.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1589_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "has eaten",
+              "accepted_answers": [
+                "has eaten"
+              ],
+              "options": [
+                {
+                  "id": "gap_1589_1_1",
+                  "order": 1,
+                  "text": "has been eating",
+                  "value": "has been eating",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1589_1_2",
+                  "order": 2,
+                  "text": "has eaten",
+                  "value": "has eaten",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1590",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Somebody {{gap1}} my cookies. There are very few left.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1590_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "has been eating",
+              "accepted_answers": [
+                "has been eating"
+              ],
+              "options": [
+                {
+                  "id": "gap_1590_1_1",
+                  "order": 1,
+                  "text": "has eaten",
+                  "value": "has eaten",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1590_1_2",
+                  "order": 2,
+                  "text": "has been eating",
+                  "value": "has been eating",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1591",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 How many books {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1591_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "has she written",
+              "accepted_answers": [
+                "has she written"
+              ],
+              "options": [
+                {
+                  "id": "gap_1591_1_1",
+                  "order": 1,
+                  "text": "has she been writing",
+                  "value": "has she been writing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1591_1_2",
+                  "order": 2,
+                  "text": "has she written",
+                  "value": "has she written",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1592",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 She must be tired. She {{gap1}} all afternoon.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1592_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "has been writing",
+              "accepted_answers": [
+                "has been writing"
+              ],
+              "options": [
+                {
+                  "id": "gap_1592_1_1",
+                  "order": 1,
+                  "text": "has been writing",
+                  "value": "has been writing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1592_1_2",
+                  "order": 2,
+                  "text": "has written",
+                  "value": "has written",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1593",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I {{gap1}} all afternoon. I {{gap2}} 5 chapters.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1593_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'ve been reading",
+              "accepted_answers": [
+                "'ve been reading"
+              ],
+              "options": [
+                {
+                  "id": "gap_1593_1_1",
+                  "order": 1,
+                  "text": "'ve been reading",
+                  "value": "'ve been reading",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1593_1_2",
+                  "order": 2,
+                  "text": "'ve read",
+                  "value": "'ve read",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1593_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'ve read",
+              "accepted_answers": [
+                "'ve read"
+              ],
+              "options": [
+                {
+                  "id": "gap_1593_2_1",
+                  "order": 1,
+                  "text": "'ve read",
+                  "value": "'ve read",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1593_2_2",
+                  "order": 2,
+                  "text": "'ve been reading",
+                  "value": "'ve been reading",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1594",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I think I {{gap1}} chocolate since I was born.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1594_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'ve liked",
+              "accepted_answers": [
+                "'ve liked"
+              ],
+              "options": [
+                {
+                  "id": "gap_1594_1_1",
+                  "order": 1,
+                  "text": "'ve liked",
+                  "value": "'ve liked",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1594_1_2",
+                  "order": 2,
+                  "text": "'ve been liking",
+                  "value": "'ve been liking",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1595",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 They {{gap1}} for months, and they {{gap2}} three countries so far.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1595_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have been travelling",
+              "accepted_answers": [
+                "have been travelling"
+              ],
+              "options": [
+                {
+                  "id": "gap_1595_1_1",
+                  "order": 1,
+                  "text": "have been travelling",
+                  "value": "have been travelling",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1595_1_2",
+                  "order": 2,
+                  "text": "have travelled",
+                  "value": "have travelled",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1595_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "have visited",
+              "accepted_answers": [
+                "have visited"
+              ],
+              "options": [
+                {
+                  "id": "gap_1595_2_1",
+                  "order": 1,
+                  "text": "have visited",
+                  "value": "have visited",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1595_2_2",
+                  "order": 2,
+                  "text": "have been visiting",
+                  "value": "have been visiting",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-189",
+      "lessonId": "b1_present_perfect_simple_present_perfect_continuous",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the present perfect simple or present perfect continuous for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_present-perfect-simple-present-perfect-continuous_2.html",
+      "questions": [
+        {
+          "id": "1596",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I ______ the book you lent me and it's great. I'll give it back to you when I finish it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1596_1",
+              "order": 1,
+              "text": "'ve read",
+              "value": "2314",
+              "is_correct": false
+            },
+            {
+              "id": "1596_2",
+              "order": 2,
+              "text": "was read",
+              "value": "2315",
+              "is_correct": false
+            },
+            {
+              "id": "1596_3",
+              "order": 3,
+              "text": "'ve been reading",
+              "value": "2316",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1597",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 Bruce ______ tennis since he was a child. He ______ many trophies.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1597_1",
+              "order": 1,
+              "text": "has been playing / has won",
+              "value": "2317",
+              "is_correct": true
+            },
+            {
+              "id": "1597_2",
+              "order": 2,
+              "text": "is playing / has won",
+              "value": "2318",
+              "is_correct": false
+            },
+            {
+              "id": "1597_3",
+              "order": 3,
+              "text": "has played / has been winning",
+              "value": "2319",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1598",
+          "order": 3,
+          "type": "multiple_choice",
+          "text": "3 You ______ too much time playing that stupid game! Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1598_1",
+              "order": 1,
+              "text": "'ve spent",
+              "value": "2320",
+              "is_correct": true
+            },
+            {
+              "id": "1598_2",
+              "order": 2,
+              "text": "'ve spending",
+              "value": "2321",
+              "is_correct": false
+            },
+            {
+              "id": "1598_3",
+              "order": 3,
+              "text": "'ve been spending",
+              "value": "2322",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1599",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 You ______ tennis since 10 o'clock. How many sets ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1599_1",
+              "order": 1,
+              "text": "have played / have you been playing",
+              "value": "2323",
+              "is_correct": false
+            },
+            {
+              "id": "1599_2",
+              "order": 2,
+              "text": "have been playing / have you played",
+              "value": "2324",
+              "is_correct": true
+            },
+            {
+              "id": "1599_3",
+              "order": 3,
+              "text": "are playing / have you played",
+              "value": "2325",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1600",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 He ______ to me since we met last summer. He _______ over 100 emails.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1600_1",
+              "order": 1,
+              "text": "'s been writing / 's sent",
+              "value": "2326",
+              "is_correct": true
+            },
+            {
+              "id": "1600_2",
+              "order": 2,
+              "text": "'s written / 's been sending",
+              "value": "2327",
+              "is_correct": false
+            },
+            {
+              "id": "1600_3",
+              "order": 3,
+              "text": "is writing / 's sent",
+              "value": "2328",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1602",
+          "order": 6,
+          "type": "multiple_choice",
+          "text": "6 He ______ since he was a little boy. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1602_1",
+              "order": 1,
+              "text": "is fishing",
+              "value": "2332",
+              "is_correct": false
+            },
+            {
+              "id": "1602_2",
+              "order": 2,
+              "text": "has fished",
+              "value": "2333",
+              "is_correct": true
+            },
+            {
+              "id": "1602_3",
+              "order": 3,
+              "text": "has been fishing",
+              "value": "2334",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1601",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 ______ any fish today?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1601_1",
+              "order": 1,
+              "text": "Have you caught",
+              "value": "2329",
+              "is_correct": true
+            },
+            {
+              "id": "1601_2",
+              "order": 2,
+              "text": "Have you been catching",
+              "value": "2330",
+              "is_correct": false
+            },
+            {
+              "id": "1601_3",
+              "order": 3,
+              "text": "Have you catching",
+              "value": "2331",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1603",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 A: He ______ hundreds of job applications, but he's got no answers yet. B: How long ______ for a job?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1603_1",
+              "order": 1,
+              "text": "'s been sending / has he been looking",
+              "value": "2335",
+              "is_correct": false
+            },
+            {
+              "id": "1603_2",
+              "order": 2,
+              "text": "'s sent / has he looked",
+              "value": "2336",
+              "is_correct": false
+            },
+            {
+              "id": "1603_3",
+              "order": 3,
+              "text": "'s sent / has he been looking",
+              "value": "2337",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1604",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Now that I ______ tidying the house, I'm going to clean it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1604_1",
+              "order": 1,
+              "text": "have finished",
+              "value": "2338",
+              "is_correct": true
+            },
+            {
+              "id": "1604_2",
+              "order": 2,
+              "text": "have been finishing",
+              "value": "2339",
+              "is_correct": false
+            },
+            {
+              "id": "1604_3",
+              "order": 3,
+              "text": "am finishing",
+              "value": "2340",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1605",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 We ______ this TV for ages. I think it's time to buy a new one.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1605_1",
+              "order": 1,
+              "text": "have",
+              "value": "2341",
+              "is_correct": false
+            },
+            {
+              "id": "1605_2",
+              "order": 2,
+              "text": "'ve had",
+              "value": "2342",
+              "is_correct": true
+            },
+            {
+              "id": "1605_3",
+              "order": 3,
+              "text": "'ve been having",
+              "value": "2343",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-190",
+      "lessonId": "b1_present_perfect_simple_present_perfect_continuous",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the dialogues below with the present perfect simple or present perfect continuous of the verbs in brackets. If both tenses are possible, use the present perfect continuous.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_present-perfect-simple-present-perfect-continuous_3.html",
+      "questions": [
+        {
+          "id": "1606",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 A: I'm very tired. We {{gap1}} (walk) too fast. B: Maybe you are right, we {{gap2}} (walk) 10 kilometres in only one hour and a half.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1606_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been walking",
+              "accepted_answers": [
+                "have been walking"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1606_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "have walked",
+              "accepted_answers": [
+                "have walked"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1607",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 A: You {{gap1}} (drink). You can't take the car. B: But I {{gap2}} (only/drink) a couple of beers! A: That isn't true; you {{gap3}} (drink) four beers.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1607_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been drinking",
+              "accepted_answers": [
+                "have been drinking"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1607_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "have only drunk",
+              "accepted_answers": [
+                "have only drunk"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1607_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "have drunk",
+              "accepted_answers": [
+                "have drunk"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1608",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I {{gap1}} (wait) for you all morning! Where {{gap2}} (you/be) all this time?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1608_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been waiting",
+              "accepted_answers": [
+                "have been waiting"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1608_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "have you been",
+              "accepted_answers": [
+                "have you been"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1609",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I {{gap1}} (teach) in this school for 20 years, and I {{gap2}} (meet) thousands of students from hundreds of different countries.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1609_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been teaching",
+              "accepted_answers": [
+                "have been teaching"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1609_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "have met",
+              "accepted_answers": [
+                "have met"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1610",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 A: It smells fantastic! B: Yeah, I {{gap1}} (make) cookies all afternoon. A: Let me see. Wow! You {{gap2}} (make) a lot of cookies!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1610_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been making",
+              "accepted_answers": [
+                "have been making"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1610_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "have made",
+              "accepted_answers": [
+                "have made"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1611",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 A: Someone {{gap1}} (call) all morning. They {{gap2}} (call) at least ten times. B: Well, you {{gap3}} (sit) next to the phone all this time. You could have picked it up.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1611_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has been calling",
+              "accepted_answers": [
+                "has been calling"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1611_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "have called",
+              "accepted_answers": [
+                "have called"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1611_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "have been sitting",
+              "accepted_answers": [
+                "have been sitting"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1612",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 I {{gap1}} (work) here for over a month and I {{gap2}} (not meet) the manager yet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1612_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been working",
+              "accepted_answers": [
+                "have been working"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1612_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "haven't met",
+              "accepted_answers": [
+                "haven't met"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1613",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 I {{gap1}} (lose) my keys and I {{gap2}} (try) to contact my wife all morning, but she isn't answering her phone.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1613_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have lost",
+              "accepted_answers": [
+                "have lost"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1613_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "have been trying",
+              "accepted_answers": [
+                "have been trying"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1614",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 What's the matter with you? You {{gap1}} (not say) anything since this morning.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1614_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "haven't said",
+              "accepted_answers": [
+                "haven't said"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1616",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Look, I {{gap1}} (wash) my car. Doesn't it look new now?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1616_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have washed",
+              "accepted_answers": [
+                "have washed"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

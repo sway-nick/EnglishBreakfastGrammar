@@ -1,0 +1,1023 @@
+{
+  "lesson_id": "b1_first_conditional_future_time_clauses",
+  "level": "B1",
+  "title": "First conditional, future time clauses",
+  "description": "Практический тест и правила по теме: First conditional, future time clauses",
+  "theory": {
+    "title": "Правила и грамматика: First conditional, future time clauses",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «First conditional, future time clauses».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «First conditional, future time clauses» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-226",
+      "lessonId": "b1_first_conditional_future_time_clauses",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct form to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_first-conditional-future-time-clauses.html",
+      "questions": [
+        {
+          "id": "1886",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I {{gap1}} you an answer when I have one.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1886_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "will give",
+              "accepted_answers": [
+                "will give"
+              ],
+              "options": [
+                {
+                  "id": "gap_1886_1_1",
+                  "order": 1,
+                  "text": "give",
+                  "value": "give",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1886_1_2",
+                  "order": 2,
+                  "text": "would give",
+                  "value": "would give",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1886_1_3",
+                  "order": 3,
+                  "text": "will give",
+                  "value": "will give",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1887",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I'll call you as soon as I {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1887_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "arrive",
+              "accepted_answers": [
+                "arrive"
+              ],
+              "options": [
+                {
+                  "id": "gap_1887_1_1",
+                  "order": 1,
+                  "text": "will arrive",
+                  "value": "will arrive",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1887_1_2",
+                  "order": 2,
+                  "text": "'m arriving",
+                  "value": "'m arriving",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1887_1_3",
+                  "order": 3,
+                  "text": "arrive",
+                  "value": "arrive",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1888",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 When you read this email, I {{gap1}} on a plane to Germany.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1888_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "will be",
+              "accepted_answers": [
+                "will be"
+              ],
+              "options": [
+                {
+                  "id": "gap_1888_1_1",
+                  "order": 1,
+                  "text": "will be",
+                  "value": "will be",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1888_1_2",
+                  "order": 2,
+                  "text": "would be",
+                  "value": "would be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1888_1_3",
+                  "order": 3,
+                  "text": "am",
+                  "value": "am",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1889",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I won't stay unless you {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1889_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "stay",
+              "accepted_answers": [
+                "stay"
+              ],
+              "options": [
+                {
+                  "id": "gap_1889_1_1",
+                  "order": 1,
+                  "text": "stay",
+                  "value": "stay",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1889_1_2",
+                  "order": 2,
+                  "text": "will stay",
+                  "value": "will stay",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1889_1_3",
+                  "order": 3,
+                  "text": "should stay",
+                  "value": "should stay",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1890",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 If you don't find him, you {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1890_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "should call",
+              "accepted_answers": [
+                "should call"
+              ],
+              "options": [
+                {
+                  "id": "gap_1890_1_1",
+                  "order": 1,
+                  "text": "would call",
+                  "value": "would call",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1890_1_2",
+                  "order": 2,
+                  "text": "should call",
+                  "value": "should call",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1890_1_3",
+                  "order": 3,
+                  "text": "call",
+                  "value": "call",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1891",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 He won't stop until he {{gap1}} what he wants.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1891_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "gets",
+              "accepted_answers": [
+                "gets"
+              ],
+              "options": [
+                {
+                  "id": "gap_1891_1_1",
+                  "order": 1,
+                  "text": "does get",
+                  "value": "does get",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1891_1_2",
+                  "order": 2,
+                  "text": "gets",
+                  "value": "gets",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1891_1_3",
+                  "order": 3,
+                  "text": "will get",
+                  "value": "will get",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1892",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 {{gap1}} if I give you the address?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1892_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Will you go",
+              "accepted_answers": [
+                "Will you go"
+              ],
+              "options": [
+                {
+                  "id": "gap_1892_1_1",
+                  "order": 1,
+                  "text": "Do you go",
+                  "value": "Do you go",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1892_1_2",
+                  "order": 2,
+                  "text": "Will you go",
+                  "value": "Will you go",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1892_1_3",
+                  "order": 3,
+                  "text": "You will go",
+                  "value": "You will go",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1893",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 If he knows that you are here, he {{gap1}} to contact you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1893_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "might try",
+              "accepted_answers": [
+                "might try"
+              ],
+              "options": [
+                {
+                  "id": "gap_1893_1_1",
+                  "order": 1,
+                  "text": "tries",
+                  "value": "tries",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1893_1_2",
+                  "order": 2,
+                  "text": "does try",
+                  "value": "does try",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1893_1_3",
+                  "order": 3,
+                  "text": "might try",
+                  "value": "might try",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1894",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 When I {{gap1}} old enough, I'll travel around the world.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1894_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "am",
+              "accepted_answers": [
+                "am"
+              ],
+              "options": [
+                {
+                  "id": "gap_1894_1_1",
+                  "order": 1,
+                  "text": "am",
+                  "value": "am",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1894_1_2",
+                  "order": 2,
+                  "text": "will be",
+                  "value": "will be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1894_1_3",
+                  "order": 3,
+                  "text": "would be",
+                  "value": "would be",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1987",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I'll sort this problem once I {{gap1}} back.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1987_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "am",
+              "accepted_answers": [
+                "am"
+              ],
+              "options": [
+                {
+                  "id": "gap_1987_1_1",
+                  "order": 1,
+                  "text": "would be",
+                  "value": "would be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1987_1_2",
+                  "order": 2,
+                  "text": "am",
+                  "value": "am",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1987_1_3",
+                  "order": 3,
+                  "text": "will be",
+                  "value": "will be",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-227",
+      "lessonId": "b1_first_conditional_future_time_clauses",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct form for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_first-conditional-future-time-clauses_2.html",
+      "questions": [
+        {
+          "id": "1896",
+          "order": 1,
+          "type": "multiple_choice",
+          "text": "1 If you aren't careful, you ______ hurt. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1896_1",
+              "order": 1,
+              "text": "might get",
+              "value": "2656",
+              "is_correct": true
+            },
+            {
+              "id": "1896_2",
+              "order": 2,
+              "text": "get",
+              "value": "2657",
+              "is_correct": false
+            },
+            {
+              "id": "1896_3",
+              "order": 3,
+              "text": "will get",
+              "value": "2658",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1897",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 What will happen if the parachute ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1897_1",
+              "order": 1,
+              "text": "doesn't open",
+              "value": "2659",
+              "is_correct": true
+            },
+            {
+              "id": "1897_2",
+              "order": 2,
+              "text": "won't open",
+              "value": "2660",
+              "is_correct": false
+            },
+            {
+              "id": "1897_3",
+              "order": 3,
+              "text": "might not open",
+              "value": "2661",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1898",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I won't sign up for the dancing competition unless Jack ______ my partner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1898_1",
+              "order": 1,
+              "text": "is",
+              "value": "2662",
+              "is_correct": true
+            },
+            {
+              "id": "1898_2",
+              "order": 2,
+              "text": "must be",
+              "value": "2663",
+              "is_correct": false
+            },
+            {
+              "id": "1898_3",
+              "order": 3,
+              "text": "will be",
+              "value": "2664",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1899",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 When you ______ Tom, tell him I want to see him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1899_1",
+              "order": 1,
+              "text": "will see",
+              "value": "2665",
+              "is_correct": false
+            },
+            {
+              "id": "1899_2",
+              "order": 2,
+              "text": "see",
+              "value": "2666",
+              "is_correct": true
+            },
+            {
+              "id": "1899_3",
+              "order": 3,
+              "text": "might see",
+              "value": "2667",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1903",
+          "order": 5,
+          "type": "multiple_choice",
+          "text": "5 If they make a good offer, I ______ the house. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1903_1",
+              "order": 1,
+              "text": "should buy",
+              "value": "2677",
+              "is_correct": true
+            },
+            {
+              "id": "1903_2",
+              "order": 2,
+              "text": "buy",
+              "value": "2678",
+              "is_correct": false
+            },
+            {
+              "id": "1903_3",
+              "order": 3,
+              "text": "will buy",
+              "value": "2679",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1900",
+          "order": 6,
+          "type": "multiple_choice",
+          "text": "6 If the people don't come, we ______ to cancel the party. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1900_1",
+              "order": 1,
+              "text": "might have",
+              "value": "2668",
+              "is_correct": true
+            },
+            {
+              "id": "1900_2",
+              "order": 2,
+              "text": "have",
+              "value": "2669",
+              "is_correct": false
+            },
+            {
+              "id": "1900_3",
+              "order": 3,
+              "text": "'ll have",
+              "value": "2670",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1901",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Please, can you close the windows before you ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1901_1",
+              "order": 1,
+              "text": "must leave",
+              "value": "2671",
+              "is_correct": false
+            },
+            {
+              "id": "1901_2",
+              "order": 2,
+              "text": "leave",
+              "value": "2672",
+              "is_correct": true
+            },
+            {
+              "id": "1901_3",
+              "order": 3,
+              "text": "will leave",
+              "value": "2673",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1902",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 He'll try to get money from you if he ______ you've won the lottery.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1902_1",
+              "order": 1,
+              "text": "knows",
+              "value": "2674",
+              "is_correct": true
+            },
+            {
+              "id": "1902_2",
+              "order": 2,
+              "text": "will know",
+              "value": "2675",
+              "is_correct": false
+            },
+            {
+              "id": "1902_3",
+              "order": 3,
+              "text": "would know",
+              "value": "2676",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1904",
+          "order": 9,
+          "type": "multiple_choice",
+          "text": "9 Before you say anything, ______. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1904_1",
+              "order": 1,
+              "text": "let me explain",
+              "value": "2680",
+              "is_correct": true
+            },
+            {
+              "id": "1904_2",
+              "order": 2,
+              "text": "you must listen to me",
+              "value": "2681",
+              "is_correct": true
+            },
+            {
+              "id": "1904_3",
+              "order": 3,
+              "text": "you listen to me",
+              "value": "2682",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1905",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 He won't ask for help unless it _______ absolutely necessary.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1905_1",
+              "order": 1,
+              "text": "is",
+              "value": "2683",
+              "is_correct": true
+            },
+            {
+              "id": "1905_2",
+              "order": 2,
+              "text": "will be",
+              "value": "2684",
+              "is_correct": false
+            },
+            {
+              "id": "1905_3",
+              "order": 3,
+              "text": "might be",
+              "value": "2685",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-228",
+      "lessonId": "b1_first_conditional_future_time_clauses",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the verbs in brackets in the correct tense.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_first-conditional-future-time-clauses_3.html",
+      "questions": [
+        {
+          "id": "1884",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Hi brother, We're at the station, but our train isn't here yet. We're worried because if the train 1 {{gap1}} (not arrive) on time, we 2 {{gap2}} (miss) our flight, and we 3 {{gap3}} (have to) spend the night here. When we 4 {{gap4}} (get) to the airport, I 5 {{gap5}} (text) you. We are very excited about the holiday. Sandy is looking forward to taking surfing lessons. She says as soon as we 6 {{gap6}} (check in) at the hotel, she 7 {{gap7}} (look for) a surf instructor. However, she says she won't take any lessons if I 8 {{gap8}} (not surf) with her. We expect the weather will be fine. If it 9 {{gap9}} (not be), we 10 {{gap10}} (be) very upset. We are also planning to try the local food. If the hotel restaurant 11 {{gap11}} (be) nice, we 12 {{gap12}} (have) a meal there as soon as we 13 {{gap13}} (check in). One more thing, 14 {{gap14}} (you/ water) the plants if I 15 {{gap15}} (promise) to take you out for dinner when we come back? Take care, Andy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1884_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "doesn't arrive",
+              "accepted_answers": [
+                "doesn't arrive"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "will miss",
+              "accepted_answers": [
+                "will miss"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "will have to",
+              "accepted_answers": [
+                "will have to"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "get",
+              "accepted_answers": [
+                "get"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "will text",
+              "accepted_answers": [
+                "will text"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "check in",
+              "accepted_answers": [
+                "check in"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "will look for",
+              "accepted_answers": [
+                "will look for"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "don't surf",
+              "accepted_answers": [
+                "don't surf"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "isn't",
+              "accepted_answers": [
+                "isn't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "will be",
+              "accepted_answers": [
+                "will be"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_11",
+              "order": 11,
+              "placeholder": "{{gap11}}",
+              "input_control": "text",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_12",
+              "order": 12,
+              "placeholder": "{{gap12}}",
+              "input_control": "text",
+              "correct_answer": "will have",
+              "accepted_answers": [
+                "will have"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_13",
+              "order": 13,
+              "placeholder": "{{gap13}}",
+              "input_control": "text",
+              "correct_answer": "check in",
+              "accepted_answers": [
+                "check in"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_14",
+              "order": 14,
+              "placeholder": "{{gap14}}",
+              "input_control": "text",
+              "correct_answer": "will you water",
+              "accepted_answers": [
+                "will you water"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1884_15",
+              "order": 15,
+              "placeholder": "{{gap15}}",
+              "input_control": "text",
+              "correct_answer": "promise",
+              "accepted_answers": [
+                "promise"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

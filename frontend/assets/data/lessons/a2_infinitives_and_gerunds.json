@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "a2_infinitives_and_gerunds",
+  "level": "A2",
+  "title": "Infinitives and gerunds: Verb patterns",
+  "description": "Практический тест и правила по теме: Infinitives and gerunds: Verb patterns",
+  "theory": {
+    "title": "Правила и грамматика: Infinitives and gerunds: Verb patterns",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Infinitives and gerunds: Verb patterns».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Infinitives and gerunds: Verb patterns» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-378",
+      "lessonId": "a2_infinitives_and_gerunds",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct infinitives and gerunds to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_infinitives-and-gerunds.html",
+      "questions": [
+        {
+          "id": "3234",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 She offered {{gap1}} me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3234_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to help",
+              "accepted_answers": [
+                "to help"
+              ],
+              "options": [
+                {
+                  "id": "gap_3234_1_1",
+                  "order": 1,
+                  "text": "helping",
+                  "value": "helping",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3234_1_2",
+                  "order": 2,
+                  "text": "help",
+                  "value": "help",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3234_1_3",
+                  "order": 3,
+                  "text": "to help",
+                  "value": "to help",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3235",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 We've decided {{gap1}} soon.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3235_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to get married",
+              "accepted_answers": [
+                "to get married"
+              ],
+              "options": [
+                {
+                  "id": "gap_3235_1_1",
+                  "order": 1,
+                  "text": "get married",
+                  "value": "get married",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3235_1_2",
+                  "order": 2,
+                  "text": "to get married",
+                  "value": "to get married",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3235_1_3",
+                  "order": 3,
+                  "text": "getting married",
+                  "value": "getting married",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3236",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 I stopped {{gap1}} football when I got married.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3236_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "playing",
+              "accepted_answers": [
+                "playing"
+              ],
+              "options": [
+                {
+                  "id": "gap_3236_1_1",
+                  "order": 1,
+                  "text": "play",
+                  "value": "play",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3236_1_2",
+                  "order": 2,
+                  "text": "playing",
+                  "value": "playing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3236_1_3",
+                  "order": 3,
+                  "text": "to play",
+                  "value": "to play",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3237",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 We should {{gap1}} very early in the morning.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3237_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "arrive",
+              "accepted_answers": [
+                "arrive"
+              ],
+              "options": [
+                {
+                  "id": "gap_3237_1_1",
+                  "order": 1,
+                  "text": "arriving",
+                  "value": "arriving",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3237_1_2",
+                  "order": 2,
+                  "text": "to arrive",
+                  "value": "to arrive",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3237_1_3",
+                  "order": 3,
+                  "text": "arrive",
+                  "value": "arrive",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3238",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 I'm not very good at {{gap1}} sports.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3238_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "playing",
+              "accepted_answers": [
+                "playing"
+              ],
+              "options": [
+                {
+                  "id": "gap_3238_1_1",
+                  "order": 1,
+                  "text": "playing",
+                  "value": "playing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3238_1_2",
+                  "order": 2,
+                  "text": "to play",
+                  "value": "to play",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3238_1_3",
+                  "order": 3,
+                  "text": "play",
+                  "value": "play",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3239",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 You promised {{gap1}} the children to the cinema.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3239_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to take",
+              "accepted_answers": [
+                "to take"
+              ],
+              "options": [
+                {
+                  "id": "gap_3239_1_1",
+                  "order": 1,
+                  "text": "to take",
+                  "value": "to take",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3239_1_2",
+                  "order": 2,
+                  "text": "taking",
+                  "value": "taking",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3239_1_3",
+                  "order": 3,
+                  "text": "take",
+                  "value": "take",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3240",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Have you finished {{gap1}} the house?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3240_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "painting",
+              "accepted_answers": [
+                "painting"
+              ],
+              "options": [
+                {
+                  "id": "gap_3240_1_1",
+                  "order": 1,
+                  "text": "painting",
+                  "value": "painting",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3240_1_2",
+                  "order": 2,
+                  "text": "to paint",
+                  "value": "to paint",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3240_1_3",
+                  "order": 3,
+                  "text": "paint",
+                  "value": "paint",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3241",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 You should avoid {{gap1}} to strangers.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3241_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "talking",
+              "accepted_answers": [
+                "talking"
+              ],
+              "options": [
+                {
+                  "id": "gap_3241_1_1",
+                  "order": 1,
+                  "text": "talking",
+                  "value": "talking",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3241_1_2",
+                  "order": 2,
+                  "text": "to talk",
+                  "value": "to talk",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3241_1_3",
+                  "order": 3,
+                  "text": "talk",
+                  "value": "talk",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3242",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 {{gap1}} around the world has always been my dream.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3242_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Travelling",
+              "accepted_answers": [
+                "Travelling"
+              ],
+              "options": [
+                {
+                  "id": "gap_3242_1_1",
+                  "order": 1,
+                  "text": "Travelling",
+                  "value": "Travelling",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3242_1_2",
+                  "order": 2,
+                  "text": "To travel",
+                  "value": "To travel",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3242_1_3",
+                  "order": 3,
+                  "text": "Travel",
+                  "value": "Travel",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3243",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I couldn't {{gap1}} you because I didn't have my phone.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3243_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "phone",
+              "accepted_answers": [
+                "phone"
+              ],
+              "options": [
+                {
+                  "id": "gap_3243_1_1",
+                  "order": 1,
+                  "text": "phoning",
+                  "value": "phoning",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3243_1_2",
+                  "order": 2,
+                  "text": "phone",
+                  "value": "phone",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3243_1_3",
+                  "order": 3,
+                  "text": "to phone",
+                  "value": "to phone",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-379",
+      "lessonId": "a2_infinitives_and_gerunds",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct infinitives and gerunds to complete the following sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_infinitives-and-gerunds_2.html",
+      "questions": [
+        {
+          "id": "3244",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I would like _____ my grandmother next year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3244_1",
+              "order": 1,
+              "text": "visit",
+              "value": "5398",
+              "is_correct": false
+            },
+            {
+              "id": "3244_2",
+              "order": 2,
+              "text": "to visit",
+              "value": "5399",
+              "is_correct": true
+            },
+            {
+              "id": "3244_3",
+              "order": 3,
+              "text": "visiting",
+              "value": "5400",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3245",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I might _____ late today. I have a lot of work.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3245_1",
+              "order": 1,
+              "text": "be",
+              "value": "5401",
+              "is_correct": true
+            },
+            {
+              "id": "3245_2",
+              "order": 2,
+              "text": "to be",
+              "value": "5402",
+              "is_correct": false
+            },
+            {
+              "id": "3245_3",
+              "order": 3,
+              "text": "being",
+              "value": "5403",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3246",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 We are planning _____ to Switzerland next year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3246_1",
+              "order": 1,
+              "text": "go",
+              "value": "5404",
+              "is_correct": false
+            },
+            {
+              "id": "3246_2",
+              "order": 2,
+              "text": "to go",
+              "value": "5405",
+              "is_correct": true
+            },
+            {
+              "id": "3246_3",
+              "order": 3,
+              "text": "going",
+              "value": "5406",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3247",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Keep quiet, I need _____ on my homework.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3247_1",
+              "order": 1,
+              "text": "concentrate",
+              "value": "5407",
+              "is_correct": false
+            },
+            {
+              "id": "3247_2",
+              "order": 2,
+              "text": "to concentrate",
+              "value": "5408",
+              "is_correct": true
+            },
+            {
+              "id": "3247_3",
+              "order": 3,
+              "text": "concentrating",
+              "value": "5409",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3248",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 My brother is trying _____ smoking.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3248_1",
+              "order": 1,
+              "text": "quit",
+              "value": "5410",
+              "is_correct": false
+            },
+            {
+              "id": "3248_2",
+              "order": 2,
+              "text": "to quit",
+              "value": "5411",
+              "is_correct": true
+            },
+            {
+              "id": "3248_3",
+              "order": 3,
+              "text": "quitting",
+              "value": "5412",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3249",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Tennis is okay, but I prefer _____ padel.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3249_1",
+              "order": 1,
+              "text": "play",
+              "value": "5413",
+              "is_correct": false
+            },
+            {
+              "id": "3249_2",
+              "order": 2,
+              "text": "to play",
+              "value": "5414",
+              "is_correct": false
+            },
+            {
+              "id": "3249_3",
+              "order": 3,
+              "text": "playing",
+              "value": "5415",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3250",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 I enjoy _____ stories to my children.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3250_1",
+              "order": 1,
+              "text": "read",
+              "value": "5416",
+              "is_correct": false
+            },
+            {
+              "id": "3250_2",
+              "order": 2,
+              "text": "to read",
+              "value": "5417",
+              "is_correct": false
+            },
+            {
+              "id": "3250_3",
+              "order": 3,
+              "text": "reading",
+              "value": "5418",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3251",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 You must never _____ him the truth.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3251_1",
+              "order": 1,
+              "text": "tell",
+              "value": "5419",
+              "is_correct": true
+            },
+            {
+              "id": "3251_2",
+              "order": 2,
+              "text": "to tell",
+              "value": "5420",
+              "is_correct": false
+            },
+            {
+              "id": "3251_3",
+              "order": 3,
+              "text": "telling",
+              "value": "5421",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3252",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I hope _____ a job soon.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3252_1",
+              "order": 1,
+              "text": "find",
+              "value": "5422",
+              "is_correct": false
+            },
+            {
+              "id": "3252_2",
+              "order": 2,
+              "text": "to find",
+              "value": "5423",
+              "is_correct": true
+            },
+            {
+              "id": "3252_3",
+              "order": 3,
+              "text": "finding",
+              "value": "5424",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3253",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 What do you want _____ tonight?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3253_1",
+              "order": 1,
+              "text": "do",
+              "value": "5425",
+              "is_correct": false
+            },
+            {
+              "id": "3253_2",
+              "order": 2,
+              "text": "to do",
+              "value": "5426",
+              "is_correct": true
+            },
+            {
+              "id": "3253_3",
+              "order": 3,
+              "text": "doing",
+              "value": "5427",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-380",
+      "lessonId": "a2_infinitives_and_gerunds",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the correct infinitive or gerund forms of the verbs in box below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_infinitives-and-gerunds_3.html",
+      "questions": [
+        {
+          "id": "3254",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 The weather was nice, so I suggested {{gap1}} for a walk.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3254_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "going",
+              "accepted_answers": [
+                "going"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3255",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 I'd prefer {{gap1}} in a restaurant today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3255_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to eat",
+              "accepted_answers": [
+                "to eat"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3256",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 When it stopped {{gap1}} we went for a picnic.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3256_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "raining",
+              "accepted_answers": [
+                "raining"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3257",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 {{gap1}} a police officer in this city can be very dangerous.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3257_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Being",
+              "accepted_answers": [
+                "Being"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3258",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 I don’t mind {{gap1}} long hours because I love my job.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3258_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "working",
+              "accepted_answers": [
+                "working"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3259",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 We are planning {{gap1}} to Australia this summer. We have already saved the money for the trip.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3259_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to go",
+              "accepted_answers": [
+                "to go"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3260",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 I forgot {{gap1}} the door when I left home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3260_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to lock",
+              "accepted_answers": [
+                "to lock"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3261",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 I’m thinking of {{gap1}} for a new job.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3261_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "applying",
+              "accepted_answers": [
+                "applying"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3262",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I went to the greengrocer’s {{gap1}} some food.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3262_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to buy",
+              "accepted_answers": [
+                "to buy"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3263",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Could you show me how {{gap1}} this exercise?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3263_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to do",
+              "accepted_answers": [
+                "to do"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

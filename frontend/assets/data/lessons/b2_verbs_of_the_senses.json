@@ -1,0 +1,1251 @@
+{
+  "lesson_id": "b2_verbs_of_the_senses",
+  "level": "B2",
+  "title": "Verbs of the senses",
+  "description": "Практический тест и правила по теме: Verbs of the senses",
+  "theory": {
+    "title": "Правила и грамматика: Verbs of the senses",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Verbs of the senses».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Verbs of the senses» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-129",
+      "lessonId": "b2_verbs_of_the_senses",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_verbs-of-the-senses.html",
+      "questions": [
+        {
+          "id": "1065",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I {{gap1}} the cake when my mother got in and asked me if it {{gap2}} good.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1065_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was tasting",
+              "accepted_answers": [
+                "was tasting"
+              ],
+              "options": [
+                {
+                  "id": "gap_1065_1_1",
+                  "order": 1,
+                  "text": "was tasting",
+                  "value": "was tasting",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1065_1_2",
+                  "order": 2,
+                  "text": "tasted",
+                  "value": "tasted",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1065_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "tasted",
+              "accepted_answers": [
+                "tasted"
+              ],
+              "options": [
+                {
+                  "id": "gap_1065_2_1",
+                  "order": 1,
+                  "text": "was tasting",
+                  "value": "was tasting",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1065_2_2",
+                  "order": 2,
+                  "text": "tasted",
+                  "value": "tasted",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1066",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I {{gap1}} very well, and I'm so cold that I {{gap2}} my toes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1066_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'m not feeling",
+              "accepted_answers": [
+                "'m not feeling"
+              ],
+              "options": [
+                {
+                  "id": "gap_1066_1_1",
+                  "order": 1,
+                  "text": "can't feel",
+                  "value": "can't feel",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1066_1_2",
+                  "order": 2,
+                  "text": "'m not feeling",
+                  "value": "'m not feeling",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1066_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "can't feel",
+              "accepted_answers": [
+                "can't feel"
+              ],
+              "options": [
+                {
+                  "id": "gap_1066_2_1",
+                  "order": 1,
+                  "text": "can't feel",
+                  "value": "can't feel",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1066_2_2",
+                  "order": 2,
+                  "text": "'m not feeling",
+                  "value": "'m not feeling",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1067",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Sorry, there's a lot of noise and I {{gap1}} you very well. {{gap2}} me?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1067_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can't hear",
+              "accepted_answers": [
+                "can't hear"
+              ],
+              "options": [
+                {
+                  "id": "gap_1067_1_1",
+                  "order": 1,
+                  "text": "can't hear",
+                  "value": "can't hear",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1067_1_2",
+                  "order": 2,
+                  "text": "'m not hearing",
+                  "value": "'m not hearing",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1067_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "Can you hear",
+              "accepted_answers": [
+                "Can you hear"
+              ],
+              "options": [
+                {
+                  "id": "gap_1067_2_1",
+                  "order": 1,
+                  "text": "Are you hearing",
+                  "value": "Are you hearing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1067_2_2",
+                  "order": 2,
+                  "text": "Can you hear",
+                  "value": "Can you hear",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1069",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 'Why {{gap1}} the sofa like this?' 'I don't know, but don't you think the living room {{gap2}} strange?'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1069_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is the dog smelling",
+              "accepted_answers": [
+                "is the dog smelling"
+              ],
+              "options": [
+                {
+                  "id": "gap_1069_1_1",
+                  "order": 1,
+                  "text": "does the dog smell",
+                  "value": "does the dog smell",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1069_1_2",
+                  "order": 2,
+                  "text": "is the dog smelling",
+                  "value": "is the dog smelling",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1069_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "smells",
+              "accepted_answers": [
+                "smells"
+              ],
+              "options": [
+                {
+                  "id": "gap_1069_2_1",
+                  "order": 1,
+                  "text": "smells",
+                  "value": "smells",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1069_2_2",
+                  "order": 2,
+                  "text": "is smelling",
+                  "value": "is smelling",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1070",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 'Where is James? I {{gap1}} him, and I need to tell him something.' 'He has just left, but I {{gap2}} him tomorrow at 7. Do you want me to give him a message?'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1070_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can't see",
+              "accepted_answers": [
+                "can't see"
+              ],
+              "options": [
+                {
+                  "id": "gap_1070_1_1",
+                  "order": 1,
+                  "text": "'m not seeing",
+                  "value": "'m not seeing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1070_1_2",
+                  "order": 2,
+                  "text": "can't see",
+                  "value": "can't see",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1070_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'m seeing",
+              "accepted_answers": [
+                "'m seeing"
+              ],
+              "options": [
+                {
+                  "id": "gap_1070_2_1",
+                  "order": 1,
+                  "text": "'m seeing",
+                  "value": "'m seeing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1070_2_2",
+                  "order": 2,
+                  "text": "can see",
+                  "value": "can see",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1071",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 It smells {{gap1}} cheese in here.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1071_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "of",
+              "accepted_answers": [
+                "of"
+              ],
+              "options": [
+                {
+                  "id": "gap_1071_1_1",
+                  "order": 1,
+                  "text": "as if",
+                  "value": "as if",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1071_1_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1071_1_3",
+                  "order": 3,
+                  "text": "of",
+                  "value": "of",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1072",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 He sounded {{gap1}} he was not very fond of the idea.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1072_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "as though",
+              "accepted_answers": [
+                "as though"
+              ],
+              "options": [
+                {
+                  "id": "gap_1072_1_1",
+                  "order": 1,
+                  "text": "if",
+                  "value": "if",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1072_1_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1072_1_3",
+                  "order": 3,
+                  "text": "as though",
+                  "value": "as though",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1073",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 It {{gap1}} that we've got lost. Can you help us?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1073_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "seems",
+              "accepted_answers": [
+                "seems"
+              ],
+              "options": [
+                {
+                  "id": "gap_1073_1_1",
+                  "order": 1,
+                  "text": "looks",
+                  "value": "looks",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1073_1_2",
+                  "order": 2,
+                  "text": "sees",
+                  "value": "sees",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1073_1_3",
+                  "order": 3,
+                  "text": "seems",
+                  "value": "seems",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1074",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 She {{gap1}} to have a natural gift for music.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1074_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "seems",
+              "accepted_answers": [
+                "seems"
+              ],
+              "options": [
+                {
+                  "id": "gap_1074_1_1",
+                  "order": 1,
+                  "text": "seems",
+                  "value": "seems",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1074_1_2",
+                  "order": 2,
+                  "text": "looks",
+                  "value": "looks",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1074_1_3",
+                  "order": 3,
+                  "text": "sees",
+                  "value": "sees",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1075",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I {{gap1}} at her as I am speaking to you and she {{gap2}} fantastic.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1075_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'m looking",
+              "accepted_answers": [
+                "'m looking"
+              ],
+              "options": [
+                {
+                  "id": "gap_1075_1_1",
+                  "order": 1,
+                  "text": "look",
+                  "value": "look",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1075_1_2",
+                  "order": 2,
+                  "text": "'m looking",
+                  "value": "'m looking",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1075_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "looks",
+              "accepted_answers": [
+                "looks"
+              ],
+              "options": [
+                {
+                  "id": "gap_1075_2_1",
+                  "order": 1,
+                  "text": "is looking",
+                  "value": "is looking",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1075_2_2",
+                  "order": 2,
+                  "text": "looks",
+                  "value": "looks",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-130",
+      "lessonId": "b2_verbs_of_the_senses",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option/s for the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_verbs-of-the-senses_2.html",
+      "questions": [
+        {
+          "id": "1077",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 She ______ an angel in that dress.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1077_1",
+              "order": 1,
+              "text": "looked like",
+              "value": "1572",
+              "is_correct": true
+            },
+            {
+              "id": "1077_2",
+              "order": 2,
+              "text": "seemed like",
+              "value": "1573",
+              "is_correct": false
+            },
+            {
+              "id": "1077_3",
+              "order": 3,
+              "text": "looked as if",
+              "value": "1574",
+              "is_correct": false
+            },
+            {
+              "id": "1077_4",
+              "order": 4,
+              "text": "seemed as if",
+              "value": "1575",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1079",
+          "order": 2,
+          "type": "multiple_choice",
+          "text": "2 We heard the neighbours ______ and we called the police. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1079_1",
+              "order": 1,
+              "text": "fought",
+              "value": "1580",
+              "is_correct": false
+            },
+            {
+              "id": "1079_2",
+              "order": 2,
+              "text": "to fight",
+              "value": "1581",
+              "is_correct": false
+            },
+            {
+              "id": "1079_3",
+              "order": 3,
+              "text": "fighting",
+              "value": "1582",
+              "is_correct": true
+            },
+            {
+              "id": "1079_4",
+              "order": 4,
+              "text": "fight",
+              "value": "1583",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1078",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 He ______ to have lost all hope.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1078_1",
+              "order": 1,
+              "text": "looks as if",
+              "value": "1576",
+              "is_correct": false
+            },
+            {
+              "id": "1078_2",
+              "order": 2,
+              "text": "seems",
+              "value": "1577",
+              "is_correct": true
+            },
+            {
+              "id": "1078_3",
+              "order": 3,
+              "text": "looks",
+              "value": "1578",
+              "is_correct": false
+            },
+            {
+              "id": "1078_4",
+              "order": 4,
+              "text": "seems like",
+              "value": "1579",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1080",
+          "order": 4,
+          "type": "multiple_choice",
+          "text": "4 It looks ______ it'll stop raining soon. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1080_1",
+              "order": 1,
+              "text": "as if",
+              "value": "1584",
+              "is_correct": true
+            },
+            {
+              "id": "1080_2",
+              "order": 2,
+              "text": "how",
+              "value": "1585",
+              "is_correct": false
+            },
+            {
+              "id": "1080_3",
+              "order": 3,
+              "text": "like if",
+              "value": "1586",
+              "is_correct": false
+            },
+            {
+              "id": "1080_4",
+              "order": 4,
+              "text": "as though",
+              "value": "1587",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1081",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 It ______ very different from anything I have eaten before.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1081_1",
+              "order": 1,
+              "text": "tastes like",
+              "value": "1588",
+              "is_correct": false
+            },
+            {
+              "id": "1081_2",
+              "order": 2,
+              "text": "tastes as if",
+              "value": "1589",
+              "is_correct": false
+            },
+            {
+              "id": "1081_3",
+              "order": 3,
+              "text": "tastes",
+              "value": "1590",
+              "is_correct": true
+            },
+            {
+              "id": "1081_4",
+              "order": 4,
+              "text": "tastes as though",
+              "value": "1591",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1082",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 This cake ______. Can I have a piece?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1082_1",
+              "order": 1,
+              "text": "is smelling wonderful",
+              "value": "1592",
+              "is_correct": false
+            },
+            {
+              "id": "1082_2",
+              "order": 2,
+              "text": "is smelling wonderfully",
+              "value": "1593",
+              "is_correct": false
+            },
+            {
+              "id": "1082_3",
+              "order": 3,
+              "text": "smells wonderfully",
+              "value": "1594",
+              "is_correct": false
+            },
+            {
+              "id": "1082_4",
+              "order": 4,
+              "text": "smells wonderful",
+              "value": "1595",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1083",
+          "order": 7,
+          "type": "multiple_choice",
+          "text": "7 It tastes ______ onion. I don't really like it. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1083_1",
+              "order": 1,
+              "text": "as if",
+              "value": "1596",
+              "is_correct": false
+            },
+            {
+              "id": "1083_2",
+              "order": 2,
+              "text": "of",
+              "value": "1597",
+              "is_correct": true
+            },
+            {
+              "id": "1083_3",
+              "order": 3,
+              "text": "how",
+              "value": "1598",
+              "is_correct": false
+            },
+            {
+              "id": "1083_4",
+              "order": 4,
+              "text": "like",
+              "value": "1599",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1084",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 He is ______ awful.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1084_1",
+              "order": 1,
+              "text": "looking",
+              "value": "1600",
+              "is_correct": false
+            },
+            {
+              "id": "1084_2",
+              "order": 2,
+              "text": "feeling",
+              "value": "1601",
+              "is_correct": true
+            },
+            {
+              "id": "1084_3",
+              "order": 3,
+              "text": "seeming",
+              "value": "1602",
+              "is_correct": false
+            },
+            {
+              "id": "1084_4",
+              "order": 4,
+              "text": "smelling",
+              "value": "1603",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1085",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 It ______ they've forgotten to add any salt or spices.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1085_1",
+              "order": 1,
+              "text": "'s tasting as if",
+              "value": "1604",
+              "is_correct": false
+            },
+            {
+              "id": "1085_2",
+              "order": 2,
+              "text": "tastes",
+              "value": "1605",
+              "is_correct": false
+            },
+            {
+              "id": "1085_3",
+              "order": 3,
+              "text": "tastes as if",
+              "value": "1606",
+              "is_correct": true
+            },
+            {
+              "id": "1085_4",
+              "order": 4,
+              "text": "'s tasting",
+              "value": "1607",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1086",
+          "order": 10,
+          "type": "multiple_choice",
+          "text": "10 It ______ he will finally get his wish. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1086_1",
+              "order": 1,
+              "text": "seems that",
+              "value": "1608",
+              "is_correct": true
+            },
+            {
+              "id": "1086_2",
+              "order": 2,
+              "text": "looks",
+              "value": "1609",
+              "is_correct": false
+            },
+            {
+              "id": "1086_3",
+              "order": 3,
+              "text": "looks as if",
+              "value": "1610",
+              "is_correct": true
+            },
+            {
+              "id": "1086_4",
+              "order": 4,
+              "text": "feels",
+              "value": "1611",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-131",
+      "lessonId": "b2_verbs_of_the_senses",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Rewrite the sentences using the words in brackets.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_verbs-of-the-senses_3.html",
+      "questions": [
+        {
+          "id": "1087",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I think the milk is off. It has a terrible taste. (tastes) ⇒ I think the milk is off. It {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1087_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "tastes terrible",
+              "accepted_answers": [
+                "tastes terrible"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1088",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Apparently, they escaped using help from the outside. (seem) ⇒ They {{gap1}} using help from the outside.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1088_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "seem to have escaped",
+              "accepted_answers": [
+                "seem to have escaped"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1089",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 According to a witness, a man was screaming and asking for help. (heard) ⇒ A witness {{gap1}} for help.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1089_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "heard a man screaming and asking",
+              "accepted_answers": [
+                "heard a man screaming and asking"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1090",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 They seem to be doing something about the conflict. (as if) ⇒ It {{gap1}} something about the conflict.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1090_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "seems as if they are doing",
+              "accepted_answers": [
+                "seems as if they are doing"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1091",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 There must be some cheese in the soup because the smell of cheese is evident. (smells) ⇒ There must be some cheese in the soup because it really {{gap1}} cheese.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1091_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "smells like",
+              "accepted_answers": [
+                "smells like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1092",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 We thought it was a good idea at the time. (seemed) ⇒ It {{gap1}} a good idea at the time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1092_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "seemed like",
+              "accepted_answers": [
+                "seemed like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1093",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 The player is so big that it seems that he is a man playing with little boys. (as though) ⇒ The player is so big that he looks {{gap1}} playing with little boys.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1093_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "as though he is a man",
+              "accepted_answers": [
+                "as though he is a man"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1094",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 According to someone, the judge accepted money from a defendant. (saw) ⇒ Someone {{gap1}} money from a defendant.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1094_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "saw the judge accept",
+              "accepted_answers": [
+                "saw the judge accept"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1095",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 The mattress is a bit too soft for my liking. (feels) ⇒ The mattress {{gap1}} for my liking.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1095_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "feels a bit too soft",
+              "accepted_answers": [
+                "feels a bit too soft"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1096",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Apparently, she has lost interest for him. (seems) ⇒ She {{gap1}} interest for him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1096_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "seems to have lost",
+              "accepted_answers": [
+                "seems to have lost"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1_both_either_neither",
+  "level": "B1",
+  "title": "Both, either, neither: Quantifiers",
+  "description": "Практический тест и правила по теме: Both, either, neither: Quantifiers",
+  "theory": {
+    "title": "Правила и грамматика: Both, either, neither: Quantifiers",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Both, either, neither: Quantifiers».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Both, either, neither: Quantifiers» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-610",
+      "lessonId": "b1_both_either_neither",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct forms of both, either, neither to complete the sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_both-either-neither.html",
+      "questions": [
+        {
+          "id": "5242",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Can {{gap1}} you or Lisa take me to the station?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5242_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "either",
+              "accepted_answers": [
+                "either"
+              ],
+              "options": [
+                {
+                  "id": "gap_5242_1_1",
+                  "order": 1,
+                  "text": "neither",
+                  "value": "neither",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5242_1_2",
+                  "order": 2,
+                  "text": "either",
+                  "value": "either",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5242_1_3",
+                  "order": 3,
+                  "text": "both",
+                  "value": "both",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5243",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 {{gap1}} of them could take me to the station, so I had to take a taxi.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5243_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Neither",
+              "accepted_answers": [
+                "Neither"
+              ],
+              "options": [
+                {
+                  "id": "gap_5243_1_1",
+                  "order": 1,
+                  "text": "Both",
+                  "value": "Both",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5243_1_2",
+                  "order": 2,
+                  "text": "Neither",
+                  "value": "Neither",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5243_1_3",
+                  "order": 3,
+                  "text": "Either",
+                  "value": "Either",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5239",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 A: Are you from Spain or from Italy? B: {{gap1}}. I'm from Portugal.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5239_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Neither",
+              "accepted_answers": [
+                "Neither"
+              ],
+              "options": [
+                {
+                  "id": "gap_5239_1_1",
+                  "order": 1,
+                  "text": "Either",
+                  "value": "Either",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5239_1_2",
+                  "order": 2,
+                  "text": "Both",
+                  "value": "Both",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5239_1_3",
+                  "order": 3,
+                  "text": "Neither",
+                  "value": "Neither",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5240",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 {{gap1}} can win this game.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5240_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Both of us",
+              "accepted_answers": [
+                "Both of us"
+              ],
+              "options": [
+                {
+                  "id": "gap_5240_1_1",
+                  "order": 1,
+                  "text": "The both of us",
+                  "value": "The both of us",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5240_1_2",
+                  "order": 2,
+                  "text": "Both of us",
+                  "value": "Both of us",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5240_1_3",
+                  "order": 3,
+                  "text": "Both us",
+                  "value": "Both us",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5241",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 With a tourist visa, you can {{gap1}} work nor study.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5241_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "neither",
+              "accepted_answers": [
+                "neither"
+              ],
+              "options": [
+                {
+                  "id": "gap_5241_1_1",
+                  "order": 1,
+                  "text": "both",
+                  "value": "both",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5241_1_2",
+                  "order": 2,
+                  "text": "either",
+                  "value": "either",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5241_1_3",
+                  "order": 3,
+                  "text": "neither",
+                  "value": "neither",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5244",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 He showed us two apartments but we didn't like {{gap1}} of them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5244_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "either",
+              "accepted_answers": [
+                "either"
+              ],
+              "options": [
+                {
+                  "id": "gap_5244_1_1",
+                  "order": 1,
+                  "text": "neither",
+                  "value": "neither",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5244_1_2",
+                  "order": 2,
+                  "text": "either",
+                  "value": "either",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5244_1_3",
+                  "order": 3,
+                  "text": "both",
+                  "value": "both",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5245",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 {{gap1}} John and Sara were invited.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5245_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Both",
+              "accepted_answers": [
+                "Both"
+              ],
+              "options": [
+                {
+                  "id": "gap_5245_1_1",
+                  "order": 1,
+                  "text": "Both",
+                  "value": "Both",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5245_1_2",
+                  "order": 2,
+                  "text": "Neither",
+                  "value": "Neither",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5245_1_3",
+                  "order": 3,
+                  "text": "Either",
+                  "value": "Either",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5246",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 The tennis game was fantastic. {{gap1}} players were great.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5246_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Both",
+              "accepted_answers": [
+                "Both"
+              ],
+              "options": [
+                {
+                  "id": "gap_5246_1_1",
+                  "order": 1,
+                  "text": "Neither",
+                  "value": "Neither",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5246_1_2",
+                  "order": 2,
+                  "text": "Either",
+                  "value": "Either",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5246_1_3",
+                  "order": 3,
+                  "text": "Both",
+                  "value": "Both",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5247",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 The match was really boring. {{gap1}} team played well.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5247_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Neither",
+              "accepted_answers": [
+                "Neither"
+              ],
+              "options": [
+                {
+                  "id": "gap_5247_1_1",
+                  "order": 1,
+                  "text": "Both",
+                  "value": "Both",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5247_1_2",
+                  "order": 2,
+                  "text": "Either",
+                  "value": "Either",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5247_1_3",
+                  "order": 3,
+                  "text": "Neither",
+                  "value": "Neither",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5248",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 You can choose {{gap1}} of those two presents. Which one do you prefer?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5248_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "either",
+              "accepted_answers": [
+                "either"
+              ],
+              "options": [
+                {
+                  "id": "gap_5248_1_1",
+                  "order": 1,
+                  "text": "both",
+                  "value": "both",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5248_1_2",
+                  "order": 2,
+                  "text": "either",
+                  "value": "either",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5248_1_3",
+                  "order": 3,
+                  "text": "neither",
+                  "value": "neither",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-611",
+      "lessonId": "b1_both_either_neither",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Use both, either, neither correctly to complete the sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_both-either-neither_2.html",
+      "questions": [
+        {
+          "id": "5249",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 You can _____ drive or take the train.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5249_1",
+              "order": 1,
+              "text": "both",
+              "value": "8189",
+              "is_correct": false
+            },
+            {
+              "id": "5249_2",
+              "order": 2,
+              "text": "either",
+              "value": "8190",
+              "is_correct": true
+            },
+            {
+              "id": "5249_3",
+              "order": 3,
+              "text": "neither",
+              "value": "8191",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5250",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 A: Are you at home or at work? B: _____. I'm in the car.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5250_1",
+              "order": 1,
+              "text": "Both",
+              "value": "8192",
+              "is_correct": false
+            },
+            {
+              "id": "5250_2",
+              "order": 2,
+              "text": "Either",
+              "value": "8193",
+              "is_correct": false
+            },
+            {
+              "id": "5250_3",
+              "order": 3,
+              "text": "Neither",
+              "value": "8194",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5251",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I don't know which film to watch. _____ must be very good.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5251_1",
+              "order": 1,
+              "text": "Both of them",
+              "value": "8195",
+              "is_correct": true
+            },
+            {
+              "id": "5251_2",
+              "order": 2,
+              "text": "The both",
+              "value": "8196",
+              "is_correct": false
+            },
+            {
+              "id": "5251_3",
+              "order": 3,
+              "text": "Both them",
+              "value": "8197",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5252",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I didn't like _____ of the films. Both of them were boring.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5252_1",
+              "order": 1,
+              "text": "both",
+              "value": "8198",
+              "is_correct": false
+            },
+            {
+              "id": "5252_2",
+              "order": 2,
+              "text": "either",
+              "value": "8199",
+              "is_correct": true
+            },
+            {
+              "id": "5252_3",
+              "order": 3,
+              "text": "neither",
+              "value": "8200",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5253",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 He was _____ handsome nor unattractive. He was average.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5253_1",
+              "order": 1,
+              "text": "both",
+              "value": "8201",
+              "is_correct": false
+            },
+            {
+              "id": "5253_2",
+              "order": 2,
+              "text": "either",
+              "value": "8202",
+              "is_correct": false
+            },
+            {
+              "id": "5253_3",
+              "order": 3,
+              "text": "neither",
+              "value": "8203",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5254",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 We can take _____ the train or the bus.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5254_1",
+              "order": 1,
+              "text": "both",
+              "value": "8204",
+              "is_correct": false
+            },
+            {
+              "id": "5254_2",
+              "order": 2,
+              "text": "either",
+              "value": "8205",
+              "is_correct": true
+            },
+            {
+              "id": "5254_3",
+              "order": 3,
+              "text": "neither",
+              "value": "8206",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5255",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 _____ my parents went to see the teacher.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5255_1",
+              "order": 1,
+              "text": "Both",
+              "value": "8207",
+              "is_correct": true
+            },
+            {
+              "id": "5255_2",
+              "order": 2,
+              "text": "Either",
+              "value": "8208",
+              "is_correct": false
+            },
+            {
+              "id": "5255_3",
+              "order": 3,
+              "text": "Neither",
+              "value": "8209",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5257",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 _____ my brother and I play football, but _____ of us play very well.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5257_1",
+              "order": 1,
+              "text": "Both / either",
+              "value": "8213",
+              "is_correct": false
+            },
+            {
+              "id": "5257_2",
+              "order": 2,
+              "text": "Both / neither",
+              "value": "8214",
+              "is_correct": true
+            },
+            {
+              "id": "5257_3",
+              "order": 3,
+              "text": "Either / both",
+              "value": "8215",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5258",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 _____ stay or go. It's your decision.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5258_1",
+              "order": 1,
+              "text": "Both",
+              "value": "8216",
+              "is_correct": false
+            },
+            {
+              "id": "5258_2",
+              "order": 2,
+              "text": "Either",
+              "value": "8217",
+              "is_correct": true
+            },
+            {
+              "id": "5258_3",
+              "order": 3,
+              "text": "Neither",
+              "value": "8218",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5259",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I don't want to go to _____ of those two pubs. Let's go home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5259_1",
+              "order": 1,
+              "text": "both",
+              "value": "8219",
+              "is_correct": false
+            },
+            {
+              "id": "5259_2",
+              "order": 2,
+              "text": "either",
+              "value": "8220",
+              "is_correct": true
+            },
+            {
+              "id": "5259_3",
+              "order": 3,
+              "text": "neither",
+              "value": "8221",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-612",
+      "lessonId": "b1_both_either_neither",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Write both/either/neither. Use of where necessary.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_both-either-neither_3.html",
+      "questions": [
+        {
+          "id": "5261",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 We'll arrive {{gap1}} on Friday night or Saturday morning.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5261_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "either",
+              "accepted_answers": [
+                "either"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5262",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 {{gap1}} the platforms have lots of apps.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5262_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Both of",
+              "accepted_answers": [
+                "Both of"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5263",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Tom and Kev were at the concert, but I didn't see {{gap1}} them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5263_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "either of",
+              "accepted_answers": [
+                "either of"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5265",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I've got {{gap1}} time nor money to go on holiday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5265_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "neither",
+              "accepted_answers": [
+                "neither"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5264",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 A: Did you eat the sandwich or the pizza? B: I ate {{gap1}}. I was really hungry.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5264_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "both",
+              "accepted_answers": [
+                "both"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5260",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 We've got two children, but {{gap1}} them lives with us any longer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5260_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "neither of",
+              "accepted_answers": [
+                "neither of"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5266",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Being a celebrity is something that she {{gap1}} loves and hates.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5266_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "both",
+              "accepted_answers": [
+                "both"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5267",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 You can't wear {{gap1}} those dresses. They don't suit you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5267_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "either of",
+              "accepted_answers": [
+                "either of"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5268",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 You can wear {{gap1}} those dresses. Choose the one you like better.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5268_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "either of",
+              "accepted_answers": [
+                "either of"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5269",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Fortunately, {{gap1}} Maria's parents was injured during the incident.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5269_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "neither of",
+              "accepted_answers": [
+                "neither of"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

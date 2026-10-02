@@ -1,0 +1,1187 @@
+{
+  "lesson_id": "a1_object_pronouns",
+  "level": "A1",
+  "title": "Object pronouns vs subject pronouns: Me or I, she or her?",
+  "description": "Практический тест и правила по теме: Object pronouns vs subject pronouns: Me or I, she or her?",
+  "theory": {
+    "title": "Правила и грамматика: Object pronouns vs subject pronouns: Me or I, she or her?",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Object pronouns vs subject pronouns: Me or I, she or her?».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Object pronouns vs subject pronouns: Me or I, she or her?» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-462",
+      "lessonId": "a1_object_pronouns",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct subject pronouns or object pronouns to complete the following sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_object-pronouns.html",
+      "questions": [
+        {
+          "id": "4031",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 What time can I call {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4031_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "him",
+              "accepted_answers": [
+                "him"
+              ],
+              "options": [
+                {
+                  "id": "gap_4031_1_1",
+                  "order": 1,
+                  "text": "him",
+                  "value": "him",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4031_1_2",
+                  "order": 2,
+                  "text": "he",
+                  "value": "he",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4035",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 {{gap1}} never listens to {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4035_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "He",
+              "accepted_answers": [
+                "He"
+              ],
+              "options": [
+                {
+                  "id": "gap_4035_1_1",
+                  "order": 1,
+                  "text": "Him",
+                  "value": "Him",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4035_1_2",
+                  "order": 2,
+                  "text": "He",
+                  "value": "He",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4035_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "us",
+              "accepted_answers": [
+                "us"
+              ],
+              "options": [
+                {
+                  "id": "gap_4035_2_1",
+                  "order": 1,
+                  "text": "us",
+                  "value": "us",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4035_2_2",
+                  "order": 2,
+                  "text": "we",
+                  "value": "we",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4036",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 'Do you like my new glasses?' 'Yes, {{gap1}} love {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4036_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "I",
+              "accepted_answers": [
+                "I"
+              ],
+              "options": [
+                {
+                  "id": "gap_4036_1_1",
+                  "order": 1,
+                  "text": "me",
+                  "value": "me",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4036_1_2",
+                  "order": 2,
+                  "text": "I",
+                  "value": "I",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4036_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": [
+                {
+                  "id": "gap_4036_2_1",
+                  "order": 1,
+                  "text": "them",
+                  "value": "them",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4036_2_2",
+                  "order": 2,
+                  "text": "they",
+                  "value": "they",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4036_2_3",
+                  "order": 3,
+                  "text": "it",
+                  "value": "it",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4037",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Tom loves his rabbits. {{gap1}} plays with {{gap2}} in the garden every day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4037_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "He",
+              "accepted_answers": [
+                "He"
+              ],
+              "options": [
+                {
+                  "id": "gap_4037_1_1",
+                  "order": 1,
+                  "text": "He",
+                  "value": "He",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4037_1_2",
+                  "order": 2,
+                  "text": "Him",
+                  "value": "Him",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4037_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": [
+                {
+                  "id": "gap_4037_2_1",
+                  "order": 1,
+                  "text": "them",
+                  "value": "them",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4037_2_2",
+                  "order": 2,
+                  "text": "they",
+                  "value": "they",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4038",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Please, call {{gap1}} soon; {{gap2}} am very worried.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4038_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "me",
+              "accepted_answers": [
+                "me"
+              ],
+              "options": [
+                {
+                  "id": "gap_4038_1_1",
+                  "order": 1,
+                  "text": "I",
+                  "value": "I",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4038_1_2",
+                  "order": 2,
+                  "text": "me",
+                  "value": "me",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4038_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "I",
+              "accepted_answers": [
+                "I"
+              ],
+              "options": [
+                {
+                  "id": "gap_4038_2_1",
+                  "order": 1,
+                  "text": "me",
+                  "value": "me",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4038_2_2",
+                  "order": 2,
+                  "text": "I",
+                  "value": "I",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4039",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Look, Sara and Kevin. Can you see {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4039_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": [
+                {
+                  "id": "gap_4039_1_1",
+                  "order": 1,
+                  "text": "they",
+                  "value": "they",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4039_1_2",
+                  "order": 2,
+                  "text": "you",
+                  "value": "you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4039_1_3",
+                  "order": 3,
+                  "text": "them",
+                  "value": "them",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4040",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Tell John that {{gap1}} can meet {{gap2}} at the canteen.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4040_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "he",
+              "accepted_answers": [
+                "he"
+              ],
+              "options": [
+                {
+                  "id": "gap_4040_1_1",
+                  "order": 1,
+                  "text": "him",
+                  "value": "him",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4040_1_2",
+                  "order": 2,
+                  "text": "he",
+                  "value": "he",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4040_1_3",
+                  "order": 3,
+                  "text": "she",
+                  "value": "she",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4040_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "us",
+              "accepted_answers": [
+                "us"
+              ],
+              "options": [
+                {
+                  "id": "gap_4040_2_1",
+                  "order": 1,
+                  "text": "they",
+                  "value": "they",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4040_2_2",
+                  "order": 2,
+                  "text": "us",
+                  "value": "us",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4040_2_3",
+                  "order": 3,
+                  "text": "we",
+                  "value": "we",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4041",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I like your earrings. Can {{gap1}} see {{gap2}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4041_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "I",
+              "accepted_answers": [
+                "I"
+              ],
+              "options": [
+                {
+                  "id": "gap_4041_1_1",
+                  "order": 1,
+                  "text": "I",
+                  "value": "I",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4041_1_2",
+                  "order": 2,
+                  "text": "me",
+                  "value": "me",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4041_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": [
+                {
+                  "id": "gap_4041_2_1",
+                  "order": 1,
+                  "text": "them",
+                  "value": "them",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4041_2_2",
+                  "order": 2,
+                  "text": "they",
+                  "value": "they",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4044",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Look at that man. Who is {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4044_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "he",
+              "accepted_answers": [
+                "he"
+              ],
+              "options": [
+                {
+                  "id": "gap_4044_1_1",
+                  "order": 1,
+                  "text": "he",
+                  "value": "he",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4044_1_2",
+                  "order": 2,
+                  "text": "him",
+                  "value": "him",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4045",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 That man over there is David. I work with {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4045_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "him",
+              "accepted_answers": [
+                "him"
+              ],
+              "options": [
+                {
+                  "id": "gap_4045_1_1",
+                  "order": 1,
+                  "text": "he",
+                  "value": "he",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4045_1_2",
+                  "order": 2,
+                  "text": "him",
+                  "value": "him",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4045_1_3",
+                  "order": 3,
+                  "text": "her",
+                  "value": "her",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-463",
+      "lessonId": "a1_object_pronouns",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Replace the underlined words with the correct subject pronouns or object pronouns.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_object-pronouns_2.html",
+      "questions": [
+        {
+          "id": "4032",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I can't find my keys. ⇒ I can't find {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4032_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4048",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Rachel helps the students. ⇒ {{gap1}} helps {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4048_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "She",
+              "accepted_answers": [
+                "She"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4048_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4056",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I need to tell John the truth. ⇒ I need to tell {{gap1}} the truth.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4056_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "him",
+              "accepted_answers": [
+                "him"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4053",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 My dad and I love chocolate. ⇒ {{gap1}} love {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4053_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "We",
+              "accepted_answers": [
+                "We"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4053_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4054",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Suzan and Tom call their daughter every day. ⇒ {{gap1}} call {{gap2}} every day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4054_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "They",
+              "accepted_answers": [
+                "They"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4054_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "her",
+              "accepted_answers": [
+                "her"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4058",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I like cooking for my children. ⇒ I like cooking for {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4058_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4055",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Give the documents to Carmen. ⇒ Give {{gap1}} to {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4055_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4055_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "her",
+              "accepted_answers": [
+                "her"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4057",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Tom often plays football with my friends and me. ⇒ {{gap1}} often plays football with {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4057_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "He",
+              "accepted_answers": [
+                "He"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4057_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "us",
+              "accepted_answers": [
+                "us"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4060",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 How old is Emma? ⇒ How old is {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4060_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "she",
+              "accepted_answers": [
+                "she"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4059",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I need the scissors to cut the paper. ⇒ I need {{gap1}} to cut {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4059_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4059_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-464",
+      "lessonId": "a1_object_pronouns",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences using the correct subject pronouns or object pronouns.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_object-pronouns_3.html",
+      "questions": [
+        {
+          "id": "4033",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I'm not dangerous. Don't be afraid of {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4033_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "me",
+              "accepted_answers": [
+                "me"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4034",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 I don't like this music; {{gap1}} is boring. Can you stop {{gap2}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4034_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4034_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4042",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 That's my money. Can you give {{gap1}} to {{gap2}}? I need it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4042_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4042_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "me",
+              "accepted_answers": [
+                "me"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4043",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Susan is in trouble and {{gap1}} needs help. We have to help {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4043_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "she",
+              "accepted_answers": [
+                "she"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4043_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "her",
+              "accepted_answers": [
+                "her"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4046",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Jack is very special. I think I'm in love with {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4046_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "him",
+              "accepted_answers": [
+                "him"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4047",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 We are going to the cinema. Do you want to come with {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4047_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "us",
+              "accepted_answers": [
+                "us"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4049",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 I don't want to eat this cheese. {{gap1}} smells horrible.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4049_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4050",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Don't eat cookies. {{gap1}} are very unhealthy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4050_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "They",
+              "accepted_answers": [
+                "They"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4051",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I can't find Sally. Where is {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4051_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "she",
+              "accepted_answers": [
+                "she"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4052",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 {{gap1}} need help. Can you help us?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4052_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "We",
+              "accepted_answers": [
+                "We"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

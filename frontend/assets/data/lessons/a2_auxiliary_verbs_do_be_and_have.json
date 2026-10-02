@@ -1,0 +1,1137 @@
+{
+  "lesson_id": "a2_auxiliary_verbs_do_be_and_have",
+  "level": "A2",
+  "title": "Auxiliary verbs: do, be and have",
+  "description": "Практический тест и правила по теме: Auxiliary verbs: do, be and have",
+  "theory": {
+    "title": "Правила и грамматика: Auxiliary verbs: do, be and have",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Auxiliary verbs: do, be and have».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Auxiliary verbs: do, be and have» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-1508",
+      "lessonId": "a2_auxiliary_verbs_do_be_and_have",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct forms of to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_auxiliary-verbs-do-be-and-have.html",
+      "questions": [
+        {
+          "id": "12913",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Why {{gap1}} you working so late tonight?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12913_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": [
+                {
+                  "id": "gap_12913_1_1",
+                  "order": 1,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12913_1_2",
+                  "order": 2,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12913_1_3",
+                  "order": 3,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12914",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 The emails {{gap1}} sent yesterday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12914_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": [
+                {
+                  "id": "gap_12914_1_1",
+                  "order": 1,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12914_1_2",
+                  "order": 2,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12914_1_3",
+                  "order": 3,
+                  "text": "did",
+                  "value": "did",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12915",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 {{gap1}} she finished the report yet?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12915_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Has",
+              "accepted_answers": [
+                "Has"
+              ],
+              "options": [
+                {
+                  "id": "gap_12915_1_1",
+                  "order": 1,
+                  "text": "Has",
+                  "value": "Has",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12915_1_2",
+                  "order": 2,
+                  "text": "Does",
+                  "value": "Does",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12915_1_3",
+                  "order": 3,
+                  "text": "Is",
+                  "value": "Is",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12916",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 They {{gap1}} watching the match when I called.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12916_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": [
+                {
+                  "id": "gap_12916_1_1",
+                  "order": 1,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12916_1_2",
+                  "order": 2,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12916_1_3",
+                  "order": 3,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12917",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 The windows {{gap1}} cleaned every week.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12917_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": [
+                {
+                  "id": "gap_12917_1_1",
+                  "order": 1,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12917_1_2",
+                  "order": 2,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12917_1_3",
+                  "order": 3,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12918",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 {{gap1}} they invited to the wedding?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12918_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Were",
+              "accepted_answers": [
+                "Were"
+              ],
+              "options": [
+                {
+                  "id": "gap_12918_1_1",
+                  "order": 1,
+                  "text": "Were",
+                  "value": "Were",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12918_1_2",
+                  "order": 2,
+                  "text": "Have",
+                  "value": "Have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12918_1_3",
+                  "order": 3,
+                  "text": "Did",
+                  "value": "Did",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12919",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 He {{gap1}} completed the course yet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12919_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "hasn't",
+              "accepted_answers": [
+                "hasn't"
+              ],
+              "options": [
+                {
+                  "id": "gap_12919_1_1",
+                  "order": 1,
+                  "text": "isn't",
+                  "value": "isn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12919_1_2",
+                  "order": 2,
+                  "text": "didn't",
+                  "value": "didn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12919_1_3",
+                  "order": 3,
+                  "text": "hasn't",
+                  "value": "hasn't",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12920",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 What {{gap1}} you doing at 9 o'clock last night?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12920_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": [
+                {
+                  "id": "gap_12920_1_1",
+                  "order": 1,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12920_1_2",
+                  "order": 2,
+                  "text": "did",
+                  "value": "did",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12920_1_3",
+                  "order": 3,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12921",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 The documents {{gap1}} signed by the manager.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12921_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": [
+                {
+                  "id": "gap_12921_1_1",
+                  "order": 1,
+                  "text": "did",
+                  "value": "did",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12921_1_2",
+                  "order": 2,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12921_1_3",
+                  "order": 3,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12922",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 {{gap1}} you ever visited Scotland?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12922_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Have",
+              "accepted_answers": [
+                "Have"
+              ],
+              "options": [
+                {
+                  "id": "gap_12922_1_1",
+                  "order": 1,
+                  "text": "Do",
+                  "value": "Do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12922_1_2",
+                  "order": 2,
+                  "text": "Have",
+                  "value": "Have",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12922_1_3",
+                  "order": 3,
+                  "text": "Are",
+                  "value": "Are",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-1509",
+      "lessonId": "a2_auxiliary_verbs_do_be_and_have",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct form for each gap below",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_auxiliary-verbs-do-be-and-have_2.html",
+      "questions": [
+        {
+          "id": "12923",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Tom ___ already left the office.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12923_1",
+              "order": 1,
+              "text": "has",
+              "value": "24820",
+              "is_correct": true
+            },
+            {
+              "id": "12923_2",
+              "order": 2,
+              "text": "is",
+              "value": "24821",
+              "is_correct": false
+            },
+            {
+              "id": "12923_3",
+              "order": 3,
+              "text": "does",
+              "value": "24822",
+              "is_correct": false
+            },
+            {
+              "id": "12923_4",
+              "order": 4,
+              "text": "was",
+              "value": "24823",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "12924",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 The cake ___ made this morning.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12924_1",
+              "order": 1,
+              "text": "did",
+              "value": "24824",
+              "is_correct": false
+            },
+            {
+              "id": "12924_2",
+              "order": 2,
+              "text": "has",
+              "value": "24825",
+              "is_correct": false
+            },
+            {
+              "id": "12924_3",
+              "order": 3,
+              "text": "was",
+              "value": "24826",
+              "is_correct": true
+            },
+            {
+              "id": "12924_4",
+              "order": 4,
+              "text": "is",
+              "value": "24827",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "12925",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Let them play. They ___ doing anything wrong.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12925_1",
+              "order": 1,
+              "text": "hadn't",
+              "value": "24828",
+              "is_correct": false
+            },
+            {
+              "id": "12925_2",
+              "order": 2,
+              "text": "don't",
+              "value": "24829",
+              "is_correct": false
+            },
+            {
+              "id": "12925_3",
+              "order": 3,
+              "text": "haven't",
+              "value": "24830",
+              "is_correct": false
+            },
+            {
+              "id": "12925_4",
+              "order": 4,
+              "text": "aren't",
+              "value": "24831",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "12926",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 We ___ waiting for you when you called.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12926_1",
+              "order": 1,
+              "text": "are",
+              "value": "24832",
+              "is_correct": false
+            },
+            {
+              "id": "12926_2",
+              "order": 2,
+              "text": "have",
+              "value": "24833",
+              "is_correct": false
+            },
+            {
+              "id": "12926_3",
+              "order": 3,
+              "text": "were",
+              "value": "24834",
+              "is_correct": true
+            },
+            {
+              "id": "12926_4",
+              "order": 4,
+              "text": "did",
+              "value": "24835",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "12927",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 The results ___ announced on the radio.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12927_1",
+              "order": 1,
+              "text": "are",
+              "value": "24836",
+              "is_correct": false
+            },
+            {
+              "id": "12927_2",
+              "order": 2,
+              "text": "have",
+              "value": "24837",
+              "is_correct": false
+            },
+            {
+              "id": "12927_3",
+              "order": 3,
+              "text": "did",
+              "value": "24838",
+              "is_correct": false
+            },
+            {
+              "id": "12927_4",
+              "order": 4,
+              "text": "were",
+              "value": "24839",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "12928",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 ___ she ever tried sushi?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12928_1",
+              "order": 1,
+              "text": "Has",
+              "value": "24840",
+              "is_correct": true
+            },
+            {
+              "id": "12928_2",
+              "order": 2,
+              "text": "Is",
+              "value": "24841",
+              "is_correct": false
+            },
+            {
+              "id": "12928_3",
+              "order": 3,
+              "text": "Does",
+              "value": "24842",
+              "is_correct": false
+            },
+            {
+              "id": "12928_4",
+              "order": 4,
+              "text": "Did",
+              "value": "24843",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "12929",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 The lights ___ turned off last night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12929_1",
+              "order": 1,
+              "text": "have",
+              "value": "24844",
+              "is_correct": false
+            },
+            {
+              "id": "12929_2",
+              "order": 2,
+              "text": "were",
+              "value": "24845",
+              "is_correct": true
+            },
+            {
+              "id": "12929_3",
+              "order": 3,
+              "text": "are",
+              "value": "24846",
+              "is_correct": false
+            },
+            {
+              "id": "12929_4",
+              "order": 4,
+              "text": "did",
+              "value": "24847",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "12930",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 At 8 p.m., I ___ still working.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12930_1",
+              "order": 1,
+              "text": "have",
+              "value": "24848",
+              "is_correct": false
+            },
+            {
+              "id": "12930_2",
+              "order": 2,
+              "text": "was",
+              "value": "24849",
+              "is_correct": true
+            },
+            {
+              "id": "12930_3",
+              "order": 3,
+              "text": "am",
+              "value": "24850",
+              "is_correct": false
+            },
+            {
+              "id": "12930_4",
+              "order": 4,
+              "text": "did",
+              "value": "24851",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "12931",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 They ___ not completed the task yet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12931_1",
+              "order": 1,
+              "text": "were",
+              "value": "24852",
+              "is_correct": false
+            },
+            {
+              "id": "12931_2",
+              "order": 2,
+              "text": "are",
+              "value": "24853",
+              "is_correct": false
+            },
+            {
+              "id": "12931_3",
+              "order": 3,
+              "text": "did",
+              "value": "24854",
+              "is_correct": false
+            },
+            {
+              "id": "12931_4",
+              "order": 4,
+              "text": "have",
+              "value": "24855",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "12932",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 The museum ___ closed today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12932_1",
+              "order": 1,
+              "text": "isn't",
+              "value": "24856",
+              "is_correct": true
+            },
+            {
+              "id": "12932_2",
+              "order": 2,
+              "text": "hasn't",
+              "value": "24857",
+              "is_correct": false
+            },
+            {
+              "id": "12932_3",
+              "order": 3,
+              "text": "didn't",
+              "value": "24858",
+              "is_correct": false
+            },
+            {
+              "id": "12932_4",
+              "order": 4,
+              "text": "wasn't",
+              "value": "24859",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-1510",
+      "lessonId": "a2_auxiliary_verbs_do_be_and_have",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete each sentence with a verb from the box in the correct form.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_auxiliary-verbs-do-be-and-have_3.html",
+      "questions": [
+        {
+          "id": "12933",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 We can't play outside. It's {{gap1}} again.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12933_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "raining",
+              "accepted_answers": [
+                "raining"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12934",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Why are you so upset? Have you {{gap1}} your keys?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12934_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "lost",
+              "accepted_answers": [
+                "lost"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12935",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 The windows were {{gap1}} during the storm.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12935_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "broken",
+              "accepted_answers": [
+                "broken"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12936",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 She was {{gap1}} home when the accident happened.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12936_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "driving",
+              "accepted_answers": [
+                "driving"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12937",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Mandarin is {{gap1}} by over a billion people worldwide.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12937_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "spoken",
+              "accepted_answers": [
+                "spoken"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12938",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I don't {{gap1}} what you mean.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12938_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "understand",
+              "accepted_answers": [
+                "understand"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12939",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 They have already {{gap1}} the email.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12939_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "sent",
+              "accepted_answers": [
+                "sent"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12940",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 When we arrived, the guests were {{gap1}} dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12940_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "having",
+              "accepted_answers": [
+                "having"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12941",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 The computer is working again. It was {{gap1}} yesterday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12941_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "repaired",
+              "accepted_answers": [
+                "repaired"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12942",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Have you ever {{gap1}} late for an important meeting?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12942_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "been",
+              "accepted_answers": [
+                "been"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,847 @@
+{
+  "lesson_id": "a1_have_got",
+  "level": "A1",
+  "title": "Have got",
+  "description": "Практический тест и правила по теме: Have got",
+  "theory": {
+    "title": "Правила и грамматика: Have got",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Have got».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Have got» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-598",
+      "lessonId": "a1_have_got",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct verb forms to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_have-got.html",
+      "questions": [
+        {
+          "id": "5119",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 _____ a pen?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5119_1",
+              "order": 1,
+              "text": "Do you have got",
+              "value": "8069",
+              "is_correct": false
+            },
+            {
+              "id": "5119_2",
+              "order": 2,
+              "text": "Have you got",
+              "value": "8070",
+              "is_correct": true
+            },
+            {
+              "id": "5119_3",
+              "order": 3,
+              "text": "You have got",
+              "value": "8071",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5120",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 They _____ any children.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5120_1",
+              "order": 1,
+              "text": "don't have got",
+              "value": "8072",
+              "is_correct": false
+            },
+            {
+              "id": "5120_2",
+              "order": 2,
+              "text": "don't got",
+              "value": "8073",
+              "is_correct": false
+            },
+            {
+              "id": "5120_3",
+              "order": 3,
+              "text": "haven't got",
+              "value": "8074",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5121",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 A: 'Have you got a car?' B: 'Yes, I _____.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5121_1",
+              "order": 1,
+              "text": "have",
+              "value": "8075",
+              "is_correct": true
+            },
+            {
+              "id": "5121_2",
+              "order": 2,
+              "text": "do",
+              "value": "8076",
+              "is_correct": false
+            },
+            {
+              "id": "5121_3",
+              "order": 3,
+              "text": "'ve got",
+              "value": "8077",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5122",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 When we were kids, we _____ many toys.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5122_1",
+              "order": 1,
+              "text": "hadn't got",
+              "value": "8078",
+              "is_correct": false
+            },
+            {
+              "id": "5122_2",
+              "order": 2,
+              "text": "didn't have",
+              "value": "8079",
+              "is_correct": true
+            },
+            {
+              "id": "5122_3",
+              "order": 3,
+              "text": "hadn't",
+              "value": "8080",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5123",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 He ____ a very nice family.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5123_1",
+              "order": 1,
+              "text": "'s got",
+              "value": "8081",
+              "is_correct": true
+            },
+            {
+              "id": "5123_2",
+              "order": 2,
+              "text": "have got",
+              "value": "8082",
+              "is_correct": false
+            },
+            {
+              "id": "5123_3",
+              "order": 3,
+              "text": "'ve got",
+              "value": "8083",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5125",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 There is a door here. _____ the key?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5125_1",
+              "order": 1,
+              "text": "Have you got",
+              "value": "8087",
+              "is_correct": true
+            },
+            {
+              "id": "5125_2",
+              "order": 2,
+              "text": "Do you got",
+              "value": "8088",
+              "is_correct": false
+            },
+            {
+              "id": "5125_3",
+              "order": 3,
+              "text": "Do you have got",
+              "value": "8089",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5126",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 They _____ two cats and two dogs.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5126_1",
+              "order": 1,
+              "text": "has got",
+              "value": "8090",
+              "is_correct": false
+            },
+            {
+              "id": "5126_2",
+              "order": 2,
+              "text": "'ve",
+              "value": "8091",
+              "is_correct": false
+            },
+            {
+              "id": "5126_3",
+              "order": 3,
+              "text": "'ve got",
+              "value": "8092",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5124",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 _____ a question?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5124_1",
+              "order": 1,
+              "text": "Have you",
+              "value": "8084",
+              "is_correct": false
+            },
+            {
+              "id": "5124_2",
+              "order": 2,
+              "text": "Do you have got",
+              "value": "8085",
+              "is_correct": false
+            },
+            {
+              "id": "5124_3",
+              "order": 3,
+              "text": "Do you have",
+              "value": "8086",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5127",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I _____ the answer to your question.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5127_1",
+              "order": 1,
+              "text": "haven't",
+              "value": "8093",
+              "is_correct": false
+            },
+            {
+              "id": "5127_2",
+              "order": 2,
+              "text": "don't have got",
+              "value": "8094",
+              "is_correct": false
+            },
+            {
+              "id": "5127_3",
+              "order": 3,
+              "text": "haven't got",
+              "value": "8095",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5128",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I _____ a lot of money at the moment.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5128_1",
+              "order": 1,
+              "text": "don't have got",
+              "value": "8096",
+              "is_correct": false
+            },
+            {
+              "id": "5128_2",
+              "order": 2,
+              "text": "don't have",
+              "value": "8097",
+              "is_correct": true
+            },
+            {
+              "id": "5128_3",
+              "order": 3,
+              "text": "haven't",
+              "value": "8098",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-599",
+      "lessonId": "a1_have_got",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Transform these sentences using the verb have got like in the example below. Use short forms when possible: ‘ve got, ‘s got, haven’t got, hasn’t got.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_have-got_2.html",
+      "questions": [
+        {
+          "id": "5129",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I have a new computer. ⇒ I {{gap1}} a new computer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5129_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'ve got",
+              "accepted_answers": [
+                "'ve got"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5130",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Do you have a new profile photo? ⇒ {{gap1}} a new profile photo?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5130_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Have you got",
+              "accepted_answers": [
+                "Have you got"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5131",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 She has blonde hair and blue eyes. ⇒ She {{gap1}} blonde hair and blue eyes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5131_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'s got",
+              "accepted_answers": [
+                "'s got"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5132",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I don't have a Twitter account. ⇒ I {{gap1}} a Twitter account.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5132_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "haven't got",
+              "accepted_answers": [
+                "haven't got"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5133",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 She doesn't have any money. ⇒ She {{gap1}} any money.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5133_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "hasn't got",
+              "accepted_answers": [
+                "hasn't got"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5134",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 A: Do you have a laptop? B: Yes, I do. ⇒ A: Have you got a laptop? B: Yes, I {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5134_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have",
+              "accepted_answers": [
+                "have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5135",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 They have a lot of Youtube fans. ⇒ They {{gap1}} a lot of Youtube fans.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5135_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'ve got",
+              "accepted_answers": [
+                "'ve got"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5136",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 He doesn't have any interest in science. ⇒ He {{gap1}} any interest in science.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5136_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "hasn't got",
+              "accepted_answers": [
+                "hasn't got"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5137",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Does she have a sister? ⇒ {{gap1}} a sister?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5137_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Has she got",
+              "accepted_answers": [
+                "Has she got"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5138",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I have a terrible headache. ⇒ I {{gap1}} a terrible headache.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5138_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'ve got",
+              "accepted_answers": [
+                "'ve got"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-600",
+      "lessonId": "a1_have_got",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Change the following sentences or questons into the past tense.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_have-got_3.html",
+      "questions": [
+        {
+          "id": "5139",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 He's got a girlfriend. ⇒ He {{gap1}} a girlfriend.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5139_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had",
+              "accepted_answers": [
+                "had"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5140",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 They haven't got any problems. ⇒ They {{gap1}} any problems.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5140_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't have",
+              "accepted_answers": [
+                "didn't have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5141",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Have you got a pen? ⇒ {{gap1}} a pen?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5141_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Did you have",
+              "accepted_answers": [
+                "Did you have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5142",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 She hasn't got a sister. ⇒ She {{gap1}} a sister.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5142_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't have",
+              "accepted_answers": [
+                "didn't have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5143",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 He's got an exam. ⇒ He {{gap1}} an exam.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5143_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had",
+              "accepted_answers": [
+                "had"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5144",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Has she got a cold? ⇒ {{gap1}} a cold?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5144_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Did she have",
+              "accepted_answers": [
+                "Did she have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5145",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Have you got a headache? ⇒ {{gap1}} a headache?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5145_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Did you have",
+              "accepted_answers": [
+                "Did you have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5146",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 I haven't got time. ⇒ I {{gap1}} time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5146_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't have",
+              "accepted_answers": [
+                "didn't have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5147",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 She's got a nice smile. ⇒ She {{gap1}} a nice smile.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5147_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had",
+              "accepted_answers": [
+                "had"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5148",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 He hasn't got much experience. ⇒ He {{gap1}} much experience.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5148_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't have",
+              "accepted_answers": [
+                "didn't have"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

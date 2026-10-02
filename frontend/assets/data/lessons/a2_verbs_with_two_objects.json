@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "a2_verbs_with_two_objects",
+  "level": "A2",
+  "title": "Verbs with two objects",
+  "description": "Практический тест и правила по теме: Verbs with two objects",
+  "theory": {
+    "title": "Правила и грамматика: Verbs with two objects",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Verbs with two objects».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Verbs with two objects» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-721",
+      "lessonId": "a2_verbs_with_two_objects",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct options to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_verbs-with-two-objects.html",
+      "questions": [
+        {
+          "id": "6170",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I sent {{gap1}} a postcard.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6170_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "him",
+              "accepted_answers": [
+                "him"
+              ],
+              "options": [
+                {
+                  "id": "gap_6170_1_1",
+                  "order": 1,
+                  "text": "him",
+                  "value": "him",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6170_1_2",
+                  "order": 2,
+                  "text": "for her",
+                  "value": "for her",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6170_1_3",
+                  "order": 3,
+                  "text": "to me",
+                  "value": "to me",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6171",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I wrote a letter {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6171_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to him",
+              "accepted_answers": [
+                "to him"
+              ],
+              "options": [
+                {
+                  "id": "gap_6171_1_1",
+                  "order": 1,
+                  "text": "to him",
+                  "value": "to him",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6171_1_2",
+                  "order": 2,
+                  "text": "for him",
+                  "value": "for him",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6171_1_3",
+                  "order": 3,
+                  "text": "him",
+                  "value": "him",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6172",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Have you brought {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6172_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "me a cake",
+              "accepted_answers": [
+                "me a cake"
+              ],
+              "options": [
+                {
+                  "id": "gap_6172_1_1",
+                  "order": 1,
+                  "text": "me a cake",
+                  "value": "me a cake",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6172_1_2",
+                  "order": 2,
+                  "text": "a cake me",
+                  "value": "a cake me",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6172_1_3",
+                  "order": 3,
+                  "text": "a cake to me",
+                  "value": "a cake to me",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6173",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 They offered {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6173_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "me a discount",
+              "accepted_answers": [
+                "me a discount"
+              ],
+              "options": [
+                {
+                  "id": "gap_6173_1_1",
+                  "order": 1,
+                  "text": "to me a discount",
+                  "value": "to me a discount",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6173_1_2",
+                  "order": 2,
+                  "text": "me a discount",
+                  "value": "me a discount",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6173_1_3",
+                  "order": 3,
+                  "text": "a discount me",
+                  "value": "a discount me",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6174",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Pass {{gap1}}, please.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6174_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "our guest the biscuits",
+              "accepted_answers": [
+                "our guest the biscuits"
+              ],
+              "options": [
+                {
+                  "id": "gap_6174_1_1",
+                  "order": 1,
+                  "text": "our guest the biscuits",
+                  "value": "our guest the biscuits",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6174_1_2",
+                  "order": 2,
+                  "text": "the biscuits our guest",
+                  "value": "the biscuits our guest",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6174_1_3",
+                  "order": 3,
+                  "text": "to our guest the biscuits",
+                  "value": "to our guest the biscuits",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6175",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 She made {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6175_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a bracelet for her sister",
+              "accepted_answers": [
+                "a bracelet for her sister"
+              ],
+              "options": [
+                {
+                  "id": "gap_6175_1_1",
+                  "order": 1,
+                  "text": "a bracelet for her sister",
+                  "value": "a bracelet for her sister",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6175_1_2",
+                  "order": 2,
+                  "text": "a bracelet to her sister",
+                  "value": "a bracelet to her sister",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6175_1_3",
+                  "order": 3,
+                  "text": "to her sister a bracelet",
+                  "value": "to her sister a bracelet",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6176",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 She taught {{gap1}} a lesson.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6176_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "me",
+              "accepted_answers": [
+                "me"
+              ],
+              "options": [
+                {
+                  "id": "gap_6176_1_1",
+                  "order": 1,
+                  "text": "me",
+                  "value": "me",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6176_1_2",
+                  "order": 2,
+                  "text": "to me",
+                  "value": "to me",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6176_1_3",
+                  "order": 3,
+                  "text": "for me",
+                  "value": "for me",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6177",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I cooked {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6177_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "some pasta for the children",
+              "accepted_answers": [
+                "some pasta for the children"
+              ],
+              "options": [
+                {
+                  "id": "gap_6177_1_1",
+                  "order": 1,
+                  "text": "some pasta for the children",
+                  "value": "some pasta for the children",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6177_1_2",
+                  "order": 2,
+                  "text": "for the children some pasta",
+                  "value": "for the children some pasta",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6177_1_3",
+                  "order": 3,
+                  "text": "some pasta to the children",
+                  "value": "some pasta to the children",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6178",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I never lend {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6178_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "anyone money",
+              "accepted_answers": [
+                "anyone money"
+              ],
+              "options": [
+                {
+                  "id": "gap_6178_1_1",
+                  "order": 1,
+                  "text": "money anyone",
+                  "value": "money anyone",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6178_1_2",
+                  "order": 2,
+                  "text": "anyone money",
+                  "value": "anyone money",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6178_1_3",
+                  "order": 3,
+                  "text": "to anyone money",
+                  "value": "to anyone money",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6179",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 If you have any questions, give {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6179_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "me a call",
+              "accepted_answers": [
+                "me a call"
+              ],
+              "options": [
+                {
+                  "id": "gap_6179_1_1",
+                  "order": 1,
+                  "text": "to me a call",
+                  "value": "to me a call",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6179_1_2",
+                  "order": 2,
+                  "text": "me a call",
+                  "value": "me a call",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6179_1_3",
+                  "order": 3,
+                  "text": "a call me",
+                  "value": "a call me",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-722",
+      "lessonId": "a2_verbs_with_two_objects",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct options to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_verbs-with-two-objects_2.html",
+      "questions": [
+        {
+          "id": "6180",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 He showed _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6180_1",
+              "order": 1,
+              "text": "the police a video of the robbers.",
+              "value": "10558",
+              "is_correct": true
+            },
+            {
+              "id": "6180_2",
+              "order": 2,
+              "text": "to the police a video of the robbers.",
+              "value": "10559",
+              "is_correct": false
+            },
+            {
+              "id": "6180_3",
+              "order": 3,
+              "text": "a video of the robbers for the police",
+              "value": "10560",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6181",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 They promised _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6181_1",
+              "order": 1,
+              "text": "to their daughter a new car",
+              "value": "10561",
+              "is_correct": false
+            },
+            {
+              "id": "6181_2",
+              "order": 2,
+              "text": "a new car their daughter",
+              "value": "10562",
+              "is_correct": false
+            },
+            {
+              "id": "6181_3",
+              "order": 3,
+              "text": "their daughter a new car",
+              "value": "10563",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6182",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 We should get ______ for her birthday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6182_1",
+              "order": 1,
+              "text": "her a present",
+              "value": "10564",
+              "is_correct": true
+            },
+            {
+              "id": "6182_2",
+              "order": 2,
+              "text": "a present her",
+              "value": "10565",
+              "is_correct": false
+            },
+            {
+              "id": "6182_3",
+              "order": 3,
+              "text": "for her a present",
+              "value": "10566",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6183",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 They found _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6183_1",
+              "order": 1,
+              "text": "a place to stay me",
+              "value": "10567",
+              "is_correct": false
+            },
+            {
+              "id": "6183_2",
+              "order": 2,
+              "text": "me a place to stay",
+              "value": "10568",
+              "is_correct": true
+            },
+            {
+              "id": "6183_3",
+              "order": 3,
+              "text": "to me a place to stay",
+              "value": "10569",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6184",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 She gave ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6184_1",
+              "order": 1,
+              "text": "to the waiter a generous tip",
+              "value": "10570",
+              "is_correct": false
+            },
+            {
+              "id": "6184_2",
+              "order": 2,
+              "text": "the waiter a generous tip",
+              "value": "10571",
+              "is_correct": true
+            },
+            {
+              "id": "6184_3",
+              "order": 3,
+              "text": "a generous tip the waiter",
+              "value": "10572",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6185",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 You should tell _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6185_1",
+              "order": 1,
+              "text": "to the police the truth",
+              "value": "10573",
+              "is_correct": false
+            },
+            {
+              "id": "6185_2",
+              "order": 2,
+              "text": "the police the truth",
+              "value": "10574",
+              "is_correct": true
+            },
+            {
+              "id": "6185_3",
+              "order": 3,
+              "text": "the truth for the police",
+              "value": "10575",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6186",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 He reads _____ every night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6186_1",
+              "order": 1,
+              "text": "them a story",
+              "value": "10576",
+              "is_correct": true
+            },
+            {
+              "id": "6186_2",
+              "order": 2,
+              "text": "to them a story",
+              "value": "10577",
+              "is_correct": false
+            },
+            {
+              "id": "6186_3",
+              "order": 3,
+              "text": "a story them",
+              "value": "10578",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6187",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 She brought _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6187_1",
+              "order": 1,
+              "text": "a cake me",
+              "value": "10579",
+              "is_correct": false
+            },
+            {
+              "id": "6187_2",
+              "order": 2,
+              "text": "for me a cake",
+              "value": "10580",
+              "is_correct": false
+            },
+            {
+              "id": "6187_3",
+              "order": 3,
+              "text": "a cake for me",
+              "value": "10581",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6188",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 He has offered _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6188_1",
+              "order": 1,
+              "text": "to his brother a job",
+              "value": "10582",
+              "is_correct": false
+            },
+            {
+              "id": "6188_2",
+              "order": 2,
+              "text": "a job his brother",
+              "value": "10583",
+              "is_correct": false
+            },
+            {
+              "id": "6188_3",
+              "order": 3,
+              "text": "a job to his brother",
+              "value": "10584",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6189",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Send _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6189_1",
+              "order": 1,
+              "text": "a copy them",
+              "value": "10585",
+              "is_correct": false
+            },
+            {
+              "id": "6189_2",
+              "order": 2,
+              "text": "to them a copy",
+              "value": "10586",
+              "is_correct": false
+            },
+            {
+              "id": "6189_3",
+              "order": 3,
+              "text": "them a copy",
+              "value": "10587",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-723",
+      "lessonId": "a2_verbs_with_two_objects",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Rewrite these sentences using the structure verb + direct object + to or for + indirect object.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_verbs-with-two-objects_3.html",
+      "questions": [
+        {
+          "id": "6197",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 She wrote her father a long email. ⇒ She wrote {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6197_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a long email to her father",
+              "accepted_answers": [
+                "a long email to her father"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6193",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Did you buy the children a present? ⇒ Did you buy {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6193_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a present for the children",
+              "accepted_answers": [
+                "a present for the children"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6190",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 He gave the clerk his card. ⇒ He gave {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6190_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "his card to the clerk",
+              "accepted_answers": [
+                "his card to the clerk"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6191",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I offered the police officer a drink. ⇒ I offered {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6191_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a drink to the police officer",
+              "accepted_answers": [
+                "a drink to the police officer"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6192",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 I made my wife a cake. ⇒ I made {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6192_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a cake for my wife",
+              "accepted_answers": [
+                "a cake for my wife"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6195",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 He sold his neighbour his apartment. ⇒ He sold {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6195_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "his apartment to his neighbour",
+              "accepted_answers": [
+                "his apartment to his neighbour"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6196",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 He lent me some money. ⇒ He lent {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6196_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "some money to me",
+              "accepted_answers": [
+                "some money to me"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6194",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 She sent her sister a letter. ⇒ She sent {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6194_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a letter to her sister",
+              "accepted_answers": [
+                "a letter to her sister"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6198",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 She read the audience a message. ⇒ She read {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6198_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a message to the audience",
+              "accepted_answers": [
+                "a message to the audience"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6199",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 He showed the doctor his arm. ⇒ He showed {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6199_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "his arm to the doctor",
+              "accepted_answers": [
+                "his arm to the doctor"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

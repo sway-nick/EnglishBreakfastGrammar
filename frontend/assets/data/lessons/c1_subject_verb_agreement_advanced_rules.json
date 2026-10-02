@@ -1,0 +1,969 @@
+{
+  "lesson_id": "c1_subject_verb_agreement_advanced_rules",
+  "level": "C1",
+  "title": "Subject–verb agreement: Advanced rules",
+  "description": "Практический тест и правила по теме: Subject–verb agreement: Advanced rules",
+  "theory": {
+    "title": "Правила и грамматика: Subject–verb agreement: Advanced rules",
+    "level": "C1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Subject–verb agreement: Advanced rules».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Subject–verb agreement: Advanced rules» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-1617",
+      "lessonId": "c1_subject_verb_agreement_advanced_rules",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct verb form to complete each sentence.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_c1_subject-verb-agreement-advanced-rules.html",
+      "questions": [
+        {
+          "id": "13784",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 At the far end of the underground passage {{gap1}} two heavily guarded doors.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13784_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "stand",
+              "accepted_answers": [
+                "stand"
+              ],
+              "options": [
+                {
+                  "id": "gap_13784_1_1",
+                  "order": 1,
+                  "text": "stands",
+                  "value": "stands",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13784_1_2",
+                  "order": 2,
+                  "text": "stand",
+                  "value": "stand",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13785",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Dr Patel is one of the specialists who {{gap1}} the government on infectious diseases.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13785_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "advise",
+              "accepted_answers": [
+                "advise"
+              ],
+              "options": [
+                {
+                  "id": "gap_13785_1_1",
+                  "order": 1,
+                  "text": "advises",
+                  "value": "advises",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13785_1_2",
+                  "order": 2,
+                  "text": "advise",
+                  "value": "advise",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13786",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Every one of the revised estimates {{gap1}} the cost of maintaining the equipment.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13786_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "includes",
+              "accepted_answers": [
+                "includes"
+              ],
+              "options": [
+                {
+                  "id": "gap_13786_1_1",
+                  "order": 1,
+                  "text": "includes",
+                  "value": "includes",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_13786_1_2",
+                  "order": 2,
+                  "text": "include",
+                  "value": "include",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13787",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 The long-term consequences of the revised admissions policy {{gap1}} alarmed the university's governing body.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13787_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have",
+              "accepted_answers": [
+                "have"
+              ],
+              "options": [
+                {
+                  "id": "gap_13787_1_1",
+                  "order": 1,
+                  "text": "has",
+                  "value": "has",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13787_1_2",
+                  "order": 2,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13788",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Nearly 60% of the recommendations in the report {{gap1}} from independent reviewers.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13788_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "come",
+              "accepted_answers": [
+                "come"
+              ],
+              "options": [
+                {
+                  "id": "gap_13788_1_1",
+                  "order": 1,
+                  "text": "come",
+                  "value": "come",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_13788_1_2",
+                  "order": 2,
+                  "text": "comes",
+                  "value": "comes",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13789",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 The number of households relying on food banks {{gap1}} increased sharply this year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13789_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "has",
+              "accepted_answers": [
+                "has"
+              ],
+              "options": [
+                {
+                  "id": "gap_13789_1_1",
+                  "order": 1,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13789_1_2",
+                  "order": 2,
+                  "text": "has",
+                  "value": "has",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13790",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 The chair of the ethics committee, together with three external advisers, {{gap1}} expected to attend the hearing.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13790_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": [
+                {
+                  "id": "gap_13790_1_1",
+                  "order": 1,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13790_1_2",
+                  "order": 2,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13791",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 More than one bidder {{gap1}} questioned whether the process was fair.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13791_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "has",
+              "accepted_answers": [
+                "has"
+              ],
+              "options": [
+                {
+                  "id": "gap_13791_1_1",
+                  "order": 1,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13791_1_2",
+                  "order": 2,
+                  "text": "has",
+                  "value": "has",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13792",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Eight weeks {{gap1}} insufficient for such a complex investigation.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13792_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": [
+                {
+                  "id": "gap_13792_1_1",
+                  "order": 1,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13792_1_2",
+                  "order": 2,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13793",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Whether the confidential material was deliberately leaked {{gap1}} unclear.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13793_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "remains",
+              "accepted_answers": [
+                "remains"
+              ],
+              "options": [
+                {
+                  "id": "gap_13793_1_1",
+                  "order": 1,
+                  "text": "remain",
+                  "value": "remain",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13793_1_2",
+                  "order": 2,
+                  "text": "remains",
+                  "value": "remains",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-1618",
+      "lessonId": "c1_subject_verb_agreement_advanced_rules",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct answer. Where both forms are possible, follow the instruction in the question.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_c1_subject-verb-agreement-advanced-rules_2.html",
+      "questions": [
+        {
+          "id": "13794",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Neither of the proposed amendments ___ likely to receive sufficient support. (Choose the form preferred in careful formal writing.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13794_1",
+              "order": 1,
+              "text": "are",
+              "value": "27023",
+              "is_correct": false
+            },
+            {
+              "id": "13794_2",
+              "order": 2,
+              "text": "is",
+              "value": "27024",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "13795",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 The council ___ approved its revised housing plan. (Choose the form that presents the council as a single decision-making body.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13795_1",
+              "order": 1,
+              "text": "have",
+              "value": "27025",
+              "is_correct": false
+            },
+            {
+              "id": "13795_2",
+              "order": 2,
+              "text": "has",
+              "value": "27026",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "13796",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 The orchestra ___ taking their seats one by one. (Choose the form that focuses on the individual members of the orchestra.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13796_1",
+              "order": 1,
+              "text": "are",
+              "value": "27027",
+              "is_correct": true
+            },
+            {
+              "id": "13796_2",
+              "order": 2,
+              "text": "is",
+              "value": "27028",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "13797",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 The data collected during the second trial ___ consistent with the hypothesis. (Choose the form traditionally preferred in formal scientific writing.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13797_1",
+              "order": 1,
+              "text": "is",
+              "value": "27029",
+              "is_correct": false
+            },
+            {
+              "id": "13797_2",
+              "order": 2,
+              "text": "are",
+              "value": "27030",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "13798",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 What the inquiry revealed ___ several serious flaws in the approval process. (Choose the form preferred in formal writing.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13798_1",
+              "order": 1,
+              "text": "were",
+              "value": "27031",
+              "is_correct": true
+            },
+            {
+              "id": "13798_2",
+              "order": 2,
+              "text": "was",
+              "value": "27032",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "13799",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 None of the witnesses ___ willing to identify the suspect. (Choose the form that emphasises the meaning 'not one'.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13799_1",
+              "order": 1,
+              "text": "was",
+              "value": "27033",
+              "is_correct": true
+            },
+            {
+              "id": "13799_2",
+              "order": 2,
+              "text": "were",
+              "value": "27034",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "13800",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 The media ___ already contacted both families. (Choose the form that presents the media as separate news organisations or their representatives.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13800_1",
+              "order": 1,
+              "text": "have",
+              "value": "27035",
+              "is_correct": true
+            },
+            {
+              "id": "13800_2",
+              "order": 2,
+              "text": "has",
+              "value": "27036",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "13801",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Which sentence is incorrect?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13801_1",
+              "order": 1,
+              "text": "Mathematics is included in every version of the course.",
+              "value": "27037",
+              "is_correct": false
+            },
+            {
+              "id": "13801_2",
+              "order": 2,
+              "text": "The latest news has caused considerable concern.",
+              "value": "27038",
+              "is_correct": false
+            },
+            {
+              "id": "13801_3",
+              "order": 3,
+              "text": "These binoculars needs adjusting before the expedition.",
+              "value": "27039",
+              "is_correct": true
+            },
+            {
+              "id": "13801_4",
+              "order": 4,
+              "text": "This means of payment is no longer accepted.",
+              "value": "27040",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "13802",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Which sentence is incorrect?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13802_1",
+              "order": 1,
+              "text": "Neither the inspectors nor the supervisor was aware of the change.",
+              "value": "27041",
+              "is_correct": false
+            },
+            {
+              "id": "13802_2",
+              "order": 2,
+              "text": "Neither the supervisor nor the inspectors were aware of the change.",
+              "value": "27042",
+              "is_correct": false
+            },
+            {
+              "id": "13802_3",
+              "order": 3,
+              "text": "Every window and door was checked before the building reopened.",
+              "value": "27043",
+              "is_correct": false
+            },
+            {
+              "id": "13802_4",
+              "order": 4,
+              "text": "The finance officer and the legal adviser has signed the agreement.",
+              "value": "27044",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "13803",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Which sentence uses subject-verb agreement correctly?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13803_1",
+              "order": 1,
+              "text": "A number of residents has objected to the proposal.",
+              "value": "27045",
+              "is_correct": false
+            },
+            {
+              "id": "13803_2",
+              "order": 2,
+              "text": "The number of empty properties have fallen significantly.",
+              "value": "27046",
+              "is_correct": false
+            },
+            {
+              "id": "13803_3",
+              "order": 3,
+              "text": "More than one contractor has withdrawn from the project.",
+              "value": "27047",
+              "is_correct": true
+            },
+            {
+              "id": "13803_4",
+              "order": 4,
+              "text": "Five months are too short a period for the investigation.",
+              "value": "27048",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-1619",
+      "lessonId": "c1_subject_verb_agreement_advanced_rules",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete each sentence with the correct form of the verb in brackets. Where both singular and plural agreement are possible, use the form indicated.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_c1_subject-verb-agreement-advanced-rules_3.html",
+      "questions": [
+        {
+          "id": "13804",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 The Seychelles {{gap1}} (be) introducing tighter controls on coastal development.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13804_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13805",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 The criteria used for the final assessment {{gap1}} (appear) unnecessarily restrictive.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13805_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "appear",
+              "accepted_answers": [
+                "appear"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13806",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 A previously unknown species of deep-sea coral {{gap1}} (have) been identified near the island.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13806_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has",
+              "accepted_answers": [
+                "has"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13807",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 The pair of protective goggles in the storage cabinet {{gap1}} (belong) to one of the technicians.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13807_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "belongs",
+              "accepted_answers": [
+                "belongs"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13808",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 One in five respondents {{gap1}} (say) they would reject the proposal. (Focus on the respondents as a group.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13808_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "says",
+              "accepted_answers": [
+                "says"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13809",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 There {{gap1}} ( appear ) to be several discrepancies between the two versions of the contract.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13809_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "appear",
+              "accepted_answers": [
+                "appear"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13810",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Following the disturbances last year, a great number of police reinforcements {{gap1}} ( be ) brought in from neighbouring districts.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13810_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13811",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Every senator and representative {{gap1}} (have) received a copy of the revised proposal.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13811_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has",
+              "accepted_answers": [
+                "has"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13812",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Either the laboratory manager or the technicians {{gap1}} (be) responsible for updating the database each evening.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13812_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13813",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Trial and error {{gap1}} ( be ) often the only reliable way to refine a new procedure.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13813_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

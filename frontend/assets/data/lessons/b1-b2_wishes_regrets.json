@@ -1,0 +1,1038 @@
+{
+  "lesson_id": "b1-b2_wishes_regrets",
+  "level": "B1-B2",
+  "title": "Wishes and regrets: I wish/if only",
+  "description": "Практический тест и правила по теме: Wishes and regrets: I wish/if only",
+  "theory": {
+    "title": "Правила и грамматика: Wishes and regrets: I wish/if only",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Wishes and regrets: I wish/if only».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Wishes and regrets: I wish/if only» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-31",
+      "lessonId": "b1-b2_wishes_regrets",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct options to complete the text.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_wishes-regrets.html",
+      "questions": [
+        {
+          "id": "233",
+          "order": 1,
+          "type": "gap_select",
+          "text": "Dear Mum, I feel really unhappy! I wish I 1 {{gap1}} this job. If only I 2 {{gap2}} to you before I made the decision to come here. The people here are unfriendly. l wish they 3 {{gap3}} more friendly. And I don't even have breaks! If only I 4 {{gap4}} longer breaks. Looking at a computer screen all day is tiring; I wish my computer 5 {{gap5}}! And I wish my boss 6 {{gap6}} yelling at me all the time. He's always in a bad mood. It's so annoying! Also, I wish there 7 {{gap7}} someone here I could talk to, but there is no one I can talk to. I haven't made any friends. If only I 8 {{gap8}} some friends when I arrived here, but meeting new people is very difficult. I wish you 9 {{gap9}} nearer to me. If only I 10 {{gap10}} you more often! Please write soon. I miss you! Love, Mary",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_233_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "hadn't accepted",
+              "accepted_answers": [
+                "hadn't accepted"
+              ],
+              "options": [
+                {
+                  "id": "gap_233_1_1",
+                  "order": 1,
+                  "text": "didn't accept",
+                  "value": "didn't accept",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_1_2",
+                  "order": 2,
+                  "text": "hadn't accepted",
+                  "value": "hadn't accepted",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_233_1_3",
+                  "order": 3,
+                  "text": "wouldn't accept",
+                  "value": "wouldn't accept",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_233_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "had listened",
+              "accepted_answers": [
+                "had listened"
+              ],
+              "options": [
+                {
+                  "id": "gap_233_2_1",
+                  "order": 1,
+                  "text": "listened",
+                  "value": "listened",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_2_2",
+                  "order": 2,
+                  "text": "had listened",
+                  "value": "had listened",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_233_2_3",
+                  "order": 3,
+                  "text": "would listen",
+                  "value": "would listen",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_233_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": [
+                {
+                  "id": "gap_233_3_1",
+                  "order": 1,
+                  "text": "had been",
+                  "value": "had been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_3_2",
+                  "order": 2,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_233_3_3",
+                  "order": 3,
+                  "text": "would be",
+                  "value": "would be",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_233_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "select",
+              "correct_answer": "had",
+              "accepted_answers": [
+                "had"
+              ],
+              "options": [
+                {
+                  "id": "gap_233_4_1",
+                  "order": 1,
+                  "text": "would have",
+                  "value": "would have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_4_2",
+                  "order": 2,
+                  "text": "had had",
+                  "value": "had had",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_4_3",
+                  "order": 3,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_233_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "select",
+              "correct_answer": "would explode",
+              "accepted_answers": [
+                "would explode"
+              ],
+              "options": [
+                {
+                  "id": "gap_233_5_1",
+                  "order": 1,
+                  "text": "explode",
+                  "value": "explode",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_5_2",
+                  "order": 2,
+                  "text": "would explode",
+                  "value": "would explode",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_233_5_3",
+                  "order": 3,
+                  "text": "will explode",
+                  "value": "will explode",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_233_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "select",
+              "correct_answer": "would stop",
+              "accepted_answers": [
+                "would stop"
+              ],
+              "options": [
+                {
+                  "id": "gap_233_6_1",
+                  "order": 1,
+                  "text": "had stopped",
+                  "value": "had stopped",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_6_2",
+                  "order": 2,
+                  "text": "stopped",
+                  "value": "stopped",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_6_3",
+                  "order": 3,
+                  "text": "would stop",
+                  "value": "would stop",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_233_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "select",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": [
+                {
+                  "id": "gap_233_7_1",
+                  "order": 1,
+                  "text": "had been",
+                  "value": "had been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_7_2",
+                  "order": 2,
+                  "text": "would be",
+                  "value": "would be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_7_3",
+                  "order": 3,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_233_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "select",
+              "correct_answer": "had made",
+              "accepted_answers": [
+                "had made"
+              ],
+              "options": [
+                {
+                  "id": "gap_233_8_1",
+                  "order": 1,
+                  "text": "had made",
+                  "value": "had made",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_233_8_2",
+                  "order": 2,
+                  "text": "would have made",
+                  "value": "would have made",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_8_3",
+                  "order": 3,
+                  "text": "made",
+                  "value": "made",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_233_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "select",
+              "correct_answer": "lived",
+              "accepted_answers": [
+                "lived"
+              ],
+              "options": [
+                {
+                  "id": "gap_233_9_1",
+                  "order": 1,
+                  "text": "would live",
+                  "value": "would live",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_9_2",
+                  "order": 2,
+                  "text": "had lived",
+                  "value": "had lived",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_9_3",
+                  "order": 3,
+                  "text": "lived",
+                  "value": "lived",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_233_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "select",
+              "correct_answer": "could see",
+              "accepted_answers": [
+                "could see"
+              ],
+              "options": [
+                {
+                  "id": "gap_233_10_1",
+                  "order": 1,
+                  "text": "could see",
+                  "value": "could see",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_233_10_2",
+                  "order": 2,
+                  "text": "could have seen",
+                  "value": "could have seen",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_233_10_3",
+                  "order": 3,
+                  "text": "would see",
+                  "value": "would see",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-33",
+      "lessonId": "b1-b2_wishes_regrets",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option to complete the sentences",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_wishes-regrets_2.html",
+      "questions": [
+        {
+          "id": "244",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I wish I _______ a better job. I don’t enjoy this kind of work.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "244_1",
+              "order": 1,
+              "text": "had",
+              "value": "230",
+              "is_correct": true
+            },
+            {
+              "id": "244_2",
+              "order": 2,
+              "text": "would have had",
+              "value": "233",
+              "is_correct": false
+            },
+            {
+              "id": "244_3",
+              "order": 3,
+              "text": "would have",
+              "value": "232",
+              "is_correct": false
+            },
+            {
+              "id": "244_4",
+              "order": 4,
+              "text": "had had",
+              "value": "231",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "245",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I wish you _______ so late. I'm tired of always waiting for you!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "245_1",
+              "order": 1,
+              "text": "hadn't always arrived",
+              "value": "235",
+              "is_correct": false
+            },
+            {
+              "id": "245_2",
+              "order": 2,
+              "text": "wouldn't always arrive",
+              "value": "236",
+              "is_correct": true
+            },
+            {
+              "id": "245_3",
+              "order": 3,
+              "text": "didn't always arrive",
+              "value": "234",
+              "is_correct": false
+            },
+            {
+              "id": "245_4",
+              "order": 4,
+              "text": "wouldn't always have arrived",
+              "value": "237",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "246",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I wish you ______ your bedroom. It’s a mess!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "246_1",
+              "order": 1,
+              "text": "would tidy up",
+              "value": "240",
+              "is_correct": true
+            },
+            {
+              "id": "246_2",
+              "order": 2,
+              "text": "would have tidied up",
+              "value": "241",
+              "is_correct": false
+            },
+            {
+              "id": "246_3",
+              "order": 3,
+              "text": "had tidied up",
+              "value": "239",
+              "is_correct": false
+            },
+            {
+              "id": "246_4",
+              "order": 4,
+              "text": "tidied up",
+              "value": "238",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "247",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I wish it _______ raining. This rain is annoying. I want to go out.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "247_1",
+              "order": 1,
+              "text": "would have stopped",
+              "value": "245",
+              "is_correct": false
+            },
+            {
+              "id": "247_2",
+              "order": 2,
+              "text": "stopped",
+              "value": "242",
+              "is_correct": false
+            },
+            {
+              "id": "247_3",
+              "order": 3,
+              "text": "had stopped",
+              "value": "243",
+              "is_correct": false
+            },
+            {
+              "id": "247_4",
+              "order": 4,
+              "text": "would stop",
+              "value": "244",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "248",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I’m starving. I wish I _______ breakfast this morning.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "248_1",
+              "order": 1,
+              "text": "ate",
+              "value": "246",
+              "is_correct": false
+            },
+            {
+              "id": "248_2",
+              "order": 2,
+              "text": "had eaten",
+              "value": "247",
+              "is_correct": true
+            },
+            {
+              "id": "248_3",
+              "order": 3,
+              "text": "would eat",
+              "value": "248",
+              "is_correct": false
+            },
+            {
+              "id": "248_4",
+              "order": 4,
+              "text": "would have eaten",
+              "value": "249",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "249",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I wish my train _______ now. I’m going to be late for work again.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "249_1",
+              "order": 1,
+              "text": "did come",
+              "value": "250",
+              "is_correct": false
+            },
+            {
+              "id": "249_2",
+              "order": 2,
+              "text": "would have come",
+              "value": "253",
+              "is_correct": false
+            },
+            {
+              "id": "249_3",
+              "order": 3,
+              "text": "had come",
+              "value": "251",
+              "is_correct": false
+            },
+            {
+              "id": "249_4",
+              "order": 4,
+              "text": "would come",
+              "value": "252",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "250",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 This book is so boring. I wish I _______ reading it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "250_1",
+              "order": 1,
+              "text": "wouldn't have started",
+              "value": "257",
+              "is_correct": false
+            },
+            {
+              "id": "250_2",
+              "order": 2,
+              "text": "didn't start",
+              "value": "254",
+              "is_correct": false
+            },
+            {
+              "id": "250_3",
+              "order": 3,
+              "text": "hadn't started",
+              "value": "255",
+              "is_correct": true
+            },
+            {
+              "id": "250_4",
+              "order": 4,
+              "text": "wouldn't start",
+              "value": "256",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "251",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I missed my flight yesterday. If only I _______ a bit earlier!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "251_1",
+              "order": 1,
+              "text": "would have got up",
+              "value": "261",
+              "is_correct": false
+            },
+            {
+              "id": "251_2",
+              "order": 2,
+              "text": "got up",
+              "value": "258",
+              "is_correct": false
+            },
+            {
+              "id": "251_3",
+              "order": 3,
+              "text": "had got up",
+              "value": "259",
+              "is_correct": true
+            },
+            {
+              "id": "251_4",
+              "order": 4,
+              "text": "would get up",
+              "value": "260",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "252",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I wish I _______ to go to work today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "252_1",
+              "order": 1,
+              "text": "didn't have",
+              "value": "262",
+              "is_correct": true
+            },
+            {
+              "id": "252_2",
+              "order": 2,
+              "text": "wouldn't have",
+              "value": "264",
+              "is_correct": false
+            },
+            {
+              "id": "252_3",
+              "order": 3,
+              "text": "hadn't had",
+              "value": "263",
+              "is_correct": false
+            },
+            {
+              "id": "252_4",
+              "order": 4,
+              "text": "wouldn't have had",
+              "value": "265",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "253",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 If only he _______ here. He’d know what to do.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "253_1",
+              "order": 1,
+              "text": "would have been",
+              "value": "269",
+              "is_correct": false
+            },
+            {
+              "id": "253_2",
+              "order": 2,
+              "text": "was",
+              "value": "266",
+              "is_correct": true
+            },
+            {
+              "id": "253_3",
+              "order": 3,
+              "text": "would be",
+              "value": "268",
+              "is_correct": false
+            },
+            {
+              "id": "253_4",
+              "order": 4,
+              "text": "had been",
+              "value": "267",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-32",
+      "lessonId": "b1-b2_wishes_regrets",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps to complete the sentences as in the example",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_wishes-regrets_3.html",
+      "questions": [
+        {
+          "id": "234",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 You got up late and you missed the train. ⇒ I wish I {{gap1}} late.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_234_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "hadn't got up",
+              "accepted_answers": [
+                "hadn't got up"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "235",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 You shouted at your girlfriend and she broke up with you. ⇒ I wish I {{gap1}} at my girlfriend.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_235_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "hadn't shouted",
+              "accepted_answers": [
+                "hadn't shouted"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "236",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 You're not the boss so you can't use the car park. ⇒ I wish I {{gap1}} the boss.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_236_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "237",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 You didn't go to the meeting and you lost the contract. ⇒ I wish I {{gap1}} to the meeting.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_237_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had gone",
+              "accepted_answers": [
+                "had gone"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "238",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Your neighbours make a lot of noise and you hate it. ⇒ If only my neighbours {{gap1}} so much noise!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_238_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't make",
+              "accepted_answers": [
+                "didn't make"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "239",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 You want to go away for the weekend but you've got lots of homework. ⇒ I wish I {{gap1}} so much homework.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_239_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't have",
+              "accepted_answers": [
+                "didn't have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "240",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 You got hurt because you didn't wear a helmet. ⇒ I wish I {{gap1}} a helmet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_240_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had worn",
+              "accepted_answers": [
+                "had worn"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "241",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 You'd like to have a cat but you're allergic to animals. ⇒ I wish I {{gap1}} allergic to animals.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_241_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "weren't",
+              "accepted_answers": [
+                "weren't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "242",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 You didn’t fill up the tank and you ran out of petrol. ⇒ I wish I {{gap1}} the tank.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_242_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had filled",
+              "accepted_answers": [
+                "had filled"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "243",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Your partner is biting his nails and you want him to stop because you don't like it. ⇒ I wish you {{gap1}} biting your nails.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_243_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would stop",
+              "accepted_answers": [
+                "would stop"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

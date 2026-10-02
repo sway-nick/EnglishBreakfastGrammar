@@ -1,0 +1,1038 @@
+{
+  "lesson_id": "b2_all_conditionals_mixed_conditionals_alternatives_if_inversion",
+  "level": "B2",
+  "title": "All conditionals: Mixed conditionals, alternatives to 'if', inversion",
+  "description": "Практический тест и правила по теме: All conditionals: Mixed conditionals, alternatives to 'if', inversion",
+  "theory": {
+    "title": "Правила и грамматика: All conditionals: Mixed conditionals, alternatives to 'if', inversion",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «All conditionals: Mixed conditionals, alternatives to 'if', inversion».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «All conditionals: Mixed conditionals, alternatives to 'if', inversion» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-122",
+      "lessonId": "b2_all_conditionals_mixed_conditionals_alternatives_if_inversion",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_all-conditionals-mixed-conditionals-alternatives-if-inversion.html",
+      "questions": [
+        {
+          "id": "1015",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Would you know what to do if you {{gap1}} a heart attack?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1015_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were having",
+              "accepted_answers": [
+                "were having"
+              ],
+              "options": [
+                {
+                  "id": "gap_1015_1_1",
+                  "order": 1,
+                  "text": "were having",
+                  "value": "were having",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1015_1_2",
+                  "order": 2,
+                  "text": "would have",
+                  "value": "would have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1015_1_3",
+                  "order": 3,
+                  "text": "would be having",
+                  "value": "would be having",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1014",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 If it hadn't been for you, I {{gap1}} here now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1014_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "wouldn't be",
+              "accepted_answers": [
+                "wouldn't be"
+              ],
+              "options": [
+                {
+                  "id": "gap_1014_1_1",
+                  "order": 1,
+                  "text": "wouldn't be",
+                  "value": "wouldn't be",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1014_1_2",
+                  "order": 2,
+                  "text": "hadn't been",
+                  "value": "hadn't been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1014_1_3",
+                  "order": 3,
+                  "text": "wouldn't have been",
+                  "value": "wouldn't have been",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1016",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 As long as she {{gap1}} me, I'll be there for her.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1016_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "needs",
+              "accepted_answers": [
+                "needs"
+              ],
+              "options": [
+                {
+                  "id": "gap_1016_1_1",
+                  "order": 1,
+                  "text": "needs",
+                  "value": "needs",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1016_1_2",
+                  "order": 2,
+                  "text": "will need",
+                  "value": "will need",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1016_1_3",
+                  "order": 3,
+                  "text": "needed",
+                  "value": "needed",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1017",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I wouldn't be living here if I {{gap1}} the choice.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1017_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had",
+              "accepted_answers": [
+                "had"
+              ],
+              "options": [
+                {
+                  "id": "gap_1017_1_1",
+                  "order": 1,
+                  "text": "were having",
+                  "value": "were having",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1017_1_2",
+                  "order": 2,
+                  "text": "would have",
+                  "value": "would have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1017_1_3",
+                  "order": 3,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1018",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 If there hadn't been a fire extinguisher, the house {{gap1}} down.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1018_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "would have burned",
+              "accepted_answers": [
+                "would have burned"
+              ],
+              "options": [
+                {
+                  "id": "gap_1018_1_1",
+                  "order": 1,
+                  "text": "would burn",
+                  "value": "would burn",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1018_1_2",
+                  "order": 2,
+                  "text": "had burned",
+                  "value": "had burned",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1018_1_3",
+                  "order": 3,
+                  "text": "would have burned",
+                  "value": "would have burned",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1019",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 You {{gap1}} become a member, unless you receive an invitation.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1019_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "cannot",
+              "accepted_answers": [
+                "cannot"
+              ],
+              "options": [
+                {
+                  "id": "gap_1019_1_1",
+                  "order": 1,
+                  "text": "hadn't been able to",
+                  "value": "hadn't been able to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1019_1_2",
+                  "order": 2,
+                  "text": "cannot",
+                  "value": "cannot",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1019_1_3",
+                  "order": 3,
+                  "text": "wouldn't be able to",
+                  "value": "wouldn't be able to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1020",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 {{gap1}} happier if you had never met her?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1020_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Would you have been",
+              "accepted_answers": [
+                "Would you have been"
+              ],
+              "options": [
+                {
+                  "id": "gap_1020_1_1",
+                  "order": 1,
+                  "text": "Had you been",
+                  "value": "Had you been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1020_1_2",
+                  "order": 2,
+                  "text": "Will you be",
+                  "value": "Will you be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1020_1_3",
+                  "order": 3,
+                  "text": "Would you have been",
+                  "value": "Would you have been",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1021",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 If I {{gap1}} her, now I would be happier.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1021_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had never met",
+              "accepted_answers": [
+                "had never met"
+              ],
+              "options": [
+                {
+                  "id": "gap_1021_1_1",
+                  "order": 1,
+                  "text": "had never met",
+                  "value": "had never met",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1021_1_2",
+                  "order": 2,
+                  "text": "did never met",
+                  "value": "did never met",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1021_1_3",
+                  "order": 3,
+                  "text": "would never meet",
+                  "value": "would never meet",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1022",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I {{gap1}} the exam even if I have to cheat.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1022_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'m going to pass",
+              "accepted_answers": [
+                "'m going to pass"
+              ],
+              "options": [
+                {
+                  "id": "gap_1022_1_1",
+                  "order": 1,
+                  "text": "'m going to pass",
+                  "value": "'m going to pass",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1022_1_2",
+                  "order": 2,
+                  "text": "pass",
+                  "value": "pass",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1022_1_3",
+                  "order": 3,
+                  "text": "would pass",
+                  "value": "would pass",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1023",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 They might have spent the whole week at the campsite, provided they {{gap1}} enough food and water.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1023_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had brought",
+              "accepted_answers": [
+                "had brought"
+              ],
+              "options": [
+                {
+                  "id": "gap_1023_1_1",
+                  "order": 1,
+                  "text": "would have brought",
+                  "value": "would have brought",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1023_1_2",
+                  "order": 2,
+                  "text": "would bring",
+                  "value": "would bring",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1023_1_3",
+                  "order": 3,
+                  "text": "had brought",
+                  "value": "had brought",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-123",
+      "lessonId": "b2_all_conditionals_mixed_conditionals_alternatives_if_inversion",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option/s for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_all-conditionals-mixed-conditionals-alternatives-if-inversion_2.html",
+      "questions": [
+        {
+          "id": "1024",
+          "order": 1,
+          "type": "multiple_choice",
+          "text": "1 If I were you, I ______ anything. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1024_1",
+              "order": 1,
+              "text": "hadn't said",
+              "value": "1492",
+              "is_correct": false
+            },
+            {
+              "id": "1024_2",
+              "order": 2,
+              "text": "wouldn't say",
+              "value": "1493",
+              "is_correct": true
+            },
+            {
+              "id": "1024_3",
+              "order": 3,
+              "text": "wouldn't be said",
+              "value": "1494",
+              "is_correct": false
+            },
+            {
+              "id": "1024_4",
+              "order": 4,
+              "text": "wouldn't have said",
+              "value": "1495",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1025",
+          "order": 2,
+          "type": "multiple_choice",
+          "text": "2 If I'd known, I ______ you. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1025_1",
+              "order": 1,
+              "text": "might have helped",
+              "value": "1496",
+              "is_correct": true
+            },
+            {
+              "id": "1025_2",
+              "order": 2,
+              "text": "would help",
+              "value": "1497",
+              "is_correct": false
+            },
+            {
+              "id": "1025_3",
+              "order": 3,
+              "text": "might help",
+              "value": "1498",
+              "is_correct": false
+            },
+            {
+              "id": "1025_4",
+              "order": 4,
+              "text": "would have helped",
+              "value": "1499",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1030",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 If we had planned this better, we ______ in so much trouble now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1030_1",
+              "order": 1,
+              "text": "wouldn't have been",
+              "value": "1516",
+              "is_correct": false
+            },
+            {
+              "id": "1030_2",
+              "order": 2,
+              "text": "hadn't been",
+              "value": "1517",
+              "is_correct": false
+            },
+            {
+              "id": "1030_3",
+              "order": 3,
+              "text": "wouldn't be",
+              "value": "1518",
+              "is_correct": true
+            },
+            {
+              "id": "1030_4",
+              "order": 4,
+              "text": "weren't",
+              "value": "1519",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1026",
+          "order": 4,
+          "type": "multiple_choice",
+          "text": "4 ______ your job, you will need enough money to sustain yourself for a few months. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1026_1",
+              "order": 1,
+              "text": "If you lose",
+              "value": "1500",
+              "is_correct": true
+            },
+            {
+              "id": "1026_2",
+              "order": 2,
+              "text": "Whether you lose",
+              "value": "1501",
+              "is_correct": false
+            },
+            {
+              "id": "1026_3",
+              "order": 3,
+              "text": "Should you lose",
+              "value": "1502",
+              "is_correct": true
+            },
+            {
+              "id": "1026_4",
+              "order": 4,
+              "text": "Had you lose",
+              "value": "1503",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1027",
+          "order": 5,
+          "type": "multiple_choice",
+          "text": "5 We are going to go ahead with the plan, ______. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1027_1",
+              "order": 1,
+              "text": "whether or not they like it",
+              "value": "1504",
+              "is_correct": true
+            },
+            {
+              "id": "1027_2",
+              "order": 2,
+              "text": "even if they won't like it",
+              "value": "1505",
+              "is_correct": false
+            },
+            {
+              "id": "1027_3",
+              "order": 3,
+              "text": "provided that they will like it",
+              "value": "1506",
+              "is_correct": false
+            },
+            {
+              "id": "1027_4",
+              "order": 4,
+              "text": "whether they like it or not",
+              "value": "1507",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1028",
+          "order": 6,
+          "type": "multiple_choice",
+          "text": "6 This might never have happened ______ me earlier. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1028_1",
+              "order": 1,
+              "text": "if you would have told",
+              "value": "1508",
+              "is_correct": false
+            },
+            {
+              "id": "1028_2",
+              "order": 2,
+              "text": "had you told",
+              "value": "1509",
+              "is_correct": true
+            },
+            {
+              "id": "1028_3",
+              "order": 3,
+              "text": "if you had told",
+              "value": "1510",
+              "is_correct": true
+            },
+            {
+              "id": "1028_4",
+              "order": 4,
+              "text": "if you told",
+              "value": "1511",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1031",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 If he ______ out who did it, he would kill them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1031_1",
+              "order": 1,
+              "text": "found",
+              "value": "1520",
+              "is_correct": true
+            },
+            {
+              "id": "1031_2",
+              "order": 2,
+              "text": "would find",
+              "value": "1521",
+              "is_correct": false
+            },
+            {
+              "id": "1031_3",
+              "order": 3,
+              "text": "had found",
+              "value": "1522",
+              "is_correct": false
+            },
+            {
+              "id": "1031_4",
+              "order": 4,
+              "text": "would have found",
+              "value": "1523",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1029",
+          "order": 8,
+          "type": "multiple_choice",
+          "text": "8 You'll miss the train ______ a taxi. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1029_1",
+              "order": 1,
+              "text": "in case you take",
+              "value": "1512",
+              "is_correct": false
+            },
+            {
+              "id": "1029_2",
+              "order": 2,
+              "text": "even if you take",
+              "value": "1513",
+              "is_correct": true
+            },
+            {
+              "id": "1029_3",
+              "order": 3,
+              "text": "provided that you take",
+              "value": "1514",
+              "is_correct": false
+            },
+            {
+              "id": "1029_4",
+              "order": 4,
+              "text": "whether or not you take",
+              "value": "1515",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1032",
+          "order": 9,
+          "type": "multiple_choice",
+          "text": "9 If I had known about your plans earlier, I ______ you. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1032_1",
+              "order": 1,
+              "text": "might have warned",
+              "value": "1524",
+              "is_correct": true
+            },
+            {
+              "id": "1032_2",
+              "order": 2,
+              "text": "might warn",
+              "value": "1525",
+              "is_correct": false
+            },
+            {
+              "id": "1032_3",
+              "order": 3,
+              "text": "would warn",
+              "value": "1526",
+              "is_correct": false
+            },
+            {
+              "id": "1032_4",
+              "order": 4,
+              "text": "would have warned",
+              "value": "1527",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1033",
+          "order": 10,
+          "type": "multiple_choice",
+          "text": "10 ______ you out, would you have asked her out? Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1033_1",
+              "order": 1,
+              "text": "Supposing she hadn't asked",
+              "value": "1528",
+              "is_correct": true
+            },
+            {
+              "id": "1033_2",
+              "order": 2,
+              "text": "If she hadn't asked",
+              "value": "1529",
+              "is_correct": true
+            },
+            {
+              "id": "1033_3",
+              "order": 3,
+              "text": "Provided that she wouldn't have asked",
+              "value": "1530",
+              "is_correct": false
+            },
+            {
+              "id": "1033_4",
+              "order": 4,
+              "text": "If she wouldn't have asked",
+              "value": "1531",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-124",
+      "lessonId": "b2_all_conditionals_mixed_conditionals_alternatives_if_inversion",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the correct form of the verbs in brackets.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_all-conditionals-mixed-conditionals-alternatives-if-inversion_3.html",
+      "questions": [
+        {
+          "id": "1034",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Dialogue 1 ANN: How was your Spanish exam, Claire? CLAIRE: Fine, I guess. I got a B. I could have got a better mark provided I 1 {{gap1}} (work) harder on the verbs. And you? ANN: I didn’t study and I failed, but I 2 {{gap2}} (fail) even if I had studied, that’s why I decided not to do it. CLAIRE: That’s not true. Nobody fails an exam as long as they 3 {{gap3}} (study). ANN: That’s easy for you to say. If you 4 {{gap4}} (be) in my shoes, you would think differently. Sometimes people work hard, but they don’t get the results they want. It’s different for you; for you, it’s easy to succeed in whatever you want to succeed in. CLAIRE: That’s unfair. I wouldn’t be where I am today if I 5 {{gap5}} (not work) very hard all these past years. Dialogue 2 MOTHER: You can't go out. That's out of the question. SON: Please, mum. Can I go out on condition I 6 {{gap6}} (do) all my homework before leaving? MOTHER: Well, if you 7 {{gap7}} (do) your homework when I asked you, you would be allowed to go out now. SON: But I didn't hear you. If I had heard you, I 8 {{gap8}} (do) it. MOTHER: That's the problem; you never listen. It 9 {{gap9}} (not hurt) if you listened to me once in a while. If you 10 {{gap10}} (do) it more often, your life would be much easier.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1034_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had worked",
+              "accepted_answers": [
+                "had worked"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1034_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "would have failed",
+              "accepted_answers": [
+                "would have failed"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1034_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "study",
+              "accepted_answers": [
+                "study"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1034_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1034_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "hadn't worked",
+              "accepted_answers": [
+                "hadn't worked"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1034_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "do",
+              "accepted_answers": [
+                "do"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1034_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "had done",
+              "accepted_answers": [
+                "had done"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1034_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "would have done",
+              "accepted_answers": [
+                "would have done"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1034_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "wouldn't hurt",
+              "accepted_answers": [
+                "wouldn't hurt"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1034_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "did",
+              "accepted_answers": [
+                "did"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

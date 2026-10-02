@@ -1,0 +1,828 @@
+{
+  "lesson_id": "a1_the_difference_between_this_and_it",
+  "level": "A1",
+  "title": "The difference between 'this' and 'it'",
+  "description": "Практический тест и правила по теме: The difference between 'this' and 'it'",
+  "theory": {
+    "title": "Правила и грамматика: The difference between 'this' and 'it'",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «The difference between 'this' and 'it'».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «The difference between 'this' and 'it'» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-1125",
+      "lessonId": "a1_the_difference_between_this_and_it",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option for each gap.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_the-difference-between-this-and-it.html",
+      "questions": [
+        {
+          "id": "9692",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 {{gap1}} isn't nice that you never call.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9692_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": [
+                {
+                  "id": "gap_9692_1_1",
+                  "order": 1,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_9692_1_2",
+                  "order": 2,
+                  "text": "This",
+                  "value": "This",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9693",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Have you seen their new house? {{gap1}} has a big garden and a swimming pool.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9693_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": [
+                {
+                  "id": "gap_9693_1_1",
+                  "order": 1,
+                  "text": "This",
+                  "value": "This",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_9693_1_2",
+                  "order": 2,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9701",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Can you help me with {{gap1}} problem?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9701_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "this",
+              "accepted_answers": [
+                "this"
+              ],
+              "options": [
+                {
+                  "id": "gap_9701_1_1",
+                  "order": 1,
+                  "text": "it",
+                  "value": "it",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_9701_1_2",
+                  "order": 2,
+                  "text": "this",
+                  "value": "this",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9694",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 {{gap1}} is raining outside.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9694_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": [
+                {
+                  "id": "gap_9694_1_1",
+                  "order": 1,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_9694_1_2",
+                  "order": 2,
+                  "text": "This",
+                  "value": "This",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9695",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 {{gap1}} is my dog’s birthday today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9695_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": [
+                {
+                  "id": "gap_9695_1_1",
+                  "order": 1,
+                  "text": "This",
+                  "value": "This",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_9695_1_2",
+                  "order": 2,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9696",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 {{gap1}} is late, we should go home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9696_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": [
+                {
+                  "id": "gap_9696_1_1",
+                  "order": 1,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_9696_1_2",
+                  "order": 2,
+                  "text": "This",
+                  "value": "This",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9700",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 I don’t understand {{gap1}} word.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9700_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "this",
+              "accepted_answers": [
+                "this"
+              ],
+              "options": [
+                {
+                  "id": "gap_9700_1_1",
+                  "order": 1,
+                  "text": "this",
+                  "value": "this",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_9700_1_2",
+                  "order": 2,
+                  "text": "it",
+                  "value": "it",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9699",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 {{gap1}} is my favorite book.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9699_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "This",
+              "accepted_answers": [
+                "This"
+              ],
+              "options": [
+                {
+                  "id": "gap_9699_1_1",
+                  "order": 1,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_9699_1_2",
+                  "order": 2,
+                  "text": "This",
+                  "value": "This",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9697",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 {{gap1}} is a long way to the store.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9697_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": [
+                {
+                  "id": "gap_9697_1_1",
+                  "order": 1,
+                  "text": "This",
+                  "value": "This",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_9697_1_2",
+                  "order": 2,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9698",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 {{gap1}} is my new bicycle. Do you like it?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9698_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "This",
+              "accepted_answers": [
+                "This"
+              ],
+              "options": [
+                {
+                  "id": "gap_9698_1_1",
+                  "order": 1,
+                  "text": "This",
+                  "value": "This",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_9698_1_2",
+                  "order": 2,
+                  "text": "It",
+                  "value": "It",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-1126",
+      "lessonId": "a1_the_difference_between_this_and_it",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct options to complete the sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_the-difference-between-this-and-it_2.html",
+      "questions": [
+        {
+          "id": "9706",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I’m cold because _____ is windy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9706_1",
+              "order": 1,
+              "text": "this",
+              "value": "17261",
+              "is_correct": false
+            },
+            {
+              "id": "9706_2",
+              "order": 2,
+              "text": "it",
+              "value": "17262",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "9709",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 _____ is ten miles from my house to the nearest train station.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9709_1",
+              "order": 1,
+              "text": "This",
+              "value": "17267",
+              "is_correct": false
+            },
+            {
+              "id": "9709_2",
+              "order": 2,
+              "text": "It",
+              "value": "17268",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "9702",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 _____ is the teacher who helps me with math.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9702_1",
+              "order": 1,
+              "text": "This",
+              "value": "17253",
+              "is_correct": true
+            },
+            {
+              "id": "9702_2",
+              "order": 2,
+              "text": "It",
+              "value": "17254",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "9703",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 _____ is my friend Ana; she's from Spain.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9703_1",
+              "order": 1,
+              "text": "This",
+              "value": "17255",
+              "is_correct": true
+            },
+            {
+              "id": "9703_2",
+              "order": 2,
+              "text": "It",
+              "value": "17256",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "9708",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 _____ was a surprise to see my cousin at the party.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9708_1",
+              "order": 1,
+              "text": "This",
+              "value": "17265",
+              "is_correct": false
+            },
+            {
+              "id": "9708_2",
+              "order": 2,
+              "text": "It",
+              "value": "17266",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "9707",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 _____ is time for dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9707_1",
+              "order": 1,
+              "text": "This",
+              "value": "17263",
+              "is_correct": false
+            },
+            {
+              "id": "9707_2",
+              "order": 2,
+              "text": "It",
+              "value": "17264",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "9704",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Hello, _____ is Michael speaking. May I talk to Sarah, please?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9704_1",
+              "order": 1,
+              "text": "this",
+              "value": "17257",
+              "is_correct": true
+            },
+            {
+              "id": "9704_2",
+              "order": 2,
+              "text": "it",
+              "value": "17258",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "9705",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 _____ is the best ice cream in town.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9705_1",
+              "order": 1,
+              "text": "This",
+              "value": "17259",
+              "is_correct": true
+            },
+            {
+              "id": "9705_2",
+              "order": 2,
+              "text": "It",
+              "value": "17260",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "9710",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 This is my new guitar. My wife got _____ for my last birthday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9710_1",
+              "order": 1,
+              "text": "this",
+              "value": "17269",
+              "is_correct": false
+            },
+            {
+              "id": "9710_2",
+              "order": 2,
+              "text": "it",
+              "value": "17270",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "9711",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 _____ cat is so friendly!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9711_1",
+              "order": 1,
+              "text": "This",
+              "value": "17271",
+              "is_correct": true
+            },
+            {
+              "id": "9711_2",
+              "order": 2,
+              "text": "It",
+              "value": "17272",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-1127",
+      "lessonId": "a1_the_difference_between_this_and_it",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Write ‘this’ or ‘it’ in each gap to complete this dialogue.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_the-difference-between-this-and-it_3.html",
+      "questions": [
+        {
+          "id": "9712",
+          "order": 1,
+          "type": "gap_text",
+          "text": "ALEX: Hey, do you see 1 {{gap1}} bike here? SAM: Yeah, 2 {{gap2}} looks really cool. Is 3 {{gap3}} new? ALEX: Yes! I bought 4 {{gap4}} yesterday. I also bought 5 {{gap5}} helmet. SAM: Nice. 6 {{gap6}} is important to be safe. ALEX: Of course. And look, I downloaded 7 {{gap7}} app on my phone. SAM: What is 8 {{gap8}} used for? ALEX: 9 {{gap9}} shows you different routes that you can take and also the time other people took to finish the routes. For example, 10 {{gap10}} is the route I want to do today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9712_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "this",
+              "accepted_answers": [
+                "this"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_9712_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_9712_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_9712_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_9712_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "this",
+              "accepted_answers": [
+                "this"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_9712_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_9712_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "this",
+              "accepted_answers": [
+                "this"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_9712_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_9712_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "It",
+              "accepted_answers": [
+                "It"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_9712_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "this",
+              "accepted_answers": [
+                "this"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

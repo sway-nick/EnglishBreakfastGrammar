@@ -1,0 +1,847 @@
+{
+  "lesson_id": "a1_would_like",
+  "level": "A1",
+  "title": "Would you like...? I'd like...",
+  "description": "Практический тест и правила по теме: Would you like...? I'd like...",
+  "theory": {
+    "title": "Правила и грамматика: Would you like...? I'd like...",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Would you like...? I'd like...».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Would you like...? I'd like...» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-601",
+      "lessonId": "a1_would_like",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Read the following sentences with Do you want or I want and write sentences with the same meaning using would you like or I’d like.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_would-like.html",
+      "questions": [
+        {
+          "id": "5149",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I want to go out tonight. ⇒ {{gap1}} tonight.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5149_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "I'd like to go out",
+              "accepted_answers": [
+                "I'd like to go out"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5150",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Do you want to come with us? ⇒ {{gap1}} with us?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5150_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Would you like to come",
+              "accepted_answers": [
+                "Would you like to come"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5151",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Do you want a sandwich? ⇒ {{gap1}} a sandwich?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5151_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Would you like",
+              "accepted_answers": [
+                "Would you like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5152",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I want a bottle of water, please. ⇒ {{gap1}} a bottle of water, please.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5152_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "I’d like",
+              "accepted_answers": [
+                "I’d like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5153",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Where do you want to go? ⇒ Where {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5153_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would you like to go",
+              "accepted_answers": [
+                "would you like to go"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5155",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I want to learn French. ⇒ {{gap1}} French.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5155_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "I'd like to learn",
+              "accepted_answers": [
+                "I'd like to learn"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5156",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 What do you want for dessert? ⇒ What {{gap1}} for dessert?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5156_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would you like",
+              "accepted_answers": [
+                "would you like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5154",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 I want to stay with you today. ⇒ {{gap1}} with you today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5154_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "I'd like to stay",
+              "accepted_answers": [
+                "I'd like to stay"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5157",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Do you want to meet my family? ⇒ {{gap1}} my family?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5157_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Would you like to meet",
+              "accepted_answers": [
+                "Would you like to meet"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5158",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I want an answer. ⇒ I {{gap1}} an answer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5158_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'d like",
+              "accepted_answers": [
+                "'d like"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-602",
+      "lessonId": "a1_would_like",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct forms to complete the following sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_would-like_2.html",
+      "questions": [
+        {
+          "id": "5159",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I _____ travel to Spain one day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5159_1",
+              "order": 1,
+              "text": "'d like",
+              "value": "8099",
+              "is_correct": false
+            },
+            {
+              "id": "5159_2",
+              "order": 2,
+              "text": "like",
+              "value": "8100",
+              "is_correct": false
+            },
+            {
+              "id": "5159_3",
+              "order": 3,
+              "text": "would like to",
+              "value": "8101",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5160",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I _____ playing computer games with my friends.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5160_1",
+              "order": 1,
+              "text": "like",
+              "value": "8102",
+              "is_correct": true
+            },
+            {
+              "id": "5160_2",
+              "order": 2,
+              "text": "'d like",
+              "value": "8103",
+              "is_correct": false
+            },
+            {
+              "id": "5160_3",
+              "order": 3,
+              "text": "'d like to",
+              "value": "8104",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5161",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 A: _____ a glass of water? B: Yes, please. I'm thirsty.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5161_1",
+              "order": 1,
+              "text": "Do you like",
+              "value": "8105",
+              "is_correct": false
+            },
+            {
+              "id": "5161_2",
+              "order": 2,
+              "text": "Would you like",
+              "value": "8106",
+              "is_correct": true
+            },
+            {
+              "id": "5161_3",
+              "order": 3,
+              "text": "I'd like",
+              "value": "8107",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5162",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Susan _____ to work in our school next year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5162_1",
+              "order": 1,
+              "text": "would like",
+              "value": "8108",
+              "is_correct": true
+            },
+            {
+              "id": "5162_2",
+              "order": 2,
+              "text": "likes",
+              "value": "8109",
+              "is_correct": false
+            },
+            {
+              "id": "5162_3",
+              "order": 3,
+              "text": "like",
+              "value": "8110",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5163",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 What time would you like _____ this evening?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5163_1",
+              "order": 1,
+              "text": "to have dinner",
+              "value": "8111",
+              "is_correct": true
+            },
+            {
+              "id": "5163_2",
+              "order": 2,
+              "text": "having dinner",
+              "value": "8112",
+              "is_correct": false
+            },
+            {
+              "id": "5163_3",
+              "order": 3,
+              "text": "have dinner",
+              "value": "8113",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5164",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I'm tired. I'd like _____ early today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5164_1",
+              "order": 1,
+              "text": "going to bed",
+              "value": "8114",
+              "is_correct": false
+            },
+            {
+              "id": "5164_2",
+              "order": 2,
+              "text": "go to bed",
+              "value": "8115",
+              "is_correct": false
+            },
+            {
+              "id": "5164_3",
+              "order": 3,
+              "text": "to go to bed",
+              "value": "8116",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5165",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 We _____ watching TV during dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5165_1",
+              "order": 1,
+              "text": "'d like",
+              "value": "8117",
+              "is_correct": false
+            },
+            {
+              "id": "5165_2",
+              "order": 2,
+              "text": "like",
+              "value": "8118",
+              "is_correct": true
+            },
+            {
+              "id": "5165_3",
+              "order": 3,
+              "text": "'d like to",
+              "value": "8119",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5166",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 A: _____ your new job? B: Yes, it's fantastic.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5166_1",
+              "order": 1,
+              "text": "Do you like",
+              "value": "8120",
+              "is_correct": true
+            },
+            {
+              "id": "5166_2",
+              "order": 2,
+              "text": "Would you like",
+              "value": "8121",
+              "is_correct": false
+            },
+            {
+              "id": "5166_3",
+              "order": 3,
+              "text": "I'd like",
+              "value": "8122",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5167",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 A: _____ something to eat? B: No, thanks. I'm not hungry.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5167_1",
+              "order": 1,
+              "text": "Do you like",
+              "value": "8123",
+              "is_correct": false
+            },
+            {
+              "id": "5167_2",
+              "order": 2,
+              "text": "I'd like",
+              "value": "8124",
+              "is_correct": false
+            },
+            {
+              "id": "5167_3",
+              "order": 3,
+              "text": "Would you like",
+              "value": "8125",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5168",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I _____ to travel more often.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5168_1",
+              "order": 1,
+              "text": "'d like",
+              "value": "8126",
+              "is_correct": true
+            },
+            {
+              "id": "5168_2",
+              "order": 2,
+              "text": "like",
+              "value": "8127",
+              "is_correct": false
+            },
+            {
+              "id": "5168_3",
+              "order": 3,
+              "text": "enjoy",
+              "value": "8128",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-603",
+      "lessonId": "a1_would_like",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps using ‘d like or like(s), do you like or would you like.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_would-like_3.html",
+      "questions": [
+        {
+          "id": "5169",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I {{gap1}} to help her, but I can't.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5169_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'d like",
+              "accepted_answers": [
+                "'d like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5170",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 A: {{gap1}} ice cream? B: Yes, I love it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5170_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Do you like",
+              "accepted_answers": [
+                "Do you like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5171",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I {{gap1}} going on holiday with my family.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5171_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "like",
+              "accepted_answers": [
+                "like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5172",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I {{gap1}} to go on holiday with my family this summer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5172_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'d like",
+              "accepted_answers": [
+                "'d like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5173",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 What {{gap1}} to watch tonight?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5173_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would you like",
+              "accepted_answers": [
+                "would you like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5174",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 A: {{gap1}} some coffee? B: Yes, please.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5174_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Would you like",
+              "accepted_answers": [
+                "Would you like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5175",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 A: {{gap1}} coffee? B: Not really. I prefer tea.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5175_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Do you like",
+              "accepted_answers": [
+                "Do you like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5176",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 When {{gap1}} to visit us?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5176_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would you like",
+              "accepted_answers": [
+                "would you like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5177",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I think he {{gap1}} asking questions.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5177_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "likes",
+              "accepted_answers": [
+                "likes"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5178",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 We {{gap1}} to ask you a few questions.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5178_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "'d like",
+              "accepted_answers": [
+                "'d like"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

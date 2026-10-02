@@ -1,0 +1,898 @@
+{
+  "lesson_id": "b1_ed_ing_adjectives_adjectives_verbs",
+  "level": "B1",
+  "title": "-Ed/-ing adjectives: Adjectives from verbs",
+  "description": "Практический тест и правила по теме: -Ed/-ing adjectives: Adjectives from verbs",
+  "theory": {
+    "title": "Правила и грамматика: -Ed/-ing adjectives: Adjectives from verbs",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «-Ed/-ing adjectives: Adjectives from verbs».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «-Ed/-ing adjectives: Adjectives from verbs» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-206",
+      "lessonId": "b1_ed_ing_adjectives_adjectives_verbs",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_ed-ing-adjectives-adjectives-verbs.html",
+      "questions": [
+        {
+          "id": "1750",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I love skydiving. It's an {{gap1}} feeling.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1750_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "amazing",
+              "accepted_answers": [
+                "amazing"
+              ],
+              "options": [
+                {
+                  "id": "gap_1750_1_1",
+                  "order": 1,
+                  "text": "amazed",
+                  "value": "amazed",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1750_1_2",
+                  "order": 2,
+                  "text": "amazing",
+                  "value": "amazing",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1751",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 The robber was carrying a gun and wearing the mask of a clown. He was {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1751_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "terrifying",
+              "accepted_answers": [
+                "terrifying"
+              ],
+              "options": [
+                {
+                  "id": "gap_1751_1_1",
+                  "order": 1,
+                  "text": "terrifying",
+                  "value": "terrifying",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1751_1_2",
+                  "order": 2,
+                  "text": "terrified",
+                  "value": "terrified",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1752",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 She was very {{gap1}} with him for not telling her the truth.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1752_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "annoyed",
+              "accepted_answers": [
+                "annoyed"
+              ],
+              "options": [
+                {
+                  "id": "gap_1752_1_1",
+                  "order": 1,
+                  "text": "annoyed",
+                  "value": "annoyed",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1752_1_2",
+                  "order": 2,
+                  "text": "annoying",
+                  "value": "annoying",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1753",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 The students are very {{gap1}} about the exam results.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1753_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "disappointed",
+              "accepted_answers": [
+                "disappointed"
+              ],
+              "options": [
+                {
+                  "id": "gap_1753_1_1",
+                  "order": 1,
+                  "text": "disappointing",
+                  "value": "disappointing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1753_1_2",
+                  "order": 2,
+                  "text": "disappointed",
+                  "value": "disappointed",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1754",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 My teacher is very {{gap1}}. He speaks so slowly that we just want to sleep.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1754_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "boring",
+              "accepted_answers": [
+                "boring"
+              ],
+              "options": [
+                {
+                  "id": "gap_1754_1_1",
+                  "order": 1,
+                  "text": "boring",
+                  "value": "boring",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1754_1_2",
+                  "order": 2,
+                  "text": "bored",
+                  "value": "bored",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1755",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 This year, all the presents that I got for Christmas were very {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1755_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "disappointing",
+              "accepted_answers": [
+                "disappointing"
+              ],
+              "options": [
+                {
+                  "id": "gap_1755_1_1",
+                  "order": 1,
+                  "text": "disappointed",
+                  "value": "disappointed",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1755_1_2",
+                  "order": 2,
+                  "text": "disappointing",
+                  "value": "disappointing",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1756",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 He's a very {{gap1}} man. He's travelled all around the world.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1756_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "interesting",
+              "accepted_answers": [
+                "interesting"
+              ],
+              "options": [
+                {
+                  "id": "gap_1756_1_1",
+                  "order": 1,
+                  "text": "interested",
+                  "value": "interested",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1756_1_2",
+                  "order": 2,
+                  "text": "interesting",
+                  "value": "interesting",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1757",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I was so {{gap1}} to see her. She wasn't supposed to be there.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1757_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "surprised",
+              "accepted_answers": [
+                "surprised"
+              ],
+              "options": [
+                {
+                  "id": "gap_1757_1_1",
+                  "order": 1,
+                  "text": "surprising",
+                  "value": "surprising",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1757_1_2",
+                  "order": 2,
+                  "text": "surprised",
+                  "value": "surprised",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1758",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Teenagers get very {{gap1}} when they have to speak in public.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1758_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "embarrassed",
+              "accepted_answers": [
+                "embarrassed"
+              ],
+              "options": [
+                {
+                  "id": "gap_1758_1_1",
+                  "order": 1,
+                  "text": "embarrassed",
+                  "value": "embarrassed",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1758_1_2",
+                  "order": 2,
+                  "text": "embarrassing",
+                  "value": "embarrassing",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1759",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 In the photo you can see the {{gap1}} image of what seems to be a ghost.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1759_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "shocking",
+              "accepted_answers": [
+                "shocking"
+              ],
+              "options": [
+                {
+                  "id": "gap_1759_1_1",
+                  "order": 1,
+                  "text": "shocking",
+                  "value": "shocking",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1759_1_2",
+                  "order": 2,
+                  "text": "shocked",
+                  "value": "shocked",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-207",
+      "lessonId": "b1_ed_ing_adjectives_adjectives_verbs",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_ed-ing-adjectives-adjectives-verbs_2.html",
+      "questions": [
+        {
+          "id": "1760",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I am so ______! This massage chair is very ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1760_1",
+              "order": 1,
+              "text": "relaxed / relaxing",
+              "value": "2497",
+              "is_correct": true
+            },
+            {
+              "id": "1760_2",
+              "order": 2,
+              "text": "relaxing / relaxed",
+              "value": "2498",
+              "is_correct": false
+            },
+            {
+              "id": "1760_3",
+              "order": 3,
+              "text": "relaxing / relaxing",
+              "value": "2499",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1761",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I get very _____ when I can't find the words to say what I mean to say. It's so ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1761_1",
+              "order": 1,
+              "text": "frustrated / frustrating",
+              "value": "2500",
+              "is_correct": true
+            },
+            {
+              "id": "1761_2",
+              "order": 2,
+              "text": "frustrating / frustrated",
+              "value": "2501",
+              "is_correct": false
+            },
+            {
+              "id": "1761_3",
+              "order": 3,
+              "text": "frustrated / frustrated",
+              "value": "2502",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1762",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 She knows a lot of ______ facts. She is very ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1762_1",
+              "order": 1,
+              "text": "interesting / interested",
+              "value": "2503",
+              "is_correct": false
+            },
+            {
+              "id": "1762_2",
+              "order": 2,
+              "text": "interested / interesting",
+              "value": "2504",
+              "is_correct": false
+            },
+            {
+              "id": "1762_3",
+              "order": 3,
+              "text": "interesting / interesting",
+              "value": "2505",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1763",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 She is never ______ with her work. She should try to do something more ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1763_1",
+              "order": 1,
+              "text": "satisfied / satisfied",
+              "value": "2506",
+              "is_correct": false
+            },
+            {
+              "id": "1763_2",
+              "order": 2,
+              "text": "satisfied / satisfying",
+              "value": "2507",
+              "is_correct": true
+            },
+            {
+              "id": "1763_3",
+              "order": 3,
+              "text": "satisfying / satisfied",
+              "value": "2508",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1764",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 The journey was very ______. We were very ______ when we arrived.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1764_1",
+              "order": 1,
+              "text": "tired / tired",
+              "value": "2509",
+              "is_correct": false
+            },
+            {
+              "id": "1764_2",
+              "order": 2,
+              "text": "tired / tiring",
+              "value": "2510",
+              "is_correct": false
+            },
+            {
+              "id": "1764_3",
+              "order": 3,
+              "text": "tiring / tired",
+              "value": "2511",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1765",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I find my parents very ______. They put me in a lot of ______ situations.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1765_1",
+              "order": 1,
+              "text": "embarrassing / embarrassed",
+              "value": "2512",
+              "is_correct": false
+            },
+            {
+              "id": "1765_2",
+              "order": 2,
+              "text": "embarrassed / embarrassing",
+              "value": "2513",
+              "is_correct": false
+            },
+            {
+              "id": "1765_3",
+              "order": 3,
+              "text": "embarrassing / embarrassing",
+              "value": "2514",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1766",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 We were totally ______ by the ______ views.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1766_1",
+              "order": 1,
+              "text": "amazed / amazed",
+              "value": "2515",
+              "is_correct": false
+            },
+            {
+              "id": "1766_2",
+              "order": 2,
+              "text": "amazed / amazing",
+              "value": "2516",
+              "is_correct": true
+            },
+            {
+              "id": "1766_3",
+              "order": 3,
+              "text": "amazing / amazing",
+              "value": "2517",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1767",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 The truth is that it's a very ______ situation. You should be ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1767_1",
+              "order": 1,
+              "text": "worried / worried",
+              "value": "2518",
+              "is_correct": false
+            },
+            {
+              "id": "1767_2",
+              "order": 2,
+              "text": "worried / worrying",
+              "value": "2519",
+              "is_correct": false
+            },
+            {
+              "id": "1767_3",
+              "order": 3,
+              "text": "worrying / worried",
+              "value": "2520",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1768",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I'm always ______ on Monday mornings. They are so ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1768_1",
+              "order": 1,
+              "text": "depressing / depressed",
+              "value": "2521",
+              "is_correct": false
+            },
+            {
+              "id": "1768_2",
+              "order": 2,
+              "text": "depressed / depressing",
+              "value": "2522",
+              "is_correct": true
+            },
+            {
+              "id": "1768_3",
+              "order": 3,
+              "text": "depressed / depressed",
+              "value": "2523",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1769",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 The teacher's instructions were very ______. All the students were really ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1769_1",
+              "order": 1,
+              "text": "confusing / confused",
+              "value": "2524",
+              "is_correct": true
+            },
+            {
+              "id": "1769_2",
+              "order": 2,
+              "text": "confusing / confusing",
+              "value": "2525",
+              "is_correct": false
+            },
+            {
+              "id": "1769_3",
+              "order": 3,
+              "text": "confused / confusing",
+              "value": "2526",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-208",
+      "lessonId": "b1_ed_ing_adjectives_adjectives_verbs",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps by turing the verbs in brackets into ed /- ing adjectives.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_ed-ing-adjectives-adjectives-verbs_3.html",
+      "questions": [
+        {
+          "id": "1770",
+          "order": 1,
+          "type": "gap_text",
+          "text": "When I finish work, I'm usually 1 {{gap1}} (exhaust) because my job is very 2 {{gap2}} (tire). Every day at 6 p.m. I just want to go home and have a 3 {{gap3}} (relax) bath. I love having a bath after work! In the bath I feel very 4 {{gap4}} (relax) and I forget about how 5 {{gap5}} (bore) my job is. But I'm retiring next month! So, I will not have to worry about my job anymore. I am so 6 {{gap6}} (excite)! Also, I will never have to talk to my boss anymore. He is so 7 {{gap7}} (irritate)! Some people think retirement is a bit 8 {{gap8}} (frighten). They say they don't know what they will do after they retire, and they are sometimes scared. I don't understand these people. I think when I retire, I'll never be 9 {{gap9}} (bore); I will always have some 10 {{gap10}} (entertain) activity to do.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1770_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "exhausted",
+              "accepted_answers": [
+                "exhausted"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1770_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "tiring",
+              "accepted_answers": [
+                "tiring"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1770_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "relaxing",
+              "accepted_answers": [
+                "relaxing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1770_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "relaxed",
+              "accepted_answers": [
+                "relaxed"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1770_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "boring",
+              "accepted_answers": [
+                "boring"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1770_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "excited",
+              "accepted_answers": [
+                "excited"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1770_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "irritating",
+              "accepted_answers": [
+                "irritating"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1770_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "frightening",
+              "accepted_answers": [
+                "frightening"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1770_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "bored",
+              "accepted_answers": [
+                "bored"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1770_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "entertaining",
+              "accepted_answers": [
+                "entertaining"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,748 @@
+{
+  "lesson_id": "a1_there_is_there_are",
+  "level": "A1",
+  "title": "There is, there are / there was, there were",
+  "description": "Практический тест и правила по теме: There is, there are / there was, there were",
+  "theory": {
+    "title": "Правила и грамматика: There is, there are / there was, there were",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «There is, there are / there was, there were».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «There is, there are / there was, there were» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-474",
+      "lessonId": "a1_there_is_there_are",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Complete the conversation below with there’s, there are, there isn’t, there aren’t, is there, are there. Use SHORT FORMS when possible.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_there-is-there-are.html",
+      "questions": [
+        {
+          "id": "4142",
+          "order": 1,
+          "type": "gap_text",
+          "text": "PHILLIP: Good morning. Can you give me some information about the house in St. Patrick's street? REAL ESTATE AGENT: Yes, of course. It's a very nice, big apartment. 1 {{gap1}} three bedrooms. PHILLIP: 2 {{gap2}} a bathroom in each bedroom? REAL ESTATE AGENT: No, 3 {{gap3}}. The main bedroom has got a bathroom, but 4 {{gap4}} any bathrooms in the other two bedrooms. PHILLIP: 5 {{gap5}} a dining room? REAL ESTATE AGENT: No, 6 {{gap6}}, but there's a large living room with a dining area. PHILLIP: 7 {{gap7}} any balconies? REAL ESTATE AGENT: No, 8 {{gap8}}, I'm afraid. PHILLIP: And 9 {{gap9}} a garage? REAL ESTATE AGENT: Yes, 10 {{gap10}} a garage at the front of the house.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4142_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "There are",
+              "accepted_answers": [
+                "There are"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4142_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Is there",
+              "accepted_answers": [
+                "Is there"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4142_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "there isn't",
+              "accepted_answers": [
+                "there isn't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4142_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "there aren't",
+              "accepted_answers": [
+                "there aren't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4142_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "Is there",
+              "accepted_answers": [
+                "Is there"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4142_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "there isn't",
+              "accepted_answers": [
+                "there isn't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4142_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "Are there",
+              "accepted_answers": [
+                "Are there"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4142_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "there aren't",
+              "accepted_answers": [
+                "there aren't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4142_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "is there",
+              "accepted_answers": [
+                "is there"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4142_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "there's",
+              "accepted_answers": [
+                "there's"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-475",
+      "lessonId": "a1_there_is_there_are",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct forms of there is, there are, it is, they are, to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_there-is-there-are_2.html",
+      "questions": [
+        {
+          "id": "4143",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 In my street, _____ a bakery, a supermarket and two restaurants.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4143_1",
+              "order": 1,
+              "text": "there's",
+              "value": "6012",
+              "is_correct": true
+            },
+            {
+              "id": "4143_2",
+              "order": 2,
+              "text": "there are",
+              "value": "6013",
+              "is_correct": false
+            },
+            {
+              "id": "4143_3",
+              "order": 3,
+              "text": "are there",
+              "value": "6014",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4144",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 'Is there a new printer in the office?' 'Yes, ____.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4144_1",
+              "order": 1,
+              "text": "there's",
+              "value": "6015",
+              "is_correct": false
+            },
+            {
+              "id": "4144_2",
+              "order": 2,
+              "text": "there are",
+              "value": "6016",
+              "is_correct": false
+            },
+            {
+              "id": "4144_3",
+              "order": 3,
+              "text": "there is",
+              "value": "6017",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4145",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 When I opened the door, _____ a police officer standing in front of me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4145_1",
+              "order": 1,
+              "text": "there were",
+              "value": "6018",
+              "is_correct": false
+            },
+            {
+              "id": "4145_2",
+              "order": 2,
+              "text": "there was",
+              "value": "6019",
+              "is_correct": true
+            },
+            {
+              "id": "4145_3",
+              "order": 3,
+              "text": "there is",
+              "value": "6020",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4146",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 You can go now. _____ any danger.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4146_1",
+              "order": 1,
+              "text": "There isn't",
+              "value": "6021",
+              "is_correct": true
+            },
+            {
+              "id": "4146_2",
+              "order": 2,
+              "text": "There is",
+              "value": "6022",
+              "is_correct": false
+            },
+            {
+              "id": "4146_3",
+              "order": 3,
+              "text": "There aren't",
+              "value": "6023",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4147",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 _____ any people in the restaurant last night?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4147_1",
+              "order": 1,
+              "text": "Was there",
+              "value": "6024",
+              "is_correct": false
+            },
+            {
+              "id": "4147_2",
+              "order": 2,
+              "text": "Were there",
+              "value": "6025",
+              "is_correct": true
+            },
+            {
+              "id": "4147_3",
+              "order": 3,
+              "text": "Are there",
+              "value": "6026",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4148",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 _____ some money on the table.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4148_1",
+              "order": 1,
+              "text": "There's",
+              "value": "6027",
+              "is_correct": true
+            },
+            {
+              "id": "4148_2",
+              "order": 2,
+              "text": "There isn't",
+              "value": "6028",
+              "is_correct": false
+            },
+            {
+              "id": "4148_3",
+              "order": 3,
+              "text": "There are",
+              "value": "6029",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4149",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 _____ many students in class yesterday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4149_1",
+              "order": 1,
+              "text": "There aren't",
+              "value": "6030",
+              "is_correct": false
+            },
+            {
+              "id": "4149_2",
+              "order": 2,
+              "text": "There wasn't",
+              "value": "6031",
+              "is_correct": false
+            },
+            {
+              "id": "4149_3",
+              "order": 3,
+              "text": "There weren't",
+              "value": "6032",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4150",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 'Are there many restaurants in your neighbourhood?' 'Yes, _____.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4150_1",
+              "order": 1,
+              "text": "there is",
+              "value": "6033",
+              "is_correct": false
+            },
+            {
+              "id": "4150_2",
+              "order": 2,
+              "text": "there're",
+              "value": "6034",
+              "is_correct": false
+            },
+            {
+              "id": "4150_3",
+              "order": 3,
+              "text": "there are",
+              "value": "6035",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4151",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 _____ milk and cookies in the kitchen.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4151_1",
+              "order": 1,
+              "text": "There are",
+              "value": "6036",
+              "is_correct": false
+            },
+            {
+              "id": "4151_2",
+              "order": 2,
+              "text": "There is",
+              "value": "6037",
+              "is_correct": true
+            },
+            {
+              "id": "4151_3",
+              "order": 3,
+              "text": "There aren't",
+              "value": "6038",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4152",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 _____ a question in the exam that I couldn't answer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4152_1",
+              "order": 1,
+              "text": "There is",
+              "value": "6039",
+              "is_correct": false
+            },
+            {
+              "id": "4152_2",
+              "order": 2,
+              "text": "There was",
+              "value": "6040",
+              "is_correct": true
+            },
+            {
+              "id": "4152_3",
+              "order": 3,
+              "text": "There were",
+              "value": "6041",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-476",
+      "lessonId": "a1_there_is_there_are",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences using the affirmative, negative or interrogative forms of there + be in present or past.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_there-is-there-are_3.html",
+      "questions": [
+        {
+          "id": "4153",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 When I was young, {{gap1}} a very good player in my team.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4153_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "there was",
+              "accepted_answers": [
+                "there was"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4154",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 {{gap1}} any good films on TV today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4154_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "There aren't",
+              "accepted_answers": [
+                "There aren't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4155",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Everything was perfect. {{gap1}} any problems.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4155_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "There weren't",
+              "accepted_answers": [
+                "There weren't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4160",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 {{gap1}} many people at the cinema last night?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4160_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Were there",
+              "accepted_answers": [
+                "Were there"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4156",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Do you want to eat out? {{gap1}} a new restaurant in the center.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4156_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "There's",
+              "accepted_answers": [
+                "There's"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4159",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Why {{gap1}} two boxes on the sofa? Can you take them away, please?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4159_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are there",
+              "accepted_answers": [
+                "are there"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4157",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Ten years ago, {{gap1}} more shops; now many people buy online.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4157_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "there were",
+              "accepted_answers": [
+                "there were"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4158",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 I'm very hungry. {{gap1}} any food left?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4158_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Is there",
+              "accepted_answers": [
+                "Is there"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4161",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Why {{gap1}} a Civil War in the USA in 1861?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4161_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was there",
+              "accepted_answers": [
+                "was there"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4162",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 We need to go shopping; {{gap1}} any food in the fridge.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4162_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "there isn't",
+              "accepted_answers": [
+                "there isn't"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

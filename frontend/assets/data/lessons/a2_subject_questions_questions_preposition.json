@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "a2_subject_questions_questions_preposition",
+  "level": "A2",
+  "title": "Subject questions, questions with preposition",
+  "description": "Практический тест и правила по теме: Subject questions, questions with preposition",
+  "theory": {
+    "title": "Правила и грамматика: Subject questions, questions with preposition",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Subject questions, questions with preposition».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Subject questions, questions with preposition» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-342",
+      "lessonId": "a2_subject_questions_questions_preposition",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct options to complete the questions about the underlined words. Some of the questions are subject questions and questions with preposition.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_subject-questions-questions-preposition.html",
+      "questions": [
+        {
+          "id": "2927",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 She is looking for a job. ⇒ What {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2927_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is she looking for",
+              "accepted_answers": [
+                "is she looking for"
+              ],
+              "options": [
+                {
+                  "id": "gap_2927_1_1",
+                  "order": 1,
+                  "text": "is she looking",
+                  "value": "is she looking",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2927_1_2",
+                  "order": 2,
+                  "text": "is she looking for",
+                  "value": "is she looking for",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2927_1_3",
+                  "order": 3,
+                  "text": "she's looking for",
+                  "value": "she's looking for",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2928",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Sonya helped me with the boxes. ⇒ Who {{gap1}} with the boxes?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2928_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "helped you",
+              "accepted_answers": [
+                "helped you"
+              ],
+              "options": [
+                {
+                  "id": "gap_2928_1_1",
+                  "order": 1,
+                  "text": "helped you",
+                  "value": "helped you",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2928_1_2",
+                  "order": 2,
+                  "text": "did you help",
+                  "value": "did you help",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2928_1_3",
+                  "order": 3,
+                  "text": "did help you",
+                  "value": "did help you",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2929",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 I asked John to bring music for the party. ⇒ Who {{gap1}} to bring music for the party?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2929_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "did you ask",
+              "accepted_answers": [
+                "did you ask"
+              ],
+              "options": [
+                {
+                  "id": "gap_2929_1_1",
+                  "order": 1,
+                  "text": "asked you",
+                  "value": "asked you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2929_1_2",
+                  "order": 2,
+                  "text": "you asked",
+                  "value": "you asked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2929_1_3",
+                  "order": 3,
+                  "text": "did you ask",
+                  "value": "did you ask",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2930",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I am waiting for my husband. ⇒ Who {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2930_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are you waiting for",
+              "accepted_answers": [
+                "are you waiting for"
+              ],
+              "options": [
+                {
+                  "id": "gap_2930_1_1",
+                  "order": 1,
+                  "text": "are you waiting for",
+                  "value": "are you waiting for",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2930_1_2",
+                  "order": 2,
+                  "text": "you're waiting for",
+                  "value": "you're waiting for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2930_1_3",
+                  "order": 3,
+                  "text": "are you waiting",
+                  "value": "are you waiting",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2931",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Very few people went to the party. ⇒ {{gap1}} to the party?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2931_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "How many people went",
+              "accepted_answers": [
+                "How many people went"
+              ],
+              "options": [
+                {
+                  "id": "gap_2931_1_1",
+                  "order": 1,
+                  "text": "How many did people go",
+                  "value": "How many did people go",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2931_1_2",
+                  "order": 2,
+                  "text": "How many people went",
+                  "value": "How many people went",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2931_1_3",
+                  "order": 3,
+                  "text": "How many people did go",
+                  "value": "How many people did go",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2932",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 She invited very few people to the party ⇒ How many people {{gap1}} to the party?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2932_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "did she invite",
+              "accepted_answers": [
+                "did she invite"
+              ],
+              "options": [
+                {
+                  "id": "gap_2932_1_1",
+                  "order": 1,
+                  "text": "invited she",
+                  "value": "invited she",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2932_1_2",
+                  "order": 2,
+                  "text": "did she invite",
+                  "value": "did she invite",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2932_1_3",
+                  "order": 3,
+                  "text": "she invited",
+                  "value": "she invited",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2933",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 He apologised for being late. ⇒ What {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2933_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "did he apologise for",
+              "accepted_answers": [
+                "did he apologise for"
+              ],
+              "options": [
+                {
+                  "id": "gap_2933_1_1",
+                  "order": 1,
+                  "text": "he did apologise for",
+                  "value": "he did apologise for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2933_1_2",
+                  "order": 2,
+                  "text": "did he apologise",
+                  "value": "did he apologise",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2933_1_3",
+                  "order": 3,
+                  "text": "did he apologise for",
+                  "value": "did he apologise for",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2934",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Sam loves Elisa. ⇒ Who {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2934_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "does Sam love",
+              "accepted_answers": [
+                "does Sam love"
+              ],
+              "options": [
+                {
+                  "id": "gap_2934_1_1",
+                  "order": 1,
+                  "text": "does Sam love",
+                  "value": "does Sam love",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2934_1_2",
+                  "order": 2,
+                  "text": "loves Sam",
+                  "value": "loves Sam",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2934_1_3",
+                  "order": 3,
+                  "text": "Sam loves",
+                  "value": "Sam loves",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2935",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Something terrible happened last night. ⇒ {{gap1}} last night?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2935_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "What happened",
+              "accepted_answers": [
+                "What happened"
+              ],
+              "options": [
+                {
+                  "id": "gap_2935_1_1",
+                  "order": 1,
+                  "text": "What did happen",
+                  "value": "What did happen",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2935_1_2",
+                  "order": 2,
+                  "text": "Who happened",
+                  "value": "Who happened",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2935_1_3",
+                  "order": 3,
+                  "text": "What happened",
+                  "value": "What happened",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2936",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 The book is based on a novel by a Russian writer. ⇒ What {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2936_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is the book based on",
+              "accepted_answers": [
+                "is the book based on"
+              ],
+              "options": [
+                {
+                  "id": "gap_2936_1_1",
+                  "order": 1,
+                  "text": "the book is based",
+                  "value": "the book is based",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2936_1_2",
+                  "order": 2,
+                  "text": "is the book based",
+                  "value": "is the book based",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2936_1_3",
+                  "order": 3,
+                  "text": "is the book based on",
+                  "value": "is the book based on",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-343",
+      "lessonId": "a2_subject_questions_questions_preposition",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct forms to complete the questions about the underlined words. Some of the questions are subject questions and questions with preposition.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_subject-questions-questions-preposition_2.html",
+      "questions": [
+        {
+          "id": "2947",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I dreamt about our old house in Cornwall. ⇒ What _____?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2947_1",
+              "order": 1,
+              "text": "dreamt you",
+              "value": "5063",
+              "is_correct": false
+            },
+            {
+              "id": "2947_2",
+              "order": 2,
+              "text": "dreamt you about",
+              "value": "5064",
+              "is_correct": false
+            },
+            {
+              "id": "2947_3",
+              "order": 3,
+              "text": "did you dream about",
+              "value": "5065",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2948",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I always listen to Jack's advice. ⇒ What _____?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2948_1",
+              "order": 1,
+              "text": "you do always listen to",
+              "value": "5066",
+              "is_correct": false
+            },
+            {
+              "id": "2948_2",
+              "order": 2,
+              "text": "do you always listen to",
+              "value": "5067",
+              "is_correct": true
+            },
+            {
+              "id": "2948_3",
+              "order": 3,
+              "text": "do you always listen",
+              "value": "5068",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2949",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Jason kissed Virginia at the playground. ⇒ _____ at the playground?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2949_1",
+              "order": 1,
+              "text": "Who kissed Virginia",
+              "value": "5069",
+              "is_correct": true
+            },
+            {
+              "id": "2949_2",
+              "order": 2,
+              "text": "Who did kiss Virginia",
+              "value": "5070",
+              "is_correct": false
+            },
+            {
+              "id": "2949_3",
+              "order": 3,
+              "text": "Who did Virginia kiss",
+              "value": "5071",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2950",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Jason kissed Virginia at the playground. ⇒ _____ at the playground?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2950_1",
+              "order": 1,
+              "text": "Who Jason kissed",
+              "value": "5072",
+              "is_correct": false
+            },
+            {
+              "id": "2950_2",
+              "order": 2,
+              "text": "Who did Jason kiss",
+              "value": "5073",
+              "is_correct": true
+            },
+            {
+              "id": "2950_3",
+              "order": 3,
+              "text": "Who kissed Jason",
+              "value": "5074",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2951",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 Lewis asked his boss for a promotion. ⇒ What _____?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2951_1",
+              "order": 1,
+              "text": "Lewis did ask his boss for",
+              "value": "5075",
+              "is_correct": false
+            },
+            {
+              "id": "2951_2",
+              "order": 2,
+              "text": "Lewis asked his boss for",
+              "value": "5076",
+              "is_correct": false
+            },
+            {
+              "id": "2951_3",
+              "order": 3,
+              "text": "did Lewis ask his boss for",
+              "value": "5077",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2952",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Lewis asked his boss for a promotion. ⇒ _____ for a promotion?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2952_1",
+              "order": 1,
+              "text": "Who asked his boss",
+              "value": "5078",
+              "is_correct": true
+            },
+            {
+              "id": "2952_2",
+              "order": 2,
+              "text": "Who did he ask his boss",
+              "value": "5079",
+              "is_correct": false
+            },
+            {
+              "id": "2952_3",
+              "order": 3,
+              "text": "Who did ask his boss",
+              "value": "5080",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2953",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Lewis asked his boss for a promotion. ⇒ _____ for a promotion?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2953_1",
+              "order": 1,
+              "text": "Who did Lewis ask",
+              "value": "5081",
+              "is_correct": true
+            },
+            {
+              "id": "2953_2",
+              "order": 2,
+              "text": "Who asked Lewis",
+              "value": "5082",
+              "is_correct": false
+            },
+            {
+              "id": "2953_3",
+              "order": 3,
+              "text": "Who did ask Lewis",
+              "value": "5083",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2954",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I'm happy about the results. ⇒ What _____?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2954_1",
+              "order": 1,
+              "text": "are you happy",
+              "value": "5084",
+              "is_correct": false
+            },
+            {
+              "id": "2954_2",
+              "order": 2,
+              "text": "are you happy about",
+              "value": "5085",
+              "is_correct": true
+            },
+            {
+              "id": "2954_3",
+              "order": 3,
+              "text": "you're happy about",
+              "value": "5086",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2955",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Alexander Graham Bell invented the telephone. ⇒ What _____?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2955_1",
+              "order": 1,
+              "text": "did Alexander Graham Bell invent",
+              "value": "5087",
+              "is_correct": true
+            },
+            {
+              "id": "2955_2",
+              "order": 2,
+              "text": "invented Alexander Graham Bell",
+              "value": "5088",
+              "is_correct": false
+            },
+            {
+              "id": "2955_3",
+              "order": 3,
+              "text": "did invent Alexander Graham Bell",
+              "value": "5089",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2956",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Alexander Fleming discovered penicillin. ⇒ Who _____?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2956_1",
+              "order": 1,
+              "text": "did Alexander Fleming discover",
+              "value": "5090",
+              "is_correct": false
+            },
+            {
+              "id": "2956_2",
+              "order": 2,
+              "text": "did discover penicillin",
+              "value": "5091",
+              "is_correct": false
+            },
+            {
+              "id": "2956_3",
+              "order": 3,
+              "text": "discovered penicillin",
+              "value": "5092",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-344",
+      "lessonId": "a2_subject_questions_questions_preposition",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Write questions for the underlined words. Some of the questions are subject questions and questions with preposition.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_subject-questions-questions-preposition_3.html",
+      "questions": [
+        {
+          "id": "2937",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I came to see you. ⇒ Who {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2937_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "came to see you",
+              "accepted_answers": [
+                "came to see you"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2938",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 She is worried about you. ⇒ Who {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2938_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is she worried about",
+              "accepted_answers": [
+                "is she worried about"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2939",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I travelled to India with my boyfriend. ⇒ Who {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2939_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "did you travel to India with",
+              "accepted_answers": [
+                "did you travel to India with"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2940",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 George arrives late every day. ⇒ {{gap1}} every day?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2940_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Who arrives late",
+              "accepted_answers": [
+                "Who arrives late"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2941",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 He was looking at the new building. ⇒ What {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2941_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was he looking at",
+              "accepted_answers": [
+                "was he looking at"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2942",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 He is writing from Paris. ⇒ Where {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2942_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is he writing from",
+              "accepted_answers": [
+                "is he writing from"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2943",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 I informed John about the meeting. ⇒ {{gap1}} about the meeting?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2943_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Who did you inform",
+              "accepted_answers": [
+                "Who did you inform"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2945",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 My manager informed John about the meeting. ⇒ {{gap1}} about the meeting?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2945_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Who did your manager inform",
+              "accepted_answers": [
+                "Who did your manager inform"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2944",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 A car accident caused him multiple fractures. ⇒ What {{gap1}} multiple fractures?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2944_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "caused him",
+              "accepted_answers": [
+                "caused him"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2946",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 She believes in ghosts. ⇒ What {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2946_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "does she believe in",
+              "accepted_answers": [
+                "does she believe in"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1137 @@
+{
+  "lesson_id": "b1-b2_whatever_whenever_wherever_whoever_however",
+  "level": "B1-B2",
+  "title": "Whatever, whenever, wherever, whoever, however",
+  "description": "Практический тест и правила по теме: Whatever, whenever, wherever, whoever, however",
+  "theory": {
+    "title": "Правила и грамматика: Whatever, whenever, wherever, whoever, however",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Whatever, whenever, wherever, whoever, however».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Whatever, whenever, wherever, whoever, however» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-71",
+      "lessonId": "b1-b2_whatever_whenever_wherever_whoever_however",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_whatever-whenever-wherever-whoever-however.html",
+      "questions": [
+        {
+          "id": "589",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 You can arrange the furniture {{gap1}} you want.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_589_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "however",
+              "accepted_answers": [
+                "however"
+              ],
+              "options": [
+                {
+                  "id": "gap_589_1_1",
+                  "order": 1,
+                  "text": "however",
+                  "value": "however",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_589_1_2",
+                  "order": 2,
+                  "text": "whichever",
+                  "value": "whichever",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_589_1_3",
+                  "order": 3,
+                  "text": "whatever",
+                  "value": "whatever",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "590",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 You must have your car serviced every year or every 10.000 km, {{gap1}} happens first.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_590_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "whichever",
+              "accepted_answers": [
+                "whichever"
+              ],
+              "options": [
+                {
+                  "id": "gap_590_1_1",
+                  "order": 1,
+                  "text": "whichever",
+                  "value": "whichever",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_590_1_2",
+                  "order": 2,
+                  "text": "whatever",
+                  "value": "whatever",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_590_1_3",
+                  "order": 3,
+                  "text": "however",
+                  "value": "however",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "591",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 We must do {{gap1}} is necessary to bring the attackers to justice.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_591_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "whatever",
+              "accepted_answers": [
+                "whatever"
+              ],
+              "options": [
+                {
+                  "id": "gap_591_1_1",
+                  "order": 1,
+                  "text": "however",
+                  "value": "however",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_591_1_2",
+                  "order": 2,
+                  "text": "whenever",
+                  "value": "whenever",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_591_1_3",
+                  "order": 3,
+                  "text": "whatever",
+                  "value": "whatever",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "592",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 As I only need a computer to work, I can do it from {{gap1}} I want.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_592_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "wherever",
+              "accepted_answers": [
+                "wherever"
+              ],
+              "options": [
+                {
+                  "id": "gap_592_1_1",
+                  "order": 1,
+                  "text": "wherever",
+                  "value": "wherever",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_592_1_2",
+                  "order": 2,
+                  "text": "whenever",
+                  "value": "whenever",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_592_1_3",
+                  "order": 3,
+                  "text": "whatever",
+                  "value": "whatever",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "593",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 {{gap1}} took the decision is responsible for what has happened.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_593_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Whoever",
+              "accepted_answers": [
+                "Whoever"
+              ],
+              "options": [
+                {
+                  "id": "gap_593_1_1",
+                  "order": 1,
+                  "text": "Whichever",
+                  "value": "Whichever",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_593_1_2",
+                  "order": 2,
+                  "text": "However",
+                  "value": "However",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_593_1_3",
+                  "order": 3,
+                  "text": "Whoever",
+                  "value": "Whoever",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "594",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 {{gap1}} hard I try, I still can't find a job.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_594_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "However",
+              "accepted_answers": [
+                "However"
+              ],
+              "options": [
+                {
+                  "id": "gap_594_1_1",
+                  "order": 1,
+                  "text": "Whatever",
+                  "value": "Whatever",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_594_1_2",
+                  "order": 2,
+                  "text": "However",
+                  "value": "However",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_594_1_3",
+                  "order": 3,
+                  "text": "Whenever",
+                  "value": "Whenever",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "595",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 You can ask me {{gap1}} you have a question.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_595_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "whenever",
+              "accepted_answers": [
+                "whenever"
+              ],
+              "options": [
+                {
+                  "id": "gap_595_1_1",
+                  "order": 1,
+                  "text": "wherever",
+                  "value": "wherever",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_595_1_2",
+                  "order": 2,
+                  "text": "whenever",
+                  "value": "whenever",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_595_1_3",
+                  "order": 3,
+                  "text": "whatever",
+                  "value": "whatever",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "596",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 He says he is from Lipsting, {{gap1}} that is.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_596_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "wherever",
+              "accepted_answers": [
+                "wherever"
+              ],
+              "options": [
+                {
+                  "id": "gap_596_1_1",
+                  "order": 1,
+                  "text": "whichever",
+                  "value": "whichever",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_596_1_2",
+                  "order": 2,
+                  "text": "however",
+                  "value": "however",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_596_1_3",
+                  "order": 3,
+                  "text": "wherever",
+                  "value": "wherever",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "597",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I understand English or German, so you can speak {{gap1}} you prefer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_597_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "whichever",
+              "accepted_answers": [
+                "whichever"
+              ],
+              "options": [
+                {
+                  "id": "gap_597_1_1",
+                  "order": 1,
+                  "text": "whatever",
+                  "value": "whatever",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_597_1_2",
+                  "order": 2,
+                  "text": "whichever",
+                  "value": "whichever",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_597_1_3",
+                  "order": 3,
+                  "text": "however",
+                  "value": "however",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "598",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 {{gap1}} they are, they are not welcomed here.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_598_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Whoever",
+              "accepted_answers": [
+                "Whoever"
+              ],
+              "options": [
+                {
+                  "id": "gap_598_1_1",
+                  "order": 1,
+                  "text": "However",
+                  "value": "However",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_598_1_2",
+                  "order": 2,
+                  "text": "Whoever",
+                  "value": "Whoever",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_598_1_3",
+                  "order": 3,
+                  "text": "Whenever",
+                  "value": "Whenever",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-72",
+      "lessonId": "b1-b2_whatever_whenever_wherever_whoever_however",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_whatever-whenever-wherever-whoever-however_2.html",
+      "questions": [
+        {
+          "id": "599",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I will find _______ told the manager that I was lazy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "599_1",
+              "order": 1,
+              "text": "whatever",
+              "value": "731",
+              "is_correct": false
+            },
+            {
+              "id": "599_2",
+              "order": 2,
+              "text": "whenever",
+              "value": "732",
+              "is_correct": false
+            },
+            {
+              "id": "599_3",
+              "order": 3,
+              "text": "whichever",
+              "value": "733",
+              "is_correct": false
+            },
+            {
+              "id": "599_4",
+              "order": 4,
+              "text": "whoever",
+              "value": "734",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "600",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 He'll never forgive you, _______ reasons you might have had to do it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "600_1",
+              "order": 1,
+              "text": "however",
+              "value": "735",
+              "is_correct": false
+            },
+            {
+              "id": "600_2",
+              "order": 2,
+              "text": "whatever",
+              "value": "736",
+              "is_correct": true
+            },
+            {
+              "id": "600_3",
+              "order": 3,
+              "text": "wherever",
+              "value": "737",
+              "is_correct": false
+            },
+            {
+              "id": "600_4",
+              "order": 4,
+              "text": "whoever",
+              "value": "738",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "601",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 ______ you looked from the top, the views were amazing.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "601_1",
+              "order": 1,
+              "text": "Whoever",
+              "value": "739",
+              "is_correct": false
+            },
+            {
+              "id": "601_2",
+              "order": 2,
+              "text": "Wherever",
+              "value": "740",
+              "is_correct": true
+            },
+            {
+              "id": "601_3",
+              "order": 3,
+              "text": "Whenever",
+              "value": "741",
+              "is_correct": false
+            },
+            {
+              "id": "601_4",
+              "order": 4,
+              "text": "However",
+              "value": "742",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "602",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I feel very nervous _______ I see her.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "602_1",
+              "order": 1,
+              "text": "wherever",
+              "value": "743",
+              "is_correct": false
+            },
+            {
+              "id": "602_2",
+              "order": 2,
+              "text": "however",
+              "value": "744",
+              "is_correct": false
+            },
+            {
+              "id": "602_3",
+              "order": 3,
+              "text": "whoever",
+              "value": "745",
+              "is_correct": false
+            },
+            {
+              "id": "602_4",
+              "order": 4,
+              "text": "whenever",
+              "value": "746",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "603",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I will support you, _______ you decide.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "603_1",
+              "order": 1,
+              "text": "whatever",
+              "value": "747",
+              "is_correct": true
+            },
+            {
+              "id": "603_2",
+              "order": 2,
+              "text": "however",
+              "value": "748",
+              "is_correct": false
+            },
+            {
+              "id": "603_3",
+              "order": 3,
+              "text": "whoever",
+              "value": "749",
+              "is_correct": false
+            },
+            {
+              "id": "603_4",
+              "order": 4,
+              "text": "wherever",
+              "value": "750",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "604",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Use any of the two methods, _______ is easier for you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "604_1",
+              "order": 1,
+              "text": "whoever",
+              "value": "751",
+              "is_correct": false
+            },
+            {
+              "id": "604_2",
+              "order": 2,
+              "text": "whenever",
+              "value": "752",
+              "is_correct": false
+            },
+            {
+              "id": "604_3",
+              "order": 3,
+              "text": "however",
+              "value": "753",
+              "is_correct": false
+            },
+            {
+              "id": "604_4",
+              "order": 4,
+              "text": "whichever",
+              "value": "754",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "605",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Use about three spoonfuls of flour or _______ much you need.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "605_1",
+              "order": 1,
+              "text": "whatever",
+              "value": "755",
+              "is_correct": false
+            },
+            {
+              "id": "605_2",
+              "order": 2,
+              "text": "whoever",
+              "value": "756",
+              "is_correct": false
+            },
+            {
+              "id": "605_3",
+              "order": 3,
+              "text": "however",
+              "value": "757",
+              "is_correct": true
+            },
+            {
+              "id": "605_4",
+              "order": 4,
+              "text": "whichever",
+              "value": "758",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "606",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 _______ I try to call you, you don't pick up the phone.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "606_1",
+              "order": 1,
+              "text": "Whenever",
+              "value": "759",
+              "is_correct": true
+            },
+            {
+              "id": "606_2",
+              "order": 2,
+              "text": "Wherever",
+              "value": "760",
+              "is_correct": false
+            },
+            {
+              "id": "606_3",
+              "order": 3,
+              "text": "However",
+              "value": "761",
+              "is_correct": false
+            },
+            {
+              "id": "606_4",
+              "order": 4,
+              "text": "Whatever",
+              "value": "762",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "607",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I'd like to thank _______ it was that helped me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "607_1",
+              "order": 1,
+              "text": "whatever",
+              "value": "763",
+              "is_correct": false
+            },
+            {
+              "id": "607_2",
+              "order": 2,
+              "text": "whoever",
+              "value": "764",
+              "is_correct": true
+            },
+            {
+              "id": "607_3",
+              "order": 3,
+              "text": "however",
+              "value": "765",
+              "is_correct": false
+            },
+            {
+              "id": "607_4",
+              "order": 4,
+              "text": "whichever",
+              "value": "766",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "608",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 We'll find you _______ you try to run.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "608_1",
+              "order": 1,
+              "text": "whatever",
+              "value": "767",
+              "is_correct": false
+            },
+            {
+              "id": "608_2",
+              "order": 2,
+              "text": "whoever",
+              "value": "768",
+              "is_correct": false
+            },
+            {
+              "id": "608_3",
+              "order": 3,
+              "text": "however",
+              "value": "769",
+              "is_correct": false
+            },
+            {
+              "id": "608_4",
+              "order": 4,
+              "text": "wherever",
+              "value": "770",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-73",
+      "lessonId": "b1-b2_whatever_whenever_wherever_whoever_however",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences with whatever, whenever, wherever, whoever, however or whichever.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_whatever-whenever-wherever-whoever-however_3.html",
+      "questions": [
+        {
+          "id": "579",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Do {{gap1}} you want, just don't come to me if it all goes wrong.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_579_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "whatever",
+              "accepted_answers": [
+                "whatever"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "580",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 It's impossible to say what time he will arrive. He just turns up {{gap1}} he wants.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_580_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "whenever",
+              "accepted_answers": [
+                "whenever"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "581",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Sit down {{gap1}} you like.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_581_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "wherever",
+              "accepted_answers": [
+                "wherever"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "582",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 You can invite {{gap1}} you like — it's your party!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_582_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "whoever",
+              "accepted_answers": [
+                "whoever"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "583",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 There are two umbrellas. Take {{gap1}} you want.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_583_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "whichever",
+              "accepted_answers": [
+                "whichever"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "584",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 He is a very spoilt child. He always does {{gap1}} he wants.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_584_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "whatever",
+              "accepted_answers": [
+                "whatever"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "585",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 We loved Australia. The people were very nice {{gap1}} we went.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_585_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "wherever",
+              "accepted_answers": [
+                "wherever"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "586",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 You can come and stay {{gap1}} you want.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_586_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "whenever",
+              "accepted_answers": [
+                "whenever"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "587",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I'd like to speak to {{gap1}} is in charge of your department.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_587_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "whoever",
+              "accepted_answers": [
+                "whoever"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "588",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 {{gap1}} much you love her, she'll never love you back.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_588_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "However",
+              "accepted_answers": [
+                "However"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

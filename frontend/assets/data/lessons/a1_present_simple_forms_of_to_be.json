@@ -1,0 +1,1517 @@
+{
+  "lesson_id": "a1_present_simple_forms_of_to_be",
+  "level": "A1",
+  "title": "Present simple forms of 'to be': am/is/are",
+  "description": "Практический тест и правила по теме: Present simple forms of 'to be': am/is/are",
+  "theory": {
+    "title": "Правила и грамматика: Present simple forms of 'to be': am/is/are",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Present simple forms of 'to be': am/is/are».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Present simple forms of 'to be': am/is/are» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-258",
+      "lessonId": "a1_present_simple_forms_of_to_be",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct present simple forms of ‘to be’ for the gaps below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-simple-forms-of-to-be.html",
+      "questions": [
+        {
+          "id": "2242",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 A: {{gap1}} you a teacher? B: Yes, I {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2242_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Are",
+              "accepted_answers": [
+                "Are"
+              ],
+              "options": [
+                {
+                  "id": "gap_2242_1_1",
+                  "order": 1,
+                  "text": "Are",
+                  "value": "Are",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2242_1_2",
+                  "order": 2,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2242_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "am",
+              "accepted_answers": [
+                "am"
+              ],
+              "options": [
+                {
+                  "id": "gap_2242_2_1",
+                  "order": 1,
+                  "text": "am",
+                  "value": "am",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2242_2_2",
+                  "order": 2,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2243",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 A: {{gap1}} your name Marcus? B: Yes, it {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2243_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Is",
+              "accepted_answers": [
+                "Is"
+              ],
+              "options": [
+                {
+                  "id": "gap_2243_1_1",
+                  "order": 1,
+                  "text": "Is",
+                  "value": "Is",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2243_1_2",
+                  "order": 2,
+                  "text": "Are",
+                  "value": "Are",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2243_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": [
+                {
+                  "id": "gap_2243_2_1",
+                  "order": 1,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2243_2_2",
+                  "order": 2,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2244",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 A: {{gap1}} your children here? B: No, they {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2244_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Are",
+              "accepted_answers": [
+                "Are"
+              ],
+              "options": [
+                {
+                  "id": "gap_2244_1_1",
+                  "order": 1,
+                  "text": "am",
+                  "value": "am",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2244_1_2",
+                  "order": 2,
+                  "text": "Are",
+                  "value": "Are",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_2244_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "aren't",
+              "accepted_answers": [
+                "aren't"
+              ],
+              "options": [
+                {
+                  "id": "gap_2244_2_1",
+                  "order": 1,
+                  "text": "isn't",
+                  "value": "isn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2244_2_2",
+                  "order": 2,
+                  "text": "aren't",
+                  "value": "aren't",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2245",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 A: {{gap1}} this your suitcase? B: No, it {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2245_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Is",
+              "accepted_answers": [
+                "Is"
+              ],
+              "options": [
+                {
+                  "id": "gap_2245_1_1",
+                  "order": 1,
+                  "text": "Is",
+                  "value": "Is",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2245_1_2",
+                  "order": 2,
+                  "text": "Are",
+                  "value": "Are",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2245_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "isn't",
+              "accepted_answers": [
+                "isn't"
+              ],
+              "options": [
+                {
+                  "id": "gap_2245_2_1",
+                  "order": 1,
+                  "text": "aren't",
+                  "value": "aren't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2245_2_2",
+                  "order": 2,
+                  "text": "isn't",
+                  "value": "isn't",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2246",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 A: Where {{gap1}} we? B: I think this {{gap2}} Oxford street.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2246_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": [
+                {
+                  "id": "gap_2246_1_1",
+                  "order": 1,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2246_1_2",
+                  "order": 2,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2246_1_3",
+                  "order": 3,
+                  "text": "am",
+                  "value": "am",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2246_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": [
+                {
+                  "id": "gap_2246_2_1",
+                  "order": 1,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2246_2_2",
+                  "order": 2,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2247",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 A: {{gap1}} it Saturday today? B: No, It {{gap2}} Sunday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2247_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Is",
+              "accepted_answers": [
+                "Is"
+              ],
+              "options": [
+                {
+                  "id": "gap_2247_1_1",
+                  "order": 1,
+                  "text": "Is",
+                  "value": "Is",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2247_1_2",
+                  "order": 2,
+                  "text": "Are",
+                  "value": "Are",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2247_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'s",
+              "accepted_answers": [
+                "'s"
+              ],
+              "options": [
+                {
+                  "id": "gap_2247_2_1",
+                  "order": 1,
+                  "text": "'s",
+                  "value": "'s",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2247_2_2",
+                  "order": 2,
+                  "text": "'re",
+                  "value": "'re",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2248",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 A: {{gap1}} your friends from the UK? B: No, {{gap2}} from the US.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2248_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Are",
+              "accepted_answers": [
+                "Are"
+              ],
+              "options": [
+                {
+                  "id": "gap_2248_1_1",
+                  "order": 1,
+                  "text": "Is",
+                  "value": "Is",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2248_1_2",
+                  "order": 2,
+                  "text": "Are",
+                  "value": "Are",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_2248_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "they are",
+              "accepted_answers": [
+                "they are"
+              ],
+              "options": [
+                {
+                  "id": "gap_2248_2_1",
+                  "order": 1,
+                  "text": "they are",
+                  "value": "they are",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2248_2_2",
+                  "order": 2,
+                  "text": "he is",
+                  "value": "he is",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2249",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 A: Hello, Maria. How {{gap1}} you? B: {{gap2}} fine, thanks.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2249_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": [
+                {
+                  "id": "gap_2249_1_1",
+                  "order": 1,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2249_1_2",
+                  "order": 2,
+                  "text": "am",
+                  "value": "am",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2249_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "I'm",
+              "accepted_answers": [
+                "I'm"
+              ],
+              "options": [
+                {
+                  "id": "gap_2249_2_1",
+                  "order": 1,
+                  "text": "I'm",
+                  "value": "I'm",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2249_2_2",
+                  "order": 2,
+                  "text": "I are",
+                  "value": "I are",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2250",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 A: How old {{gap1}} Peter? B: I think {{gap2}} 30 years old.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2250_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": [
+                {
+                  "id": "gap_2250_1_1",
+                  "order": 1,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2250_1_2",
+                  "order": 2,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2250_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "he is",
+              "accepted_answers": [
+                "he is"
+              ],
+              "options": [
+                {
+                  "id": "gap_2250_2_1",
+                  "order": 1,
+                  "text": "it is",
+                  "value": "it is",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2250_2_2",
+                  "order": 2,
+                  "text": "he is",
+                  "value": "he is",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2251",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 A: {{gap1}} David and Molly here? B: Yes, {{gap2}} next to the door.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2251_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Are",
+              "accepted_answers": [
+                "Are"
+              ],
+              "options": [
+                {
+                  "id": "gap_2251_1_1",
+                  "order": 1,
+                  "text": "Is",
+                  "value": "Is",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2251_1_2",
+                  "order": 2,
+                  "text": "Are",
+                  "value": "Are",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_2251_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "they're",
+              "accepted_answers": [
+                "they're"
+              ],
+              "options": [
+                {
+                  "id": "gap_2251_2_1",
+                  "order": 1,
+                  "text": "we're",
+                  "value": "we're",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2251_2_2",
+                  "order": 2,
+                  "text": "they're",
+                  "value": "they're",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-259",
+      "lessonId": "a1_present_simple_forms_of_to_be",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Rewrite the sentences using the short forms of be.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-simple-forms-of-to-be_2.html",
+      "questions": [
+        {
+          "id": "3584",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 She is fantastic ⇒ {{gap1}} fantastic.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3584_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "She's",
+              "accepted_answers": [
+                "She's"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3585",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 We are in Spain ⇒ {{gap1}} in Spain.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3585_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "We're",
+              "accepted_answers": [
+                "We're"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3586",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 You are not my friend ⇒ You {{gap1}} my friend.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3586_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "aren't",
+              "accepted_answers": [
+                "aren't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3587",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Sheila is from Brighton. ⇒ {{gap1}} from Brighton.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3587_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "She's",
+              "accepted_answers": [
+                "She's"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3588",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 The chairs are not expensive. ⇒ The chairs {{gap1}} expensive.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3588_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "aren't",
+              "accepted_answers": [
+                "aren't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3589",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I am not British ⇒ {{gap1}} British.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3589_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "I'm not",
+              "accepted_answers": [
+                "I'm not"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3590",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Clara is a good student. ⇒ {{gap1}} a good student.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3590_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "She's",
+              "accepted_answers": [
+                "She's"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3591",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 You are great. ⇒ {{gap1}} great.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3591_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "You're",
+              "accepted_answers": [
+                "You're"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3592",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 They are my friends. ⇒ {{gap1}} my friends.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3592_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "They're",
+              "accepted_answers": [
+                "They're"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3593",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 He is not angry. ⇒ He {{gap1}} angry.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3593_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "isn't",
+              "accepted_answers": [
+                "isn't"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-417",
+      "lessonId": "a1_present_simple_forms_of_to_be",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Rewrite these sentences using the negative and interrogative forms of ‘to be’. Use contractions when possible.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-simple-forms-of-to-be_3.html",
+      "questions": [
+        {
+          "id": "3595",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 She is a teacher. ⇒ {{gap1}} a teacher. ⇒ {{gap2}} a teacher?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3595_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "She isn't",
+              "accepted_answers": [
+                "She isn't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3595_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Is she",
+              "accepted_answers": [
+                "Is she"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3596",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 They're in Berlin. ⇒ {{gap1}} in Berlin. ⇒ {{gap2}} in Berlin?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3596_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "They aren't",
+              "accepted_answers": [
+                "They aren't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3596_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Are they",
+              "accepted_answers": [
+                "Are they"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3597",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 It's a nice day. ⇒ {{gap1}} a nice day. ⇒ {{gap2}} a nice day?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3597_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "It isn't",
+              "accepted_answers": [
+                "It isn't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3597_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Is it",
+              "accepted_answers": [
+                "Is it"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3598",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I am very excited. ⇒ {{gap1}} very excited. ⇒ {{gap2}} very excited?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3598_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "I'm not",
+              "accepted_answers": [
+                "I'm not"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3598_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Am I",
+              "accepted_answers": [
+                "Am I"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3599",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 We are students. ⇒ {{gap1}} students. ⇒ {{gap2}} students?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3599_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "We aren't",
+              "accepted_answers": [
+                "We aren't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3599_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Are we",
+              "accepted_answers": [
+                "Are we"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3600",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 You are right. ⇒ {{gap1}} right. ⇒ {{gap2}} right?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3600_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "You aren't",
+              "accepted_answers": [
+                "You aren't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3600_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Are you",
+              "accepted_answers": [
+                "Are you"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3601",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 It's 6 o'clock. ⇒ {{gap1}} 6 o'clock. ⇒ {{gap2}} 6 o'clock?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3601_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "It isn't",
+              "accepted_answers": [
+                "It isn't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3601_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Is it",
+              "accepted_answers": [
+                "Is it"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3602",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 The table is blue. ⇒ {{gap1}} blue. ⇒ {{gap2}} blue?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3602_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "It isn't",
+              "accepted_answers": [
+                "It isn't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3602_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Is it",
+              "accepted_answers": [
+                "Is it"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3603",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 He is the new manager. ⇒ {{gap1}} the new manager. ⇒ {{gap2}} the new manager?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3603_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "He isn't",
+              "accepted_answers": [
+                "He isn't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3603_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Is he",
+              "accepted_answers": [
+                "Is he"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3604",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 They are sorry. ⇒ {{gap1}} sorry. ⇒ {{gap2}} sorry?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3604_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "They aren't",
+              "accepted_answers": [
+                "They aren't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3604_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Are they",
+              "accepted_answers": [
+                "Are they"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-260",
+      "lessonId": "a1_present_simple_forms_of_to_be",
+      "order": 4,
+      "page": 4,
+      "title": "Exercise 4",
+      "instruction": "Fill in the gaps with the correct present simple forms of ‘to be’.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-simple-forms-of-to-be_4.html",
+      "questions": [
+        {
+          "id": "2252",
+          "order": 1,
+          "type": "gap_text",
+          "text": "SOFIE: Hello. 1 {{gap1}} you from here? DINO: No, we 2 {{gap2}}. And you? 3 {{gap3}} you from here? SOFIE: No, I 4 {{gap4}} from France. My name 5 {{gap5}} SOFIE. DINO: Nice to meet you. I 6 {{gap6}} DINO. And this 7 {{gap7}} Francesca. SOFIE: Where 8 {{gap8}} you from? DINO: We 9 {{gap9}} from Italy. SOFIE: 10 {{gap10}} you from Rome? DINO: No, we 11 {{gap11}}. We 12 {{gap12}} from the north of Italy. I 13 {{gap13}} from Torino, and Francesca 14 {{gap14}} from Milano. SOFIE: 15 {{gap15}} you here on holiday? DINO: No, we 16 {{gap16}}. It 17 {{gap17}} a study trip. This 18 {{gap18}} a beautiful place. SOFIE: Yes, it 19 {{gap19}}. 20 {{gap20}} the trip nice? DINO: Very nice",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2252_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Are",
+              "accepted_answers": [
+                "Are"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "aren't",
+              "accepted_answers": [
+                "aren't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "Are",
+              "accepted_answers": [
+                "Are"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "am",
+              "accepted_answers": [
+                "am"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "am",
+              "accepted_answers": [
+                "am"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "Are",
+              "accepted_answers": [
+                "Are"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_11",
+              "order": 11,
+              "placeholder": "{{gap11}}",
+              "input_control": "text",
+              "correct_answer": "aren't",
+              "accepted_answers": [
+                "aren't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_12",
+              "order": 12,
+              "placeholder": "{{gap12}}",
+              "input_control": "text",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_13",
+              "order": 13,
+              "placeholder": "{{gap13}}",
+              "input_control": "text",
+              "correct_answer": "am",
+              "accepted_answers": [
+                "am"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_14",
+              "order": 14,
+              "placeholder": "{{gap14}}",
+              "input_control": "text",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_15",
+              "order": 15,
+              "placeholder": "{{gap15}}",
+              "input_control": "text",
+              "correct_answer": "Are",
+              "accepted_answers": [
+                "Are"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_16",
+              "order": 16,
+              "placeholder": "{{gap16}}",
+              "input_control": "text",
+              "correct_answer": "aren't",
+              "accepted_answers": [
+                "aren't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_17",
+              "order": 17,
+              "placeholder": "{{gap17}}",
+              "input_control": "text",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_18",
+              "order": 18,
+              "placeholder": "{{gap18}}",
+              "input_control": "text",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_19",
+              "order": 19,
+              "placeholder": "{{gap19}}",
+              "input_control": "text",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2252_20",
+              "order": 20,
+              "placeholder": "{{gap20}}",
+              "input_control": "text",
+              "correct_answer": "Is",
+              "accepted_answers": [
+                "Is"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

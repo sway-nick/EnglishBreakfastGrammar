@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "a2_no_longer_any_longer_anymore",
+  "level": "A2",
+  "title": "No longer, any longer, anymore",
+  "description": "Практический тест и правила по теме: No longer, any longer, anymore",
+  "theory": {
+    "title": "Правила и грамматика: No longer, any longer, anymore",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «No longer, any longer, anymore».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «No longer, any longer, anymore» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-873",
+      "lessonId": "a2_no_longer_any_longer_anymore",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose ‘no longer’, ‘any longer’ or ‘anymore’ to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_no-longer-any-longer-anymore.html",
+      "questions": [
+        {
+          "id": "7437",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 We {{gap1}} work together.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7437_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "no longer",
+              "accepted_answers": [
+                "no longer"
+              ],
+              "options": [
+                {
+                  "id": "gap_7437_1_1",
+                  "order": 1,
+                  "text": "any longer",
+                  "value": "any longer",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7437_1_2",
+                  "order": 2,
+                  "text": "no longer",
+                  "value": "no longer",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7437_1_3",
+                  "order": 3,
+                  "text": "anymore",
+                  "value": "anymore",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7438",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 John doesn’t work here {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7438_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "anymore",
+              "accepted_answers": [
+                "anymore"
+              ],
+              "options": [
+                {
+                  "id": "gap_7438_1_1",
+                  "order": 1,
+                  "text": "anymore",
+                  "value": "anymore",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7438_1_2",
+                  "order": 2,
+                  "text": "no longer",
+                  "value": "no longer",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7438_1_3",
+                  "order": 3,
+                  "text": "any more",
+                  "value": "any more",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7439",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Mr. Lee doesn’t teach us {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7439_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "any longer",
+              "accepted_answers": [
+                "any longer"
+              ],
+              "options": [
+                {
+                  "id": "gap_7439_1_1",
+                  "order": 1,
+                  "text": "any more",
+                  "value": "any more",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7439_1_2",
+                  "order": 2,
+                  "text": "any longer",
+                  "value": "any longer",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7439_1_3",
+                  "order": 3,
+                  "text": "no longer",
+                  "value": "no longer",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7440",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Why don’t you sit with us {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7440_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "anymore",
+              "accepted_answers": [
+                "anymore"
+              ],
+              "options": [
+                {
+                  "id": "gap_7440_1_1",
+                  "order": 1,
+                  "text": "anymore",
+                  "value": "anymore",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7440_1_2",
+                  "order": 2,
+                  "text": "no longer",
+                  "value": "no longer",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7440_1_3",
+                  "order": 3,
+                  "text": "any more",
+                  "value": "any more",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7441",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Alfred {{gap1}} goes to church.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7441_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "no longer",
+              "accepted_answers": [
+                "no longer"
+              ],
+              "options": [
+                {
+                  "id": "gap_7441_1_1",
+                  "order": 1,
+                  "text": "no longer",
+                  "value": "no longer",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7441_1_2",
+                  "order": 2,
+                  "text": "any longer",
+                  "value": "any longer",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7441_1_3",
+                  "order": 3,
+                  "text": "anymore",
+                  "value": "anymore",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7442",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Now that I’m vegan, I {{gap1}} eat cheese.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7442_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "no longer",
+              "accepted_answers": [
+                "no longer"
+              ],
+              "options": [
+                {
+                  "id": "gap_7442_1_1",
+                  "order": 1,
+                  "text": "any longer",
+                  "value": "any longer",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7442_1_2",
+                  "order": 2,
+                  "text": "no longer",
+                  "value": "no longer",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7442_1_3",
+                  "order": 3,
+                  "text": "anymore",
+                  "value": "anymore",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7443",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 I cannot stay here {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7443_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "any longer",
+              "accepted_answers": [
+                "any longer"
+              ],
+              "options": [
+                {
+                  "id": "gap_7443_1_1",
+                  "order": 1,
+                  "text": "any more",
+                  "value": "any more",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7443_1_2",
+                  "order": 2,
+                  "text": "any longer",
+                  "value": "any longer",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7443_1_3",
+                  "order": 3,
+                  "text": "no longer",
+                  "value": "no longer",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7444",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 She says she doesn’t love me {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7444_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "anymore",
+              "accepted_answers": [
+                "anymore"
+              ],
+              "options": [
+                {
+                  "id": "gap_7444_1_1",
+                  "order": 1,
+                  "text": "any more",
+                  "value": "any more",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7444_1_2",
+                  "order": 2,
+                  "text": "anymore",
+                  "value": "anymore",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7444_1_3",
+                  "order": 3,
+                  "text": "no longer",
+                  "value": "no longer",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7445",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 We are {{gap1}} in the same class.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7445_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "no longer",
+              "accepted_answers": [
+                "no longer"
+              ],
+              "options": [
+                {
+                  "id": "gap_7445_1_1",
+                  "order": 1,
+                  "text": "anymore",
+                  "value": "anymore",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7445_1_2",
+                  "order": 2,
+                  "text": "any longer",
+                  "value": "any longer",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7445_1_3",
+                  "order": 3,
+                  "text": "no longer",
+                  "value": "no longer",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7446",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I haven’t seen you together lately. Are you {{gap1}} friends?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7446_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "no longer",
+              "accepted_answers": [
+                "no longer"
+              ],
+              "options": [
+                {
+                  "id": "gap_7446_1_1",
+                  "order": 1,
+                  "text": "anymore",
+                  "value": "anymore",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7446_1_2",
+                  "order": 2,
+                  "text": "any longer",
+                  "value": "any longer",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7446_1_3",
+                  "order": 3,
+                  "text": "no longer",
+                  "value": "no longer",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-874",
+      "lessonId": "a2_no_longer_any_longer_anymore",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose ‘no longer’, ‘any longer’ or ‘anymore’ for the gaps below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_no-longer-any-longer-anymore_2.html",
+      "questions": [
+        {
+          "id": "7447",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Jean doesn’t live here _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7447_1",
+              "order": 1,
+              "text": "any more",
+              "value": "13000",
+              "is_correct": false
+            },
+            {
+              "id": "7447_2",
+              "order": 2,
+              "text": "no longer",
+              "value": "13001",
+              "is_correct": false
+            },
+            {
+              "id": "7447_3",
+              "order": 3,
+              "text": "anymore",
+              "value": "13002",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7448",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 We _____ share a house.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7448_1",
+              "order": 1,
+              "text": "no longer",
+              "value": "13003",
+              "is_correct": true
+            },
+            {
+              "id": "7448_2",
+              "order": 2,
+              "text": "any longer",
+              "value": "13004",
+              "is_correct": false
+            },
+            {
+              "id": "7448_3",
+              "order": 3,
+              "text": "anymore",
+              "value": "13005",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7449",
+          "order": 3,
+          "type": "multiple_choice",
+          "text": "3 We don’t have a dog _____. Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7449_1",
+              "order": 1,
+              "text": "any longer",
+              "value": "13006",
+              "is_correct": true
+            },
+            {
+              "id": "7449_2",
+              "order": 2,
+              "text": "anymore",
+              "value": "13007",
+              "is_correct": true
+            },
+            {
+              "id": "7449_3",
+              "order": 3,
+              "text": "no longer",
+              "value": "13008",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7450",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Why doesn’t he talk to us _____?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7450_1",
+              "order": 1,
+              "text": "any more",
+              "value": "13009",
+              "is_correct": false
+            },
+            {
+              "id": "7450_2",
+              "order": 2,
+              "text": "any longer",
+              "value": "13010",
+              "is_correct": true
+            },
+            {
+              "id": "7450_3",
+              "order": 3,
+              "text": "no longer",
+              "value": "13011",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7451",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 James _____ smokes cigarettes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7451_1",
+              "order": 1,
+              "text": "any longer",
+              "value": "13012",
+              "is_correct": false
+            },
+            {
+              "id": "7451_2",
+              "order": 2,
+              "text": "anymore",
+              "value": "13013",
+              "is_correct": false
+            },
+            {
+              "id": "7451_3",
+              "order": 3,
+              "text": "no longer",
+              "value": "13014",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7452",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 We rarely see each other _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7452_1",
+              "order": 1,
+              "text": "any more",
+              "value": "13015",
+              "is_correct": false
+            },
+            {
+              "id": "7452_2",
+              "order": 2,
+              "text": "no longer",
+              "value": "13016",
+              "is_correct": false
+            },
+            {
+              "id": "7452_3",
+              "order": 3,
+              "text": "anymore",
+              "value": "13017",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7453",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Now that we live in the countryside, we _____ worry about crime.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7453_1",
+              "order": 1,
+              "text": "no longer",
+              "value": "13018",
+              "is_correct": true
+            },
+            {
+              "id": "7453_2",
+              "order": 2,
+              "text": "anymore",
+              "value": "13019",
+              "is_correct": false
+            },
+            {
+              "id": "7453_3",
+              "order": 3,
+              "text": "any longer",
+              "value": "13020",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7454",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 John doesn’t have a beard _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7454_1",
+              "order": 1,
+              "text": "any longer",
+              "value": "13021",
+              "is_correct": true
+            },
+            {
+              "id": "7454_2",
+              "order": 2,
+              "text": "any more",
+              "value": "13022",
+              "is_correct": false
+            },
+            {
+              "id": "7454_3",
+              "order": 3,
+              "text": "no longer",
+              "value": "13023",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7455",
+          "order": 9,
+          "type": "multiple_choice",
+          "text": "9 Sandra doesn’t work here _____. Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7455_1",
+              "order": 1,
+              "text": "anymore",
+              "value": "13024",
+              "is_correct": true
+            },
+            {
+              "id": "7455_2",
+              "order": 2,
+              "text": "any longer",
+              "value": "13025",
+              "is_correct": true
+            },
+            {
+              "id": "7455_3",
+              "order": 3,
+              "text": "no longer",
+              "value": "13026",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7456",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Now that he’s retired, Peter _____ wakes up early.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7456_1",
+              "order": 1,
+              "text": "no longer",
+              "value": "13027",
+              "is_correct": true
+            },
+            {
+              "id": "7456_2",
+              "order": 2,
+              "text": "anymore",
+              "value": "13028",
+              "is_correct": false
+            },
+            {
+              "id": "7456_3",
+              "order": 3,
+              "text": "any longer",
+              "value": "13029",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-875",
+      "lessonId": "a2_no_longer_any_longer_anymore",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Rewrite these sentences, adding ‘no longer’, ‘any longer’ or ‘anymore’ in the correct place.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_no-longer-any-longer-anymore_3.html",
+      "questions": [
+        {
+          "id": "7457",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 {{gap1}}. (John doesn’t live in London.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7457_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "John no longer lives in London",
+              "accepted_answers": [
+                "John no longer lives in London"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7458",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 {{gap1}}. (Ms Peters is our teacher.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7458_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Ms Peters is no longer our teacher",
+              "accepted_answers": [
+                "Ms Peters is no longer our teacher"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7459",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 {{gap1}}? (Why don’t you call us?)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7459_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Why don't you call us anymore",
+              "accepted_answers": [
+                "Why don't you call us anymore"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7460",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 {{gap1}}. (Ian belongs to the gym.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7460_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Ian no longer belongs to the gym",
+              "accepted_answers": [
+                "Ian no longer belongs to the gym"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7461",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 {{gap1}}. (We are in the same class.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7461_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "We are no longer in the same class.",
+              "accepted_answers": [
+                "We are no longer in the same class."
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7462",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 {{gap1}}. (She doesn’t wear glasses.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7462_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "She no longer wears glasses",
+              "accepted_answers": [
+                "She no longer wears glasses"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7463",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 {{gap1}}. (Robert can hear very well.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7463_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Robert can no longer hear very well",
+              "accepted_answers": [
+                "Robert can no longer hear very well"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7464",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 {{gap1}}. (Fred doesn’t like carrots.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7464_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Fred no longer likes carrots",
+              "accepted_answers": [
+                "Fred no longer likes carrots"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7465",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 {{gap1}}. (The property is for sale.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7465_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "The property is no longer for sale",
+              "accepted_answers": [
+                "The property is no longer for sale"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7466",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 {{gap1}}. (We can’t wear jeans to work.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7466_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "We can no longer wear jeans to work",
+              "accepted_answers": [
+                "We can no longer wear jeans to work"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

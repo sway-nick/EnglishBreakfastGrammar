@@ -1,0 +1,1391 @@
+{
+  "lesson_id": "b1_past_simple_present_perfect",
+  "level": "B1",
+  "title": "Past simple or present perfect?",
+  "description": "Практический тест и правила по теме: Past simple or present perfect?",
+  "theory": {
+    "title": "Правила и грамматика: Past simple or present perfect?",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Past simple or present perfect?».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Past simple or present perfect?» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-184",
+      "lessonId": "b1_past_simple_present_perfect",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose past simple or present perfect to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_past-simple-present-perfect.html",
+      "questions": [
+        {
+          "id": "1546",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 {{gap1}} painting the bedroom yet?' 'Not yet. I'll finish it tomorrow.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1546_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Have you finished",
+              "accepted_answers": [
+                "Have you finished"
+              ],
+              "options": [
+                {
+                  "id": "gap_1546_1_1",
+                  "order": 1,
+                  "text": "Have you finished",
+                  "value": "Have you finished",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1546_1_2",
+                  "order": 2,
+                  "text": "Did you finish",
+                  "value": "Did you finish",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1547",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I {{gap1}} much last year, but I {{gap2}} a lot this year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1547_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't earn",
+              "accepted_answers": [
+                "didn't earn"
+              ],
+              "options": [
+                {
+                  "id": "gap_1547_1_1",
+                  "order": 1,
+                  "text": "haven't earned",
+                  "value": "haven't earned",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1547_1_2",
+                  "order": 2,
+                  "text": "didn't earn",
+                  "value": "didn't earn",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1547_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'ve earned",
+              "accepted_answers": [
+                "'ve earned"
+              ],
+              "options": [
+                {
+                  "id": "gap_1547_2_1",
+                  "order": 1,
+                  "text": "earned",
+                  "value": "earned",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1547_2_2",
+                  "order": 2,
+                  "text": "'ve earned",
+                  "value": "'ve earned",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1548",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 {{gap1}} a holiday recently?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1548_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Have you had",
+              "accepted_answers": [
+                "Have you had"
+              ],
+              "options": [
+                {
+                  "id": "gap_1548_1_1",
+                  "order": 1,
+                  "text": "Did you have",
+                  "value": "Did you have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1548_1_2",
+                  "order": 2,
+                  "text": "Have you had",
+                  "value": "Have you had",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1549",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 We {{gap1}} last week. We {{gap2}} here for 5 days.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1549_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "arrived",
+              "accepted_answers": [
+                "arrived"
+              ],
+              "options": [
+                {
+                  "id": "gap_1549_1_1",
+                  "order": 1,
+                  "text": "have arrived",
+                  "value": "have arrived",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1549_1_2",
+                  "order": 2,
+                  "text": "arrived",
+                  "value": "arrived",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1549_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "have been",
+              "accepted_answers": [
+                "have been"
+              ],
+              "options": [
+                {
+                  "id": "gap_1549_2_1",
+                  "order": 1,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1549_2_2",
+                  "order": 2,
+                  "text": "have been",
+                  "value": "have been",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1550",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Mr. Barnes is very important in this company. He {{gap1}} here for 30 years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1550_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "has worked",
+              "accepted_answers": [
+                "has worked"
+              ],
+              "options": [
+                {
+                  "id": "gap_1550_1_1",
+                  "order": 1,
+                  "text": "worked",
+                  "value": "worked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1550_1_2",
+                  "order": 2,
+                  "text": "has worked",
+                  "value": "has worked",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1989",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 He loves gardening. He {{gap1}} a gardener all his life.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1989_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "has been",
+              "accepted_answers": [
+                "has been"
+              ],
+              "options": [
+                {
+                  "id": "gap_1989_1_1",
+                  "order": 1,
+                  "text": "was",
+                  "value": "was",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1989_1_2",
+                  "order": 2,
+                  "text": "has been",
+                  "value": "has been",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1552",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 {{gap1}} anything like this before?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1552_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Have you seen",
+              "accepted_answers": [
+                "Have you seen"
+              ],
+              "options": [
+                {
+                  "id": "gap_1552_1_1",
+                  "order": 1,
+                  "text": "Did you see",
+                  "value": "Did you see",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1552_1_2",
+                  "order": 2,
+                  "text": "Have you seen",
+                  "value": "Have you seen",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1553",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 This is the most delicious dish I {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1553_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have ever eaten",
+              "accepted_answers": [
+                "have ever eaten"
+              ],
+              "options": [
+                {
+                  "id": "gap_1553_1_1",
+                  "order": 1,
+                  "text": "ever ate",
+                  "value": "ever ate",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1553_1_2",
+                  "order": 2,
+                  "text": "have ever eaten",
+                  "value": "have ever eaten",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1554",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I {{gap1}} him behave like this before.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1554_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'ve never seen",
+              "accepted_answers": [
+                "'ve never seen"
+              ],
+              "options": [
+                {
+                  "id": "gap_1554_1_1",
+                  "order": 1,
+                  "text": "'ve never seen",
+                  "value": "'ve never seen",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1554_1_2",
+                  "order": 2,
+                  "text": "never saw",
+                  "value": "never saw",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1555",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 My mother {{gap1}} in Scotland.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1555_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "grew up",
+              "accepted_answers": [
+                "grew up"
+              ],
+              "options": [
+                {
+                  "id": "gap_1555_1_1",
+                  "order": 1,
+                  "text": "grew up",
+                  "value": "grew up",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1555_1_2",
+                  "order": 2,
+                  "text": "has grown up",
+                  "value": "has grown up",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-185",
+      "lessonId": "b1_past_simple_present_perfect",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose past simple or present perfect for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_past-simple-present-perfect_2.html",
+      "questions": [
+        {
+          "id": "1556",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 A: Mary isn't here. She ______ to Egypt. B: I ______ to Egypt.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1556_1",
+              "order": 1,
+              "text": "has gone / have never gone",
+              "value": "2284",
+              "is_correct": false
+            },
+            {
+              "id": "1556_2",
+              "order": 2,
+              "text": "has gone / have never been",
+              "value": "2285",
+              "is_correct": true
+            },
+            {
+              "id": "1556_3",
+              "order": 3,
+              "text": "went / have never gone",
+              "value": "2286",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1557",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I ______ my arm. I ______ it playing with my cousin.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1557_1",
+              "order": 1,
+              "text": "'ve broken / broke",
+              "value": "2287",
+              "is_correct": true
+            },
+            {
+              "id": "1557_2",
+              "order": 2,
+              "text": "'ve broken / 've broken",
+              "value": "2288",
+              "is_correct": false
+            },
+            {
+              "id": "1557_3",
+              "order": 3,
+              "text": "broke / 've broken",
+              "value": "2289",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1558",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 ______ a ghost?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1558_1",
+              "order": 1,
+              "text": "Have you ever seen",
+              "value": "2290",
+              "is_correct": true
+            },
+            {
+              "id": "1558_2",
+              "order": 2,
+              "text": "Did you ever see",
+              "value": "2291",
+              "is_correct": false
+            },
+            {
+              "id": "1558_3",
+              "order": 3,
+              "text": "Have you ever see",
+              "value": "2292",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1559",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 A: I ______ to China this year. B: When ______ there?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1559_1",
+              "order": 1,
+              "text": "have been / have you been",
+              "value": "2293",
+              "is_correct": false
+            },
+            {
+              "id": "1559_2",
+              "order": 2,
+              "text": "have been / did you go",
+              "value": "2294",
+              "is_correct": true
+            },
+            {
+              "id": "1559_3",
+              "order": 3,
+              "text": "was / have you gone",
+              "value": "2295",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1560",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I'm sure I ______ this man before.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1560_1",
+              "order": 1,
+              "text": "'ve seen",
+              "value": "2296",
+              "is_correct": true
+            },
+            {
+              "id": "1560_2",
+              "order": 2,
+              "text": "saw",
+              "value": "2297",
+              "is_correct": false
+            },
+            {
+              "id": "1560_3",
+              "order": 3,
+              "text": "'ve see",
+              "value": "2298",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1561",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 A: How long ______ a teacher? B: I ______ teaching a long time ago.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1561_1",
+              "order": 1,
+              "text": "were / started",
+              "value": "2299",
+              "is_correct": false
+            },
+            {
+              "id": "1561_2",
+              "order": 2,
+              "text": "have you been / have started",
+              "value": "2300",
+              "is_correct": false
+            },
+            {
+              "id": "1561_3",
+              "order": 3,
+              "text": "have you been / started",
+              "value": "2301",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1562",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 ______ Titanic?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1562_1",
+              "order": 1,
+              "text": "Did you see",
+              "value": "2302",
+              "is_correct": false
+            },
+            {
+              "id": "1562_2",
+              "order": 2,
+              "text": "You have seen",
+              "value": "2303",
+              "is_correct": false
+            },
+            {
+              "id": "1562_3",
+              "order": 3,
+              "text": "Have you seen",
+              "value": "2304",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1563",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 A: I ______ the keys. B: Where ______ them?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1563_1",
+              "order": 1,
+              "text": "have found / did you find",
+              "value": "2305",
+              "is_correct": true
+            },
+            {
+              "id": "1563_2",
+              "order": 2,
+              "text": "found / have you found",
+              "value": "2306",
+              "is_correct": false
+            },
+            {
+              "id": "1563_3",
+              "order": 3,
+              "text": "found / did you find",
+              "value": "2307",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1564",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Here are your shoes. I ______ them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1564_1",
+              "order": 1,
+              "text": "just cleaned",
+              "value": "2308",
+              "is_correct": false
+            },
+            {
+              "id": "1564_2",
+              "order": 2,
+              "text": "'ve just cleaned",
+              "value": "2309",
+              "is_correct": true
+            },
+            {
+              "id": "1564_3",
+              "order": 3,
+              "text": "just have cleaned",
+              "value": "2310",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1565",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 She ______ to be a singer since she ______ a kid.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1565_1",
+              "order": 1,
+              "text": "wanted / was",
+              "value": "2311",
+              "is_correct": false
+            },
+            {
+              "id": "1565_2",
+              "order": 2,
+              "text": "has wanted / has been",
+              "value": "2312",
+              "is_correct": false
+            },
+            {
+              "id": "1565_3",
+              "order": 3,
+              "text": "has wanted / was",
+              "value": "2313",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-186",
+      "lessonId": "b1_past_simple_present_perfect",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences below with the present perfect or the past simple of the verbs in brackets.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_past-simple-present-perfect_3.html",
+      "questions": [
+        {
+          "id": "1566",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 We {{gap1}} (be) together since we {{gap2}} (be) teenagers.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1566_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been",
+              "accepted_answers": [
+                "have been"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1566_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1567",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Since records {{gap1}} (begin) in 1880, the global temperature {{gap2}} (rise) 0.85 degrees Celsius.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1567_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "began",
+              "accepted_answers": [
+                "began"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1567_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "has risen",
+              "accepted_answers": [
+                "has risen"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1568",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Bennet is my best friend. I {{gap1}} (meet) him at school, and we {{gap2}} (be) friends for 50 years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1568_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "met",
+              "accepted_answers": [
+                "met"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1568_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "have been",
+              "accepted_answers": [
+                "have been"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1569",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 He {{gap1}} (be) so active and sporty at university. But after the accident he {{gap2}} (never/be) the same.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1569_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1569_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "has never been",
+              "accepted_answers": [
+                "has never been"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1570",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Yesterday Tom {{gap1}} (tell) me that he would be here today, but he isn't here. He {{gap2}} (be) away all day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1570_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "told",
+              "accepted_answers": [
+                "told"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1570_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "has been",
+              "accepted_answers": [
+                "has been"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1571",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 A: I {{gap1}} (buy) a new car. B: Nice! When {{gap2}} (you/buy) it?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1571_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have bought",
+              "accepted_answers": [
+                "have bought"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1571_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "did you buy",
+              "accepted_answers": [
+                "did you buy"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1572",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 A: {{gap1}} (clean) your room yet? B: No, sorry. I {{gap2}} (go) to the library after school.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1572_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Have you cleaned",
+              "accepted_answers": [
+                "Have you cleaned"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1572_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "went",
+              "accepted_answers": [
+                "went"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1573",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 He {{gap1}} (read) the Bible 4 times. He was 15 the first time he {{gap2}} (read) it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1573_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has read",
+              "accepted_answers": [
+                "has read"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1573_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "read",
+              "accepted_answers": [
+                "read"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1574",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 This customer {{gap1}} (be) here many times, but he {{gap2}} (never/buy) anything.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1574_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has been",
+              "accepted_answers": [
+                "has been"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1574_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "has never bought",
+              "accepted_answers": [
+                "has never bought"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1575",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I {{gap1}} (stop) smoking two years ago. I {{gap2}} (smoke) for 22 years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1575_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "stopped",
+              "accepted_answers": [
+                "stopped"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1575_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "smoked",
+              "accepted_answers": [
+                "smoked"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-187",
+      "lessonId": "b1_past_simple_present_perfect",
+      "order": 4,
+      "page": 4,
+      "title": "",
+      "instruction": "Fill in the gaps using the following words in the box",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_past-simple-present-perfect_4.html",
+      "questions": [
+        {
+          "id": "1576",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 It's been a month {{gap1}} we last had a meal together.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1576_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "since",
+              "accepted_answers": [
+                "since"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1577",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 We haven't seen each other {{gap1}} years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1577_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1578",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I think I've been here {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1578_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "before",
+              "accepted_answers": [
+                "before"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1579",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 The accident happened 10 years {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1579_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "ago",
+              "accepted_answers": [
+                "ago"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1580",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 A: Have you tidied your room {{gap1}}? B: No, I'll do it later.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1580_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "yet",
+              "accepted_answers": [
+                "yet"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1581",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Mom, I have {{gap1}} tidied my room. Can I go out now?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1581_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "already",
+              "accepted_answers": [
+                "already"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1582",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 I don't want coffee, thanks. I've {{gap1}} had one.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1582_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "already",
+              "accepted_answers": [
+                "already"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1583",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 We haven't found a solution {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1583_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "yet",
+              "accepted_answers": [
+                "yet"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1584",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Have you {{gap1}} imagined how life would be without having to work?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1584_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "ever",
+              "accepted_answers": [
+                "ever"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1585",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I've {{gap1}} been to Prague. I'd love to go one day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1585_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "never",
+              "accepted_answers": [
+                "never"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

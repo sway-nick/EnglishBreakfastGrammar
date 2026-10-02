@@ -1,0 +1,847 @@
+{
+  "lesson_id": "a1_imperative_sit_dont_talk",
+  "level": "A1",
+  "title": "The imperative: Sit down! Don’t talk!",
+  "description": "Практический тест и правила по теме: The imperative: Sit down! Don’t talk!",
+  "theory": {
+    "title": "Правила и грамматика: The imperative: Sit down! Don’t talk!",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «The imperative: Sit down! Don’t talk!».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «The imperative: Sit down! Don’t talk!» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-592",
+      "lessonId": "a1_imperative_sit_dont_talk",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Look at the pictures and complete the sentences using an imperative in positive or negative form. Use the verbs in the box.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_imperative-sit-dont-talk.html",
+      "questions": [
+        {
+          "id": "5059",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Please, {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5059_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "sit down",
+              "accepted_answers": [
+                "sit down"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5060",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 {{gap1}} in this area.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5060_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Don't park",
+              "accepted_answers": [
+                "Don't park"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5061",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 {{gap1}} your mobile phone.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5061_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Don't use",
+              "accepted_answers": [
+                "Don't use"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5062",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 {{gap1}} right.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5062_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Turn",
+              "accepted_answers": [
+                "Turn"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5063",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Please, {{gap1}} in this area.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5063_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't smoke",
+              "accepted_answers": [
+                "don't smoke"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5064",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 {{gap1}} your name here.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5064_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Write",
+              "accepted_answers": [
+                "Write"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5065",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 {{gap1}} careful. The floor is wet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5065_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Be",
+              "accepted_answers": [
+                "Be"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5066",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 {{gap1}} your hands.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5066_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Wash",
+              "accepted_answers": [
+                "Wash"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5067",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 {{gap1}} slowly.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5067_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Drive",
+              "accepted_answers": [
+                "Drive"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5068",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 {{gap1}} this water.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5068_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Don't drink",
+              "accepted_answers": [
+                "Don't drink"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-593",
+      "lessonId": "a1_imperative_sit_dont_talk",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct forms to complete the following sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_imperative-sit-dont-talk_2.html",
+      "questions": [
+        {
+          "id": "5069",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 _____ to the cinema. There is a good film today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5069_1",
+              "order": 1,
+              "text": "You go",
+              "value": "8019",
+              "is_correct": false
+            },
+            {
+              "id": "5069_2",
+              "order": 2,
+              "text": "Don't go",
+              "value": "8020",
+              "is_correct": false
+            },
+            {
+              "id": "5069_3",
+              "order": 3,
+              "text": "Let's go",
+              "value": "8021",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5070",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 _____ candy. It's bad for your teeth.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5070_1",
+              "order": 1,
+              "text": "You don't eat",
+              "value": "8022",
+              "is_correct": false
+            },
+            {
+              "id": "5070_2",
+              "order": 2,
+              "text": "Let's eat",
+              "value": "8023",
+              "is_correct": false
+            },
+            {
+              "id": "5070_3",
+              "order": 3,
+              "text": "Don't eat",
+              "value": "8024",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5071",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 _____ to the party. I'm very tired and I want to go to bed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5071_1",
+              "order": 1,
+              "text": "Let's don't go",
+              "value": "8025",
+              "is_correct": false
+            },
+            {
+              "id": "5071_2",
+              "order": 2,
+              "text": "You don't go",
+              "value": "8026",
+              "is_correct": false
+            },
+            {
+              "id": "5071_3",
+              "order": 3,
+              "text": "Let's not go",
+              "value": "8027",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5072",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 _____ here, please.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5072_1",
+              "order": 1,
+              "text": "Come",
+              "value": "8028",
+              "is_correct": true
+            },
+            {
+              "id": "5072_2",
+              "order": 2,
+              "text": "You come",
+              "value": "8029",
+              "is_correct": false
+            },
+            {
+              "id": "5072_3",
+              "order": 3,
+              "text": "Let's come",
+              "value": "8030",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5073",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 _____ this book. It's horrible.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5073_1",
+              "order": 1,
+              "text": "Let's read",
+              "value": "8031",
+              "is_correct": false
+            },
+            {
+              "id": "5073_2",
+              "order": 2,
+              "text": "Don't read",
+              "value": "8032",
+              "is_correct": true
+            },
+            {
+              "id": "5073_3",
+              "order": 3,
+              "text": "You don't read",
+              "value": "8033",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5074",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 _____ the window, please. It's very cold outside.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5074_1",
+              "order": 1,
+              "text": "You don't open",
+              "value": "8034",
+              "is_correct": false
+            },
+            {
+              "id": "5074_2",
+              "order": 2,
+              "text": "Open",
+              "value": "8035",
+              "is_correct": false
+            },
+            {
+              "id": "5074_3",
+              "order": 3,
+              "text": "Don't open",
+              "value": "8036",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5075",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 _____ the light, please. It's very dark.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5075_1",
+              "order": 1,
+              "text": "Let's turn on",
+              "value": "8037",
+              "is_correct": false
+            },
+            {
+              "id": "5075_2",
+              "order": 2,
+              "text": "Don't turn",
+              "value": "8038",
+              "is_correct": false
+            },
+            {
+              "id": "5075_3",
+              "order": 3,
+              "text": "Turn on",
+              "value": "8039",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5076",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 _____ sad for me. I'm OK.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5076_1",
+              "order": 1,
+              "text": "Aren't",
+              "value": "8040",
+              "is_correct": false
+            },
+            {
+              "id": "5076_2",
+              "order": 2,
+              "text": "Don't be",
+              "value": "8041",
+              "is_correct": true
+            },
+            {
+              "id": "5076_3",
+              "order": 3,
+              "text": "You not be",
+              "value": "8042",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5077",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 The fridge is empty. _____ to a restaurant today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5077_1",
+              "order": 1,
+              "text": "Let's go",
+              "value": "8043",
+              "is_correct": true
+            },
+            {
+              "id": "5077_2",
+              "order": 2,
+              "text": "You go",
+              "value": "8044",
+              "is_correct": false
+            },
+            {
+              "id": "5077_3",
+              "order": 3,
+              "text": "Don't go",
+              "value": "8045",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5078",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 A: '_____ a piece of cake.' B: 'Thanks.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5078_1",
+              "order": 1,
+              "text": "Let's have",
+              "value": "8046",
+              "is_correct": false
+            },
+            {
+              "id": "5078_2",
+              "order": 2,
+              "text": "Have",
+              "value": "8047",
+              "is_correct": true
+            },
+            {
+              "id": "5078_3",
+              "order": 3,
+              "text": "Don't have",
+              "value": "8048",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-594",
+      "lessonId": "a1_imperative_sit_dont_talk",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Write the correct imperative form or let’s + verb forms to complete the following sentences. Use the same verb used in the previous sentence.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_imperative-sit-dont-talk_3.html",
+      "questions": [
+        {
+          "id": "5079",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 A: 'I'll turn off the TV.' B: 'No, {{gap1}} the TV, please.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5079_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't turn off",
+              "accepted_answers": [
+                "don't turn off"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5080",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 A: 'I'll call you this evening.' B: 'Yes, {{gap1}} me this evening, please.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5080_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "call",
+              "accepted_answers": [
+                "call"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5081",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 A: 'Do you want to listen to music.' B: 'Yes, {{gap1}} to music.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5081_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "let's listen",
+              "accepted_answers": [
+                "let's listen"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5082",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 A: 'Let's go to the cinema.' B: 'No, {{gap1}} to the cinema. Let's stay home and watch TV.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5082_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "let's not go",
+              "accepted_answers": [
+                "let's not go"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5083",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 A: 'I will wake you up at 7.' B: 'No, {{gap1}} me up at 7. It's too early.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5083_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't wake",
+              "accepted_answers": [
+                "don't wake"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5084",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 A: 'I will clean the fridge.' B: 'Yes, {{gap1}} the fridge, please. It's very dirty.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5084_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "clean",
+              "accepted_answers": [
+                "clean"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5085",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 A: 'I will open a bottle of wine.' B: 'No, {{gap1}} a bottle of wine, please. I prefer beer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5085_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't open",
+              "accepted_answers": [
+                "don't open"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5086",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 A: 'Would you like to have a picnic in the park?' B: 'Yes, {{gap1}} a picnic in the park. What a great idea!'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5086_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "let's have",
+              "accepted_answers": [
+                "let's have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5087",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 A: 'I will order some pizza.' B:'Yes, {{gap1}} some pizza, please. I am too tired to cook.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5087_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "order",
+              "accepted_answers": [
+                "order"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5088",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 A: 'Do you want to talk about work?' B: 'No, {{gap1}} about work. Let's talk about something different.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5088_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "let's not talk",
+              "accepted_answers": [
+                "let's not talk"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

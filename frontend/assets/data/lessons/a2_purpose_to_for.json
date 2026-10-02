@@ -1,0 +1,997 @@
+{
+  "lesson_id": "a2_purpose_to_for",
+  "level": "A2",
+  "title": "Expressing purpose with 'to' and 'for'",
+  "description": "Практический тест и правила по теме: Expressing purpose with 'to' and 'for'",
+  "theory": {
+    "title": "Правила и грамматика: Expressing purpose with 'to' and 'for'",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Expressing purpose with 'to' and 'for'».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Expressing purpose with 'to' and 'for'» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-604",
+      "lessonId": "a2_purpose_to_for",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Complete the sentences below with to and for.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_purpose-to-for.html",
+      "questions": [
+        {
+          "id": "5179",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I need my computer {{gap1}} send an important email.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5179_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": [
+                {
+                  "id": "gap_5179_1_1",
+                  "order": 1,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5179_1_2",
+                  "order": 2,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5180",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Call your doctor {{gap1}} an appointment.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5180_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": [
+                {
+                  "id": "gap_5180_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5180_1_2",
+                  "order": 2,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5181",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 I'm on a diet {{gap1}} lose some weight.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5181_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": [
+                {
+                  "id": "gap_5181_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5181_1_2",
+                  "order": 2,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5182",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I'm going to call the restaurant {{gap1}} book a table.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5182_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": [
+                {
+                  "id": "gap_5182_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5182_1_2",
+                  "order": 2,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5183",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 A thermometer is a tool {{gap1}} measuring the temperature.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5183_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": [
+                {
+                  "id": "gap_5183_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5183_1_2",
+                  "order": 2,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5184",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Do you have time {{gap1}} a cup of tea?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5184_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": [
+                {
+                  "id": "gap_5184_1_1",
+                  "order": 1,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5184_1_2",
+                  "order": 2,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5185",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 I need some money {{gap1}} a taxi.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5185_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": [
+                {
+                  "id": "gap_5185_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5185_1_2",
+                  "order": 2,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5186",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I need some money {{gap1}} take a taxi.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5186_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": [
+                {
+                  "id": "gap_5186_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5186_1_2",
+                  "order": 2,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5187",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 This knife is used {{gap1}} cutting plastic.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5187_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": [
+                {
+                  "id": "gap_5187_1_1",
+                  "order": 1,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5187_1_2",
+                  "order": 2,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5188",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Where can I go {{gap1}} buy the ingredients?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5188_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": [
+                {
+                  "id": "gap_5188_1_1",
+                  "order": 1,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5188_1_2",
+                  "order": 2,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-605",
+      "lessonId": "a2_purpose_to_for",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct forms to express purpose.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_purpose-to-for_2.html",
+      "questions": [
+        {
+          "id": "5189",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 She's going to university _____ her studies.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5189_1",
+              "order": 1,
+              "text": "for continuing",
+              "value": "8129",
+              "is_correct": false
+            },
+            {
+              "id": "5189_2",
+              "order": 2,
+              "text": "for continue",
+              "value": "8130",
+              "is_correct": false
+            },
+            {
+              "id": "5189_3",
+              "order": 3,
+              "text": "to continue",
+              "value": "8131",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5190",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I need to buy a new dress _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5190_1",
+              "order": 1,
+              "text": "to my next interview",
+              "value": "8132",
+              "is_correct": false
+            },
+            {
+              "id": "5190_2",
+              "order": 2,
+              "text": "for my next interview",
+              "value": "8133",
+              "is_correct": true
+            },
+            {
+              "id": "5190_3",
+              "order": 3,
+              "text": "for interviewing",
+              "value": "8134",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5191",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Do you want to go to a coffee shop _____?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5191_1",
+              "order": 1,
+              "text": "for breakfast",
+              "value": "8135",
+              "is_correct": true
+            },
+            {
+              "id": "5191_2",
+              "order": 2,
+              "text": "to breakfast",
+              "value": "8136",
+              "is_correct": false
+            },
+            {
+              "id": "5191_3",
+              "order": 3,
+              "text": "for having breakfast",
+              "value": "8137",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5192",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Kitchen scissors are _____ foods.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5192_1",
+              "order": 1,
+              "text": "for cutting",
+              "value": "8138",
+              "is_correct": true
+            },
+            {
+              "id": "5192_2",
+              "order": 2,
+              "text": "to cutting",
+              "value": "8139",
+              "is_correct": false
+            },
+            {
+              "id": "5192_3",
+              "order": 3,
+              "text": "for cut",
+              "value": "8140",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5193",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I need to go home _____ my homework.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5193_1",
+              "order": 1,
+              "text": "for finishing",
+              "value": "8141",
+              "is_correct": false
+            },
+            {
+              "id": "5193_2",
+              "order": 2,
+              "text": "to finish",
+              "value": "8142",
+              "is_correct": true
+            },
+            {
+              "id": "5193_3",
+              "order": 3,
+              "text": "for finish",
+              "value": "8143",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5194",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 You must sign up _____ the site.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5194_1",
+              "order": 1,
+              "text": "to use",
+              "value": "8144",
+              "is_correct": true
+            },
+            {
+              "id": "5194_2",
+              "order": 2,
+              "text": "for use",
+              "value": "8145",
+              "is_correct": false
+            },
+            {
+              "id": "5194_3",
+              "order": 3,
+              "text": "for using",
+              "value": "8146",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5195",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 I'm going to the post office _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5195_1",
+              "order": 1,
+              "text": "for some stamps",
+              "value": "8147",
+              "is_correct": true
+            },
+            {
+              "id": "5195_2",
+              "order": 2,
+              "text": "to some stamps",
+              "value": "8148",
+              "is_correct": false
+            },
+            {
+              "id": "5195_3",
+              "order": 3,
+              "text": "for getting some stamps",
+              "value": "8149",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5196",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 This tool is _____ cans easily.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5196_1",
+              "order": 1,
+              "text": "for open",
+              "value": "8150",
+              "is_correct": false
+            },
+            {
+              "id": "5196_2",
+              "order": 2,
+              "text": "for opening",
+              "value": "8151",
+              "is_correct": true
+            },
+            {
+              "id": "5196_3",
+              "order": 3,
+              "text": "to opening",
+              "value": "8152",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5197",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I needed to be alone _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5197_1",
+              "order": 1,
+              "text": "for relax",
+              "value": "8153",
+              "is_correct": false
+            },
+            {
+              "id": "5197_2",
+              "order": 2,
+              "text": "for relaxing",
+              "value": "8154",
+              "is_correct": false
+            },
+            {
+              "id": "5197_3",
+              "order": 3,
+              "text": "to relax",
+              "value": "8155",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5198",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 She called the police _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5198_1",
+              "order": 1,
+              "text": "to helping",
+              "value": "8156",
+              "is_correct": false
+            },
+            {
+              "id": "5198_2",
+              "order": 2,
+              "text": "for getting help",
+              "value": "8157",
+              "is_correct": false
+            },
+            {
+              "id": "5198_3",
+              "order": 3,
+              "text": "for help",
+              "value": "8158",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-606",
+      "lessonId": "a2_purpose_to_for",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with to + infinitive, for + -ing or for + noun. In each gap, use to or for and the word/s in brackets.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_purpose-to-for_3.html",
+      "questions": [
+        {
+          "id": "5200",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I went to the shop {{gap1}} (bread).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5200_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for bread",
+              "accepted_answers": [
+                "for bread"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5199",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 This app is used {{gap1}} (find) new music.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5199_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for finding",
+              "accepted_answers": [
+                "for finding"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5201",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I do exercise {{gap1}} (reduce) stress.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5201_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to reduce",
+              "accepted_answers": [
+                "to reduce"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5202",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I shop online {{gap1}} (save) time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5202_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to save",
+              "accepted_answers": [
+                "to save"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5205",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 This park is the perfect place {{gap1}} (picnics).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5205_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for picnics",
+              "accepted_answers": [
+                "for picnics"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5203",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 You can go to the library {{gap1}} (find) articles for your project.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5203_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to find",
+              "accepted_answers": [
+                "to find"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5204",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 They use social media {{gap1}} (entertainment).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5204_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for entertainment",
+              "accepted_answers": [
+                "for entertainment"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5206",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 A pen is {{gap1}} (write).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5206_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for writing",
+              "accepted_answers": [
+                "for writing"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5207",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 He studied a lot {{gap1}} (get) good marks.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5207_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to get",
+              "accepted_answers": [
+                "to get"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5208",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 She worked very hard {{gap1}} (a promotion).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5208_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for a promotion",
+              "accepted_answers": [
+                "for a promotion"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

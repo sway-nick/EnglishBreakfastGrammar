@@ -1,0 +1,1137 @@
+{
+  "lesson_id": "b2_unless_even_if_provided_as_long_conditionals",
+  "level": "B2",
+  "title": "Unless, even if, provided, as long as: Other expressions in conditionals",
+  "description": "Практический тест и правила по теме: Unless, even if, provided, as long as: Other expressions in conditionals",
+  "theory": {
+    "title": "Правила и грамматика: Unless, even if, provided, as long as: Other expressions in conditionals",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Unless, even if, provided, as long as: Other expressions in conditionals».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Unless, even if, provided, as long as: Other expressions in conditionals» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-623",
+      "lessonId": "b2_unless_even_if_provided_as_long_conditionals",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose unless, even if, provided, as long as, etc. to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_unless-even-if-provided-as-long-conditionals.html",
+      "questions": [
+        {
+          "id": "5366",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Don't call the police {{gap1}} it's strictly necessary.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5366_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "unless",
+              "accepted_answers": [
+                "unless"
+              ],
+              "options": [
+                {
+                  "id": "gap_5366_1_1",
+                  "order": 1,
+                  "text": "even if",
+                  "value": "even if",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5366_1_2",
+                  "order": 2,
+                  "text": "whether or not",
+                  "value": "whether or not",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5366_1_3",
+                  "order": 3,
+                  "text": "unless",
+                  "value": "unless",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5372",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 The exam was too difficult. I wouldn't have passed {{gap1}} I had studied harder.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5372_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "even if",
+              "accepted_answers": [
+                "even if"
+              ],
+              "options": [
+                {
+                  "id": "gap_5372_1_1",
+                  "order": 1,
+                  "text": "only if",
+                  "value": "only if",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5372_1_2",
+                  "order": 2,
+                  "text": "even if",
+                  "value": "even if",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5372_1_3",
+                  "order": 3,
+                  "text": "as long as",
+                  "value": "as long as",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5374",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 {{gap1}} you could spend 15$ every hour. How much could you spend in a year?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5374_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Suppose",
+              "accepted_answers": [
+                "Suppose"
+              ],
+              "options": [
+                {
+                  "id": "gap_5374_1_1",
+                  "order": 1,
+                  "text": "Provided",
+                  "value": "Provided",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5374_1_2",
+                  "order": 2,
+                  "text": "Suppose",
+                  "value": "Suppose",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5374_1_3",
+                  "order": 3,
+                  "text": "Only if",
+                  "value": "Only if",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5379",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I'll talk to the press {{gap1}} they don't reveal my identity.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5379_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "on condition that",
+              "accepted_answers": [
+                "on condition that"
+              ],
+              "options": [
+                {
+                  "id": "gap_5379_1_1",
+                  "order": 1,
+                  "text": "whether or not",
+                  "value": "whether or not",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5379_1_2",
+                  "order": 2,
+                  "text": "on condition that",
+                  "value": "on condition that",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5379_1_3",
+                  "order": 3,
+                  "text": "even if",
+                  "value": "even if",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5380",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 You should stop drinking {{gap1}} you have an addiction problem. Alcohol is just not healthy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5380_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "whether or not",
+              "accepted_answers": [
+                "whether or not"
+              ],
+              "options": [
+                {
+                  "id": "gap_5380_1_1",
+                  "order": 1,
+                  "text": "whether or not",
+                  "value": "whether or not",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5380_1_2",
+                  "order": 2,
+                  "text": "supposing",
+                  "value": "supposing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5380_1_3",
+                  "order": 3,
+                  "text": "provided that",
+                  "value": "provided that",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5382",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 We should take a jacket {{gap1}} it's cold when we arrive.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5382_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "in case",
+              "accepted_answers": [
+                "in case"
+              ],
+              "options": [
+                {
+                  "id": "gap_5382_1_1",
+                  "order": 1,
+                  "text": "even if",
+                  "value": "even if",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5382_1_2",
+                  "order": 2,
+                  "text": "in case",
+                  "value": "in case",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5382_1_3",
+                  "order": 3,
+                  "text": "provided",
+                  "value": "provided",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5383",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 I don't mind how you spend the money {{gap1}} you stick to the budget.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5383_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "as long as",
+              "accepted_answers": [
+                "as long as"
+              ],
+              "options": [
+                {
+                  "id": "gap_5383_1_1",
+                  "order": 1,
+                  "text": "in case",
+                  "value": "in case",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5383_1_2",
+                  "order": 2,
+                  "text": "unless",
+                  "value": "unless",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5383_1_3",
+                  "order": 3,
+                  "text": "as long as",
+                  "value": "as long as",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5384",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Bees sting {{gap1}} they feel threatened.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5384_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "only if",
+              "accepted_answers": [
+                "only if"
+              ],
+              "options": [
+                {
+                  "id": "gap_5384_1_1",
+                  "order": 1,
+                  "text": "only if",
+                  "value": "only if",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5384_1_2",
+                  "order": 2,
+                  "text": "whether or not",
+                  "value": "whether or not",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5384_1_3",
+                  "order": 3,
+                  "text": "in case",
+                  "value": "in case",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5381",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 {{gap1}} you say sorry a thousand times, you can't change what you've done.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5381_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Even if",
+              "accepted_answers": [
+                "Even if"
+              ],
+              "options": [
+                {
+                  "id": "gap_5381_1_1",
+                  "order": 1,
+                  "text": "Only if",
+                  "value": "Only if",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5381_1_2",
+                  "order": 2,
+                  "text": "Even if",
+                  "value": "Even if",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5381_1_3",
+                  "order": 3,
+                  "text": "Unless",
+                  "value": "Unless",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5385",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 You're free to do whatever you want {{gap1}} you respect the rules.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5385_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "provided",
+              "accepted_answers": [
+                "provided"
+              ],
+              "options": [
+                {
+                  "id": "gap_5385_1_1",
+                  "order": 1,
+                  "text": "even if",
+                  "value": "even if",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5385_1_2",
+                  "order": 2,
+                  "text": "unless",
+                  "value": "unless",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5385_1_3",
+                  "order": 3,
+                  "text": "provided",
+                  "value": "provided",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-624",
+      "lessonId": "b2_unless_even_if_provided_as_long_conditionals",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose unless, even if, provided, as long as, etc. for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_unless-even-if-provided-as-long-conditionals_2.html",
+      "questions": [
+        {
+          "id": "5367",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I'll lend you the money _____ that you pay me back by Friday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5367_1",
+              "order": 1,
+              "text": "in case",
+              "value": "8330",
+              "is_correct": false
+            },
+            {
+              "id": "5367_2",
+              "order": 2,
+              "text": "even if",
+              "value": "8331",
+              "is_correct": false
+            },
+            {
+              "id": "5367_3",
+              "order": 3,
+              "text": "on condition",
+              "value": "8332",
+              "is_correct": true
+            },
+            {
+              "id": "5367_4",
+              "order": 4,
+              "text": "unless",
+              "value": "8333",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5368",
+          "order": 2,
+          "type": "multiple_choice",
+          "text": "2 You can use my computer _____ you promise to be careful. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5368_1",
+              "order": 1,
+              "text": "provided",
+              "value": "8334",
+              "is_correct": true
+            },
+            {
+              "id": "5368_2",
+              "order": 2,
+              "text": "unless",
+              "value": "8335",
+              "is_correct": false
+            },
+            {
+              "id": "5368_3",
+              "order": 3,
+              "text": "as long as",
+              "value": "8336",
+              "is_correct": true
+            },
+            {
+              "id": "5368_4",
+              "order": 4,
+              "text": "in case",
+              "value": "8337",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5369",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 You cannot use my computer _____ you promise to be careful.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5369_1",
+              "order": 1,
+              "text": "provided",
+              "value": "8338",
+              "is_correct": false
+            },
+            {
+              "id": "5369_2",
+              "order": 2,
+              "text": "unless",
+              "value": "8339",
+              "is_correct": true
+            },
+            {
+              "id": "5369_3",
+              "order": 3,
+              "text": "as long as",
+              "value": "8340",
+              "is_correct": false
+            },
+            {
+              "id": "5369_4",
+              "order": 4,
+              "text": "only if",
+              "value": "8341",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5373",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 _____ you found a wallet with money in it. What would you do?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5373_1",
+              "order": 1,
+              "text": "As long as",
+              "value": "8350",
+              "is_correct": false
+            },
+            {
+              "id": "5373_2",
+              "order": 2,
+              "text": "Unless",
+              "value": "8351",
+              "is_correct": false
+            },
+            {
+              "id": "5373_3",
+              "order": 3,
+              "text": "Even if",
+              "value": "8352",
+              "is_correct": false
+            },
+            {
+              "id": "5373_4",
+              "order": 4,
+              "text": "Suppose",
+              "value": "8353",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5370",
+          "order": 5,
+          "type": "multiple_choice",
+          "text": "5 We're going for a trek tomorrow ____ it doesn't rain. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5370_1",
+              "order": 1,
+              "text": "unless",
+              "value": "8342",
+              "is_correct": false
+            },
+            {
+              "id": "5370_2",
+              "order": 2,
+              "text": "providing",
+              "value": "8343",
+              "is_correct": true
+            },
+            {
+              "id": "5370_3",
+              "order": 3,
+              "text": "even if",
+              "value": "8344",
+              "is_correct": false
+            },
+            {
+              "id": "5370_4",
+              "order": 4,
+              "text": "as long as",
+              "value": "8345",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5371",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 We're going for a trek tomorrow ____ it rains.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5371_1",
+              "order": 1,
+              "text": "unless",
+              "value": "8346",
+              "is_correct": true
+            },
+            {
+              "id": "5371_2",
+              "order": 2,
+              "text": "providing",
+              "value": "8347",
+              "is_correct": false
+            },
+            {
+              "id": "5371_3",
+              "order": 3,
+              "text": "in case",
+              "value": "8348",
+              "is_correct": false
+            },
+            {
+              "id": "5371_4",
+              "order": 4,
+              "text": "as long as",
+              "value": "8349",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5375",
+          "order": 7,
+          "type": "multiple_choice",
+          "text": "7 Only members can go in. Choose TWO options with the same meaning",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5375_1",
+              "order": 1,
+              "text": "Unless you are a member, you can't go in.",
+              "value": "8354",
+              "is_correct": true
+            },
+            {
+              "id": "5375_2",
+              "order": 2,
+              "text": "You can go in even if you are a member.",
+              "value": "8355",
+              "is_correct": false
+            },
+            {
+              "id": "5375_3",
+              "order": 3,
+              "text": "You can go in wether or not you are a member.",
+              "value": "8356",
+              "is_correct": false
+            },
+            {
+              "id": "5375_4",
+              "order": 4,
+              "text": "You can go in only if you are a member.",
+              "value": "8357",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5376",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Take my card _____ you need to contact me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5376_1",
+              "order": 1,
+              "text": "on condition that",
+              "value": "8358",
+              "is_correct": false
+            },
+            {
+              "id": "5376_2",
+              "order": 2,
+              "text": "in case",
+              "value": "8359",
+              "is_correct": true
+            },
+            {
+              "id": "5376_3",
+              "order": 3,
+              "text": "as long as",
+              "value": "8360",
+              "is_correct": false
+            },
+            {
+              "id": "5376_4",
+              "order": 4,
+              "text": "even if",
+              "value": "8361",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5378",
+          "order": 9,
+          "type": "multiple_choice",
+          "text": "9 You can download the software ______ you accept the Terms and Conditions. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5378_1",
+              "order": 1,
+              "text": "even if",
+              "value": "8366",
+              "is_correct": false
+            },
+            {
+              "id": "5378_2",
+              "order": 2,
+              "text": "whether or not",
+              "value": "8367",
+              "is_correct": false
+            },
+            {
+              "id": "5378_3",
+              "order": 3,
+              "text": "only if",
+              "value": "8368",
+              "is_correct": true
+            },
+            {
+              "id": "5378_4",
+              "order": 4,
+              "text": "on condition that",
+              "value": "8369",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5377",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 You can offer as much as you want, I'll never work for you. (Choose the option with similar meaning).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5377_1",
+              "order": 1,
+              "text": "Even if you offer a lot of money",
+              "value": "8362",
+              "is_correct": true
+            },
+            {
+              "id": "5377_2",
+              "order": 2,
+              "text": "Provided you offer a lot of money",
+              "value": "8363",
+              "is_correct": false
+            },
+            {
+              "id": "5377_3",
+              "order": 3,
+              "text": "Unless you offer a lot of money",
+              "value": "8364",
+              "is_correct": false
+            },
+            {
+              "id": "5377_4",
+              "order": 4,
+              "text": "As long as you offer a lot of money",
+              "value": "8365",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-125",
+      "lessonId": "b2_unless_even_if_provided_as_long_conditionals",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in each gap with one word from the list. Do NOT use if.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_unless-even-if-provided-as-long-conditionals_3.html",
+      "questions": [
+        {
+          "id": "1035",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 You should vote {{gap1}} if you don't know who to vote for.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1035_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "even",
+              "accepted_answers": [
+                "even"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1036",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 You can go on {{gap1}} you come back before 10.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1036_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "condition",
+              "accepted_answers": [
+                "condition"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1037",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I'll enter the competition {{gap1}} if you do it with me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1037_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "only",
+              "accepted_answers": [
+                "only"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1038",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 It's my money, so I'm going to buy a new car {{gap1}} or not you agree with me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1038_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "whether",
+              "accepted_answers": [
+                "whether"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1039",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 {{gap1}} I told you the truth, would you ever tell anyone?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1039_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Suppose",
+              "accepted_answers": [
+                "Suppose"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1040",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 It doesn't matter how slowly you go as {{gap1}} as you do not stop.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1040_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "long",
+              "accepted_answers": [
+                "long"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1041",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 You can print as many copies as you want {{gap1}} that they are intended for personal use",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1041_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "provided",
+              "accepted_answers": [
+                "provided"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1042",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 I'll tell you {{gap1}} condition you don't tell anyone.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1042_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "on",
+              "accepted_answers": [
+                "on"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1043",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 The concert will be cancelled {{gap1}} we sell more tickets.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1043_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "unless",
+              "accepted_answers": [
+                "unless"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1044",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I'll take some snacks in {{gap1}} we get hungry along the way.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1044_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "case",
+              "accepted_answers": [
+                "case"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

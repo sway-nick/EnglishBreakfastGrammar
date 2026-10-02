@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1_reported_speech_indirect_speech",
+  "level": "B1",
+  "title": "Indirect speech / Reported speech",
+  "description": "Практический тест и правила по теме: Indirect speech / Reported speech",
+  "theory": {
+    "title": "Правила и грамматика: Indirect speech / Reported speech",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Indirect speech / Reported speech».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Indirect speech / Reported speech» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-238",
+      "lessonId": "b1_reported_speech_indirect_speech",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct form to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_reported-speech-indirect-speech.html",
+      "questions": [
+        {
+          "id": "1990",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 'I work in a bank.' ⇒ He said that he {{gap1}} in a bank.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1990_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "worked",
+              "accepted_answers": [
+                "worked"
+              ],
+              "options": [
+                {
+                  "id": "gap_1990_1_1",
+                  "order": 1,
+                  "text": "has worked",
+                  "value": "has worked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1990_1_2",
+                  "order": 2,
+                  "text": "had worked",
+                  "value": "had worked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1990_1_3",
+                  "order": 3,
+                  "text": "worked",
+                  "value": "worked",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1991",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 'I am working today.' ⇒ She told us she {{gap1}} that day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1991_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was working",
+              "accepted_answers": [
+                "was working"
+              ],
+              "options": [
+                {
+                  "id": "gap_1991_1_1",
+                  "order": 1,
+                  "text": "was working",
+                  "value": "was working",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1991_1_2",
+                  "order": 2,
+                  "text": "worked",
+                  "value": "worked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1991_1_3",
+                  "order": 3,
+                  "text": "is working",
+                  "value": "is working",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1992",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 'I've been ill for a couple of weeks.' ⇒ He told me he {{gap1}} for a couple of weeks.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1992_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had been ill",
+              "accepted_answers": [
+                "had been ill"
+              ],
+              "options": [
+                {
+                  "id": "gap_1992_1_1",
+                  "order": 1,
+                  "text": "was ill",
+                  "value": "was ill",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1992_1_2",
+                  "order": 2,
+                  "text": "is ill",
+                  "value": "is ill",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1992_1_3",
+                  "order": 3,
+                  "text": "had been ill",
+                  "value": "had been ill",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1993",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 'I was at the doctor's all morning.' ⇒ She told me that she {{gap1}} at the doctor's all morning.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1993_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had been",
+              "accepted_answers": [
+                "had been"
+              ],
+              "options": [
+                {
+                  "id": "gap_1993_1_1",
+                  "order": 1,
+                  "text": "would be",
+                  "value": "would be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1993_1_2",
+                  "order": 2,
+                  "text": "had been",
+                  "value": "had been",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1993_1_3",
+                  "order": 3,
+                  "text": "has been",
+                  "value": "has been",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1994",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 'I'll lend you the money.' ⇒ He told me he {{gap1}} me the money.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1994_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "would lend",
+              "accepted_answers": [
+                "would lend"
+              ],
+              "options": [
+                {
+                  "id": "gap_1994_1_1",
+                  "order": 1,
+                  "text": "lent",
+                  "value": "lent",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1994_1_2",
+                  "order": 2,
+                  "text": "would lend",
+                  "value": "would lend",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1994_1_3",
+                  "order": 3,
+                  "text": "was lending",
+                  "value": "was lending",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1995",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 'I can't do it without your help.' ⇒ She said she {{gap1}} it without my help.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1995_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "couldn't do",
+              "accepted_answers": [
+                "couldn't do"
+              ],
+              "options": [
+                {
+                  "id": "gap_1995_1_1",
+                  "order": 1,
+                  "text": "hadn't done",
+                  "value": "hadn't done",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1995_1_2",
+                  "order": 2,
+                  "text": "didn't do",
+                  "value": "didn't do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1995_1_3",
+                  "order": 3,
+                  "text": "couldn't do",
+                  "value": "couldn't do",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1996",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 'The meeting may start early.' ⇒ He told us that the meeting {{gap1}} early.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1996_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "might start",
+              "accepted_answers": [
+                "might start"
+              ],
+              "options": [
+                {
+                  "id": "gap_1996_1_1",
+                  "order": 1,
+                  "text": "can start",
+                  "value": "can start",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1996_1_2",
+                  "order": 2,
+                  "text": "would start",
+                  "value": "would start",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1996_1_3",
+                  "order": 3,
+                  "text": "might start",
+                  "value": "might start",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1997",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 'I must leave early today.' ⇒ He said that he {{gap1}} early that day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1997_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had to leave",
+              "accepted_answers": [
+                "had to leave"
+              ],
+              "options": [
+                {
+                  "id": "gap_1997_1_1",
+                  "order": 1,
+                  "text": "had to leave",
+                  "value": "had to leave",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1997_1_2",
+                  "order": 2,
+                  "text": "must leave",
+                  "value": "must leave",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1997_1_3",
+                  "order": 3,
+                  "text": "left",
+                  "value": "left",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1998",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 'You should talk to Jim.' ⇒ She said that I {{gap1}} to Jim.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1998_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "should talk",
+              "accepted_answers": [
+                "should talk"
+              ],
+              "options": [
+                {
+                  "id": "gap_1998_1_1",
+                  "order": 1,
+                  "text": "should talk",
+                  "value": "should talk",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1998_1_2",
+                  "order": 2,
+                  "text": "would talk",
+                  "value": "would talk",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1998_1_3",
+                  "order": 3,
+                  "text": "talked",
+                  "value": "talked",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1999",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 'Get out!' ⇒ She told me {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1999_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to get out",
+              "accepted_answers": [
+                "to get out"
+              ],
+              "options": [
+                {
+                  "id": "gap_1999_1_1",
+                  "order": 1,
+                  "text": "I got out",
+                  "value": "I got out",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1999_1_2",
+                  "order": 2,
+                  "text": "I get out",
+                  "value": "I get out",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1999_1_3",
+                  "order": 3,
+                  "text": "to get out",
+                  "value": "to get out",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-239",
+      "lessonId": "b1_reported_speech_indirect_speech",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct form for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_reported-speech-indirect-speech_2.html",
+      "questions": [
+        {
+          "id": "2002",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 'I need to see Sarah this weekend.' ⇒ George said that ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2002_1",
+              "order": 1,
+              "text": "he needed to see Sarah this weekend",
+              "value": "2779",
+              "is_correct": false
+            },
+            {
+              "id": "2002_2",
+              "order": 2,
+              "text": "he was needing to see Sarah that weekend",
+              "value": "2780",
+              "is_correct": false
+            },
+            {
+              "id": "2002_3",
+              "order": 3,
+              "text": "he needed to see Sarah that weekend",
+              "value": "2781",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2003",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 'I'm reading now.' ⇒ Sally told me ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2003_1",
+              "order": 1,
+              "text": "that she was reading at that moment",
+              "value": "2782",
+              "is_correct": true
+            },
+            {
+              "id": "2003_2",
+              "order": 2,
+              "text": "that she read now",
+              "value": "2783",
+              "is_correct": false
+            },
+            {
+              "id": "2003_3",
+              "order": 3,
+              "text": "that she was reading now",
+              "value": "2784",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2004",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 'I haven't seen Barbara since last year.' ⇒ Brendan told me ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2004_1",
+              "order": 1,
+              "text": "he didn't see Barbara since last year",
+              "value": "2785",
+              "is_correct": false
+            },
+            {
+              "id": "2004_2",
+              "order": 2,
+              "text": "he hadn't seen Barbara since the year before",
+              "value": "2786",
+              "is_correct": true
+            },
+            {
+              "id": "2004_3",
+              "order": 3,
+              "text": "he hadn't seen Barbara since last year",
+              "value": "2787",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2005",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 'Have you signed the contract?' ⇒ Suzan ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2005_1",
+              "order": 1,
+              "text": "told me if I had signed the contract",
+              "value": "2788",
+              "is_correct": false
+            },
+            {
+              "id": "2005_2",
+              "order": 2,
+              "text": "asked me whether I had signed the contract",
+              "value": "2789",
+              "is_correct": true
+            },
+            {
+              "id": "2005_3",
+              "order": 3,
+              "text": "said if I signed the contract",
+              "value": "2790",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2006",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 'Where did you eat?' ⇒ Sam asked me ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2006_1",
+              "order": 1,
+              "text": "where I had eaten",
+              "value": "2791",
+              "is_correct": true
+            },
+            {
+              "id": "2006_2",
+              "order": 2,
+              "text": "where had I eaten",
+              "value": "2792",
+              "is_correct": false
+            },
+            {
+              "id": "2006_3",
+              "order": 3,
+              "text": "where did I eat",
+              "value": "2793",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2007",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 'Where are you going tomorrow?' ⇒ Sandra asked me ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2007_1",
+              "order": 1,
+              "text": "where was I going tomorrow",
+              "value": "2794",
+              "is_correct": false
+            },
+            {
+              "id": "2007_2",
+              "order": 2,
+              "text": "where was I going the next day",
+              "value": "2795",
+              "is_correct": false
+            },
+            {
+              "id": "2007_3",
+              "order": 3,
+              "text": "where I was going the following day",
+              "value": "2796",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2008",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 'May I smoke in this room?' ⇒ Micky asked me ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2008_1",
+              "order": 1,
+              "text": "if he may smoke in this room",
+              "value": "2797",
+              "is_correct": false
+            },
+            {
+              "id": "2008_2",
+              "order": 2,
+              "text": "if he might smoke in that room",
+              "value": "2798",
+              "is_correct": true
+            },
+            {
+              "id": "2008_3",
+              "order": 3,
+              "text": "whether he smoked in that room",
+              "value": "2799",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2009",
+          "order": 8,
+          "type": "multiple_choice",
+          "text": "8 'I'm living in Australia.' Sarah told me ______. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2009_1",
+              "order": 1,
+              "text": "she is living in Australia",
+              "value": "2800",
+              "is_correct": true
+            },
+            {
+              "id": "2009_2",
+              "order": 2,
+              "text": "she had lived in Australia",
+              "value": "2801",
+              "is_correct": false
+            },
+            {
+              "id": "2009_3",
+              "order": 3,
+              "text": "she was living in Australia",
+              "value": "2802",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2010",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 'Please, sit here.' ⇒ She ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2010_1",
+              "order": 1,
+              "text": "asked me to sit there",
+              "value": "2803",
+              "is_correct": true
+            },
+            {
+              "id": "2010_2",
+              "order": 2,
+              "text": "said to sit there",
+              "value": "2804",
+              "is_correct": false
+            },
+            {
+              "id": "2010_3",
+              "order": 3,
+              "text": "told me to sit here",
+              "value": "2805",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2011",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 'Can you give me a hand with the boxes?' ⇒ Peter asked me ______ with the boxes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2011_1",
+              "order": 1,
+              "text": "if I could give me a hand",
+              "value": "2806",
+              "is_correct": false
+            },
+            {
+              "id": "2011_2",
+              "order": 2,
+              "text": "whether I could give him a hand",
+              "value": "2807",
+              "is_correct": true
+            },
+            {
+              "id": "2011_3",
+              "order": 3,
+              "text": "if could I give him a hand",
+              "value": "2808",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-240",
+      "lessonId": "b1_reported_speech_indirect_speech",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Turn these sentences into indirect speech.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_reported-speech-indirect-speech_3.html",
+      "questions": [
+        {
+          "id": "2013",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 'Where is the post office?' ⇒ He asked me {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2013_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "where the post office was",
+              "accepted_answers": [
+                "where the post office was"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2014",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 'Are you going to the beach today?' ⇒ She asked me {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2014_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "if I was going to the beach that day",
+              "accepted_answers": [
+                "if I was going to the beach that day"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2015",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 'Let me go! ⇒ He told them {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2015_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to let him go",
+              "accepted_answers": [
+                "to let him go"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2016",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 'Where were you last night?' ⇒ He asked me {{gap1}} night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2016_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "where I had been the previous",
+              "accepted_answers": [
+                "where I had been the previous"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2019",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 'I may not be ready next week.' ⇒ Tomas said that he {{gap1}} week.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2019_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might not be ready the following",
+              "accepted_answers": [
+                "might not be ready the following"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2017",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 'I think Jack will do something stupid' ⇒ Suzan said (that) {{gap1}} something stupid.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2017_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "she thought Jack would do",
+              "accepted_answers": [
+                "she thought Jack would do"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2020",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 'You must tell Ted that I will be there.' ⇒ Sara said that I {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2020_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had to tell Ted that she would be there",
+              "accepted_answers": [
+                "had to tell Ted that she would be there"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2018",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 'Have you been here all this time?' ⇒ She asked him if {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2018_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "he had been there all that time",
+              "accepted_answers": [
+                "he had been there all that time"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2021",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 'Stop or I will tell dad.' ⇒ He told his sister {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2021_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to stop or he would tell dad",
+              "accepted_answers": [
+                "to stop or he would tell dad"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2022",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 'I'm going to stay with Sally tomorrow.' ⇒ She told me she {{gap1}} day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2022_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was going to stay with Sally the next",
+              "accepted_answers": [
+                "was going to stay with Sally the next"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

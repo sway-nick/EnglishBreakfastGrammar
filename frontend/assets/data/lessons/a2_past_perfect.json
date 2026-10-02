@@ -1,0 +1,997 @@
+{
+  "lesson_id": "a2_past_perfect",
+  "level": "A2",
+  "title": "Past perfect",
+  "description": "Практический тест и правила по теме: Past perfect",
+  "theory": {
+    "title": "Правила и грамматика: Past perfect",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Past perfect».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Past perfect» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-411",
+      "lessonId": "a2_past_perfect",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Read the order in which the events happened and then choose between the past simple or past perfect forms to complete the sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_past-perfect.html",
+      "questions": [
+        {
+          "id": "3523",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 First, I wrote a letter. Second, I showed him the letter. ⇒ I showed him a letter that I {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3523_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'d written",
+              "accepted_answers": [
+                "'d written"
+              ],
+              "options": [
+                {
+                  "id": "gap_3523_1_1",
+                  "order": 1,
+                  "text": "'d written",
+                  "value": "'d written",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3523_1_2",
+                  "order": 2,
+                  "text": "wrote",
+                  "value": "wrote",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3526",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 First, I wrote a letter. Second, I showed him the letter. ⇒ I wrote a letter and a few days later I {{gap1}} it to him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3526_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "showed",
+              "accepted_answers": [
+                "showed"
+              ],
+              "options": [
+                {
+                  "id": "gap_3526_1_1",
+                  "order": 1,
+                  "text": "'d shown",
+                  "value": "'d shown",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3526_1_2",
+                  "order": 2,
+                  "text": "showed",
+                  "value": "showed",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3524",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 First, I looked through the window. Second, it started raining. ⇒ When I looked through the window, it {{gap1}} raining.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3524_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "started",
+              "accepted_answers": [
+                "started"
+              ],
+              "options": [
+                {
+                  "id": "gap_3524_1_1",
+                  "order": 1,
+                  "text": "had started",
+                  "value": "had started",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3524_1_2",
+                  "order": 2,
+                  "text": "started",
+                  "value": "started",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3525",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 First, it rained. Second, I looked through the window. ⇒ When I looked through the window, it {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3525_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had rained",
+              "accepted_answers": [
+                "had rained"
+              ],
+              "options": [
+                {
+                  "id": "gap_3525_1_1",
+                  "order": 1,
+                  "text": "had rained",
+                  "value": "had rained",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3525_1_2",
+                  "order": 2,
+                  "text": "rained",
+                  "value": "rained",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3527",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 First I had dinner. Second, you called. ⇒ When you called, I {{gap1}} dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3527_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'d had",
+              "accepted_answers": [
+                "'d had"
+              ],
+              "options": [
+                {
+                  "id": "gap_3527_1_1",
+                  "order": 1,
+                  "text": "'d had",
+                  "value": "'d had",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3527_1_2",
+                  "order": 2,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3528",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 First you called. Second, I had dinner. ⇒ When you called, I {{gap1}} dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3528_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had",
+              "accepted_answers": [
+                "had"
+              ],
+              "options": [
+                {
+                  "id": "gap_3528_1_1",
+                  "order": 1,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3528_1_2",
+                  "order": 2,
+                  "text": "'d had",
+                  "value": "'d had",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3529",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 First, she bought a T-shirt in the sales. Second, she gave it to me. ⇒ She bought a T-shirt in the sales and {{gap1}} it to me as a birthday present.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3529_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "gave",
+              "accepted_answers": [
+                "gave"
+              ],
+              "options": [
+                {
+                  "id": "gap_3529_1_1",
+                  "order": 1,
+                  "text": "gave",
+                  "value": "gave",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3529_1_2",
+                  "order": 2,
+                  "text": "had given",
+                  "value": "had given",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3530",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 First, she bought a T-shirt in the sales. Second, she gave it to me. ⇒ She gave me a T-shirt that she {{gap1}} in the sales.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3530_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had bought",
+              "accepted_answers": [
+                "had bought"
+              ],
+              "options": [
+                {
+                  "id": "gap_3530_1_1",
+                  "order": 1,
+                  "text": "bought",
+                  "value": "bought",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3530_1_2",
+                  "order": 2,
+                  "text": "had bought",
+                  "value": "had bought",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3531",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 First, the teacher arrived. Second, I finished my composition. ⇒ When the teacher arrived, I {{gap1}} my composition.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3531_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "finished",
+              "accepted_answers": [
+                "finished"
+              ],
+              "options": [
+                {
+                  "id": "gap_3531_1_1",
+                  "order": 1,
+                  "text": "'d finished",
+                  "value": "'d finished",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3531_1_2",
+                  "order": 2,
+                  "text": "finished",
+                  "value": "finished",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3532",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 First, I finished the composition. Second, the teacher arrived. ⇒ When the teacher arrived, I {{gap1}} my composition.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3532_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'d finished",
+              "accepted_answers": [
+                "'d finished"
+              ],
+              "options": [
+                {
+                  "id": "gap_3532_1_1",
+                  "order": 1,
+                  "text": "'d finished",
+                  "value": "'d finished",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3532_1_2",
+                  "order": 2,
+                  "text": "finished",
+                  "value": "finished",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-412",
+      "lessonId": "a2_past_perfect",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct past simple or past perfect forms to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_past-perfect_2.html",
+      "questions": [
+        {
+          "id": "3533",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Mum was angry because when I sat down to watch TV, I _____ my dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3533_1",
+              "order": 1,
+              "text": "hadn't finished",
+              "value": "5683",
+              "is_correct": true
+            },
+            {
+              "id": "3533_2",
+              "order": 2,
+              "text": "didn't finish",
+              "value": "5684",
+              "is_correct": false
+            },
+            {
+              "id": "3533_3",
+              "order": 3,
+              "text": "hadn't finish",
+              "value": "5685",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3534",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I couldn't open the door because I _____ the keys at work.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3534_1",
+              "order": 1,
+              "text": "'d forget",
+              "value": "5686",
+              "is_correct": false
+            },
+            {
+              "id": "3534_2",
+              "order": 2,
+              "text": "'d forgotten",
+              "value": "5687",
+              "is_correct": true
+            },
+            {
+              "id": "3534_3",
+              "order": 3,
+              "text": "forgot",
+              "value": "5688",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3535",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 When Rita travelled to France, she_____ the Louvre.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3535_1",
+              "order": 1,
+              "text": "'d visited",
+              "value": "5689",
+              "is_correct": false
+            },
+            {
+              "id": "3535_2",
+              "order": 2,
+              "text": "'d visit",
+              "value": "5690",
+              "is_correct": false
+            },
+            {
+              "id": "3535_3",
+              "order": 3,
+              "text": "visited",
+              "value": "5691",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3536",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 There were no cookies in the cookie jar. Somebody _____ them all.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3536_1",
+              "order": 1,
+              "text": "had eaten",
+              "value": "5692",
+              "is_correct": true
+            },
+            {
+              "id": "3536_2",
+              "order": 2,
+              "text": "'d eat",
+              "value": "5693",
+              "is_correct": false
+            },
+            {
+              "id": "3536_3",
+              "order": 3,
+              "text": "ate",
+              "value": "5694",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3537",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I saw some cookies in the cookie jar and I _____ them all.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3537_1",
+              "order": 1,
+              "text": "'d eaten",
+              "value": "5695",
+              "is_correct": false
+            },
+            {
+              "id": "3537_2",
+              "order": 2,
+              "text": "'d eat",
+              "value": "5696",
+              "is_correct": false
+            },
+            {
+              "id": "3537_3",
+              "order": 3,
+              "text": "ate",
+              "value": "5697",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3539",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I locked the door and then I _____ home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3539_1",
+              "order": 1,
+              "text": "'d left",
+              "value": "5701",
+              "is_correct": false
+            },
+            {
+              "id": "3539_2",
+              "order": 2,
+              "text": "left",
+              "value": "5702",
+              "is_correct": true
+            },
+            {
+              "id": "3539_3",
+              "order": 3,
+              "text": "'d leave",
+              "value": "5703",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3538",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 When I got home I saw that I _____ the door.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3538_1",
+              "order": 1,
+              "text": "hadn't locked",
+              "value": "5698",
+              "is_correct": true
+            },
+            {
+              "id": "3538_2",
+              "order": 2,
+              "text": "hadn't lock",
+              "value": "5699",
+              "is_correct": false
+            },
+            {
+              "id": "3538_3",
+              "order": 3,
+              "text": "didn't lock",
+              "value": "5700",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3540",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 The house was dirty because nobody _____ it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3540_1",
+              "order": 1,
+              "text": "'d clean",
+              "value": "5704",
+              "is_correct": false
+            },
+            {
+              "id": "3540_2",
+              "order": 2,
+              "text": "had cleaned",
+              "value": "5705",
+              "is_correct": true
+            },
+            {
+              "id": "3540_3",
+              "order": 3,
+              "text": "cleaned",
+              "value": "5706",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3541",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 She gave me back my book because she _____ reading it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3541_1",
+              "order": 1,
+              "text": "'d finish",
+              "value": "5707",
+              "is_correct": false
+            },
+            {
+              "id": "3541_2",
+              "order": 2,
+              "text": "'d finished",
+              "value": "5708",
+              "is_correct": true
+            },
+            {
+              "id": "3541_3",
+              "order": 3,
+              "text": "finished",
+              "value": "5709",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3542",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 When she finished the book, she _____ it back to me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3542_1",
+              "order": 1,
+              "text": "'d given",
+              "value": "5710",
+              "is_correct": false
+            },
+            {
+              "id": "3542_2",
+              "order": 2,
+              "text": "'d give",
+              "value": "5711",
+              "is_correct": false
+            },
+            {
+              "id": "3542_3",
+              "order": 3,
+              "text": "gave",
+              "value": "5712",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-413",
+      "lessonId": "a2_past_perfect",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences using the words in brackets in the past simple or past perfect.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_past-perfect_3.html",
+      "questions": [
+        {
+          "id": "3543",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I was worried because Jim {{gap1}} (not call) yet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3543_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "hadn't called",
+              "accepted_answers": [
+                "hadn't called"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3544",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 I was so worried that I {{gap1}} (call) Jim.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3544_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "called",
+              "accepted_answers": [
+                "called"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3545",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I couldn't find the trousers that I {{gap1}} (buy) in Camden market.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3545_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had bought",
+              "accepted_answers": [
+                "had bought"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3546",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I couldn't find my favourite trousers so I {{gap1}} (decide) to wear a skirt.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3546_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "decided",
+              "accepted_answers": [
+                "decided"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3548",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 I lied to them and they {{gap1}} (get) furious.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3548_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "got",
+              "accepted_answers": [
+                "got"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3547",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 They were angry, but why? {{gap1}} (I/make) a terrible mistake?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3547_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Had I made",
+              "accepted_answers": [
+                "Had I made"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3549",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 John asked me if I {{gap1}} (see) his dog.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3549_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had seen",
+              "accepted_answers": [
+                "had seen"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3550",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 John didn't have his dog. Apparently the dog {{gap1}} (run) away during some fireworks.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3550_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had run",
+              "accepted_answers": [
+                "had run"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3551",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I couldn't find the keys. Where {{gap1}} (I/put) them?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3551_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had I put",
+              "accepted_answers": [
+                "had I put"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3552",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 My boss was upset, so I {{gap1}} (try) to talk to him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3552_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "tried",
+              "accepted_answers": [
+                "tried"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

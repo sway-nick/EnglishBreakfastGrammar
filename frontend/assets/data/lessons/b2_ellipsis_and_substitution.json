@@ -1,0 +1,1299 @@
+{
+  "lesson_id": "b2_ellipsis_and_substitution",
+  "level": "B2",
+  "title": "Ellipsis and substitution: Omitting or replacing words",
+  "description": "Практический тест и правила по теме: Ellipsis and substitution: Omitting or replacing words",
+  "theory": {
+    "title": "Правила и грамматика: Ellipsis and substitution: Omitting or replacing words",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Ellipsis and substitution: Omitting or replacing words».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Ellipsis and substitution: Omitting or replacing words» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-146",
+      "lessonId": "b2_ellipsis_and_substitution",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_ellipsis-and-substitution.html",
+      "questions": [
+        {
+          "id": "1233",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I've never been to Australia, but I'd {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1233_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "love to",
+              "accepted_answers": [
+                "love to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1233_1_1",
+                  "order": 1,
+                  "text": "go to",
+                  "value": "go to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1233_1_2",
+                  "order": 2,
+                  "text": "love to",
+                  "value": "love to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1233_1_3",
+                  "order": 3,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1234",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 She didn't remember to take the rubbish out, and {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1234_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "neither did he",
+              "accepted_answers": [
+                "neither did he"
+              ],
+              "options": [
+                {
+                  "id": "gap_1234_1_1",
+                  "order": 1,
+                  "text": "nor he did",
+                  "value": "nor he did",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1234_1_2",
+                  "order": 2,
+                  "text": "he didn't too",
+                  "value": "he didn't too",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1234_1_3",
+                  "order": 3,
+                  "text": "neither did he",
+                  "value": "neither did he",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1235",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 If you are not willing to take the risk, I'm sure Sam {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1235_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": [
+                {
+                  "id": "gap_1235_1_1",
+                  "order": 1,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1235_1_2",
+                  "order": 2,
+                  "text": "does",
+                  "value": "does",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1235_1_3",
+                  "order": 3,
+                  "text": "is willing",
+                  "value": "is willing",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1236",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 A: 'Did they finally find the keys?' B: 'I {{gap1}}, because they didn't call asking for help.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1236_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "guess so",
+              "accepted_answers": [
+                "guess so"
+              ],
+              "options": [
+                {
+                  "id": "gap_1236_1_1",
+                  "order": 1,
+                  "text": "guess so",
+                  "value": "guess so",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1236_1_2",
+                  "order": 2,
+                  "text": "'m sure of that",
+                  "value": "'m sure of that",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1236_1_3",
+                  "order": 3,
+                  "text": "know so",
+                  "value": "know so",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1237",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 A: 'Did she get hurt?' B: ' {{gap1}}. I'll call her later to ask.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1237_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "I hope not",
+              "accepted_answers": [
+                "I hope not"
+              ],
+              "options": [
+                {
+                  "id": "gap_1237_1_1",
+                  "order": 1,
+                  "text": "I'm sure not",
+                  "value": "I'm sure not",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1237_1_2",
+                  "order": 2,
+                  "text": "Not",
+                  "value": "Not",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1237_1_3",
+                  "order": 3,
+                  "text": "I hope not",
+                  "value": "I hope not",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1238",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 I've brought cookies. Do you want {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1238_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "one",
+              "accepted_answers": [
+                "one"
+              ],
+              "options": [
+                {
+                  "id": "gap_1238_1_1",
+                  "order": 1,
+                  "text": "one",
+                  "value": "one",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1238_1_2",
+                  "order": 2,
+                  "text": "this",
+                  "value": "this",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1238_1_3",
+                  "order": 3,
+                  "text": "ones",
+                  "value": "ones",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1239",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 We can win this game, but in order to {{gap1}}, we need to believe in ourselves.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1239_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "do so",
+              "accepted_answers": [
+                "do so"
+              ],
+              "options": [
+                {
+                  "id": "gap_1239_1_1",
+                  "order": 1,
+                  "text": "do so",
+                  "value": "do so",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1239_1_2",
+                  "order": 2,
+                  "text": "do such",
+                  "value": "do such",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1239_1_3",
+                  "order": 3,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1240",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 A: 'Are you going to Warsaw for your holiday?' B: 'We {{gap1}}, but we're still not sure.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1240_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "might",
+              "accepted_answers": [
+                "might"
+              ],
+              "options": [
+                {
+                  "id": "gap_1240_1_1",
+                  "order": 1,
+                  "text": "will",
+                  "value": "will",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1240_1_2",
+                  "order": 2,
+                  "text": "might",
+                  "value": "might",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1240_1_3",
+                  "order": 3,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1241",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 You don't need to come if you don't {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1241_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "want to",
+              "accepted_answers": [
+                "want to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1241_1_1",
+                  "order": 1,
+                  "text": "want to",
+                  "value": "want to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1241_1_2",
+                  "order": 2,
+                  "text": "do so",
+                  "value": "do so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1241_1_3",
+                  "order": 3,
+                  "text": "think so",
+                  "value": "think so",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1242",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 A: 'Please, be careful.' B: 'Don't worry, I {{gap1}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1242_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "will",
+              "accepted_answers": [
+                "will"
+              ],
+              "options": [
+                {
+                  "id": "gap_1242_1_1",
+                  "order": 1,
+                  "text": "think so",
+                  "value": "think so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1242_1_2",
+                  "order": 2,
+                  "text": "will",
+                  "value": "will",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1242_1_3",
+                  "order": 3,
+                  "text": "'ll do",
+                  "value": "'ll do",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-147",
+      "lessonId": "b2_ellipsis_and_substitution",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct answer.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_ellipsis-and-substitution_2.html",
+      "questions": [
+        {
+          "id": "1243",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 You didn't call your mum, and you _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1243_1",
+              "order": 1,
+              "text": "should have called",
+              "value": "1776",
+              "is_correct": false
+            },
+            {
+              "id": "1243_2",
+              "order": 2,
+              "text": "had",
+              "value": "1777",
+              "is_correct": false
+            },
+            {
+              "id": "1243_3",
+              "order": 3,
+              "text": "should have",
+              "value": "1778",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1244",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 'He doesn't care about us.' 'I _____ because he never calls.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1244_1",
+              "order": 1,
+              "text": "don't guess so",
+              "value": "1779",
+              "is_correct": false
+            },
+            {
+              "id": "1244_2",
+              "order": 2,
+              "text": "guess not",
+              "value": "1780",
+              "is_correct": true
+            },
+            {
+              "id": "1244_3",
+              "order": 3,
+              "text": "think not",
+              "value": "1781",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1245",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I've never been to New Zealand but one day I ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1245_1",
+              "order": 1,
+              "text": "will",
+              "value": "1782",
+              "is_correct": true
+            },
+            {
+              "id": "1245_2",
+              "order": 2,
+              "text": "have",
+              "value": "1783",
+              "is_correct": false
+            },
+            {
+              "id": "1245_3",
+              "order": 3,
+              "text": "'ll do",
+              "value": "1784",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1246",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 A: 'Is he coming with us?' B: 'I ______. I don't really like him.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1246_1",
+              "order": 1,
+              "text": "hope doesn't",
+              "value": "1785",
+              "is_correct": false
+            },
+            {
+              "id": "1246_2",
+              "order": 2,
+              "text": "hope no",
+              "value": "1786",
+              "is_correct": false
+            },
+            {
+              "id": "1246_3",
+              "order": 3,
+              "text": "hope not",
+              "value": "1787",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1250",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I know I said I would go with you, but I won't ____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1250_1",
+              "order": 1,
+              "text": "be able to do",
+              "value": "1797",
+              "is_correct": false
+            },
+            {
+              "id": "1250_2",
+              "order": 2,
+              "text": "be able so",
+              "value": "1798",
+              "is_correct": false
+            },
+            {
+              "id": "1250_3",
+              "order": 3,
+              "text": "be able to",
+              "value": "1799",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1247",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 A: 'Are you going to buy the house?' B: 'We ______, but we finally decided that it was too expensive.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1247_1",
+              "order": 1,
+              "text": "are",
+              "value": "1788",
+              "is_correct": false
+            },
+            {
+              "id": "1247_2",
+              "order": 2,
+              "text": "were",
+              "value": "1789",
+              "is_correct": true
+            },
+            {
+              "id": "1247_3",
+              "order": 3,
+              "text": "do",
+              "value": "1790",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1248",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 He took the golden plates and washed ______ very carefully.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1248_1",
+              "order": 1,
+              "text": "each one",
+              "value": "1791",
+              "is_correct": true
+            },
+            {
+              "id": "1248_2",
+              "order": 2,
+              "text": "each of they",
+              "value": "1792",
+              "is_correct": false
+            },
+            {
+              "id": "1248_3",
+              "order": 3,
+              "text": "the ones",
+              "value": "1793",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1249",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 He really loves you, but he won't ______ because he is too proud.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1249_1",
+              "order": 1,
+              "text": "tell so",
+              "value": "1794",
+              "is_correct": false
+            },
+            {
+              "id": "1249_2",
+              "order": 2,
+              "text": "say so",
+              "value": "1795",
+              "is_correct": true
+            },
+            {
+              "id": "1249_3",
+              "order": 3,
+              "text": "tell",
+              "value": "1796",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1251",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 He doesn't go out as often as he ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1251_1",
+              "order": 1,
+              "text": "used to",
+              "value": "1800",
+              "is_correct": true
+            },
+            {
+              "id": "1251_2",
+              "order": 2,
+              "text": "used so",
+              "value": "1801",
+              "is_correct": false
+            },
+            {
+              "id": "1251_3",
+              "order": 3,
+              "text": "used do",
+              "value": "1802",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1252",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I'm studying for the exams, but not as much as I ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1252_1",
+              "order": 1,
+              "text": "am",
+              "value": "1803",
+              "is_correct": false
+            },
+            {
+              "id": "1252_2",
+              "order": 2,
+              "text": "should",
+              "value": "1804",
+              "is_correct": true
+            },
+            {
+              "id": "1252_3",
+              "order": 3,
+              "text": "would",
+              "value": "1805",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-148",
+      "lessonId": "b2_ellipsis_and_substitution",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps using one suitable word or two contracted words (e.g. don’t, shouldn’t, or similar).",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_ellipsis-and-substitution_3.html",
+      "questions": [
+        {
+          "id": "1253",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Don't use those napkins, use the {{gap1}} we bought in Prague.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1253_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "ones",
+              "accepted_answers": [
+                "ones"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1254",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 I told you to wash the dishes yesterday, and you {{gap1}}, so wash them now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1254_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't",
+              "accepted_answers": [
+                "didn't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1255",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 A: Are you going to the lake this weekend? B: I don't think {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1255_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1256",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 A: Are you going to the lake this weekend? B: I don't think I {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1256_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "am",
+              "accepted_answers": [
+                "am"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1257",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 A: My car is being repaired. B: {{gap1}} is mine; we'll have to take the bus.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1257_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "So",
+              "accepted_answers": [
+                "So"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1258",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I told Peter to tell the truth, but he decided not {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1258_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1259",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 She was supposed to visit them, but she {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1259_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't",
+              "accepted_answers": [
+                "didn't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1260",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 I won't pass the selection process and {{gap1}} will you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1260_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "neither",
+              "accepted_answers": [
+                "neither"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1261",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I wanted to travel to Japan this summer, but I can't afford {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1261_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1262",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 A: Will she be at the reception? B: I'm {{gap1}} not.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1262_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "afraid",
+              "accepted_answers": [
+                "afraid"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-152",
+      "lessonId": "b2_ellipsis_and_substitution",
+      "order": 4,
+      "page": 4,
+      "title": "Exercise 4",
+      "instruction": "Complete the gaps with the word/s that have been left out of the sentences to avoid repetition.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_ellipsis-and-substitution_4.html",
+      "questions": [
+        {
+          "id": "1263",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 He should go to the doctor, but he doesn't want to [...]. ⇒ {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1263_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "go to the doctor",
+              "accepted_answers": [
+                "go to the doctor"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1264",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 I've told him to do it but he won't [...]. ⇒ {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1264_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "do it",
+              "accepted_answers": [
+                "do it"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1265",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 A: \"Don't you think it will rain?\" B: \"It might [...], but I'm not sure it will [...].\" ⇒ {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1265_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "rain",
+              "accepted_answers": [
+                "rain"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1266",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 They didn't visit us, although we'd been hoping they would [...]. ⇒ {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1266_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "visit us",
+              "accepted_answers": [
+                "visit us"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1268",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 We went fishing but [...] didn't catch anything. ⇒ {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1268_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "we",
+              "accepted_answers": [
+                "we"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1267",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 A: \"They've all left.\" B: \"No, Jack hasn't [...].\" ⇒ {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1267_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "left",
+              "accepted_answers": [
+                "left"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1269",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 You didn't get hurt, but you might have [...]. ⇒ {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1269_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "got hurt",
+              "accepted_answers": [
+                "got hurt"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1270",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 A: \"Have you done the dishes?\" B: \"No, I'm going to [...].\" ⇒ {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1270_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "do them",
+              "accepted_answers": [
+                "do them"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1271",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 You must earn more or [...] spend less. ⇒ {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1271_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "you must",
+              "accepted_answers": [
+                "you must"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1272",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 He told us to shut up, but we said we wouldn't [...]. ⇒ {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1272_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "shut up",
+              "accepted_answers": [
+                "shut up"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

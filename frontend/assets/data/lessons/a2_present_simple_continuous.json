@@ -1,0 +1,1056 @@
+{
+  "lesson_id": "a2_present_simple_continuous",
+  "level": "A2",
+  "title": "Present simple vs present continuous",
+  "description": "Практический тест и правила по теме: Present simple vs present continuous",
+  "theory": {
+    "title": "Правила и грамматика: Present simple vs present continuous",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Present simple vs present continuous».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Present simple vs present continuous» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-278",
+      "lessonId": "a2_present_simple_continuous",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct forms of present simple or present continuous for the gaps below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_present-simple-continuous.html",
+      "questions": [
+        {
+          "id": "2678",
+          "order": 1,
+          "type": "gap_select",
+          "text": "Dialogue 1 LUKE: What 1 {{gap1}}? SARAH: I am watching TV. LUKE: 2 {{gap2}} TV in the afternoon? SARAH: Yes, I do. LUKE: What kind of programs 3 {{gap3}}? SARAH: I 4 {{gap4}} talk shows. But now I 5 {{gap5}} a sports show.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2678_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are you doing",
+              "accepted_answers": [
+                "are you doing"
+              ],
+              "options": [
+                {
+                  "id": "gap_2678_1_1",
+                  "order": 1,
+                  "text": "you doing",
+                  "value": "you doing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2678_1_2",
+                  "order": 2,
+                  "text": "do you do",
+                  "value": "do you do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2678_1_3",
+                  "order": 3,
+                  "text": "are you doing",
+                  "value": "are you doing",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_2678_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "Do you often watch",
+              "accepted_answers": [
+                "Do you often watch"
+              ],
+              "options": [
+                {
+                  "id": "gap_2678_2_1",
+                  "order": 1,
+                  "text": "Are you often watch",
+                  "value": "Are you often watch",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2678_2_2",
+                  "order": 2,
+                  "text": "Do you often watch",
+                  "value": "Do you often watch",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2678_2_3",
+                  "order": 3,
+                  "text": "Are you often watching",
+                  "value": "Are you often watching",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2678_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "do you watch",
+              "accepted_answers": [
+                "do you watch"
+              ],
+              "options": [
+                {
+                  "id": "gap_2678_3_1",
+                  "order": 1,
+                  "text": "you watch",
+                  "value": "you watch",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2678_3_2",
+                  "order": 2,
+                  "text": "do you watch",
+                  "value": "do you watch",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2678_3_3",
+                  "order": 3,
+                  "text": "are you watching",
+                  "value": "are you watching",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2678_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "select",
+              "correct_answer": "watch",
+              "accepted_answers": [
+                "watch"
+              ],
+              "options": [
+                {
+                  "id": "gap_2678_4_1",
+                  "order": 1,
+                  "text": "watch",
+                  "value": "watch",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2678_4_2",
+                  "order": 2,
+                  "text": "'m watching",
+                  "value": "'m watching",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2678_4_3",
+                  "order": 3,
+                  "text": "watching",
+                  "value": "watching",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2678_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "select",
+              "correct_answer": "'m watching",
+              "accepted_answers": [
+                "'m watching"
+              ],
+              "options": [
+                {
+                  "id": "gap_2678_5_1",
+                  "order": 1,
+                  "text": "watch",
+                  "value": "watch",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2678_5_2",
+                  "order": 2,
+                  "text": "are watch",
+                  "value": "are watch",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2678_5_3",
+                  "order": 3,
+                  "text": "'m watching",
+                  "value": "'m watching",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4497",
+          "order": 2,
+          "type": "gap_select",
+          "text": "Dialogue 2 PETER: What 6 {{gap1}}? REBECCA: He 7 {{gap2}} an architect but he 8 {{gap3}} at the moment. He 9 {{gap4}} for a job desperately, because he 10 {{gap5}} money for the house.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4497_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "does Jonatan do",
+              "accepted_answers": [
+                "does Jonatan do"
+              ],
+              "options": [
+                {
+                  "id": "gap_4497_1_1",
+                  "order": 1,
+                  "text": "does Jonatan",
+                  "value": "does Jonatan",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4497_1_2",
+                  "order": 2,
+                  "text": "is Jonatan doing",
+                  "value": "is Jonatan doing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4497_1_3",
+                  "order": 3,
+                  "text": "does Jonatan do",
+                  "value": "does Jonatan do",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4497_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": [
+                {
+                  "id": "gap_4497_2_1",
+                  "order": 1,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4497_2_2",
+                  "order": 2,
+                  "text": "does",
+                  "value": "does",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4497_2_3",
+                  "order": 3,
+                  "text": "is being",
+                  "value": "is being",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4497_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "is not working",
+              "accepted_answers": [
+                "is not working"
+              ],
+              "options": [
+                {
+                  "id": "gap_4497_3_1",
+                  "order": 1,
+                  "text": "is not working",
+                  "value": "is not working",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4497_3_2",
+                  "order": 2,
+                  "text": "not works",
+                  "value": "not works",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4497_3_3",
+                  "order": 3,
+                  "text": "does not work",
+                  "value": "does not work",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4497_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "select",
+              "correct_answer": "is looking",
+              "accepted_answers": [
+                "is looking"
+              ],
+              "options": [
+                {
+                  "id": "gap_4497_4_1",
+                  "order": 1,
+                  "text": "is looking",
+                  "value": "is looking",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4497_4_2",
+                  "order": 2,
+                  "text": "is look",
+                  "value": "is look",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4497_4_3",
+                  "order": 3,
+                  "text": "looks",
+                  "value": "looks",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4497_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "select",
+              "correct_answer": "needs",
+              "accepted_answers": [
+                "needs"
+              ],
+              "options": [
+                {
+                  "id": "gap_4497_5_1",
+                  "order": 1,
+                  "text": "is needing",
+                  "value": "is needing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4497_5_2",
+                  "order": 2,
+                  "text": "needs",
+                  "value": "needs",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4497_5_3",
+                  "order": 3,
+                  "text": "is need",
+                  "value": "is need",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4498",
+          "order": 3,
+          "type": "gap_select",
+          "text": "Dialogue 3 SANDRA: Can I have that magazine or 11 {{gap1}} it? TIM: No, I 12 {{gap2}} it. I 13 {{gap3}} that magazine. I 14 {{gap4}} sports magazines. SANDRA: I 15 {{gap5}} sports magazines.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4498_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are you reading",
+              "accepted_answers": [
+                "are you reading"
+              ],
+              "options": [
+                {
+                  "id": "gap_4498_1_1",
+                  "order": 1,
+                  "text": "do you read",
+                  "value": "do you read",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4498_1_2",
+                  "order": 2,
+                  "text": "are you reading",
+                  "value": "are you reading",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4498_1_3",
+                  "order": 3,
+                  "text": "you reading",
+                  "value": "you reading",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4498_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'m not reading",
+              "accepted_answers": [
+                "'m not reading"
+              ],
+              "options": [
+                {
+                  "id": "gap_4498_2_1",
+                  "order": 1,
+                  "text": "'m not reading",
+                  "value": "'m not reading",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4498_2_2",
+                  "order": 2,
+                  "text": "not reading",
+                  "value": "not reading",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4498_2_3",
+                  "order": 3,
+                  "text": "don't read",
+                  "value": "don't read",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4498_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "never read",
+              "accepted_answers": [
+                "never read"
+              ],
+              "options": [
+                {
+                  "id": "gap_4498_3_1",
+                  "order": 1,
+                  "text": "am never reading",
+                  "value": "am never reading",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4498_3_2",
+                  "order": 2,
+                  "text": "am never read",
+                  "value": "am never read",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4498_3_3",
+                  "order": 3,
+                  "text": "never read",
+                  "value": "never read",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4498_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "select",
+              "correct_answer": "prefer",
+              "accepted_answers": [
+                "prefer"
+              ],
+              "options": [
+                {
+                  "id": "gap_4498_4_1",
+                  "order": 1,
+                  "text": "prefer",
+                  "value": "prefer",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4498_4_2",
+                  "order": 2,
+                  "text": "'m preferring",
+                  "value": "'m preferring",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4498_4_3",
+                  "order": 3,
+                  "text": "am prefer",
+                  "value": "am prefer",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4498_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "select",
+              "correct_answer": "hate",
+              "accepted_answers": [
+                "hate"
+              ],
+              "options": [
+                {
+                  "id": "gap_4498_5_1",
+                  "order": 1,
+                  "text": "hate",
+                  "value": "hate",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4498_5_2",
+                  "order": 2,
+                  "text": "hating",
+                  "value": "hating",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4498_5_3",
+                  "order": 3,
+                  "text": "'m hating",
+                  "value": "'m hating",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-279",
+      "lessonId": "a2_present_simple_continuous",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct present simple or present continuous forms for the gaps below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_present-simple-continuous_2.html",
+      "questions": [
+        {
+          "id": "2679",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 A: \"Excuse me, __________ English?\" B: \"No, sorry.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2679_1",
+              "order": 1,
+              "text": "do you speak",
+              "value": "4553",
+              "is_correct": true
+            },
+            {
+              "id": "2679_2",
+              "order": 2,
+              "text": "are you speaking",
+              "value": "4554",
+              "is_correct": false
+            },
+            {
+              "id": "2679_3",
+              "order": 3,
+              "text": "you speak",
+              "value": "4555",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2680",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I ________.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2680_1",
+              "order": 1,
+              "text": "aren't very often doing sport",
+              "value": "4556",
+              "is_correct": false
+            },
+            {
+              "id": "2680_2",
+              "order": 2,
+              "text": "don't very often do sport",
+              "value": "4557",
+              "is_correct": false
+            },
+            {
+              "id": "2680_3",
+              "order": 3,
+              "text": "don't do sport very often",
+              "value": "4558",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2681",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I am hungry. I ______ to eat something.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2681_1",
+              "order": 1,
+              "text": "want",
+              "value": "4559",
+              "is_correct": true
+            },
+            {
+              "id": "2681_2",
+              "order": 2,
+              "text": "'m wanting",
+              "value": "4560",
+              "is_correct": false
+            },
+            {
+              "id": "2681_3",
+              "order": 3,
+              "text": "am want",
+              "value": "4561",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2682",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 What time ____________ work on Fridays?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2682_1",
+              "order": 1,
+              "text": "she starts",
+              "value": "4562",
+              "is_correct": false
+            },
+            {
+              "id": "2682_2",
+              "order": 2,
+              "text": "does she start",
+              "value": "4563",
+              "is_correct": true
+            },
+            {
+              "id": "2682_3",
+              "order": 3,
+              "text": "is she starting",
+              "value": "4564",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2683",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I usually _________ to work, but this week I_________.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2683_1",
+              "order": 1,
+              "text": "drive / walk",
+              "value": "4565",
+              "is_correct": false
+            },
+            {
+              "id": "2683_2",
+              "order": 2,
+              "text": "drive / walking",
+              "value": "4566",
+              "is_correct": false
+            },
+            {
+              "id": "2683_3",
+              "order": 3,
+              "text": "drive / 'm walking",
+              "value": "4567",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2684",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I __________ coffee. I prefer tea.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2684_1",
+              "order": 1,
+              "text": "don't like",
+              "value": "4568",
+              "is_correct": true
+            },
+            {
+              "id": "2684_2",
+              "order": 2,
+              "text": "not like",
+              "value": "4569",
+              "is_correct": false
+            },
+            {
+              "id": "2684_3",
+              "order": 3,
+              "text": "am not liking",
+              "value": "4570",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2685",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 You can turn off the TV. I _____________ it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2685_1",
+              "order": 1,
+              "text": "don't watch",
+              "value": "4571",
+              "is_correct": false
+            },
+            {
+              "id": "2685_2",
+              "order": 2,
+              "text": "'m not watch",
+              "value": "4572",
+              "is_correct": false
+            },
+            {
+              "id": "2685_3",
+              "order": 3,
+              "text": "'m not watching",
+              "value": "4573",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2686",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 There isn't any milk left in the fridge. We _________ to buy some.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2686_1",
+              "order": 1,
+              "text": "needs",
+              "value": "4574",
+              "is_correct": false
+            },
+            {
+              "id": "2686_2",
+              "order": 2,
+              "text": "need",
+              "value": "4575",
+              "is_correct": true
+            },
+            {
+              "id": "2686_3",
+              "order": 3,
+              "text": "are needing",
+              "value": "4576",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2687",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Can I sit here? Somebody ___________ in my seat.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2687_1",
+              "order": 1,
+              "text": "sits",
+              "value": "4577",
+              "is_correct": false
+            },
+            {
+              "id": "2687_2",
+              "order": 2,
+              "text": "sit",
+              "value": "4578",
+              "is_correct": false
+            },
+            {
+              "id": "2687_3",
+              "order": 3,
+              "text": "is sitting",
+              "value": "4579",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2688",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 \"What __________?\" \"I'm a dentist.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2688_1",
+              "order": 1,
+              "text": "do you do",
+              "value": "4580",
+              "is_correct": true
+            },
+            {
+              "id": "2688_2",
+              "order": 2,
+              "text": "are you doing",
+              "value": "4581",
+              "is_correct": false
+            },
+            {
+              "id": "2688_3",
+              "order": 3,
+              "text": "are you do",
+              "value": "4582",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-280",
+      "lessonId": "a2_present_simple_continuous",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the correct present simple or present continuous forms.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_present-simple-continuous_3.html",
+      "questions": [
+        {
+          "id": "2689",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Dear Laura, I 1 {{gap1}} (write) this letter from Cadiz in the south of Spain. I 2 {{gap2}} (sit) at a terrace by the sea and I'm having a great time! What 3 {{gap3}} (I/ do) here? Well, I needed a change and I wanted to see the world. I got a job with an English travel company. They 4 {{gap4}} (need) native English people for their English customers. Every day I 5 {{gap5}} (help) travellers with any problems and I 6 {{gap6}} (tell) them about the town. I only arrived two weeks ago so I 7 {{gap7}} (still learn) about the job. I 8 {{gap8}} (love) this job, but I never 9 {{gap9}} (get) any free weekends. Oh dear. I must go now. Someone 10 {{gap10}} (come) to ask me a question. I'll write again soon. Love, Jess.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2689_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "am writing",
+              "accepted_answers": [
+                "am writing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2689_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "am sitting",
+              "accepted_answers": [
+                "am sitting"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2689_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "am I doing",
+              "accepted_answers": [
+                "am I doing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2689_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "need",
+              "accepted_answers": [
+                "need"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2689_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "help",
+              "accepted_answers": [
+                "help"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2689_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "tell",
+              "accepted_answers": [
+                "tell"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2689_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "am still learning",
+              "accepted_answers": [
+                "am still learning"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2689_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "love",
+              "accepted_answers": [
+                "love"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2689_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "get",
+              "accepted_answers": [
+                "get"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2689_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "is coming",
+              "accepted_answers": [
+                "is coming"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

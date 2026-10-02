@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "a2_too_too_much_too_many_enough",
+  "level": "A2",
+  "title": "Too, too much, too many, enough",
+  "description": "Практический тест и правила по теме: Too, too much, too many, enough",
+  "theory": {
+    "title": "Правила и грамматика: Too, too much, too many, enough",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Too, too much, too many, enough».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Too, too much, too many, enough» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-371",
+      "lessonId": "a2_too_too_much_too_many_enough",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose too, too much, too many, enough to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_too-too-much-too-many-enough.html",
+      "questions": [
+        {
+          "id": "3154",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 There's {{gap1}} smoke in here; I can't breathe.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3154_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "too much",
+              "accepted_answers": [
+                "too much"
+              ],
+              "options": [
+                {
+                  "id": "gap_3154_1_1",
+                  "order": 1,
+                  "text": "too many",
+                  "value": "too many",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3154_1_2",
+                  "order": 2,
+                  "text": "too",
+                  "value": "too",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3154_1_3",
+                  "order": 3,
+                  "text": "too much",
+                  "value": "too much",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3155",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I don't earn {{gap1}} to buy that car.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3155_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "enough money",
+              "accepted_answers": [
+                "enough money"
+              ],
+              "options": [
+                {
+                  "id": "gap_3155_1_1",
+                  "order": 1,
+                  "text": "money enough",
+                  "value": "money enough",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3155_1_2",
+                  "order": 2,
+                  "text": "too much money",
+                  "value": "too much money",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3155_1_3",
+                  "order": 3,
+                  "text": "enough money",
+                  "value": "enough money",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3156",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 My manager says that I play {{gap1}} to win the competition.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3156_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "well enough",
+              "accepted_answers": [
+                "well enough"
+              ],
+              "options": [
+                {
+                  "id": "gap_3156_1_1",
+                  "order": 1,
+                  "text": "too much well",
+                  "value": "too much well",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3156_1_2",
+                  "order": 2,
+                  "text": "enough well",
+                  "value": "enough well",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3156_1_3",
+                  "order": 3,
+                  "text": "well enough",
+                  "value": "well enough",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3157",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I know I talk {{gap1}}. I should talk less.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3157_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "too much",
+              "accepted_answers": [
+                "too much"
+              ],
+              "options": [
+                {
+                  "id": "gap_3157_1_1",
+                  "order": 1,
+                  "text": "too many",
+                  "value": "too many",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3157_1_2",
+                  "order": 2,
+                  "text": "enough",
+                  "value": "enough",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3157_1_3",
+                  "order": 3,
+                  "text": "too much",
+                  "value": "too much",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3158",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 I don't think the door is {{gap1}} to get the sofa into the room.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3158_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "wide enough",
+              "accepted_answers": [
+                "wide enough"
+              ],
+              "options": [
+                {
+                  "id": "gap_3158_1_1",
+                  "order": 1,
+                  "text": "wide enough",
+                  "value": "wide enough",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3158_1_2",
+                  "order": 2,
+                  "text": "too much wide",
+                  "value": "too much wide",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3158_1_3",
+                  "order": 3,
+                  "text": "enough wide",
+                  "value": "enough wide",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3159",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 {{gap1}} money can be bad for football players who are still in their 20s.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3159_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Too much",
+              "accepted_answers": [
+                "Too much"
+              ],
+              "options": [
+                {
+                  "id": "gap_3159_1_1",
+                  "order": 1,
+                  "text": "Too many",
+                  "value": "Too many",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3159_1_2",
+                  "order": 2,
+                  "text": "Too",
+                  "value": "Too",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3159_1_3",
+                  "order": 3,
+                  "text": "Too much",
+                  "value": "Too much",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3160",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 I ate {{gap1}} cakes and felt sick later.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3160_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "too many",
+              "accepted_answers": [
+                "too many"
+              ],
+              "options": [
+                {
+                  "id": "gap_3160_1_1",
+                  "order": 1,
+                  "text": "too much",
+                  "value": "too much",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3160_1_2",
+                  "order": 2,
+                  "text": "too",
+                  "value": "too",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3160_1_3",
+                  "order": 3,
+                  "text": "too many",
+                  "value": "too many",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3161",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I can't drink this milk. It's {{gap1}} hot.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3161_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "too",
+              "accepted_answers": [
+                "too"
+              ],
+              "options": [
+                {
+                  "id": "gap_3161_1_1",
+                  "order": 1,
+                  "text": "too",
+                  "value": "too",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3161_1_2",
+                  "order": 2,
+                  "text": "too much",
+                  "value": "too much",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3161_1_3",
+                  "order": 3,
+                  "text": "enough",
+                  "value": "enough",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3162",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I think I've eaten {{gap1}}. I don't feel very well.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3162_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "too much",
+              "accepted_answers": [
+                "too much"
+              ],
+              "options": [
+                {
+                  "id": "gap_3162_1_1",
+                  "order": 1,
+                  "text": "enough",
+                  "value": "enough",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3162_1_2",
+                  "order": 2,
+                  "text": "too many",
+                  "value": "too many",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3162_1_3",
+                  "order": 3,
+                  "text": "too much",
+                  "value": "too much",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3163",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 There weren't {{gap1}} to play a match, so everybody went home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3163_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "enough people",
+              "accepted_answers": [
+                "enough people"
+              ],
+              "options": [
+                {
+                  "id": "gap_3163_1_1",
+                  "order": 1,
+                  "text": "enough people",
+                  "value": "enough people",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3163_1_2",
+                  "order": 2,
+                  "text": "people enough",
+                  "value": "people enough",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3163_1_3",
+                  "order": 3,
+                  "text": "too much people",
+                  "value": "too much people",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-372",
+      "lessonId": "a2_too_too_much_too_many_enough",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose too, too much, too many, enough to complete each sentence.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_too-too-much-too-many-enough_2.html",
+      "questions": [
+        {
+          "id": "3164",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 You work _____; you need a holiday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3164_1",
+              "order": 1,
+              "text": "too much",
+              "value": "5338",
+              "is_correct": true
+            },
+            {
+              "id": "3164_2",
+              "order": 2,
+              "text": "too many",
+              "value": "5339",
+              "is_correct": false
+            },
+            {
+              "id": "3164_3",
+              "order": 3,
+              "text": "too",
+              "value": "5340",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3165",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 My parents got angry because my marks weren't _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3165_1",
+              "order": 1,
+              "text": "enough good",
+              "value": "5341",
+              "is_correct": false
+            },
+            {
+              "id": "3165_2",
+              "order": 2,
+              "text": "good enough",
+              "value": "5342",
+              "is_correct": true
+            },
+            {
+              "id": "3165_3",
+              "order": 3,
+              "text": "too much good",
+              "value": "5343",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3167",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I can't help you. I have _____ problems right now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3167_1",
+              "order": 1,
+              "text": "too much",
+              "value": "5347",
+              "is_correct": false
+            },
+            {
+              "id": "3167_2",
+              "order": 2,
+              "text": "too",
+              "value": "5348",
+              "is_correct": false
+            },
+            {
+              "id": "3167_3",
+              "order": 3,
+              "text": "too many",
+              "value": "5349",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3166",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 He didn't accept my project because he said it wasn't _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3166_1",
+              "order": 1,
+              "text": "too much good",
+              "value": "5344",
+              "is_correct": false
+            },
+            {
+              "id": "3166_2",
+              "order": 2,
+              "text": "enough good",
+              "value": "5345",
+              "is_correct": false
+            },
+            {
+              "id": "3166_3",
+              "order": 3,
+              "text": "good enough",
+              "value": "5346",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3168",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 This house is _____ small; we need a bigger one.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3168_1",
+              "order": 1,
+              "text": "too",
+              "value": "5350",
+              "is_correct": true
+            },
+            {
+              "id": "3168_2",
+              "order": 2,
+              "text": "too much",
+              "value": "5351",
+              "is_correct": false
+            },
+            {
+              "id": "3168_3",
+              "order": 3,
+              "text": "enough",
+              "value": "5352",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3169",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 You don't need to buy anything. I think we have _____ for the journey.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3169_1",
+              "order": 1,
+              "text": "enough food",
+              "value": "5353",
+              "is_correct": true
+            },
+            {
+              "id": "3169_2",
+              "order": 2,
+              "text": "food enough",
+              "value": "5354",
+              "is_correct": false
+            },
+            {
+              "id": "3169_3",
+              "order": 3,
+              "text": "too many food",
+              "value": "5355",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3170",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 I didn't study _____ and I failed the exam.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3170_1",
+              "order": 1,
+              "text": "enough",
+              "value": "5356",
+              "is_correct": true
+            },
+            {
+              "id": "3170_2",
+              "order": 2,
+              "text": "too many",
+              "value": "5357",
+              "is_correct": false
+            },
+            {
+              "id": "3170_3",
+              "order": 3,
+              "text": "too",
+              "value": "5358",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3171",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 This hospital is a total chaos. There are _____ patients and not _____ doctors.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3171_1",
+              "order": 1,
+              "text": "to much / too many",
+              "value": "5359",
+              "is_correct": false
+            },
+            {
+              "id": "3171_2",
+              "order": 2,
+              "text": "too / enough",
+              "value": "5360",
+              "is_correct": false
+            },
+            {
+              "id": "3171_3",
+              "order": 3,
+              "text": "too many / enough",
+              "value": "5361",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3172",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 People spend _____ time on their mobile phones.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3172_1",
+              "order": 1,
+              "text": "too",
+              "value": "5362",
+              "is_correct": false
+            },
+            {
+              "id": "3172_2",
+              "order": 2,
+              "text": "too many",
+              "value": "5363",
+              "is_correct": false
+            },
+            {
+              "id": "3172_3",
+              "order": 3,
+              "text": "too much",
+              "value": "5364",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3173",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Aren't we _____ for these kinds of games?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3173_1",
+              "order": 1,
+              "text": "too old",
+              "value": "5365",
+              "is_correct": true
+            },
+            {
+              "id": "3173_2",
+              "order": 2,
+              "text": "too much old",
+              "value": "5366",
+              "is_correct": false
+            },
+            {
+              "id": "3173_3",
+              "order": 3,
+              "text": "enough old",
+              "value": "5367",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-370",
+      "lessonId": "a2_too_too_much_too_many_enough",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences with too, too much, too many, enough and the word in brackets.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_too-too-much-too-many-enough_3.html",
+      "questions": [
+        {
+          "id": "3174",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 There were {{gap1}} (people) at the concert and we couldn't see anything.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3174_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "too many people",
+              "accepted_answers": [
+                "too many people"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3175",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 I'll talk to you later; I'm {{gap1}} (busy) now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3175_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "too busy",
+              "accepted_answers": [
+                "too busy"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3176",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 You aren't {{gap1}} (well) to go to work. You should stay home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3176_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "well enough",
+              "accepted_answers": [
+                "well enough"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3178",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 You are {{gap1}} (nice). You must learn to say 'no' to people who ask you for favours.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3178_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "too nice",
+              "accepted_answers": [
+                "too nice"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3177",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 You spend {{gap1}} (time) at the computer. You should play outside more often.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3177_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "too much time",
+              "accepted_answers": [
+                "too much time"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3179",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 You look exhausted. I think you work {{gap1}} (hard).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3179_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "too hard",
+              "accepted_answers": [
+                "too hard"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3180",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 You can't run 10 miles. You aren't {{gap1}} (fit); you need more training.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3180_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "fit enough",
+              "accepted_answers": [
+                "fit enough"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3181",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Please, don't put {{gap1}} (sugar) in my coffee; I don't like it too sweet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3181_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "too much sugar",
+              "accepted_answers": [
+                "too much sugar"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3182",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I don't like people who ask {{gap1}} (questions).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3182_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "too many questions",
+              "accepted_answers": [
+                "too many questions"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3183",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 We don't have {{gap1}} (time) to have another coffee; we need to leave now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3183_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "enough time",
+              "accepted_answers": [
+                "enough time"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

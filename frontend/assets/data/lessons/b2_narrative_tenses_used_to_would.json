@@ -1,0 +1,1423 @@
+{
+  "lesson_id": "b2_narrative_tenses_used_to_would",
+  "level": "B2",
+  "title": "Narrative tenses, used to, would",
+  "description": "Практический тест и правила по теме: Narrative tenses, used to, would",
+  "theory": {
+    "title": "Правила и грамматика: Narrative tenses, used to, would",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Narrative tenses, used to, would».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Narrative tenses, used to, would» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-97",
+      "lessonId": "b2_narrative_tenses_used_to_would",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_narrative-tenses-used-to-would.html",
+      "questions": [
+        {
+          "id": "800",
+          "order": 1,
+          "type": "gap_select",
+          "text": "Story 1 When I was a child I 1 {{gap1}} very early on my birthday and look through the window. I did the same the day I 2 {{gap2}} ten years old, I 3 {{gap3}} and 4 {{gap4}} through the window. Everything was very wet; it 5 {{gap5}} all night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_800_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "would get up",
+              "accepted_answers": [
+                "would get up"
+              ],
+              "options": [
+                {
+                  "id": "gap_800_1_1",
+                  "order": 1,
+                  "text": "had got up",
+                  "value": "had got up",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_800_1_2",
+                  "order": 2,
+                  "text": "was getting up",
+                  "value": "was getting up",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_800_1_3",
+                  "order": 3,
+                  "text": "would get up",
+                  "value": "would get up",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_800_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "turned",
+              "accepted_answers": [
+                "turned"
+              ],
+              "options": [
+                {
+                  "id": "gap_800_2_1",
+                  "order": 1,
+                  "text": "turned",
+                  "value": "turned",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_800_2_2",
+                  "order": 2,
+                  "text": "used to turn",
+                  "value": "used to turn",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_800_2_3",
+                  "order": 3,
+                  "text": "had turned",
+                  "value": "had turned",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_800_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "got up",
+              "accepted_answers": [
+                "got up"
+              ],
+              "options": [
+                {
+                  "id": "gap_800_3_1",
+                  "order": 1,
+                  "text": "would get up",
+                  "value": "would get up",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_800_3_2",
+                  "order": 2,
+                  "text": "got up",
+                  "value": "got up",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_800_3_3",
+                  "order": 3,
+                  "text": "was getting up",
+                  "value": "was getting up",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_800_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "select",
+              "correct_answer": "looked",
+              "accepted_answers": [
+                "looked"
+              ],
+              "options": [
+                {
+                  "id": "gap_800_4_1",
+                  "order": 1,
+                  "text": "would look",
+                  "value": "would look",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_800_4_2",
+                  "order": 2,
+                  "text": "looked",
+                  "value": "looked",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_800_4_3",
+                  "order": 3,
+                  "text": "was looking",
+                  "value": "was looking",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_800_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "select",
+              "correct_answer": "had been raining",
+              "accepted_answers": [
+                "had been raining"
+              ],
+              "options": [
+                {
+                  "id": "gap_800_5_1",
+                  "order": 1,
+                  "text": "was raining",
+                  "value": "was raining",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_800_5_2",
+                  "order": 2,
+                  "text": "had been raining",
+                  "value": "had been raining",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_800_5_3",
+                  "order": 3,
+                  "text": "rained",
+                  "value": "rained",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "801",
+          "order": 2,
+          "type": "gap_select",
+          "text": "Story 2 Last week I 6 {{gap1}} a car accident. I 7 {{gap2}} attention to the road and 8 {{gap3}} that a traffic light at a T-junction 9 {{gap4}} red when suddenly I 10 {{gap5}} into another car.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_801_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had",
+              "accepted_answers": [
+                "had"
+              ],
+              "options": [
+                {
+                  "id": "gap_801_1_1",
+                  "order": 1,
+                  "text": "was having",
+                  "value": "was having",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_801_1_2",
+                  "order": 2,
+                  "text": "had had",
+                  "value": "had had",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_801_1_3",
+                  "order": 3,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_801_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "wasn't paying",
+              "accepted_answers": [
+                "wasn't paying"
+              ],
+              "options": [
+                {
+                  "id": "gap_801_2_1",
+                  "order": 1,
+                  "text": "wasn't paying",
+                  "value": "wasn't paying",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_801_2_2",
+                  "order": 2,
+                  "text": "didn't pay",
+                  "value": "didn't pay",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_801_2_3",
+                  "order": 3,
+                  "text": "hadn't paid",
+                  "value": "hadn't paid",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_801_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "didn't see",
+              "accepted_answers": [
+                "didn't see"
+              ],
+              "options": [
+                {
+                  "id": "gap_801_3_1",
+                  "order": 1,
+                  "text": "wasn't seeing",
+                  "value": "wasn't seeing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_801_3_2",
+                  "order": 2,
+                  "text": "didn't see",
+                  "value": "didn't see",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_801_3_3",
+                  "order": 3,
+                  "text": "hadn't been seeing",
+                  "value": "hadn't been seeing",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_801_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "select",
+              "correct_answer": "had just turned",
+              "accepted_answers": [
+                "had just turned"
+              ],
+              "options": [
+                {
+                  "id": "gap_801_4_1",
+                  "order": 1,
+                  "text": "had just turned",
+                  "value": "had just turned",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_801_4_2",
+                  "order": 2,
+                  "text": "had just been turning",
+                  "value": "had just been turning",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_801_4_3",
+                  "order": 3,
+                  "text": "was just turning",
+                  "value": "was just turning",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_801_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "select",
+              "correct_answer": "crashed",
+              "accepted_answers": [
+                "crashed"
+              ],
+              "options": [
+                {
+                  "id": "gap_801_5_1",
+                  "order": 1,
+                  "text": "was crashing",
+                  "value": "was crashing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_801_5_2",
+                  "order": 2,
+                  "text": "had crashed",
+                  "value": "had crashed",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_801_5_3",
+                  "order": 3,
+                  "text": "crashed",
+                  "value": "crashed",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "802",
+          "order": 3,
+          "type": "gap_select",
+          "text": "Story 3 When I was a kid, we 11 {{gap1}} in a big house near Denver, and we 12 {{gap2}} a nice fireplace.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_802_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "used to live",
+              "accepted_answers": [
+                "used to live"
+              ],
+              "options": [
+                {
+                  "id": "gap_802_1_1",
+                  "order": 1,
+                  "text": "had lived",
+                  "value": "had lived",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_802_1_2",
+                  "order": 2,
+                  "text": "would live",
+                  "value": "would live",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_802_1_3",
+                  "order": 3,
+                  "text": "used to live",
+                  "value": "used to live",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_802_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "used to have",
+              "accepted_answers": [
+                "used to have"
+              ],
+              "options": [
+                {
+                  "id": "gap_802_2_1",
+                  "order": 1,
+                  "text": "used to have",
+                  "value": "used to have",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_802_2_2",
+                  "order": 2,
+                  "text": "would have",
+                  "value": "would have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_802_2_3",
+                  "order": 3,
+                  "text": "were having",
+                  "value": "were having",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "803",
+          "order": 4,
+          "type": "gap_select",
+          "text": "Story 4 After his arrest, the bank robber said that he 13 {{gap1}} the bank because he 14 {{gap2}} through financial difficulties at the time; he also said that the gun he 15 {{gap3}} to commit the robbery 16 {{gap4}} from one of his neighbours a few days before.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_803_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had robbed",
+              "accepted_answers": [
+                "had robbed"
+              ],
+              "options": [
+                {
+                  "id": "gap_803_1_1",
+                  "order": 1,
+                  "text": "was robbing",
+                  "value": "was robbing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_803_1_2",
+                  "order": 2,
+                  "text": "used to rob",
+                  "value": "used to rob",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_803_1_3",
+                  "order": 3,
+                  "text": "had robbed",
+                  "value": "had robbed",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_803_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "was going",
+              "accepted_answers": [
+                "was going"
+              ],
+              "options": [
+                {
+                  "id": "gap_803_2_1",
+                  "order": 1,
+                  "text": "was going",
+                  "value": "was going",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_803_2_2",
+                  "order": 2,
+                  "text": "had gone",
+                  "value": "had gone",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_803_2_3",
+                  "order": 3,
+                  "text": "went",
+                  "value": "went",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_803_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "used",
+              "accepted_answers": [
+                "used"
+              ],
+              "options": [
+                {
+                  "id": "gap_803_3_1",
+                  "order": 1,
+                  "text": "had been using",
+                  "value": "had been using",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_803_3_2",
+                  "order": 2,
+                  "text": "used",
+                  "value": "used",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_803_3_3",
+                  "order": 3,
+                  "text": "had used",
+                  "value": "had used",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_803_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "select",
+              "correct_answer": "had been stolen",
+              "accepted_answers": [
+                "had been stolen"
+              ],
+              "options": [
+                {
+                  "id": "gap_803_4_1",
+                  "order": 1,
+                  "text": "had stolen",
+                  "value": "had stolen",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_803_4_2",
+                  "order": 2,
+                  "text": "had been stolen",
+                  "value": "had been stolen",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_803_4_3",
+                  "order": 3,
+                  "text": "was being stolen",
+                  "value": "was being stolen",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "804",
+          "order": 5,
+          "type": "gap_select",
+          "text": "Story 5 Last night I 17 {{gap1}} home when I 18 {{gap2}} a friend who I 19 {{gap3}} in a long time. I 20 {{gap4}} him effusively before realising it wasn't my friend.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_804_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was walking",
+              "accepted_answers": [
+                "was walking"
+              ],
+              "options": [
+                {
+                  "id": "gap_804_1_1",
+                  "order": 1,
+                  "text": "would walk",
+                  "value": "would walk",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_804_1_2",
+                  "order": 2,
+                  "text": "was walking",
+                  "value": "was walking",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_804_1_3",
+                  "order": 3,
+                  "text": "walked",
+                  "value": "walked",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_804_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "saw",
+              "accepted_answers": [
+                "saw"
+              ],
+              "options": [
+                {
+                  "id": "gap_804_2_1",
+                  "order": 1,
+                  "text": "would see",
+                  "value": "would see",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_804_2_2",
+                  "order": 2,
+                  "text": "saw",
+                  "value": "saw",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_804_2_3",
+                  "order": 3,
+                  "text": "was seeing",
+                  "value": "was seeing",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_804_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "hadn't seen",
+              "accepted_answers": [
+                "hadn't seen"
+              ],
+              "options": [
+                {
+                  "id": "gap_804_3_1",
+                  "order": 1,
+                  "text": "hadn't seen",
+                  "value": "hadn't seen",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_804_3_2",
+                  "order": 2,
+                  "text": "didn't see",
+                  "value": "didn't see",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_804_3_3",
+                  "order": 3,
+                  "text": "hadn't been seeing",
+                  "value": "hadn't been seeing",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_804_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "select",
+              "correct_answer": "hugged",
+              "accepted_answers": [
+                "hugged"
+              ],
+              "options": [
+                {
+                  "id": "gap_804_4_1",
+                  "order": 1,
+                  "text": "hugged",
+                  "value": "hugged",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_804_4_2",
+                  "order": 2,
+                  "text": "would hug",
+                  "value": "would hug",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_804_4_3",
+                  "order": 3,
+                  "text": "was hugging",
+                  "value": "was hugging",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-98",
+      "lessonId": "b2_narrative_tenses_used_to_would",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_narrative-tenses-used-to-would_2.html",
+      "questions": [
+        {
+          "id": "805",
+          "order": 1,
+          "type": "multiple_choice",
+          "text": "1 I remember that when I was in 8th grade there was a bully in my class who _______ on me. Choose two correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "805_1",
+              "order": 1,
+              "text": "always used to pick",
+              "value": "1090",
+              "is_correct": true
+            },
+            {
+              "id": "805_2",
+              "order": 2,
+              "text": "had always picked",
+              "value": "1091",
+              "is_correct": false
+            },
+            {
+              "id": "805_3",
+              "order": 3,
+              "text": "would always pick",
+              "value": "1092",
+              "is_correct": true
+            },
+            {
+              "id": "805_4",
+              "order": 4,
+              "text": "used always to pick",
+              "value": "1093",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "809",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I _______ so hard and for so long, that when I saw that I _______ the exam I was in tears.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "809_1",
+              "order": 1,
+              "text": "had been studying / had failed",
+              "value": "1106",
+              "is_correct": true
+            },
+            {
+              "id": "809_2",
+              "order": 2,
+              "text": "had studied / was failing",
+              "value": "1107",
+              "is_correct": false
+            },
+            {
+              "id": "809_3",
+              "order": 3,
+              "text": "studied / failed",
+              "value": "1108",
+              "is_correct": false
+            },
+            {
+              "id": "809_4",
+              "order": 4,
+              "text": "had been studying / failed",
+              "value": "1109",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "806",
+          "order": 3,
+          "type": "multiple_choice",
+          "text": "3 In the living room of my childhood house, we _______ one of those gigantic encyclopaedias. Choose two correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "806_1",
+              "order": 1,
+              "text": "'d had",
+              "value": "1094",
+              "is_correct": false
+            },
+            {
+              "id": "806_2",
+              "order": 2,
+              "text": "had",
+              "value": "1095",
+              "is_correct": true
+            },
+            {
+              "id": "806_3",
+              "order": 3,
+              "text": "used to have",
+              "value": "1096",
+              "is_correct": true
+            },
+            {
+              "id": "806_4",
+              "order": 4,
+              "text": "would have",
+              "value": "1097",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "807",
+          "order": 4,
+          "type": "multiple_choice",
+          "text": "4 Every time the telephone rang, my grandpa _______: \"If it's the bank, say I'm not home.\" Choose two correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "807_1",
+              "order": 1,
+              "text": "was saying",
+              "value": "1098",
+              "is_correct": false
+            },
+            {
+              "id": "807_2",
+              "order": 2,
+              "text": "had said",
+              "value": "1099",
+              "is_correct": false
+            },
+            {
+              "id": "807_3",
+              "order": 3,
+              "text": "used to say",
+              "value": "1100",
+              "is_correct": true
+            },
+            {
+              "id": "807_4",
+              "order": 4,
+              "text": "would say",
+              "value": "1101",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "810",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I went into the bathroom and saw that somebody _______ the bath tap open and water _______ over the edge of the tub.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "810_1",
+              "order": 1,
+              "text": "had left / spilled",
+              "value": "1110",
+              "is_correct": false
+            },
+            {
+              "id": "810_2",
+              "order": 2,
+              "text": "left / had been spilling",
+              "value": "1111",
+              "is_correct": false
+            },
+            {
+              "id": "810_3",
+              "order": 3,
+              "text": "had been leaving / was spilling",
+              "value": "1112",
+              "is_correct": false
+            },
+            {
+              "id": "810_4",
+              "order": 4,
+              "text": "had left / was spilling",
+              "value": "1113",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "808",
+          "order": 6,
+          "type": "multiple_choice",
+          "text": "6 Whenever I asked her when she would stop smoking, she ______ me, 'Very soon.' Choose two correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "808_1",
+              "order": 1,
+              "text": "would tell",
+              "value": "1102",
+              "is_correct": true
+            },
+            {
+              "id": "808_2",
+              "order": 2,
+              "text": "had been telling",
+              "value": "1103",
+              "is_correct": false
+            },
+            {
+              "id": "808_3",
+              "order": 3,
+              "text": "told",
+              "value": "1104",
+              "is_correct": true
+            },
+            {
+              "id": "808_4",
+              "order": 4,
+              "text": "was telling",
+              "value": "1105",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "812",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 The sun _______ when we went out, but we could see that it _______ because the ground was wet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "812_1",
+              "order": 1,
+              "text": "was shining / had been raining",
+              "value": "1118",
+              "is_correct": true
+            },
+            {
+              "id": "812_2",
+              "order": 2,
+              "text": "was shining / was raining",
+              "value": "1119",
+              "is_correct": false
+            },
+            {
+              "id": "812_3",
+              "order": 3,
+              "text": "shone / had been raining",
+              "value": "1120",
+              "is_correct": false
+            },
+            {
+              "id": "812_4",
+              "order": 4,
+              "text": "shone / had rained",
+              "value": "1121",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "811",
+          "order": 8,
+          "type": "multiple_choice",
+          "text": "8 When I was young I _______ very long hair. I remember I _______ a long time blow-drying it every time I had a shower. Choose two correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "811_1",
+              "order": 1,
+              "text": "used to have / used to spend",
+              "value": "1114",
+              "is_correct": true
+            },
+            {
+              "id": "811_2",
+              "order": 2,
+              "text": "would have / used to spend",
+              "value": "1115",
+              "is_correct": false
+            },
+            {
+              "id": "811_3",
+              "order": 3,
+              "text": "had / had spent",
+              "value": "1116",
+              "is_correct": false
+            },
+            {
+              "id": "811_4",
+              "order": 4,
+              "text": "used to have / would spend",
+              "value": "1117",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "813",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I _____ the light and everybody _____, 'Happy birthday!'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "813_1",
+              "order": 1,
+              "text": "had switched on / was shouting",
+              "value": "1122",
+              "is_correct": false
+            },
+            {
+              "id": "813_2",
+              "order": 2,
+              "text": "switched on / had shouted",
+              "value": "1123",
+              "is_correct": false
+            },
+            {
+              "id": "813_3",
+              "order": 3,
+              "text": "was switching on / shouted",
+              "value": "1124",
+              "is_correct": false
+            },
+            {
+              "id": "813_4",
+              "order": 4,
+              "text": "switched on / shouted",
+              "value": "1125",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "814",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 We _______ for approximately ten minutes when the car stopped running; we _______ of petrol.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "814_1",
+              "order": 1,
+              "text": "had driven / ran out",
+              "value": "1126",
+              "is_correct": false
+            },
+            {
+              "id": "814_2",
+              "order": 2,
+              "text": "had been driving / had run out",
+              "value": "1127",
+              "is_correct": true
+            },
+            {
+              "id": "814_3",
+              "order": 3,
+              "text": "were driving / ran out",
+              "value": "1128",
+              "is_correct": false
+            },
+            {
+              "id": "814_4",
+              "order": 4,
+              "text": "drove / had been running out",
+              "value": "1129",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-99",
+      "lessonId": "b2_narrative_tenses_used_to_would",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the verbs in brackets in the correct verb tense or form. Use would/used to in TWO gaps.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_narrative-tenses-used-to-would_3.html",
+      "questions": [
+        {
+          "id": "815",
+          "order": 1,
+          "type": "gap_text",
+          "text": "A long time ago, my first wife and I 1 {{gap1}} (decide) to go on a trip to London for a few days. Before the trip, we were very excited because we 2 {{gap2}} (never/be) to London before. We 3 {{gap3}} (want) to visit Miguel, a close friend who 4 {{gap4}} (move) to Britain for work and who 5 {{gap5}} (work) in London for a couple of months. He was very homesick because he still 6 {{gap6}} (not have) any friends in England, and Laura and I 7 {{gap7}} (want) to pay him a visit to cheer him up a bit. However, Miguel 8 {{gap8}} (tell) us we had to stay in a hotel, because he 9 {{gap9}} (rent) a room in a shared flat and we couldn’t stay in his home. Back then, when my ex-wife and I travelled anywhere, we 10 {{gap10}} (book) hotel rooms well in advance, and we 11 {{gap11}} (check) hotel reviews on TripAdvisor every time, but this time we 12 {{gap12}} (be) very busy the weeks before the trip so a few days before the trip, we 13 {{gap13}} (decide) that we would look for a hotel once in London. Unfortunately, hotel rooms in London are quite popular in August, and several hours after our arrival in the big capital we still 14 {{gap14}} (not find) a room in any affordable place. Eventually we 15 {{gap15}} (find) a hotel which, surprisingly, was well located and not very expensive. But we soon 16 {{gap16}} (discover) why there were available rooms in that so well-located hotel. To start with, the room number was a scribble written on a sheet of paper that someone 17 {{gap17}} (hang) on the door with sellotape, and once you were in, the room was dirty and horribly smelly. It looked as if nobody 18 {{gap18}} (clean) it for ages. In the bathroom there was no mirror, the toilet was clogged and there were lots of hairs in the basin. It was so disgusting that we 19 {{gap19}} (decide) to pay for a much more expensive room in a much less well-located hotel and we 20 {{gap20}} (end up) as depressed as our good friend Miguel.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_815_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "decided",
+              "accepted_answers": [
+                "decided"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "had never been",
+              "accepted_answers": [
+                "had never been"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "wanted",
+              "accepted_answers": [
+                "wanted"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "had moved",
+              "accepted_answers": [
+                "had moved"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "had been working",
+              "accepted_answers": [
+                "had been working"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "didn't have",
+              "accepted_answers": [
+                "didn't have"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "wanted",
+              "accepted_answers": [
+                "wanted"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "had told",
+              "accepted_answers": [
+                "had told"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "had rented",
+              "accepted_answers": [
+                "had rented"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "used to book",
+              "accepted_answers": [
+                "used to book"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_11",
+              "order": 11,
+              "placeholder": "{{gap11}}",
+              "input_control": "text",
+              "correct_answer": "would check",
+              "accepted_answers": [
+                "would check"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_12",
+              "order": 12,
+              "placeholder": "{{gap12}}",
+              "input_control": "text",
+              "correct_answer": "had been",
+              "accepted_answers": [
+                "had been"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_13",
+              "order": 13,
+              "placeholder": "{{gap13}}",
+              "input_control": "text",
+              "correct_answer": "decided",
+              "accepted_answers": [
+                "decided"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_14",
+              "order": 14,
+              "placeholder": "{{gap14}}",
+              "input_control": "text",
+              "correct_answer": "hadn't found",
+              "accepted_answers": [
+                "hadn't found"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_15",
+              "order": 15,
+              "placeholder": "{{gap15}}",
+              "input_control": "text",
+              "correct_answer": "found",
+              "accepted_answers": [
+                "found"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_16",
+              "order": 16,
+              "placeholder": "{{gap16}}",
+              "input_control": "text",
+              "correct_answer": "discovered",
+              "accepted_answers": [
+                "discovered"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_17",
+              "order": 17,
+              "placeholder": "{{gap17}}",
+              "input_control": "text",
+              "correct_answer": "had hung",
+              "accepted_answers": [
+                "had hung"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_18",
+              "order": 18,
+              "placeholder": "{{gap18}}",
+              "input_control": "text",
+              "correct_answer": "had cleaned",
+              "accepted_answers": [
+                "had cleaned"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_19",
+              "order": 19,
+              "placeholder": "{{gap19}}",
+              "input_control": "text",
+              "correct_answer": "decided",
+              "accepted_answers": [
+                "decided"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_815_20",
+              "order": 20,
+              "placeholder": "{{gap20}}",
+              "input_control": "text",
+              "correct_answer": "ended up",
+              "accepted_answers": [
+                "ended up"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

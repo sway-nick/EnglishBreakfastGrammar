@@ -1,0 +1,987 @@
+{
+  "lesson_id": "a2_might_might_not",
+  "level": "A2",
+  "title": "Might, might not: Possibility",
+  "description": "Практический тест и правила по теме: Might, might not: Possibility",
+  "theory": {
+    "title": "Правила и грамматика: Might, might not: Possibility",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Might, might not: Possibility».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Might, might not: Possibility» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-403",
+      "lessonId": "a2_might_might_not",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Rewrite the sentences on the right using might, might not.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_might-might-not.html",
+      "questions": [
+        {
+          "id": "3441",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 It's possible that I will come tomorrow. ⇒ I {{gap1}} tomorrow.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3441_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might come",
+              "accepted_answers": [
+                "might come"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3442",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Perhaps she doesn't know the truth ⇒ She {{gap1}} the truth.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3442_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might not know",
+              "accepted_answers": [
+                "might not know"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3443",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Maybe we will have to cancel the wedding. ⇒ We {{gap1}} the wedding.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3443_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might have to cancel",
+              "accepted_answers": [
+                "might have to cancel"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3444",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Perhaps they will call you for an interview. ⇒ They {{gap1}} you for an interview.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3444_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might call",
+              "accepted_answers": [
+                "might call"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3445",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Perhaps they won't say anything. ⇒ They {{gap1}} anything.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3445_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might not say",
+              "accepted_answers": [
+                "might not say"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3446",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Perhaps I will never see Karen again. ⇒ I {{gap1}} Karen again.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3446_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might never see",
+              "accepted_answers": [
+                "might never see"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3447",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 It's possible that I will go to Italy next month. ⇒ I {{gap1}} to Italy next month.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3447_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might go",
+              "accepted_answers": [
+                "might go"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3448",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Perhaps she isn't at the office. ⇒ She {{gap1}} at the office.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3448_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might not be",
+              "accepted_answers": [
+                "might not be"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3449",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Maybe they won't like this solution. ⇒ They {{gap1}} this solution.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3449_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might not like",
+              "accepted_answers": [
+                "might not like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3450",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 It's possible that my sister will lend me the money. ⇒ My sister {{gap1}} the money.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3450_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might lend me",
+              "accepted_answers": [
+                "might lend me"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-402",
+      "lessonId": "a2_might_might_not",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Click on the right option for each sentence.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_might-might-not_2.html",
+      "questions": [
+        {
+          "id": "5008",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Take some water with you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5008_1",
+              "order": 1,
+              "text": "We might be late.",
+              "value": "7710",
+              "is_correct": false
+            },
+            {
+              "id": "5008_2",
+              "order": 2,
+              "text": "I might not go to the party tonight.",
+              "value": "7711",
+              "is_correct": false
+            },
+            {
+              "id": "5008_3",
+              "order": 3,
+              "text": "She might be stuck in traffic.",
+              "value": "7712",
+              "is_correct": false
+            },
+            {
+              "id": "5008_4",
+              "order": 4,
+              "text": "You might get dehydrated.",
+              "value": "7713",
+              "is_correct": true
+            },
+            {
+              "id": "5008_5",
+              "order": 5,
+              "text": "There is a new restaurant we want to try.",
+              "value": "7714",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5009",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 Don't wait for us.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5009_1",
+              "order": 1,
+              "text": "We might be late.",
+              "value": "7715",
+              "is_correct": true
+            },
+            {
+              "id": "5009_2",
+              "order": 2,
+              "text": "I might not go to the party tonight.",
+              "value": "7716",
+              "is_correct": false
+            },
+            {
+              "id": "5009_3",
+              "order": 3,
+              "text": "She might be stuck in traffic.",
+              "value": "7717",
+              "is_correct": false
+            },
+            {
+              "id": "5009_4",
+              "order": 4,
+              "text": "You might get dehydrated.",
+              "value": "7718",
+              "is_correct": false
+            },
+            {
+              "id": "5009_5",
+              "order": 5,
+              "text": "There is a new restaurant we want to try.",
+              "value": "7719",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5010",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 We might eat out today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5010_1",
+              "order": 1,
+              "text": "We might be late.",
+              "value": "7720",
+              "is_correct": false
+            },
+            {
+              "id": "5010_2",
+              "order": 2,
+              "text": "I might not go to the party tonight.",
+              "value": "7721",
+              "is_correct": false
+            },
+            {
+              "id": "5010_3",
+              "order": 3,
+              "text": "She might be stuck in traffic.",
+              "value": "7722",
+              "is_correct": false
+            },
+            {
+              "id": "5010_4",
+              "order": 4,
+              "text": "You might get dehydrated.",
+              "value": "7723",
+              "is_correct": false
+            },
+            {
+              "id": "5010_5",
+              "order": 5,
+              "text": "There is a new restaurant we want to try.",
+              "value": "7724",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5011",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Sally isn't at work yet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5011_1",
+              "order": 1,
+              "text": "We might be late.",
+              "value": "7725",
+              "is_correct": false
+            },
+            {
+              "id": "5011_2",
+              "order": 2,
+              "text": "I might not go to the party tonight.",
+              "value": "7726",
+              "is_correct": false
+            },
+            {
+              "id": "5011_3",
+              "order": 3,
+              "text": "She might be stuck in traffic.",
+              "value": "7727",
+              "is_correct": true
+            },
+            {
+              "id": "5011_4",
+              "order": 4,
+              "text": "You might get dehydrated.",
+              "value": "7728",
+              "is_correct": false
+            },
+            {
+              "id": "5011_5",
+              "order": 5,
+              "text": "There is a new restaurant we want to try.",
+              "value": "7729",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5012",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I'm really tired and I need to rest.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5012_1",
+              "order": 1,
+              "text": "We might be late.",
+              "value": "7730",
+              "is_correct": false
+            },
+            {
+              "id": "5012_2",
+              "order": 2,
+              "text": "I might not go to the party tonight.",
+              "value": "7731",
+              "is_correct": true
+            },
+            {
+              "id": "5012_3",
+              "order": 3,
+              "text": "She might be stuck in traffic.",
+              "value": "7732",
+              "is_correct": false
+            },
+            {
+              "id": "5012_4",
+              "order": 4,
+              "text": "You might get dehydrated.",
+              "value": "7733",
+              "is_correct": false
+            },
+            {
+              "id": "5012_5",
+              "order": 5,
+              "text": "There is a new restaurant we want to try.",
+              "value": "7734",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5013",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 If you don't get up early,",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5013_1",
+              "order": 1,
+              "text": "I may not watch it.",
+              "value": "7735",
+              "is_correct": false
+            },
+            {
+              "id": "5013_2",
+              "order": 2,
+              "text": "You might cut yourself.",
+              "value": "7736",
+              "is_correct": false
+            },
+            {
+              "id": "5013_3",
+              "order": 3,
+              "text": "They might be brothers.",
+              "value": "7737",
+              "is_correct": false
+            },
+            {
+              "id": "5013_4",
+              "order": 4,
+              "text": "He might not have his phone.",
+              "value": "7738",
+              "is_correct": false
+            },
+            {
+              "id": "5013_5",
+              "order": 5,
+              "text": "you might miss your plane.",
+              "value": "7739",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5014",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 He looks like Jonah.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5014_1",
+              "order": 1,
+              "text": "I may not watch it.",
+              "value": "7740",
+              "is_correct": false
+            },
+            {
+              "id": "5014_2",
+              "order": 2,
+              "text": "You might cut yourself.",
+              "value": "7741",
+              "is_correct": false
+            },
+            {
+              "id": "5014_3",
+              "order": 3,
+              "text": "They might be brothers.",
+              "value": "7742",
+              "is_correct": true
+            },
+            {
+              "id": "5014_4",
+              "order": 4,
+              "text": "He might not have his phone.",
+              "value": "7743",
+              "is_correct": false
+            },
+            {
+              "id": "5014_5",
+              "order": 5,
+              "text": "you might miss your plane.",
+              "value": "7744",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5015",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Be careful with those scissors.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5015_1",
+              "order": 1,
+              "text": "I may not watch it.",
+              "value": "7745",
+              "is_correct": false
+            },
+            {
+              "id": "5015_2",
+              "order": 2,
+              "text": "You might cut yourself.",
+              "value": "7746",
+              "is_correct": true
+            },
+            {
+              "id": "5015_3",
+              "order": 3,
+              "text": "They might be brothers.",
+              "value": "7747",
+              "is_correct": false
+            },
+            {
+              "id": "5015_4",
+              "order": 4,
+              "text": "He might not have his phone.",
+              "value": "7748",
+              "is_correct": false
+            },
+            {
+              "id": "5015_5",
+              "order": 5,
+              "text": "you might miss your plane.",
+              "value": "7749",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5016",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 He isn't answering.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5016_1",
+              "order": 1,
+              "text": "I may not watch it.",
+              "value": "7750",
+              "is_correct": false
+            },
+            {
+              "id": "5016_2",
+              "order": 2,
+              "text": "You might cut yourself.",
+              "value": "7751",
+              "is_correct": false
+            },
+            {
+              "id": "5016_3",
+              "order": 3,
+              "text": "They might be brothers.",
+              "value": "7752",
+              "is_correct": false
+            },
+            {
+              "id": "5016_4",
+              "order": 4,
+              "text": "He might not have his phone.",
+              "value": "7753",
+              "is_correct": true
+            },
+            {
+              "id": "5016_5",
+              "order": 5,
+              "text": "you might miss your plane.",
+              "value": "7754",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5017",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 They say the film is not very good.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5017_1",
+              "order": 1,
+              "text": "I may not watch it.",
+              "value": "7755",
+              "is_correct": true
+            },
+            {
+              "id": "5017_2",
+              "order": 2,
+              "text": "You might cut yourself.",
+              "value": "7756",
+              "is_correct": false
+            },
+            {
+              "id": "5017_3",
+              "order": 3,
+              "text": "They might be brothers.",
+              "value": "7757",
+              "is_correct": false
+            },
+            {
+              "id": "5017_4",
+              "order": 4,
+              "text": "He might not have his phone.",
+              "value": "7758",
+              "is_correct": false
+            },
+            {
+              "id": "5017_5",
+              "order": 5,
+              "text": "you might miss your plane.",
+              "value": "7759",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-404",
+      "lessonId": "a2_might_might_not",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete each sentence using might, might not and one of the verbs in the box.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_might-might-not_3.html",
+      "questions": [
+        {
+          "id": "3451",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 'Where are you going next summer?' 'We don't have any money, so we {{gap1}} anywhere.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3451_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might not go",
+              "accepted_answers": [
+                "might not go"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3452",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 'Collin isn't at home.' 'He {{gap1}} in his office.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3452_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might be",
+              "accepted_answers": [
+                "might be"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3453",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 He's trained very hard. I think he {{gap1}} the competition.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3453_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might win",
+              "accepted_answers": [
+                "might win"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3454",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 'Why hasn't Nick called him?' 'He {{gap1}} his number.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3454_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might not have",
+              "accepted_answers": [
+                "might not have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3455",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 If you don't take a map, you {{gap1}} lost.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3455_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might get",
+              "accepted_answers": [
+                "might get"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3457",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I don't feel like going out. I think I {{gap1}} at home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3457_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might stay",
+              "accepted_answers": [
+                "might stay"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3456",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 She {{gap1}} what happened because she hit her head very hard.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3456_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might not remember",
+              "accepted_answers": [
+                "might not remember"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3458",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Look at those clouds. It {{gap1}} this afternoon.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3458_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might rain",
+              "accepted_answers": [
+                "might rain"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3460",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 If it doesn't rain, I {{gap1}} tennis tomorrow.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3460_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might play",
+              "accepted_answers": [
+                "might play"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3461",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 He said he {{gap1}} the money he won on a new car.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3461_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might spend",
+              "accepted_answers": [
+                "might spend"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

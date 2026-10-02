@@ -1,0 +1,1215 @@
+{
+  "lesson_id": "b1-b2_quantifiers",
+  "level": "B1-B2",
+  "title": "Quantifiers: All, most, both, either, neither, any, no, none",
+  "description": "Практический тест и правила по теме: Quantifiers: All, most, both, either, neither, any, no, none",
+  "theory": {
+    "title": "Правила и грамматика: Quantifiers: All, most, both, either, neither, any, no, none",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Quantifiers: All, most, both, either, neither, any, no, none».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Quantifiers: All, most, both, either, neither, any, no, none» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-74",
+      "lessonId": "b1-b2_quantifiers",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct quantifiers to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_quantifiers.html",
+      "questions": [
+        {
+          "id": "626",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I knocked on the door a few times but there was {{gap1}} response.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_626_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "no",
+              "accepted_answers": [
+                "no"
+              ],
+              "options": [
+                {
+                  "id": "gap_626_1_1",
+                  "order": 1,
+                  "text": "no",
+                  "value": "no",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_626_1_2",
+                  "order": 2,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_626_1_3",
+                  "order": 3,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "627",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 {{gap1}} shocked when we heard the news.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_627_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "We were both",
+              "accepted_answers": [
+                "We were both"
+              ],
+              "options": [
+                {
+                  "id": "gap_627_1_1",
+                  "order": 1,
+                  "text": "We were both",
+                  "value": "We were both",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_627_1_2",
+                  "order": 2,
+                  "text": "Both us were",
+                  "value": "Both us were",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_627_1_3",
+                  "order": 3,
+                  "text": "We both were",
+                  "value": "We both were",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "628",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 He wrote five books but {{gap1}} of them were very good.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_628_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "none",
+              "accepted_answers": [
+                "none"
+              ],
+              "options": [
+                {
+                  "id": "gap_628_1_1",
+                  "order": 1,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_628_1_2",
+                  "order": 2,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_628_1_3",
+                  "order": 3,
+                  "text": "neither",
+                  "value": "neither",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "629",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I got a few emails but I didn't answer {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_629_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": [
+                {
+                  "id": "gap_629_1_1",
+                  "order": 1,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_629_1_2",
+                  "order": 2,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_629_1_3",
+                  "order": 3,
+                  "text": "no",
+                  "value": "no",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "630",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 He's written two books but I haven't read {{gap1}} of them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_630_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "either",
+              "accepted_answers": [
+                "either"
+              ],
+              "options": [
+                {
+                  "id": "gap_630_1_1",
+                  "order": 1,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_630_1_2",
+                  "order": 2,
+                  "text": "neither",
+                  "value": "neither",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_630_1_3",
+                  "order": 3,
+                  "text": "either",
+                  "value": "either",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "631",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 {{gap1}} parents work in a bank.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_631_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Both his",
+              "accepted_answers": [
+                "Both his"
+              ],
+              "options": [
+                {
+                  "id": "gap_631_1_1",
+                  "order": 1,
+                  "text": "His both",
+                  "value": "His both",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_631_1_2",
+                  "order": 2,
+                  "text": "Both his",
+                  "value": "Both his",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_631_1_3",
+                  "order": 3,
+                  "text": "Both of",
+                  "value": "Both of",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "632",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 He failed {{gap1}} exams he took.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_632_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "most of the",
+              "accepted_answers": [
+                "most of the"
+              ],
+              "options": [
+                {
+                  "id": "gap_632_1_1",
+                  "order": 1,
+                  "text": "the most",
+                  "value": "the most",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_632_1_2",
+                  "order": 2,
+                  "text": "most of the",
+                  "value": "most of the",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_632_1_3",
+                  "order": 3,
+                  "text": "most",
+                  "value": "most",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "633",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I've been working on the two reports, but {{gap1}} of them is finished.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_633_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "neither",
+              "accepted_answers": [
+                "neither"
+              ],
+              "options": [
+                {
+                  "id": "gap_633_1_1",
+                  "order": 1,
+                  "text": "either",
+                  "value": "either",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_633_1_2",
+                  "order": 2,
+                  "text": "neither",
+                  "value": "neither",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_633_1_3",
+                  "order": 3,
+                  "text": "both",
+                  "value": "both",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "634",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 She has lots of friends, but {{gap1}} of them will help her.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_634_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "none",
+              "accepted_answers": [
+                "none"
+              ],
+              "options": [
+                {
+                  "id": "gap_634_1_1",
+                  "order": 1,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_634_1_2",
+                  "order": 2,
+                  "text": "neither",
+                  "value": "neither",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_634_1_3",
+                  "order": 3,
+                  "text": "all",
+                  "value": "all",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "635",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 {{gap1}} crime in the US takes place in big cities.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_635_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Most",
+              "accepted_answers": [
+                "Most"
+              ],
+              "options": [
+                {
+                  "id": "gap_635_1_1",
+                  "order": 1,
+                  "text": "Most",
+                  "value": "Most",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_635_1_2",
+                  "order": 2,
+                  "text": "Most of",
+                  "value": "Most of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_635_1_3",
+                  "order": 3,
+                  "text": "The most",
+                  "value": "The most",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-75",
+      "lessonId": "b1-b2_quantifiers",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct quantifiers for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_quantifiers_2.html",
+      "questions": [
+        {
+          "id": "614",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Nick, John, I need some money. Does _______ of you have any money I can borrow?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "614_1",
+              "order": 1,
+              "text": "none",
+              "value": "771",
+              "is_correct": false
+            },
+            {
+              "id": "614_2",
+              "order": 2,
+              "text": "either",
+              "value": "772",
+              "is_correct": true
+            },
+            {
+              "id": "614_3",
+              "order": 3,
+              "text": "neither",
+              "value": "773",
+              "is_correct": false
+            },
+            {
+              "id": "614_4",
+              "order": 4,
+              "text": "some",
+              "value": "807",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "617",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 _______ boy brought a coat.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "617_1",
+              "order": 1,
+              "text": "Neither",
+              "value": "783",
+              "is_correct": true
+            },
+            {
+              "id": "617_2",
+              "order": 2,
+              "text": "Both",
+              "value": "784",
+              "is_correct": false
+            },
+            {
+              "id": "617_3",
+              "order": 3,
+              "text": "All",
+              "value": "785",
+              "is_correct": false
+            },
+            {
+              "id": "617_4",
+              "order": 4,
+              "text": "None",
+              "value": "808",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "618",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Neither my uncle ___ my aunt could come to the party.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "618_1",
+              "order": 1,
+              "text": "and",
+              "value": "786",
+              "is_correct": false
+            },
+            {
+              "id": "618_2",
+              "order": 2,
+              "text": "or",
+              "value": "787",
+              "is_correct": false
+            },
+            {
+              "id": "618_3",
+              "order": 3,
+              "text": "nor",
+              "value": "788",
+              "is_correct": true
+            },
+            {
+              "id": "618_4",
+              "order": 4,
+              "text": "but",
+              "value": "809",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "619",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Which sentence is correct?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "619_1",
+              "order": 1,
+              "text": "Both we have been to Italy.",
+              "value": "789",
+              "is_correct": false
+            },
+            {
+              "id": "619_2",
+              "order": 2,
+              "text": "We have both been to Italy.",
+              "value": "790",
+              "is_correct": true
+            },
+            {
+              "id": "619_3",
+              "order": 3,
+              "text": "We have been to Italy both.",
+              "value": "791",
+              "is_correct": false
+            },
+            {
+              "id": "619_4",
+              "order": 4,
+              "text": "Both us have been to Italy.",
+              "value": "810",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "620",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I'd like to have money, but I don't have _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "620_1",
+              "order": 1,
+              "text": "no",
+              "value": "792",
+              "is_correct": false
+            },
+            {
+              "id": "620_2",
+              "order": 2,
+              "text": "none",
+              "value": "793",
+              "is_correct": false
+            },
+            {
+              "id": "620_3",
+              "order": 3,
+              "text": "any",
+              "value": "794",
+              "is_correct": true
+            },
+            {
+              "id": "620_4",
+              "order": 4,
+              "text": "neither",
+              "value": "811",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "621",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 He has two brothers, but I haven't met _______ of them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "621_1",
+              "order": 1,
+              "text": "either",
+              "value": "795",
+              "is_correct": true
+            },
+            {
+              "id": "621_2",
+              "order": 2,
+              "text": "neither",
+              "value": "796",
+              "is_correct": false
+            },
+            {
+              "id": "621_3",
+              "order": 3,
+              "text": "no",
+              "value": "797",
+              "is_correct": false
+            },
+            {
+              "id": "621_4",
+              "order": 4,
+              "text": "none",
+              "value": "798",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "622",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 I have to read three books but I haven't read _______ yet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "622_1",
+              "order": 1,
+              "text": "none",
+              "value": "799",
+              "is_correct": false
+            },
+            {
+              "id": "622_2",
+              "order": 2,
+              "text": "neither",
+              "value": "800",
+              "is_correct": false
+            },
+            {
+              "id": "622_3",
+              "order": 3,
+              "text": "either",
+              "value": "801",
+              "is_correct": false
+            },
+            {
+              "id": "622_4",
+              "order": 4,
+              "text": "any",
+              "value": "802",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "623",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I watched five films during the festival, but _______ of them was good.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "623_1",
+              "order": 1,
+              "text": "either",
+              "value": "803",
+              "is_correct": false
+            },
+            {
+              "id": "623_2",
+              "order": 2,
+              "text": "neither",
+              "value": "804",
+              "is_correct": false
+            },
+            {
+              "id": "623_3",
+              "order": 3,
+              "text": "none",
+              "value": "805",
+              "is_correct": true
+            },
+            {
+              "id": "623_4",
+              "order": 4,
+              "text": "any",
+              "value": "806",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "624",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 _______ students I know passed the exam.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "624_1",
+              "order": 1,
+              "text": "Most of the",
+              "value": "812",
+              "is_correct": true
+            },
+            {
+              "id": "624_2",
+              "order": 2,
+              "text": "Most",
+              "value": "813",
+              "is_correct": false
+            },
+            {
+              "id": "624_3",
+              "order": 3,
+              "text": "All",
+              "value": "814",
+              "is_correct": false
+            },
+            {
+              "id": "624_4",
+              "order": 4,
+              "text": "None",
+              "value": "815",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "625",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 We spent _______ day outdoors.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "625_1",
+              "order": 1,
+              "text": "All of",
+              "value": "816",
+              "is_correct": false
+            },
+            {
+              "id": "625_2",
+              "order": 2,
+              "text": "All",
+              "value": "817",
+              "is_correct": true
+            },
+            {
+              "id": "625_3",
+              "order": 3,
+              "text": "All of the",
+              "value": "818",
+              "is_correct": false
+            },
+            {
+              "id": "625_4",
+              "order": 4,
+              "text": "All the",
+              "value": "819",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-76",
+      "lessonId": "b1-b2_quantifiers",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps in the dialogues with words from the list.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_quantifiers_3.html",
+      "questions": [
+        {
+          "id": "609",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Dialogue 1 A: We've found something illegal in your bag. Could 1 {{gap1}} have put 2 {{gap2}} illegal in your luggage? B: No, that's not possible. I packed 3 {{gap3}} the things myself.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_609_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "someone",
+              "accepted_answers": [
+                "someone"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_609_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "anything",
+              "accepted_answers": [
+                "anything"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_609_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "all",
+              "accepted_answers": [
+                "all"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "610",
+          "order": 2,
+          "type": "gap_text",
+          "text": "Dialogue 2 A: Sorry, madam, but 4 {{gap1}} drinks are allowed in the museum. B: But I've just bought it from the vending machine you have outside. A: I'm sorry. 5 {{gap2}} you drink it before going in or you put it in this bin.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_610_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "no",
+              "accepted_answers": [
+                "no"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_610_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Either",
+              "accepted_answers": [
+                "Either"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "611",
+          "order": 3,
+          "type": "gap_text",
+          "text": "Dialogue 3 A: Why don't you offer more vegetarian choices in your restaurant? B: Because 6 {{gap1}} the people who come here aren't vegetarians.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_611_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "most of",
+              "accepted_answers": [
+                "most of"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "612",
+          "order": 4,
+          "type": "gap_text",
+          "text": "Dialogue 4 A: Please, my wife and I would like some water. A: Do 7 {{gap1}} you want water to drink? B: Yes, please. A: May I suggest trying the white wine? B: No, thanks, 8 {{gap2}} of us drink alcohol.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_612_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "both of",
+              "accepted_answers": [
+                "both of"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_612_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "neither",
+              "accepted_answers": [
+                "neither"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "613",
+          "order": 5,
+          "type": "gap_text",
+          "text": "Dialogue 5 A: How many available seats do you have? B: I'm sorry, sir. I'm afraid that 9 {{gap1}}. A: Are you saying that 10 {{gap2}} seat has been taken? B: Yes, sir, all of them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_613_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "there are none",
+              "accepted_answers": [
+                "there are none"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_613_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "every",
+              "accepted_answers": [
+                "every"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-77",
+      "lessonId": "b1-b2_quantifiers",
+      "order": 4,
+      "page": 4,
+      "title": "Exercise 4",
+      "instruction": "Fill in the gaps in the text with words from the list.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_quantifiers_4.html",
+      "questions": [
+        {
+          "id": "636",
+          "order": 1,
+          "type": "gap_text",
+          "text": "I have very fond memories from school. I remember nearly everything I did as a student. I keep in touch with 1 {{gap1}} of my friends from school, almost with everyone. 2 {{gap2}} them have jobs, except for one who is unemployed, but 3 {{gap3}} of them have children; I’m the only one. My two best friends are also from school, Deborah, and Sam. They 4 {{gap4}} live in the same city I live in; well, actually, I could say they are almost my neighbours because 5 {{gap5}} of them lives very far from me. This is great because I know I can count on 6 {{gap6}} of them if I have a problem. We never have 7 {{gap7}} arguments, and we have 8 {{gap8}} secrets. We tell each other everything. We see each other almost 9 {{gap9}} day, and my son adores them. He would spend 10 {{gap10}} day with them if he could.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_636_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "most",
+              "accepted_answers": [
+                "most"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_636_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "Most of",
+              "accepted_answers": [
+                "Most of"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_636_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "none",
+              "accepted_answers": [
+                "none"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_636_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "both",
+              "accepted_answers": [
+                "both"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_636_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "neither",
+              "accepted_answers": [
+                "neither"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_636_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "either",
+              "accepted_answers": [
+                "either"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_636_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_636_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "no",
+              "accepted_answers": [
+                "no"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_636_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "every",
+              "accepted_answers": [
+                "every"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_636_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "all",
+              "accepted_answers": [
+                "all"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

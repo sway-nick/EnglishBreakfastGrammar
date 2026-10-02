@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b2_participle_clauses",
+  "level": "B2",
+  "title": "Participle clauses",
+  "description": "Практический тест и правила по теме: Participle clauses",
+  "theory": {
+    "title": "Правила и грамматика: Participle clauses",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Participle clauses».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Participle clauses» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-161",
+      "lessonId": "b2_participle_clauses",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_participle-clauses.html",
+      "questions": [
+        {
+          "id": "1393",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Waiting for the doctor, {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1393_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Dave read a magazine",
+              "accepted_answers": [
+                "Dave read a magazine"
+              ],
+              "options": [
+                {
+                  "id": "gap_1393_1_1",
+                  "order": 1,
+                  "text": "a big noise scared everybody",
+                  "value": "a big noise scared everybody",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1393_1_2",
+                  "order": 2,
+                  "text": "the alarm went off",
+                  "value": "the alarm went off",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1393_1_3",
+                  "order": 3,
+                  "text": "Dave read a magazine",
+                  "value": "Dave read a magazine",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1404",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 {{gap1}} in the jungle, George had to find the way out on his own.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1404_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Lost",
+              "accepted_answers": [
+                "Lost"
+              ],
+              "options": [
+                {
+                  "id": "gap_1404_1_1",
+                  "order": 1,
+                  "text": "Lost",
+                  "value": "Lost",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1404_1_2",
+                  "order": 2,
+                  "text": "Losing",
+                  "value": "Losing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1404_1_3",
+                  "order": 3,
+                  "text": "Having lost",
+                  "value": "Having lost",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1398",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Being an ex-convict, {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1398_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "he had no hope of finding a job",
+              "accepted_answers": [
+                "he had no hope of finding a job"
+              ],
+              "options": [
+                {
+                  "id": "gap_1398_1_1",
+                  "order": 1,
+                  "text": "they didn't give him the job",
+                  "value": "they didn't give him the job",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1398_1_2",
+                  "order": 2,
+                  "text": "he had no hope of finding a job",
+                  "value": "he had no hope of finding a job",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1398_1_3",
+                  "order": 3,
+                  "text": "the manager decided not to interview him",
+                  "value": "the manager decided not to interview him",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1405",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 {{gap1}}, our pottery will last for generations.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1405_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Treated with care",
+              "accepted_answers": [
+                "Treated with care"
+              ],
+              "options": [
+                {
+                  "id": "gap_1405_1_1",
+                  "order": 1,
+                  "text": "Treated with care",
+                  "value": "Treated with care",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1405_1_2",
+                  "order": 2,
+                  "text": "Treating with care",
+                  "value": "Treating with care",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1405_1_3",
+                  "order": 3,
+                  "text": "You treat with care",
+                  "value": "You treat with care",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1406",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 {{gap1}} in Denmark, he could speak Danish perfectly well.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1406_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Having spent his childhood",
+              "accepted_answers": [
+                "Having spent his childhood"
+              ],
+              "options": [
+                {
+                  "id": "gap_1406_1_1",
+                  "order": 1,
+                  "text": "Spent his childhood",
+                  "value": "Spent his childhood",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1406_1_2",
+                  "order": 2,
+                  "text": "Having spent his childhood",
+                  "value": "Having spent his childhood",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1406_1_3",
+                  "order": 3,
+                  "text": "Spending his childhood",
+                  "value": "Spending his childhood",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1408",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 {{gap1}} by their optimism, he invested a lot in the company.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1408_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Persuaded",
+              "accepted_answers": [
+                "Persuaded"
+              ],
+              "options": [
+                {
+                  "id": "gap_1408_1_1",
+                  "order": 1,
+                  "text": "Having persuaded",
+                  "value": "Having persuaded",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1408_1_2",
+                  "order": 2,
+                  "text": "Persuaded",
+                  "value": "Persuaded",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1408_1_3",
+                  "order": 3,
+                  "text": "Persuading",
+                  "value": "Persuading",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1409",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 {{gap1}} for her, he lost his patience.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1409_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Having waited",
+              "accepted_answers": [
+                "Having waited"
+              ],
+              "options": [
+                {
+                  "id": "gap_1409_1_1",
+                  "order": 1,
+                  "text": "Waited",
+                  "value": "Waited",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1409_1_2",
+                  "order": 2,
+                  "text": "Waiting",
+                  "value": "Waiting",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1409_1_3",
+                  "order": 3,
+                  "text": "Having waited",
+                  "value": "Having waited",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1410",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 {{gap1}} the daughter of a bookshop owner, spent most of her childhood surrounded by books.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1410_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Sally, being",
+              "accepted_answers": [
+                "Sally, being"
+              ],
+              "options": [
+                {
+                  "id": "gap_1410_1_1",
+                  "order": 1,
+                  "text": "Sally, been",
+                  "value": "Sally, been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1410_1_2",
+                  "order": 2,
+                  "text": "Being Sally",
+                  "value": "Being Sally",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1410_1_3",
+                  "order": 3,
+                  "text": "Sally, being",
+                  "value": "Sally, being",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1411",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 {{gap1}} at the right temperature, the cardigan will never shrink.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1411_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Washed",
+              "accepted_answers": [
+                "Washed"
+              ],
+              "options": [
+                {
+                  "id": "gap_1411_1_1",
+                  "order": 1,
+                  "text": "Being washed",
+                  "value": "Being washed",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1411_1_2",
+                  "order": 2,
+                  "text": "Washing",
+                  "value": "Washing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1411_1_3",
+                  "order": 3,
+                  "text": "Washed",
+                  "value": "Washed",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1412",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 {{gap1}} for so long, he had lost all hope.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1412_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Having been unemployed",
+              "accepted_answers": [
+                "Having been unemployed"
+              ],
+              "options": [
+                {
+                  "id": "gap_1412_1_1",
+                  "order": 1,
+                  "text": "Unemployed",
+                  "value": "Unemployed",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1412_1_2",
+                  "order": 2,
+                  "text": "Having been unemployed",
+                  "value": "Having been unemployed",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1412_1_3",
+                  "order": 3,
+                  "text": "Being unemployed",
+                  "value": "Being unemployed",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-162",
+      "lessonId": "b2_participle_clauses",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option for the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_participle-clauses_2.html",
+      "questions": [
+        {
+          "id": "1383",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 ______, she didn’t mention her daughter's promotion.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1383_1",
+              "order": 1,
+              "text": "Not wishing to boast",
+              "value": "1917",
+              "is_correct": true
+            },
+            {
+              "id": "1383_2",
+              "order": 2,
+              "text": "Her not wishing to boast",
+              "value": "1918",
+              "is_correct": false
+            },
+            {
+              "id": "1383_3",
+              "order": 3,
+              "text": "Alice not wishing to boast",
+              "value": "1919",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1384",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 The company closed for a year of renovations, ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1384_1",
+              "order": 1,
+              "text": "the boss leaving many employees looking for work.",
+              "value": "1920",
+              "is_correct": false
+            },
+            {
+              "id": "1384_2",
+              "order": 2,
+              "text": "leaving many employees looking for work.",
+              "value": "1921",
+              "is_correct": true
+            },
+            {
+              "id": "1384_3",
+              "order": 3,
+              "text": "left many employees looking for work.",
+              "value": "1922",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1385",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 ______, he had a long holiday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1385_1",
+              "order": 1,
+              "text": "Having finished the novel",
+              "value": "1923",
+              "is_correct": true
+            },
+            {
+              "id": "1385_2",
+              "order": 2,
+              "text": "The novel finished",
+              "value": "1924",
+              "is_correct": false
+            },
+            {
+              "id": "1385_3",
+              "order": 3,
+              "text": "The writer having finished the novel",
+              "value": "1925",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1386",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 ______ with his daughter's behaviour, he bought her sweets.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1386_1",
+              "order": 1,
+              "text": "Her daddy pleased",
+              "value": "1926",
+              "is_correct": false
+            },
+            {
+              "id": "1386_2",
+              "order": 2,
+              "text": "Pleased",
+              "value": "1927",
+              "is_correct": true
+            },
+            {
+              "id": "1386_3",
+              "order": 3,
+              "text": "Having pleased",
+              "value": "1928",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1387",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 ______, Mark retired from international competition.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1387_1",
+              "order": 1,
+              "text": "Having won every major judo title",
+              "value": "1929",
+              "is_correct": true
+            },
+            {
+              "id": "1387_2",
+              "order": 2,
+              "text": "Won every major judo title",
+              "value": "1930",
+              "is_correct": false
+            },
+            {
+              "id": "1387_3",
+              "order": 3,
+              "text": "He having won every major judo title",
+              "value": "1931",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1388",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 ______, I feel that my training sessions are much better.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1388_1",
+              "order": 1,
+              "text": "Taking my multivitamin",
+              "value": "1932",
+              "is_correct": true
+            },
+            {
+              "id": "1388_2",
+              "order": 2,
+              "text": "Taken my multivitamin",
+              "value": "1933",
+              "is_correct": false
+            },
+            {
+              "id": "1388_3",
+              "order": 3,
+              "text": "I taking my multivitamin",
+              "value": "1934",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1389",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 ______, the surface maintains its original appearance over time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1389_1",
+              "order": 1,
+              "text": "Cleaned with hot water and soap",
+              "value": "1935",
+              "is_correct": true
+            },
+            {
+              "id": "1389_2",
+              "order": 2,
+              "text": "Cleaning with hot water and soap",
+              "value": "1936",
+              "is_correct": false
+            },
+            {
+              "id": "1389_3",
+              "order": 3,
+              "text": "Having cleaned with hot water and soap",
+              "value": "1937",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1390",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Which sentence is CORRECT?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1390_1",
+              "order": 1,
+              "text": "The house being made of stone, it is quite cool in summer.",
+              "value": "1938",
+              "is_correct": false
+            },
+            {
+              "id": "1390_2",
+              "order": 2,
+              "text": "Made of stone, the house is quite cool in summer.",
+              "value": "1939",
+              "is_correct": true
+            },
+            {
+              "id": "1390_3",
+              "order": 3,
+              "text": "Making it of stone, the house is quite cool in summer.",
+              "value": "1940",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1391",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 ______, he heard a strange noise that came from the ceiling.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1391_1",
+              "order": 1,
+              "text": "Reached the top of the stairs",
+              "value": "1941",
+              "is_correct": false
+            },
+            {
+              "id": "1391_2",
+              "order": 2,
+              "text": "John reaching the top of the stairs",
+              "value": "1942",
+              "is_correct": false
+            },
+            {
+              "id": "1391_3",
+              "order": 3,
+              "text": "Reaching the top of the stairs",
+              "value": "1943",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1392",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 ______, he had to stay home while his friends were out having fun.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1392_1",
+              "order": 1,
+              "text": "Without John having any money",
+              "value": "1944",
+              "is_correct": false
+            },
+            {
+              "id": "1392_2",
+              "order": 2,
+              "text": "Not having any money",
+              "value": "1945",
+              "is_correct": true
+            },
+            {
+              "id": "1392_3",
+              "order": 3,
+              "text": "Not being had money",
+              "value": "1946",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-163",
+      "lessonId": "b2_participle_clauses",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Rewrite the following sentences using a participle clause.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_participle-clauses_3.html",
+      "questions": [
+        {
+          "id": "1373",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 As she felt tired, Emma went to bed early. {{gap1}}, Emma went to bed early.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1373_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Feeling tired",
+              "accepted_answers": [
+                "Feeling tired"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1374",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 As he was impressed by my work, the manager extended my contract. {{gap1}}, the manager extended my contract.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1374_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Impressed by my work",
+              "accepted_answers": [
+                "Impressed by my work"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1375",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Robin got oil on his shirt while he was fixing his bike. {{gap1}}, Robin got oil on his shirt.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1375_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "While fixing his bike",
+              "accepted_answers": [
+                "While fixing his bike"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1376",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 After the boss had explained the problem, he asked the employee to solve it. {{gap1}}, the boss asked the employee to solve it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1376_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Having explained the problem",
+              "accepted_answers": [
+                "Having explained the problem"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1377",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Because he didn’t have a girlfriend, he flirted with every woman he met. {{gap1}}, he flirted with every woman he met.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1377_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Not having a girlfriend",
+              "accepted_answers": [
+                "Not having a girlfriend"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1378",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 He was trapped in a dilemma and couldn't react. {{gap1}}, he couldn't react.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1378_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Trapped in a dilemma",
+              "accepted_answers": [
+                "Trapped in a dilemma"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1379",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 After I dropped him at the station, I drove straight to the supermarket. After {{gap1}}, I drove straight to the supermarket.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1379_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "dropping him at the station",
+              "accepted_answers": [
+                "dropping him at the station"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1380",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 While he was drinking his coffee, he thought about the problem. {{gap1}}, he thought about the problem.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1380_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Drinking his coffee",
+              "accepted_answers": [
+                "Drinking his coffee"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1381",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Because he is faced with a bill for £22,000, John has taken an extra job. {{gap1}} for £22,000, John has taken an extra job.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1381_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Faced with a bill",
+              "accepted_answers": [
+                "Faced with a bill"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1382",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 If it is looked after carefully, the plant can live through the winter. {{gap1}}, the plant can live through the winter.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1382_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Looked after carefully",
+              "accepted_answers": [
+                "Looked after carefully"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

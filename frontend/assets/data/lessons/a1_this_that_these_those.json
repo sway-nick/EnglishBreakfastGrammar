@@ -1,0 +1,927 @@
+{
+  "lesson_id": "a1_this_that_these_those",
+  "level": "A1",
+  "title": "This, that, these, those",
+  "description": "Практический тест и правила по теме: This, that, these, those",
+  "theory": {
+    "title": "Правила и грамматика: This, that, these, those",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «This, that, these, those».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «This, that, these, those» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-418",
+      "lessonId": "a1_this_that_these_those",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Complete the sentences with this, that, these, those.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_this-that-these-those.html",
+      "questions": [
+        {
+          "id": "3605",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 {{gap1}} are my trousers.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3605_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "These",
+              "accepted_answers": [
+                "These"
+              ],
+              "options": [
+                {
+                  "id": "gap_3605_1_1",
+                  "order": 1,
+                  "text": "This",
+                  "value": "This",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3605_1_2",
+                  "order": 2,
+                  "text": "These",
+                  "value": "These",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3606",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 'Hi, Chris. {{gap1}} is my friend Jona.' 'Hi, Jona. Nice to meet you.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3606_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "This",
+              "accepted_answers": [
+                "This"
+              ],
+              "options": [
+                {
+                  "id": "gap_3606_1_1",
+                  "order": 1,
+                  "text": "That",
+                  "value": "That",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3606_1_2",
+                  "order": 2,
+                  "text": "This",
+                  "value": "This",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3607",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Look at {{gap1}} birds in the sky.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3607_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "those",
+              "accepted_answers": [
+                "those"
+              ],
+              "options": [
+                {
+                  "id": "gap_3607_1_1",
+                  "order": 1,
+                  "text": "these",
+                  "value": "these",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3607_1_2",
+                  "order": 2,
+                  "text": "those",
+                  "value": "those",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3608",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 'What are {{gap1}}?' 'They are my books.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3608_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "those",
+              "accepted_answers": [
+                "those"
+              ],
+              "options": [
+                {
+                  "id": "gap_3608_1_1",
+                  "order": 1,
+                  "text": "that",
+                  "value": "that",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3608_1_2",
+                  "order": 2,
+                  "text": "those",
+                  "value": "those",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3609",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Is {{gap1}} hotel nice?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3609_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "that",
+              "accepted_answers": [
+                "that"
+              ],
+              "options": [
+                {
+                  "id": "gap_3609_1_1",
+                  "order": 1,
+                  "text": "those",
+                  "value": "those",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3609_1_2",
+                  "order": 2,
+                  "text": "that",
+                  "value": "that",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3610",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Are {{gap1}} your friends?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3610_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "these",
+              "accepted_answers": [
+                "these"
+              ],
+              "options": [
+                {
+                  "id": "gap_3610_1_1",
+                  "order": 1,
+                  "text": "these",
+                  "value": "these",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3610_1_2",
+                  "order": 2,
+                  "text": "this",
+                  "value": "this",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3611",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Who is {{gap1}} man over there?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3611_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "that",
+              "accepted_answers": [
+                "that"
+              ],
+              "options": [
+                {
+                  "id": "gap_3611_1_1",
+                  "order": 1,
+                  "text": "this",
+                  "value": "this",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3611_1_2",
+                  "order": 2,
+                  "text": "that",
+                  "value": "that",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3612",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Isn't {{gap1}} your friend Erik?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3612_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "this",
+              "accepted_answers": [
+                "this"
+              ],
+              "options": [
+                {
+                  "id": "gap_3612_1_1",
+                  "order": 1,
+                  "text": "these",
+                  "value": "these",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3612_1_2",
+                  "order": 2,
+                  "text": "this",
+                  "value": "this",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3613",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Why are {{gap1}} boxes here?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3613_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "these",
+              "accepted_answers": [
+                "these"
+              ],
+              "options": [
+                {
+                  "id": "gap_3613_1_1",
+                  "order": 1,
+                  "text": "those",
+                  "value": "those",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3613_1_2",
+                  "order": 2,
+                  "text": "these",
+                  "value": "these",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3614",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 {{gap1}} are my glasses.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3614_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "These",
+              "accepted_answers": [
+                "These"
+              ],
+              "options": [
+                {
+                  "id": "gap_3614_1_1",
+                  "order": 1,
+                  "text": "That",
+                  "value": "That",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3614_1_2",
+                  "order": 2,
+                  "text": "These",
+                  "value": "These",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-419",
+      "lessonId": "a1_this_that_these_those",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose this, that, these, those to complete the following sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_this-that-these-those_2.html",
+      "questions": [
+        {
+          "id": "3616",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 'What's _____?' 'It's a calculator.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3616_1",
+              "order": 1,
+              "text": "this",
+              "value": "5743",
+              "is_correct": true
+            },
+            {
+              "id": "3616_2",
+              "order": 2,
+              "text": "these",
+              "value": "5744",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3617",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 ______ are John and Teresa.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3617_1",
+              "order": 1,
+              "text": "This",
+              "value": "5745",
+              "is_correct": false
+            },
+            {
+              "id": "3617_2",
+              "order": 2,
+              "text": "These",
+              "value": "5746",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3618",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Hi, Richard, _____ is Julia. (On the phone)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3618_1",
+              "order": 1,
+              "text": "this",
+              "value": "5747",
+              "is_correct": true
+            },
+            {
+              "id": "3618_2",
+              "order": 2,
+              "text": "that",
+              "value": "5748",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3619",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Look at _____ cloud. It's very strange.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3619_1",
+              "order": 1,
+              "text": "this",
+              "value": "5749",
+              "is_correct": false
+            },
+            {
+              "id": "3619_2",
+              "order": 2,
+              "text": "that",
+              "value": "5750",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3620",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 'What are _____?' 'They are little cakes.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3620_1",
+              "order": 1,
+              "text": "that",
+              "value": "5751",
+              "is_correct": false
+            },
+            {
+              "id": "3620_2",
+              "order": 2,
+              "text": "those",
+              "value": "5752",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3621",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 _____ are my keys.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3621_1",
+              "order": 1,
+              "text": "That",
+              "value": "5753",
+              "is_correct": false
+            },
+            {
+              "id": "3621_2",
+              "order": 2,
+              "text": "Those",
+              "value": "5754",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3622",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Is _____ your mother?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3622_1",
+              "order": 1,
+              "text": "this",
+              "value": "5755",
+              "is_correct": true
+            },
+            {
+              "id": "3622_2",
+              "order": 2,
+              "text": "these",
+              "value": "5756",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3623",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 What is in _____ box over there?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3623_1",
+              "order": 1,
+              "text": "this",
+              "value": "5757",
+              "is_correct": false
+            },
+            {
+              "id": "3623_2",
+              "order": 2,
+              "text": "that",
+              "value": "5758",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3624",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 _____ is my hand!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3624_1",
+              "order": 1,
+              "text": "This",
+              "value": "5759",
+              "is_correct": true
+            },
+            {
+              "id": "3624_2",
+              "order": 2,
+              "text": "That",
+              "value": "5760",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3625",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 _____ are my cats.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3625_1",
+              "order": 1,
+              "text": "this",
+              "value": "5761",
+              "is_correct": false
+            },
+            {
+              "id": "3625_2",
+              "order": 2,
+              "text": "those",
+              "value": "5762",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-420",
+      "lessonId": "a1_this_that_these_those",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Transform singular sentences into plural sentences and plural sentences into singular sentences using this, that, these, those and other missing words.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_this-that-these-those_3.html",
+      "questions": [
+        {
+          "id": "3626",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 This is a flower ⇒ {{gap1}} flowers.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3626_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "These are",
+              "accepted_answers": [
+                "These are"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3627",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 That is a box. ⇒ {{gap1}} boxes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3627_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Those are",
+              "accepted_answers": [
+                "Those are"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3628",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 That is my father. ⇒ {{gap1}} my parents.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3628_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Those are",
+              "accepted_answers": [
+                "Those are"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3629",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Are those your friends? ⇒ {{gap1}} your friend?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3629_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Is that",
+              "accepted_answers": [
+                "Is that"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3630",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 What are those things? ⇒ What {{gap1}} thing?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3630_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is that",
+              "accepted_answers": [
+                "is that"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3631",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 These documents are important. ⇒ {{gap1}} important.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3631_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "This document is",
+              "accepted_answers": [
+                "This document is"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3632",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Are these your shoes? ⇒ {{gap1}} your shoe?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3632_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Is this",
+              "accepted_answers": [
+                "Is this"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3633",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 That's a good car. ⇒ {{gap1}} good cars.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3633_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Those are",
+              "accepted_answers": [
+                "Those are"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3634",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 This is John. ⇒ {{gap1}} John and Carla.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3634_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "These are",
+              "accepted_answers": [
+                "These are"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3635",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 These are cheap computers. ⇒ {{gap1}} a cheap computer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3635_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "This is",
+              "accepted_answers": [
+                "This is"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

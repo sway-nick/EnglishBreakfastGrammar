@@ -1,0 +1,1038 @@
+{
+  "lesson_id": "b1-b2_used_to",
+  "level": "B1-B2",
+  "title": "Used to, be used to, get used to",
+  "description": "Практический тест и правила по теме: Used to, be used to, get used to",
+  "theory": {
+    "title": "Правила и грамматика: Used to, be used to, get used to",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Used to, be used to, get used to».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Used to, be used to, get used to» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-37",
+      "lessonId": "b1-b2_used_to",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose used to, be used to, get used to to complete each sentence.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_used-to.html",
+      "questions": [
+        {
+          "id": "276",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 At first, I was really nervous about driving in Vancouver, but now I have {{gap1}} it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_276_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "got used to",
+              "accepted_answers": [
+                "got used to"
+              ],
+              "options": [
+                {
+                  "id": "gap_276_1_1",
+                  "order": 1,
+                  "text": "got used to",
+                  "value": "got used to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_276_1_2",
+                  "order": 2,
+                  "text": "been used to",
+                  "value": "been used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_276_1_3",
+                  "order": 3,
+                  "text": "used to",
+                  "value": "used to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "277",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I don't think I'll ever {{gap1}} driving on the left. It’s so strange!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_277_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "get used to",
+              "accepted_answers": [
+                "get used to"
+              ],
+              "options": [
+                {
+                  "id": "gap_277_1_1",
+                  "order": 1,
+                  "text": "use to",
+                  "value": "use to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_277_1_2",
+                  "order": 2,
+                  "text": "be used to",
+                  "value": "be used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_277_1_3",
+                  "order": 3,
+                  "text": "get used to",
+                  "value": "get used to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "278",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 A: Samantha works very hard. B: Well, she {{gap1}} working hard. She grew up in a very poor family.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_278_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is used to",
+              "accepted_answers": [
+                "is used to"
+              ],
+              "options": [
+                {
+                  "id": "gap_278_1_1",
+                  "order": 1,
+                  "text": "used to",
+                  "value": "used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_278_1_2",
+                  "order": 2,
+                  "text": "gets used to",
+                  "value": "gets used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_278_1_3",
+                  "order": 3,
+                  "text": "is used to",
+                  "value": "is used to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "279",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Lee is Chinese. He {{gap1}} to speaking English in the office.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_279_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is not used",
+              "accepted_answers": [
+                "is not used"
+              ],
+              "options": [
+                {
+                  "id": "gap_279_1_1",
+                  "order": 1,
+                  "text": "doesn't get used",
+                  "value": "doesn't get used",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_279_1_2",
+                  "order": 2,
+                  "text": "is not used",
+                  "value": "is not used",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_279_1_3",
+                  "order": 3,
+                  "text": "used",
+                  "value": "used",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "280",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 The smell of fish is awful, but you'll {{gap1}} to it after a couple of months on the job.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_280_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "get used",
+              "accepted_answers": [
+                "get used"
+              ],
+              "options": [
+                {
+                  "id": "gap_280_1_1",
+                  "order": 1,
+                  "text": "get used",
+                  "value": "get used",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_280_1_2",
+                  "order": 2,
+                  "text": "use",
+                  "value": "use",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_280_1_3",
+                  "order": 3,
+                  "text": "used",
+                  "value": "used",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "281",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 There are some things in this life that you'll never {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_281_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "get used to",
+              "accepted_answers": [
+                "get used to"
+              ],
+              "options": [
+                {
+                  "id": "gap_281_1_1",
+                  "order": 1,
+                  "text": "use to",
+                  "value": "use to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_281_1_2",
+                  "order": 2,
+                  "text": "be used to",
+                  "value": "be used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_281_1_3",
+                  "order": 3,
+                  "text": "get used to",
+                  "value": "get used to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "282",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 I’ve just bought an Apple computer, and I think it will take me some time to {{gap1}} the new operating system.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_282_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "get used to",
+              "accepted_answers": [
+                "get used to"
+              ],
+              "options": [
+                {
+                  "id": "gap_282_1_1",
+                  "order": 1,
+                  "text": "use to",
+                  "value": "use to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_282_1_2",
+                  "order": 2,
+                  "text": "get used to",
+                  "value": "get used to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_282_1_3",
+                  "order": 3,
+                  "text": "be used to",
+                  "value": "be used to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "283",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 When I was a teenager, I {{gap1}} dress up for Halloween, but not anymore.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_283_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "used to",
+              "accepted_answers": [
+                "used to"
+              ],
+              "options": [
+                {
+                  "id": "gap_283_1_1",
+                  "order": 1,
+                  "text": "was used to",
+                  "value": "was used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_283_1_2",
+                  "order": 2,
+                  "text": "used to",
+                  "value": "used to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_283_1_3",
+                  "order": 3,
+                  "text": "got used to",
+                  "value": "got used to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "284",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Two years ago, the students {{gap1}} have four hours a week of language tutorials, but now they have five hours.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_284_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "used to",
+              "accepted_answers": [
+                "used to"
+              ],
+              "options": [
+                {
+                  "id": "gap_284_1_1",
+                  "order": 1,
+                  "text": "were used to",
+                  "value": "were used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_284_1_2",
+                  "order": 2,
+                  "text": "used to",
+                  "value": "used to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_284_1_3",
+                  "order": 3,
+                  "text": "got used to",
+                  "value": "got used to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "285",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 After nine years in Africa, I can say that now I {{gap1}} living in this hot weather. I don’t mind anymore.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_285_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "am used to",
+              "accepted_answers": [
+                "am used to"
+              ],
+              "options": [
+                {
+                  "id": "gap_285_1_1",
+                  "order": 1,
+                  "text": "use to",
+                  "value": "use to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_285_1_2",
+                  "order": 2,
+                  "text": "am used to",
+                  "value": "am used to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_285_1_3",
+                  "order": 3,
+                  "text": "get used to",
+                  "value": "get used to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-38",
+      "lessonId": "b1-b2_used_to",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose used to, be used to, get used to for the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_used-to_2.html",
+      "questions": [
+        {
+          "id": "286",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I _______ chocolate when I was a child.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "286_1",
+              "order": 1,
+              "text": "wasn't used to liking",
+              "value": "314",
+              "is_correct": false
+            },
+            {
+              "id": "286_2",
+              "order": 2,
+              "text": "didn't use to liking",
+              "value": "315",
+              "is_correct": false
+            },
+            {
+              "id": "286_3",
+              "order": 3,
+              "text": "usen't to like",
+              "value": "316",
+              "is_correct": false
+            },
+            {
+              "id": "286_4",
+              "order": 4,
+              "text": "didn't use to like",
+              "value": "317",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "287",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 It's hard for me to _______ with the new operating system. It'll take me some time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "287_1",
+              "order": 1,
+              "text": "be used to working",
+              "value": "318",
+              "is_correct": false
+            },
+            {
+              "id": "287_2",
+              "order": 2,
+              "text": "get used to working",
+              "value": "319",
+              "is_correct": true
+            },
+            {
+              "id": "287_3",
+              "order": 3,
+              "text": "be used to work",
+              "value": "320",
+              "is_correct": false
+            },
+            {
+              "id": "287_4",
+              "order": 4,
+              "text": "get used to work",
+              "value": "321",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "288",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I _______ this kind of shoes. I find them uncomfortable.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "288_1",
+              "order": 1,
+              "text": "'m not used to wearing",
+              "value": "322",
+              "is_correct": true
+            },
+            {
+              "id": "288_2",
+              "order": 2,
+              "text": "don't use to wear",
+              "value": "323",
+              "is_correct": false
+            },
+            {
+              "id": "288_3",
+              "order": 3,
+              "text": "'m not used to wear",
+              "value": "324",
+              "is_correct": false
+            },
+            {
+              "id": "288_4",
+              "order": 4,
+              "text": "don't get used to wear",
+              "value": "325",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "289",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I _______ to work, but now I take the bus.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "289_1",
+              "order": 1,
+              "text": "was used to driving",
+              "value": "326",
+              "is_correct": false
+            },
+            {
+              "id": "289_2",
+              "order": 2,
+              "text": "used to drive",
+              "value": "327",
+              "is_correct": true
+            },
+            {
+              "id": "289_3",
+              "order": 3,
+              "text": "got used to drive",
+              "value": "328",
+              "is_correct": false
+            },
+            {
+              "id": "289_4",
+              "order": 4,
+              "text": "used to driving",
+              "value": "329",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "290",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 You never _______ that when you were younger.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "290_1",
+              "order": 1,
+              "text": "used to doing",
+              "value": "330",
+              "is_correct": false
+            },
+            {
+              "id": "290_2",
+              "order": 2,
+              "text": "were used to do",
+              "value": "331",
+              "is_correct": false
+            },
+            {
+              "id": "290_3",
+              "order": 3,
+              "text": "got used to do",
+              "value": "332",
+              "is_correct": false
+            },
+            {
+              "id": "290_4",
+              "order": 4,
+              "text": "used to do",
+              "value": "333",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "291",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 When we first moved to Tokyo we _______ in small apartments.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "291_1",
+              "order": 1,
+              "text": "weren't used to living",
+              "value": "334",
+              "is_correct": true
+            },
+            {
+              "id": "291_2",
+              "order": 2,
+              "text": "didn't use to living",
+              "value": "335",
+              "is_correct": false
+            },
+            {
+              "id": "291_3",
+              "order": 3,
+              "text": "weren't used to live",
+              "value": "336",
+              "is_correct": false
+            },
+            {
+              "id": "291_4",
+              "order": 4,
+              "text": "used not to live",
+              "value": "337",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "292",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 I don't think I'll _______ the night shift. I find it very hard.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "292_1",
+              "order": 1,
+              "text": "be used to work",
+              "value": "338",
+              "is_correct": false
+            },
+            {
+              "id": "292_2",
+              "order": 2,
+              "text": "use to work",
+              "value": "339",
+              "is_correct": false
+            },
+            {
+              "id": "292_3",
+              "order": 3,
+              "text": "get used to work",
+              "value": "340",
+              "is_correct": false
+            },
+            {
+              "id": "292_4",
+              "order": 4,
+              "text": "get used to working",
+              "value": "341",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "293",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I've just arrived, but I'm already ______ in a village.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "293_1",
+              "order": 1,
+              "text": "being used to living",
+              "value": "342",
+              "is_correct": false
+            },
+            {
+              "id": "293_2",
+              "order": 2,
+              "text": "being used to live",
+              "value": "343",
+              "is_correct": false
+            },
+            {
+              "id": "293_3",
+              "order": 3,
+              "text": "getting used to living",
+              "value": "344",
+              "is_correct": true
+            },
+            {
+              "id": "293_4",
+              "order": 4,
+              "text": "getting used to live",
+              "value": "345",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "294",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I used to _______ outdoors, so I'm not used to _______ in an office all day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "294_1",
+              "order": 1,
+              "text": "working / sitting",
+              "value": "346",
+              "is_correct": false
+            },
+            {
+              "id": "294_2",
+              "order": 2,
+              "text": "working / sit",
+              "value": "347",
+              "is_correct": false
+            },
+            {
+              "id": "294_3",
+              "order": 3,
+              "text": "work / sit",
+              "value": "348",
+              "is_correct": false
+            },
+            {
+              "id": "294_4",
+              "order": 4,
+              "text": "work / sitting",
+              "value": "349",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "295",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I _______ contact lenses. I had always worn glasses before now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "295_1",
+              "order": 1,
+              "text": "am not used to wearing",
+              "value": "350",
+              "is_correct": true
+            },
+            {
+              "id": "295_2",
+              "order": 2,
+              "text": "am not used to wear",
+              "value": "351",
+              "is_correct": false
+            },
+            {
+              "id": "295_3",
+              "order": 3,
+              "text": "don't use to wear",
+              "value": "352",
+              "is_correct": false
+            },
+            {
+              "id": "295_4",
+              "order": 4,
+              "text": "don't get used to wear",
+              "value": "353",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-39",
+      "lessonId": "b1-b2_used_to",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences using the verb in brackets with used to, be used to, get used to in the correct form.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_used-to_3.html",
+      "questions": [
+        {
+          "id": "296",
+          "order": 1,
+          "type": "gap_text",
+          "text": "I moved to London ten years ago, and after ten years, I can say I 1 {{gap1}} (live) in the UK. However, coming from Peru, it took me some time to 2 {{gap2}} (be) in a country which is so different from my motherland. In Peru, I 3 {{gap3}} (talk) to the people in the street: the people I met on the bus, in the shops, in the park, etc. Here, it was very difficult to speak to anybody, and not because of the language. Before I came, I was 4 {{gap4}} (speak) English every day, because back in Peru, I 5 {{gap5}} (be) an English teacher. So, the language was not the problem; it was just that the people here mind their own business; they don’t normally speak to strangers. But now, I have already 6 {{gap6}} (mind) my own business. The other thing which was completely different was the weather. In Peru, I 7 {{gap7}} (be) outdoors all day, because it 8 {{gap8}} (be) hot and sunny. When I came here I had to 9 {{gap9}} (be) mostly indoors, because the weather is horrible. Now, after ten years here, I think I 10 {{gap10}} (wear) thick clothes and I don’t mind the rainy weather as much as I did in the past, but I’ll always miss the weather in Peru.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_296_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "am used to living",
+              "accepted_answers": [
+                "am used to living"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_296_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "get used to being",
+              "accepted_answers": [
+                "get used to being"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_296_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "used to talk",
+              "accepted_answers": [
+                "used to talk"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_296_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "used to speaking",
+              "accepted_answers": [
+                "used to speaking"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_296_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "used to be",
+              "accepted_answers": [
+                "used to be"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_296_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "got used to minding",
+              "accepted_answers": [
+                "got used to minding"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_296_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "used to be",
+              "accepted_answers": [
+                "used to be"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_296_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "used to be",
+              "accepted_answers": [
+                "used to be"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_296_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "get used to being",
+              "accepted_answers": [
+                "get used to being"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_296_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "am used to wearing",
+              "accepted_answers": [
+                "am used to wearing"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

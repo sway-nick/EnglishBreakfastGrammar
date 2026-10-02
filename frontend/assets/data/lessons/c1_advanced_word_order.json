@@ -1,0 +1,1137 @@
+{
+  "lesson_id": "c1_advanced_word_order",
+  "level": "C1",
+  "title": "Advanced word order",
+  "description": "Практический тест и правила по теме: Advanced word order",
+  "theory": {
+    "title": "Правила и грамматика: Advanced word order",
+    "level": "C1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Advanced word order».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Advanced word order» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-1598",
+      "lessonId": "c1_advanced_word_order",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option for each gap.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_c1_advanced-word-order.html",
+      "questions": [
+        {
+          "id": "13632",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 {{gap1}} to such serious consequences.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13632_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Rarely do such minor errors lead",
+              "accepted_answers": [
+                "Rarely do such minor errors lead"
+              ],
+              "options": [
+                {
+                  "id": "gap_13632_1_1",
+                  "order": 1,
+                  "text": "Rarely do such minor errors lead",
+                  "value": "Rarely do such minor errors lead",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_13632_1_2",
+                  "order": 2,
+                  "text": "Rarely such minor errors lead",
+                  "value": "Rarely such minor errors lead",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13632_1_3",
+                  "order": 3,
+                  "text": "Rarely do lead such minor errors",
+                  "value": "Rarely do lead such minor errors",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13633",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Only after the final witness had testified {{gap1}} apparent.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13633_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "did the inconsistencies become",
+              "accepted_answers": [
+                "did the inconsistencies become"
+              ],
+              "options": [
+                {
+                  "id": "gap_13633_1_1",
+                  "order": 1,
+                  "text": "the inconsistencies became",
+                  "value": "the inconsistencies became",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13633_1_2",
+                  "order": 2,
+                  "text": "became the inconsistencies",
+                  "value": "became the inconsistencies",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13633_1_3",
+                  "order": 3,
+                  "text": "did the inconsistencies become",
+                  "value": "did the inconsistencies become",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13634",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 {{gap1}} that the equipment had to be dismantled before it could be carried through.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13634_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "So narrow was the passage",
+              "accepted_answers": [
+                "So narrow was the passage"
+              ],
+              "options": [
+                {
+                  "id": "gap_13634_1_1",
+                  "order": 1,
+                  "text": "Such narrow was the passage",
+                  "value": "Such narrow was the passage",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13634_1_2",
+                  "order": 2,
+                  "text": "So narrow the passage was",
+                  "value": "So narrow the passage was",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13634_1_3",
+                  "order": 3,
+                  "text": "So narrow was the passage",
+                  "value": "So narrow was the passage",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13635",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 {{gap1}} the missing funds were discovered.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13635_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It was only after the audit that",
+              "accepted_answers": [
+                "It was only after the audit that"
+              ],
+              "options": [
+                {
+                  "id": "gap_13635_1_1",
+                  "order": 1,
+                  "text": "It was only after the audit that",
+                  "value": "It was only after the audit that",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_13635_1_2",
+                  "order": 2,
+                  "text": "Only after the audit it was that",
+                  "value": "Only after the audit it was that",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13635_1_3",
+                  "order": 3,
+                  "text": "What was only after the audit",
+                  "value": "What was only after the audit",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13636",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 {{gap1}} a clear explanation of the new restrictions.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13636_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "All the residents were asking for was",
+              "accepted_answers": [
+                "All the residents were asking for was"
+              ],
+              "options": [
+                {
+                  "id": "gap_13636_1_1",
+                  "order": 1,
+                  "text": "All what the residents were asking for was",
+                  "value": "All what the residents were asking for was",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13636_1_2",
+                  "order": 2,
+                  "text": "All the residents were asking for was",
+                  "value": "All the residents were asking for was",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_13636_1_3",
+                  "order": 3,
+                  "text": "All which the residents were asking was",
+                  "value": "All which the residents were asking was",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13637",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 {{gap1}} from anyone.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13637_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "This kind of interference I will not tolerate",
+              "accepted_answers": [
+                "This kind of interference I will not tolerate"
+              ],
+              "options": [
+                {
+                  "id": "gap_13637_1_1",
+                  "order": 1,
+                  "text": "This kind of interference I will not tolerate",
+                  "value": "This kind of interference I will not tolerate",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_13637_1_2",
+                  "order": 2,
+                  "text": "This kind of interference will I not tolerate",
+                  "value": "This kind of interference will I not tolerate",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13637_1_3",
+                  "order": 3,
+                  "text": "This kind of interference won't I tolerate",
+                  "value": "This kind of interference won't I tolerate",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13638",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 {{gap1}}, several inconsistencies remained.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13638_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Carefully though the data had been checked",
+              "accepted_answers": [
+                "Carefully though the data had been checked"
+              ],
+              "options": [
+                {
+                  "id": "gap_13638_1_1",
+                  "order": 1,
+                  "text": "Carefully the data had though been checked",
+                  "value": "Carefully the data had though been checked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13638_1_2",
+                  "order": 2,
+                  "text": "Though carefully had the data been checked",
+                  "value": "Though carefully had the data been checked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13638_1_3",
+                  "order": 3,
+                  "text": "Carefully though the data had been checked",
+                  "value": "Carefully though the data had been checked",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13639",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 {{gap1}}, the rescue teams found no trace of the missing climbers.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13639_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Search as they might",
+              "accepted_answers": [
+                "Search as they might"
+              ],
+              "options": [
+                {
+                  "id": "gap_13639_1_1",
+                  "order": 1,
+                  "text": "Search as they might",
+                  "value": "Search as they might",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_13639_1_2",
+                  "order": 2,
+                  "text": "Search as might they",
+                  "value": "Search as might they",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13639_1_3",
+                  "order": 3,
+                  "text": "As might they search",
+                  "value": "As might they search",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13640",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 {{gap1}} between the eyewitness accounts.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13640_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Particularly striking was the contrast",
+              "accepted_answers": [
+                "Particularly striking was the contrast"
+              ],
+              "options": [
+                {
+                  "id": "gap_13640_1_1",
+                  "order": 1,
+                  "text": "Particularly striking the contrast was",
+                  "value": "Particularly striking the contrast was",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13640_1_2",
+                  "order": 2,
+                  "text": "Particularly striking was the contrast",
+                  "value": "Particularly striking was the contrast",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_13640_1_3",
+                  "order": 3,
+                  "text": "Was particularly striking the contrast",
+                  "value": "Was particularly striking the contrast",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13641",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Beside the entrance {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13641_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "stood two guards",
+              "accepted_answers": [
+                "stood two guards"
+              ],
+              "options": [
+                {
+                  "id": "gap_13641_1_1",
+                  "order": 1,
+                  "text": "stood two guards",
+                  "value": "stood two guards",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_13641_1_2",
+                  "order": 2,
+                  "text": "stood they",
+                  "value": "stood they",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_13641_1_3",
+                  "order": 3,
+                  "text": "did two guards stood",
+                  "value": "did two guards stood",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-1599",
+      "lessonId": "c1_advanced_word_order",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option to complete each sentence.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_c1_advanced-word-order_2.html",
+      "questions": [
+        {
+          "id": "13642",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Not until the final stage of testing ______ that the material was unstable.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13642_1",
+              "order": 1,
+              "text": "the researchers discovered",
+              "value": "26545",
+              "is_correct": false
+            },
+            {
+              "id": "13642_2",
+              "order": 2,
+              "text": "did the researchers discover",
+              "value": "26546",
+              "is_correct": true
+            },
+            {
+              "id": "13642_3",
+              "order": 3,
+              "text": "the researchers had discovered",
+              "value": "26547",
+              "is_correct": false
+            },
+            {
+              "id": "13642_4",
+              "order": 4,
+              "text": "discovered the researchers",
+              "value": "26548",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "13643",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 ______ that the organisers scheduled a second session.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13643_1",
+              "order": 1,
+              "text": "So great the demand was",
+              "value": "26549",
+              "is_correct": false
+            },
+            {
+              "id": "13643_2",
+              "order": 2,
+              "text": "Such was the demand",
+              "value": "26550",
+              "is_correct": true
+            },
+            {
+              "id": "13643_3",
+              "order": 3,
+              "text": "Such the demand was",
+              "value": "26551",
+              "is_correct": false
+            },
+            {
+              "id": "13643_4",
+              "order": 4,
+              "text": "So was the demand",
+              "value": "26552",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "13644",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 ______ was a detailed breakdown of the projected costs.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13644_1",
+              "order": 1,
+              "text": "All the panel requested",
+              "value": "26553",
+              "is_correct": true
+            },
+            {
+              "id": "13644_2",
+              "order": 2,
+              "text": "What did the panel request",
+              "value": "26554",
+              "is_correct": false
+            },
+            {
+              "id": "13644_3",
+              "order": 3,
+              "text": "It was all the panel requested",
+              "value": "26555",
+              "is_correct": false
+            },
+            {
+              "id": "13644_4",
+              "order": 4,
+              "text": "All what the panel requested",
+              "value": "26556",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "13645",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 The revised schedule ______; the original one, however, remains unacceptable.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13645_1",
+              "order": 1,
+              "text": "can approve I",
+              "value": "26557",
+              "is_correct": false
+            },
+            {
+              "id": "13645_2",
+              "order": 2,
+              "text": "can I approve",
+              "value": "26558",
+              "is_correct": false
+            },
+            {
+              "id": "13645_3",
+              "order": 3,
+              "text": "I can approve",
+              "value": "26559",
+              "is_correct": true
+            },
+            {
+              "id": "13645_4",
+              "order": 4,
+              "text": "I can approve it",
+              "value": "26560",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "13646",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 ______, it has reduced the number of errors.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13646_1",
+              "order": 1,
+              "text": "However confusing may the new procedure seem",
+              "value": "26561",
+              "is_correct": false
+            },
+            {
+              "id": "13646_2",
+              "order": 2,
+              "text": "Confusing though the new procedure may seem",
+              "value": "26562",
+              "is_correct": true
+            },
+            {
+              "id": "13646_3",
+              "order": 3,
+              "text": "So confusing the new procedure may seem",
+              "value": "26563",
+              "is_correct": false
+            },
+            {
+              "id": "13646_4",
+              "order": 4,
+              "text": "What seems confusing about the new procedure",
+              "value": "26564",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "13647",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 The actors had been waiting behind the curtain. When the music began, onto the stage ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13647_1",
+              "order": 1,
+              "text": "walked they",
+              "value": "26565",
+              "is_correct": false
+            },
+            {
+              "id": "13647_2",
+              "order": 2,
+              "text": "did they walked",
+              "value": "26566",
+              "is_correct": false
+            },
+            {
+              "id": "13647_3",
+              "order": 3,
+              "text": "did walk they",
+              "value": "26567",
+              "is_correct": false
+            },
+            {
+              "id": "13647_4",
+              "order": 4,
+              "text": "they walked",
+              "value": "26568",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "13648",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 ______ several handwritten notes that proved crucial to the investigation.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13648_1",
+              "order": 1,
+              "text": "Tucked inside the folder were",
+              "value": "26569",
+              "is_correct": true
+            },
+            {
+              "id": "13648_2",
+              "order": 2,
+              "text": "Tucked were inside the folder",
+              "value": "26570",
+              "is_correct": false
+            },
+            {
+              "id": "13648_3",
+              "order": 3,
+              "text": "Inside the folder tucked were",
+              "value": "26571",
+              "is_correct": false
+            },
+            {
+              "id": "13648_4",
+              "order": 4,
+              "text": "What was tucked inside the folder",
+              "value": "26572",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "13649",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Which sentence is correct?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13649_1",
+              "order": 1,
+              "text": "It was the revised estimate what alarmed the investors.",
+              "value": "26573",
+              "is_correct": false
+            },
+            {
+              "id": "13649_2",
+              "order": 2,
+              "text": "Strongly though the residents objected, the project went ahead.",
+              "value": "26574",
+              "is_correct": true
+            },
+            {
+              "id": "13649_3",
+              "order": 3,
+              "text": "What the committee needed it was more time.",
+              "value": "26575",
+              "is_correct": false
+            },
+            {
+              "id": "13649_4",
+              "order": 4,
+              "text": "Down the corridor ran they when the alarm sounded.",
+              "value": "26576",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "13650",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Which sentence is correct?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13650_1",
+              "order": 1,
+              "text": "It was a faulty valve what caused the leak.",
+              "value": "26577",
+              "is_correct": false
+            },
+            {
+              "id": "13650_2",
+              "order": 2,
+              "text": "What caused the leak was a faulty valve.",
+              "value": "26578",
+              "is_correct": true
+            },
+            {
+              "id": "13650_3",
+              "order": 3,
+              "text": "All what caused the leak was a faulty valve.",
+              "value": "26579",
+              "is_correct": false
+            },
+            {
+              "id": "13650_4",
+              "order": 4,
+              "text": "What the cause of the leak was a faulty valve.",
+              "value": "26580",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "13651",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Which sentence is correct?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "13651_1",
+              "order": 1,
+              "text": "Into the courtyard ran they without looking back.",
+              "value": "26581",
+              "is_correct": false
+            },
+            {
+              "id": "13651_2",
+              "order": 2,
+              "text": "Tired though was she, she continued working.",
+              "value": "26582",
+              "is_correct": false
+            },
+            {
+              "id": "13651_3",
+              "order": 3,
+              "text": "Behind the screen was concealed two additional speakers.",
+              "value": "26583",
+              "is_correct": false
+            },
+            {
+              "id": "13651_4",
+              "order": 4,
+              "text": "That recommendation I cannot support.",
+              "value": "26584",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-1600",
+      "lessonId": "c1_advanced_word_order",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the second sentence so that it has the same meaning as the first sentence.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_c1_advanced-word-order_3.html",
+      "questions": [
+        {
+          "id": "13652",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 The museum had never displayed the manuscript publicly before this exhibition. Never before this exhibition {{gap1}} the manuscript publicly.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13652_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had the museum displayed",
+              "accepted_answers": [
+                "had the museum displayed"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13653",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 The queue grew so rapidly that extra staff had to be called. So {{gap1}} that extra staff had to be called.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13653_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "rapidly did the queue grow",
+              "accepted_answers": [
+                "rapidly did the queue grow"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13654",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 The opposition to the proposal was so intense that the committee abandoned it. Such {{gap1}} that the committee abandoned it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13654_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was the intensity of the opposition to the proposal",
+              "accepted_answers": [
+                "was the intensity of the opposition to the proposal"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13655",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Dr Patel first raised the concern during Monday's briefing. It {{gap1}} Dr Patel first raised the concern.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13655_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was during Monday's briefing that",
+              "accepted_answers": [
+                "was during Monday's briefing that"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13656",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 The residents need reliable information about the relocation plans. What {{gap1}} reliable information about the relocation plans.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13656_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the residents need is",
+              "accepted_answers": [
+                "the residents need is"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13657",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Nobody could explain why the alarm had failed to activate. Why {{gap1}}, nobody could explain.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13657_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the alarm had failed to activate",
+              "accepted_answers": [
+                "the alarm had failed to activate"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13658",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Although the evidence appears convincing, it does not establish a motive. Convincing {{gap1}}, it does not establish a motive.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13658_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "as the evidence appears",
+              "accepted_answers": [
+                "as the evidence appears"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13659",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Although they tried as hard as they could, they could not reproduce the results. Try as {{gap1}}, they could not reproduce the results.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13659_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "they might",
+              "accepted_answers": [
+                "they might"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13660",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 A rescue helicopter was hovering above the flooded village. Hovering {{gap1}} a rescue helicopter.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13660_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "above the flooded village was",
+              "accepted_answers": [
+                "above the flooded village was"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "13661",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 A cloud of dust rose from behind the abandoned warehouse. From behind the abandoned warehouse {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_13661_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "rose a cloud of dust",
+              "accepted_answers": [
+                "rose a cloud of dust"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

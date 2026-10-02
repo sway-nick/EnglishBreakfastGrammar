@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1-b2_already_still_yet_whats_the_difference",
+  "level": "B1-B2",
+  "title": "Already, still, yet: What's the difference?",
+  "description": "Практический тест и правила по теме: Already, still, yet: What's the difference?",
+  "theory": {
+    "title": "Правила и грамматика: Already, still, yet: What's the difference?",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Already, still, yet: What's the difference?».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Already, still, yet: What's the difference?» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-792",
+      "lessonId": "b1-b2_already_still_yet_whats_the_difference",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct words to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_already-still-yet-whats-the-difference.html",
+      "questions": [
+        {
+          "id": "6830",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 He is forty, but he {{gap1}} plays football.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6830_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "still",
+              "accepted_answers": [
+                "still"
+              ],
+              "options": [
+                {
+                  "id": "gap_6830_1_1",
+                  "order": 1,
+                  "text": "already",
+                  "value": "already",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6830_1_2",
+                  "order": 2,
+                  "text": "yet",
+                  "value": "yet",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6830_1_3",
+                  "order": 3,
+                  "text": "still",
+                  "value": "still",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6831",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Lisa {{gap1}} still in Leeds.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6831_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": [
+                {
+                  "id": "gap_6831_1_1",
+                  "order": 1,
+                  "text": "works",
+                  "value": "works",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6831_1_2",
+                  "order": 2,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6831_1_3",
+                  "order": 3,
+                  "text": "lives",
+                  "value": "lives",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6839",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 We have {{gap1}} eaten dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6839_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "already",
+              "accepted_answers": [
+                "already"
+              ],
+              "options": [
+                {
+                  "id": "gap_6839_1_1",
+                  "order": 1,
+                  "text": "still",
+                  "value": "still",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6839_1_2",
+                  "order": 2,
+                  "text": "already",
+                  "value": "already",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6839_1_3",
+                  "order": 3,
+                  "text": "yet",
+                  "value": "yet",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6833",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 We haven't eaten dinner {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6833_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "yet",
+              "accepted_answers": [
+                "yet"
+              ],
+              "options": [
+                {
+                  "id": "gap_6833_1_1",
+                  "order": 1,
+                  "text": "still",
+                  "value": "still",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6833_1_2",
+                  "order": 2,
+                  "text": "already",
+                  "value": "already",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6833_1_3",
+                  "order": 3,
+                  "text": "yet",
+                  "value": "yet",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6832",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 We {{gap1}} haven't eaten dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6832_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "still",
+              "accepted_answers": [
+                "still"
+              ],
+              "options": [
+                {
+                  "id": "gap_6832_1_1",
+                  "order": 1,
+                  "text": "still",
+                  "value": "still",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6832_1_2",
+                  "order": 2,
+                  "text": "yet",
+                  "value": "yet",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6832_1_3",
+                  "order": 3,
+                  "text": "already",
+                  "value": "already",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6835",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 I've eaten dinner but I'm {{gap1}} hungry.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6835_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "still",
+              "accepted_answers": [
+                "still"
+              ],
+              "options": [
+                {
+                  "id": "gap_6835_1_1",
+                  "order": 1,
+                  "text": "already",
+                  "value": "already",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6835_1_2",
+                  "order": 2,
+                  "text": "still",
+                  "value": "still",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6835_1_3",
+                  "order": 3,
+                  "text": "yet",
+                  "value": "yet",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6836",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 It's very early but I'm {{gap1}} hungry.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6836_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "already",
+              "accepted_answers": [
+                "already"
+              ],
+              "options": [
+                {
+                  "id": "gap_6836_1_1",
+                  "order": 1,
+                  "text": "yet",
+                  "value": "yet",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6836_1_2",
+                  "order": 2,
+                  "text": "already",
+                  "value": "already",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6836_1_3",
+                  "order": 3,
+                  "text": "still",
+                  "value": "still",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6837",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 It's dinner time but I'm not very hungry {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6837_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "yet",
+              "accepted_answers": [
+                "yet"
+              ],
+              "options": [
+                {
+                  "id": "gap_6837_1_1",
+                  "order": 1,
+                  "text": "yet",
+                  "value": "yet",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6837_1_2",
+                  "order": 2,
+                  "text": "already",
+                  "value": "already",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6837_1_3",
+                  "order": 3,
+                  "text": "still",
+                  "value": "still",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6838",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Have you washed your car {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6838_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "yet",
+              "accepted_answers": [
+                "yet"
+              ],
+              "options": [
+                {
+                  "id": "gap_6838_1_1",
+                  "order": 1,
+                  "text": "already",
+                  "value": "already",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6838_1_2",
+                  "order": 2,
+                  "text": "still",
+                  "value": "still",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6838_1_3",
+                  "order": 3,
+                  "text": "yet",
+                  "value": "yet",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6834",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I have {{gap1}} washed my car.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6834_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "already",
+              "accepted_answers": [
+                "already"
+              ],
+              "options": [
+                {
+                  "id": "gap_6834_1_1",
+                  "order": 1,
+                  "text": "yet",
+                  "value": "yet",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6834_1_2",
+                  "order": 2,
+                  "text": "already",
+                  "value": "already",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6834_1_3",
+                  "order": 3,
+                  "text": "still",
+                  "value": "still",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-793",
+      "lessonId": "b1-b2_already_still_yet_whats_the_difference",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct words to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_already-still-yet-whats-the-difference_2.html",
+      "questions": [
+        {
+          "id": "6840",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 You are waiting for the waiter. It has been a long time and you are impatient. Which would you say?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6840_1",
+              "order": 1,
+              "text": "The waiter has already taken our order.",
+              "value": "11852",
+              "is_correct": false
+            },
+            {
+              "id": "6840_2",
+              "order": 2,
+              "text": "The waiter hasn't taken our order yet.",
+              "value": "11853",
+              "is_correct": false
+            },
+            {
+              "id": "6840_3",
+              "order": 3,
+              "text": "The waiter still hasn't taken our order.",
+              "value": "11854",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6845",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 The waiter has taken your order earlier than expected. Which would you say?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6845_1",
+              "order": 1,
+              "text": "The waiter has already taken our order.",
+              "value": "11867",
+              "is_correct": true
+            },
+            {
+              "id": "6845_2",
+              "order": 2,
+              "text": "The waiter hasn't taken our order yet.",
+              "value": "11868",
+              "is_correct": false
+            },
+            {
+              "id": "6845_3",
+              "order": 3,
+              "text": "The waiter still hasn't taken our order.",
+              "value": "11869",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6844",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 You are waiting for the waiter. You expect he will come soon. Which would you say?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6844_1",
+              "order": 1,
+              "text": "The waiter has already taken our order.",
+              "value": "11864",
+              "is_correct": false
+            },
+            {
+              "id": "6844_2",
+              "order": 2,
+              "text": "The waiter hasn't taken our order yet.",
+              "value": "11865",
+              "is_correct": true
+            },
+            {
+              "id": "6844_3",
+              "order": 3,
+              "text": "The waiter still hasn't taken our order.",
+              "value": "11866",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6841",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I didn't expect you to be home until later. I'm surprised you are home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6841_1",
+              "order": 1,
+              "text": "Are you already home?",
+              "value": "11855",
+              "is_correct": true
+            },
+            {
+              "id": "6841_2",
+              "order": 2,
+              "text": "Are you still home?",
+              "value": "11856",
+              "is_correct": false
+            },
+            {
+              "id": "6841_3",
+              "order": 3,
+              "text": "Are you home yet?",
+              "value": "11857",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6842",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I expect you to be home now or very soon. Are you there now?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6842_1",
+              "order": 1,
+              "text": "Are you already home?",
+              "value": "11858",
+              "is_correct": false
+            },
+            {
+              "id": "6842_2",
+              "order": 2,
+              "text": "Are you still home?",
+              "value": "11859",
+              "is_correct": false
+            },
+            {
+              "id": "6842_3",
+              "order": 3,
+              "text": "Are you home yet?",
+              "value": "11860",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6843",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I know you were home. Do you continue to be there?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6843_1",
+              "order": 1,
+              "text": "Are you already home?",
+              "value": "11861",
+              "is_correct": false
+            },
+            {
+              "id": "6843_2",
+              "order": 2,
+              "text": "Are you still home?",
+              "value": "11862",
+              "is_correct": true
+            },
+            {
+              "id": "6843_3",
+              "order": 3,
+              "text": "Are you home yet?",
+              "value": "11863",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6846",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Susan had to call you earlier, but she didn't do it. You are a little surprised and annoyed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6846_1",
+              "order": 1,
+              "text": "Susan hasn't called me yet.",
+              "value": "11870",
+              "is_correct": false
+            },
+            {
+              "id": "6846_2",
+              "order": 2,
+              "text": "Susan still hasn't called me.",
+              "value": "11871",
+              "is_correct": true
+            },
+            {
+              "id": "6846_3",
+              "order": 3,
+              "text": "Susan has already called me.",
+              "value": "11872",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6847",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 You are waiting for Susan's call. You expect that she will call you soon.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6847_1",
+              "order": 1,
+              "text": "Susan hasn't called me yet.",
+              "value": "11873",
+              "is_correct": true
+            },
+            {
+              "id": "6847_2",
+              "order": 2,
+              "text": "Susan still hasn't called me.",
+              "value": "11874",
+              "is_correct": false
+            },
+            {
+              "id": "6847_3",
+              "order": 3,
+              "text": "Susan has already called me.",
+              "value": "11875",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6848",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 You are asking if John has left, but you suspect he has probably left.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6848_1",
+              "order": 1,
+              "text": "Has John still left?",
+              "value": "11876",
+              "is_correct": false
+            },
+            {
+              "id": "6848_2",
+              "order": 2,
+              "text": "Has John left yet?",
+              "value": "11877",
+              "is_correct": false
+            },
+            {
+              "id": "6848_3",
+              "order": 3,
+              "text": "Has John already left?",
+              "value": "11878",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6849",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 You don't know if John has left, you're asking if he has left.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6849_1",
+              "order": 1,
+              "text": "Has John still left?",
+              "value": "11879",
+              "is_correct": false
+            },
+            {
+              "id": "6849_2",
+              "order": 2,
+              "text": "Has John left yet?",
+              "value": "11880",
+              "is_correct": true
+            },
+            {
+              "id": "6849_3",
+              "order": 3,
+              "text": "Has John already left?",
+              "value": "11881",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-794",
+      "lessonId": "b1-b2_already_still_yet_whats_the_difference",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Re-write these sentences adding the word in brackets in the correct place.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_already-still-yet-whats-the-difference_3.html",
+      "questions": [
+        {
+          "id": "6850",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Have you found a job? (yet) ‣ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6850_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Have you found a job yet",
+              "accepted_answers": [
+                "Have you found a job yet"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6851",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 I haven't called her. (yet) ‣ {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6851_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "I haven't called her yet",
+              "accepted_answers": [
+                "I haven't called her yet"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6853",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Is dinner ready? (yet) ‣ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6853_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Is dinner ready yet",
+              "accepted_answers": [
+                "Is dinner ready yet"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6852",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Have you finished your homework? (already) ‣ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6852_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Have you already finished your homework",
+              "accepted_answers": [
+                "Have you already finished your homework"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6854",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 She is here. (already) ‣ {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6854_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "She is already here.",
+              "accepted_answers": [
+                "She is already here."
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6855",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 She has two children. (already) ‣ {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6855_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "She already has two children",
+              "accepted_answers": [
+                "She already has two children"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6856",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 I have made a decision. (already) ‣ {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6856_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "I have already made a decision",
+              "accepted_answers": [
+                "I have already made a decision"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6857",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 He hasn't signed the document. (still) ‣ {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6857_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "He still hasn't signed the document.",
+              "accepted_answers": [
+                "He still hasn't signed the document."
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6858",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Sunday will be a warm day. (still) ‣ {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6858_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Sunday will still be a warm day",
+              "accepted_answers": [
+                "Sunday will still be a warm day"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6859",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Does he work here? (still) ‣ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6859_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Does he still work here",
+              "accepted_answers": [
+                "Does he still work here"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

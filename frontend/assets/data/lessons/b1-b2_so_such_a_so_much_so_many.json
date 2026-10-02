@@ -1,0 +1,1270 @@
+{
+  "lesson_id": "b1-b2_so_such_a_so_much_so_many",
+  "level": "B1-B2",
+  "title": "So, such (a), so much, so many",
+  "description": "Практический тест и правила по теме: So, such (a), so much, so many",
+  "theory": {
+    "title": "Правила и грамматика: So, such (a), so much, so many",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «So, such (a), so much, so many».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «So, such (a), so much, so many» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-16",
+      "lessonId": "b1-b2_so_such_a_so_much_so_many",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Complete the sentences with so, such (a), so much, so many.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_so-such-a-so-much-so-many.html",
+      "questions": [
+        {
+          "id": "123",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I like my uncles. They are {{gap1}} nice people.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_123_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "such",
+              "accepted_answers": [
+                "such"
+              ],
+              "options": [
+                {
+                  "id": "gap_123_1_1",
+                  "order": 1,
+                  "text": "such",
+                  "value": "such",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_123_1_2",
+                  "order": 2,
+                  "text": "so much",
+                  "value": "so much",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_123_1_3",
+                  "order": 3,
+                  "text": "such a",
+                  "value": "such a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_123_1_4",
+                  "order": 4,
+                  "text": "so many",
+                  "value": "so many",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_123_1_5",
+                  "order": 5,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "124",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I was surprised that he looked {{gap1}} young at his age.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_124_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": [
+                {
+                  "id": "gap_124_1_1",
+                  "order": 1,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_124_1_2",
+                  "order": 2,
+                  "text": "so many",
+                  "value": "so many",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_124_1_3",
+                  "order": 3,
+                  "text": "so much",
+                  "value": "so much",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_124_1_4",
+                  "order": 4,
+                  "text": "such a",
+                  "value": "such a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_124_1_5",
+                  "order": 5,
+                  "text": "such",
+                  "value": "such",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "125",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 They have {{gap1}} money that they don't know what to do with it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_125_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "so much",
+              "accepted_answers": [
+                "so much"
+              ],
+              "options": [
+                {
+                  "id": "gap_125_1_1",
+                  "order": 1,
+                  "text": "such",
+                  "value": "such",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_125_1_2",
+                  "order": 2,
+                  "text": "so much",
+                  "value": "so much",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_125_1_3",
+                  "order": 3,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_125_1_4",
+                  "order": 4,
+                  "text": "such a",
+                  "value": "such a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_125_1_5",
+                  "order": 5,
+                  "text": "so many",
+                  "value": "so many",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "126",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 The game was {{gap1}} boring that I almost fell asleep.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_126_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": [
+                {
+                  "id": "gap_126_1_1",
+                  "order": 1,
+                  "text": "such",
+                  "value": "such",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_126_1_2",
+                  "order": 2,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_126_1_3",
+                  "order": 3,
+                  "text": "so many",
+                  "value": "so many",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_126_1_4",
+                  "order": 4,
+                  "text": "so much",
+                  "value": "so much",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_126_1_5",
+                  "order": 5,
+                  "text": "such a",
+                  "value": "such a",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "127",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 {{gap1}} people went to the show that there weren't enough chairs.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_127_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "So many",
+              "accepted_answers": [
+                "So many"
+              ],
+              "options": [
+                {
+                  "id": "gap_127_1_1",
+                  "order": 1,
+                  "text": "Such",
+                  "value": "Such",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_127_1_2",
+                  "order": 2,
+                  "text": "So many",
+                  "value": "So many",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_127_1_3",
+                  "order": 3,
+                  "text": "So much",
+                  "value": "So much",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_127_1_4",
+                  "order": 4,
+                  "text": "Such a",
+                  "value": "Such a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_127_1_5",
+                  "order": 5,
+                  "text": "So",
+                  "value": "So",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "128",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 We had a really good time. It was {{gap1}} pity that you couldn't come.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_128_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "such a",
+              "accepted_answers": [
+                "such a"
+              ],
+              "options": [
+                {
+                  "id": "gap_128_1_1",
+                  "order": 1,
+                  "text": "so much",
+                  "value": "so much",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_128_1_2",
+                  "order": 2,
+                  "text": "such a",
+                  "value": "such a",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_128_1_3",
+                  "order": 3,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_128_1_4",
+                  "order": 4,
+                  "text": "such",
+                  "value": "such",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_128_1_5",
+                  "order": 5,
+                  "text": "so many",
+                  "value": "so many",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "129",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 The food at the hotel was {{gap1}} awful that I didn't eat it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_129_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": [
+                {
+                  "id": "gap_129_1_1",
+                  "order": 1,
+                  "text": "so much",
+                  "value": "so much",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_129_1_2",
+                  "order": 2,
+                  "text": "so many",
+                  "value": "so many",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_129_1_3",
+                  "order": 3,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_129_1_4",
+                  "order": 4,
+                  "text": "such a",
+                  "value": "such a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_129_1_5",
+                  "order": 5,
+                  "text": "such",
+                  "value": "such",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "130",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I've never eaten {{gap1}} awful food.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_130_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "such",
+              "accepted_answers": [
+                "such"
+              ],
+              "options": [
+                {
+                  "id": "gap_130_1_1",
+                  "order": 1,
+                  "text": "such a",
+                  "value": "such a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_130_1_2",
+                  "order": 2,
+                  "text": "such",
+                  "value": "such",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_130_1_3",
+                  "order": 3,
+                  "text": "so many",
+                  "value": "so many",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_130_1_4",
+                  "order": 4,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "131",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 She works {{gap1}} hard that she always looks tired.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_131_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": [
+                {
+                  "id": "gap_131_1_1",
+                  "order": 1,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_131_1_2",
+                  "order": 2,
+                  "text": "so much",
+                  "value": "so much",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_131_1_3",
+                  "order": 3,
+                  "text": "such a",
+                  "value": "such a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_131_1_4",
+                  "order": 4,
+                  "text": "so many",
+                  "value": "so many",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_131_1_5",
+                  "order": 5,
+                  "text": "such",
+                  "value": "such",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "132",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I couldn't believe what happened. It was {{gap1}} shock!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_132_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "such a",
+              "accepted_answers": [
+                "such a"
+              ],
+              "options": [
+                {
+                  "id": "gap_132_1_1",
+                  "order": 1,
+                  "text": "so many",
+                  "value": "so many",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_132_1_2",
+                  "order": 2,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_132_1_3",
+                  "order": 3,
+                  "text": "such a",
+                  "value": "such a",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_132_1_4",
+                  "order": 4,
+                  "text": "so much",
+                  "value": "so much",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_132_1_5",
+                  "order": 5,
+                  "text": "such",
+                  "value": "such",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-289",
+      "lessonId": "b1-b2_so_such_a_so_much_so_many",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_so-such-a-so-much-so-many_2.html",
+      "questions": [
+        {
+          "id": "2495",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 The restaurants were _____ expensive that we never ate out.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2495_1",
+              "order": 1,
+              "text": "so",
+              "value": "3824",
+              "is_correct": true
+            },
+            {
+              "id": "2495_2",
+              "order": 2,
+              "text": "such",
+              "value": "3825",
+              "is_correct": false
+            },
+            {
+              "id": "2495_3",
+              "order": 3,
+              "text": "such a",
+              "value": "3826",
+              "is_correct": false
+            },
+            {
+              "id": "2495_4",
+              "order": 4,
+              "text": "so much",
+              "value": "3827",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2496",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I'm exhausted. It's been _____ long journey.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2496_1",
+              "order": 1,
+              "text": "so",
+              "value": "3828",
+              "is_correct": false
+            },
+            {
+              "id": "2496_2",
+              "order": 2,
+              "text": "such",
+              "value": "3829",
+              "is_correct": false
+            },
+            {
+              "id": "2496_3",
+              "order": 3,
+              "text": "such a",
+              "value": "3830",
+              "is_correct": true
+            },
+            {
+              "id": "2496_4",
+              "order": 4,
+              "text": "so much",
+              "value": "3831",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2497",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 There are ______ options that you won't know which one to choose.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2497_1",
+              "order": 1,
+              "text": "so",
+              "value": "3832",
+              "is_correct": false
+            },
+            {
+              "id": "2497_2",
+              "order": 2,
+              "text": "such",
+              "value": "3833",
+              "is_correct": false
+            },
+            {
+              "id": "2497_3",
+              "order": 3,
+              "text": "so much",
+              "value": "3834",
+              "is_correct": false
+            },
+            {
+              "id": "2497_4",
+              "order": 4,
+              "text": "so many",
+              "value": "3835",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2498",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 He's always saying _____ terrible things.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2498_1",
+              "order": 1,
+              "text": "so",
+              "value": "3836",
+              "is_correct": false
+            },
+            {
+              "id": "2498_2",
+              "order": 2,
+              "text": "such",
+              "value": "3837",
+              "is_correct": true
+            },
+            {
+              "id": "2498_3",
+              "order": 3,
+              "text": "such a",
+              "value": "3838",
+              "is_correct": false
+            },
+            {
+              "id": "2498_4",
+              "order": 4,
+              "text": "so much",
+              "value": "3839",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2499",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 Why is heroin _____ hard drug to fight?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2499_1",
+              "order": 1,
+              "text": "so",
+              "value": "3840",
+              "is_correct": false
+            },
+            {
+              "id": "2499_2",
+              "order": 2,
+              "text": "such",
+              "value": "3841",
+              "is_correct": false
+            },
+            {
+              "id": "2499_3",
+              "order": 3,
+              "text": "such a",
+              "value": "3842",
+              "is_correct": true
+            },
+            {
+              "id": "2499_4",
+              "order": 4,
+              "text": "so much",
+              "value": "3843",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2500",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Your handwriting is _____ unintelligible that I couldn't understand a word.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2500_1",
+              "order": 1,
+              "text": "so",
+              "value": "3844",
+              "is_correct": true
+            },
+            {
+              "id": "2500_2",
+              "order": 2,
+              "text": "so many",
+              "value": "3845",
+              "is_correct": false
+            },
+            {
+              "id": "2500_3",
+              "order": 3,
+              "text": "such",
+              "value": "3846",
+              "is_correct": false
+            },
+            {
+              "id": "2500_4",
+              "order": 4,
+              "text": "so much",
+              "value": "3847",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2501",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 He watches ______ films he never remembers anything from them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2501_1",
+              "order": 1,
+              "text": "so",
+              "value": "3848",
+              "is_correct": false
+            },
+            {
+              "id": "2501_2",
+              "order": 2,
+              "text": "such a",
+              "value": "3849",
+              "is_correct": false
+            },
+            {
+              "id": "2501_3",
+              "order": 3,
+              "text": "so much",
+              "value": "3850",
+              "is_correct": false
+            },
+            {
+              "id": "2501_4",
+              "order": 4,
+              "text": "so many",
+              "value": "3851",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2502",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 He complains _____ constantly that his colleagues always try to avoid him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2502_1",
+              "order": 1,
+              "text": "so",
+              "value": "3852",
+              "is_correct": true
+            },
+            {
+              "id": "2502_2",
+              "order": 2,
+              "text": "such",
+              "value": "3853",
+              "is_correct": false
+            },
+            {
+              "id": "2502_3",
+              "order": 3,
+              "text": "so many",
+              "value": "3854",
+              "is_correct": false
+            },
+            {
+              "id": "2502_4",
+              "order": 4,
+              "text": "so much",
+              "value": "3855",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2503",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 My husband has _____ terrible taste in clothes that I never let him go shopping.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2503_1",
+              "order": 1,
+              "text": "so",
+              "value": "3856",
+              "is_correct": false
+            },
+            {
+              "id": "2503_2",
+              "order": 2,
+              "text": "such",
+              "value": "3857",
+              "is_correct": true
+            },
+            {
+              "id": "2503_3",
+              "order": 3,
+              "text": "so much",
+              "value": "3858",
+              "is_correct": false
+            },
+            {
+              "id": "2503_4",
+              "order": 4,
+              "text": "so many",
+              "value": "3859",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2504",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 You are ___ lucky to have _____ amazing friends!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2504_1",
+              "order": 1,
+              "text": "so / such",
+              "value": "3860",
+              "is_correct": true
+            },
+            {
+              "id": "2504_2",
+              "order": 2,
+              "text": "so much / so",
+              "value": "3861",
+              "is_correct": false
+            },
+            {
+              "id": "2504_3",
+              "order": 3,
+              "text": "such / so many",
+              "value": "3862",
+              "is_correct": false
+            },
+            {
+              "id": "2504_4",
+              "order": 4,
+              "text": "such a / so",
+              "value": "3863",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-17",
+      "lessonId": "b1-b2_so_such_a_so_much_so_many",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Rewrite the sentences using so, such (a), so much, so many.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_so-such-a-so-much-so-many_3.html",
+      "questions": [
+        {
+          "id": "133",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 It was a beautiful day. We decided to go to the beach. It was {{gap1}} that we decided to go to the beach.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_133_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "such a beautiful day",
+              "accepted_answers": [
+                "such a beautiful day"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "134",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 I was tired. I couldn’t keep my eyes open. I was {{gap1}} that I couldn't keep my eyes open.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_134_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "so tired",
+              "accepted_answers": [
+                "so tired"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "135",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 He ate many biscuits. He got indigestion. He ate {{gap1}} that he got indigestion.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_135_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "so many biscuits",
+              "accepted_answers": [
+                "so many biscuits"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "136",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I've got a lot of work to do. I don’t know where to start. I've got {{gap1}} to do that I don't know where to start.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_136_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "so much work",
+              "accepted_answers": [
+                "so much work"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "137",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 It was horrible weather. We spent the day indoors. It was {{gap1}} that we spent the day indoors.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_137_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "such horrible weather",
+              "accepted_answers": [
+                "such horrible weather"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "138",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 He gave us a convincing excuse. We all believed him. He gave us {{gap1}} that we all believed him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_138_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "such a convincing excuse",
+              "accepted_answers": [
+                "such a convincing excuse"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "139",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 We had a lot of fun at the party. We are organising a new one. We had {{gap1}} at the party that we are organising a new one.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_139_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "so much fun",
+              "accepted_answers": [
+                "so much fun"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "140",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 She speaks French very well. You think it’s her native language. She speaks French {{gap1}} that you think it’s her native language.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_140_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "so well",
+              "accepted_answers": [
+                "so well"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4574",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 The service is very good. The people keep coming back. {{gap1}} that the people keep coming back.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4574_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "The service is so good",
+              "accepted_answers": [
+                "The service is so good"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4575",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 She had good ideas. Several different companies wanted to employ her. She had {{gap1}} that several different companies wanted to employ her.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4575_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "such good ideas",
+              "accepted_answers": [
+                "such good ideas"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

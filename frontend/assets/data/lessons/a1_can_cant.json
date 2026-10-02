@@ -1,0 +1,989 @@
+{
+  "lesson_id": "a1_can_cant",
+  "level": "A1",
+  "title": "Can, can't: Ability, possibility, permission",
+  "description": "Практический тест и правила по теме: Can, can't: Ability, possibility, permission",
+  "theory": {
+    "title": "Правила и грамматика: Can, can't: Ability, possibility, permission",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Can, can't: Ability, possibility, permission».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Can, can't: Ability, possibility, permission» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-450",
+      "lessonId": "a1_can_cant",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_can-cant.html",
+      "questions": [
+        {
+          "id": "3920",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 {{gap1}} ask you a question?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3920_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Can I",
+              "accepted_answers": [
+                "Can I"
+              ],
+              "options": [
+                {
+                  "id": "gap_3920_1_1",
+                  "order": 1,
+                  "text": "I can",
+                  "value": "I can",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3920_1_2",
+                  "order": 2,
+                  "text": "Can I",
+                  "value": "Can I",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3920_1_3",
+                  "order": 3,
+                  "text": "Do I can",
+                  "value": "Do I can",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3921",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I {{gap1}}. The music is too loud.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3921_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can't hear",
+              "accepted_answers": [
+                "can't hear"
+              ],
+              "options": [
+                {
+                  "id": "gap_3921_1_1",
+                  "order": 1,
+                  "text": "can't to hear",
+                  "value": "can't to hear",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3921_1_2",
+                  "order": 2,
+                  "text": "don't can hear",
+                  "value": "don't can hear",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3921_1_3",
+                  "order": 3,
+                  "text": "can't hear",
+                  "value": "can't hear",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3925",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 'Can you play the piano?' 'Yes, I {{gap1}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3925_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can",
+              "accepted_answers": [
+                "can"
+              ],
+              "options": [
+                {
+                  "id": "gap_3925_1_1",
+                  "order": 1,
+                  "text": "play",
+                  "value": "play",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3925_1_2",
+                  "order": 2,
+                  "text": "can",
+                  "value": "can",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3925_1_3",
+                  "order": 3,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3922",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 He {{gap1}} four languages.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3922_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can speak",
+              "accepted_answers": [
+                "can speak"
+              ],
+              "options": [
+                {
+                  "id": "gap_3922_1_1",
+                  "order": 1,
+                  "text": "can speaks",
+                  "value": "can speaks",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3922_1_2",
+                  "order": 2,
+                  "text": "can speak",
+                  "value": "can speak",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3922_1_3",
+                  "order": 3,
+                  "text": "cans speak",
+                  "value": "cans speak",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3923",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 He says that he {{gap1}} me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3923_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can't help",
+              "accepted_answers": [
+                "can't help"
+              ],
+              "options": [
+                {
+                  "id": "gap_3923_1_1",
+                  "order": 1,
+                  "text": "can't helps",
+                  "value": "can't helps",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3923_1_2",
+                  "order": 2,
+                  "text": "can't help",
+                  "value": "can't help",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3923_1_3",
+                  "order": 3,
+                  "text": "can't to help",
+                  "value": "can't to help",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3924",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 {{gap1}} a ham and cheese pizza, please?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3924_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Can I have",
+              "accepted_answers": [
+                "Can I have"
+              ],
+              "options": [
+                {
+                  "id": "gap_3924_1_1",
+                  "order": 1,
+                  "text": "Do I can have",
+                  "value": "Do I can have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3924_1_2",
+                  "order": 2,
+                  "text": "Can I have",
+                  "value": "Can I have",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3924_1_3",
+                  "order": 3,
+                  "text": "Can I to have",
+                  "value": "Can I to have",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3926",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 'Can I smoke here?' 'No, you {{gap1}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3926_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can't",
+              "accepted_answers": [
+                "can't"
+              ],
+              "options": [
+                {
+                  "id": "gap_3926_1_1",
+                  "order": 1,
+                  "text": "don't",
+                  "value": "don't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3926_1_2",
+                  "order": 2,
+                  "text": "can't",
+                  "value": "can't",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3926_1_3",
+                  "order": 3,
+                  "text": "aren't",
+                  "value": "aren't",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3927",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 We {{gap1}} use our phones in class.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3927_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "cannot",
+              "accepted_answers": [
+                "cannot"
+              ],
+              "options": [
+                {
+                  "id": "gap_3927_1_1",
+                  "order": 1,
+                  "text": "don't can",
+                  "value": "don't can",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3927_1_2",
+                  "order": 2,
+                  "text": "can't to",
+                  "value": "can't to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3927_1_3",
+                  "order": 3,
+                  "text": "cannot",
+                  "value": "cannot",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3928",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 He {{gap1}} my car if he needs it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3928_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can use",
+              "accepted_answers": [
+                "can use"
+              ],
+              "options": [
+                {
+                  "id": "gap_3928_1_1",
+                  "order": 1,
+                  "text": "can use",
+                  "value": "can use",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3928_1_2",
+                  "order": 2,
+                  "text": "cans use",
+                  "value": "cans use",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3928_1_3",
+                  "order": 3,
+                  "text": "can to use",
+                  "value": "can to use",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3929",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 {{gap1}} the window, please?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3929_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Can you open",
+              "accepted_answers": [
+                "Can you open"
+              ],
+              "options": [
+                {
+                  "id": "gap_3929_1_1",
+                  "order": 1,
+                  "text": "Do you can open",
+                  "value": "Do you can open",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3929_1_2",
+                  "order": 2,
+                  "text": "Can you to open",
+                  "value": "Can you to open",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3929_1_3",
+                  "order": 3,
+                  "text": "Can you open",
+                  "value": "Can you open",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-451",
+      "lessonId": "a1_can_cant",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Write affirmative (+) and negative (-) sentences using can, can’t with the words below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_can-cant_2.html",
+      "questions": [
+        {
+          "id": "3930",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 She / dance / very well. ⇒ She {{gap1}}. (+)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3930_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can dance very well",
+              "accepted_answers": [
+                "can dance very well"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3931",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 I / finish / the composition for tomorrow. ⇒ I {{gap1}} for tomorrow. (-)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3931_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can't finish the composition",
+              "accepted_answers": [
+                "can't finish the composition"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3932",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 You / park / your car here. ⇒ You {{gap1}} here. (-)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3932_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can't park your car",
+              "accepted_answers": [
+                "can't park your car"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3933",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Jim / come / to the concert with us. ⇒ Jim {{gap1}} with us. (+)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3933_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can come to the concert",
+              "accepted_answers": [
+                "can come to the concert"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3934",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 She / meet / you at 7. ⇒ She {{gap1}}. (-)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3934_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can't meet you at 7",
+              "accepted_answers": [
+                "can't meet you at 7"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3935",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 You / use / this app to view documents. ⇒ You {{gap1}} to view documents. (+)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3935_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can use this app",
+              "accepted_answers": [
+                "can use this app"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3936",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 We / lose / this match. ⇒ We {{gap1}}. (-)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3936_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can't lose this match",
+              "accepted_answers": [
+                "can't lose this match"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3937",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 They / understand / my decision. ⇒ They {{gap1}}. (-)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3937_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can't understand my decision",
+              "accepted_answers": [
+                "can't understand my decision"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3938",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 She / stay / at my house tonight. ⇒ She {{gap1}} tonight. (+)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3938_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can stay at my house",
+              "accepted_answers": [
+                "can stay at my house"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3939",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 You / see / the sea from the balcony. ⇒ You {{gap1}} from the balcony. (-)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3939_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can't see the sea",
+              "accepted_answers": [
+                "can't see the sea"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-452",
+      "lessonId": "a1_can_cant",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete this job interview with can, can’t and the words in brackets.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_can-cant_3.html",
+      "questions": [
+        {
+          "id": "3940",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Interviewer: {{gap1}} (you/drive)?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3940_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Can you drive",
+              "accepted_answers": [
+                "Can you drive"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3941",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Ann: Yes, I {{gap1}}. I have a driving license and a car.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3941_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can drive",
+              "accepted_answers": [
+                "can drive"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3942",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Interviewer: {{gap1}} (you/accept) criticism?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3942_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Can you accept",
+              "accepted_answers": [
+                "Can you accept"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3943",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Ann: I {{gap1}} (not accept) negative criticism, but I {{gap2}} (accept) constructive criticism.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3943_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can't accept",
+              "accepted_answers": [
+                "can't accept"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3943_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "can accept",
+              "accepted_answers": [
+                "can accept"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3944",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Interviewer: {{gap1}} (you/use) the Microsoft Office Suite?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3944_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Can you use",
+              "accepted_answers": [
+                "Can you use"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3945",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Ann: Yes, I {{gap1}}. I have a lot of experience using Word, Excel, and PowerPoint.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3945_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can",
+              "accepted_answers": [
+                "can"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3946",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Interviewer: {{gap1}} (speak) German or French?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3946_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Can you speak",
+              "accepted_answers": [
+                "Can you speak"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3947",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Ann: I {{gap1}} (speak) German very well, but I {{gap2}} (not speak) French very fluently.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3947_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can speak",
+              "accepted_answers": [
+                "can speak"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3947_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "can't speak",
+              "accepted_answers": [
+                "can't speak"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3948",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Interviewer: When {{gap1}} (you/start)?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3948_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can you start",
+              "accepted_answers": [
+                "can you start"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3949",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Ann: I {{gap1}} (be) here tomorrow morning if you want.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3949_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can be",
+              "accepted_answers": [
+                "can be"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

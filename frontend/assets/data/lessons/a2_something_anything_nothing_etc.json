@@ -1,0 +1,1177 @@
+{
+  "lesson_id": "a2_something_anything_nothing_etc",
+  "level": "A2",
+  "title": "Something, anything, nothing, etc.",
+  "description": "Практический тест и правила по теме: Something, anything, nothing, etc.",
+  "theory": {
+    "title": "Правила и грамматика: Something, anything, nothing, etc.",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Something, anything, nothing, etc.».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Something, anything, nothing, etc.» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-363",
+      "lessonId": "a2_something_anything_nothing_etc",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct form (something, anything, nothing, etc.) to complete the dialogues below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_something-anything-nothing-etc.html",
+      "questions": [
+        {
+          "id": "3085",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I can’t find my keys {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3085_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "anywhere",
+              "accepted_answers": [
+                "anywhere"
+              ],
+              "options": [
+                {
+                  "id": "gap_3085_1_1",
+                  "order": 1,
+                  "text": "anywhere",
+                  "value": "anywhere",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3085_1_2",
+                  "order": 2,
+                  "text": "nowhere",
+                  "value": "nowhere",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3085_1_3",
+                  "order": 3,
+                  "text": "somewhere",
+                  "value": "somewhere",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3086",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 ‘What did you have to drink?’ ‘I didn’t drink {{gap1}}; only water.’",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3086_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "anything",
+              "accepted_answers": [
+                "anything"
+              ],
+              "options": [
+                {
+                  "id": "gap_3086_1_1",
+                  "order": 1,
+                  "text": "something",
+                  "value": "something",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3086_1_2",
+                  "order": 2,
+                  "text": "anything",
+                  "value": "anything",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3086_1_3",
+                  "order": 3,
+                  "text": "nothing",
+                  "value": "nothing",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3087",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 {{gap1}} was at the party; all our friends and family were there.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3087_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Everybody",
+              "accepted_answers": [
+                "Everybody"
+              ],
+              "options": [
+                {
+                  "id": "gap_3087_1_1",
+                  "order": 1,
+                  "text": "Anybody",
+                  "value": "Anybody",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3087_1_2",
+                  "order": 2,
+                  "text": "Somebody",
+                  "value": "Somebody",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3087_1_3",
+                  "order": 3,
+                  "text": "Everybody",
+                  "value": "Everybody",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3088",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 ‘Did you see {{gap1}} interesting at the party?’ ‘ {{gap2}}. Only boring people.’",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3088_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "anybody",
+              "accepted_answers": [
+                "anybody"
+              ],
+              "options": [
+                {
+                  "id": "gap_3088_1_1",
+                  "order": 1,
+                  "text": "somebody",
+                  "value": "somebody",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3088_1_2",
+                  "order": 2,
+                  "text": "nobody",
+                  "value": "nobody",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3088_1_3",
+                  "order": 3,
+                  "text": "anybody",
+                  "value": "anybody",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_3088_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "Nobody",
+              "accepted_answers": [
+                "Nobody"
+              ],
+              "options": [
+                {
+                  "id": "gap_3088_2_1",
+                  "order": 1,
+                  "text": "Anybody",
+                  "value": "Anybody",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3088_2_2",
+                  "order": 2,
+                  "text": "Nobody",
+                  "value": "Nobody",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3088_2_3",
+                  "order": 3,
+                  "text": "Everybody",
+                  "value": "Everybody",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3089",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 {{gap1}} robbed a bank yesterday. They took a lot of money.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3089_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Somebody",
+              "accepted_answers": [
+                "Somebody"
+              ],
+              "options": [
+                {
+                  "id": "gap_3089_1_1",
+                  "order": 1,
+                  "text": "Anybody",
+                  "value": "Anybody",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3089_1_2",
+                  "order": 2,
+                  "text": "Somebody",
+                  "value": "Somebody",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3089_1_3",
+                  "order": 3,
+                  "text": "Nobody",
+                  "value": "Nobody",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3090",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 The police think the robber is hiding {{gap1}} in the neighbourhood.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3090_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "somewhere",
+              "accepted_answers": [
+                "somewhere"
+              ],
+              "options": [
+                {
+                  "id": "gap_3090_1_1",
+                  "order": 1,
+                  "text": "somewhere",
+                  "value": "somewhere",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3090_1_2",
+                  "order": 2,
+                  "text": "anywhere",
+                  "value": "anywhere",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3090_1_3",
+                  "order": 3,
+                  "text": "everywhere",
+                  "value": "everywhere",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3091",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 ‘Have you eaten {{gap1}}?’ ‘ {{gap2}}. I’m very hungry.’",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3091_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "anything",
+              "accepted_answers": [
+                "anything"
+              ],
+              "options": [
+                {
+                  "id": "gap_3091_1_1",
+                  "order": 1,
+                  "text": "nothing",
+                  "value": "nothing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3091_1_2",
+                  "order": 2,
+                  "text": "anything",
+                  "value": "anything",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3091_1_3",
+                  "order": 3,
+                  "text": "something",
+                  "value": "something",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_3091_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "Nothing",
+              "accepted_answers": [
+                "Nothing"
+              ],
+              "options": [
+                {
+                  "id": "gap_3091_2_1",
+                  "order": 1,
+                  "text": "Everything",
+                  "value": "Everything",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3091_2_2",
+                  "order": 2,
+                  "text": "Nothing",
+                  "value": "Nothing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3091_2_3",
+                  "order": 3,
+                  "text": "Anything",
+                  "value": "Anything",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3092",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Can I stay here tonight? I have {{gap1}} to go.’",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3092_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "nowhere",
+              "accepted_answers": [
+                "nowhere"
+              ],
+              "options": [
+                {
+                  "id": "gap_3092_1_1",
+                  "order": 1,
+                  "text": "nowhere",
+                  "value": "nowhere",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3092_1_2",
+                  "order": 2,
+                  "text": "somewhere",
+                  "value": "somewhere",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3092_1_3",
+                  "order": 3,
+                  "text": "anywhere",
+                  "value": "anywhere",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3093",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I think {{gap1}} bad has happened, because there are police officers {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3093_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "something",
+              "accepted_answers": [
+                "something"
+              ],
+              "options": [
+                {
+                  "id": "gap_3093_1_1",
+                  "order": 1,
+                  "text": "something",
+                  "value": "something",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3093_1_2",
+                  "order": 2,
+                  "text": "anything",
+                  "value": "anything",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3093_1_3",
+                  "order": 3,
+                  "text": "everything",
+                  "value": "everything",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_3093_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "everywhere",
+              "accepted_answers": [
+                "everywhere"
+              ],
+              "options": [
+                {
+                  "id": "gap_3093_2_1",
+                  "order": 1,
+                  "text": "nowhere",
+                  "value": "nowhere",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3093_2_2",
+                  "order": 2,
+                  "text": "anywhere",
+                  "value": "anywhere",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3093_2_3",
+                  "order": 3,
+                  "text": "everywhere",
+                  "value": "everywhere",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3094",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 {{gap1}} is big in New York; the streets, the buildings, the cars, even the hamburgers.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3094_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Everything",
+              "accepted_answers": [
+                "Everything"
+              ],
+              "options": [
+                {
+                  "id": "gap_3094_1_1",
+                  "order": 1,
+                  "text": "Anything",
+                  "value": "Anything",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3094_1_2",
+                  "order": 2,
+                  "text": "Something",
+                  "value": "Something",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3094_1_3",
+                  "order": 3,
+                  "text": "Everything",
+                  "value": "Everything",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-364",
+      "lessonId": "a2_something_anything_nothing_etc",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct form (something, anything, nothing, etc.) to complete each sentence.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_something-anything-nothing-etc_2.html",
+      "questions": [
+        {
+          "id": "3066",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 _____ used my computer yesterday. I need to know who did it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3066_1",
+              "order": 1,
+              "text": "Somebody",
+              "value": "5281",
+              "is_correct": true
+            },
+            {
+              "id": "3066_2",
+              "order": 2,
+              "text": "Nobody",
+              "value": "5282",
+              "is_correct": false
+            },
+            {
+              "id": "3066_3",
+              "order": 3,
+              "text": "Anybody",
+              "value": "5283",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3095",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 It happened very quickly and I couldn't see _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3095_1",
+              "order": 1,
+              "text": "nothing",
+              "value": "5278",
+              "is_correct": false
+            },
+            {
+              "id": "3095_2",
+              "order": 2,
+              "text": "something",
+              "value": "5279",
+              "is_correct": false
+            },
+            {
+              "id": "3095_3",
+              "order": 3,
+              "text": "anything",
+              "value": "5280",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3096",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Have you talked to _____ about your problem?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3096_1",
+              "order": 1,
+              "text": "somebody",
+              "value": "5284",
+              "is_correct": false
+            },
+            {
+              "id": "3096_2",
+              "order": 2,
+              "text": "nobody",
+              "value": "5285",
+              "is_correct": false
+            },
+            {
+              "id": "3096_3",
+              "order": 3,
+              "text": "anybody",
+              "value": "5286",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3097",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I'm bored. I don't have _____ to do.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3097_1",
+              "order": 1,
+              "text": "nothing",
+              "value": "5287",
+              "is_correct": false
+            },
+            {
+              "id": "3097_2",
+              "order": 2,
+              "text": "anything",
+              "value": "5288",
+              "is_correct": true
+            },
+            {
+              "id": "3097_3",
+              "order": 3,
+              "text": "something",
+              "value": "5289",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3098",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 He lost his house and now he has _____ to live.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3098_1",
+              "order": 1,
+              "text": "nowhere",
+              "value": "5290",
+              "is_correct": true
+            },
+            {
+              "id": "3098_2",
+              "order": 2,
+              "text": "anywhere",
+              "value": "5291",
+              "is_correct": false
+            },
+            {
+              "id": "3098_3",
+              "order": 3,
+              "text": "everywhere",
+              "value": "5292",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3100",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 She doesn't have _____ in her life. She's very lonely.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3100_1",
+              "order": 1,
+              "text": "somebody",
+              "value": "5293",
+              "is_correct": false
+            },
+            {
+              "id": "3100_2",
+              "order": 2,
+              "text": "nobody",
+              "value": "5294",
+              "is_correct": false
+            },
+            {
+              "id": "3100_3",
+              "order": 3,
+              "text": "anybody",
+              "value": "5295",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3101",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Would you like _____ to eat?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3101_1",
+              "order": 1,
+              "text": "something",
+              "value": "5296",
+              "is_correct": true
+            },
+            {
+              "id": "3101_2",
+              "order": 2,
+              "text": "anything",
+              "value": "5297",
+              "is_correct": false
+            },
+            {
+              "id": "3101_3",
+              "order": 3,
+              "text": "nothing",
+              "value": "5298",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3102",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 'Do you know _____ in Dublin?' 'Yes, I know a few people.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3102_1",
+              "order": 1,
+              "text": "someone",
+              "value": "5299",
+              "is_correct": false
+            },
+            {
+              "id": "3102_2",
+              "order": 2,
+              "text": "anyone",
+              "value": "5300",
+              "is_correct": true
+            },
+            {
+              "id": "3102_3",
+              "order": 3,
+              "text": "no one",
+              "value": "5301",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3103",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Sarah told _____ that she broke up with you. Now we all know.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3103_1",
+              "order": 1,
+              "text": "anyone",
+              "value": "5302",
+              "is_correct": false
+            },
+            {
+              "id": "3103_2",
+              "order": 2,
+              "text": "no one",
+              "value": "5303",
+              "is_correct": false
+            },
+            {
+              "id": "3103_3",
+              "order": 3,
+              "text": "everyone",
+              "value": "5304",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3104",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I'm going to bed. There's _____ interesting on TV.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3104_1",
+              "order": 1,
+              "text": "something",
+              "value": "5305",
+              "is_correct": false
+            },
+            {
+              "id": "3104_2",
+              "order": 2,
+              "text": "anything",
+              "value": "5306",
+              "is_correct": false
+            },
+            {
+              "id": "3104_3",
+              "order": 3,
+              "text": "nothing",
+              "value": "5307",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-365",
+      "lessonId": "a2_something_anything_nothing_etc",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with something, anything, nothing, everything, someone, anyone, no one, everyone, somewhere, anywhere, nowhere, everywhere.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_something-anything-nothing-etc_3.html",
+      "questions": [
+        {
+          "id": "3099",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 We have looked for Mike {{gap1}} but we can't find him {{gap2}}. Do you know where he is?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3099_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "everywhere",
+              "accepted_answers": [
+                "everywhere"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3099_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "anywhere",
+              "accepted_answers": [
+                "anywhere"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3105",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 {{gap1}} called you this morning, but I don't know who.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3105_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Someone",
+              "accepted_answers": [
+                "Someone"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3106",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I didn't go {{gap1}} yesterday. I stayed home all day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3106_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "anywhere",
+              "accepted_answers": [
+                "anywhere"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3107",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I don't know {{gap1}} in the class yet, but I know most of them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3107_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "everyone",
+              "accepted_answers": [
+                "everyone"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3108",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 I'm sorry but I can't help you. I don't know {{gap1}} about Napoleon.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3108_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "anything",
+              "accepted_answers": [
+                "anything"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3109",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 He's behaving very strangely. {{gap1}} is wrong with him, but I don't know what.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3109_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Something",
+              "accepted_answers": [
+                "Something"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3110",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 {{gap1}} was there when I arrived. I was the only person there.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3110_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "No one",
+              "accepted_answers": [
+                "No one"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3111",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Have you seen my wallet? I can't find it {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3111_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "anywhere",
+              "accepted_answers": [
+                "anywhere"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3112",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 We lost, so there is {{gap1}} to celebrate today. Let's go home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3112_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "nothing",
+              "accepted_answers": [
+                "nothing"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3113",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 The police thought they were hiding in the house, but they didn't find {{gap1}} hiding in that house.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3113_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "anyone",
+              "accepted_answers": [
+                "anyone"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

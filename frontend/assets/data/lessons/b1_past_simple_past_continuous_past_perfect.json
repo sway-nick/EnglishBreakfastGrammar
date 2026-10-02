@@ -1,0 +1,1309 @@
+{
+  "lesson_id": "b1_past_simple_past_continuous_past_perfect",
+  "level": "B1",
+  "title": "Past simple, past continuous, past perfect",
+  "description": "Практический тест и правила по теме: Past simple, past continuous, past perfect",
+  "theory": {
+    "title": "Правила и грамматика: Past simple, past continuous, past perfect",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Past simple, past continuous, past perfect».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Past simple, past continuous, past perfect» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-209",
+      "lessonId": "b1_past_simple_past_continuous_past_perfect",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose past simple, past continuous or past perfect to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_past-simple-past-continuous-past-perfect.html",
+      "questions": [
+        {
+          "id": "1771",
+          "order": 1,
+          "type": "gap_select",
+          "text": "It was Sunday afternoon. I 1 {{gap1}} a cookery program on TV when I 2 {{gap2}} how hungry I was. But of course I was hungry; I 3 {{gap3}} anything since lunch, and I 4 {{gap4}} a race in the morning. “Biscuits!” I 5 {{gap5}}. My mother 6 {{gap6}} me a jar of delicious home-made biscuits. I 7 {{gap7}} into the kitchen, 8 {{gap8}} the fridge and 9 {{gap9}} some milk in a big glass. Then I 10 {{gap10}} for the kitchen chair but it 11 {{gap11}} there: somebody 12 {{gap12}} it away. And there were no biscuits in the biscuit jar: somebody 13 {{gap13}} them all! I was sure I 14 {{gap14}} the jar there the previous day, and I 15 {{gap15}} only one cookie. It was very strange. A few minutes later, I 16 {{gap16}} my glass of milk when I 17 {{gap17}} a loud noise coming from the dining room. I 18 {{gap18}} there quickly and I 19 {{gap19}} the door. I couldn’t believe my eyes. An enormous monkey 20 {{gap20}} the biscuits excitedly on the kitchen chair.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1771_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was watching",
+              "accepted_answers": [
+                "was watching"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_1_1",
+                  "order": 1,
+                  "text": "was watching",
+                  "value": "was watching",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1771_1_2",
+                  "order": 2,
+                  "text": "had watched",
+                  "value": "had watched",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_1_3",
+                  "order": 3,
+                  "text": "watched",
+                  "value": "watched",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "realised",
+              "accepted_answers": [
+                "realised"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_2_1",
+                  "order": 1,
+                  "text": "realised",
+                  "value": "realised",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1771_2_2",
+                  "order": 2,
+                  "text": "was realising",
+                  "value": "was realising",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_2_3",
+                  "order": 3,
+                  "text": "had realised",
+                  "value": "had realised",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "hadn’t eaten",
+              "accepted_answers": [
+                "hadn’t eaten"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_3_1",
+                  "order": 1,
+                  "text": "hadn’t eaten",
+                  "value": "hadn’t eaten",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1771_3_2",
+                  "order": 2,
+                  "text": "ate",
+                  "value": "ate",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_3_3",
+                  "order": 3,
+                  "text": "was eating",
+                  "value": "was eating",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "select",
+              "correct_answer": "had run",
+              "accepted_answers": [
+                "had run"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_4_1",
+                  "order": 1,
+                  "text": "was running",
+                  "value": "was running",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_4_2",
+                  "order": 2,
+                  "text": "had run",
+                  "value": "had run",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1771_4_3",
+                  "order": 3,
+                  "text": "ran",
+                  "value": "ran",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "select",
+              "correct_answer": "thought",
+              "accepted_answers": [
+                "thought"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_5_1",
+                  "order": 1,
+                  "text": "had thought",
+                  "value": "had thought",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_5_2",
+                  "order": 2,
+                  "text": "thought",
+                  "value": "thought",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1771_5_3",
+                  "order": 3,
+                  "text": "was thinking",
+                  "value": "was thinking",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "select",
+              "correct_answer": "had given",
+              "accepted_answers": [
+                "had given"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_6_1",
+                  "order": 1,
+                  "text": "was giving",
+                  "value": "was giving",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_6_2",
+                  "order": 2,
+                  "text": "gave",
+                  "value": "gave",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_6_3",
+                  "order": 3,
+                  "text": "had given",
+                  "value": "had given",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "select",
+              "correct_answer": "went",
+              "accepted_answers": [
+                "went"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_7_1",
+                  "order": 1,
+                  "text": "had gone",
+                  "value": "had gone",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_7_2",
+                  "order": 2,
+                  "text": "was going",
+                  "value": "was going",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_7_3",
+                  "order": 3,
+                  "text": "went",
+                  "value": "went",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "select",
+              "correct_answer": "opened",
+              "accepted_answers": [
+                "opened"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_8_1",
+                  "order": 1,
+                  "text": "was opening",
+                  "value": "was opening",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_8_2",
+                  "order": 2,
+                  "text": "opened",
+                  "value": "opened",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1771_8_3",
+                  "order": 3,
+                  "text": "had opened",
+                  "value": "had opened",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "select",
+              "correct_answer": "poured",
+              "accepted_answers": [
+                "poured"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_9_1",
+                  "order": 1,
+                  "text": "was pouring",
+                  "value": "was pouring",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_9_2",
+                  "order": 2,
+                  "text": "poured",
+                  "value": "poured",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1771_9_3",
+                  "order": 3,
+                  "text": "had poured",
+                  "value": "had poured",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "select",
+              "correct_answer": "looked",
+              "accepted_answers": [
+                "looked"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_10_1",
+                  "order": 1,
+                  "text": "was looking",
+                  "value": "was looking",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_10_2",
+                  "order": 2,
+                  "text": "had looked",
+                  "value": "had looked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_10_3",
+                  "order": 3,
+                  "text": "looked",
+                  "value": "looked",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_11",
+              "order": 11,
+              "placeholder": "{{gap11}}",
+              "input_control": "select",
+              "correct_answer": "wasn’t",
+              "accepted_answers": [
+                "wasn’t"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_11_1",
+                  "order": 1,
+                  "text": "hadn't been",
+                  "value": "hadn't been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_11_2",
+                  "order": 2,
+                  "text": "wasn’t",
+                  "value": "wasn’t",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1771_11_3",
+                  "order": 3,
+                  "text": "wasn't being",
+                  "value": "wasn't being",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_12",
+              "order": 12,
+              "placeholder": "{{gap12}}",
+              "input_control": "select",
+              "correct_answer": "had taken",
+              "accepted_answers": [
+                "had taken"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_12_1",
+                  "order": 1,
+                  "text": "was taking",
+                  "value": "was taking",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_12_2",
+                  "order": 2,
+                  "text": "took",
+                  "value": "took",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_12_3",
+                  "order": 3,
+                  "text": "had taken",
+                  "value": "had taken",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_13",
+              "order": 13,
+              "placeholder": "{{gap13}}",
+              "input_control": "select",
+              "correct_answer": "had eaten",
+              "accepted_answers": [
+                "had eaten"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_13_1",
+                  "order": 1,
+                  "text": "was eating",
+                  "value": "was eating",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_13_2",
+                  "order": 2,
+                  "text": "ate",
+                  "value": "ate",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_13_3",
+                  "order": 3,
+                  "text": "had eaten",
+                  "value": "had eaten",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_14",
+              "order": 14,
+              "placeholder": "{{gap14}}",
+              "input_control": "select",
+              "correct_answer": "had put",
+              "accepted_answers": [
+                "had put"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_14_1",
+                  "order": 1,
+                  "text": "had put",
+                  "value": "had put",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1771_14_2",
+                  "order": 2,
+                  "text": "was putting",
+                  "value": "was putting",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_14_3",
+                  "order": 3,
+                  "text": "put",
+                  "value": "put",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_15",
+              "order": 15,
+              "placeholder": "{{gap15}}",
+              "input_control": "select",
+              "correct_answer": "had eaten",
+              "accepted_answers": [
+                "had eaten"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_15_1",
+                  "order": 1,
+                  "text": "ate",
+                  "value": "ate",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_15_2",
+                  "order": 2,
+                  "text": "had eaten",
+                  "value": "had eaten",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1771_15_3",
+                  "order": 3,
+                  "text": "was eating",
+                  "value": "was eating",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_16",
+              "order": 16,
+              "placeholder": "{{gap16}}",
+              "input_control": "select",
+              "correct_answer": "was drinking",
+              "accepted_answers": [
+                "was drinking"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_16_1",
+                  "order": 1,
+                  "text": "had drunk",
+                  "value": "had drunk",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_16_2",
+                  "order": 2,
+                  "text": "was drinking",
+                  "value": "was drinking",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1771_16_3",
+                  "order": 3,
+                  "text": "drank",
+                  "value": "drank",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_17",
+              "order": 17,
+              "placeholder": "{{gap17}}",
+              "input_control": "select",
+              "correct_answer": "heard",
+              "accepted_answers": [
+                "heard"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_17_1",
+                  "order": 1,
+                  "text": "heard",
+                  "value": "heard",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1771_17_2",
+                  "order": 2,
+                  "text": "was hearing",
+                  "value": "was hearing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_17_3",
+                  "order": 3,
+                  "text": "had heard",
+                  "value": "had heard",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_18",
+              "order": 18,
+              "placeholder": "{{gap18}}",
+              "input_control": "select",
+              "correct_answer": "went",
+              "accepted_answers": [
+                "went"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_18_1",
+                  "order": 1,
+                  "text": "was going",
+                  "value": "was going",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_18_2",
+                  "order": 2,
+                  "text": "had gone",
+                  "value": "had gone",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_18_3",
+                  "order": 3,
+                  "text": "went",
+                  "value": "went",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_19",
+              "order": 19,
+              "placeholder": "{{gap19}}",
+              "input_control": "select",
+              "correct_answer": "opened",
+              "accepted_answers": [
+                "opened"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_19_1",
+                  "order": 1,
+                  "text": "was opening",
+                  "value": "was opening",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_19_2",
+                  "order": 2,
+                  "text": "had opened",
+                  "value": "had opened",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_19_3",
+                  "order": 3,
+                  "text": "opened",
+                  "value": "opened",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1771_20",
+              "order": 20,
+              "placeholder": "{{gap20}}",
+              "input_control": "select",
+              "correct_answer": "was eating",
+              "accepted_answers": [
+                "was eating"
+              ],
+              "options": [
+                {
+                  "id": "gap_1771_20_1",
+                  "order": 1,
+                  "text": "had eaten",
+                  "value": "had eaten",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1771_20_2",
+                  "order": 2,
+                  "text": "was eating",
+                  "value": "was eating",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1771_20_3",
+                  "order": 3,
+                  "text": "ate",
+                  "value": "ate",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-210",
+      "lessonId": "b1_past_simple_past_continuous_past_perfect",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the most suitable answer for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_past-simple-past-continuous-past-perfect_2.html",
+      "questions": [
+        {
+          "id": "4578",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I was very late. When I arrived, the conference _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4578_1",
+              "order": 1,
+              "text": "was already starting",
+              "value": "6813",
+              "is_correct": false
+            },
+            {
+              "id": "4578_2",
+              "order": 2,
+              "text": "started",
+              "value": "6814",
+              "is_correct": false
+            },
+            {
+              "id": "4578_3",
+              "order": 3,
+              "text": "had already started",
+              "value": "6815",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4579",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 When he heard the police knocking on the door, he ____ under the bed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4579_1",
+              "order": 1,
+              "text": "hid",
+              "value": "6816",
+              "is_correct": true
+            },
+            {
+              "id": "4579_2",
+              "order": 2,
+              "text": "had hiden",
+              "value": "6817",
+              "is_correct": false
+            },
+            {
+              "id": "4579_3",
+              "order": 3,
+              "text": "was hiding",
+              "value": "6818",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4580",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 The police arrested him because he _____ a gun.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4580_1",
+              "order": 1,
+              "text": "carried",
+              "value": "6819",
+              "is_correct": false
+            },
+            {
+              "id": "4580_2",
+              "order": 2,
+              "text": "was carrying",
+              "value": "6820",
+              "is_correct": true
+            },
+            {
+              "id": "4580_3",
+              "order": 3,
+              "text": "had carried",
+              "value": "6821",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4582",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 When they arrived at the police station, he said that he _____ anything wrong.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4582_1",
+              "order": 1,
+              "text": "didn't do",
+              "value": "6825",
+              "is_correct": false
+            },
+            {
+              "id": "4582_2",
+              "order": 2,
+              "text": "wasn't doing",
+              "value": "6826",
+              "is_correct": false
+            },
+            {
+              "id": "4582_3",
+              "order": 3,
+              "text": "hadn't done",
+              "value": "6827",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4581",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 When he said that he loved me, I knew that he _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4581_1",
+              "order": 1,
+              "text": "lied",
+              "value": "6822",
+              "is_correct": false
+            },
+            {
+              "id": "4581_2",
+              "order": 2,
+              "text": "was lying",
+              "value": "6823",
+              "is_correct": true
+            },
+            {
+              "id": "4581_3",
+              "order": 3,
+              "text": "had lied",
+              "value": "6824",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4583",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I looked at him and I knew he _____ in a fight, because he had a black eye.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4583_1",
+              "order": 1,
+              "text": "was",
+              "value": "6828",
+              "is_correct": false
+            },
+            {
+              "id": "4583_2",
+              "order": 2,
+              "text": "was being",
+              "value": "6829",
+              "is_correct": false
+            },
+            {
+              "id": "4583_3",
+              "order": 3,
+              "text": "had been",
+              "value": "6830",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4584",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 He pulled out a gun and everybody _____ away.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4584_1",
+              "order": 1,
+              "text": "ran",
+              "value": "6831",
+              "is_correct": true
+            },
+            {
+              "id": "4584_2",
+              "order": 2,
+              "text": "was running",
+              "value": "6832",
+              "is_correct": false
+            },
+            {
+              "id": "4584_3",
+              "order": 3,
+              "text": "had run",
+              "value": "6833",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4585",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 When I was a child, we _____ anywhere at weekends; it was boring.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4585_1",
+              "order": 1,
+              "text": "never went",
+              "value": "6834",
+              "is_correct": true
+            },
+            {
+              "id": "4585_2",
+              "order": 2,
+              "text": "were never going",
+              "value": "6835",
+              "is_correct": false
+            },
+            {
+              "id": "4585_3",
+              "order": 3,
+              "text": "had never gone",
+              "value": "6836",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4586",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 When he retired he _____ in the company for more than 50 years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4586_1",
+              "order": 1,
+              "text": "was",
+              "value": "6837",
+              "is_correct": false
+            },
+            {
+              "id": "4586_2",
+              "order": 2,
+              "text": "was being",
+              "value": "6838",
+              "is_correct": false
+            },
+            {
+              "id": "4586_3",
+              "order": 3,
+              "text": "had been",
+              "value": "6839",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4587",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I _____ to the road and we crashed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4587_1",
+              "order": 1,
+              "text": "didn't pay attention",
+              "value": "6840",
+              "is_correct": false
+            },
+            {
+              "id": "4587_2",
+              "order": 2,
+              "text": "wasn't paying attention",
+              "value": "6841",
+              "is_correct": true
+            },
+            {
+              "id": "4587_3",
+              "order": 3,
+              "text": "hadn't paid attention",
+              "value": "6842",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-211",
+      "lessonId": "b1_past_simple_past_continuous_past_perfect",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the most appropriate narrative tenses of the verbs in brackets: past simple, past continuous or past perfect simple.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_past-simple-past-continuous-past-perfect_3.html",
+      "questions": [
+        {
+          "id": "1774",
+          "order": 1,
+          "type": "gap_text",
+          "text": "This story is based on true events that 1 {{gap1}} (happen) many, many years ago in Scotland. One day, Mr Clark 2 {{gap2}} (walk) home with a smile on his face. He 3 {{gap3}} (carry) something very valuable in his hand: tickets for a long, long journey. After many years working and saving, Mr Clark 4 {{gap4}} (save) all the money he needed to take all his family to the United States. Earlier that afternoon he 5 {{gap5}} (buy) all the tickets that now he 6 {{gap6}} (hold) in his hand. It was the opportunity of their lives. “The United States of America,” he repeated aloud just to see how nice it 7 {{gap7}} (sound) in his ears. A few days before their departure, Mr Clark’s son 8 {{gap8}} (play) in the street when a dog 9 {{gap9}} (bite) him. The doctor 10 {{gap10}} (go) to their home and 11 {{gap11}} (treat) the child’s wound. Then he 12 {{gap12}} (hang) a yellow sheet on their front door. That yellow sheet meant that they 13 {{gap13}} (just/be) quarantined. They 14 {{gap14}} (have) to stay at home for two weeks because of a potential rabies risk. Five days later, Mr Clark was at the docks. He 15 {{gap15}} (leave) the house and now he 16 {{gap16}} (watch) their ship leave to the United States without him or his family. When the ship 17 {{gap17}} (disappear) in the horizon, he 18 {{gap18}} (stand up) and 19 {{gap19}} (go) back home, crying. A few days later, the tragic news spread throughout Scotland - the mighty Titanic 20 {{gap20}} (sink), taking hundreds of lives with it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1774_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "happened",
+              "accepted_answers": [
+                "happened"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "was walking",
+              "accepted_answers": [
+                "was walking"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "was carrying",
+              "accepted_answers": [
+                "was carrying"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "had saved",
+              "accepted_answers": [
+                "had saved"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "had bought",
+              "accepted_answers": [
+                "had bought"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "was holding",
+              "accepted_answers": [
+                "was holding"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "sounded",
+              "accepted_answers": [
+                "sounded"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "was playing",
+              "accepted_answers": [
+                "was playing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "bit",
+              "accepted_answers": [
+                "bit"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "went",
+              "accepted_answers": [
+                "went"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_11",
+              "order": 11,
+              "placeholder": "{{gap11}}",
+              "input_control": "text",
+              "correct_answer": "treated",
+              "accepted_answers": [
+                "treated"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_12",
+              "order": 12,
+              "placeholder": "{{gap12}}",
+              "input_control": "text",
+              "correct_answer": "hung",
+              "accepted_answers": [
+                "hung"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_13",
+              "order": 13,
+              "placeholder": "{{gap13}}",
+              "input_control": "text",
+              "correct_answer": "had just been",
+              "accepted_answers": [
+                "had just been"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_14",
+              "order": 14,
+              "placeholder": "{{gap14}}",
+              "input_control": "text",
+              "correct_answer": "had",
+              "accepted_answers": [
+                "had"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_15",
+              "order": 15,
+              "placeholder": "{{gap15}}",
+              "input_control": "text",
+              "correct_answer": "had left",
+              "accepted_answers": [
+                "had left"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_16",
+              "order": 16,
+              "placeholder": "{{gap16}}",
+              "input_control": "text",
+              "correct_answer": "was watching",
+              "accepted_answers": [
+                "was watching"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_17",
+              "order": 17,
+              "placeholder": "{{gap17}}",
+              "input_control": "text",
+              "correct_answer": "disappeared",
+              "accepted_answers": [
+                "disappeared"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_18",
+              "order": 18,
+              "placeholder": "{{gap18}}",
+              "input_control": "text",
+              "correct_answer": "stood up",
+              "accepted_answers": [
+                "stood up"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_19",
+              "order": 19,
+              "placeholder": "{{gap19}}",
+              "input_control": "text",
+              "correct_answer": "went",
+              "accepted_answers": [
+                "went"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1774_20",
+              "order": 20,
+              "placeholder": "{{gap20}}",
+              "input_control": "text",
+              "correct_answer": "had sunk",
+              "accepted_answers": [
+                "had sunk"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

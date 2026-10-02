@@ -1,0 +1,648 @@
+{
+  "lesson_id": "a1_be_going_to_plans_predictions",
+  "level": "A1",
+  "title": "Be going to: Plans and predictions",
+  "description": "Практический тест и правила по теме: Be going to: Plans and predictions",
+  "theory": {
+    "title": "Правила и грамматика: Be going to: Plans and predictions",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Be going to: Plans and predictions».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Be going to: Plans and predictions» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-486",
+      "lessonId": "a1_be_going_to_plans_predictions",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Use the verbs in brackets to complete these sentences with be going to affirmative or negative.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_be-going-to-plans-predictions.html",
+      "questions": [
+        {
+          "id": "4253",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I {{gap1}} (borrow) some books from the library today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4253_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "am going to borrow",
+              "accepted_answers": [
+                "am going to borrow"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4259",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 He {{gap1}} (not pay) your money back.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4259_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "isn't going to pay",
+              "accepted_answers": [
+                "isn't going to pay"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4263",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 The drone is out of control. It {{gap1}} (crash)!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4263_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is going to crash",
+              "accepted_answers": [
+                "is going to crash"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4260",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 They aren't playing well. They {{gap1}} (not win) the match.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4260_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "aren't going to win",
+              "accepted_answers": [
+                "aren't going to win"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4255",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 We {{gap1}} (have) a picnic tomorrow.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4255_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are going to have",
+              "accepted_answers": [
+                "are going to have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4256",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 She {{gap1}} (fly) to New York next week.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4256_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is going to fly",
+              "accepted_answers": [
+                "is going to fly"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4261",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 You can take the newspaper. I {{gap1}} (not read) it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4261_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "am not going to read",
+              "accepted_answers": [
+                "am not going to read"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4262",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 I need to tell you something, but you {{gap1}} (not believe) me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4262_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are not going to believe",
+              "accepted_answers": [
+                "are not going to believe"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4264",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Look at the sun! It {{gap1}} (be) a beautiful day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4264_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is going to be",
+              "accepted_answers": [
+                "is going to be"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4265",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I {{gap1}} (not argue) with you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4265_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "am not going to argue",
+              "accepted_answers": [
+                "am not going to argue"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-487",
+      "lessonId": "a1_be_going_to_plans_predictions",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Use the words in brackes to write questions using be going to.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_be-going-to-plans-predictions_2.html",
+      "questions": [
+        {
+          "id": "4257",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Which dress {{gap1}} (she/wear) for the party?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4257_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is she going to wear",
+              "accepted_answers": [
+                "is she going to wear"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4258",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 What {{gap1}} (you/do) after you graduate from university?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4258_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are you going to do",
+              "accepted_answers": [
+                "are you going to do"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4266",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 What time {{gap1}} (they/pick) you up at the airport?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4266_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are they going to pick",
+              "accepted_answers": [
+                "are they going to pick"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4267",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 How {{gap1}} (we/survive) here? There's no food.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4267_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are we going to survive",
+              "accepted_answers": [
+                "are we going to survive"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4268",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Where {{gap1}} (he/stay) tonight?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4268_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is he going to stay",
+              "accepted_answers": [
+                "is he going to stay"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4269",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I'm hungry. {{gap1}} (you/eat) that pie?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4269_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Are you going to eat",
+              "accepted_answers": [
+                "Are you going to eat"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4270",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Doctor, {{gap1}} (it/hurt)?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4270_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is it going to hurt",
+              "accepted_answers": [
+                "is it going to hurt"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4271",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 What {{gap1}} (you/watch) on Netflix today?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4271_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are you going to watch",
+              "accepted_answers": [
+                "are you going to watch"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4272",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 What {{gap1}} (he/say) at the press conference today?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4272_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is he going to say",
+              "accepted_answers": [
+                "is he going to say"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4273",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 How {{gap1}} (they/solve) this problem?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4273_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are they going to solve",
+              "accepted_answers": [
+                "are they going to solve"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-488",
+      "lessonId": "a1_be_going_to_plans_predictions",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete this email with the affirmative, negative or interrogative forms of be going to. Use the words in brackets.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_be-going-to-plans-predictions_3.html",
+      "questions": [
+        {
+          "id": "4254",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Hi Tim, How are you? 1 {{gap1}} (you/visit) us this summer? In July we 2 {{gap2}} (have) a big party. It 3 {{gap3}} (be) really fun. I want to have some great music, so I 4 {{gap4}} (find) a good DJ. My parents 5 {{gap5}} (pay) for the food and drinks. My sister 6 {{gap6}} (not be) there because she 7 {{gap7}} (travel) to Canada with a friend. Sorry! They 8 {{gap8}} (fly) to Montreal and then they 9 {{gap9}} (go) to Vancouver by train. They 10 {{gap10}} (not come) back until August. Hope you can come to the party! Ben",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4254_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Are you going to visit",
+              "accepted_answers": [
+                "Are you going to visit"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4254_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "are going to have",
+              "accepted_answers": [
+                "are going to have"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4254_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "is going to be",
+              "accepted_answers": [
+                "is going to be"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4254_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "am going to find",
+              "accepted_answers": [
+                "am going to find"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4254_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "are going to pay",
+              "accepted_answers": [
+                "are going to pay"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4254_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "isn't going to be",
+              "accepted_answers": [
+                "isn't going to be"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4254_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "is going to travel",
+              "accepted_answers": [
+                "is going to travel"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4254_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "are going to fly",
+              "accepted_answers": [
+                "are going to fly"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4254_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "are going to go",
+              "accepted_answers": [
+                "are going to go"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4254_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "aren't going to come",
+              "accepted_answers": [
+                "aren't going to come"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

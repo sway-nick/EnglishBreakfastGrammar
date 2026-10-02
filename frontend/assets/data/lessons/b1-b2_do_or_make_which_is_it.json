@@ -1,0 +1,927 @@
+{
+  "lesson_id": "b1-b2_do_or_make_which_is_it",
+  "level": "B1-B2",
+  "title": "Do or Make: Which is it?",
+  "description": "Практический тест и правила по теме: Do or Make: Which is it?",
+  "theory": {
+    "title": "Правила и грамматика: Do or Make: Which is it?",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Do or Make: Which is it?».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Do or Make: Which is it?» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-1113",
+      "lessonId": "b1-b2_do_or_make_which_is_it",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose ‘do’ or ‘make’ to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_do-or-make-which-is-it.html",
+      "questions": [
+        {
+          "id": "9561",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Onions {{gap1}} me cry.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9561_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "make",
+              "accepted_answers": [
+                "make"
+              ],
+              "options": [
+                {
+                  "id": "gap_9561_1_1",
+                  "order": 1,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_9561_1_2",
+                  "order": 2,
+                  "text": "make",
+                  "value": "make",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9562",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Wine {{gap1}} from grapes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9562_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is made",
+              "accepted_answers": [
+                "is made"
+              ],
+              "options": [
+                {
+                  "id": "gap_9562_1_1",
+                  "order": 1,
+                  "text": "is done",
+                  "value": "is done",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_9562_1_2",
+                  "order": 2,
+                  "text": "is made",
+                  "value": "is made",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9563",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Is there anything I can {{gap1}} to help you?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9563_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "do",
+              "accepted_answers": [
+                "do"
+              ],
+              "options": [
+                {
+                  "id": "gap_9563_1_1",
+                  "order": 1,
+                  "text": "make",
+                  "value": "make",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_9563_1_2",
+                  "order": 2,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9564",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I {{gap1}} a few errands this morning.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9564_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "did",
+              "accepted_answers": [
+                "did"
+              ],
+              "options": [
+                {
+                  "id": "gap_9564_1_1",
+                  "order": 1,
+                  "text": "did",
+                  "value": "did",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_9564_1_2",
+                  "order": 2,
+                  "text": "made",
+                  "value": "made",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9565",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 The holiday will {{gap1}} him good.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9565_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "do",
+              "accepted_answers": [
+                "do"
+              ],
+              "options": [
+                {
+                  "id": "gap_9565_1_1",
+                  "order": 1,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_9565_1_2",
+                  "order": 2,
+                  "text": "make",
+                  "value": "make",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9566",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 We weren’t happy with the service we received, so we {{gap1}} a complaint.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9566_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "made",
+              "accepted_answers": [
+                "made"
+              ],
+              "options": [
+                {
+                  "id": "gap_9566_1_1",
+                  "order": 1,
+                  "text": "did",
+                  "value": "did",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_9566_1_2",
+                  "order": 2,
+                  "text": "made",
+                  "value": "made",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9567",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Mum {{gap1}} me look after my little sister last night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9567_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "made",
+              "accepted_answers": [
+                "made"
+              ],
+              "options": [
+                {
+                  "id": "gap_9567_1_1",
+                  "order": 1,
+                  "text": "did",
+                  "value": "did",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_9567_1_2",
+                  "order": 2,
+                  "text": "made",
+                  "value": "made",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9568",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I {{gap1}} the laundry yet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9568_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "haven’t done",
+              "accepted_answers": [
+                "haven’t done"
+              ],
+              "options": [
+                {
+                  "id": "gap_9568_1_1",
+                  "order": 1,
+                  "text": "haven’t done",
+                  "value": "haven’t done",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_9568_1_2",
+                  "order": 2,
+                  "text": "haven’t made",
+                  "value": "haven’t made",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9569",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Clara {{gap1}} an offer on an apartment in the city.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9569_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "made",
+              "accepted_answers": [
+                "made"
+              ],
+              "options": [
+                {
+                  "id": "gap_9569_1_1",
+                  "order": 1,
+                  "text": "made",
+                  "value": "made",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_9569_1_2",
+                  "order": 2,
+                  "text": "did",
+                  "value": "did",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9570",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Can you {{gap1}} me a favour?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9570_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "do",
+              "accepted_answers": [
+                "do"
+              ],
+              "options": [
+                {
+                  "id": "gap_9570_1_1",
+                  "order": 1,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_9570_1_2",
+                  "order": 2,
+                  "text": "make",
+                  "value": "make",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-1114",
+      "lessonId": "b1-b2_do_or_make_which_is_it",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct answers for the gaps below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_do-or-make-which-is-it_2.html",
+      "questions": [
+        {
+          "id": "9593",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 The nice necklace he got me for my birthday _____ of gold.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9593_1",
+              "order": 1,
+              "text": "is done",
+              "value": "17014",
+              "is_correct": false
+            },
+            {
+              "id": "9593_2",
+              "order": 2,
+              "text": "is made",
+              "value": "17015",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "9594",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 We _____ anything interesting recently.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9594_1",
+              "order": 1,
+              "text": "haven’t done",
+              "value": "17016",
+              "is_correct": true
+            },
+            {
+              "id": "9594_2",
+              "order": 2,
+              "text": "haven’t made",
+              "value": "17017",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "9595",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Alice always _____ her chores after school.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9595_1",
+              "order": 1,
+              "text": "does",
+              "value": "17018",
+              "is_correct": true
+            },
+            {
+              "id": "9595_2",
+              "order": 2,
+              "text": "makes",
+              "value": "17019",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "9596",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Jerry had to _____ a difficult decision.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9596_1",
+              "order": 1,
+              "text": "do",
+              "value": "17020",
+              "is_correct": false
+            },
+            {
+              "id": "9596_2",
+              "order": 2,
+              "text": "make",
+              "value": "17021",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "9597",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 The relaxing music _____ me sleepy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9597_1",
+              "order": 1,
+              "text": "was making",
+              "value": "17022",
+              "is_correct": true
+            },
+            {
+              "id": "9597_2",
+              "order": 2,
+              "text": "was doing",
+              "value": "17023",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "9598",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Clara usually _____ well in tests and exams.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9598_1",
+              "order": 1,
+              "text": "does",
+              "value": "17024",
+              "is_correct": true
+            },
+            {
+              "id": "9598_2",
+              "order": 2,
+              "text": "makes",
+              "value": "17025",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "9599",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Last night, the girls _____ their nails in front of the television.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9599_1",
+              "order": 1,
+              "text": "were making",
+              "value": "17026",
+              "is_correct": false
+            },
+            {
+              "id": "9599_2",
+              "order": 2,
+              "text": "were doing",
+              "value": "17027",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "9600",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 This carpet _____ in Morocco",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9600_1",
+              "order": 1,
+              "text": "was done",
+              "value": "17028",
+              "is_correct": false
+            },
+            {
+              "id": "9600_2",
+              "order": 2,
+              "text": "was made",
+              "value": "17029",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "9601",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 The businessman _____ a fortune by investing in property.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9601_1",
+              "order": 1,
+              "text": "made",
+              "value": "17030",
+              "is_correct": true
+            },
+            {
+              "id": "9601_2",
+              "order": 2,
+              "text": "did",
+              "value": "17031",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "9602",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Why _____ such a fuss?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "9602_1",
+              "order": 1,
+              "text": "are you making",
+              "value": "17032",
+              "is_correct": true
+            },
+            {
+              "id": "9602_2",
+              "order": 2,
+              "text": "are you doing",
+              "value": "17033",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-1115",
+      "lessonId": "b1-b2_do_or_make_which_is_it",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 2",
+      "instruction": "Fill in the gaps with either ‘do’ or ‘make’ in the correct form. Use the subject or word in brackets where needed.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_do-or-make-which-is-it_3.html",
+      "questions": [
+        {
+          "id": "9603",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 The teacher {{gap1}} us stay after school because we hadn’t finished our work.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9603_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "made",
+              "accepted_answers": [
+                "made"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "9604",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 The children {{gap1}} (not) very well in the last history exam.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9604_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't do",
+              "accepted_answers": [
+                "didn't do"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "9605",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Sam {{gap1}} his bed yet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9605_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "hasn't made",
+              "accepted_answers": [
+                "hasn't made"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "9606",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 The best cheeses are {{gap1}} in France.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9606_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "made",
+              "accepted_answers": [
+                "made"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "9607",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 The company {{gap1}} a huge profit last year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9607_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "made",
+              "accepted_answers": [
+                "made"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "9608",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 The telephone rang while we {{gap1}} ourselves a snack.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9608_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "were making",
+              "accepted_answers": [
+                "were making"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "9609",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 {{gap1}} (you) the dishes yet?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9609_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Have you done",
+              "accepted_answers": [
+                "Have you done"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "9610",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 He {{gap1}} me a huge favour and picked up the kids from school.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9610_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "did",
+              "accepted_answers": [
+                "did"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "9611",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I asked the manager to {{gap1}} something about the noise.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9611_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "do",
+              "accepted_answers": [
+                "do"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "9612",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I will {{gap1}} the report as soon as I get home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_9612_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "do",
+              "accepted_answers": [
+                "do"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

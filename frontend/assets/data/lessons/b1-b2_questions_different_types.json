@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1-b2_questions_different_types",
+  "level": "B1-B2",
+  "title": "Questions: Different types",
+  "description": "Практический тест и правила по теме: Questions: Different types",
+  "theory": {
+    "title": "Правила и грамматика: Questions: Different types",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Questions: Different types».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Questions: Different types» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-6",
+      "lessonId": "b1-b2_questions_different_types",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct forms to complete the following questions.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_questions-different-types.html",
+      "questions": [
+        {
+          "id": "36",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Tom has gone somewhere, but I don’t know where {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_36_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "he's gone",
+              "accepted_answers": [
+                "he's gone"
+              ],
+              "options": [
+                {
+                  "id": "gap_36_1_1",
+                  "order": 1,
+                  "text": "is he gone",
+                  "value": "is he gone",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_36_1_2",
+                  "order": 2,
+                  "text": "has he gone",
+                  "value": "has he gone",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_36_1_3",
+                  "order": 3,
+                  "text": "he's gone",
+                  "value": "he's gone",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "28",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 This book belongs to somebody. Who {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_28_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "does it belong to",
+              "accepted_answers": [
+                "does it belong to"
+              ],
+              "options": [
+                {
+                  "id": "gap_28_1_1",
+                  "order": 1,
+                  "text": "belongs to",
+                  "value": "belongs to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_28_1_2",
+                  "order": 2,
+                  "text": "does it belong to",
+                  "value": "does it belong to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_28_1_3",
+                  "order": 3,
+                  "text": "does it belong",
+                  "value": "does it belong",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "29",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Somebody lives in that house. Who {{gap1}} in that house?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_29_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "lives",
+              "accepted_answers": [
+                "lives"
+              ],
+              "options": [
+                {
+                  "id": "gap_29_1_1",
+                  "order": 1,
+                  "text": "does live",
+                  "value": "does live",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_29_1_2",
+                  "order": 2,
+                  "text": "lives",
+                  "value": "lives",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_29_1_3",
+                  "order": 3,
+                  "text": "live",
+                  "value": "live",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "30",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 This word means something. What {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_30_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "does it mean",
+              "accepted_answers": [
+                "does it mean"
+              ],
+              "options": [
+                {
+                  "id": "gap_30_1_1",
+                  "order": 1,
+                  "text": "means",
+                  "value": "means",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_30_1_2",
+                  "order": 2,
+                  "text": "does it mean",
+                  "value": "does it mean",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_30_1_3",
+                  "order": 3,
+                  "text": "it means",
+                  "value": "it means",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "31",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 They were talking about something. {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_31_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "What were they talking about",
+              "accepted_answers": [
+                "What were they talking about"
+              ],
+              "options": [
+                {
+                  "id": "gap_31_1_1",
+                  "order": 1,
+                  "text": "About what they were talking",
+                  "value": "About what they were talking",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_31_1_2",
+                  "order": 2,
+                  "text": "What they were talking about",
+                  "value": "What they were talking about",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_31_1_3",
+                  "order": 3,
+                  "text": "What were they talking about",
+                  "value": "What were they talking about",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "32",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Something fell on the floor. What {{gap1}} on the floor?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_32_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "fell",
+              "accepted_answers": [
+                "fell"
+              ],
+              "options": [
+                {
+                  "id": "gap_32_1_1",
+                  "order": 1,
+                  "text": "did fall",
+                  "value": "did fall",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_32_1_2",
+                  "order": 2,
+                  "text": "didn't fall",
+                  "value": "didn't fall",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_32_1_3",
+                  "order": 3,
+                  "text": "fell",
+                  "value": "fell",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "33",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 The library is somewhere near. Do you know {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_33_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "where the library is",
+              "accepted_answers": [
+                "where the library is"
+              ],
+              "options": [
+                {
+                  "id": "gap_33_1_1",
+                  "order": 1,
+                  "text": "where is near the library",
+                  "value": "where is near the library",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_33_1_2",
+                  "order": 2,
+                  "text": "where is the library",
+                  "value": "where is the library",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_33_1_3",
+                  "order": 3,
+                  "text": "where the library is",
+                  "value": "where the library is",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "34",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 She borrowed the money from somebody. I wonder who {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_34_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "she borrowed the money from",
+              "accepted_answers": [
+                "she borrowed the money from"
+              ],
+              "options": [
+                {
+                  "id": "gap_34_1_1",
+                  "order": 1,
+                  "text": "did she borrow the money",
+                  "value": "did she borrow the money",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_34_1_2",
+                  "order": 2,
+                  "text": "she borrowed the money from",
+                  "value": "she borrowed the money from",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_34_1_3",
+                  "order": 3,
+                  "text": "did she borrow the money from",
+                  "value": "did she borrow the money from",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "35",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 She can’t understand something. What {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_35_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can she not understand",
+              "accepted_answers": [
+                "can she not understand"
+              ],
+              "options": [
+                {
+                  "id": "gap_35_1_1",
+                  "order": 1,
+                  "text": "she can't understand",
+                  "value": "she can't understand",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_35_1_2",
+                  "order": 2,
+                  "text": "can she not understand",
+                  "value": "can she not understand",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_35_1_3",
+                  "order": 3,
+                  "text": "does she understand",
+                  "value": "does she understand",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 He didn’t come to the party for some reason. Why {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_37_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn’t he come to the party",
+              "accepted_answers": [
+                "didn’t he come to the party"
+              ],
+              "options": [
+                {
+                  "id": "gap_37_1_1",
+                  "order": 1,
+                  "text": "he did not come to the party",
+                  "value": "he did not come to the party",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_37_1_2",
+                  "order": 2,
+                  "text": "didn’t he come to the party",
+                  "value": "didn’t he come to the party",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_37_1_3",
+                  "order": 3,
+                  "text": "did not he come to the party",
+                  "value": "did not he come to the party",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-268",
+      "lessonId": "b1-b2_questions_different_types",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct forms to complete the questions below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_questions-different-types_2.html",
+      "questions": [
+        {
+          "id": "2337",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I don’t know why ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2337_1",
+              "order": 1,
+              "text": "the accident happened",
+              "value": "3470",
+              "is_correct": true
+            },
+            {
+              "id": "2337_2",
+              "order": 2,
+              "text": "did the accident happen",
+              "value": "3471",
+              "is_correct": false
+            },
+            {
+              "id": "2337_3",
+              "order": 3,
+              "text": "happened the accident",
+              "value": "3472",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2338",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 Who ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2338_1",
+              "order": 1,
+              "text": "he has been writing to",
+              "value": "3473",
+              "is_correct": false
+            },
+            {
+              "id": "2338_2",
+              "order": 2,
+              "text": "has he been writing to",
+              "value": "3474",
+              "is_correct": true
+            },
+            {
+              "id": "2338_3",
+              "order": 3,
+              "text": "has been writing to",
+              "value": "3475",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2339",
+          "order": 3,
+          "type": "multiple_choice",
+          "text": "3 Why ______? Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2339_1",
+              "order": 1,
+              "text": "has he not got any money",
+              "value": "3479",
+              "is_correct": true
+            },
+            {
+              "id": "2339_2",
+              "order": 2,
+              "text": "has not he got any money",
+              "value": "3480",
+              "is_correct": false
+            },
+            {
+              "id": "2339_3",
+              "order": 3,
+              "text": "hasn't he got any money",
+              "value": "3481",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2340",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I’m wondering what country ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2340_1",
+              "order": 1,
+              "text": "he has been to",
+              "value": "3476",
+              "is_correct": true
+            },
+            {
+              "id": "2340_2",
+              "order": 2,
+              "text": "has he been to",
+              "value": "3477",
+              "is_correct": false
+            },
+            {
+              "id": "2340_3",
+              "order": 3,
+              "text": "has he been",
+              "value": "3478",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2341",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 When we arrived, somebody had stolen the bag. Who ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2341_1",
+              "order": 1,
+              "text": "had he stolen the bag",
+              "value": "3482",
+              "is_correct": false
+            },
+            {
+              "id": "2341_2",
+              "order": 2,
+              "text": "stolen the bag",
+              "value": "3483",
+              "is_correct": false
+            },
+            {
+              "id": "2341_3",
+              "order": 3,
+              "text": "had stolen the bag",
+              "value": "3484",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2342",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Who ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2342_1",
+              "order": 1,
+              "text": "did tell you that",
+              "value": "3485",
+              "is_correct": false
+            },
+            {
+              "id": "2342_2",
+              "order": 2,
+              "text": "told you that",
+              "value": "3486",
+              "is_correct": true
+            },
+            {
+              "id": "2342_3",
+              "order": 3,
+              "text": "you told that",
+              "value": "3487",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2343",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 What ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2343_1",
+              "order": 1,
+              "text": "are you waiting",
+              "value": "3488",
+              "is_correct": false
+            },
+            {
+              "id": "2343_2",
+              "order": 2,
+              "text": "you're waiting for",
+              "value": "3489",
+              "is_correct": false
+            },
+            {
+              "id": "2343_3",
+              "order": 3,
+              "text": "are you waiting for",
+              "value": "3490",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2344",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Do you know ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2344_1",
+              "order": 1,
+              "text": "whether he will come or not",
+              "value": "3491",
+              "is_correct": true
+            },
+            {
+              "id": "2344_2",
+              "order": 2,
+              "text": "if will he come or not",
+              "value": "3492",
+              "is_correct": false
+            },
+            {
+              "id": "2344_3",
+              "order": 3,
+              "text": "whether will he come or not",
+              "value": "3493",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2345",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 You shouldn't be watching TV. ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2345_1",
+              "order": 1,
+              "text": "Don't you have work to do",
+              "value": "3494",
+              "is_correct": true
+            },
+            {
+              "id": "2345_2",
+              "order": 2,
+              "text": "You do not have work to do",
+              "value": "3495",
+              "is_correct": false
+            },
+            {
+              "id": "2345_3",
+              "order": 3,
+              "text": "Do you haven't work to do",
+              "value": "3496",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2346",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Who _____ in the last election?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2346_1",
+              "order": 1,
+              "text": "did you vote",
+              "value": "3497",
+              "is_correct": false
+            },
+            {
+              "id": "2346_2",
+              "order": 2,
+              "text": "did you vote for",
+              "value": "3498",
+              "is_correct": true
+            },
+            {
+              "id": "2346_3",
+              "order": 3,
+              "text": "voted you",
+              "value": "3499",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-7",
+      "lessonId": "b1-b2_questions_different_types",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Ask questions about the underlined words in these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_questions-different-types_3.html",
+      "questions": [
+        {
+          "id": "45",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 He’s travelled to 50 countries. How {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_45_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "many countries has he travelled to",
+              "accepted_answers": [
+                "many countries has he travelled to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "46",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 2,000 people protested against the reforms. How {{gap1}} against the reforms?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_46_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "many people protested",
+              "accepted_answers": [
+                "many people protested"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "47",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 They couldn’t finish the final report. What {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_47_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "couldn't they finish",
+              "accepted_answers": [
+                "couldn't they finish"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "48",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 He’s been posting on his blog every day. {{gap1}} on his blog?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_48_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "How often has he been posting",
+              "accepted_answers": [
+                "How often has he been posting"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "49",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 They’ve been listening to their teacher. Who {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_49_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have they been listening to",
+              "accepted_answers": [
+                "have they been listening to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "50",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 It took them 2 hours to get to Rome. {{gap1}} to get to Rome?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_50_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "How long did it take them",
+              "accepted_answers": [
+                "How long did it take them"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "51",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 I’m looking for a new dress. What {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_51_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are you looking for",
+              "accepted_answers": [
+                "are you looking for"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "52",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 He never does his homework. What {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_52_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "does he never do",
+              "accepted_answers": [
+                "does he never do"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2347",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I'm thinking about the new neighbour. I'd like to know what {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2347_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "you are thinking about",
+              "accepted_answers": [
+                "you are thinking about"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "2348",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 That thing is my new bag. Can you tell me {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2348_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "what that thing is",
+              "accepted_answers": [
+                "what that thing is"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,10 +10,14 @@ env/
 node_modules/
 npm-debug.log*
 
-# Data files (не коммитим в Git)
-data/
-*.xlsx
-*.xls
+# Data files & cache (не коммитим тяжёлые дампы и кэш)
+/data/cache/
+/data/logs/
+/data/gemini/
+*.db
+*.sqlite
+*.sqlite3
+scratch/
 
 # Environment
 .env

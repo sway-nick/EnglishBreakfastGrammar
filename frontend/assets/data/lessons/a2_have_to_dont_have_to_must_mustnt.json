@@ -1,0 +1,898 @@
+{
+  "lesson_id": "a2_have_to_dont_have_to_must_mustnt",
+  "level": "A2",
+  "title": "Have to, don't have to, must, mustn't",
+  "description": "Практический тест и правила по теме: Have to, don't have to, must, mustn't",
+  "theory": {
+    "title": "Правила и грамматика: Have to, don't have to, must, mustn't",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Have to, don't have to, must, mustn't».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Have to, don't have to, must, mustn't» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-381",
+      "lessonId": "a2_have_to_dont_have_to_must_mustnt",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct forms, don’t have to, mustn’t, to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_have-to-dont-have-to-must-mustnt.html",
+      "questions": [
+        {
+          "id": "3265",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 You {{gap1}} apologise; it isn't necessary.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3265_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "don't have to",
+              "accepted_answers": [
+                "don't have to"
+              ],
+              "options": [
+                {
+                  "id": "gap_3265_1_1",
+                  "order": 1,
+                  "text": "mustn't",
+                  "value": "mustn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3265_1_2",
+                  "order": 2,
+                  "text": "don't have to",
+                  "value": "don't have to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3266",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 You {{gap1}} tell the boss what happened, or he'll fire you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3266_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "mustn't",
+              "accepted_answers": [
+                "mustn't"
+              ],
+              "options": [
+                {
+                  "id": "gap_3266_1_1",
+                  "order": 1,
+                  "text": "mustn't",
+                  "value": "mustn't",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3266_1_2",
+                  "order": 2,
+                  "text": "don't have to",
+                  "value": "don't have to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3267",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 I {{gap1}} wear a tie; I do it because I like wearing ties.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3267_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "don't have to",
+              "accepted_answers": [
+                "don't have to"
+              ],
+              "options": [
+                {
+                  "id": "gap_3267_1_1",
+                  "order": 1,
+                  "text": "don't have to",
+                  "value": "don't have to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3267_1_2",
+                  "order": 2,
+                  "text": "mustn't",
+                  "value": "mustn't",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3268",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 You {{gap1}} smoke in here; smoking is not allowed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3268_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "mustn't",
+              "accepted_answers": [
+                "mustn't"
+              ],
+              "options": [
+                {
+                  "id": "gap_3268_1_1",
+                  "order": 1,
+                  "text": "don't have to",
+                  "value": "don't have to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3268_1_2",
+                  "order": 2,
+                  "text": "mustn't",
+                  "value": "mustn't",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3269",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 I {{gap1}} be late. It's the most important meeting of the year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3269_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "mustn't",
+              "accepted_answers": [
+                "mustn't"
+              ],
+              "options": [
+                {
+                  "id": "gap_3269_1_1",
+                  "order": 1,
+                  "text": "don't have to",
+                  "value": "don't have to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3269_1_2",
+                  "order": 2,
+                  "text": "mustn't",
+                  "value": "mustn't",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3271",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 You {{gap1}} go now; you can stay a bit longer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3271_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "don't have to",
+              "accepted_answers": [
+                "don't have to"
+              ],
+              "options": [
+                {
+                  "id": "gap_3271_1_1",
+                  "order": 1,
+                  "text": "mustn't",
+                  "value": "mustn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3271_1_2",
+                  "order": 2,
+                  "text": "don't have to",
+                  "value": "don't have to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3270",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Visitors to the zoo {{gap1}} feed the animals.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3270_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "mustn't",
+              "accepted_answers": [
+                "mustn't"
+              ],
+              "options": [
+                {
+                  "id": "gap_3270_1_1",
+                  "order": 1,
+                  "text": "don't have to",
+                  "value": "don't have to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3270_1_2",
+                  "order": 2,
+                  "text": "mustn't",
+                  "value": "mustn't",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3272",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 You {{gap1}} drive so fast; we have a lot of time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3272_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "don't have to",
+              "accepted_answers": [
+                "don't have to"
+              ],
+              "options": [
+                {
+                  "id": "gap_3272_1_1",
+                  "order": 1,
+                  "text": "don't have to",
+                  "value": "don't have to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3272_1_2",
+                  "order": 2,
+                  "text": "mustn't",
+                  "value": "mustn't",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3273",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 We {{gap1}} cook more; there's enough food.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3273_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "don't have to",
+              "accepted_answers": [
+                "don't have to"
+              ],
+              "options": [
+                {
+                  "id": "gap_3273_1_1",
+                  "order": 1,
+                  "text": "mustn't",
+                  "value": "mustn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3273_1_2",
+                  "order": 2,
+                  "text": "don't have to",
+                  "value": "don't have to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3274",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 You {{gap1}} put salt in her food; the doctor said she can't eat salt.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3274_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "mustn't",
+              "accepted_answers": [
+                "mustn't"
+              ],
+              "options": [
+                {
+                  "id": "gap_3274_1_1",
+                  "order": 1,
+                  "text": "don't have to",
+                  "value": "don't have to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3274_1_2",
+                  "order": 2,
+                  "text": "mustn't",
+                  "value": "mustn't",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-382",
+      "lessonId": "a2_have_to_dont_have_to_must_mustnt",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the most appropriate forms, have to, don’t have to, must, mustn’t, to complete the following sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_have-to-dont-have-to-must-mustnt_2.html",
+      "questions": [
+        {
+          "id": "3275",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I _____ leave early because I wasn't feeling well.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3275_1",
+              "order": 1,
+              "text": "had to",
+              "value": "5428",
+              "is_correct": true
+            },
+            {
+              "id": "3275_2",
+              "order": 2,
+              "text": "must",
+              "value": "5429",
+              "is_correct": false
+            },
+            {
+              "id": "3275_3",
+              "order": 3,
+              "text": "have to",
+              "value": "5430",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3276",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 You _____ do something to solve this problem.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3276_1",
+              "order": 1,
+              "text": "have to",
+              "value": "5431",
+              "is_correct": false
+            },
+            {
+              "id": "3276_2",
+              "order": 2,
+              "text": "'ve to",
+              "value": "5432",
+              "is_correct": false
+            },
+            {
+              "id": "3276_3",
+              "order": 3,
+              "text": "must",
+              "value": "5433",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3277",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I don't like these clothes, but I _____ wear them at work.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3277_1",
+              "order": 1,
+              "text": "must",
+              "value": "5434",
+              "is_correct": false
+            },
+            {
+              "id": "3277_2",
+              "order": 2,
+              "text": "'ve to",
+              "value": "5435",
+              "is_correct": false
+            },
+            {
+              "id": "3277_3",
+              "order": 3,
+              "text": "have to",
+              "value": "5436",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3278",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Teacher: 'You _____ arrive on time for class.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3278_1",
+              "order": 1,
+              "text": "must",
+              "value": "5437",
+              "is_correct": true
+            },
+            {
+              "id": "3278_2",
+              "order": 2,
+              "text": "mustn't",
+              "value": "5438",
+              "is_correct": false
+            },
+            {
+              "id": "3278_3",
+              "order": 3,
+              "text": "have to",
+              "value": "5439",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3279",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 We didn't have money, so we _____ find a cash dispenser.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3279_1",
+              "order": 1,
+              "text": "must",
+              "value": "5440",
+              "is_correct": false
+            },
+            {
+              "id": "3279_2",
+              "order": 2,
+              "text": "had to",
+              "value": "5441",
+              "is_correct": true
+            },
+            {
+              "id": "3279_3",
+              "order": 3,
+              "text": "have to",
+              "value": "5442",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3281",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 You ____ tell anyone; it's a secret.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3281_1",
+              "order": 1,
+              "text": "don't have to",
+              "value": "5446",
+              "is_correct": false
+            },
+            {
+              "id": "3281_2",
+              "order": 2,
+              "text": "haven't to",
+              "value": "5447",
+              "is_correct": false
+            },
+            {
+              "id": "3281_3",
+              "order": 3,
+              "text": "mustn't",
+              "value": "5448",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3280",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 _____ pay for the car repair or did the insurance cover it?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3280_1",
+              "order": 1,
+              "text": "Did you have to",
+              "value": "5443",
+              "is_correct": true
+            },
+            {
+              "id": "3280_2",
+              "order": 2,
+              "text": "Had you to",
+              "value": "5444",
+              "is_correct": false
+            },
+            {
+              "id": "3280_3",
+              "order": 3,
+              "text": "Did you must",
+              "value": "5445",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3282",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 We ______ leave now; it's 10 and the conference doesn't start until 12.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3282_1",
+              "order": 1,
+              "text": "don't have to",
+              "value": "5449",
+              "is_correct": true
+            },
+            {
+              "id": "3282_2",
+              "order": 2,
+              "text": "haven't to",
+              "value": "5450",
+              "is_correct": false
+            },
+            {
+              "id": "3282_3",
+              "order": 3,
+              "text": "mustn't",
+              "value": "5451",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3283",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 We had an accident, but it was OK, we _____ go to the hospital.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3283_1",
+              "order": 1,
+              "text": "didn't have to",
+              "value": "5452",
+              "is_correct": true
+            },
+            {
+              "id": "3283_2",
+              "order": 2,
+              "text": "hadn't to",
+              "value": "5453",
+              "is_correct": false
+            },
+            {
+              "id": "3283_3",
+              "order": 3,
+              "text": "didn't must",
+              "value": "5454",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3284",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 The doctor has put me on a strict diet. I _____ eat more fruit and vegetables and do more exercise.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3284_1",
+              "order": 1,
+              "text": "must",
+              "value": "5455",
+              "is_correct": false
+            },
+            {
+              "id": "3284_2",
+              "order": 2,
+              "text": "have to",
+              "value": "5456",
+              "is_correct": true
+            },
+            {
+              "id": "3284_3",
+              "order": 3,
+              "text": "'ve to",
+              "value": "5457",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-383",
+      "lessonId": "a2_have_to_dont_have_to_must_mustnt",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Read an interview with a woman about her job. Fill in the gaps with the verbs in brackets and the correct forms of have to (affirmative, negative, interrogative) in present or past simple.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_have-to-dont-have-to-must-mustnt_3.html",
+      "questions": [
+        {
+          "id": "3264",
+          "order": 1,
+          "type": "gap_text",
+          "text": "INTERVIEWER: 1 {{gap1}} (you/work) at night? CLAIRE: Yes, I 2 {{gap2}} (work) night shifts once every three weeks. INTERVIEWER: 3 {{gap3}} (you/work) long hours? CLAIRE: No, I 4 {{gap4}} (not work) long hours, but I can do paid overtime if I want. INTERVIEWER: Before you started to work for this company, 5 {{gap5}} (you/do) on-the-job training? CLAIRE: Yes, and I 6 {{gap6}} (study) a lot too. INTERVIEWER: What is the most difficult part of your job? CLAIRE: Well, I usually 7 {{gap7}} (get up) very early and every three weeks I 8 {{gap8}} (work) nights. In my previous job, a few years ago, I 9 {{gap9}} (not work) night shifts and I 10 {{gap10}} (not get up) so early.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3264_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Do you have to work",
+              "accepted_answers": [
+                "Do you have to work"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3264_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "have to work",
+              "accepted_answers": [
+                "have to work"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3264_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "Do you have to work",
+              "accepted_answers": [
+                "Do you have to work"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3264_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "don't have to work",
+              "accepted_answers": [
+                "don't have to work"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3264_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "did you have to do",
+              "accepted_answers": [
+                "did you have to do"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3264_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "had to study",
+              "accepted_answers": [
+                "had to study"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3264_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "have to get up",
+              "accepted_answers": [
+                "have to get up"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3264_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "have to work",
+              "accepted_answers": [
+                "have to work"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3264_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "didn't have to work",
+              "accepted_answers": [
+                "didn't have to work"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3264_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "didn't have to get up",
+              "accepted_answers": [
+                "didn't have to get up"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

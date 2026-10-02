@@ -1,0 +1,1038 @@
+{
+  "lesson_id": "b2_reflexive_reciprocal_pronouns",
+  "level": "B2",
+  "title": "Reflexive and reciprocal pronouns",
+  "description": "Практический тест и правила по теме: Reflexive and reciprocal pronouns",
+  "theory": {
+    "title": "Правила и грамматика: Reflexive and reciprocal pronouns",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Reflexive and reciprocal pronouns».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Reflexive and reciprocal pronouns» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-87",
+      "lessonId": "b2_reflexive_reciprocal_pronouns",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct reflexive and reciprocal pronouns to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_reflexive-reciprocal-pronouns.html",
+      "questions": [
+        {
+          "id": "718",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I blame {{gap1}} for what happened.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_718_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "myself",
+              "accepted_answers": [
+                "myself"
+              ],
+              "options": [
+                {
+                  "id": "gap_718_1_1",
+                  "order": 1,
+                  "text": "me",
+                  "value": "me",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_718_1_2",
+                  "order": 2,
+                  "text": "myself",
+                  "value": "myself",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_718_1_3",
+                  "order": 3,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "719",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 She brought up her children {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_719_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "by herself",
+              "accepted_answers": [
+                "by herself"
+              ],
+              "options": [
+                {
+                  "id": "gap_719_1_1",
+                  "order": 1,
+                  "text": "her own",
+                  "value": "her own",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_719_1_2",
+                  "order": 2,
+                  "text": "by herself",
+                  "value": "by herself",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_719_1_3",
+                  "order": 3,
+                  "text": "her",
+                  "value": "her",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "720",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 It's been a long time since we talked to {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_720_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "each other",
+              "accepted_answers": [
+                "each other"
+              ],
+              "options": [
+                {
+                  "id": "gap_720_1_1",
+                  "order": 1,
+                  "text": "ourselves",
+                  "value": "ourselves",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_720_1_2",
+                  "order": 2,
+                  "text": "each other",
+                  "value": "each other",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_720_1_3",
+                  "order": 3,
+                  "text": "us",
+                  "value": "us",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "721",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 You need to shave {{gap1}} before the interview.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_721_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_721_1_1",
+                  "order": 1,
+                  "text": "you",
+                  "value": "you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_721_1_2",
+                  "order": 2,
+                  "text": "yourself",
+                  "value": "yourself",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_721_1_3",
+                  "order": 3,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "722",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 We are very proud of {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_722_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "ourselves",
+              "accepted_answers": [
+                "ourselves"
+              ],
+              "options": [
+                {
+                  "id": "gap_722_1_1",
+                  "order": 1,
+                  "text": "yourselves",
+                  "value": "yourselves",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_722_1_2",
+                  "order": 2,
+                  "text": "us",
+                  "value": "us",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_722_1_3",
+                  "order": 3,
+                  "text": "ourselves",
+                  "value": "ourselves",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 The Vikings organised {{gap1}} in clans and invaded many regions.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_723_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "themselves",
+              "accepted_answers": [
+                "themselves"
+              ],
+              "options": [
+                {
+                  "id": "gap_723_1_1",
+                  "order": 1,
+                  "text": "themselfs",
+                  "value": "themselfs",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_723_1_2",
+                  "order": 2,
+                  "text": "they",
+                  "value": "they",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_723_1_3",
+                  "order": 3,
+                  "text": "themselves",
+                  "value": "themselves",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "724",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 She always takes the dog with {{gap1}} when she goes out.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_724_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "her",
+              "accepted_answers": [
+                "her"
+              ],
+              "options": [
+                {
+                  "id": "gap_724_1_1",
+                  "order": 1,
+                  "text": "her",
+                  "value": "her",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_724_1_2",
+                  "order": 2,
+                  "text": "her own",
+                  "value": "her own",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_724_1_3",
+                  "order": 3,
+                  "text": "herself",
+                  "value": "herself",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "725",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 This is the most stupid way of hurting {{gap1}} I've ever heard of.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_725_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "yourself",
+              "accepted_answers": [
+                "yourself"
+              ],
+              "options": [
+                {
+                  "id": "gap_725_1_1",
+                  "order": 1,
+                  "text": "you",
+                  "value": "you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_725_1_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_725_1_3",
+                  "order": 3,
+                  "text": "yourself",
+                  "value": "yourself",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "726",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Put the exam sheet in front of {{gap1}} and start writing.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_726_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "you",
+              "accepted_answers": [
+                "you"
+              ],
+              "options": [
+                {
+                  "id": "gap_726_1_1",
+                  "order": 1,
+                  "text": "your own",
+                  "value": "your own",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_726_1_2",
+                  "order": 2,
+                  "text": "you",
+                  "value": "you",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_726_1_3",
+                  "order": 3,
+                  "text": "yourselves",
+                  "value": "yourselves",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "727",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I have to dress {{gap1}} quickly or I'll be late.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_727_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_727_1_1",
+                  "order": 1,
+                  "text": "me",
+                  "value": "me",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_727_1_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_727_1_3",
+                  "order": 3,
+                  "text": "myself",
+                  "value": "myself",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-88",
+      "lessonId": "b2_reflexive_reciprocal_pronouns",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct reflexive and reciprocal pronouns for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_reflexive-reciprocal-pronouns_2.html",
+      "questions": [
+        {
+          "id": "728",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Cooperation should be promoted by the governments _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "728_1",
+              "order": 1,
+              "text": "them",
+              "value": "970",
+              "is_correct": false
+            },
+            {
+              "id": "728_2",
+              "order": 2,
+              "text": "yourselves",
+              "value": "971",
+              "is_correct": false
+            },
+            {
+              "id": "728_3",
+              "order": 3,
+              "text": "one another",
+              "value": "972",
+              "is_correct": false
+            },
+            {
+              "id": "728_4",
+              "order": 4,
+              "text": "themselves",
+              "value": "973",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "729",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I hadn't realised how much they hated _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "729_1",
+              "order": 1,
+              "text": "themselfs",
+              "value": "974",
+              "is_correct": false
+            },
+            {
+              "id": "729_2",
+              "order": 2,
+              "text": "one another",
+              "value": "975",
+              "is_correct": true
+            },
+            {
+              "id": "729_3",
+              "order": 3,
+              "text": "them",
+              "value": "976",
+              "is_correct": false
+            },
+            {
+              "id": "729_4",
+              "order": 4,
+              "text": "-",
+              "value": "977",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "730",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 He lives _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "730_1",
+              "order": 1,
+              "text": "by himself",
+              "value": "978",
+              "is_correct": true
+            },
+            {
+              "id": "730_2",
+              "order": 2,
+              "text": "his own",
+              "value": "979",
+              "is_correct": false
+            },
+            {
+              "id": "730_3",
+              "order": 3,
+              "text": "himself",
+              "value": "980",
+              "is_correct": false
+            },
+            {
+              "id": "730_4",
+              "order": 4,
+              "text": "him",
+              "value": "981",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "731",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 The people _______ are organising community mobilisation efforts.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "731_1",
+              "order": 1,
+              "text": "itself",
+              "value": "982",
+              "is_correct": false
+            },
+            {
+              "id": "731_2",
+              "order": 2,
+              "text": "each other",
+              "value": "983",
+              "is_correct": false
+            },
+            {
+              "id": "731_3",
+              "order": 3,
+              "text": "by their own",
+              "value": "984",
+              "is_correct": false
+            },
+            {
+              "id": "731_4",
+              "order": 4,
+              "text": "themselves",
+              "value": "985",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "732",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 You can't be independent until you're able to look after _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "732_1",
+              "order": 1,
+              "text": "you",
+              "value": "986",
+              "is_correct": false
+            },
+            {
+              "id": "732_2",
+              "order": 2,
+              "text": "-",
+              "value": "987",
+              "is_correct": false
+            },
+            {
+              "id": "732_3",
+              "order": 3,
+              "text": "yourself",
+              "value": "988",
+              "is_correct": true
+            },
+            {
+              "id": "732_4",
+              "order": 4,
+              "text": "your own",
+              "value": "989",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "733",
+          "order": 6,
+          "type": "multiple_choice",
+          "text": "6 Did she do it _______ or did you help her? Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "733_1",
+              "order": 1,
+              "text": "her",
+              "value": "990",
+              "is_correct": false
+            },
+            {
+              "id": "733_2",
+              "order": 2,
+              "text": "herself",
+              "value": "991",
+              "is_correct": true
+            },
+            {
+              "id": "733_3",
+              "order": 3,
+              "text": "by her own",
+              "value": "992",
+              "is_correct": false
+            },
+            {
+              "id": "733_4",
+              "order": 4,
+              "text": "on her own",
+              "value": "993",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "734",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 We need to relax _______ and enjoy _______ a bit more often.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "734_1",
+              "order": 1,
+              "text": "- / -",
+              "value": "994",
+              "is_correct": false
+            },
+            {
+              "id": "734_2",
+              "order": 2,
+              "text": "ourselves / ourselves",
+              "value": "995",
+              "is_correct": false
+            },
+            {
+              "id": "734_3",
+              "order": 3,
+              "text": "- / ourselves",
+              "value": "996",
+              "is_correct": true
+            },
+            {
+              "id": "734_4",
+              "order": 4,
+              "text": "ourselves / -",
+              "value": "997",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "735",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 He listens to _______ more than he listens to the others.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "735_1",
+              "order": 1,
+              "text": "himself",
+              "value": "998",
+              "is_correct": true
+            },
+            {
+              "id": "735_2",
+              "order": 2,
+              "text": "his own",
+              "value": "999",
+              "is_correct": false
+            },
+            {
+              "id": "735_3",
+              "order": 3,
+              "text": "him",
+              "value": "1000",
+              "is_correct": false
+            },
+            {
+              "id": "735_4",
+              "order": 4,
+              "text": "he",
+              "value": "1001",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "736",
+          "order": 9,
+          "type": "multiple_choice",
+          "text": "9 They text _______ like one hundred times a day. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "736_1",
+              "order": 1,
+              "text": "themselves",
+              "value": "1002",
+              "is_correct": false
+            },
+            {
+              "id": "736_2",
+              "order": 2,
+              "text": "each other",
+              "value": "1003",
+              "is_correct": true
+            },
+            {
+              "id": "736_3",
+              "order": 3,
+              "text": "them",
+              "value": "1004",
+              "is_correct": false
+            },
+            {
+              "id": "736_4",
+              "order": 4,
+              "text": "one another",
+              "value": "1005",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "737",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 She looked behind _______ because she thought she was being followed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "737_1",
+              "order": 1,
+              "text": "her",
+              "value": "1006",
+              "is_correct": true
+            },
+            {
+              "id": "737_2",
+              "order": 2,
+              "text": "herself",
+              "value": "1007",
+              "is_correct": false
+            },
+            {
+              "id": "737_3",
+              "order": 3,
+              "text": "her own",
+              "value": "1008",
+              "is_correct": false
+            },
+            {
+              "id": "737_4",
+              "order": 4,
+              "text": "itself",
+              "value": "1009",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-89",
+      "lessonId": "b2_reflexive_reciprocal_pronouns",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps in the text with a suitable pronoun or word. Use only one word for each gap.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_reflexive-reciprocal-pronouns_3.html",
+      "questions": [
+        {
+          "id": "738",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Is a society of image obsession the society we want for 1 {{gap1}}? Do we want to live in a world where we look at 2 {{gap2}} more than we look at 3 {{gap3}} other? Men and women of all ages only worry about 4 {{gap4}} and about being the thinnest or the fittest in the room, and they envy those who are thinner or more muscular than 5 {{gap5}}. As I am one of those men and women, I should ask 6 {{gap6}} whether I’m enjoying 7 {{gap7}} in the process of working to achieve the perfect body. An obsession can never bring happiness, and the more obsessed we are, the more imperfect we find 8 {{gap8}}. When we look in the mirror, we never really completely like what we see in front of 9 {{gap9}}. And then the question is, is a superbody that we will never achieve worth the effort? I think it isn't. We should be worried to achieve superhealth, not a superbody. But until we learn to think 10 {{gap10}} ourselves and to have our own opinions and judgements, and not to be so influenced by others, we will continue to look for a superbody.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_738_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "ourselves",
+              "accepted_answers": [
+                "ourselves"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_738_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "ourselves",
+              "accepted_answers": [
+                "ourselves"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_738_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "each",
+              "accepted_answers": [
+                "each"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_738_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "themselves",
+              "accepted_answers": [
+                "themselves"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_738_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_738_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "myself",
+              "accepted_answers": [
+                "myself"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_738_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "myself",
+              "accepted_answers": [
+                "myself"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_738_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "ourselves",
+              "accepted_answers": [
+                "ourselves"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_738_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "us",
+              "accepted_answers": [
+                "us"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_738_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

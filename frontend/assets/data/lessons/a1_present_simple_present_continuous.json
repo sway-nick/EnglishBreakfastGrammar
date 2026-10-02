@@ -1,0 +1,968 @@
+{
+  "lesson_id": "a1_present_simple_present_continuous",
+  "level": "A1",
+  "title": "Present simple or present continuous?",
+  "description": "Практический тест и правила по теме: Present simple or present continuous?",
+  "theory": {
+    "title": "Правила и грамматика: Present simple or present continuous?",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Present simple or present continuous?».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Present simple or present continuous?» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-456",
+      "lessonId": "a1_present_simple_present_continuous",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct present simple or present continuous form to complete the dialogues below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-simple-present-continuous.html",
+      "questions": [
+        {
+          "id": "3980",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Cindy: What {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3980_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are you doing",
+              "accepted_answers": [
+                "are you doing"
+              ],
+              "options": [
+                {
+                  "id": "gap_3980_1_1",
+                  "order": 1,
+                  "text": "do you do",
+                  "value": "do you do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3980_1_2",
+                  "order": 2,
+                  "text": "are you doing",
+                  "value": "are you doing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3980_1_3",
+                  "order": 3,
+                  "text": "you are doing",
+                  "value": "you are doing",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3982",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Robert: I'm listening to the radio. They {{gap1}} about football.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3982_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are talking",
+              "accepted_answers": [
+                "are talking"
+              ],
+              "options": [
+                {
+                  "id": "gap_3982_1_1",
+                  "order": 1,
+                  "text": "talking",
+                  "value": "talking",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3982_1_2",
+                  "order": 2,
+                  "text": "are talking",
+                  "value": "are talking",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3982_1_3",
+                  "order": 3,
+                  "text": "talk",
+                  "value": "talk",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3981",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Cindy: {{gap1}} to the radio?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3981_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Do you often listen",
+              "accepted_answers": [
+                "Do you often listen"
+              ],
+              "options": [
+                {
+                  "id": "gap_3981_1_1",
+                  "order": 1,
+                  "text": "Are you often listening",
+                  "value": "Are you often listening",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3981_1_2",
+                  "order": 2,
+                  "text": "Do you listen often",
+                  "value": "Do you listen often",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3981_1_3",
+                  "order": 3,
+                  "text": "Do you often listen",
+                  "value": "Do you often listen",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3983",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Robert: Yes. I {{gap1}} the radio.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3983_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "like",
+              "accepted_answers": [
+                "like"
+              ],
+              "options": [
+                {
+                  "id": "gap_3983_1_1",
+                  "order": 1,
+                  "text": "'m like",
+                  "value": "'m like",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3983_1_2",
+                  "order": 2,
+                  "text": "'m liking",
+                  "value": "'m liking",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3983_1_3",
+                  "order": 3,
+                  "text": "like",
+                  "value": "like",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3984",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Cindy: {{gap1}} to sports programmes?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3984_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Do you often listen",
+              "accepted_answers": [
+                "Do you often listen"
+              ],
+              "options": [
+                {
+                  "id": "gap_3984_1_1",
+                  "order": 1,
+                  "text": "Do you listen often",
+                  "value": "Do you listen often",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3984_1_2",
+                  "order": 2,
+                  "text": "Do you often listen",
+                  "value": "Do you often listen",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3984_1_3",
+                  "order": 3,
+                  "text": "Are you often listening",
+                  "value": "Are you often listening",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3985",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Robert: Not usually, but today I {{gap1}} to know what they say about my team.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3985_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "want",
+              "accepted_answers": [
+                "want"
+              ],
+              "options": [
+                {
+                  "id": "gap_3985_1_1",
+                  "order": 1,
+                  "text": "'m want",
+                  "value": "'m want",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3985_1_2",
+                  "order": 2,
+                  "text": "'m wanting",
+                  "value": "'m wanting",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3985_1_3",
+                  "order": 3,
+                  "text": "want",
+                  "value": "want",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3986",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Terry: What {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3986_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are you doing",
+              "accepted_answers": [
+                "are you doing"
+              ],
+              "options": [
+                {
+                  "id": "gap_3986_1_1",
+                  "order": 1,
+                  "text": "are you doing",
+                  "value": "are you doing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3986_1_2",
+                  "order": 2,
+                  "text": "do you do",
+                  "value": "do you do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3986_1_3",
+                  "order": 3,
+                  "text": "are you do",
+                  "value": "are you do",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3987",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Lisa: I'm an architect, but I {{gap1}} at the moment.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3987_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'m not working",
+              "accepted_answers": [
+                "'m not working"
+              ],
+              "options": [
+                {
+                  "id": "gap_3987_1_1",
+                  "order": 1,
+                  "text": "'m not working",
+                  "value": "'m not working",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3987_1_2",
+                  "order": 2,
+                  "text": "'m not work",
+                  "value": "'m not work",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3987_1_3",
+                  "order": 3,
+                  "text": "don't work",
+                  "value": "don't work",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3988",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Terry: {{gap1}} for a job?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3988_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Are you looking",
+              "accepted_answers": [
+                "Are you looking"
+              ],
+              "options": [
+                {
+                  "id": "gap_3988_1_1",
+                  "order": 1,
+                  "text": "Are you looking",
+                  "value": "Are you looking",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3988_1_2",
+                  "order": 2,
+                  "text": "Do you look",
+                  "value": "Do you look",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3988_1_3",
+                  "order": 3,
+                  "text": "Do you looking",
+                  "value": "Do you looking",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3989",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Lisa: Yes. I {{gap1}} to find a job soon.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3989_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "need",
+              "accepted_answers": [
+                "need"
+              ],
+              "options": [
+                {
+                  "id": "gap_3989_1_1",
+                  "order": 1,
+                  "text": "need",
+                  "value": "need",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3989_1_2",
+                  "order": 2,
+                  "text": "'m need",
+                  "value": "'m need",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3989_1_3",
+                  "order": 3,
+                  "text": "'m needing",
+                  "value": "'m needing",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-457",
+      "lessonId": "a1_present_simple_present_continuous",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Complete the following sentences choosing the correct present simple or present continuous forms.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-simple-present-continuous_2.html",
+      "questions": [
+        {
+          "id": "3990",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 You can take the newspaper. I _____ it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3990_1",
+              "order": 1,
+              "text": "'m not reading",
+              "value": "5913",
+              "is_correct": true
+            },
+            {
+              "id": "3990_2",
+              "order": 2,
+              "text": "don't read",
+              "value": "5914",
+              "is_correct": false
+            },
+            {
+              "id": "3990_3",
+              "order": 3,
+              "text": "'m not read",
+              "value": "5915",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3991",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I _____ to work by car, but today I'm going by bus.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3991_1",
+              "order": 1,
+              "text": "usually go",
+              "value": "5916",
+              "is_correct": true
+            },
+            {
+              "id": "3991_2",
+              "order": 2,
+              "text": "'m usually going",
+              "value": "5917",
+              "is_correct": false
+            },
+            {
+              "id": "3991_3",
+              "order": 3,
+              "text": "usually going",
+              "value": "5918",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3992",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 'Where is John?' 'He _____ a shower.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3992_1",
+              "order": 1,
+              "text": "has",
+              "value": "5919",
+              "is_correct": false
+            },
+            {
+              "id": "3992_2",
+              "order": 2,
+              "text": "having",
+              "value": "5920",
+              "is_correct": false
+            },
+            {
+              "id": "3992_3",
+              "order": 3,
+              "text": "'s having",
+              "value": "5921",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3993",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I _____ exercise very often.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3993_1",
+              "order": 1,
+              "text": "'m not doing",
+              "value": "5922",
+              "is_correct": false
+            },
+            {
+              "id": "3993_2",
+              "order": 2,
+              "text": "don't do",
+              "value": "5923",
+              "is_correct": true
+            },
+            {
+              "id": "3993_3",
+              "order": 3,
+              "text": "'m not do",
+              "value": "5924",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3994",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 Can you hear that? Our neighbours _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3994_1",
+              "order": 1,
+              "text": "argue",
+              "value": "5925",
+              "is_correct": false
+            },
+            {
+              "id": "3994_2",
+              "order": 2,
+              "text": "arguing",
+              "value": "5926",
+              "is_correct": false
+            },
+            {
+              "id": "3994_3",
+              "order": 3,
+              "text": "are arguing",
+              "value": "5927",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3995",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Our neighbours _____ almost every day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3995_1",
+              "order": 1,
+              "text": "argue",
+              "value": "5928",
+              "is_correct": true
+            },
+            {
+              "id": "3995_2",
+              "order": 2,
+              "text": "do argue",
+              "value": "5929",
+              "is_correct": false
+            },
+            {
+              "id": "3995_3",
+              "order": 3,
+              "text": "are arguing",
+              "value": "5930",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3996",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 What time _____ work on Fridays?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3996_1",
+              "order": 1,
+              "text": "is she start",
+              "value": "5931",
+              "is_correct": false
+            },
+            {
+              "id": "3996_2",
+              "order": 2,
+              "text": "does she start",
+              "value": "5932",
+              "is_correct": true
+            },
+            {
+              "id": "3996_3",
+              "order": 3,
+              "text": "is she starting",
+              "value": "5933",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3997",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I'm hungry. I _____ to eat something.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3997_1",
+              "order": 1,
+              "text": "'m wanting",
+              "value": "5934",
+              "is_correct": false
+            },
+            {
+              "id": "3997_2",
+              "order": 2,
+              "text": "'m want",
+              "value": "5935",
+              "is_correct": false
+            },
+            {
+              "id": "3997_3",
+              "order": 3,
+              "text": "want",
+              "value": "5936",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3998",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 'Where is Jane?' 'In the living room. She___________ a movie.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3998_1",
+              "order": 1,
+              "text": "'s watching",
+              "value": "5937",
+              "is_correct": true
+            },
+            {
+              "id": "3998_2",
+              "order": 2,
+              "text": "watching",
+              "value": "5938",
+              "is_correct": false
+            },
+            {
+              "id": "3998_3",
+              "order": 3,
+              "text": "watches",
+              "value": "5939",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3999",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I _____________ TV when I'm having dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3999_1",
+              "order": 1,
+              "text": "'m never watching",
+              "value": "5940",
+              "is_correct": false
+            },
+            {
+              "id": "3999_2",
+              "order": 2,
+              "text": "never watch",
+              "value": "5941",
+              "is_correct": true
+            },
+            {
+              "id": "3999_3",
+              "order": 3,
+              "text": "'m never watch",
+              "value": "5942",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-458",
+      "lessonId": "a1_present_simple_present_continuous",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the following postcard with the verbs in brackets in present simple or present continuous.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-simple-present-continuous_3.html",
+      "questions": [
+        {
+          "id": "4000",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Dear Kate, I 1 {{gap1}} (write) from New York. This is my second year here. Can you believe it? Right now I 2 {{gap2}} (sit) in a coffee shop in Manhattan. Lots of business people 3 {{gap3}} (walk) fast in the street, and lots of tourists 4 {{gap4}} (look) at the amazing buildings around them. This is a great city. Every morning, I 5 {{gap5}} (get up) early and I 6 {{gap6}} (go) for a run in Central Park. Then I 7 {{gap7}} (have) some coffee and bagels before going to work. Now I 8 {{gap8}} (have) a cappuccino and a bagel in a Starbucks near my office. I 9 {{gap9}} (love) my job, and I'm happy because my business 10 {{gap10}} (expand) very quickly. I hope to see you soon. Take care, Sally.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4000_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "am writing",
+              "accepted_answers": [
+                "am writing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4000_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "am sitting",
+              "accepted_answers": [
+                "am sitting"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4000_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "are walking",
+              "accepted_answers": [
+                "are walking"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4000_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "are looking",
+              "accepted_answers": [
+                "are looking"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4000_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "get up",
+              "accepted_answers": [
+                "get up"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4000_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "go",
+              "accepted_answers": [
+                "go"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4000_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "have",
+              "accepted_answers": [
+                "have"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4000_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "am having",
+              "accepted_answers": [
+                "am having"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4000_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "love",
+              "accepted_answers": [
+                "love"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4000_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "is expanding",
+              "accepted_answers": [
+                "is expanding"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

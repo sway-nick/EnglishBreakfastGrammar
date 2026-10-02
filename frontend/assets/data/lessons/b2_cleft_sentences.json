@@ -1,0 +1,1380 @@
+{
+  "lesson_id": "b2_cleft_sentences",
+  "level": "B2",
+  "title": "Cleft sentences: Adding emphasis",
+  "description": "Практический тест и правила по теме: Cleft sentences: Adding emphasis",
+  "theory": {
+    "title": "Правила и грамматика: Cleft sentences: Adding emphasis",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Cleft sentences: Adding emphasis».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Cleft sentences: Adding emphasis» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-153",
+      "lessonId": "b2_cleft_sentences",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_cleft-sentences.html",
+      "questions": [
+        {
+          "id": "1303",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 {{gap1}} about the place is the weather.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1303_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "What I don't like",
+              "accepted_answers": [
+                "What I don't like"
+              ],
+              "options": [
+                {
+                  "id": "gap_1303_1_1",
+                  "order": 1,
+                  "text": "That I don't like",
+                  "value": "That I don't like",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1303_1_2",
+                  "order": 2,
+                  "text": "The reason I don't like",
+                  "value": "The reason I don't like",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1303_1_3",
+                  "order": 3,
+                  "text": "What I don't like",
+                  "value": "What I don't like",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1304",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 {{gap1}} who lent him the money.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1304_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It was Mary",
+              "accepted_answers": [
+                "It was Mary"
+              ],
+              "options": [
+                {
+                  "id": "gap_1304_1_1",
+                  "order": 1,
+                  "text": "Mary",
+                  "value": "Mary",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1304_1_2",
+                  "order": 2,
+                  "text": "It was Mary",
+                  "value": "It was Mary",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1304_1_3",
+                  "order": 3,
+                  "text": "Mary it was",
+                  "value": "Mary it was",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1305",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 What we did was {{gap1}} a letter to apologise.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1305_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "write",
+              "accepted_answers": [
+                "write"
+              ],
+              "options": [
+                {
+                  "id": "gap_1305_1_1",
+                  "order": 1,
+                  "text": "wrote",
+                  "value": "wrote",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1305_1_2",
+                  "order": 2,
+                  "text": "write",
+                  "value": "write",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1305_1_3",
+                  "order": 3,
+                  "text": "writing",
+                  "value": "writing",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1306",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 The reason why he left {{gap1}} the embarrassment.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1306_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was to avoid",
+              "accepted_answers": [
+                "was to avoid"
+              ],
+              "options": [
+                {
+                  "id": "gap_1306_1_1",
+                  "order": 1,
+                  "text": "was to avoid",
+                  "value": "was to avoid",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1306_1_2",
+                  "order": 2,
+                  "text": "is avoiding",
+                  "value": "is avoiding",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1306_1_3",
+                  "order": 3,
+                  "text": "was avoid",
+                  "value": "was avoid",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1307",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 {{gap1}} that I realised she was leaving me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1307_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It was when I read the email",
+              "accepted_answers": [
+                "It was when I read the email"
+              ],
+              "options": [
+                {
+                  "id": "gap_1307_1_1",
+                  "order": 1,
+                  "text": "Not until I read the email",
+                  "value": "Not until I read the email",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1307_1_2",
+                  "order": 2,
+                  "text": "When I read the email",
+                  "value": "When I read the email",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1307_1_3",
+                  "order": 3,
+                  "text": "It was when I read the email",
+                  "value": "It was when I read the email",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1308",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 {{gap1}} lent you the money, remember?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1308_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It's me who",
+              "accepted_answers": [
+                "It's me who"
+              ],
+              "options": [
+                {
+                  "id": "gap_1308_1_1",
+                  "order": 1,
+                  "text": "It's me who",
+                  "value": "It's me who",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1308_1_2",
+                  "order": 2,
+                  "text": "It's me",
+                  "value": "It's me",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1308_1_3",
+                  "order": 3,
+                  "text": "It's I",
+                  "value": "It's I",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1309",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 {{gap1}} fame and money, among other things.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1309_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "What I want is",
+              "accepted_answers": [
+                "What I want is"
+              ],
+              "options": [
+                {
+                  "id": "gap_1309_1_1",
+                  "order": 1,
+                  "text": "What I want it's",
+                  "value": "What I want it's",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1309_1_2",
+                  "order": 2,
+                  "text": "What I want are",
+                  "value": "What I want are",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1309_1_3",
+                  "order": 3,
+                  "text": "What I want is",
+                  "value": "What I want is",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1310",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 {{gap1}} I told everything.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1310_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It was John who",
+              "accepted_answers": [
+                "It was John who"
+              ],
+              "options": [
+                {
+                  "id": "gap_1310_1_1",
+                  "order": 1,
+                  "text": "The person was John",
+                  "value": "The person was John",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1310_1_2",
+                  "order": 2,
+                  "text": "It was John who",
+                  "value": "It was John who",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1310_1_3",
+                  "order": 3,
+                  "text": "John it was the person",
+                  "value": "John it was the person",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1311",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 The place {{gap1}} the long beach outside the city.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1311_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "that I love is",
+              "accepted_answers": [
+                "that I love is"
+              ],
+              "options": [
+                {
+                  "id": "gap_1311_1_1",
+                  "order": 1,
+                  "text": "where I love is",
+                  "value": "where I love is",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1311_1_2",
+                  "order": 2,
+                  "text": "I love it's",
+                  "value": "I love it's",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1311_1_3",
+                  "order": 3,
+                  "text": "that I love is",
+                  "value": "that I love is",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1312",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 It's where they are hiding {{gap1}} we want to find out.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1312_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "that",
+              "accepted_answers": [
+                "that"
+              ],
+              "options": [
+                {
+                  "id": "gap_1312_1_1",
+                  "order": 1,
+                  "text": "that",
+                  "value": "that",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1312_1_2",
+                  "order": 2,
+                  "text": "where",
+                  "value": "where",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1312_1_3",
+                  "order": 3,
+                  "text": "what",
+                  "value": "what",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-154",
+      "lessonId": "b2_cleft_sentences",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option for the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_cleft-sentences_2.html",
+      "questions": [
+        {
+          "id": "1318",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 ______ I would do is wait for instructions.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1318_1",
+              "order": 1,
+              "text": "That I said",
+              "value": "1857",
+              "is_correct": false
+            },
+            {
+              "id": "1318_2",
+              "order": 2,
+              "text": "What I said",
+              "value": "1858",
+              "is_correct": true
+            },
+            {
+              "id": "1318_3",
+              "order": 3,
+              "text": "It is what",
+              "value": "1859",
+              "is_correct": false
+            },
+            {
+              "id": "1318_4",
+              "order": 4,
+              "text": "What said",
+              "value": "1860",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1319",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 ______ enjoyed most of the trip was the food.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1319_1",
+              "order": 1,
+              "text": "What I",
+              "value": "1861",
+              "is_correct": true
+            },
+            {
+              "id": "1319_2",
+              "order": 2,
+              "text": "All I",
+              "value": "1862",
+              "is_correct": false
+            },
+            {
+              "id": "1319_3",
+              "order": 3,
+              "text": "What",
+              "value": "1863",
+              "is_correct": false
+            },
+            {
+              "id": "1319_4",
+              "order": 4,
+              "text": "It's what I",
+              "value": "1864",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1320",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 ______ everything started to fall apart.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1320_1",
+              "order": 1,
+              "text": "It was 2010 when",
+              "value": "1865",
+              "is_correct": true
+            },
+            {
+              "id": "1320_2",
+              "order": 2,
+              "text": "2010 it was",
+              "value": "1866",
+              "is_correct": false
+            },
+            {
+              "id": "1320_3",
+              "order": 3,
+              "text": "2010 was where",
+              "value": "1867",
+              "is_correct": false
+            },
+            {
+              "id": "1320_4",
+              "order": 4,
+              "text": "Was 2010 when",
+              "value": "1868",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1321",
+          "order": 4,
+          "type": "multiple_choice",
+          "text": "4 David is ______ came up with the original idea. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1321_1",
+              "order": 1,
+              "text": "the person who",
+              "value": "1869",
+              "is_correct": true
+            },
+            {
+              "id": "1321_2",
+              "order": 2,
+              "text": "that",
+              "value": "1870",
+              "is_correct": false
+            },
+            {
+              "id": "1321_3",
+              "order": 3,
+              "text": "the person that",
+              "value": "1871",
+              "is_correct": true
+            },
+            {
+              "id": "1321_4",
+              "order": 4,
+              "text": "the person",
+              "value": "1872",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1322",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 ______ was to protect their family.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1322_1",
+              "order": 1,
+              "text": "The reason why they did it",
+              "value": "1873",
+              "is_correct": true
+            },
+            {
+              "id": "1322_2",
+              "order": 2,
+              "text": "How they did it",
+              "value": "1874",
+              "is_correct": false
+            },
+            {
+              "id": "1322_3",
+              "order": 3,
+              "text": "Because they did it",
+              "value": "1875",
+              "is_correct": false
+            },
+            {
+              "id": "1322_4",
+              "order": 4,
+              "text": "It was why they did it",
+              "value": "1876",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1313",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Which sentence is INCORRECT?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1313_1",
+              "order": 1,
+              "text": "It was to pay the mortgage that he sold his new car.",
+              "value": "1837",
+              "is_correct": false
+            },
+            {
+              "id": "1313_2",
+              "order": 2,
+              "text": "The reason why he sold his new car was to pay the mortgage.",
+              "value": "1838",
+              "is_correct": false
+            },
+            {
+              "id": "1313_3",
+              "order": 3,
+              "text": "It’s sell his car that he did to pay the mortgage.",
+              "value": "1839",
+              "is_correct": true
+            },
+            {
+              "id": "1313_4",
+              "order": 4,
+              "text": "What he did was sell his car to pay the mortgage.",
+              "value": "1840",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1314",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Which sentence is INCORRECT?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1314_1",
+              "order": 1,
+              "text": "What he sold to pay the mortgage was his car.",
+              "value": "1841",
+              "is_correct": false
+            },
+            {
+              "id": "1314_2",
+              "order": 2,
+              "text": "His car was to pay the mortgage he sold.",
+              "value": "1842",
+              "is_correct": true
+            },
+            {
+              "id": "1314_3",
+              "order": 3,
+              "text": "His car was what he sold to pay the mortgage.",
+              "value": "1843",
+              "is_correct": false
+            },
+            {
+              "id": "1314_4",
+              "order": 4,
+              "text": "It was his car that he sold to pay the mortgage.",
+              "value": "1844",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1315",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Which sentence is INCORRECT?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1315_1",
+              "order": 1,
+              "text": "What we did was wait for help.",
+              "value": "1845",
+              "is_correct": false
+            },
+            {
+              "id": "1315_2",
+              "order": 2,
+              "text": "The only thing we did was wait for help.",
+              "value": "1846",
+              "is_correct": false
+            },
+            {
+              "id": "1315_3",
+              "order": 3,
+              "text": "It's that we did wait for help.",
+              "value": "1847",
+              "is_correct": true
+            },
+            {
+              "id": "1315_4",
+              "order": 4,
+              "text": "All we did was wait for help.",
+              "value": "1848",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1316",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Which sentence is INCORRECT?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1316_1",
+              "order": 1,
+              "text": "It was Bill who helped us.",
+              "value": "1849",
+              "is_correct": false
+            },
+            {
+              "id": "1316_2",
+              "order": 2,
+              "text": "Bill was the person who helped us.",
+              "value": "1850",
+              "is_correct": false
+            },
+            {
+              "id": "1316_3",
+              "order": 3,
+              "text": "The person who helped us was Bill.",
+              "value": "1851",
+              "is_correct": false
+            },
+            {
+              "id": "1316_4",
+              "order": 4,
+              "text": "Bill was helped us.",
+              "value": "1852",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1317",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Which sentence is INCORRECT?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1317_1",
+              "order": 1,
+              "text": "It's music from the 70's that we play.",
+              "value": "1853",
+              "is_correct": false
+            },
+            {
+              "id": "1317_2",
+              "order": 2,
+              "text": "What we play is music from the 70's.",
+              "value": "1854",
+              "is_correct": false
+            },
+            {
+              "id": "1317_3",
+              "order": 3,
+              "text": "Music from the 70's is we play.",
+              "value": "1855",
+              "is_correct": true
+            },
+            {
+              "id": "1317_4",
+              "order": 4,
+              "text": "All we play is music from the 70's.",
+              "value": "1856",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-155",
+      "lessonId": "b2_cleft_sentences",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in each gap with a suitable word.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_cleft-sentences_3.html",
+      "questions": [
+        {
+          "id": "1323",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 A: Didn't you arrive late yesterday? B: No, {{gap1}} was John who arrived so late.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1323_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1324",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 A: You don't understand me. B: No, {{gap1}} I don't understand is why you do this to yourself.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1324_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "what",
+              "accepted_answers": [
+                "what"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1325",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 A: Didn't you fly to Denver yesterday? B: No, it {{gap1}} on Monday {{gap2}} I flew to Denver.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1325_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1325_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "that",
+              "accepted_answers": [
+                "that"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1329",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 A: You hurt him! B: {{gap1}} I did was tell him the truth. I think he deserved it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1329_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "All",
+              "accepted_answers": [
+                "All"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1326",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 A: Didn't we meet at this bar? B: No, the {{gap1}} where we met for the first time was that karaoke bar in Brooklyn. Don't you remember?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1326_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "place",
+              "accepted_answers": [
+                "place"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1327",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 A: I saw you at the station yesterday. B: No, the person {{gap1}} you saw yesterday at the station was my twin brother.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1327_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "that",
+              "accepted_answers": [
+                "that"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1328",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 A: You did it for the money. B: No, the {{gap1}} why I did it was to save the company.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1328_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "reason",
+              "accepted_answers": [
+                "reason"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1330",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 A: What happened then? B: The only {{gap1}} I remember is something hitting the back of my head.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1330_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "thing",
+              "accepted_answers": [
+                "thing"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1331",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 A: Did you call the police? B: No, what I {{gap1}} was hide in the bedroom.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1331_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "did",
+              "accepted_answers": [
+                "did"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1332",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 A: You did this to me! B: No, I didn't. It was Sean {{gap1}} did this to you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1332_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "who",
+              "accepted_answers": [
+                "who"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-156",
+      "lessonId": "b2_cleft_sentences",
+      "order": 4,
+      "page": 4,
+      "title": "Exercise 4",
+      "instruction": "Complete the second sentence so that it emphasises the underlined words. Do NOT use short forms.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_cleft-sentences_4.html",
+      "questions": [
+        {
+          "id": "1333",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I need one hour to fix the computer. All {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1333_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "I need is one hour to fix the computer",
+              "accepted_answers": [
+                "I need is one hour to fix the computer"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1334",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Tim spread the rumour. {{gap1}} the rumour was Tim.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1334_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "The person who spread",
+              "accepted_answers": [
+                "The person who spread"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1335",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 We are not questioning your hard work. It isn't {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1335_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "your hard work that we are questioning",
+              "accepted_answers": [
+                "your hard work that we are questioning"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1336",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I used to live in that house over there. The place {{gap1}} is that house over there.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1336_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "where I used to live",
+              "accepted_answers": [
+                "where I used to live"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1337",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 We checked all the windows. {{gap1}} check all the windows.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1337_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "What we did was",
+              "accepted_answers": [
+                "What we did was"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1338",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 We sold everything except the couch. The only {{gap1}} was the couch.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1338_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "thing we did not sell",
+              "accepted_answers": [
+                "thing we did not sell"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1339",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 We arrived in Madrid in the evening. It was {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1339_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "in the evening that we arrived in Madrid",
+              "accepted_answers": [
+                "in the evening that we arrived in Madrid"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1340",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 You need to sign here. All {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1340_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "you need to do is sign here",
+              "accepted_answers": [
+                "you need to do is sign here"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1341",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I would never ask Peter out. The last {{gap1}} is Peter.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1341_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "person I would ask out",
+              "accepted_answers": [
+                "person I would ask out"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1342",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 My cousin told us what had happened. It was {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1342_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "my cousin who told us what had happened",
+              "accepted_answers": [
+                "my cousin who told us what had happened"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

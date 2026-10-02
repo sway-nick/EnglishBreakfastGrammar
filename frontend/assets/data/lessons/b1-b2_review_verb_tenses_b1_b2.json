@@ -1,0 +1,1577 @@
+{
+  "lesson_id": "b1-b2_review_verb_tenses_b1_b2",
+  "level": "B1-B2",
+  "title": "Review of all upper-intermediate verb tenses (CEFR B2.1)",
+  "description": "Практический тест и правила по теме: Review of all upper-intermediate verb tenses (CEFR B2.1)",
+  "theory": {
+    "title": "Правила и грамматика: Review of all upper-intermediate verb tenses (CEFR B2.1)",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Review of all upper-intermediate verb tenses (CEFR B2.1)».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Review of all upper-intermediate verb tenses (CEFR B2.1)» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-569",
+      "lessonId": "b1-b2_review_verb_tenses_b1_b2",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the most suitable verb tenses to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_review-verb-tenses-b1-b2.html",
+      "questions": [
+        {
+          "id": "4853",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 A: \"I'm looking for Dave. {{gap1}} him?\" B: \"He's ill. He {{gap2}} five minutes ago.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4853_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Have you seen",
+              "accepted_answers": [
+                "Have you seen"
+              ],
+              "options": [
+                {
+                  "id": "gap_4853_1_1",
+                  "order": 1,
+                  "text": "Have you seen",
+                  "value": "Have you seen",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4853_1_2",
+                  "order": 2,
+                  "text": "Did you see",
+                  "value": "Did you see",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4853_1_3",
+                  "order": 3,
+                  "text": "Do you see",
+                  "value": "Do you see",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4853_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "called",
+              "accepted_answers": [
+                "called"
+              ],
+              "options": [
+                {
+                  "id": "gap_4853_2_1",
+                  "order": 1,
+                  "text": "has called",
+                  "value": "has called",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4853_2_2",
+                  "order": 2,
+                  "text": "was calling",
+                  "value": "was calling",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4853_2_3",
+                  "order": 3,
+                  "text": "called",
+                  "value": "called",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4854",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 A: \"I {{gap1}} on the 2 p.m. train.\" B: \"Please call me as soon as you {{gap2}}.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4854_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'m leaving",
+              "accepted_answers": [
+                "'m leaving"
+              ],
+              "options": [
+                {
+                  "id": "gap_4854_1_1",
+                  "order": 1,
+                  "text": "will have left",
+                  "value": "will have left",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4854_1_2",
+                  "order": 2,
+                  "text": "will leave",
+                  "value": "will leave",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4854_1_3",
+                  "order": 3,
+                  "text": "'m leaving",
+                  "value": "'m leaving",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4854_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "arrive",
+              "accepted_answers": [
+                "arrive"
+              ],
+              "options": [
+                {
+                  "id": "gap_4854_2_1",
+                  "order": 1,
+                  "text": "will arrive",
+                  "value": "will arrive",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4854_2_2",
+                  "order": 2,
+                  "text": "are going to arrive",
+                  "value": "are going to arrive",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4854_2_3",
+                  "order": 3,
+                  "text": "arrive",
+                  "value": "arrive",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4855",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 By the time he was twenty, he {{gap1}} ten tournaments.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4855_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had won",
+              "accepted_answers": [
+                "had won"
+              ],
+              "options": [
+                {
+                  "id": "gap_4855_1_1",
+                  "order": 1,
+                  "text": "was winning",
+                  "value": "was winning",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4855_1_2",
+                  "order": 2,
+                  "text": "won",
+                  "value": "won",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4855_1_3",
+                  "order": 3,
+                  "text": "had won",
+                  "value": "had won",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4856",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 A: \"Patrick! Hi! What {{gap1}} in York?\" B: \"Hi! I {{gap2}}. I'm here with one of my colleagues, who {{gap3}} a presentation at the University this afternoon.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4856_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are you doing",
+              "accepted_answers": [
+                "are you doing"
+              ],
+              "options": [
+                {
+                  "id": "gap_4856_1_1",
+                  "order": 1,
+                  "text": "do you do",
+                  "value": "do you do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4856_1_2",
+                  "order": 2,
+                  "text": "have you done",
+                  "value": "have you done",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4856_1_3",
+                  "order": 3,
+                  "text": "are you doing",
+                  "value": "are you doing",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4856_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'ve just arrived",
+              "accepted_answers": [
+                "'ve just arrived"
+              ],
+              "options": [
+                {
+                  "id": "gap_4856_2_1",
+                  "order": 1,
+                  "text": "am just arrived",
+                  "value": "am just arrived",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4856_2_2",
+                  "order": 2,
+                  "text": "just arrived",
+                  "value": "just arrived",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4856_2_3",
+                  "order": 3,
+                  "text": "'ve just arrived",
+                  "value": "'ve just arrived",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4856_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "will be giving",
+              "accepted_answers": [
+                "will be giving"
+              ],
+              "options": [
+                {
+                  "id": "gap_4856_3_1",
+                  "order": 1,
+                  "text": "will be giving",
+                  "value": "will be giving",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4856_3_2",
+                  "order": 2,
+                  "text": "will give",
+                  "value": "will give",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4856_3_3",
+                  "order": 3,
+                  "text": "gives",
+                  "value": "gives",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4857",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 A: \"How long {{gap1}} each other?\" B: \"We {{gap2}} for 10 months.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4857_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have you known",
+              "accepted_answers": [
+                "have you known"
+              ],
+              "options": [
+                {
+                  "id": "gap_4857_1_1",
+                  "order": 1,
+                  "text": "have you known",
+                  "value": "have you known",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4857_1_2",
+                  "order": 2,
+                  "text": "do you know",
+                  "value": "do you know",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4857_1_3",
+                  "order": 3,
+                  "text": "have you been knowing",
+                  "value": "have you been knowing",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4857_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'ve been going out",
+              "accepted_answers": [
+                "'ve been going out"
+              ],
+              "options": [
+                {
+                  "id": "gap_4857_2_1",
+                  "order": 1,
+                  "text": "'ve been going out",
+                  "value": "'ve been going out",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4857_2_2",
+                  "order": 2,
+                  "text": "go out",
+                  "value": "go out",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4857_2_3",
+                  "order": 3,
+                  "text": "are going out",
+                  "value": "are going out",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4858",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 When I {{gap1}} around, the bike {{gap2}}. It wasn't there anymore.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4858_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "turned",
+              "accepted_answers": [
+                "turned"
+              ],
+              "options": [
+                {
+                  "id": "gap_4858_1_1",
+                  "order": 1,
+                  "text": "had turned",
+                  "value": "had turned",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4858_1_2",
+                  "order": 2,
+                  "text": "was turning",
+                  "value": "was turning",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4858_1_3",
+                  "order": 3,
+                  "text": "turned",
+                  "value": "turned",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4858_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "had disappeared",
+              "accepted_answers": [
+                "had disappeared"
+              ],
+              "options": [
+                {
+                  "id": "gap_4858_2_1",
+                  "order": 1,
+                  "text": "was disappearing",
+                  "value": "was disappearing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4858_2_2",
+                  "order": 2,
+                  "text": "had disappeared",
+                  "value": "had disappeared",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4858_2_3",
+                  "order": 3,
+                  "text": "disappeared",
+                  "value": "disappeared",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4859",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 We {{gap1}} for over an hour when John just called and said, \"Sorry guys, I {{gap2}} a problem. I can't come.\" And he {{gap3}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4859_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had been waiting",
+              "accepted_answers": [
+                "had been waiting"
+              ],
+              "options": [
+                {
+                  "id": "gap_4859_1_1",
+                  "order": 1,
+                  "text": "had been waiting",
+                  "value": "had been waiting",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4859_1_2",
+                  "order": 2,
+                  "text": "were waiting",
+                  "value": "were waiting",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4859_1_3",
+                  "order": 3,
+                  "text": "waited",
+                  "value": "waited",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4859_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'ve had",
+              "accepted_answers": [
+                "'ve had"
+              ],
+              "options": [
+                {
+                  "id": "gap_4859_2_1",
+                  "order": 1,
+                  "text": "'ve had",
+                  "value": "'ve had",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4859_2_2",
+                  "order": 2,
+                  "text": "was having",
+                  "value": "was having",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4859_2_3",
+                  "order": 3,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4859_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "hung up",
+              "accepted_answers": [
+                "hung up"
+              ],
+              "options": [
+                {
+                  "id": "gap_4859_3_1",
+                  "order": 1,
+                  "text": "hung up",
+                  "value": "hung up",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4859_3_2",
+                  "order": 2,
+                  "text": "had hung",
+                  "value": "had hung",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4859_3_3",
+                  "order": 3,
+                  "text": "was hanging up",
+                  "value": "was hanging up",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4860",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I'm totally stressed out now, but this time next week I {{gap1}} a mojito on a beach in Ibiza.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4860_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'ll be having",
+              "accepted_answers": [
+                "'ll be having"
+              ],
+              "options": [
+                {
+                  "id": "gap_4860_1_1",
+                  "order": 1,
+                  "text": "'ll be having",
+                  "value": "'ll be having",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4860_1_2",
+                  "order": 2,
+                  "text": "'m having",
+                  "value": "'m having",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4860_1_3",
+                  "order": 3,
+                  "text": "'ll have had",
+                  "value": "'ll have had",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4861",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 A: \"Is it true? {{gap1}} to Erika?\" B: \"Yes, I {{gap2}} so sure about anything in my life.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4861_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Are you going to propose",
+              "accepted_answers": [
+                "Are you going to propose"
+              ],
+              "options": [
+                {
+                  "id": "gap_4861_1_1",
+                  "order": 1,
+                  "text": "Are you going to propose",
+                  "value": "Are you going to propose",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4861_1_2",
+                  "order": 2,
+                  "text": "will you propose",
+                  "value": "will you propose",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4861_1_3",
+                  "order": 3,
+                  "text": "Are you proposing",
+                  "value": "Are you proposing",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4861_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'ve never been",
+              "accepted_answers": [
+                "'ve never been"
+              ],
+              "options": [
+                {
+                  "id": "gap_4861_2_1",
+                  "order": 1,
+                  "text": "was never being",
+                  "value": "was never being",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4861_2_2",
+                  "order": 2,
+                  "text": "never wasn't",
+                  "value": "never wasn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4861_2_3",
+                  "order": 3,
+                  "text": "'ve never been",
+                  "value": "'ve never been",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4862",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 It is estimated that by the year 2025, today's world population of 5.8 billion {{gap1}} to 8.3 billion and most of them {{gap2}} in cities.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4862_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "will have risen",
+              "accepted_answers": [
+                "will have risen"
+              ],
+              "options": [
+                {
+                  "id": "gap_4862_1_1",
+                  "order": 1,
+                  "text": "will have risen",
+                  "value": "will have risen",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4862_1_2",
+                  "order": 2,
+                  "text": "will be rising",
+                  "value": "will be rising",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4862_1_3",
+                  "order": 3,
+                  "text": "will rise",
+                  "value": "will rise",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4862_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "will be living",
+              "accepted_answers": [
+                "will be living"
+              ],
+              "options": [
+                {
+                  "id": "gap_4862_2_1",
+                  "order": 1,
+                  "text": "are going to live",
+                  "value": "are going to live",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4862_2_2",
+                  "order": 2,
+                  "text": "will be living",
+                  "value": "will be living",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4862_2_3",
+                  "order": 3,
+                  "text": "will live",
+                  "value": "will live",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-570",
+      "lessonId": "b1-b2_review_verb_tenses_b1_b2",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the most suitable verb tenses to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_review-verb-tenses-b1-b2_2.html",
+      "questions": [
+        {
+          "id": "4863",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Why do you look so tired? _____ the house?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4863_1",
+              "order": 1,
+              "text": "Did you clean",
+              "value": "7431",
+              "is_correct": false
+            },
+            {
+              "id": "4863_2",
+              "order": 2,
+              "text": "Have you cleaned",
+              "value": "7432",
+              "is_correct": false
+            },
+            {
+              "id": "4863_3",
+              "order": 3,
+              "text": "Have you been cleaning",
+              "value": "7433",
+              "is_correct": true
+            },
+            {
+              "id": "4863_4",
+              "order": 4,
+              "text": "Do you clean",
+              "value": "7438",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4864",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 When it was time to go home, we decided to take a taxi because we _____ too many beers.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4864_1",
+              "order": 1,
+              "text": "were drinking",
+              "value": "7434",
+              "is_correct": false
+            },
+            {
+              "id": "4864_2",
+              "order": 2,
+              "text": "had been drinking",
+              "value": "7435",
+              "is_correct": false
+            },
+            {
+              "id": "4864_3",
+              "order": 3,
+              "text": "had drunk",
+              "value": "7436",
+              "is_correct": true
+            },
+            {
+              "id": "4864_4",
+              "order": 4,
+              "text": "drank",
+              "value": "7437",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4865",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 If you start repairing the car now, do you think you _____ by the end of the day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4865_1",
+              "order": 1,
+              "text": "will be finishing",
+              "value": "7439",
+              "is_correct": false
+            },
+            {
+              "id": "4865_2",
+              "order": 2,
+              "text": "are going to finish",
+              "value": "7440",
+              "is_correct": false
+            },
+            {
+              "id": "4865_3",
+              "order": 3,
+              "text": "will have finished",
+              "value": "7441",
+              "is_correct": true
+            },
+            {
+              "id": "4865_4",
+              "order": 4,
+              "text": "will finish",
+              "value": "7442",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4866",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 A: \"I'm really thirsty.\" B: \"I _____ you some water.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4866_1",
+              "order": 1,
+              "text": "'m going to give",
+              "value": "7443",
+              "is_correct": false
+            },
+            {
+              "id": "4866_2",
+              "order": 2,
+              "text": "will be giving",
+              "value": "7444",
+              "is_correct": false
+            },
+            {
+              "id": "4866_3",
+              "order": 3,
+              "text": "'m giving",
+              "value": "7445",
+              "is_correct": false
+            },
+            {
+              "id": "4866_4",
+              "order": 4,
+              "text": "'ll give",
+              "value": "7446",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4867",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 We _____ for nearly an hour when we realised that we were totally lost.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4867_1",
+              "order": 1,
+              "text": "walked",
+              "value": "7447",
+              "is_correct": false
+            },
+            {
+              "id": "4867_2",
+              "order": 2,
+              "text": "had been walking",
+              "value": "7448",
+              "is_correct": true
+            },
+            {
+              "id": "4867_3",
+              "order": 3,
+              "text": "had walked",
+              "value": "7449",
+              "is_correct": false
+            },
+            {
+              "id": "4867_4",
+              "order": 4,
+              "text": "were walking",
+              "value": "7450",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4868",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 He stopped talking because nobody _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4868_1",
+              "order": 1,
+              "text": "listens",
+              "value": "7451",
+              "is_correct": false
+            },
+            {
+              "id": "4868_2",
+              "order": 2,
+              "text": "had listened",
+              "value": "7452",
+              "is_correct": false
+            },
+            {
+              "id": "4868_3",
+              "order": 3,
+              "text": "was listening",
+              "value": "7453",
+              "is_correct": true
+            },
+            {
+              "id": "4868_4",
+              "order": 4,
+              "text": "listened",
+              "value": "7454",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4869",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 In five years, 60% of the world's population _____ the internet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4869_1",
+              "order": 1,
+              "text": "will be using",
+              "value": "7455",
+              "is_correct": true
+            },
+            {
+              "id": "4869_2",
+              "order": 2,
+              "text": "are going to use",
+              "value": "7456",
+              "is_correct": false
+            },
+            {
+              "id": "4869_3",
+              "order": 3,
+              "text": "will use",
+              "value": "7457",
+              "is_correct": false
+            },
+            {
+              "id": "4869_4",
+              "order": 4,
+              "text": "are using",
+              "value": "7458",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4870",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 After breakfast, I _____ Janet. Do you want to talk with her too?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4870_1",
+              "order": 1,
+              "text": "call",
+              "value": "7459",
+              "is_correct": false
+            },
+            {
+              "id": "4870_2",
+              "order": 2,
+              "text": "will have called",
+              "value": "7460",
+              "is_correct": false
+            },
+            {
+              "id": "4870_3",
+              "order": 3,
+              "text": "will call",
+              "value": "7461",
+              "is_correct": false
+            },
+            {
+              "id": "4870_4",
+              "order": 4,
+              "text": "'m going to call",
+              "value": "7462",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4871",
+          "order": 9,
+          "type": "multiple_choice",
+          "text": "9 We ____ tomorrow after breakfast. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4871_1",
+              "order": 1,
+              "text": "are leaving",
+              "value": "7463",
+              "is_correct": true
+            },
+            {
+              "id": "4871_2",
+              "order": 2,
+              "text": "will leave",
+              "value": "7464",
+              "is_correct": true
+            },
+            {
+              "id": "4871_3",
+              "order": 3,
+              "text": "will be leaving",
+              "value": "7465",
+              "is_correct": false
+            },
+            {
+              "id": "4871_4",
+              "order": 4,
+              "text": "will have left",
+              "value": "7466",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4872",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Since they started, they _____ social media to promote their services.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4872_1",
+              "order": 1,
+              "text": "use",
+              "value": "7467",
+              "is_correct": false
+            },
+            {
+              "id": "4872_2",
+              "order": 2,
+              "text": "used",
+              "value": "7468",
+              "is_correct": false
+            },
+            {
+              "id": "4872_3",
+              "order": 3,
+              "text": "were using",
+              "value": "7469",
+              "is_correct": false
+            },
+            {
+              "id": "4872_4",
+              "order": 4,
+              "text": "have been using",
+              "value": "7470",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-571",
+      "lessonId": "b1-b2_review_verb_tenses_b1_b2",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences below with the verbs in brackets in the most suitable form: present simple or continuous, past simple or continuous, present perfect simple or continuous, past perfect simple or continuous, future simple, be going to, future continuous, or future perfect.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_review-verb-tenses-b1-b2_3.html",
+      "questions": [
+        {
+          "id": "4873",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 A: \" {{gap1}} (we/have) pizza for dinner?\" B: \"Yes. That'd be great! I {{gap2}} (order) one online.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4873_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Shall we have",
+              "accepted_answers": [
+                "Shall we have"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4873_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "will order",
+              "accepted_answers": [
+                "will order"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4874",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 They {{gap1}} (play) really well recently. If they keep playing like this, how many matches do you think they {{gap2}} (win) by the end of the season?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4874_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been playing",
+              "accepted_answers": [
+                "have been playing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4874_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "will have won",
+              "accepted_answers": [
+                "will have won"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4875",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 A: \"John? Where are you? I {{gap1}} (look) for you all day.\" B: \"Sorry. I {{gap2}} (be) at home all day. I'm not feeling well.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4875_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been looking",
+              "accepted_answers": [
+                "have been looking"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4875_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "have been",
+              "accepted_answers": [
+                "have been"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4876",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 They {{gap1}} (fly) for two hours when the captain {{gap2}} (tell) them that there was a problem in one of the engines.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4876_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had been flying",
+              "accepted_answers": [
+                "had been flying"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4876_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "told",
+              "accepted_answers": [
+                "told"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4877",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 It's Thanksgiving Day, and today at 3 p.m. most of us {{gap1}} (eating) our turkey. But some other people {{gap2}} (not finish) cooking by that time and they'll have to wait a little longer to eat.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4877_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "will be eating",
+              "accepted_answers": [
+                "will be eating"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4877_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "won't have finished",
+              "accepted_answers": [
+                "won't have finished"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4878",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 A: \" {{gap1}} (you/ever/travel) to India?\" B: \"Yes. I {{gap2}} (go) there a few years ago.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4878_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Have you ever travelled",
+              "accepted_answers": [
+                "Have you ever travelled"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4878_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "went",
+              "accepted_answers": [
+                "went"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4879",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 We really liked the Scottish Parliament. We {{gap1}} (visit) Edinburgh a few times before, but we {{gap2}} (never/see) the Parliament.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4879_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had visited",
+              "accepted_answers": [
+                "had visited"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4879_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "had never seen",
+              "accepted_answers": [
+                "had never seen"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4880",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 A: \"What {{gap1}} (you/do) with that piece of metal?\" B: Nothing. I {{gap2}} (just/find) it in the garden.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4880_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are you doing",
+              "accepted_answers": [
+                "are you doing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4880_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "have just found",
+              "accepted_answers": [
+                "have just found"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4881",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 A: \"I'm cold. {{gap1}} (you/turn on) the heating, please?\" B: \"Yes. I {{gap2}} (do) it immediately.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4881_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Will you turn on",
+              "accepted_answers": [
+                "Will you turn on"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4881_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "will do",
+              "accepted_answers": [
+                "will do"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4882",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 A: \"What time {{gap1}} (the train/arrive)?\" B: \"I'm not sure. I {{gap2}} (check) online.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4882_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "does the train arrive",
+              "accepted_answers": [
+                "does the train arrive"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4882_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "will check",
+              "accepted_answers": [
+                "will check"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

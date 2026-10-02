@@ -1,0 +1,1207 @@
+{
+  "lesson_id": "b1_adjective_preposition",
+  "level": "B1",
+  "title": "Adjective + preposition: Dependent prepositions",
+  "description": "Практический тест и правила по теме: Adjective + preposition: Dependent prepositions",
+  "theory": {
+    "title": "Правила и грамматика: Adjective + preposition: Dependent prepositions",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Adjective + preposition: Dependent prepositions».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Adjective + preposition: Dependent prepositions» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-584",
+      "lessonId": "b1_adjective_preposition",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct prepositions to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_adjective-preposition.html",
+      "questions": [
+        {
+          "id": "4978",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 We are super excited {{gap1}} the trip.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4978_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "about",
+              "accepted_answers": [
+                "about"
+              ],
+              "options": [
+                {
+                  "id": "gap_4978_1_1",
+                  "order": 1,
+                  "text": "about",
+                  "value": "about",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4978_1_2",
+                  "order": 2,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4978_1_3",
+                  "order": 3,
+                  "text": "on",
+                  "value": "on",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4978_1_4",
+                  "order": 4,
+                  "text": "of",
+                  "value": "of",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4979",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 He's famous {{gap1}} his science experiments on YouTube.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4979_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": [
+                {
+                  "id": "gap_4979_1_1",
+                  "order": 1,
+                  "text": "about",
+                  "value": "about",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4979_1_2",
+                  "order": 2,
+                  "text": "of",
+                  "value": "of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4979_1_3",
+                  "order": 3,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4979_1_4",
+                  "order": 4,
+                  "text": "with",
+                  "value": "with",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4980",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 He is totally different {{gap1}} his brother.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4980_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "from",
+              "accepted_answers": [
+                "from"
+              ],
+              "options": [
+                {
+                  "id": "gap_4980_1_1",
+                  "order": 1,
+                  "text": "from",
+                  "value": "from",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4980_1_2",
+                  "order": 2,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4980_1_3",
+                  "order": 3,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4980_1_4",
+                  "order": 4,
+                  "text": "of",
+                  "value": "of",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4981",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 You are very bad {{gap1}} lying.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4981_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "at",
+              "accepted_answers": [
+                "at"
+              ],
+              "options": [
+                {
+                  "id": "gap_4981_1_1",
+                  "order": 1,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4981_1_2",
+                  "order": 2,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4981_1_3",
+                  "order": 3,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4981_1_4",
+                  "order": 4,
+                  "text": "with",
+                  "value": "with",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4982",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 He isn't capable {{gap1}} taking care of himself.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4982_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "of",
+              "accepted_answers": [
+                "of"
+              ],
+              "options": [
+                {
+                  "id": "gap_4982_1_1",
+                  "order": 1,
+                  "text": "about",
+                  "value": "about",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4982_1_2",
+                  "order": 2,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4982_1_3",
+                  "order": 3,
+                  "text": "of",
+                  "value": "of",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4982_1_4",
+                  "order": 4,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4983",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 He's obsessed {{gap1}} his new toy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4983_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "with",
+              "accepted_answers": [
+                "with"
+              ],
+              "options": [
+                {
+                  "id": "gap_4983_1_1",
+                  "order": 1,
+                  "text": "with",
+                  "value": "with",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4983_1_2",
+                  "order": 2,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4983_1_3",
+                  "order": 3,
+                  "text": "of",
+                  "value": "of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4983_1_4",
+                  "order": 4,
+                  "text": "on",
+                  "value": "on",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4984",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 We're very proud {{gap1}} you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4984_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "of",
+              "accepted_answers": [
+                "of"
+              ],
+              "options": [
+                {
+                  "id": "gap_4984_1_1",
+                  "order": 1,
+                  "text": "of",
+                  "value": "of",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4984_1_2",
+                  "order": 2,
+                  "text": "about",
+                  "value": "about",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4984_1_3",
+                  "order": 3,
+                  "text": "with",
+                  "value": "with",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4984_1_4",
+                  "order": 4,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4985",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 How long have you been married {{gap1}} Liam?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4985_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": [
+                {
+                  "id": "gap_4985_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4985_1_2",
+                  "order": 2,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4985_1_3",
+                  "order": 3,
+                  "text": "with",
+                  "value": "with",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4985_1_4",
+                  "order": 4,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4986",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I'm fed up {{gap1}} my new boss. I hate him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4986_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "with",
+              "accepted_answers": [
+                "with"
+              ],
+              "options": [
+                {
+                  "id": "gap_4986_1_1",
+                  "order": 1,
+                  "text": "about",
+                  "value": "about",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4986_1_2",
+                  "order": 2,
+                  "text": "with",
+                  "value": "with",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4986_1_3",
+                  "order": 3,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4986_1_4",
+                  "order": 4,
+                  "text": "of",
+                  "value": "of",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4987",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I'm not very keen {{gap1}} having to wear a uniform, but I need the job.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4987_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "on",
+              "accepted_answers": [
+                "on"
+              ],
+              "options": [
+                {
+                  "id": "gap_4987_1_1",
+                  "order": 1,
+                  "text": "on",
+                  "value": "on",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4987_1_2",
+                  "order": 2,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4987_1_3",
+                  "order": 3,
+                  "text": "with",
+                  "value": "with",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4987_1_4",
+                  "order": 4,
+                  "text": "about",
+                  "value": "about",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-585",
+      "lessonId": "b1_adjective_preposition",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct prepositions for the following adjectives.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_adjective-preposition_2.html",
+      "questions": [
+        {
+          "id": "4998",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Katie is very similar in personality _____ her mother.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4998_1",
+              "order": 1,
+              "text": "to",
+              "value": "7670",
+              "is_correct": true
+            },
+            {
+              "id": "4998_2",
+              "order": 2,
+              "text": "at",
+              "value": "7671",
+              "is_correct": false
+            },
+            {
+              "id": "4998_3",
+              "order": 3,
+              "text": "of",
+              "value": "7672",
+              "is_correct": false
+            },
+            {
+              "id": "4998_4",
+              "order": 4,
+              "text": "with",
+              "value": "7673",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4999",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 Too much TV is very bad _____ kids.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4999_1",
+              "order": 1,
+              "text": "with",
+              "value": "7674",
+              "is_correct": false
+            },
+            {
+              "id": "4999_2",
+              "order": 2,
+              "text": "in",
+              "value": "7675",
+              "is_correct": false
+            },
+            {
+              "id": "4999_3",
+              "order": 3,
+              "text": "for",
+              "value": "7676",
+              "is_correct": true
+            },
+            {
+              "id": "4999_4",
+              "order": 4,
+              "text": "about",
+              "value": "7677",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5000",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I'm sorry ____ not writing sooner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5000_1",
+              "order": 1,
+              "text": "on",
+              "value": "7678",
+              "is_correct": false
+            },
+            {
+              "id": "5000_2",
+              "order": 2,
+              "text": "for",
+              "value": "7679",
+              "is_correct": true
+            },
+            {
+              "id": "5000_3",
+              "order": 3,
+              "text": "at",
+              "value": "7680",
+              "is_correct": false
+            },
+            {
+              "id": "5000_4",
+              "order": 4,
+              "text": "to",
+              "value": "7681",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5001",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I'm tired _____ listening to you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5001_1",
+              "order": 1,
+              "text": "in",
+              "value": "7682",
+              "is_correct": false
+            },
+            {
+              "id": "5001_2",
+              "order": 2,
+              "text": "at",
+              "value": "7683",
+              "is_correct": false
+            },
+            {
+              "id": "5001_3",
+              "order": 3,
+              "text": "about",
+              "value": "7684",
+              "is_correct": false
+            },
+            {
+              "id": "5001_4",
+              "order": 4,
+              "text": "of",
+              "value": "7685",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5002",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 He's very kind _____ the children.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5002_1",
+              "order": 1,
+              "text": "with",
+              "value": "7686",
+              "is_correct": false
+            },
+            {
+              "id": "5002_2",
+              "order": 2,
+              "text": "to",
+              "value": "7687",
+              "is_correct": true
+            },
+            {
+              "id": "5002_3",
+              "order": 3,
+              "text": "about",
+              "value": "7688",
+              "is_correct": false
+            },
+            {
+              "id": "5002_4",
+              "order": 4,
+              "text": "of",
+              "value": "7689",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5003",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 The British are very fond _____ tea.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5003_1",
+              "order": 1,
+              "text": "of",
+              "value": "7690",
+              "is_correct": true
+            },
+            {
+              "id": "5003_2",
+              "order": 2,
+              "text": "about",
+              "value": "7691",
+              "is_correct": false
+            },
+            {
+              "id": "5003_3",
+              "order": 3,
+              "text": "with",
+              "value": "7692",
+              "is_correct": false
+            },
+            {
+              "id": "5003_4",
+              "order": 4,
+              "text": "to",
+              "value": "7693",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5004",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 I think he's very angry _____ you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5004_1",
+              "order": 1,
+              "text": "with",
+              "value": "7702",
+              "is_correct": true
+            },
+            {
+              "id": "5004_2",
+              "order": 2,
+              "text": "of",
+              "value": "7703",
+              "is_correct": false
+            },
+            {
+              "id": "5004_3",
+              "order": 3,
+              "text": "to",
+              "value": "7704",
+              "is_correct": false
+            },
+            {
+              "id": "5004_4",
+              "order": 4,
+              "text": "for",
+              "value": "7705",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5005",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 The place was full ______ people and energy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5005_1",
+              "order": 1,
+              "text": "with",
+              "value": "7694",
+              "is_correct": false
+            },
+            {
+              "id": "5005_2",
+              "order": 2,
+              "text": "of",
+              "value": "7695",
+              "is_correct": true
+            },
+            {
+              "id": "5005_3",
+              "order": 3,
+              "text": "about",
+              "value": "7696",
+              "is_correct": false
+            },
+            {
+              "id": "5005_4",
+              "order": 4,
+              "text": "in",
+              "value": "7697",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5006",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Chocolate isn't good _____ you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5006_1",
+              "order": 1,
+              "text": "for",
+              "value": "7698",
+              "is_correct": true
+            },
+            {
+              "id": "5006_2",
+              "order": 2,
+              "text": "with",
+              "value": "7699",
+              "is_correct": false
+            },
+            {
+              "id": "5006_3",
+              "order": 3,
+              "text": "to",
+              "value": "7700",
+              "is_correct": false
+            },
+            {
+              "id": "5006_4",
+              "order": 4,
+              "text": "at",
+              "value": "7701",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5007",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I'm worried _____ James. He isn't doing well in school.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5007_1",
+              "order": 1,
+              "text": "with",
+              "value": "7706",
+              "is_correct": false
+            },
+            {
+              "id": "5007_2",
+              "order": 2,
+              "text": "of",
+              "value": "7707",
+              "is_correct": false
+            },
+            {
+              "id": "5007_3",
+              "order": 3,
+              "text": "about",
+              "value": "7708",
+              "is_correct": true
+            },
+            {
+              "id": "5007_4",
+              "order": 4,
+              "text": "to",
+              "value": "7709",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-586",
+      "lessonId": "b1_adjective_preposition",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in each gap with the correct prepositions: at, in, on, of, to, for, about, with.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_adjective-preposition_3.html",
+      "questions": [
+        {
+          "id": "4988",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I'm totally hooked {{gap1}} the new series.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4988_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "on",
+              "accepted_answers": [
+                "on"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4989",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 She's very interested {{gap1}} science.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4989_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "in",
+              "accepted_answers": [
+                "in"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4990",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Don't be rude {{gap1}} your father.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4990_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4991",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I'm sorry {{gap1}} what happened last night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4991_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "about",
+              "accepted_answers": [
+                "about"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4992",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 The workers are angry {{gap1}} the new measures.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4992_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "about",
+              "accepted_answers": [
+                "about"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4993",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 She's very close {{gap1}} her mother.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4993_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4994",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 We are very pleased {{gap1}} your work.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4994_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "with",
+              "accepted_answers": [
+                "with"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4995",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 I'm afraid {{gap1}} heights.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4995_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "of",
+              "accepted_answers": [
+                "of"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4996",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I'm totally addicted {{gap1}} caffeine.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4996_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4997",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Alex is very good {{gap1}} solving crossword puzzles.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4997_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "at",
+              "accepted_answers": [
+                "at"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

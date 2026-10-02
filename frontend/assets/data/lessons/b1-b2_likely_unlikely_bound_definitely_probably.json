@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1-b2_likely_unlikely_bound_definitely_probably",
+  "level": "B1-B2",
+  "title": "Likely, unlikely, bound, definitely, probably: Probability",
+  "description": "Практический тест и правила по теме: Likely, unlikely, bound, definitely, probably: Probability",
+  "theory": {
+    "title": "Правила и грамматика: Likely, unlikely, bound, definitely, probably: Probability",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Likely, unlikely, bound, definitely, probably: Probability».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Likely, unlikely, bound, definitely, probably: Probability» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-620",
+      "lessonId": "b1-b2_likely_unlikely_bound_definitely_probably",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Use likely, unlikely, bound, definitely, probably correctly to fill the gaps below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_likely-unlikely-bound-definitely-probably.html",
+      "questions": [
+        {
+          "id": "5336",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 They are the best team ever, so I think they {{gap1}} to win the final.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5336_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are bound",
+              "accepted_answers": [
+                "are bound"
+              ],
+              "options": [
+                {
+                  "id": "gap_5336_1_1",
+                  "order": 1,
+                  "text": "are unlikely",
+                  "value": "are unlikely",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5336_1_2",
+                  "order": 2,
+                  "text": "are bound",
+                  "value": "are bound",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5336_1_3",
+                  "order": 3,
+                  "text": "will definitely",
+                  "value": "will definitely",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5342",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 If you don't speak very slowly, they {{gap1}} understand you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5342_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "probably won't",
+              "accepted_answers": [
+                "probably won't"
+              ],
+              "options": [
+                {
+                  "id": "gap_5342_1_1",
+                  "order": 1,
+                  "text": "won't probably",
+                  "value": "won't probably",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5342_1_2",
+                  "order": 2,
+                  "text": "will not probably",
+                  "value": "will not probably",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5342_1_3",
+                  "order": 3,
+                  "text": "probably won't",
+                  "value": "probably won't",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5338",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 In this economy, {{gap1}} to find a buyer for the house.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5338_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "we are unlikely",
+              "accepted_answers": [
+                "we are unlikely"
+              ],
+              "options": [
+                {
+                  "id": "gap_5338_1_1",
+                  "order": 1,
+                  "text": "we are unlikely",
+                  "value": "we are unlikely",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5338_1_2",
+                  "order": 2,
+                  "text": "it is unlikely",
+                  "value": "it is unlikely",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5338_1_3",
+                  "order": 3,
+                  "text": "unlikely",
+                  "value": "unlikely",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5340",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 In this economy it's {{gap1}} find a buyer for the house.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5340_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "unlikely to",
+              "accepted_answers": [
+                "unlikely to"
+              ],
+              "options": [
+                {
+                  "id": "gap_5340_1_1",
+                  "order": 1,
+                  "text": "not probably to",
+                  "value": "not probably to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5340_1_2",
+                  "order": 2,
+                  "text": "unlikely that we'll",
+                  "value": "unlikely that we'll",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5340_1_3",
+                  "order": 3,
+                  "text": "unlikely to",
+                  "value": "unlikely to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5339",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 He {{gap1}} be one of our best employees.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5339_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "will definitely",
+              "accepted_answers": [
+                "will definitely"
+              ],
+              "options": [
+                {
+                  "id": "gap_5339_1_1",
+                  "order": 1,
+                  "text": "definitely will",
+                  "value": "definitely will",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5339_1_2",
+                  "order": 2,
+                  "text": "is bound",
+                  "value": "is bound",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5339_1_3",
+                  "order": 3,
+                  "text": "will definitely",
+                  "value": "will definitely",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5341",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Tomorrow's dinner party {{gap1}} be an unforgettable event.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5341_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is sure to",
+              "accepted_answers": [
+                "is sure to"
+              ],
+              "options": [
+                {
+                  "id": "gap_5341_1_1",
+                  "order": 1,
+                  "text": "is sure to",
+                  "value": "is sure to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5341_1_2",
+                  "order": 2,
+                  "text": "definitely will",
+                  "value": "definitely will",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5341_1_3",
+                  "order": 3,
+                  "text": "will unlikely",
+                  "value": "will unlikely",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5343",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 {{gap1}} increase again in November.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5343_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "It's likely that sales will",
+              "accepted_answers": [
+                "It's likely that sales will"
+              ],
+              "options": [
+                {
+                  "id": "gap_5343_1_1",
+                  "order": 1,
+                  "text": "It's likely that sales will",
+                  "value": "It's likely that sales will",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5343_1_2",
+                  "order": 2,
+                  "text": "Sales are likely",
+                  "value": "Sales are likely",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5343_1_3",
+                  "order": 3,
+                  "text": "Sales will unlikely",
+                  "value": "Sales will unlikely",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5344",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 {{gap1}} to increase again in November.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5344_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Sales are unlikely",
+              "accepted_answers": [
+                "Sales are unlikely"
+              ],
+              "options": [
+                {
+                  "id": "gap_5344_1_1",
+                  "order": 1,
+                  "text": "Sales will unlikely",
+                  "value": "Sales will unlikely",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5344_1_2",
+                  "order": 2,
+                  "text": "It's likely that sales",
+                  "value": "It's likely that sales",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5344_1_3",
+                  "order": 3,
+                  "text": "Sales are unlikely",
+                  "value": "Sales are unlikely",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5345",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 The new technology is {{gap1}} become obsolete very quickly.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5345_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "bound to",
+              "accepted_answers": [
+                "bound to"
+              ],
+              "options": [
+                {
+                  "id": "gap_5345_1_1",
+                  "order": 1,
+                  "text": "definitely",
+                  "value": "definitely",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5345_1_2",
+                  "order": 2,
+                  "text": "bound to",
+                  "value": "bound to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5345_1_3",
+                  "order": 3,
+                  "text": "unlikely",
+                  "value": "unlikely",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5346",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Some animals {{gap1}} survive this extreme weather.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5346_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "will probably not",
+              "accepted_answers": [
+                "will probably not"
+              ],
+              "options": [
+                {
+                  "id": "gap_5346_1_1",
+                  "order": 1,
+                  "text": "won't probably",
+                  "value": "won't probably",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5346_1_2",
+                  "order": 2,
+                  "text": "are unlikely",
+                  "value": "are unlikely",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5346_1_3",
+                  "order": 3,
+                  "text": "will probably not",
+                  "value": "will probably not",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-621",
+      "lessonId": "b1-b2_likely_unlikely_bound_definitely_probably",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct forms of likely, unlikely, bound, definitely, probably for these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_likely-unlikely-bound-definitely-probably_2.html",
+      "questions": [
+        {
+          "id": "5337",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 It's _____ get their money back.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5337_1",
+              "order": 1,
+              "text": "unlikely that they will",
+              "value": "8300",
+              "is_correct": false
+            },
+            {
+              "id": "5337_2",
+              "order": 2,
+              "text": "unlikely to",
+              "value": "8301",
+              "is_correct": true
+            },
+            {
+              "id": "5337_3",
+              "order": 3,
+              "text": "definitely that they will",
+              "value": "8302",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5348",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 _____ get their money back.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5348_1",
+              "order": 1,
+              "text": "It's unlikely to",
+              "value": "8306",
+              "is_correct": false
+            },
+            {
+              "id": "5348_2",
+              "order": 2,
+              "text": "They will unlikely",
+              "value": "8307",
+              "is_correct": false
+            },
+            {
+              "id": "5348_3",
+              "order": 3,
+              "text": "They are unlikely to",
+              "value": "8308",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5351",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 This _____ be his last mistake.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5351_1",
+              "order": 1,
+              "text": "definitely won't",
+              "value": "8315",
+              "is_correct": true
+            },
+            {
+              "id": "5351_2",
+              "order": 2,
+              "text": "won't definitely",
+              "value": "8316",
+              "is_correct": false
+            },
+            {
+              "id": "5351_3",
+              "order": 3,
+              "text": "definitely will not",
+              "value": "8317",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5349",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Floods, earthquakes, and tsunamis _____ happen more frequently in the future.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5349_1",
+              "order": 1,
+              "text": "are sure to",
+              "value": "8309",
+              "is_correct": true
+            },
+            {
+              "id": "5349_2",
+              "order": 2,
+              "text": "definitely will",
+              "value": "8310",
+              "is_correct": false
+            },
+            {
+              "id": "5349_3",
+              "order": 3,
+              "text": "are likely",
+              "value": "8311",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5347",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 People think _____ win.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5347_1",
+              "order": 1,
+              "text": "they're the most likely to",
+              "value": "8303",
+              "is_correct": true
+            },
+            {
+              "id": "5347_2",
+              "order": 2,
+              "text": "it's most likely",
+              "value": "8304",
+              "is_correct": false
+            },
+            {
+              "id": "5347_3",
+              "order": 3,
+              "text": "they it's most likely",
+              "value": "8305",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5350",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 The Dragons are the best. They _____ finish in the top three.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5350_1",
+              "order": 1,
+              "text": "are unlikely to",
+              "value": "8312",
+              "is_correct": false
+            },
+            {
+              "id": "5350_2",
+              "order": 2,
+              "text": "are bound to",
+              "value": "8313",
+              "is_correct": true
+            },
+            {
+              "id": "5350_3",
+              "order": 3,
+              "text": "probably will",
+              "value": "8314",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5352",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 He _____ send you a check.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5352_1",
+              "order": 1,
+              "text": "isn't probably going to",
+              "value": "8318",
+              "is_correct": false
+            },
+            {
+              "id": "5352_2",
+              "order": 2,
+              "text": "is probably not going to",
+              "value": "8319",
+              "is_correct": true
+            },
+            {
+              "id": "5352_3",
+              "order": 3,
+              "text": "will not probably",
+              "value": "8320",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5353",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 ______ give them a loan.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5353_1",
+              "order": 1,
+              "text": "Banks will unlikely",
+              "value": "8321",
+              "is_correct": false
+            },
+            {
+              "id": "5353_2",
+              "order": 2,
+              "text": "Banks are very unlikely that will",
+              "value": "8322",
+              "is_correct": false
+            },
+            {
+              "id": "5353_3",
+              "order": 3,
+              "text": "It's very unlikely that banks will",
+              "value": "8323",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5354",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 _____ give them a loan.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5354_1",
+              "order": 1,
+              "text": "Banks are very unlikely to",
+              "value": "8324",
+              "is_correct": true
+            },
+            {
+              "id": "5354_2",
+              "order": 2,
+              "text": "It's very unlikely banks to",
+              "value": "8325",
+              "is_correct": false
+            },
+            {
+              "id": "5354_3",
+              "order": 3,
+              "text": "Banks are very unlikely that will",
+              "value": "8326",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5355",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 If you can't admit your mistakes, _____ have problems.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5355_1",
+              "order": 1,
+              "text": "it's bound that you'll",
+              "value": "8327",
+              "is_correct": false
+            },
+            {
+              "id": "5355_2",
+              "order": 2,
+              "text": "you definitely will",
+              "value": "8328",
+              "is_correct": false
+            },
+            {
+              "id": "5355_3",
+              "order": 3,
+              "text": "you are bound to",
+              "value": "8329",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-622",
+      "lessonId": "b1-b2_likely_unlikely_bound_definitely_probably",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Write sentences with similar meanings. Use the words in brackets.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_likely-unlikely-bound-definitely-probably_3.html",
+      "questions": [
+        {
+          "id": "5356",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 They will probably not arrive early. ⇒ They {{gap1}} early. (unlikely)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5356_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are unlikely to arrive",
+              "accepted_answers": [
+                "are unlikely to arrive"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5357",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 She will definitely get good grades. ⇒ She {{gap1}} good grades. (sure)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5357_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is sure to get",
+              "accepted_answers": [
+                "is sure to get"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5358",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 You definitely won't have any problems. ⇒ {{gap1}} will have any problems. (very unlikely)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5358_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "It is very unlikely you",
+              "accepted_answers": [
+                "It is very unlikely you"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5359",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Tom probably won't be there. ⇒ Tom {{gap1}} there. (will not)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5359_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "probably will not be",
+              "accepted_answers": [
+                "probably will not be"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5360",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 They will definitely like each other. ⇒ They {{gap1}} each other. (bound)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5360_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are bound to like",
+              "accepted_answers": [
+                "are bound to like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5361",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 You will probably find what you are looking for. ⇒ You are {{gap1}} what you are looking for. (likely)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5361_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "likely to find",
+              "accepted_answers": [
+                "likely to find"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5362",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 It will definitely happen. ⇒ It {{gap1}}. (bound)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5362_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is bound to happen",
+              "accepted_answers": [
+                "is bound to happen"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5363",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 He is likely to win tonight. ⇒ It's {{gap1}} tonight. (likely)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5363_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "likely that he will win",
+              "accepted_answers": [
+                "likely that he will win"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5364",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Kevin probably won't find a job soon. ⇒ Kevin {{gap1}} a job soon. (unlikely)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5364_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is unlikely to find",
+              "accepted_answers": [
+                "is unlikely to find"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5365",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 You should definitely not be here. ⇒ You {{gap1}} here. (shouldn't)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5365_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "definitely shouldn't be",
+              "accepted_answers": [
+                "definitely shouldn't be"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1325 @@
+{
+  "lesson_id": "a1_next_to_under_between_in_front_behind_etc",
+  "level": "A1",
+  "title": "Next to, under, between, in front of, behind, over, etc.",
+  "description": "Практический тест и правила по теме: Next to, under, between, in front of, behind, over, etc.",
+  "theory": {
+    "title": "Правила и грамматика: Next to, under, between, in front of, behind, over, etc.",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Next to, under, between, in front of, behind, over, etc.».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Next to, under, between, in front of, behind, over, etc.» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-589",
+      "lessonId": "a1_next_to_under_between_in_front_behind_etc",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Look at the pictures and choose the correct prepositions of place.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_next-to-under-between-in-front-behind-etc.html",
+      "questions": [
+        {
+          "id": "5030",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 There is a cat {{gap1}} the table.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5030_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "under",
+              "accepted_answers": [
+                "under"
+              ],
+              "options": [
+                {
+                  "id": "gap_5030_1_1",
+                  "order": 1,
+                  "text": "next to",
+                  "value": "next to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5030_1_2",
+                  "order": 2,
+                  "text": "under",
+                  "value": "under",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5030_1_3",
+                  "order": 3,
+                  "text": "above",
+                  "value": "above",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5030_1_4",
+                  "order": 4,
+                  "text": "between",
+                  "value": "between",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5030_1_5",
+                  "order": 5,
+                  "text": "behind",
+                  "value": "behind",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5031",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 The woman is sleeping {{gap1}} the books.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5031_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "under",
+              "accepted_answers": [
+                "under"
+              ],
+              "options": [
+                {
+                  "id": "gap_5031_1_1",
+                  "order": 1,
+                  "text": "above",
+                  "value": "above",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5031_1_2",
+                  "order": 2,
+                  "text": "next to",
+                  "value": "next to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5031_1_3",
+                  "order": 3,
+                  "text": "behind",
+                  "value": "behind",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5031_1_4",
+                  "order": 4,
+                  "text": "in front of",
+                  "value": "in front of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5031_1_5",
+                  "order": 5,
+                  "text": "under",
+                  "value": "under",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5032",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 There are some clouds {{gap1}} the building.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5032_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "above",
+              "accepted_answers": [
+                "above"
+              ],
+              "options": [
+                {
+                  "id": "gap_5032_1_1",
+                  "order": 1,
+                  "text": "beside",
+                  "value": "beside",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5032_1_2",
+                  "order": 2,
+                  "text": "above",
+                  "value": "above",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5032_1_3",
+                  "order": 3,
+                  "text": "behind",
+                  "value": "behind",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5032_1_4",
+                  "order": 4,
+                  "text": "under",
+                  "value": "under",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5032_1_5",
+                  "order": 5,
+                  "text": "opposite",
+                  "value": "opposite",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5033",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Janet is sitting {{gap1}} Tom.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5033_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "next to",
+              "accepted_answers": [
+                "next to"
+              ],
+              "options": [
+                {
+                  "id": "gap_5033_1_1",
+                  "order": 1,
+                  "text": "next to",
+                  "value": "next to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5033_1_2",
+                  "order": 2,
+                  "text": "in front of",
+                  "value": "in front of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5033_1_3",
+                  "order": 3,
+                  "text": "behind",
+                  "value": "behind",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5033_1_4",
+                  "order": 4,
+                  "text": "between",
+                  "value": "between",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5033_1_5",
+                  "order": 5,
+                  "text": "opposite",
+                  "value": "opposite",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5034",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 There is a cat {{gap1}} the dogs.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5034_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "between",
+              "accepted_answers": [
+                "between"
+              ],
+              "options": [
+                {
+                  "id": "gap_5034_1_1",
+                  "order": 1,
+                  "text": "between",
+                  "value": "between",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5034_1_2",
+                  "order": 2,
+                  "text": "beside",
+                  "value": "beside",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5034_1_3",
+                  "order": 3,
+                  "text": "above",
+                  "value": "above",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5034_1_4",
+                  "order": 4,
+                  "text": "in front of",
+                  "value": "in front of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5034_1_5",
+                  "order": 5,
+                  "text": "under",
+                  "value": "under",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5035",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Janet is sitting {{gap1}} Tom.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5035_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "next to",
+              "accepted_answers": [
+                "next to"
+              ],
+              "options": [
+                {
+                  "id": "gap_5035_1_1",
+                  "order": 1,
+                  "text": "in front of",
+                  "value": "in front of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5035_1_2",
+                  "order": 2,
+                  "text": "behind",
+                  "value": "behind",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5035_1_3",
+                  "order": 3,
+                  "text": "next to",
+                  "value": "next to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5035_1_4",
+                  "order": 4,
+                  "text": "between",
+                  "value": "between",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5035_1_5",
+                  "order": 5,
+                  "text": "opposite",
+                  "value": "opposite",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5036",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Janet is sitting {{gap1}} a blond woman.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5036_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "beside",
+              "accepted_answers": [
+                "beside"
+              ],
+              "options": [
+                {
+                  "id": "gap_5036_1_1",
+                  "order": 1,
+                  "text": "in front of",
+                  "value": "in front of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5036_1_2",
+                  "order": 2,
+                  "text": "beside",
+                  "value": "beside",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5036_1_3",
+                  "order": 3,
+                  "text": "above",
+                  "value": "above",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5036_1_4",
+                  "order": 4,
+                  "text": "opposite",
+                  "value": "opposite",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5036_1_5",
+                  "order": 5,
+                  "text": "behind",
+                  "value": "behind",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5037",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Linda is sitting {{gap1}} Jack and Harry.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5037_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "between",
+              "accepted_answers": [
+                "between"
+              ],
+              "options": [
+                {
+                  "id": "gap_5037_1_1",
+                  "order": 1,
+                  "text": "between",
+                  "value": "between",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5037_1_2",
+                  "order": 2,
+                  "text": "behind",
+                  "value": "behind",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5037_1_3",
+                  "order": 3,
+                  "text": "opposite",
+                  "value": "opposite",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5037_1_4",
+                  "order": 4,
+                  "text": "next to",
+                  "value": "next to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5037_1_5",
+                  "order": 5,
+                  "text": "above",
+                  "value": "above",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5038",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 The ball is {{gap1}} the net.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5038_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "behind",
+              "accepted_answers": [
+                "behind"
+              ],
+              "options": [
+                {
+                  "id": "gap_5038_1_1",
+                  "order": 1,
+                  "text": "under",
+                  "value": "under",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5038_1_2",
+                  "order": 2,
+                  "text": "over",
+                  "value": "over",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5038_1_3",
+                  "order": 3,
+                  "text": "behind",
+                  "value": "behind",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5038_1_4",
+                  "order": 4,
+                  "text": "beside",
+                  "value": "beside",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5038_1_5",
+                  "order": 5,
+                  "text": "in front of",
+                  "value": "in front of",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5039",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 The dog is standing {{gap1}} the cat.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5039_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "next to",
+              "accepted_answers": [
+                "next to"
+              ],
+              "options": [
+                {
+                  "id": "gap_5039_1_1",
+                  "order": 1,
+                  "text": "behind",
+                  "value": "behind",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5039_1_2",
+                  "order": 2,
+                  "text": "next to",
+                  "value": "next to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5039_1_3",
+                  "order": 3,
+                  "text": "between",
+                  "value": "between",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5039_1_4",
+                  "order": 4,
+                  "text": "in front of",
+                  "value": "in front of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5039_1_5",
+                  "order": 5,
+                  "text": "opposite",
+                  "value": "opposite",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-590",
+      "lessonId": "a1_next_to_under_between_in_front_behind_etc",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct preposition of place to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_next-to-under-between-in-front-behind-etc_2.html",
+      "questions": [
+        {
+          "id": "5040",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 The ball is _____ the dog.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5040_1",
+              "order": 1,
+              "text": "in front of",
+              "value": "7969",
+              "is_correct": true
+            },
+            {
+              "id": "5040_2",
+              "order": 2,
+              "text": "beside",
+              "value": "7970",
+              "is_correct": false
+            },
+            {
+              "id": "5040_3",
+              "order": 3,
+              "text": "between",
+              "value": "7971",
+              "is_correct": false
+            },
+            {
+              "id": "5040_4",
+              "order": 4,
+              "text": "opposite",
+              "value": "7972",
+              "is_correct": false
+            },
+            {
+              "id": "5040_5",
+              "order": 5,
+              "text": "under",
+              "value": "7973",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5041",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 The ball is _____ the dog.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5041_1",
+              "order": 1,
+              "text": "in front of",
+              "value": "7974",
+              "is_correct": false
+            },
+            {
+              "id": "5041_2",
+              "order": 2,
+              "text": "beside",
+              "value": "7975",
+              "is_correct": false
+            },
+            {
+              "id": "5041_3",
+              "order": 3,
+              "text": "above",
+              "value": "7976",
+              "is_correct": false
+            },
+            {
+              "id": "5041_4",
+              "order": 4,
+              "text": "behind",
+              "value": "7977",
+              "is_correct": true
+            },
+            {
+              "id": "5041_5",
+              "order": 5,
+              "text": "opposite",
+              "value": "7978",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5042",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 The dog is _____ the cat.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5042_1",
+              "order": 1,
+              "text": "in front of",
+              "value": "7979",
+              "is_correct": false
+            },
+            {
+              "id": "5042_2",
+              "order": 2,
+              "text": "next to",
+              "value": "7980",
+              "is_correct": true
+            },
+            {
+              "id": "5042_3",
+              "order": 3,
+              "text": "above",
+              "value": "7981",
+              "is_correct": false
+            },
+            {
+              "id": "5042_4",
+              "order": 4,
+              "text": "behind",
+              "value": "7982",
+              "is_correct": false
+            },
+            {
+              "id": "5042_5",
+              "order": 5,
+              "text": "opposite",
+              "value": "7983",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5043",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 The dog is _____ the ball.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5043_1",
+              "order": 1,
+              "text": "in front of",
+              "value": "7984",
+              "is_correct": true
+            },
+            {
+              "id": "5043_2",
+              "order": 2,
+              "text": "beside",
+              "value": "7985",
+              "is_correct": false
+            },
+            {
+              "id": "5043_3",
+              "order": 3,
+              "text": "between",
+              "value": "7986",
+              "is_correct": false
+            },
+            {
+              "id": "5043_4",
+              "order": 4,
+              "text": "under",
+              "value": "7987",
+              "is_correct": false
+            },
+            {
+              "id": "5043_5",
+              "order": 5,
+              "text": "behind",
+              "value": "7988",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5044",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 The ball is _____ the dog.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5044_1",
+              "order": 1,
+              "text": "in front of",
+              "value": "7989",
+              "is_correct": true
+            },
+            {
+              "id": "5044_2",
+              "order": 2,
+              "text": "opposite",
+              "value": "7990",
+              "is_correct": false
+            },
+            {
+              "id": "5044_3",
+              "order": 3,
+              "text": "between",
+              "value": "7991",
+              "is_correct": false
+            },
+            {
+              "id": "5044_4",
+              "order": 4,
+              "text": "next to",
+              "value": "7992",
+              "is_correct": false
+            },
+            {
+              "id": "5044_5",
+              "order": 5,
+              "text": "behind",
+              "value": "7993",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5045",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 The ball is _____ the dog.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5045_1",
+              "order": 1,
+              "text": "beside",
+              "value": "7994",
+              "is_correct": true
+            },
+            {
+              "id": "5045_2",
+              "order": 2,
+              "text": "over",
+              "value": "7995",
+              "is_correct": false
+            },
+            {
+              "id": "5045_3",
+              "order": 3,
+              "text": "under",
+              "value": "7996",
+              "is_correct": false
+            },
+            {
+              "id": "5045_4",
+              "order": 4,
+              "text": "behind",
+              "value": "7997",
+              "is_correct": false
+            },
+            {
+              "id": "5045_5",
+              "order": 5,
+              "text": "opposite",
+              "value": "7998",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5046",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 The dog is _____ the ball.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5046_1",
+              "order": 1,
+              "text": "behind",
+              "value": "7999",
+              "is_correct": false
+            },
+            {
+              "id": "5046_2",
+              "order": 2,
+              "text": "next to",
+              "value": "8000",
+              "is_correct": true
+            },
+            {
+              "id": "5046_3",
+              "order": 3,
+              "text": "under",
+              "value": "8001",
+              "is_correct": false
+            },
+            {
+              "id": "5046_4",
+              "order": 4,
+              "text": "over",
+              "value": "8002",
+              "is_correct": false
+            },
+            {
+              "id": "5046_5",
+              "order": 5,
+              "text": "between",
+              "value": "8003",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5048",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 The bear is _____ the blanket.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5048_1",
+              "order": 1,
+              "text": "under",
+              "value": "8009",
+              "is_correct": true
+            },
+            {
+              "id": "5048_2",
+              "order": 2,
+              "text": "above",
+              "value": "8010",
+              "is_correct": false
+            },
+            {
+              "id": "5048_3",
+              "order": 3,
+              "text": "behind",
+              "value": "8011",
+              "is_correct": false
+            },
+            {
+              "id": "5048_4",
+              "order": 4,
+              "text": "beside",
+              "value": "8012",
+              "is_correct": false
+            },
+            {
+              "id": "5048_5",
+              "order": 5,
+              "text": "between",
+              "value": "8013",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5047",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 The ball is _____ the dog.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5047_1",
+              "order": 1,
+              "text": "in front of",
+              "value": "8004",
+              "is_correct": true
+            },
+            {
+              "id": "5047_2",
+              "order": 2,
+              "text": "next to",
+              "value": "8005",
+              "is_correct": false
+            },
+            {
+              "id": "5047_3",
+              "order": 3,
+              "text": "under",
+              "value": "8006",
+              "is_correct": false
+            },
+            {
+              "id": "5047_4",
+              "order": 4,
+              "text": "over",
+              "value": "8007",
+              "is_correct": false
+            },
+            {
+              "id": "5047_5",
+              "order": 5,
+              "text": "behind",
+              "value": "8008",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5049",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 The dog is _____ the balls.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5049_1",
+              "order": 1,
+              "text": "behind",
+              "value": "8014",
+              "is_correct": false
+            },
+            {
+              "id": "5049_2",
+              "order": 2,
+              "text": "between",
+              "value": "8015",
+              "is_correct": true
+            },
+            {
+              "id": "5049_3",
+              "order": 3,
+              "text": "under",
+              "value": "8016",
+              "is_correct": false
+            },
+            {
+              "id": "5049_4",
+              "order": 4,
+              "text": "next to",
+              "value": "8017",
+              "is_correct": false
+            },
+            {
+              "id": "5049_5",
+              "order": 5,
+              "text": "opposite",
+              "value": "8018",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-591",
+      "lessonId": "a1_next_to_under_between_in_front_behind_etc",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Write the correct preposition of place in each gap. You must use all the prepositions in the table below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_next-to-under-between-in-front-behind-etc_3.html",
+      "questions": [
+        {
+          "id": "5050",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Diego is standing {{gap1}} Laura (2).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5050_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "next to",
+              "accepted_answers": [
+                "next to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5051",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Laura is standing {{gap1}} the table (6).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5051_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "behind",
+              "accepted_answers": [
+                "behind"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5052",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 The pans are hanging {{gap1}} the table (6).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5052_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "above",
+              "accepted_answers": [
+                "above"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5053",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 David is standing {{gap1}} Martha (5).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5053_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "behind",
+              "accepted_answers": [
+                "behind"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5054",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Martha is standing {{gap1}} David (4).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5054_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "behind",
+              "accepted_answers": [
+                "behind"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5055",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 The table is {{gap1}} the pans (3).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5055_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "under",
+              "accepted_answers": [
+                "under"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5056",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 The painting is {{gap1}} Martha (5).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5056_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "above",
+              "accepted_answers": [
+                "above"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5057",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 The red chilies are hanging {{gap1}} the cooker.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5057_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "above",
+              "accepted_answers": [
+                "above"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5058",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 You can see Martin {{gap1}} Diego (1) and Laura (2).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5058_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "between",
+              "accepted_answers": [
+                "between"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

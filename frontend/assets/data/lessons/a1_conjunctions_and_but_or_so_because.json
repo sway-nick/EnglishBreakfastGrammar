@@ -1,0 +1,1262 @@
+{
+  "lesson_id": "a1_conjunctions_and_but_or_so_because",
+  "level": "A1",
+  "title": "Conjunctions: And, but, or, so, because",
+  "description": "Практический тест и правила по теме: Conjunctions: And, but, or, so, because",
+  "theory": {
+    "title": "Правила и грамматика: Conjunctions: And, but, or, so, because",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Conjunctions: And, but, or, so, because».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Conjunctions: And, but, or, so, because» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-669",
+      "lessonId": "a1_conjunctions_and_but_or_so_because",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose and, but, or, so, because to complete each sentence.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_conjunctions_and-but-or-so-because.html",
+      "questions": [
+        {
+          "id": "5725",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I called Tom, {{gap1}} he didn't answer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5725_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "but",
+              "accepted_answers": [
+                "but"
+              ],
+              "options": [
+                {
+                  "id": "gap_5725_1_1",
+                  "order": 1,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5725_1_2",
+                  "order": 2,
+                  "text": "or",
+                  "value": "or",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5725_1_3",
+                  "order": 3,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5725_1_4",
+                  "order": 4,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5726",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I'm tired {{gap1}} I went to bed very late.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5726_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "because",
+              "accepted_answers": [
+                "because"
+              ],
+              "options": [
+                {
+                  "id": "gap_5726_1_1",
+                  "order": 1,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5726_1_2",
+                  "order": 2,
+                  "text": "and",
+                  "value": "and",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5726_1_3",
+                  "order": 3,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5726_1_4",
+                  "order": 4,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5727",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 It was very late, {{gap1}} we took a taxi.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5727_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": [
+                {
+                  "id": "gap_5727_1_1",
+                  "order": 1,
+                  "text": "or",
+                  "value": "or",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5727_1_2",
+                  "order": 2,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5727_1_3",
+                  "order": 3,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5727_1_4",
+                  "order": 4,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5730",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 You can go by bus {{gap1}} by train.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5730_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "or",
+              "accepted_answers": [
+                "or"
+              ],
+              "options": [
+                {
+                  "id": "gap_5730_1_1",
+                  "order": 1,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5730_1_2",
+                  "order": 2,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5730_1_3",
+                  "order": 3,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5730_1_4",
+                  "order": 4,
+                  "text": "or",
+                  "value": "or",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5734",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 She got into the car {{gap1}} left.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5734_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "and",
+              "accepted_answers": [
+                "and"
+              ],
+              "options": [
+                {
+                  "id": "gap_5734_1_1",
+                  "order": 1,
+                  "text": "or",
+                  "value": "or",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5734_1_2",
+                  "order": 2,
+                  "text": "and",
+                  "value": "and",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5734_1_3",
+                  "order": 3,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5734_1_4",
+                  "order": 4,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5731",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 I called you {{gap1}} I was worried.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5731_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "because",
+              "accepted_answers": [
+                "because"
+              ],
+              "options": [
+                {
+                  "id": "gap_5731_1_1",
+                  "order": 1,
+                  "text": "and",
+                  "value": "and",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5731_1_2",
+                  "order": 2,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5731_1_3",
+                  "order": 3,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5731_1_4",
+                  "order": 4,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5729",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Would you like to do it now {{gap1}} later?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5729_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "or",
+              "accepted_answers": [
+                "or"
+              ],
+              "options": [
+                {
+                  "id": "gap_5729_1_1",
+                  "order": 1,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5729_1_2",
+                  "order": 2,
+                  "text": "and",
+                  "value": "and",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5729_1_3",
+                  "order": 3,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5729_1_4",
+                  "order": 4,
+                  "text": "or",
+                  "value": "or",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5732",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 She can sing, {{gap1}} she can't dance.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5732_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "but",
+              "accepted_answers": [
+                "but"
+              ],
+              "options": [
+                {
+                  "id": "gap_5732_1_1",
+                  "order": 1,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5732_1_2",
+                  "order": 2,
+                  "text": "and",
+                  "value": "and",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5732_1_3",
+                  "order": 3,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5732_1_4",
+                  "order": 4,
+                  "text": "or",
+                  "value": "or",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5728",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I wasn't hungry, {{gap1}} I didn't eat.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5728_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": [
+                {
+                  "id": "gap_5728_1_1",
+                  "order": 1,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5728_1_2",
+                  "order": 2,
+                  "text": "or",
+                  "value": "or",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5728_1_3",
+                  "order": 3,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5728_1_4",
+                  "order": 4,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5733",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I have one brother {{gap1}} two sisters.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5733_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "and",
+              "accepted_answers": [
+                "and"
+              ],
+              "options": [
+                {
+                  "id": "gap_5733_1_1",
+                  "order": 1,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5733_1_2",
+                  "order": 2,
+                  "text": "and",
+                  "value": "and",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_5733_1_3",
+                  "order": 3,
+                  "text": "or",
+                  "value": "or",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_5733_1_4",
+                  "order": 4,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-670",
+      "lessonId": "a1_conjunctions_and_but_or_so_because",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose and, but, or, so, because to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_conjunctions_and-but-or-so-because_2.html",
+      "questions": [
+        {
+          "id": "5735",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I don't have any brothers _____ sisters. I'm an only child.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5735_1",
+              "order": 1,
+              "text": "or",
+              "value": "9232",
+              "is_correct": true
+            },
+            {
+              "id": "5735_2",
+              "order": 2,
+              "text": "and",
+              "value": "9233",
+              "is_correct": false
+            },
+            {
+              "id": "5735_3",
+              "order": 3,
+              "text": "but",
+              "value": "9234",
+              "is_correct": false
+            },
+            {
+              "id": "5735_4",
+              "order": 4,
+              "text": "because",
+              "value": "9235",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5736",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I get home at around 7 p.m., _____ then I make dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5736_1",
+              "order": 1,
+              "text": "but",
+              "value": "9236",
+              "is_correct": false
+            },
+            {
+              "id": "5736_2",
+              "order": 2,
+              "text": "and",
+              "value": "9237",
+              "is_correct": true
+            },
+            {
+              "id": "5736_3",
+              "order": 3,
+              "text": "or",
+              "value": "9238",
+              "is_correct": false
+            },
+            {
+              "id": "5736_4",
+              "order": 4,
+              "text": "because",
+              "value": "9239",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5738",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 It's raining, _____ we should take our umbrellas.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5738_1",
+              "order": 1,
+              "text": "and",
+              "value": "9244",
+              "is_correct": false
+            },
+            {
+              "id": "5738_2",
+              "order": 2,
+              "text": "but",
+              "value": "9245",
+              "is_correct": false
+            },
+            {
+              "id": "5738_3",
+              "order": 3,
+              "text": "because",
+              "value": "9246",
+              "is_correct": false
+            },
+            {
+              "id": "5738_4",
+              "order": 4,
+              "text": "so",
+              "value": "9247",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5739",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 She went home _____ she wasn't feeling very well.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5739_1",
+              "order": 1,
+              "text": "because",
+              "value": "9248",
+              "is_correct": true
+            },
+            {
+              "id": "5739_2",
+              "order": 2,
+              "text": "and",
+              "value": "9249",
+              "is_correct": false
+            },
+            {
+              "id": "5739_3",
+              "order": 3,
+              "text": "but",
+              "value": "9250",
+              "is_correct": false
+            },
+            {
+              "id": "5739_4",
+              "order": 4,
+              "text": "so",
+              "value": "9251",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5740",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 We had a little accident, _____ everybody is OK.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5740_1",
+              "order": 1,
+              "text": "and",
+              "value": "9252",
+              "is_correct": false
+            },
+            {
+              "id": "5740_2",
+              "order": 2,
+              "text": "but",
+              "value": "9253",
+              "is_correct": true
+            },
+            {
+              "id": "5740_3",
+              "order": 3,
+              "text": "or",
+              "value": "9254",
+              "is_correct": false
+            },
+            {
+              "id": "5740_4",
+              "order": 4,
+              "text": "so",
+              "value": "9255",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5737",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I bought a pair of shoes in the sales, _____ my wife bought a new dress.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5737_1",
+              "order": 1,
+              "text": "because",
+              "value": "9240",
+              "is_correct": false
+            },
+            {
+              "id": "5737_2",
+              "order": 2,
+              "text": "or",
+              "value": "9241",
+              "is_correct": false
+            },
+            {
+              "id": "5737_3",
+              "order": 3,
+              "text": "and",
+              "value": "9242",
+              "is_correct": true
+            },
+            {
+              "id": "5737_4",
+              "order": 4,
+              "text": "but",
+              "value": "9243",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5741",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 It was a fantastic opportunity, _____ I decided to take it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5741_1",
+              "order": 1,
+              "text": "because",
+              "value": "9256",
+              "is_correct": false
+            },
+            {
+              "id": "5741_2",
+              "order": 2,
+              "text": "or",
+              "value": "9257",
+              "is_correct": false
+            },
+            {
+              "id": "5741_3",
+              "order": 3,
+              "text": "so",
+              "value": "9258",
+              "is_correct": true
+            },
+            {
+              "id": "5741_4",
+              "order": 4,
+              "text": "and",
+              "value": "9259",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5742",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I didn't tell you the truth _____ I didn't want to hurt your feelings.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5742_1",
+              "order": 1,
+              "text": "so",
+              "value": "9260",
+              "is_correct": false
+            },
+            {
+              "id": "5742_2",
+              "order": 2,
+              "text": "because",
+              "value": "9261",
+              "is_correct": true
+            },
+            {
+              "id": "5742_3",
+              "order": 3,
+              "text": "and",
+              "value": "9262",
+              "is_correct": false
+            },
+            {
+              "id": "5742_4",
+              "order": 4,
+              "text": "but",
+              "value": "9263",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "5743",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I hated the present, _____ I said it was great.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5743_1",
+              "order": 1,
+              "text": "so",
+              "value": "9264",
+              "is_correct": false
+            },
+            {
+              "id": "5743_2",
+              "order": 2,
+              "text": "or",
+              "value": "9265",
+              "is_correct": false
+            },
+            {
+              "id": "5743_3",
+              "order": 3,
+              "text": "because",
+              "value": "9266",
+              "is_correct": false
+            },
+            {
+              "id": "5743_4",
+              "order": 4,
+              "text": "but",
+              "value": "9267",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "5744",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 We can do it now _____ after lunch.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "5744_1",
+              "order": 1,
+              "text": "or",
+              "value": "9268",
+              "is_correct": true
+            },
+            {
+              "id": "5744_2",
+              "order": 2,
+              "text": "but",
+              "value": "9269",
+              "is_correct": false
+            },
+            {
+              "id": "5744_3",
+              "order": 3,
+              "text": "and",
+              "value": "9270",
+              "is_correct": false
+            },
+            {
+              "id": "5744_4",
+              "order": 4,
+              "text": "because",
+              "value": "9271",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-671",
+      "lessonId": "a1_conjunctions_and_but_or_so_because",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in each gap using one of these conjunctions: and, but, or, so, because.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_conjunctions_and-but-or-so-because_3.html",
+      "questions": [
+        {
+          "id": "5745",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I have a car, {{gap1}} I never drive to work {{gap2}} the tube is faster.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5745_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "but",
+              "accepted_answers": [
+                "but"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_5745_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "because",
+              "accepted_answers": [
+                "because"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5750",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 We couldn't do any shopping {{gap1}} it was a holiday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5750_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "because",
+              "accepted_answers": [
+                "because"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5747",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Junk food is delicious {{gap1}} very unhealthy, {{gap2}} you should not eat it very often.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5747_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "but",
+              "accepted_answers": [
+                "but"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_5747_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5751",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I knew Sara could help me, {{gap1}} I asked her for help.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5751_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5753",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Would you like to watch a film at home {{gap1}} to go to the movies?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5753_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "or",
+              "accepted_answers": [
+                "or"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5748",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I wasn't feeling well, {{gap1}} I went to the doctor, {{gap2}} he told me that I need to start a diet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5748_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_5748_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "and",
+              "accepted_answers": [
+                "and"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5746",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 I'm from the UK, {{gap1}} I live in the US {{gap2}} my wife is American.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5746_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "but",
+              "accepted_answers": [
+                "but"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_5746_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "because",
+              "accepted_answers": [
+                "because"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5752",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 He's a great person, {{gap1}} he's totally crazy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5752_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "but",
+              "accepted_answers": [
+                "but"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5749",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 My brother is easy-going {{gap1}} positive, {{gap2}} my sister is very pessimistic.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5749_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "and",
+              "accepted_answers": [
+                "and"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_5749_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "but",
+              "accepted_answers": [
+                "but"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "5754",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 The city is expensive. You should rent a room in a shared flat {{gap1}} a small studio.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_5754_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "or",
+              "accepted_answers": [
+                "or"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

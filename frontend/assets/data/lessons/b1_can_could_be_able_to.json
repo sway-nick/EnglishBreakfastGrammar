@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1_can_could_be_able_to",
+  "level": "B1",
+  "title": "Can, could, be able to: Ability and possibility",
+  "description": "Практический тест и правила по теме: Can, could, be able to: Ability and possibility",
+  "theory": {
+    "title": "Правила и грамматика: Can, could, be able to: Ability and possibility",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Can, could, be able to: Ability and possibility».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Can, could, be able to: Ability and possibility» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-197",
+      "lessonId": "b1_can_could_be_able_to",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct form of can, could, be able to (affirmative or negative). Use a form of be able to only if a form of can or could is not possible.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_can-could-be-able-to.html",
+      "questions": [
+        {
+          "id": "1659",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Can you read this for me? I {{gap1}} see without my glasses.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1659_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can't",
+              "accepted_answers": [
+                "can't"
+              ],
+              "options": [
+                {
+                  "id": "gap_1659_1_1",
+                  "order": 1,
+                  "text": "'m not able to",
+                  "value": "'m not able to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1659_1_2",
+                  "order": 2,
+                  "text": "couldn't",
+                  "value": "couldn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1659_1_3",
+                  "order": 3,
+                  "text": "can't",
+                  "value": "can't",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1660",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I've never {{gap1}} speak Spanish as well as my brother.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1660_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "been able to",
+              "accepted_answers": [
+                "been able to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1660_1_1",
+                  "order": 1,
+                  "text": "could",
+                  "value": "could",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1660_1_2",
+                  "order": 2,
+                  "text": "can",
+                  "value": "can",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1660_1_3",
+                  "order": 3,
+                  "text": "been able to",
+                  "value": "been able to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1661",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 After 2 years in China, I {{gap1}} speak quite fluently now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1661_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can",
+              "accepted_answers": [
+                "can"
+              ],
+              "options": [
+                {
+                  "id": "gap_1661_1_1",
+                  "order": 1,
+                  "text": "could",
+                  "value": "could",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1661_1_2",
+                  "order": 2,
+                  "text": "can",
+                  "value": "can",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1661_1_3",
+                  "order": 3,
+                  "text": "'m able to",
+                  "value": "'m able to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1662",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I hate {{gap1}} understand my French neighbours.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1662_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "not being able to",
+              "accepted_answers": [
+                "not being able to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1662_1_1",
+                  "order": 1,
+                  "text": "couldn't",
+                  "value": "couldn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1662_1_2",
+                  "order": 2,
+                  "text": "can't",
+                  "value": "can't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1662_1_3",
+                  "order": 3,
+                  "text": "not being able to",
+                  "value": "not being able to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1663",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 When he was 40, he {{gap1}} speak six languages.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1663_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "could",
+              "accepted_answers": [
+                "could"
+              ],
+              "options": [
+                {
+                  "id": "gap_1663_1_1",
+                  "order": 1,
+                  "text": "could",
+                  "value": "could",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1663_1_2",
+                  "order": 2,
+                  "text": "was able to",
+                  "value": "was able to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1663_1_3",
+                  "order": 3,
+                  "text": "can",
+                  "value": "can",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1664",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 After 6 hours climbing, we {{gap1}} reach the top of the mountain.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1664_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were able to",
+              "accepted_answers": [
+                "were able to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1664_1_1",
+                  "order": 1,
+                  "text": "can",
+                  "value": "can",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1664_1_2",
+                  "order": 2,
+                  "text": "were able to",
+                  "value": "were able to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1664_1_3",
+                  "order": 3,
+                  "text": "could",
+                  "value": "could",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1665",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 When I was a child I used to {{gap1}} stand on my head.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1665_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "be able to",
+              "accepted_answers": [
+                "be able to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1665_1_1",
+                  "order": 1,
+                  "text": "can",
+                  "value": "can",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1665_1_2",
+                  "order": 2,
+                  "text": "could",
+                  "value": "could",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1665_1_3",
+                  "order": 3,
+                  "text": "be able to",
+                  "value": "be able to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1666",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Yesterday I lost my keys and I looked for them everywhere, but I {{gap1}} find them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1666_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "couldn't",
+              "accepted_answers": [
+                "couldn't"
+              ],
+              "options": [
+                {
+                  "id": "gap_1666_1_1",
+                  "order": 1,
+                  "text": "wasn't able to",
+                  "value": "wasn't able to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1666_1_2",
+                  "order": 2,
+                  "text": "can't",
+                  "value": "can't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1666_1_3",
+                  "order": 3,
+                  "text": "couldn't",
+                  "value": "couldn't",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1667",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Sally wasn't at home, but I {{gap1}} contact her at her office.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1667_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was able to",
+              "accepted_answers": [
+                "was able to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1667_1_1",
+                  "order": 1,
+                  "text": "was able to",
+                  "value": "was able to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1667_1_2",
+                  "order": 2,
+                  "text": "could",
+                  "value": "could",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1667_1_3",
+                  "order": 3,
+                  "text": "can",
+                  "value": "can",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1668",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 If you tell him your problem he might {{gap1}} help you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1668_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "be able to",
+              "accepted_answers": [
+                "be able to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1668_1_1",
+                  "order": 1,
+                  "text": "be able to",
+                  "value": "be able to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1668_1_2",
+                  "order": 2,
+                  "text": "could",
+                  "value": "could",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1668_1_3",
+                  "order": 3,
+                  "text": "can",
+                  "value": "can",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-198",
+      "lessonId": "b1_can_could_be_able_to",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option/s for each gap below. Use can or could if possible.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_can-could-be-able-to_2.html",
+      "questions": [
+        {
+          "id": "1670",
+          "order": 1,
+          "type": "multiple_choice",
+          "text": "1 ___ lend me a pen, please? Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1670_1",
+              "order": 1,
+              "text": "Can you",
+              "value": "2407",
+              "is_correct": true
+            },
+            {
+              "id": "1670_2",
+              "order": 2,
+              "text": "Could you",
+              "value": "2408",
+              "is_correct": true
+            },
+            {
+              "id": "1670_3",
+              "order": 3,
+              "text": "Are you able to",
+              "value": "2409",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1672",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 Not all countries ______ to manufacture high-quality products.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1672_1",
+              "order": 1,
+              "text": "are able",
+              "value": "2413",
+              "is_correct": true
+            },
+            {
+              "id": "1672_2",
+              "order": 2,
+              "text": "can",
+              "value": "2414",
+              "is_correct": false
+            },
+            {
+              "id": "1672_3",
+              "order": 3,
+              "text": "could",
+              "value": "2415",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1671",
+          "order": 3,
+          "type": "multiple_choice",
+          "text": "3 She fell into the river, but fortunately the firefighters ______ rescue her. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1671_1",
+              "order": 1,
+              "text": "were able to",
+              "value": "2410",
+              "is_correct": true
+            },
+            {
+              "id": "1671_2",
+              "order": 2,
+              "text": "could",
+              "value": "2411",
+              "is_correct": false
+            },
+            {
+              "id": "1671_3",
+              "order": 3,
+              "text": "managed to",
+              "value": "2412",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1673",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 They ______ unlock the door and escape.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1673_1",
+              "order": 1,
+              "text": "can",
+              "value": "2416",
+              "is_correct": false
+            },
+            {
+              "id": "1673_2",
+              "order": 2,
+              "text": "could",
+              "value": "2417",
+              "is_correct": false
+            },
+            {
+              "id": "1673_3",
+              "order": 3,
+              "text": "managed to",
+              "value": "2418",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1674",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 When you called yesterday I ______ pick it up because I was in the shower.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1674_1",
+              "order": 1,
+              "text": "couldn't",
+              "value": "2419",
+              "is_correct": true
+            },
+            {
+              "id": "1674_2",
+              "order": 2,
+              "text": "wasn't able to",
+              "value": "2420",
+              "is_correct": false
+            },
+            {
+              "id": "1674_3",
+              "order": 3,
+              "text": "can't",
+              "value": "2421",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1675",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 You _____ stay until late tonight if you want.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1675_1",
+              "order": 1,
+              "text": "can",
+              "value": "2422",
+              "is_correct": true
+            },
+            {
+              "id": "1675_2",
+              "order": 2,
+              "text": "could",
+              "value": "2423",
+              "is_correct": false
+            },
+            {
+              "id": "1675_3",
+              "order": 3,
+              "text": "are able to",
+              "value": "2424",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1676",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 _____ work from home is a big advantage for parents with young children.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1676_1",
+              "order": 1,
+              "text": "Caning",
+              "value": "2425",
+              "is_correct": false
+            },
+            {
+              "id": "1676_2",
+              "order": 2,
+              "text": "Being able to",
+              "value": "2426",
+              "is_correct": true
+            },
+            {
+              "id": "1676_3",
+              "order": 3,
+              "text": "To can",
+              "value": "2427",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1677",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 If you follow the instructions you should ______ set up the computer without a problem.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1677_1",
+              "order": 1,
+              "text": "be able to",
+              "value": "2428",
+              "is_correct": true
+            },
+            {
+              "id": "1677_2",
+              "order": 2,
+              "text": "can",
+              "value": "2429",
+              "is_correct": false
+            },
+            {
+              "id": "1677_3",
+              "order": 3,
+              "text": "could",
+              "value": "2430",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1678",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I was alone all morning, so I ______ finish the book.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1678_1",
+              "order": 1,
+              "text": "was able to",
+              "value": "2431",
+              "is_correct": true
+            },
+            {
+              "id": "1678_2",
+              "order": 2,
+              "text": "could",
+              "value": "2432",
+              "is_correct": false
+            },
+            {
+              "id": "1678_3",
+              "order": 3,
+              "text": "can",
+              "value": "2433",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1679",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Police officers searched the area but he ______ get away.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1679_1",
+              "order": 1,
+              "text": "managed to",
+              "value": "2434",
+              "is_correct": true
+            },
+            {
+              "id": "1679_2",
+              "order": 2,
+              "text": "can",
+              "value": "2435",
+              "is_correct": false
+            },
+            {
+              "id": "1679_3",
+              "order": 3,
+              "text": "could",
+              "value": "2436",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-199",
+      "lessonId": "b1_can_could_be_able_to",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the correct form of can, could, be able to (affirmative or negative). Use a form of can or could if possible.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_can-could-be-able-to_3.html",
+      "questions": [
+        {
+          "id": "1681",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 {{gap1}} you help me with the bags, please?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1681_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Could",
+              "accepted_answers": [
+                "Could"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1680",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 I'm free tonight, so I'll {{gap1}} come and help you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1680_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "be able to",
+              "accepted_answers": [
+                "be able to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1682",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I used to {{gap1}} touch my toes when I was younger.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1682_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "be able to",
+              "accepted_answers": [
+                "be able to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1683",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I remember my brother {{gap1}} draw much better than me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1683_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "could",
+              "accepted_answers": [
+                "could"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1685",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 We {{gap1}} get a picture of the painting because cameras were not allowed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1685_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "couldn't",
+              "accepted_answers": [
+                "couldn't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1686",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 {{gap1}} I come with you to the party?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1686_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Can",
+              "accepted_answers": [
+                "Can"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1688",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 I haven't {{gap1}} sleep very well lately.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1688_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "been able to",
+              "accepted_answers": [
+                "been able to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1687",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 She says that she {{gap1}} speak five languages fluently.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1687_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can",
+              "accepted_answers": [
+                "can"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1689",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 We tried, but we {{gap1}} stop the fire.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1689_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "couldn't",
+              "accepted_answers": [
+                "couldn't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4500",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 He didn't want to come, but finally we {{gap1}} persuade him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4500_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "were able to",
+              "accepted_answers": [
+                "were able to"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

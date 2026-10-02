@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "a2_stative_vs_dynamic_verbs_or_non_action_vs_action_verbs",
+  "level": "A2",
+  "title": "Stative vs dynamic verbs (or non-action vs action verbs)",
+  "description": "Практический тест и правила по теме: Stative vs dynamic verbs (or non-action vs action verbs)",
+  "theory": {
+    "title": "Правила и грамматика: Stative vs dynamic verbs (or non-action vs action verbs)",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Stative vs dynamic verbs (or non-action vs action verbs)».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Stative vs dynamic verbs (or non-action vs action verbs)» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-833",
+      "lessonId": "a2_stative_vs_dynamic_verbs_or_non_action_vs_action_verbs",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct verb forms to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_stative-vs-dynamic-verbs-or-non-action-vs-action-verbs.html",
+      "questions": [
+        {
+          "id": "7130",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 The car {{gap1}} to Mark.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7130_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "belongs",
+              "accepted_answers": [
+                "belongs"
+              ],
+              "options": [
+                {
+                  "id": "gap_7130_1_1",
+                  "order": 1,
+                  "text": "belongs",
+                  "value": "belongs",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7130_1_2",
+                  "order": 2,
+                  "text": "are belonging",
+                  "value": "are belonging",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7130_1_3",
+                  "order": 3,
+                  "text": "is belonging",
+                  "value": "is belonging",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7131",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 The boys {{gap1}} lunch right now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7131_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are having",
+              "accepted_answers": [
+                "are having"
+              ],
+              "options": [
+                {
+                  "id": "gap_7131_1_1",
+                  "order": 1,
+                  "text": "are having",
+                  "value": "are having",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7131_1_2",
+                  "order": 2,
+                  "text": "has",
+                  "value": "has",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7131_1_3",
+                  "order": 3,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7132",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 I {{gap1}} what the answer is.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7132_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "don’t know",
+              "accepted_answers": [
+                "don’t know"
+              ],
+              "options": [
+                {
+                  "id": "gap_7132_1_1",
+                  "order": 1,
+                  "text": "am not know",
+                  "value": "am not know",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7132_1_2",
+                  "order": 2,
+                  "text": "am not knowing",
+                  "value": "am not knowing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7132_1_3",
+                  "order": 3,
+                  "text": "don’t know",
+                  "value": "don’t know",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7133",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 The children {{gap1}} at the horses.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7133_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are looking",
+              "accepted_answers": [
+                "are looking"
+              ],
+              "options": [
+                {
+                  "id": "gap_7133_1_1",
+                  "order": 1,
+                  "text": "are looking",
+                  "value": "are looking",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7133_1_2",
+                  "order": 2,
+                  "text": "look",
+                  "value": "look",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7133_1_3",
+                  "order": 3,
+                  "text": "is looking",
+                  "value": "is looking",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7134",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 {{gap1}} another cup of tea?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7134_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Do you want",
+              "accepted_answers": [
+                "Do you want"
+              ],
+              "options": [
+                {
+                  "id": "gap_7134_1_1",
+                  "order": 1,
+                  "text": "Are you wanting",
+                  "value": "Are you wanting",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7134_1_2",
+                  "order": 2,
+                  "text": "Do you want",
+                  "value": "Do you want",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7134_1_3",
+                  "order": 3,
+                  "text": "Are you want",
+                  "value": "Are you want",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7135",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 It {{gap1}} like there is someone at the door.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7135_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "sounds",
+              "accepted_answers": [
+                "sounds"
+              ],
+              "options": [
+                {
+                  "id": "gap_7135_1_1",
+                  "order": 1,
+                  "text": "is sounding",
+                  "value": "is sounding",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7135_1_2",
+                  "order": 2,
+                  "text": "sound",
+                  "value": "sound",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7135_1_3",
+                  "order": 3,
+                  "text": "sounds",
+                  "value": "sounds",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7136",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Mum {{gap1}} pasta for dinner tonight.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7136_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is making",
+              "accepted_answers": [
+                "is making"
+              ],
+              "options": [
+                {
+                  "id": "gap_7136_1_1",
+                  "order": 1,
+                  "text": "make",
+                  "value": "make",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7136_1_2",
+                  "order": 2,
+                  "text": "is making",
+                  "value": "is making",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7136_1_3",
+                  "order": 3,
+                  "text": "makes",
+                  "value": "makes",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7137",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 The chef {{gap1}} the sauce to see if it needs more salt.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7137_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is tasting",
+              "accepted_answers": [
+                "is tasting"
+              ],
+              "options": [
+                {
+                  "id": "gap_7137_1_1",
+                  "order": 1,
+                  "text": "tastes",
+                  "value": "tastes",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7137_1_2",
+                  "order": 2,
+                  "text": "is tasting",
+                  "value": "is tasting",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7137_1_3",
+                  "order": 3,
+                  "text": "are tasting",
+                  "value": "are tasting",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7138",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Nicky {{gap1}} very silly today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7138_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is being",
+              "accepted_answers": [
+                "is being"
+              ],
+              "options": [
+                {
+                  "id": "gap_7138_1_1",
+                  "order": 1,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7138_1_2",
+                  "order": 2,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7138_1_3",
+                  "order": 3,
+                  "text": "is being",
+                  "value": "is being",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7139",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Daniel {{gap1}} brown hair and blue eyes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7139_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "has",
+              "accepted_answers": [
+                "has"
+              ],
+              "options": [
+                {
+                  "id": "gap_7139_1_1",
+                  "order": 1,
+                  "text": "are having",
+                  "value": "are having",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7139_1_2",
+                  "order": 2,
+                  "text": "is having",
+                  "value": "is having",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7139_1_3",
+                  "order": 3,
+                  "text": "has",
+                  "value": "has",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-834",
+      "lessonId": "a2_stative_vs_dynamic_verbs_or_non_action_vs_action_verbs",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct verb forms for the gaps below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_stative-vs-dynamic-verbs-or-non-action-vs-action-verbs_2.html",
+      "questions": [
+        {
+          "id": "7140",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 They _____ a party at the pool right now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7140_1",
+              "order": 1,
+              "text": "has",
+              "value": "12518",
+              "is_correct": false
+            },
+            {
+              "id": "7140_2",
+              "order": 2,
+              "text": "are having",
+              "value": "12519",
+              "is_correct": true
+            },
+            {
+              "id": "7140_3",
+              "order": 3,
+              "text": "have",
+              "value": "12520",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7151",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I _____ it is going to rain.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7151_1",
+              "order": 1,
+              "text": "think",
+              "value": "12521",
+              "is_correct": true
+            },
+            {
+              "id": "7151_2",
+              "order": 2,
+              "text": "thinks",
+              "value": "12522",
+              "is_correct": false
+            },
+            {
+              "id": "7151_3",
+              "order": 3,
+              "text": "am thinking",
+              "value": "12523",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7152",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 _____ my new dress?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7152_1",
+              "order": 1,
+              "text": "Do you like",
+              "value": "12524",
+              "is_correct": true
+            },
+            {
+              "id": "7152_2",
+              "order": 2,
+              "text": "Are you like",
+              "value": "12525",
+              "is_correct": false
+            },
+            {
+              "id": "7152_3",
+              "order": 3,
+              "text": "Are you liking",
+              "value": "12526",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7153",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Kim _____ dinner at the moment.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7153_1",
+              "order": 1,
+              "text": "eats",
+              "value": "12527",
+              "is_correct": false
+            },
+            {
+              "id": "7153_2",
+              "order": 2,
+              "text": "does eat",
+              "value": "12528",
+              "is_correct": false
+            },
+            {
+              "id": "7153_3",
+              "order": 3,
+              "text": "is eating",
+              "value": "12529",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7154",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 The girls _____ very helpful today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7154_1",
+              "order": 1,
+              "text": "is being",
+              "value": "12530",
+              "is_correct": false
+            },
+            {
+              "id": "7154_2",
+              "order": 2,
+              "text": "are being",
+              "value": "12531",
+              "is_correct": true
+            },
+            {
+              "id": "7154_3",
+              "order": 3,
+              "text": "are",
+              "value": "12532",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7155",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Lemons _____ sour.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7155_1",
+              "order": 1,
+              "text": "taste",
+              "value": "12533",
+              "is_correct": true
+            },
+            {
+              "id": "7155_2",
+              "order": 2,
+              "text": "is tasting",
+              "value": "12534",
+              "is_correct": false
+            },
+            {
+              "id": "7155_3",
+              "order": 3,
+              "text": "are tasting",
+              "value": "12535",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7156",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 What _____ at?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7156_1",
+              "order": 1,
+              "text": "do you look",
+              "value": "12536",
+              "is_correct": false
+            },
+            {
+              "id": "7156_2",
+              "order": 2,
+              "text": "is you looking",
+              "value": "12537",
+              "is_correct": false
+            },
+            {
+              "id": "7156_3",
+              "order": 3,
+              "text": "are you looking",
+              "value": "12538",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7157",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 The children _____ in Father Christmas.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7157_1",
+              "order": 1,
+              "text": "believe",
+              "value": "12539",
+              "is_correct": true
+            },
+            {
+              "id": "7157_2",
+              "order": 2,
+              "text": "believes",
+              "value": "12540",
+              "is_correct": false
+            },
+            {
+              "id": "7157_3",
+              "order": 3,
+              "text": "are believing",
+              "value": "12541",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7158",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Sam _____ a yellow T-shirt today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7158_1",
+              "order": 1,
+              "text": "wears",
+              "value": "12542",
+              "is_correct": false
+            },
+            {
+              "id": "7158_2",
+              "order": 2,
+              "text": "is wearing",
+              "value": "12543",
+              "is_correct": true
+            },
+            {
+              "id": "7158_3",
+              "order": 3,
+              "text": "is wear",
+              "value": "12544",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7159",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 We _____ visiting our grandparents.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7159_1",
+              "order": 1,
+              "text": "love",
+              "value": "12545",
+              "is_correct": true
+            },
+            {
+              "id": "7159_2",
+              "order": 2,
+              "text": "loves",
+              "value": "12546",
+              "is_correct": false
+            },
+            {
+              "id": "7159_3",
+              "order": 3,
+              "text": "are loving",
+              "value": "12547",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-835",
+      "lessonId": "a2_stative_vs_dynamic_verbs_or_non_action_vs_action_verbs",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the verb in brackets in the present simple or continuous form. Use the simple form with stative verbs and the continuous form with dynamic verbs.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_stative-vs-dynamic-verbs-or-non-action-vs-action-verbs_3.html",
+      "questions": [
+        {
+          "id": "7141",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 John {{gap1}} (think) about his future.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7141_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is thinking",
+              "accepted_answers": [
+                "is thinking"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7142",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Ali {{gap1}} (have) three sisters.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7142_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has",
+              "accepted_answers": [
+                "has"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7143",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 It {{gap1}} (smell) like something is burning.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7143_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "smells",
+              "accepted_answers": [
+                "smells"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7144",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 The boys {{gap1}} (play) with their new toys.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7144_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are playing",
+              "accepted_answers": [
+                "are playing"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7145",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Sara {{gap1}} (look) like she's been crying.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7145_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "looks",
+              "accepted_answers": [
+                "looks"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7146",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I {{gap1}} (want) another coffee.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7146_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "want",
+              "accepted_answers": [
+                "want"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7147",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 We {{gap1}} (have) a really good time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7147_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are having",
+              "accepted_answers": [
+                "are having"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7148",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Alice and Peter {{gap1}} (need) to go to the shop.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7148_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "need",
+              "accepted_answers": [
+                "need"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7149",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 The shop {{gap1}} (be) usually very busy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7149_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7150",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 The baby {{gap1}} (sleep) on the sofa.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7150_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is sleeping",
+              "accepted_answers": [
+                "is sleeping"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "a1_much_many_lot_little_few",
+  "level": "A1",
+  "title": "Much, many, a lot of, a little, a few",
+  "description": "Практический тест и правила по теме: Much, many, a lot of, a little, a few",
+  "theory": {
+    "title": "Правила и грамматика: Much, many, a lot of, a little, a few",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Much, many, a lot of, a little, a few».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Much, many, a lot of, a little, a few» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-477",
+      "lessonId": "a1_much_many_lot_little_few",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose much, many, a lot of, a little, a few, etc. to complete the sentences",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_much-many-lot-little-few.html",
+      "questions": [
+        {
+          "id": "4163",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 If I want to pass the exam, I need to study {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4163_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a lot",
+              "accepted_answers": [
+                "a lot"
+              ],
+              "options": [
+                {
+                  "id": "gap_4163_1_1",
+                  "order": 1,
+                  "text": "many",
+                  "value": "many",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4163_1_2",
+                  "order": 2,
+                  "text": "a lot",
+                  "value": "a lot",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4163_1_3",
+                  "order": 3,
+                  "text": "a lot of",
+                  "value": "a lot of",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4164",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 There aren't {{gap1}} things to do in this village.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4164_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "many",
+              "accepted_answers": [
+                "many"
+              ],
+              "options": [
+                {
+                  "id": "gap_4164_1_1",
+                  "order": 1,
+                  "text": "many",
+                  "value": "many",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4164_1_2",
+                  "order": 2,
+                  "text": "much",
+                  "value": "much",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4164_1_3",
+                  "order": 3,
+                  "text": "a lot",
+                  "value": "a lot",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4165",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 {{gap1}} sugar do you take in your tea?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4165_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "How much",
+              "accepted_answers": [
+                "How much"
+              ],
+              "options": [
+                {
+                  "id": "gap_4165_1_1",
+                  "order": 1,
+                  "text": "How little",
+                  "value": "How little",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4165_1_2",
+                  "order": 2,
+                  "text": "How many",
+                  "value": "How many",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4165_1_3",
+                  "order": 3,
+                  "text": "How much",
+                  "value": "How much",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4166",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 There was {{gap1}} tension at the meeting.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4166_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a lot of",
+              "accepted_answers": [
+                "a lot of"
+              ],
+              "options": [
+                {
+                  "id": "gap_4166_1_1",
+                  "order": 1,
+                  "text": "much",
+                  "value": "much",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4166_1_2",
+                  "order": 2,
+                  "text": "a lot of",
+                  "value": "a lot of",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4166_1_3",
+                  "order": 3,
+                  "text": "many",
+                  "value": "many",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4167",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Dad, I need {{gap1}} money for school.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4167_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a little",
+              "accepted_answers": [
+                "a little"
+              ],
+              "options": [
+                {
+                  "id": "gap_4167_1_1",
+                  "order": 1,
+                  "text": "a little",
+                  "value": "a little",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4167_1_2",
+                  "order": 2,
+                  "text": "a few",
+                  "value": "a few",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4167_1_3",
+                  "order": 3,
+                  "text": "many",
+                  "value": "many",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4168",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 There are {{gap1}} things that you can do to improve your writing.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4168_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a few",
+              "accepted_answers": [
+                "a few"
+              ],
+              "options": [
+                {
+                  "id": "gap_4168_1_1",
+                  "order": 1,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4168_1_2",
+                  "order": 2,
+                  "text": "a little",
+                  "value": "a little",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4168_1_3",
+                  "order": 3,
+                  "text": "a few",
+                  "value": "a few",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4169",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 There is {{gap1}} milk in the fridge. We need to buy some.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4169_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "no",
+              "accepted_answers": [
+                "no"
+              ],
+              "options": [
+                {
+                  "id": "gap_4169_1_1",
+                  "order": 1,
+                  "text": "no",
+                  "value": "no",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4169_1_2",
+                  "order": 2,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4169_1_3",
+                  "order": 3,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4170",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 He doesn't have {{gap1}} hobbies.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4170_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": [
+                {
+                  "id": "gap_4170_1_1",
+                  "order": 1,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4170_1_2",
+                  "order": 2,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4170_1_3",
+                  "order": 3,
+                  "text": "no",
+                  "value": "no",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4171",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 'How many computers do you have?' ' {{gap1}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4171_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "None",
+              "accepted_answers": [
+                "None"
+              ],
+              "options": [
+                {
+                  "id": "gap_4171_1_1",
+                  "order": 1,
+                  "text": "No",
+                  "value": "No",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4171_1_2",
+                  "order": 2,
+                  "text": "Any",
+                  "value": "Any",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4171_1_3",
+                  "order": 3,
+                  "text": "None",
+                  "value": "None",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4172",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I can help you; I have {{gap1}} time today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4172_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a lot of",
+              "accepted_answers": [
+                "a lot of"
+              ],
+              "options": [
+                {
+                  "id": "gap_4172_1_1",
+                  "order": 1,
+                  "text": "a lot of",
+                  "value": "a lot of",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4172_1_2",
+                  "order": 2,
+                  "text": "much",
+                  "value": "much",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4172_1_3",
+                  "order": 3,
+                  "text": "many",
+                  "value": "many",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-478",
+      "lessonId": "a1_much_many_lot_little_few",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct words much, many, a lot of, a little, a few, to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_much-many-lot-little-few_2.html",
+      "questions": [
+        {
+          "id": "4173",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 'How much water do you drink?' '_____.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4173_1",
+              "order": 1,
+              "text": "Much",
+              "value": "6042",
+              "is_correct": false
+            },
+            {
+              "id": "4173_2",
+              "order": 2,
+              "text": "A lot of",
+              "value": "6043",
+              "is_correct": false
+            },
+            {
+              "id": "4173_3",
+              "order": 3,
+              "text": "A lot",
+              "value": "6044",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4174",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 _____ goals did they score?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4174_1",
+              "order": 1,
+              "text": "How many",
+              "value": "6045",
+              "is_correct": true
+            },
+            {
+              "id": "4174_2",
+              "order": 2,
+              "text": "How much",
+              "value": "6046",
+              "is_correct": false
+            },
+            {
+              "id": "4174_3",
+              "order": 3,
+              "text": "How little",
+              "value": "6047",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4175",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Nowadays we don't use _____ cash, because we use our credit cards.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4175_1",
+              "order": 1,
+              "text": "many",
+              "value": "6048",
+              "is_correct": false
+            },
+            {
+              "id": "4175_2",
+              "order": 2,
+              "text": "much",
+              "value": "6049",
+              "is_correct": true
+            },
+            {
+              "id": "4175_3",
+              "order": 3,
+              "text": "a lot",
+              "value": "6050",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4176",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 There's _____ pressure on the players.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4176_1",
+              "order": 1,
+              "text": "a lot of",
+              "value": "6051",
+              "is_correct": true
+            },
+            {
+              "id": "4176_2",
+              "order": 2,
+              "text": "much",
+              "value": "6052",
+              "is_correct": false
+            },
+            {
+              "id": "4176_3",
+              "order": 3,
+              "text": "many",
+              "value": "6053",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4177",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 They got married _____ months after they met for the first time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4177_1",
+              "order": 1,
+              "text": "much",
+              "value": "6054",
+              "is_correct": false
+            },
+            {
+              "id": "4177_2",
+              "order": 2,
+              "text": "a little",
+              "value": "6055",
+              "is_correct": false
+            },
+            {
+              "id": "4177_3",
+              "order": 3,
+              "text": "a few",
+              "value": "6056",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4178",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 'How much milk do you want in your coffee?' 'Only _____.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4178_1",
+              "order": 1,
+              "text": "a little",
+              "value": "6057",
+              "is_correct": true
+            },
+            {
+              "id": "4178_2",
+              "order": 2,
+              "text": "a few",
+              "value": "6058",
+              "is_correct": false
+            },
+            {
+              "id": "4178_3",
+              "order": 3,
+              "text": "much",
+              "value": "6059",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4179",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 There were _____ problems during the festival.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4179_1",
+              "order": 1,
+              "text": "any",
+              "value": "6060",
+              "is_correct": false
+            },
+            {
+              "id": "4179_2",
+              "order": 2,
+              "text": "no",
+              "value": "6061",
+              "is_correct": true
+            },
+            {
+              "id": "4179_3",
+              "order": 3,
+              "text": "none",
+              "value": "6062",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4180",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I don't want _____ gifts.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4180_1",
+              "order": 1,
+              "text": "none",
+              "value": "6063",
+              "is_correct": false
+            },
+            {
+              "id": "4180_2",
+              "order": 2,
+              "text": "no",
+              "value": "6064",
+              "is_correct": false
+            },
+            {
+              "id": "4180_3",
+              "order": 3,
+              "text": "any",
+              "value": "6065",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4181",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 'How many gifts do you want?' '_____.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4181_1",
+              "order": 1,
+              "text": "None",
+              "value": "6066",
+              "is_correct": true
+            },
+            {
+              "id": "4181_2",
+              "order": 2,
+              "text": "Any",
+              "value": "6067",
+              "is_correct": false
+            },
+            {
+              "id": "4181_3",
+              "order": 3,
+              "text": "No",
+              "value": "6068",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4182",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I eat _____ vegetables.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4182_1",
+              "order": 1,
+              "text": "much",
+              "value": "6069",
+              "is_correct": false
+            },
+            {
+              "id": "4182_2",
+              "order": 2,
+              "text": "a lot of",
+              "value": "6070",
+              "is_correct": true
+            },
+            {
+              "id": "4182_3",
+              "order": 3,
+              "text": "many",
+              "value": "6071",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-479",
+      "lessonId": "a1_much_many_lot_little_few",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences using these words.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_much-many-lot-little-few_3.html",
+      "questions": [
+        {
+          "id": "4183",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 He has {{gap1}} paintings. It's a really big collection.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4183_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a lot of",
+              "accepted_answers": [
+                "a lot of"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4184",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 {{gap1}} salt do you put in your food?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4184_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "How much",
+              "accepted_answers": [
+                "How much"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4185",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I normally use {{gap1}} makeup, but not much, only some lipstick.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4185_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a little",
+              "accepted_answers": [
+                "a little"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4189",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 It rained {{gap1}} last week; it rained every day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4189_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a lot",
+              "accepted_answers": [
+                "a lot"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4188",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 They only scored one goal. They didn't have {{gap1}} opportunities to score; maybe two or three.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4188_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "many",
+              "accepted_answers": [
+                "many"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4186",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Please, I just need 5 minutes of your time. I only have {{gap1}} questions.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4186_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a few",
+              "accepted_answers": [
+                "a few"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4187",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 We had {{gap1}} problems. It was 100% perfect.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4187_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "no",
+              "accepted_answers": [
+                "no"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4190",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 We need to be fast; we haven't got {{gap1}} time, only 20 minutes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4190_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "much",
+              "accepted_answers": [
+                "much"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4191",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I didn't see {{gap1}} people in the room. It was completely empty.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4191_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "many",
+              "accepted_answers": [
+                "many"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4192",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 'How many cups of coffee did you have?' ' {{gap1}}. I don't drink coffee.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4192_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "None",
+              "accepted_answers": [
+                "None"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

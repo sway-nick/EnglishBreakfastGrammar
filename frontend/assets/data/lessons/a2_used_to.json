@@ -1,0 +1,868 @@
+{
+  "lesson_id": "a2_used_to",
+  "level": "A2",
+  "title": "Used to, didn't use to: Past habits and states",
+  "description": "Практический тест и правила по теме: Used to, didn't use to: Past habits and states",
+  "theory": {
+    "title": "Правила и грамматика: Used to, didn't use to: Past habits and states",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Used to, didn't use to: Past habits and states».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Used to, didn't use to: Past habits and states» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-399",
+      "lessonId": "a2_used_to",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct forms to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_used-to.html",
+      "questions": [
+        {
+          "id": "3417",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 What music {{gap1}} to like when you were a child?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3417_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "did you use",
+              "accepted_answers": [
+                "did you use"
+              ],
+              "options": [
+                {
+                  "id": "gap_3417_1_1",
+                  "order": 1,
+                  "text": "did you use",
+                  "value": "did you use",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3417_1_2",
+                  "order": 2,
+                  "text": "did you used",
+                  "value": "did you used",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3417_1_3",
+                  "order": 3,
+                  "text": "used you",
+                  "value": "used you",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3418",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I {{gap1}} listen to music when I was a child.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3418_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't use to",
+              "accepted_answers": [
+                "didn't use to"
+              ],
+              "options": [
+                {
+                  "id": "gap_3418_1_1",
+                  "order": 1,
+                  "text": "didn't use to",
+                  "value": "didn't use to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3418_1_2",
+                  "order": 2,
+                  "text": "didn't used to",
+                  "value": "didn't used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3418_1_3",
+                  "order": 3,
+                  "text": "usedn't to",
+                  "value": "usedn't to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3419",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 We {{gap1}} to the cinema at weekends.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3419_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "usually go",
+              "accepted_answers": [
+                "usually go"
+              ],
+              "options": [
+                {
+                  "id": "gap_3419_1_1",
+                  "order": 1,
+                  "text": "don't use to go",
+                  "value": "don't use to go",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3419_1_2",
+                  "order": 2,
+                  "text": "use to go",
+                  "value": "use to go",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3419_1_3",
+                  "order": 3,
+                  "text": "usually go",
+                  "value": "usually go",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3420",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 They {{gap1}} in the country, but now they live in the city",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3420_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "used to live",
+              "accepted_answers": [
+                "used to live"
+              ],
+              "options": [
+                {
+                  "id": "gap_3420_1_1",
+                  "order": 1,
+                  "text": "used to live",
+                  "value": "used to live",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3420_1_2",
+                  "order": 2,
+                  "text": "used to living",
+                  "value": "used to living",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3420_1_3",
+                  "order": 3,
+                  "text": "use to live",
+                  "value": "use to live",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3421",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 I {{gap1}} the cake you made me last week.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3421_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "loved",
+              "accepted_answers": [
+                "loved"
+              ],
+              "options": [
+                {
+                  "id": "gap_3421_1_1",
+                  "order": 1,
+                  "text": "loved",
+                  "value": "loved",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3421_1_2",
+                  "order": 2,
+                  "text": "didn't use to love",
+                  "value": "didn't use to love",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3421_1_3",
+                  "order": 3,
+                  "text": "used to love",
+                  "value": "used to love",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3422",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 {{gap1}} have long hair when you were younger?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3422_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Did you use to",
+              "accepted_answers": [
+                "Did you use to"
+              ],
+              "options": [
+                {
+                  "id": "gap_3422_1_1",
+                  "order": 1,
+                  "text": "Did you use to",
+                  "value": "Did you use to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3422_1_2",
+                  "order": 2,
+                  "text": "Did you used to",
+                  "value": "Did you used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3422_1_3",
+                  "order": 3,
+                  "text": "Used you to",
+                  "value": "Used you to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3423",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 She {{gap1}} very tall when she was in school.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3423_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't use to be",
+              "accepted_answers": [
+                "didn't use to be"
+              ],
+              "options": [
+                {
+                  "id": "gap_3423_1_1",
+                  "order": 1,
+                  "text": "didn't use to be",
+                  "value": "didn't use to be",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3423_1_2",
+                  "order": 2,
+                  "text": "used not to be",
+                  "value": "used not to be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3423_1_3",
+                  "order": 3,
+                  "text": "didn't used to be",
+                  "value": "didn't used to be",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3424",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I {{gap1}} to bed very late on Fridays and Saturdays.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3424_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "normally go",
+              "accepted_answers": [
+                "normally go"
+              ],
+              "options": [
+                {
+                  "id": "gap_3424_1_1",
+                  "order": 1,
+                  "text": "normally go",
+                  "value": "normally go",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3424_1_2",
+                  "order": 2,
+                  "text": "don't use to go",
+                  "value": "don't use to go",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3424_1_3",
+                  "order": 3,
+                  "text": "use to go",
+                  "value": "use to go",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3425",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Robert {{gap1}} in a band.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3425_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "used to play",
+              "accepted_answers": [
+                "used to play"
+              ],
+              "options": [
+                {
+                  "id": "gap_3425_1_1",
+                  "order": 1,
+                  "text": "used to play",
+                  "value": "used to play",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3425_1_2",
+                  "order": 2,
+                  "text": "use to play",
+                  "value": "use to play",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3425_1_3",
+                  "order": 3,
+                  "text": "used to playing",
+                  "value": "used to playing",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3426",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I {{gap1}} my right arm in a skiing accident when I was 21.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3426_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "broke",
+              "accepted_answers": [
+                "broke"
+              ],
+              "options": [
+                {
+                  "id": "gap_3426_1_1",
+                  "order": 1,
+                  "text": "used to break",
+                  "value": "used to break",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3426_1_2",
+                  "order": 2,
+                  "text": "broke",
+                  "value": "broke",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3426_1_3",
+                  "order": 3,
+                  "text": "use to break",
+                  "value": "use to break",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-400",
+      "lessonId": "a2_used_to",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Complete the following sentences about how things used to be 50 years ago. Fill in the gaps with the correct form of used to and the words in brackets.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_used-to_2.html",
+      "questions": [
+        {
+          "id": "3428",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Not too many people {{gap1}} (live) in the cities.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3428_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "used to live",
+              "accepted_answers": [
+                "used to live"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3429",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Salaries {{gap1}} (be) much lower.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3429_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "used to be",
+              "accepted_answers": [
+                "used to be"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3436",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 People {{gap1}} (not buy) so much stuff.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3436_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't use to buy",
+              "accepted_answers": [
+                "didn't use to buy"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3430",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 People {{gap1}} (not get) divorced.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3430_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't use to get",
+              "accepted_answers": [
+                "didn't use to get"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3432",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 People {{gap1}} (not eat) so much processed food; their diet was healthier.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3432_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't use to eat",
+              "accepted_answers": [
+                "didn't use to eat"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3431",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 People {{gap1}} (have) more children and at a younger age.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3431_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "used to have",
+              "accepted_answers": [
+                "used to have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3433",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 People {{gap1}} (not travel) so often, or they just didn't travel at all.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3433_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't use to travel",
+              "accepted_answers": [
+                "didn't use to travel"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3434",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 People {{gap1}} (write) letters because they didn't have computers.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3434_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "used to write",
+              "accepted_answers": [
+                "used to write"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3435",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 People {{gap1}} (not live) together before getting married.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3435_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't use to live",
+              "accepted_answers": [
+                "didn't use to live"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3437",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Families {{gap1}} (be) closer and more connected than they are today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3437_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "used to be",
+              "accepted_answers": [
+                "used to be"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-401",
+      "lessonId": "a2_used_to",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the text with used to, didn’t use to, did … to and the words in brackets.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_used-to_3.html",
+      "questions": [
+        {
+          "id": "3427",
+          "order": 1,
+          "type": "gap_text",
+          "text": "INTERVIEWER: What 1 {{gap1}} (you/be) like when you were a child? SALLY: I remember I 2 {{gap2}} (wear) very thick glasses, and I 3 {{gap3}} (be) quite short and uncoordinated. To be honest, I 4 {{gap4}} (not like) myself very much. However, I'd say I had a very happy childhood. INTERVIEWER: What 5 {{gap5}} (you/do) for fun? SALLY: Oh, I have great memories. We 6 {{gap6}} (not have) phones or technology of any kind and the streets 7 {{gap7}} (be) safer than now, so we 8 {{gap8}} (play) outdoors all the time. INTERVIEWER: 9 {{gap9}} (you/get) good marks in school? SALLY: Yes, I 10 {{gap10}} (study) very hard.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3427_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "did you use to be",
+              "accepted_answers": [
+                "did you use to be"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3427_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "used to wear",
+              "accepted_answers": [
+                "used to wear"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3427_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "used to be",
+              "accepted_answers": [
+                "used to be"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3427_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "didn't use to like",
+              "accepted_answers": [
+                "didn't use to like"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3427_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "did you use to do",
+              "accepted_answers": [
+                "did you use to do"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3427_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "didn't use to have",
+              "accepted_answers": [
+                "didn't use to have"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3427_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "used to be",
+              "accepted_answers": [
+                "used to be"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3427_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "used to play",
+              "accepted_answers": [
+                "used to play"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3427_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "Did you use to get",
+              "accepted_answers": [
+                "Did you use to get"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3427_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "used to study",
+              "accepted_answers": [
+                "used to study"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1060 @@
+{
+  "lesson_id": "b1_present_simple_present_continuous",
+  "level": "B1",
+  "title": "Present simple or present continuous",
+  "description": "Практический тест и правила по теме: Present simple or present continuous",
+  "theory": {
+    "title": "Правила и грамматика: Present simple or present continuous",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Present simple or present continuous».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Present simple or present continuous» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-178",
+      "lessonId": "b1_present_simple_present_continuous",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the present simple or present continuous to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_present-simple-present-continuous.html",
+      "questions": [
+        {
+          "id": "1504",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 In Johannesburg most people {{gap1}} at least five languages.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1504_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "speak",
+              "accepted_answers": [
+                "speak"
+              ],
+              "options": [
+                {
+                  "id": "gap_1504_1_1",
+                  "order": 1,
+                  "text": "speak",
+                  "value": "speak",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1504_1_2",
+                  "order": 2,
+                  "text": "are speaking",
+                  "value": "are speaking",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1505",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Languages {{gap1}} very fast. Half of the world's languages will disappear by 2100.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1505_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are disappearing",
+              "accepted_answers": [
+                "are disappearing"
+              ],
+              "options": [
+                {
+                  "id": "gap_1505_1_1",
+                  "order": 1,
+                  "text": "disappear",
+                  "value": "disappear",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1505_1_2",
+                  "order": 2,
+                  "text": "are disappearing",
+                  "value": "are disappearing",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1506",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 You can't see Tim now; he {{gap1}} a bath.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1506_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'s having",
+              "accepted_answers": [
+                "'s having"
+              ],
+              "options": [
+                {
+                  "id": "gap_1506_1_1",
+                  "order": 1,
+                  "text": "has",
+                  "value": "has",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1506_1_2",
+                  "order": 2,
+                  "text": "'s having",
+                  "value": "'s having",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1507",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Please keep quiet, I {{gap1}} to the radio. You know I {{gap2}} to the news in the mornings.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1507_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'m listening",
+              "accepted_answers": [
+                "'m listening"
+              ],
+              "options": [
+                {
+                  "id": "gap_1507_1_1",
+                  "order": 1,
+                  "text": "listen",
+                  "value": "listen",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1507_1_2",
+                  "order": 2,
+                  "text": "'m listening",
+                  "value": "'m listening",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1507_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "listen",
+              "accepted_answers": [
+                "listen"
+              ],
+              "options": [
+                {
+                  "id": "gap_1507_2_1",
+                  "order": 1,
+                  "text": "listen",
+                  "value": "listen",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1507_2_2",
+                  "order": 2,
+                  "text": "'m listening",
+                  "value": "'m listening",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1508",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 What time {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1508_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "does the first train leave",
+              "accepted_answers": [
+                "does the first train leave"
+              ],
+              "options": [
+                {
+                  "id": "gap_1508_1_1",
+                  "order": 1,
+                  "text": "is the first train leaving",
+                  "value": "is the first train leaving",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1508_1_2",
+                  "order": 2,
+                  "text": "does the first train leave",
+                  "value": "does the first train leave",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1509",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 I {{gap1}} a scarf, but today I {{gap2}} one because it's unusually cold.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1509_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "never wear",
+              "accepted_answers": [
+                "never wear"
+              ],
+              "options": [
+                {
+                  "id": "gap_1509_1_1",
+                  "order": 1,
+                  "text": "never wear",
+                  "value": "never wear",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1509_1_2",
+                  "order": 2,
+                  "text": "'m never wearing",
+                  "value": "'m never wearing",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1509_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'m wearing",
+              "accepted_answers": [
+                "'m wearing"
+              ],
+              "options": [
+                {
+                  "id": "gap_1509_2_1",
+                  "order": 1,
+                  "text": "'m wearing",
+                  "value": "'m wearing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1509_2_2",
+                  "order": 2,
+                  "text": "wear",
+                  "value": "wear",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1510",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 I finished watching the series you recommended. Now I {{gap1}} another one.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1510_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'m watching",
+              "accepted_answers": [
+                "'m watching"
+              ],
+              "options": [
+                {
+                  "id": "gap_1510_1_1",
+                  "order": 1,
+                  "text": "watch",
+                  "value": "watch",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1510_1_2",
+                  "order": 2,
+                  "text": "'m watching",
+                  "value": "'m watching",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1511",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 What {{gap1}} tonight? Would you like to come and watch the game?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1511_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are you doing",
+              "accepted_answers": [
+                "are you doing"
+              ],
+              "options": [
+                {
+                  "id": "gap_1511_1_1",
+                  "order": 1,
+                  "text": "do you do",
+                  "value": "do you do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1511_1_2",
+                  "order": 2,
+                  "text": "are you doing",
+                  "value": "are you doing",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1512",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Nobody {{gap1}} they will win the match.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1512_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "thinks",
+              "accepted_answers": [
+                "thinks"
+              ],
+              "options": [
+                {
+                  "id": "gap_1512_1_1",
+                  "order": 1,
+                  "text": "thinks",
+                  "value": "thinks",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1512_1_2",
+                  "order": 2,
+                  "text": "is thinking",
+                  "value": "is thinking",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1513",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 You look worried. What {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1513_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are you thinking",
+              "accepted_answers": [
+                "are you thinking"
+              ],
+              "options": [
+                {
+                  "id": "gap_1513_1_1",
+                  "order": 1,
+                  "text": "do you think",
+                  "value": "do you think",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1513_1_2",
+                  "order": 2,
+                  "text": "are you thinking",
+                  "value": "are you thinking",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-179",
+      "lessonId": "b1_present_simple_present_continuous",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the present simple or present continuous for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_present-simple-present-continuous_2.html",
+      "questions": [
+        {
+          "id": "1514",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 A: We ______ to the cinema tonight. B: ______ to the cinema?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1514_1",
+              "order": 1,
+              "text": "are going / Do you often go",
+              "value": "2224",
+              "is_correct": true
+            },
+            {
+              "id": "1514_2",
+              "order": 2,
+              "text": "go / Do you often go",
+              "value": "2225",
+              "is_correct": false
+            },
+            {
+              "id": "1514_3",
+              "order": 3,
+              "text": "are going / Are you often going",
+              "value": "2226",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1515",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 A: What time ______ this afternoon? B: I don't know. We ______ tomorrow.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1515_1",
+              "order": 1,
+              "text": "does the train leave / leave",
+              "value": "2227",
+              "is_correct": false
+            },
+            {
+              "id": "1515_2",
+              "order": 2,
+              "text": "does the train leave / are leaving",
+              "value": "2228",
+              "is_correct": true
+            },
+            {
+              "id": "1515_3",
+              "order": 3,
+              "text": "is the train leaving / leave",
+              "value": "2229",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1516",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 A: ______? B: Yes, but I ______ to quit.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1516_1",
+              "order": 1,
+              "text": "Are you smoking / try",
+              "value": "2230",
+              "is_correct": false
+            },
+            {
+              "id": "1516_2",
+              "order": 2,
+              "text": "Do you smoke / try",
+              "value": "2231",
+              "is_correct": false
+            },
+            {
+              "id": "1516_3",
+              "order": 3,
+              "text": "Do you smoke / 'm trying",
+              "value": "2232",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1517",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 A: I ______ on holiday two or three times a year. B: That's great! And where______ this year?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1517_1",
+              "order": 1,
+              "text": "go / do you go",
+              "value": "2233",
+              "is_correct": false
+            },
+            {
+              "id": "1517_2",
+              "order": 2,
+              "text": "'m going / do you go",
+              "value": "2234",
+              "is_correct": false
+            },
+            {
+              "id": "1517_3",
+              "order": 3,
+              "text": "go / are you going",
+              "value": "2235",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1518",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I think it's better to stay. It ______ and we ______ an umbrella.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1518_1",
+              "order": 1,
+              "text": "'s raining / don't have",
+              "value": "2236",
+              "is_correct": true
+            },
+            {
+              "id": "1518_2",
+              "order": 2,
+              "text": "rains / don't have",
+              "value": "2237",
+              "is_correct": false
+            },
+            {
+              "id": "1518_3",
+              "order": 3,
+              "text": "'s raining / aren't having",
+              "value": "2238",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1519",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 A: Children ______ more and more dependent on mobile phones. B: Yes, they ______ their imagination anymore.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1519_1",
+              "order": 1,
+              "text": "become / aren't using",
+              "value": "2239",
+              "is_correct": false
+            },
+            {
+              "id": "1519_2",
+              "order": 2,
+              "text": "are becoming / don't use",
+              "value": "2240",
+              "is_correct": true
+            },
+            {
+              "id": "1519_3",
+              "order": 3,
+              "text": "become / don't use",
+              "value": "2241",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1520",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 I ______ an article about the myth that says that we ______ 10% of our brains.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1520_1",
+              "order": 1,
+              "text": "'m writing / are only using",
+              "value": "2242",
+              "is_correct": false
+            },
+            {
+              "id": "1520_2",
+              "order": 2,
+              "text": "write / are only using",
+              "value": "2243",
+              "is_correct": false
+            },
+            {
+              "id": "1520_3",
+              "order": 3,
+              "text": "'m writing / only use",
+              "value": "2244",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1521",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I ______ of quitting my job.______ it is a good idea?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1521_1",
+              "order": 1,
+              "text": "'m thinking / Do you think",
+              "value": "2245",
+              "is_correct": true
+            },
+            {
+              "id": "1521_2",
+              "order": 2,
+              "text": "think / Do you think",
+              "value": "2246",
+              "is_correct": false
+            },
+            {
+              "id": "1521_3",
+              "order": 3,
+              "text": "'m thinking /Are you thinking",
+              "value": "2247",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1522",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Who is that man? Why ______ at us? What ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1522_1",
+              "order": 1,
+              "text": "is he looking / is he wanting",
+              "value": "2248",
+              "is_correct": false
+            },
+            {
+              "id": "1522_2",
+              "order": 2,
+              "text": "is he looking / does he want",
+              "value": "2249",
+              "is_correct": true
+            },
+            {
+              "id": "1522_3",
+              "order": 3,
+              "text": "does he look / he wants",
+              "value": "2250",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1523",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 A: Tomorrow I ______ my doctor in the morning. B. Isn't your doctor that woman I ______ over there?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1523_1",
+              "order": 1,
+              "text": "see / 'm seeing",
+              "value": "2251",
+              "is_correct": false
+            },
+            {
+              "id": "1523_2",
+              "order": 2,
+              "text": "see / see",
+              "value": "2252",
+              "is_correct": false
+            },
+            {
+              "id": "1523_3",
+              "order": 3,
+              "text": "'m seeing / see",
+              "value": "2253",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-180",
+      "lessonId": "b1_present_simple_present_continuous",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the verbs in brackets in the present simple or present continuous.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_present-simple-present-continuous_3.html",
+      "questions": [
+        {
+          "id": "1524",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Rainforests 1 {{gap1}} (disappear), and we all 2 {{gap2}} (know) that humans are the main cause of this destruction. Every year we 3 {{gap3}} (cut down) an area of rainforest the size of New Jersey. Every hour we 4 {{gap4}} (destroy) 6000 acres of rainforest (that’s 4000 football fields). What we 5 {{gap5}} (not realise) is that we 6 {{gap6}} (destroy) the planet where our children and grandchildren have to live. We 7 {{gap7}} (need) the rainforests; they 8 {{gap8}} (produce) oxygen and 9 {{gap9}} (eliminate) carbon dioxide (C02), cleaning the atmosphere. But why 10 {{gap10}} (the forests/disappear) so quickly? Well, experts 11 {{gap11}} (agree) that there are two main reasons. The most important is human activity. Big companies 12 {{gap12}} (cut down) more and more trees and this 13 {{gap13}} (cause) damage to the land. The way of life in the rainforests 14 {{gap14}} (also/change) because of climate change. Now there is less rain and this 15 {{gap15}} (cause) more and more trees to die. As a consequence of the droughts, the risk of fires 16 {{gap16}} (increase) dramatically. Fortunately, it 17 {{gap17}} (seem) that now some governments 18 {{gap18}} (begin) to understand the problem, and they 19 {{gap19}} (try) to control these activities. Some of them really 20 {{gap20}} (want) to put an end to this problem, although a few big companies with a lot of power are in their way.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1524_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are disappearing",
+              "accepted_answers": [
+                "are disappearing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "know",
+              "accepted_answers": [
+                "know"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "cut down",
+              "accepted_answers": [
+                "cut down"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "destroy",
+              "accepted_answers": [
+                "destroy"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "don't realise",
+              "accepted_answers": [
+                "don't realise"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "are destroying",
+              "accepted_answers": [
+                "are destroying"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "need",
+              "accepted_answers": [
+                "need"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "produce",
+              "accepted_answers": [
+                "produce"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "eliminate",
+              "accepted_answers": [
+                "eliminate"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "are the forests disappearing",
+              "accepted_answers": [
+                "are the forests disappearing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_11",
+              "order": 11,
+              "placeholder": "{{gap11}}",
+              "input_control": "text",
+              "correct_answer": "agree",
+              "accepted_answers": [
+                "agree"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_12",
+              "order": 12,
+              "placeholder": "{{gap12}}",
+              "input_control": "text",
+              "correct_answer": "are cutting down",
+              "accepted_answers": [
+                "are cutting down"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_13",
+              "order": 13,
+              "placeholder": "{{gap13}}",
+              "input_control": "text",
+              "correct_answer": "is causing",
+              "accepted_answers": [
+                "is causing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_14",
+              "order": 14,
+              "placeholder": "{{gap14}}",
+              "input_control": "text",
+              "correct_answer": "is also changing",
+              "accepted_answers": [
+                "is also changing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_15",
+              "order": 15,
+              "placeholder": "{{gap15}}",
+              "input_control": "text",
+              "correct_answer": "is causing",
+              "accepted_answers": [
+                "is causing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_16",
+              "order": 16,
+              "placeholder": "{{gap16}}",
+              "input_control": "text",
+              "correct_answer": "is increasing",
+              "accepted_answers": [
+                "is increasing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_17",
+              "order": 17,
+              "placeholder": "{{gap17}}",
+              "input_control": "text",
+              "correct_answer": "seems",
+              "accepted_answers": [
+                "seems"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_18",
+              "order": 18,
+              "placeholder": "{{gap18}}",
+              "input_control": "text",
+              "correct_answer": "are beginning",
+              "accepted_answers": [
+                "are beginning"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_19",
+              "order": 19,
+              "placeholder": "{{gap19}}",
+              "input_control": "text",
+              "correct_answer": "are trying",
+              "accepted_answers": [
+                "are trying"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1524_20",
+              "order": 20,
+              "placeholder": "{{gap20}}",
+              "input_control": "text",
+              "correct_answer": "want",
+              "accepted_answers": [
+                "want"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

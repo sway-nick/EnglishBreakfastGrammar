@@ -1,0 +1,1170 @@
+{
+  "lesson_id": "b2_generic_pronouns",
+  "level": "B2",
+  "title": "Generic or common-gender pronouns",
+  "description": "Практический тест и правила по теме: Generic or common-gender pronouns",
+  "theory": {
+    "title": "Правила и грамматика: Generic or common-gender pronouns",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Generic or common-gender pronouns».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Generic or common-gender pronouns» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-91",
+      "lessonId": "b2_generic_pronouns",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the best option to complete the sentences below so that they express generic reference.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_generic-pronouns.html",
+      "questions": [
+        {
+          "id": "739",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 {{gap1}} like beer a lot in England.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_739_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "They",
+              "accepted_answers": [
+                "They"
+              ],
+              "options": [
+                {
+                  "id": "gap_739_1_1",
+                  "order": 1,
+                  "text": "You",
+                  "value": "You",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_739_1_2",
+                  "order": 2,
+                  "text": "They",
+                  "value": "They",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_739_1_3",
+                  "order": 3,
+                  "text": "One",
+                  "value": "One",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "740",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Reading can help to expand {{gap1}} imagination.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_740_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "one",
+              "accepted_answers": [
+                "one"
+              ],
+              "options": [
+                {
+                  "id": "gap_740_1_1",
+                  "order": 1,
+                  "text": "your",
+                  "value": "your",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_740_1_2",
+                  "order": 2,
+                  "text": "one",
+                  "value": "one",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_740_1_3",
+                  "order": 3,
+                  "text": "their",
+                  "value": "their",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "741",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 {{gap1}} can never be sure whether our perceptions are correct.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_741_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "We",
+              "accepted_answers": [
+                "We"
+              ],
+              "options": [
+                {
+                  "id": "gap_741_1_1",
+                  "order": 1,
+                  "text": "We",
+                  "value": "We",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_741_1_2",
+                  "order": 2,
+                  "text": "You",
+                  "value": "You",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_741_1_3",
+                  "order": 3,
+                  "text": "They",
+                  "value": "They",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "742",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 It is very difficult to put {{gap1}} in somebody else's shoes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_742_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "oneself",
+              "accepted_answers": [
+                "oneself"
+              ],
+              "options": [
+                {
+                  "id": "gap_742_1_1",
+                  "order": 1,
+                  "text": "oneself",
+                  "value": "oneself",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_742_1_2",
+                  "order": 2,
+                  "text": "myself",
+                  "value": "myself",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_742_1_3",
+                  "order": 3,
+                  "text": "himself",
+                  "value": "himself",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "743",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Every person should be held responsible for {{gap1}} own actions.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_743_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "their",
+              "accepted_answers": [
+                "their"
+              ],
+              "options": [
+                {
+                  "id": "gap_743_1_1",
+                  "order": 1,
+                  "text": "our",
+                  "value": "our",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_743_1_2",
+                  "order": 2,
+                  "text": "their",
+                  "value": "their",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_743_1_3",
+                  "order": 3,
+                  "text": "his",
+                  "value": "his",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "744",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 If someone calls, tell {{gap1}} I'll be back in an hour.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_744_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": [
+                {
+                  "id": "gap_744_1_1",
+                  "order": 1,
+                  "text": "them",
+                  "value": "them",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_744_1_2",
+                  "order": 2,
+                  "text": "us",
+                  "value": "us",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_744_1_3",
+                  "order": 3,
+                  "text": "him",
+                  "value": "him",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "745",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 In a place like this, {{gap1}} never know where danger could come from.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_745_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "you",
+              "accepted_answers": [
+                "you"
+              ],
+              "options": [
+                {
+                  "id": "gap_745_1_1",
+                  "order": 1,
+                  "text": "he or she",
+                  "value": "he or she",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_745_1_2",
+                  "order": 2,
+                  "text": "they",
+                  "value": "they",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_745_1_3",
+                  "order": 3,
+                  "text": "you",
+                  "value": "you",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "746",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 One must think of {{gap1}} in certain situations.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_746_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "oneself",
+              "accepted_answers": [
+                "oneself"
+              ],
+              "options": [
+                {
+                  "id": "gap_746_1_1",
+                  "order": 1,
+                  "text": "himself",
+                  "value": "himself",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_746_1_2",
+                  "order": 2,
+                  "text": "oneself",
+                  "value": "oneself",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_746_1_3",
+                  "order": 3,
+                  "text": "ourselves",
+                  "value": "ourselves",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "747",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I don't believe anyone when {{gap1}} tell me how good {{gap2}} are at something.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_747_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "they",
+              "accepted_answers": [
+                "they"
+              ],
+              "options": [
+                {
+                  "id": "gap_747_1_1",
+                  "order": 1,
+                  "text": "they",
+                  "value": "they",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_747_1_2",
+                  "order": 2,
+                  "text": "he",
+                  "value": "he",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_747_1_3",
+                  "order": 3,
+                  "text": "anyone",
+                  "value": "anyone",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_747_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "they",
+              "accepted_answers": [
+                "they"
+              ],
+              "options": [
+                {
+                  "id": "gap_747_2_1",
+                  "order": 1,
+                  "text": "anyone",
+                  "value": "anyone",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_747_2_2",
+                  "order": 2,
+                  "text": "they",
+                  "value": "they",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_747_2_3",
+                  "order": 3,
+                  "text": "he",
+                  "value": "he",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "748",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 {{gap1}} have opened a new restaurant in the town centre.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_748_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "They",
+              "accepted_answers": [
+                "They"
+              ],
+              "options": [
+                {
+                  "id": "gap_748_1_1",
+                  "order": 1,
+                  "text": "You",
+                  "value": "You",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_748_1_2",
+                  "order": 2,
+                  "text": "One",
+                  "value": "One",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_748_1_3",
+                  "order": 3,
+                  "text": "They",
+                  "value": "They",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-92",
+      "lessonId": "b2_generic_pronouns",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the best option/s for each gap below to express generic reference.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_generic-pronouns_2.html",
+      "questions": [
+        {
+          "id": "749",
+          "order": 1,
+          "type": "multiple_choice",
+          "text": "1 _______ never know who _______ enemies are. Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "749_1",
+              "order": 1,
+              "text": "They / their",
+              "value": "1010",
+              "is_correct": false
+            },
+            {
+              "id": "749_2",
+              "order": 2,
+              "text": "You / your",
+              "value": "1011",
+              "is_correct": true
+            },
+            {
+              "id": "749_3",
+              "order": 3,
+              "text": "We / our",
+              "value": "1012",
+              "is_correct": true
+            },
+            {
+              "id": "749_4",
+              "order": 4,
+              "text": "One / one's",
+              "value": "1013",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "750",
+          "order": 2,
+          "type": "multiple_choice",
+          "text": "2 Improving _______ relationship with others should be a priority in life. Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "750_1",
+              "order": 1,
+              "text": "our",
+              "value": "1014",
+              "is_correct": true
+            },
+            {
+              "id": "750_2",
+              "order": 2,
+              "text": "their",
+              "value": "1015",
+              "is_correct": false
+            },
+            {
+              "id": "750_3",
+              "order": 3,
+              "text": "his",
+              "value": "1016",
+              "is_correct": false
+            },
+            {
+              "id": "750_4",
+              "order": 4,
+              "text": "one's",
+              "value": "1017",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "751",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 _______ say that five-a-day keeps the doctor away.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "751_1",
+              "order": 1,
+              "text": "They",
+              "value": "1018",
+              "is_correct": true
+            },
+            {
+              "id": "751_2",
+              "order": 2,
+              "text": "We",
+              "value": "1019",
+              "is_correct": false
+            },
+            {
+              "id": "751_3",
+              "order": 3,
+              "text": "One",
+              "value": "1020",
+              "is_correct": false
+            },
+            {
+              "id": "751_4",
+              "order": 4,
+              "text": "I",
+              "value": "1021",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "752",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Someone left _______ wallet on one of the tables.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "752_1",
+              "order": 1,
+              "text": "their",
+              "value": "1022",
+              "is_correct": true
+            },
+            {
+              "id": "752_2",
+              "order": 2,
+              "text": "its",
+              "value": "1023",
+              "is_correct": false
+            },
+            {
+              "id": "752_3",
+              "order": 3,
+              "text": "one's",
+              "value": "1024",
+              "is_correct": false
+            },
+            {
+              "id": "752_4",
+              "order": 4,
+              "text": "your",
+              "value": "1025",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "753",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 _______ serve very good food in this restaurant.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "753_1",
+              "order": 1,
+              "text": "He or she",
+              "value": "1026",
+              "is_correct": false
+            },
+            {
+              "id": "753_2",
+              "order": 2,
+              "text": "One",
+              "value": "1027",
+              "is_correct": false
+            },
+            {
+              "id": "753_3",
+              "order": 3,
+              "text": "You",
+              "value": "1028",
+              "is_correct": false
+            },
+            {
+              "id": "753_4",
+              "order": 4,
+              "text": "They",
+              "value": "1029",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "754",
+          "order": 6,
+          "type": "multiple_choice",
+          "text": "6 Picking _______ nose with dirty fingers or fingernails may increase risks of infection. Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "754_1",
+              "order": 1,
+              "text": "his",
+              "value": "1030",
+              "is_correct": false
+            },
+            {
+              "id": "754_2",
+              "order": 2,
+              "text": "one's",
+              "value": "1031",
+              "is_correct": true
+            },
+            {
+              "id": "754_3",
+              "order": 3,
+              "text": "your",
+              "value": "1032",
+              "is_correct": true
+            },
+            {
+              "id": "754_4",
+              "order": 4,
+              "text": "their",
+              "value": "1033",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "755",
+          "order": 7,
+          "type": "multiple_choice",
+          "text": "7 At first sight _______ may think that there has to be an easy solution to the problem. Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "755_1",
+              "order": 1,
+              "text": "one",
+              "value": "1034",
+              "is_correct": true
+            },
+            {
+              "id": "755_2",
+              "order": 2,
+              "text": "they",
+              "value": "1035",
+              "is_correct": false
+            },
+            {
+              "id": "755_3",
+              "order": 3,
+              "text": "we",
+              "value": "1036",
+              "is_correct": true
+            },
+            {
+              "id": "755_4",
+              "order": 4,
+              "text": "he",
+              "value": "1037",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "756",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Whoever said that should think twice before _______ speak again.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "756_1",
+              "order": 1,
+              "text": "one",
+              "value": "1038",
+              "is_correct": false
+            },
+            {
+              "id": "756_2",
+              "order": 2,
+              "text": "you",
+              "value": "1039",
+              "is_correct": false
+            },
+            {
+              "id": "756_3",
+              "order": 3,
+              "text": "we",
+              "value": "1040",
+              "is_correct": false
+            },
+            {
+              "id": "756_4",
+              "order": 4,
+              "text": "they",
+              "value": "1041",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "757",
+          "order": 9,
+          "type": "multiple_choice",
+          "text": "9 _______ should never judge a person by external appearances. Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "757_1",
+              "order": 1,
+              "text": "He",
+              "value": "1042",
+              "is_correct": false
+            },
+            {
+              "id": "757_2",
+              "order": 2,
+              "text": "One",
+              "value": "1043",
+              "is_correct": true
+            },
+            {
+              "id": "757_3",
+              "order": 3,
+              "text": "They",
+              "value": "1044",
+              "is_correct": false
+            },
+            {
+              "id": "757_4",
+              "order": 4,
+              "text": "You",
+              "value": "1045",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "758",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Someone crashed _______ car into our restaurant last night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "758_1",
+              "order": 1,
+              "text": "our",
+              "value": "1046",
+              "is_correct": false
+            },
+            {
+              "id": "758_2",
+              "order": 2,
+              "text": "their",
+              "value": "1047",
+              "is_correct": true
+            },
+            {
+              "id": "758_3",
+              "order": 3,
+              "text": "your",
+              "value": "1048",
+              "is_correct": false
+            },
+            {
+              "id": "758_4",
+              "order": 4,
+              "text": "one's",
+              "value": "1049",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-90",
+      "lessonId": "b2_generic_pronouns",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in each gap with one of the words from the list.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_generic-pronouns_3.html",
+      "questions": [
+        {
+          "id": "759",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 It's much more difficult to judge {{gap1}} than to judge others.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_759_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "oneself",
+              "accepted_answers": [
+                "oneself"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "760",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Life is not measured by the number of breaths we take, but by the moments that take {{gap1}} breath away.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_760_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "our",
+              "accepted_answers": [
+                "our"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "761",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Any person can change the way {{gap1}} understand the world.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_761_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "they",
+              "accepted_answers": [
+                "they"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "762",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 You should learn how to love {{gap1}} before you can love others.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_762_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "yourself",
+              "accepted_answers": [
+                "yourself"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "763",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 It is not wise to be too sure of {{gap1}} own wisdom. Life is a long lesson in humility.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_763_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "one's",
+              "accepted_answers": [
+                "one's"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "764",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 {{gap1}} are all human, and therefore prone to make mistakes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_764_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "We",
+              "accepted_answers": [
+                "We"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "765",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Sometimes life takes {{gap1}} to where we never wish to be.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_765_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "you",
+              "accepted_answers": [
+                "you"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "766",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Sometimes {{gap1}} need to get lost in order to find yourself again.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_766_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "you",
+              "accepted_answers": [
+                "you"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "767",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 {{gap1}} should become the master of one's mind rather than let one's mind master them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_767_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "One",
+              "accepted_answers": [
+                "One"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "768",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 A good journalist should never reveal {{gap1}} sources.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_768_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "their",
+              "accepted_answers": [
+                "their"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

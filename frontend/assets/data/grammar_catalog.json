@@ -1,0 +1,1855 @@
+{
+  "levels": [
+    {
+      "id": "A1",
+      "title": "A1 Elementary",
+      "description": "Основы грамматики: времена, местоимения, базовые конструкции",
+      "color": "#22c55e",
+      "icon": "🌱"
+    },
+    {
+      "id": "A2",
+      "title": "A2 Pre-Intermediate",
+      "description": "Прошедшие времена, модальные глаголы, сравнения",
+      "color": "#3b82f6",
+      "icon": "📘"
+    },
+    {
+      "id": "B1",
+      "title": "B1 Intermediate",
+      "description": "Совершенные времена, пассивный залог, условные предложения",
+      "color": "#f59e0b",
+      "icon": "⚡"
+    },
+    {
+      "id": "B1-B2",
+      "title": "B1+ Upper-Intermediate",
+      "description": "Сложные грамматические структуры, герундий и инфинитив",
+      "color": "#8b5cf6",
+      "icon": "🎯"
+    },
+    {
+      "id": "B2",
+      "title": "B2 Pre-Advanced",
+      "description": "Инверсия, смешанные условные, идиоматическая грамматика",
+      "color": "#ec4899",
+      "icon": "🔥"
+    },
+    {
+      "id": "C1",
+      "title": "C1 Advanced",
+      "description": "Продвинутый уровень: нюансы стилистики, акцентные конструкции",
+      "color": "#06b6d4",
+      "icon": "👑"
+    },
+    {
+      "id": "SHORTS",
+      "title": "Grammar Shorts",
+      "description": "Короткие тесты и правила на частые ошибки",
+      "color": "#10b981",
+      "icon": "💡"
+    }
+  ],
+  "lessons": [
+    {
+      "lesson_id": "a1_a_an_plurals",
+      "level": "A1",
+      "title": "A/an, plurals: Singular and plural forms",
+      "description": "Практический тест и правила по теме: A/an, plurals: Singular and plural forms",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_a_an_the_no_article",
+      "level": "A1",
+      "title": "A/an, the, no article: The use of articles in English",
+      "description": "Практический тест и правила по теме: A/an, the, no article: The use of articles in English",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_a_some_any_countable_uncountable",
+      "level": "A1",
+      "title": "A, some, any: Countable and uncountable nouns",
+      "description": "Практический тест и правила по теме: A, some, any: Countable and uncountable nouns",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_adjectives",
+      "level": "A1",
+      "title": "Adjectives: Old, interesting, expensive, etc.",
+      "description": "Практический тест и правила по теме: Adjectives: Old, interesting, expensive, etc.",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_adverbs_frequency",
+      "level": "A1",
+      "title": "Adverbs of frequency with present simple",
+      "description": "Практический тест и правила по теме: Adverbs of frequency with present simple",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_adverbs_manner",
+      "level": "A1",
+      "title": "Adverbs of manner (slowly) or adjectives (slow)?",
+      "description": "Практический тест и правила по теме: Adverbs of manner (slowly) or adjectives (slow)?",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_at_in_on_prepositions_of_place",
+      "level": "A1",
+      "title": "At, in, on: Prepositions of place",
+      "description": "Практический тест и правила по теме: At, in, on: Prepositions of place",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_at_in_on_prepositions_time",
+      "level": "A1",
+      "title": "At, in, on: Prepositions of time",
+      "description": "Практический тест и правила по теме: At, in, on: Prepositions of time",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_basic_word_order_in_english",
+      "level": "A1",
+      "title": "Basic word order in English",
+      "description": "Практический тест и правила по теме: Basic word order in English",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_be_going_to_plans_predictions",
+      "level": "A1",
+      "title": "Be going to: Plans and predictions",
+      "description": "Практический тест и правила по теме: Be going to: Plans and predictions",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_can_cant",
+      "level": "A1",
+      "title": "Can, can't: Ability, possibility, permission",
+      "description": "Практический тест и правила по теме: Can, can't: Ability, possibility, permission",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_comparative_adjectives",
+      "level": "A1",
+      "title": "Comparative adjectives: Older than, more important than, etc.",
+      "description": "Практический тест и правила по теме: Comparative adjectives: Older than, more important than, etc.",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_conjunctions_and_but_or_so_because",
+      "level": "A1",
+      "title": "Conjunctions: And, but, or, so, because",
+      "description": "Практический тест и правила по теме: Conjunctions: And, but, or, so, because",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_have_got",
+      "level": "A1",
+      "title": "Have got",
+      "description": "Практический тест и правила по теме: Have got",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_imperative_sit_dont_talk",
+      "level": "A1",
+      "title": "The imperative: Sit down! Don’t talk!",
+      "description": "Практический тест и правила по теме: The imperative: Sit down! Don’t talk!",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_much_many_lot_little_few",
+      "level": "A1",
+      "title": "Much, many, a lot of, a little, a few",
+      "description": "Практический тест и правила по теме: Much, many, a lot of, a little, a few",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_next_to_under_between_in_front_behind_etc",
+      "level": "A1",
+      "title": "Next to, under, between, in front of, behind, over, etc.",
+      "description": "Практический тест и правила по теме: Next to, under, between, in front of, behind, over, etc.",
+      "questions_count": 29,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_object_pronouns",
+      "level": "A1",
+      "title": "Object pronouns vs subject pronouns: Me or I, she or her?",
+      "description": "Практический тест и правила по теме: Object pronouns vs subject pronouns: Me or I, she or her?",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_past_simple_negatives_questions",
+      "level": "A1",
+      "title": "Past simple: Negatives and questions",
+      "description": "Практический тест и правила по теме: Past simple: Negatives and questions",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_past_simple_regular_irregular",
+      "level": "A1",
+      "title": "Past simple: Regular/irregular verbs",
+      "description": "Практический тест и правила по теме: Past simple: Regular/irregular verbs",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_possessive_adjectives",
+      "level": "A1",
+      "title": "Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "description": "Практический тест и правила по теме: Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_present_continuous",
+      "level": "A1",
+      "title": "Present continuous: I'm doing, I'm not doing, Are you doing?",
+      "description": "Практический тест и правила по теме: Present continuous: I'm doing, I'm not doing, Are you doing?",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_present_simple",
+      "level": "A1",
+      "title": "Present simple: I do, I don't, Do I?",
+      "description": "Практический тест и правила по теме: Present simple: I do, I don't, Do I?",
+      "questions_count": 31,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "a1_present_simple_forms_of_to_be",
+      "level": "A1",
+      "title": "Present simple forms of 'to be': am/is/are",
+      "description": "Практический тест и правила по теме: Present simple forms of 'to be': am/is/are",
+      "questions_count": 31,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "a1_present_simple_present_continuous",
+      "level": "A1",
+      "title": "Present simple or present continuous?",
+      "description": "Практический тест и правила по теме: Present simple or present continuous?",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_questions",
+      "level": "A1",
+      "title": "Questions: Word order and question words",
+      "description": "Практический тест и правила по теме: Questions: Word order and question words",
+      "questions_count": 40,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "a1_superlative_adjectives",
+      "level": "A1",
+      "title": "Superlative adjectives: The oldest, the most important, etc.",
+      "description": "Практический тест и правила по теме: Superlative adjectives: The oldest, the most important, etc.",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_the_difference_between_this_and_it",
+      "level": "A1",
+      "title": "The difference between 'this' and 'it'",
+      "description": "Практический тест и правила по теме: The difference between 'this' and 'it'",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_there_is_there_are",
+      "level": "A1",
+      "title": "There is, there are / there was, there were",
+      "description": "Практический тест и правила по теме: There is, there are / there was, there were",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_there_it",
+      "level": "A1",
+      "title": "There or It",
+      "description": "Практический тест и правила по теме: There or It",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_this_that_these_those",
+      "level": "A1",
+      "title": "This, that, these, those",
+      "description": "Практический тест и правила по теме: This, that, these, those",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_verbs_infinitive_verbs_ing",
+      "level": "A1",
+      "title": "Verbs + to + infinitive and verbs + -ing",
+      "description": "Практический тест и правила по теме: Verbs + to + infinitive and verbs + -ing",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_was_were",
+      "level": "A1",
+      "title": "Was/were: Past simple of 'be'",
+      "description": "Практический тест и правила по теме: Was/were: Past simple of 'be'",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_whose_possessive_s",
+      "level": "A1",
+      "title": "Whose, possessive 's: Whose is this? It's Mike's",
+      "description": "Практический тест и правила по теме: Whose, possessive 's: Whose is this? It's Mike's",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_will_and_shall",
+      "level": "A1",
+      "title": "'Will' and 'shall': Future",
+      "description": "Практический тест и правила по теме: 'Will' and 'shall': Future",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a1_would_like",
+      "level": "A1",
+      "title": "Would you like...? I'd like...",
+      "description": "Практический тест и правила по теме: Would you like...? I'd like...",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_asking_questions_in_english",
+      "level": "A2",
+      "title": "Asking questions in English: Question forms",
+      "description": "Практический тест и правила по теме: Asking questions in English: Question forms",
+      "questions_count": 40,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "a2_auxiliary_verbs_do_be_and_have",
+      "level": "A2",
+      "title": "Auxiliary verbs: do, be and have",
+      "description": "Практический тест и правила по теме: Auxiliary verbs: do, be and have",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_comparative_superlative_adjectives_adverbs",
+      "level": "A2",
+      "title": "Comparative and superlative adjectives and adverbs",
+      "description": "Практический тест и правила по теме: Comparative and superlative adjectives and adverbs",
+      "questions_count": 40,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "a2_defining_relative_clauses_who_which_that_where",
+      "level": "A2",
+      "title": "Defining relative clauses: Who, which, that, where",
+      "description": "Практический тест и правила по теме: Defining relative clauses: Who, which, that, where",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_do_vs_make_difference",
+      "level": "A2",
+      "title": "Do vs Make: What's the difference?",
+      "description": "Практический тест и правила по теме: Do vs Make: What's the difference?",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_first_conditional_future_time_clauses",
+      "level": "A2",
+      "title": "First conditional and future time clauses",
+      "description": "Практический тест и правила по теме: First conditional and future time clauses",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_have_to_dont_have_to_must_mustnt",
+      "level": "A2",
+      "title": "Have to, don't have to, must, mustn't",
+      "description": "Практический тест и правила по теме: Have to, don't have to, must, mustn't",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_however_although_time_connectors",
+      "level": "A2",
+      "title": "However, although, because, so, and time connectors",
+      "description": "Практический тест и правила по теме: However, although, because, so, and time connectors",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_infinitives_and_gerunds",
+      "level": "A2",
+      "title": "Infinitives and gerunds: Verb patterns",
+      "description": "Практический тест и правила по теме: Infinitives and gerunds: Verb patterns",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_may_and_might_whats_the_difference",
+      "level": "A2",
+      "title": "May and might: What's the difference?",
+      "description": "Практический тест и правила по теме: May and might: What's the difference?",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_might_might_not",
+      "level": "A2",
+      "title": "Might, might not: Possibility",
+      "description": "Практический тест и правила по теме: Might, might not: Possibility",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_most_most_of_the_most",
+      "level": "A2",
+      "title": "Most, most of, the most",
+      "description": "Практический тест и правила по теме: Most, most of, the most",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_much_many_little_few_some_any",
+      "level": "A2",
+      "title": "Much, many, little, few, some, any: Quantifiers",
+      "description": "Практический тест и правила по теме: Much, many, little, few, some, any: Quantifiers",
+      "questions_count": 50,
+      "exercises_count": 5
+    },
+    {
+      "lesson_id": "a2_no_longer_any_longer_anymore",
+      "level": "A2",
+      "title": "No longer, any longer, anymore",
+      "description": "Практический тест и правила по теме: No longer, any longer, anymore",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_on_time_vs_in_time_at_the_end_vs_in_the_end",
+      "level": "A2",
+      "title": "On time vs In time, At the end vs In the end",
+      "description": "Практический тест и правила по теме: On time vs In time, At the end vs In the end",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_past_continuous_past_simple",
+      "level": "A2",
+      "title": "Past continuous and past simple",
+      "description": "Практический тест и правила по теме: Past continuous and past simple",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_past_perfect",
+      "level": "A2",
+      "title": "Past perfect",
+      "description": "Практический тест и правила по теме: Past perfect",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_past_simple_form_use",
+      "level": "A2",
+      "title": "Past simple: Form and use",
+      "description": "Практический тест и правила по теме: Past simple: Form and use",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_phrasal_verbs_transitive_and_intransitive_separable_and_inseparable",
+      "level": "A2",
+      "title": "Phrasal verbs: Transitive / intransitive, separable / inseparable",
+      "description": "Практический тест и правила по теме: Phrasal verbs: Transitive / intransitive, separable / inseparable",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_prepositions_of_movement",
+      "level": "A2",
+      "title": "Prepositions of movement: Along, across, over, etc.",
+      "description": "Практический тест и правила по теме: Prepositions of movement: Along, across, over, etc.",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_present_continuous_future_arrangements",
+      "level": "A2",
+      "title": "Present continuous for future arrangements",
+      "description": "Практический тест и правила по теме: Present continuous for future arrangements",
+      "questions_count": 14,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_present_past_simple_passive",
+      "level": "A2",
+      "title": "Present and past simple passive: 'be' + past participle",
+      "description": "Практический тест и правила по теме: Present and past simple passive: 'be' + past participle",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_present_perfect",
+      "level": "A2",
+      "title": "Present perfect: Form and use",
+      "description": "Практический тест и правила по теме: Present perfect: Form and use",
+      "questions_count": 40,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "a2_present_perfect_or_past_simple",
+      "level": "A2",
+      "title": "Present perfect or past simple?",
+      "description": "Практический тест и правила по теме: Present perfect or past simple?",
+      "questions_count": 17,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "a2_present_simple_continuous",
+      "level": "A2",
+      "title": "Present simple vs present continuous",
+      "description": "Практический тест и правила по теме: Present simple vs present continuous",
+      "questions_count": 14,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_purpose_to_for",
+      "level": "A2",
+      "title": "Expressing purpose with 'to' and 'for'",
+      "description": "Практический тест и правила по теме: Expressing purpose with 'to' and 'for'",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_reported_speech_indirect_speech",
+      "level": "A2",
+      "title": "Reported speech / Indirect speech",
+      "description": "Практический тест и правила по теме: Reported speech / Indirect speech",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_review_verb_tenses_a2",
+      "level": "A2",
+      "title": "Review of all pre-intermediate verb tenses (CEFR A2)",
+      "description": "Практический тест и правила по теме: Review of all pre-intermediate verb tenses (CEFR A2)",
+      "questions_count": 12,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_second_conditional",
+      "level": "A2",
+      "title": "Second conditional",
+      "description": "Практический тест и правила по теме: Second conditional",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_should_shouldnt",
+      "level": "A2",
+      "title": "Should, shouldn't",
+      "description": "Практический тест и правила по теме: Should, shouldn't",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_so_neither",
+      "level": "A2",
+      "title": "So, neither: So am I, neither do I, etc.",
+      "description": "Практический тест и правила по теме: So, neither: So am I, neither do I, etc.",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_something_anything_nothing_etc",
+      "level": "A2",
+      "title": "Something, anything, nothing, etc.",
+      "description": "Практический тест и правила по теме: Something, anything, nothing, etc.",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_stative_vs_dynamic_verbs_or_non_action_vs_action_verbs",
+      "level": "A2",
+      "title": "Stative vs dynamic verbs (or non-action vs action verbs)",
+      "description": "Практический тест и правила по теме: Stative vs dynamic verbs (or non-action vs action verbs)",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_subject_pronouns_object_pronouns_possessive_pronouns_possessive_adjectives",
+      "level": "A2",
+      "title": "Subject and object pronouns, possessive pronouns and adjectives",
+      "description": "Практический тест и правила по теме: Subject and object pronouns, possessive pronouns and adjectives",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_subject_questions_questions_preposition",
+      "level": "A2",
+      "title": "Subject questions, questions with preposition",
+      "description": "Практический тест и правила по теме: Subject questions, questions with preposition",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_the_different_uses_of_the_verb_get",
+      "level": "A2",
+      "title": "The different uses of the verb 'get'",
+      "description": "Практический тест и правила по теме: The different uses of the verb 'get'",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_too_too_much_too_many_enough",
+      "level": "A2",
+      "title": "Too, too much, too many, enough",
+      "description": "Практический тест и правила по теме: Too, too much, too many, enough",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_use_verb_go_english",
+      "level": "A2",
+      "title": "How to use the verb 'go' in English",
+      "description": "Практический тест и правила по теме: How to use the verb 'go' in English",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_used_to",
+      "level": "A2",
+      "title": "Used to, didn't use to: Past habits and states",
+      "description": "Практический тест и правила по теме: Used to, didn't use to: Past habits and states",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_verbs_with_two_objects",
+      "level": "A2",
+      "title": "Verbs with two objects",
+      "description": "Практический тест и правила по теме: Verbs with two objects",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "a2_will_vs_be_going_to",
+      "level": "A2",
+      "title": "'Will' vs 'be going to': Future forms",
+      "description": "Практический тест и правила по теме: 'Will' vs 'be going to': Future forms",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_adjective_order",
+      "level": "B1-B2",
+      "title": "Adjective order",
+      "description": "Практический тест и правила по теме: Adjective order",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_adjectives_without_noun",
+      "level": "B1-B2",
+      "title": "Adjectives without noun",
+      "description": "Практический тест и правила по теме: Adjectives without noun",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_already_still_yet_whats_the_difference",
+      "level": "B1-B2",
+      "title": "Already, still, yet: What's the difference?",
+      "description": "Практический тест и правила по теме: Already, still, yet: What's the difference?",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_auxiliary_verbs_different_uses",
+      "level": "B1-B2",
+      "title": "Auxiliary verbs: Different uses",
+      "description": "Практический тест и правила по теме: Auxiliary verbs: Different uses",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_clauses_contrast_purpose",
+      "level": "B1-B2",
+      "title": "Clauses of contrast and purpose",
+      "description": "Практический тест и правила по теме: Clauses of contrast and purpose",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_do_or_make_which_is_it",
+      "level": "B1-B2",
+      "title": "Do or Make: Which is it?",
+      "description": "Практический тест и правила по теме: Do or Make: Which is it?",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_double_negatives_in_english",
+      "level": "B1-B2",
+      "title": "Double negatives in English",
+      "description": "Практический тест и правила по теме: Double negatives in English",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_future_continuous_and_future_perfect",
+      "level": "B1-B2",
+      "title": "Future continuous and future perfect",
+      "description": "Практический тест и правила по теме: Future continuous and future perfect",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_gerund_or_infinitive",
+      "level": "B1-B2",
+      "title": "Gerund or infinitive: Verb patterns",
+      "description": "Практический тест и правила по теме: Gerund or infinitive: Verb patterns",
+      "questions_count": 31,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "b1-b2_have_something_done",
+      "level": "B1-B2",
+      "title": "Have something done",
+      "description": "Практический тест и правила по теме: Have something done",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_indirect_questions",
+      "level": "B1-B2",
+      "title": "Indirect questions",
+      "description": "Практический тест и правила по теме: Indirect questions",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_likely_unlikely_bound_definitely_probably",
+      "level": "B1-B2",
+      "title": "Likely, unlikely, bound, definitely, probably: Probability",
+      "description": "Практический тест и правила по теме: Likely, unlikely, bound, definitely, probably: Probability",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_narrative_tenses",
+      "level": "B1-B2",
+      "title": "Narrative tenses: All past tenses",
+      "description": "Практический тест и правила по теме: Narrative tenses: All past tenses",
+      "questions_count": 12,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_neednt_dont_need_to_didnt_need_to_neednt_have",
+      "level": "B1-B2",
+      "title": "Needn't, don't need to, didn't need to, needn't have",
+      "description": "Практический тест и правила по теме: Needn't, don't need to, didn't need to, needn't have",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_participle_adjectives",
+      "level": "B1-B2",
+      "title": "Participles as adjectives: -ed/-ing adjectives",
+      "description": "Практический тест и правила по теме: Participles as adjectives: -ed/-ing adjectives",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_passive_reporting_verbs",
+      "level": "B1-B2",
+      "title": "The passive with reporting verbs: It is said that ...",
+      "description": "Практический тест и правила по теме: The passive with reporting verbs: It is said that ...",
+      "questions_count": 30,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "b1-b2_passive_voice_all_tenses",
+      "level": "B1-B2",
+      "title": "The passive voice: All tenses",
+      "description": "Практический тест и правила по теме: The passive voice: All tenses",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_past_modal_verbs",
+      "level": "B1-B2",
+      "title": "Past modal verbs of deduction",
+      "description": "Практический тест и правила по теме: Past modal verbs of deduction",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_position_of_adverbs",
+      "level": "B1-B2",
+      "title": "Position of adverbs and adverb phrases",
+      "description": "Практический тест и правила по теме: Position of adverbs and adverb phrases",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_present_perfect_simple_continuous",
+      "level": "B1-B2",
+      "title": "Present perfect simple or continuous",
+      "description": "Практический тест и правила по теме: Present perfect simple or continuous",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_pretty_rather_quite_fairly_intensifiers",
+      "level": "B1-B2",
+      "title": "Pretty, rather, quite, fairly: Adverbs of degree",
+      "description": "Практический тест и правила по теме: Pretty, rather, quite, fairly: Adverbs of degree",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_quantifiers",
+      "level": "B1-B2",
+      "title": "Quantifiers: All, most, both, either, neither, any, no, none",
+      "description": "Практический тест и правила по теме: Quantifiers: All, most, both, either, neither, any, no, none",
+      "questions_count": 26,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "b1-b2_questions_different_types",
+      "level": "B1-B2",
+      "title": "Questions: Different types",
+      "description": "Практический тест и правила по теме: Questions: Different types",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_reporting_verbs",
+      "level": "B1-B2",
+      "title": "Reporting verbs: Admit doing, refuse to do, etc.",
+      "description": "Практический тест и правила по теме: Reporting verbs: Admit doing, refuse to do, etc.",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_review_verb_tenses_b1_b2",
+      "level": "B1-B2",
+      "title": "Review of all upper-intermediate verb tenses (CEFR B2.1)",
+      "description": "Практический тест и правила по теме: Review of all upper-intermediate verb tenses (CEFR B2.1)",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_second_third_conditionals",
+      "level": "B1-B2",
+      "title": "Second and third conditionals: Unreal conditionals",
+      "description": "Практический тест и правила по теме: Second and third conditionals: Unreal conditionals",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_so_such_a_so_much_so_many",
+      "level": "B1-B2",
+      "title": "So, such (a), so much, so many",
+      "description": "Практический тест и правила по теме: So, such (a), so much, so many",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_the_the_comparatives",
+      "level": "B1-B2",
+      "title": "The ... the ... comparatives",
+      "description": "Практический тест и правила по теме: The ... the ... comparatives",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_used_to",
+      "level": "B1-B2",
+      "title": "Used to, be used to, get used to",
+      "description": "Практический тест и правила по теме: Used to, be used to, get used to",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_verbs_of_the_senses",
+      "level": "B1-B2",
+      "title": "Verbs of the senses: look, sound, feel, etc.",
+      "description": "Практический тест и правила по теме: Verbs of the senses: look, sound, feel, etc.",
+      "questions_count": 24,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_whatever_whenever_wherever_whoever_however",
+      "level": "B1-B2",
+      "title": "Whatever, whenever, wherever, whoever, however",
+      "description": "Практический тест и правила по теме: Whatever, whenever, wherever, whoever, however",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_when_i_do_vs_when_i_have_done",
+      "level": "B1-B2",
+      "title": "When I do vs When I have done: Future time clauses",
+      "description": "Практический тест и правила по теме: When I do vs When I have done: Future time clauses",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_wishes_regrets",
+      "level": "B1-B2",
+      "title": "Wishes and regrets: I wish/if only",
+      "description": "Практический тест и правила по теме: Wishes and regrets: I wish/if only",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_would_and_used_to",
+      "level": "B1-B2",
+      "title": "Would and used to: Past habits and repeated actions",
+      "description": "Практический тест и правила по теме: Would and used to: Past habits and repeated actions",
+      "questions_count": 11,
+      "exercises_count": 2
+    },
+    {
+      "lesson_id": "b1-b2_would_rather_would_prefer",
+      "level": "B1-B2",
+      "title": "Would rather, would prefer: Expressing preference",
+      "description": "Практический тест и правила по теме: Would rather, would prefer: Expressing preference",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1-b2_zero_first_conditional_future_time_clauses",
+      "level": "B1-B2",
+      "title": "Zero and first conditional and future time clauses",
+      "description": "Практический тест и правила по теме: Zero and first conditional and future time clauses",
+      "questions_count": 28,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_active_passive_voice",
+      "level": "B1",
+      "title": "Active and passive voice",
+      "description": "Практический тест и правила по теме: Active and passive voice",
+      "questions_count": 22,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "b1_adjective_preposition",
+      "level": "B1",
+      "title": "Adjective + preposition: Dependent prepositions",
+      "description": "Практический тест и правила по теме: Adjective + preposition: Dependent prepositions",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_all_both",
+      "level": "B1",
+      "title": "All, both: Quantifiers",
+      "description": "Практический тест и правила по теме: All, both: Quantifiers",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_an_the_no_article",
+      "level": "B1",
+      "title": "A(n), the, no article",
+      "description": "Практический тест и правила по теме: A(n), the, no article",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_another_other_others_the_other_the_others",
+      "level": "B1",
+      "title": "Another, other, others, the other, the others",
+      "description": "Практический тест и правила по теме: Another, other, others, the other, the others",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_any_no_none",
+      "level": "B1",
+      "title": "Any, no, none: Quantifiers",
+      "description": "Практический тест и правила по теме: Any, no, none: Quantifiers",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_b1_phrasal_verbs_1_exercises_explanation",
+      "level": "B1",
+      "title": "B1 Phrasal verbs 1: Exercises and explanation",
+      "description": "Практический тест и правила по теме: B1 Phrasal verbs 1: Exercises and explanation",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_b1_phrasal_verbs_2_exercises_and_explanation",
+      "level": "B1",
+      "title": "B1 Phrasal verbs 2: Exercises and explanation",
+      "description": "Практический тест и правила по теме: B1 Phrasal verbs 2: Exercises and explanation",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_b1_phrasal_verbs_3_exercises_and_explanation",
+      "level": "B1",
+      "title": "B1 Phrasal verbs 3: Exercises and explanation",
+      "description": "Практический тест и правила по теме: B1 Phrasal verbs 3: Exercises and explanation",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_both_either_neither",
+      "level": "B1",
+      "title": "Both, either, neither: Quantifiers",
+      "description": "Практический тест и правила по теме: Both, either, neither: Quantifiers",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_can_could_be_able_to",
+      "level": "B1",
+      "title": "Can, could, be able to: Ability and possibility",
+      "description": "Практический тест и правила по теме: Can, could, be able to: Ability and possibility",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_clauses_contrast_purpose_reason",
+      "level": "B1",
+      "title": "Clauses of contrast, purpose and reason",
+      "description": "Практический тест и правила по теме: Clauses of contrast, purpose and reason",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_comparative_superlative_adjectives_adverbs",
+      "level": "B1",
+      "title": "Comparative and superlative adjectives and adverbs",
+      "description": "Практический тест и правила по теме: Comparative and superlative adjectives and adverbs",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_compound_adjectives_with_numbers_a_two_day_trip",
+      "level": "B1",
+      "title": "Compound adjectives with numbers: 'a two-day trip'",
+      "description": "Практический тест и правила по теме: Compound adjectives with numbers: 'a two-day trip'",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_defining_and_non_defining_relative_clauses",
+      "level": "B1",
+      "title": "Defining and non-defining relative clauses",
+      "description": "Практический тест и правила по теме: Defining and non-defining relative clauses",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_during_for_while",
+      "level": "B1",
+      "title": "During, for, while",
+      "description": "Практический тест и правила по теме: During, for, while",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_ed_ing_adjectives_adjectives_verbs",
+      "level": "B1",
+      "title": "-Ed/-ing adjectives: Adjectives from verbs",
+      "description": "Практический тест и правила по теме: -Ed/-ing adjectives: Adjectives from verbs",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_first_and_second_conditionals",
+      "level": "B1",
+      "title": "First and second conditionals",
+      "description": "Практический тест и правила по теме: First and second conditionals",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_first_conditional_future_time_clauses",
+      "level": "B1",
+      "title": "First conditional, future time clauses",
+      "description": "Практический тест и правила по теме: First conditional, future time clauses",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_for_since_from_difference",
+      "level": "B1",
+      "title": "For, since, from: What's the difference?",
+      "description": "Практический тест и правила по теме: For, since, from: What's the difference?",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_future_forms",
+      "level": "B1",
+      "title": "Future forms: Will, be going to, present continuous",
+      "description": "Практический тест и правила по теме: Future forms: Will, be going to, present continuous",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_gerund_or_infinitive_do_to_do_doing",
+      "level": "B1",
+      "title": "Gerund or infinitive: Do, to do, doing",
+      "description": "Практический тест и правила по теме: Gerund or infinitive: Do, to do, doing",
+      "questions_count": 40,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "b1_had_better_its_time",
+      "level": "B1",
+      "title": "Had better... It's time...",
+      "description": "Практический тест и правила по теме: Had better... It's time...",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_have_to_must_should",
+      "level": "B1",
+      "title": "Have to, must, should: Obligation, prohibition, necessity, advice",
+      "description": "Практический тест и правила по теме: Have to, must, should: Obligation, prohibition, necessity, advice",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_modal_verbs_of_deduction",
+      "level": "B1",
+      "title": "Modal verbs of deduction: Must, may, might, could, can't",
+      "description": "Практический тест и правила по теме: Modal verbs of deduction: Must, may, might, could, can't",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_much_many_lot_little_no",
+      "level": "B1",
+      "title": "Much, many, a lot, little, few, some, any, no: Quantifiers",
+      "description": "Практический тест и правила по теме: Much, many, a lot, little, few, some, any, no: Quantifiers",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_passive_verb_forms",
+      "level": "B1",
+      "title": "Passive verb forms",
+      "description": "Практический тест и правила по теме: Passive verb forms",
+      "questions_count": 40,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "b1_past_simple_past_continuous_past_perfect",
+      "level": "B1",
+      "title": "Past simple, past continuous, past perfect",
+      "description": "Практический тест и правила по теме: Past simple, past continuous, past perfect",
+      "questions_count": 12,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_past_simple_present_perfect",
+      "level": "B1",
+      "title": "Past simple or present perfect?",
+      "description": "Практический тест и правила по теме: Past simple or present perfect?",
+      "questions_count": 40,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "b1_present_perfect_simple_present_perfect_continuous",
+      "level": "B1",
+      "title": "Present perfect simple and present perfect continuous",
+      "description": "Практический тест и правила по теме: Present perfect simple and present perfect continuous",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_present_simple_present_continuous",
+      "level": "B1",
+      "title": "Present simple or present continuous",
+      "description": "Практический тест и правила по теме: Present simple or present continuous",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_question_tags",
+      "level": "B1",
+      "title": "Question tags: Aren't you? don't you?",
+      "description": "Практический тест и правила по теме: Question tags: Aren't you? don't you?",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_reflexive_pronouns_myself_yourself",
+      "level": "B1",
+      "title": "Reflexive pronouns: Myself, yourself, etc.",
+      "description": "Практический тест и правила по теме: Reflexive pronouns: Myself, yourself, etc.",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_reported_speech_indirect_speech",
+      "level": "B1",
+      "title": "Indirect speech / Reported speech",
+      "description": "Практический тест и правила по теме: Indirect speech / Reported speech",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_review_verb_tenses_b1",
+      "level": "B1",
+      "title": "Review of all intermediate verb tenses (CEFR B1)",
+      "description": "Практический тест и правила по теме: Review of all intermediate verb tenses (CEFR B1)",
+      "questions_count": 28,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_second_conditional_unreal_situations",
+      "level": "B1",
+      "title": "Second conditional: Unreal situations",
+      "description": "Практический тест и правила по теме: Second conditional: Unreal situations",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_so_such_such_a_so_much_so_many",
+      "level": "B1",
+      "title": "So, such, such a, so much, so many",
+      "description": "Практический тест и правила по теме: So, such, such a, so much, so many",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_third_conditional_past_unreal_situations",
+      "level": "B1",
+      "title": "Third conditional: Past unreal situations",
+      "description": "Практический тест и правила по теме: Third conditional: Past unreal situations",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_usually_used_to_be_used_to_get_used_to",
+      "level": "B1",
+      "title": "Usually, used to, be used to, get used to",
+      "description": "Практический тест и правила по теме: Usually, used to, be used to, get used to",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_verb_preposition",
+      "level": "B1",
+      "title": "Verb + preposition: Dependent prepositions",
+      "description": "Практический тест и правила по теме: Verb + preposition: Dependent prepositions",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b1_would_rather_would_sooner",
+      "level": "B1",
+      "title": "Would rather & Would sooner",
+      "description": "Практический тест и правила по теме: Would rather & Would sooner",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_50_common_noun_preposition_collocations",
+      "level": "B2",
+      "title": "50 common Noun + Preposition collocations",
+      "description": "Практический тест и правила по теме: 50 common Noun + Preposition collocations",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_all_conditionals_mixed_conditionals_alternatives_if_inversion",
+      "level": "B2",
+      "title": "All conditionals: Mixed conditionals, alternatives to 'if', inversion",
+      "description": "Практический тест и правила по теме: All conditionals: Mixed conditionals, alternatives to 'if', inversion",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_clauses_contrast_purpose_reason_result",
+      "level": "B2",
+      "title": "Clauses of contrast, purpose, reason and result",
+      "description": "Практический тест и правила по теме: Clauses of contrast, purpose, reason and result",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_cleft_sentences",
+      "level": "B2",
+      "title": "Cleft sentences: Adding emphasis",
+      "description": "Практический тест и правила по теме: Cleft sentences: Adding emphasis",
+      "questions_count": 40,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "b2_comparative_structures_modifying_comparatives",
+      "level": "B2",
+      "title": "Comparative structures: Modifying comparatives",
+      "description": "Практический тест и правила по теме: Comparative structures: Modifying comparatives",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_compound_adjectives_in_english",
+      "level": "B2",
+      "title": "Compound adjectives in English",
+      "description": "Практический тест и правила по теме: Compound adjectives in English",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_compound_nouns_possessive_forms",
+      "level": "B2",
+      "title": "Compound nouns and possessive forms",
+      "description": "Практический тест и правила по теме: Compound nouns and possessive forms",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_discourse_markers",
+      "level": "B2",
+      "title": "Discourse markers: Linking words",
+      "description": "Практический тест и правила по теме: Discourse markers: Linking words",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_distancing",
+      "level": "B2",
+      "title": "Distancing: Expressions and passive of reporting verbs",
+      "description": "Практический тест и правила по теме: Distancing: Expressions and passive of reporting verbs",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_ellipsis_and_substitution",
+      "level": "B2",
+      "title": "Ellipsis and substitution: Omitting or replacing words",
+      "description": "Практический тест и правила по теме: Ellipsis and substitution: Omitting or replacing words",
+      "questions_count": 40,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "b2_future_forms_expressing_future_time",
+      "level": "B2",
+      "title": "Future forms: Expressing future time",
+      "description": "Практический тест и правила по теме: Future forms: Expressing future time",
+      "questions_count": 40,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "b2_future_in_the_past",
+      "level": "B2",
+      "title": "Future in the past",
+      "description": "Практический тест и правила по теме: Future in the past",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_generic_pronouns",
+      "level": "B2",
+      "title": "Generic or common-gender pronouns",
+      "description": "Практический тест и правила по теме: Generic or common-gender pronouns",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_gerunds_infinitives_complex_forms",
+      "level": "B2",
+      "title": "Gerunds and infinitives: Complex forms",
+      "description": "Практический тест и правила по теме: Gerunds and infinitives: Complex forms",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_get",
+      "level": "B2",
+      "title": "Get: Different meanings",
+      "description": "Практический тест и правила по теме: Get: Different meanings",
+      "questions_count": 32,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_have_auxiliary_main_verb",
+      "level": "B2",
+      "title": "Have: Auxiliary or main verb",
+      "description": "Практический тест и правила по теме: Have: Auxiliary or main verb",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_inversion_negative_adverbials",
+      "level": "B2",
+      "title": "Inversion with negative adverbials: Adding emphasis",
+      "description": "Практический тест и правила по теме: Inversion with negative adverbials: Adding emphasis",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_mixed_conditionals",
+      "level": "B2",
+      "title": "Mixed conditionals: If I were you, I wouldn't have done it",
+      "description": "Практический тест и правила по теме: Mixed conditionals: If I were you, I wouldn't have done it",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_modal_verbs_permission_obligation_prohibition_necessity",
+      "level": "B2",
+      "title": "Modal verbs: Permission, obligation, prohibition, necessity",
+      "description": "Практический тест и правила по теме: Modal verbs: Permission, obligation, prohibition, necessity",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_narrative_tenses_used_to_would",
+      "level": "B2",
+      "title": "Narrative tenses, used to, would",
+      "description": "Практический тест и правила по теме: Narrative tenses, used to, would",
+      "questions_count": 16,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_participle_clauses",
+      "level": "B2",
+      "title": "Participle clauses",
+      "description": "Практический тест и правила по теме: Participle clauses",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_passive_verbs_with_two_objects",
+      "level": "B2",
+      "title": "Passive verbs with two objects",
+      "description": "Практический тест и правила по теме: Passive verbs with two objects",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_possessive_s_with_time_expressions_two_hours_walk",
+      "level": "B2",
+      "title": "Possessive ’s with time expressions: Two hours’ walk",
+      "description": "Практический тест и правила по теме: Possessive ’s with time expressions: Two hours’ walk",
+      "questions_count": 20,
+      "exercises_count": 2
+    },
+    {
+      "lesson_id": "b2_reduced_infinitives_omitting_the_infinitive_phrase_after_to",
+      "level": "B2",
+      "title": "Reduced infinitives: Omitting the infinitive phrase after 'to'",
+      "description": "Практический тест и правила по теме: Reduced infinitives: Omitting the infinitive phrase after 'to'",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_reflexive_reciprocal_pronouns",
+      "level": "B2",
+      "title": "Reflexive and reciprocal pronouns",
+      "description": "Практический тест и правила по теме: Reflexive and reciprocal pronouns",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_relative_clauses",
+      "level": "B2",
+      "title": "Relative clauses: Defining and non-defining",
+      "description": "Практический тест и правила по теме: Relative clauses: Defining and non-defining",
+      "questions_count": 40,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "b2_speculation_deduction",
+      "level": "B2",
+      "title": "Speculation and deduction: Modal verbs and expressions",
+      "description": "Практический тест и правила по теме: Speculation and deduction: Modal verbs and expressions",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_there_and_it",
+      "level": "B2",
+      "title": "'There' and 'it': Preparatory subjects",
+      "description": "Практический тест и правила по теме: 'There' and 'it': Preparatory subjects",
+      "questions_count": 31,
+      "exercises_count": 4
+    },
+    {
+      "lesson_id": "b2_unless_even_if_provided_as_long_conditionals",
+      "level": "B2",
+      "title": "Unless, even if, provided, as long as: Other expressions in conditionals",
+      "description": "Практический тест и правила по теме: Unless, even if, provided, as long as: Other expressions in conditionals",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_unreal_uses_past_tenses",
+      "level": "B2",
+      "title": "Wish, rather, if only, it's time: Unreal uses of past tenses",
+      "description": "Практический тест и правила по теме: Wish, rather, if only, it's time: Unreal uses of past tenses",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_verb_object_infinitive_gerund",
+      "level": "B2",
+      "title": "Verb + object + infinitive/gerund: Verb patterns",
+      "description": "Практический тест и правила по теме: Verb + object + infinitive/gerund: Verb patterns",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_verbs_of_the_senses",
+      "level": "B2",
+      "title": "Verbs of the senses",
+      "description": "Практический тест и правила по теме: Verbs of the senses",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "b2_ways_express_future",
+      "level": "B2",
+      "title": "Other ways to express future: Be about to, be due to, etc.",
+      "description": "Практический тест и правила по теме: Other ways to express future: Be about to, be due to, etc.",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "c1_advanced_modal_verbs_can_be_able_to_may_might",
+      "level": "C1",
+      "title": "Advanced modal verbs: can / be able to, may / might",
+      "description": "Практический тест и правила по теме: Advanced modal verbs: can / be able to, may / might",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "c1_advanced_modal_verbs_will_would_and_should",
+      "level": "C1",
+      "title": "Advanced modal verbs: will, would and should",
+      "description": "Практический тест и правила по теме: Advanced modal verbs: will, would and should",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "c1_advanced_participle_clauses",
+      "level": "C1",
+      "title": "Advanced participle clauses",
+      "description": "Практический тест и правила по теме: Advanced participle clauses",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "c1_advanced_past_simple_past_continuous_past_perfect",
+      "level": "C1",
+      "title": "Advanced past simple, past continuous & past perfect",
+      "description": "Практический тест и правила по теме: Advanced past simple, past continuous & past perfect",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "c1_advanced_present_simple_and_present_continuous",
+      "level": "C1",
+      "title": "Advanced present simple and present continuous",
+      "description": "Практический тест и правила по теме: Advanced present simple and present continuous",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "c1_advanced_word_order",
+      "level": "C1",
+      "title": "Advanced word order",
+      "description": "Практический тест и правила по теме: Advanced word order",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "c1_prepositions_position_and_advanced_patterns",
+      "level": "C1",
+      "title": "Prepositions: Position and advanced patterns",
+      "description": "Практический тест и правила по теме: Prepositions: Position and advanced patterns",
+      "questions_count": 21,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "c1_subject_verb_agreement_advanced_rules",
+      "level": "C1",
+      "title": "Subject–verb agreement: Advanced rules",
+      "description": "Практический тест и правила по теме: Subject–verb agreement: Advanced rules",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "c1_the_perfect_tenses_forms_and_uses",
+      "level": "C1",
+      "title": "The perfect tenses: Forms and uses",
+      "description": "Практический тест и правила по теме: The perfect tenses: Forms and uses",
+      "questions_count": 34,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "c1_the_subjunctive_in_english_present_and_past",
+      "level": "C1",
+      "title": "The subjunctive in English: Present and past",
+      "description": "Практический тест и правила по теме: The subjunctive in English: Present and past",
+      "questions_count": 30,
+      "exercises_count": 3
+    },
+    {
+      "lesson_id": "shorts_above_vs_over_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Above vs Over – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Above vs Over – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_although_vs_however_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Although vs However – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Although vs However – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_amount_of_vs_number_of_vs_quantity_of",
+      "level": "SHORTS",
+      "title": "Amount of vs Number of vs Quantity of – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Amount of vs Number of vs Quantity of – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_between_vs_among_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Between vs Among – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Between vs Among – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_bring_vs_take_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Bring vs Take – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Bring vs Take – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_clean_vs_wash_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Clean vs Wash – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Clean vs Wash – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_come_vs_go_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Come vs Go – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Come vs Go – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_forget_remember_to_do_vs_doing_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Remember & Forget: To Do vs Doing – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Remember & Forget: To Do vs Doing – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_have_been_vs_have_gone_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Have been vs Have gone – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Have been vs Have gone – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_how_to_avoid_double_subjects_in_english_grammar_shorts",
+      "level": "SHORTS",
+      "title": "How to avoid double subjects in English – Grammar Shorts",
+      "description": "Практический тест и правила по теме: How to avoid double subjects in English – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_if_vs_whether_grammar_shorts",
+      "level": "SHORTS",
+      "title": "If vs Whether – Grammar Shorts",
+      "description": "Практический тест и правила по теме: If vs Whether – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_instead_instead_of_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Instead and Instead of – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Instead and Instead of – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_its_vs_its_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Its vs It's – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Its vs It's – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_last_vs_the_last_next_vs_the_next_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Last vs The last, Next vs The next – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Last vs The last, Next vs The next – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_lay_vs_lie_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Lay vs Lie – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Lay vs Lie – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_less_vs_fewer_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Less vs Fewer – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Less vs Fewer – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_like_vs_as_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Like vs As – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Like vs As – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_little_vs_a_little_few_vs_a_few_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Little vs A little, Few vs A few – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Little vs A little, Few vs A few – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_look_vs_watch_vs_see_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Look vs Watch vs See – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Look vs Watch vs See – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_maybe_vs_may_be_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Maybe vs May be – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Maybe vs May be – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_never_vs_ever_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Never vs Ever – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Never vs Ever – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_on_the_other_hand_vs_on_the_contrary_grammar_shorts",
+      "level": "SHORTS",
+      "title": "On the other hand vs On the contrary – Grammar Shorts",
+      "description": "Практический тест и правила по теме: On the other hand vs On the contrary – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_raise_vs_rise_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Raise vs Rise – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Raise vs Rise – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_say_vs_tell_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Say vs Tell – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Say vs Tell – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_try_to_do_vs_try_doing_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Try to do vs Try doing – Grammar shorts",
+      "description": "Практический тест и правила по теме: Try to do vs Try doing – Grammar shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_until_vs_by_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Until vs By – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Until vs By – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_whereas_vs_while_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Whereas vs While – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Whereas vs While – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    },
+    {
+      "lesson_id": "shorts_wish_vs_hope_vs_expect_grammar_shorts",
+      "level": "SHORTS",
+      "title": "Wish vs Hope vs Expect – Grammar Shorts",
+      "description": "Практический тест и правила по теме: Wish vs Hope vs Expect – Grammar Shorts",
+      "questions_count": 10,
+      "exercises_count": 1
+    }
+  ]
+}

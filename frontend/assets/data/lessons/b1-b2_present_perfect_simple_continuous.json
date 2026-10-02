@@ -1,0 +1,979 @@
+{
+  "lesson_id": "b1-b2_present_perfect_simple_continuous",
+  "level": "B1-B2",
+  "title": "Present perfect simple or continuous",
+  "description": "Практический тест и правила по теме: Present perfect simple or continuous",
+  "theory": {
+    "title": "Правила и грамматика: Present perfect simple or continuous",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Present perfect simple or continuous».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Present perfect simple or continuous» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-11",
+      "lessonId": "b1-b2_present_perfect_simple_continuous",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option, present perfect simple or present perfect continuous, to complete the dialogue. If both forms are possible, use the present perfect continuous.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_present-perfect-simple-continuous.html",
+      "questions": [
+        {
+          "id": "76",
+          "order": 1,
+          "type": "gap_select",
+          "text": "A: 1 {{gap1}} the dog for a walk yet? B: No, I haven’t. I 2 {{gap2}} all day. I 3 {{gap3}} home from work and I 4 {{gap4}} the time to walk the dog yet. A: So how long 5 {{gap5}} home alone? B: For about 6 hours. You 6 {{gap6}} the dog zero times since last weekend. Why don’t you take him for a walk? A: Well, I 7 {{gap7}} things all day too, you know. I have a very important meeting tomorrow and I 8 {{gap8}} my presentation yet. B: Okay, I will go then. 9 {{gap9}} the collar and the leash? A: They are in the kitchen. By the way, 10 {{gap10}} anything yet? If not, could you get us something from the supermarket?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_76_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Have you taken",
+              "accepted_answers": [
+                "Have you taken"
+              ],
+              "options": [
+                {
+                  "id": "gap_76_1_1",
+                  "order": 1,
+                  "text": "Have you been taken",
+                  "value": "Have you been taken",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_1_2",
+                  "order": 2,
+                  "text": "Have you been taking",
+                  "value": "Have you been taking",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_1_3",
+                  "order": 3,
+                  "text": "Have you taken",
+                  "value": "Have you taken",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_76_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'ve been working",
+              "accepted_answers": [
+                "'ve been working"
+              ],
+              "options": [
+                {
+                  "id": "gap_76_2_1",
+                  "order": 1,
+                  "text": "'m working",
+                  "value": "'m working",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_2_2",
+                  "order": 2,
+                  "text": "'ve worked",
+                  "value": "'ve worked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_2_3",
+                  "order": 3,
+                  "text": "'ve been working",
+                  "value": "'ve been working",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_76_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "'ve just come",
+              "accepted_answers": [
+                "'ve just come"
+              ],
+              "options": [
+                {
+                  "id": "gap_76_3_1",
+                  "order": 1,
+                  "text": "'ve just been coming",
+                  "value": "'ve just been coming",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_3_2",
+                  "order": 2,
+                  "text": "'ve just come",
+                  "value": "'ve just come",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_76_3_3",
+                  "order": 3,
+                  "text": "'ve just coming",
+                  "value": "'ve just coming",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_76_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "select",
+              "correct_answer": "haven't had",
+              "accepted_answers": [
+                "haven't had"
+              ],
+              "options": [
+                {
+                  "id": "gap_76_4_1",
+                  "order": 1,
+                  "text": "haven't had",
+                  "value": "haven't had",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_76_4_2",
+                  "order": 2,
+                  "text": "haven't been had",
+                  "value": "haven't been had",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_4_3",
+                  "order": 3,
+                  "text": "haven't been having",
+                  "value": "haven't been having",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_76_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "select",
+              "correct_answer": "has the dog been",
+              "accepted_answers": [
+                "has the dog been"
+              ],
+              "options": [
+                {
+                  "id": "gap_76_5_1",
+                  "order": 1,
+                  "text": "has the dog been",
+                  "value": "has the dog been",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_76_5_2",
+                  "order": 2,
+                  "text": "has the dog",
+                  "value": "has the dog",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_5_3",
+                  "order": 3,
+                  "text": "has the dog been being",
+                  "value": "has the dog been being",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_76_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "select",
+              "correct_answer": "have walked",
+              "accepted_answers": [
+                "have walked"
+              ],
+              "options": [
+                {
+                  "id": "gap_76_6_1",
+                  "order": 1,
+                  "text": "have walked",
+                  "value": "have walked",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_76_6_2",
+                  "order": 2,
+                  "text": "have walking",
+                  "value": "have walking",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_6_3",
+                  "order": 3,
+                  "text": "have been walking",
+                  "value": "have been walking",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_76_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "select",
+              "correct_answer": "'ve been doing",
+              "accepted_answers": [
+                "'ve been doing"
+              ],
+              "options": [
+                {
+                  "id": "gap_76_7_1",
+                  "order": 1,
+                  "text": "'ve been done",
+                  "value": "'ve been done",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_7_2",
+                  "order": 2,
+                  "text": "'ve done",
+                  "value": "'ve done",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_7_3",
+                  "order": 3,
+                  "text": "'ve been doing",
+                  "value": "'ve been doing",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_76_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "select",
+              "correct_answer": "haven't finished",
+              "accepted_answers": [
+                "haven't finished"
+              ],
+              "options": [
+                {
+                  "id": "gap_76_8_1",
+                  "order": 1,
+                  "text": "haven't finished",
+                  "value": "haven't finished",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_76_8_2",
+                  "order": 2,
+                  "text": "haven't been finished",
+                  "value": "haven't been finished",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_8_3",
+                  "order": 3,
+                  "text": "haven't been finishing",
+                  "value": "haven't been finishing",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_76_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "select",
+              "correct_answer": "Have you seen",
+              "accepted_answers": [
+                "Have you seen"
+              ],
+              "options": [
+                {
+                  "id": "gap_76_9_1",
+                  "order": 1,
+                  "text": "Have you seeing",
+                  "value": "Have you seeing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_9_2",
+                  "order": 2,
+                  "text": "Have you been seeing",
+                  "value": "Have you been seeing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_9_3",
+                  "order": 3,
+                  "text": "Have you seen",
+                  "value": "Have you seen",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_76_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "select",
+              "correct_answer": "have you eaten",
+              "accepted_answers": [
+                "have you eaten"
+              ],
+              "options": [
+                {
+                  "id": "gap_76_10_1",
+                  "order": 1,
+                  "text": "have you ate",
+                  "value": "have you ate",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_76_10_2",
+                  "order": 2,
+                  "text": "have you eaten",
+                  "value": "have you eaten",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_76_10_3",
+                  "order": 3,
+                  "text": "have you been eating",
+                  "value": "have you been eating",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-13",
+      "lessonId": "b1-b2_present_perfect_simple_continuous",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option, present perfect simple or present perfect continuous, for the following sentences. If both forms are possible, use the present perfect continuous.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_present-perfect-simple-continuous_2.html",
+      "questions": [
+        {
+          "id": "87",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I hope I'll pass the test, I ____ very hard all week.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "87_1",
+              "order": 1,
+              "text": "'ve studied",
+              "value": "71",
+              "is_correct": false
+            },
+            {
+              "id": "87_2",
+              "order": 2,
+              "text": "'ve been studying",
+              "value": "72",
+              "is_correct": true
+            },
+            {
+              "id": "87_3",
+              "order": 3,
+              "text": "'ve being studying",
+              "value": "3646",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "88",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I ____ for my keys since yesterday, but I ____ them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "88_1",
+              "order": 1,
+              "text": "'ve been looking / haven't found",
+              "value": "73",
+              "is_correct": true
+            },
+            {
+              "id": "88_2",
+              "order": 2,
+              "text": "'ve been looking / haven't been finding",
+              "value": "74",
+              "is_correct": false
+            },
+            {
+              "id": "88_3",
+              "order": 3,
+              "text": "'ve looked / haven't been finding",
+              "value": "75",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2410",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I'm so tired. I _____ all day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2410_1",
+              "order": 1,
+              "text": "'ve worked",
+              "value": "3625",
+              "is_correct": false
+            },
+            {
+              "id": "2410_2",
+              "order": 2,
+              "text": "'ve been working",
+              "value": "3626",
+              "is_correct": true
+            },
+            {
+              "id": "2410_3",
+              "order": 3,
+              "text": "'ve being working",
+              "value": "3627",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2411",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 \"I can see you _____ your room.\" \"Yes, I did everything myself!\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2411_1",
+              "order": 1,
+              "text": "have redecorated",
+              "value": "3628",
+              "is_correct": true
+            },
+            {
+              "id": "2411_2",
+              "order": 2,
+              "text": "have been redecorating",
+              "value": "3629",
+              "is_correct": false
+            },
+            {
+              "id": "2411_3",
+              "order": 3,
+              "text": "have being redecorating",
+              "value": "3630",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2412",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 Why are your shoes so dirty? ______ football in the mud?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2412_1",
+              "order": 1,
+              "text": "Have you played",
+              "value": "3631",
+              "is_correct": false
+            },
+            {
+              "id": "2412_2",
+              "order": 2,
+              "text": "Have you playing",
+              "value": "3632",
+              "is_correct": false
+            },
+            {
+              "id": "2412_3",
+              "order": 3,
+              "text": "Have you been playing",
+              "value": "3633",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2413",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 ______ a book by Charles Dickens?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2413_1",
+              "order": 1,
+              "text": "Have you ever read",
+              "value": "3634",
+              "is_correct": true
+            },
+            {
+              "id": "2413_2",
+              "order": 2,
+              "text": "Have you ever being reading",
+              "value": "3635",
+              "is_correct": false
+            },
+            {
+              "id": "2413_3",
+              "order": 3,
+              "text": "Have you ever been reading",
+              "value": "3636",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2414",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 I ______ you all afternoon. Are you OK?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2414_1",
+              "order": 1,
+              "text": "'ve called",
+              "value": "3637",
+              "is_correct": false
+            },
+            {
+              "id": "2414_2",
+              "order": 2,
+              "text": "'ve been calling",
+              "value": "3638",
+              "is_correct": true
+            },
+            {
+              "id": "2414_3",
+              "order": 3,
+              "text": "'ve calling",
+              "value": "3639",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2415",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I ______ her four or five times, but her phone seems to be off.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2415_1",
+              "order": 1,
+              "text": "'ve called",
+              "value": "3640",
+              "is_correct": true
+            },
+            {
+              "id": "2415_2",
+              "order": 2,
+              "text": "'ve been calling",
+              "value": "3641",
+              "is_correct": false
+            },
+            {
+              "id": "2415_3",
+              "order": 3,
+              "text": "'ve being calling",
+              "value": "3642",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2416",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I _____ the report, but I think I won't be able to finish it on time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2416_1",
+              "order": 1,
+              "text": "'ve written",
+              "value": "3643",
+              "is_correct": false
+            },
+            {
+              "id": "2416_2",
+              "order": 2,
+              "text": "'ve writing",
+              "value": "3644",
+              "is_correct": false
+            },
+            {
+              "id": "2416_3",
+              "order": 3,
+              "text": "'ve been writing",
+              "value": "3645",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4573",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I ____ to go to Australia, and now my dream will finally come true. I ____ the tickets!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4573_1",
+              "order": 1,
+              "text": "‘ve always wanted / ‘ve just bought",
+              "value": "6810",
+              "is_correct": true
+            },
+            {
+              "id": "4573_2",
+              "order": 2,
+              "text": "‘ve always been wanting / ‘ve just been buying",
+              "value": "6811",
+              "is_correct": false
+            },
+            {
+              "id": "4573_3",
+              "order": 3,
+              "text": "‘ve always wanted / ‘ve just been buying",
+              "value": "6812",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-12",
+      "lessonId": "b1-b2_present_perfect_simple_continuous",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the present perfect simple or the present perfect continuous of the verbs in brackets. If both forms are possible, use the present perfect continuous.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_present-perfect-simple-continuous_3.html",
+      "questions": [
+        {
+          "id": "77",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 We {{gap1}} Dave and Julia for years. (know)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_77_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have known",
+              "accepted_answers": [
+                "have known"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "78",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 You look tired. {{gap1}} well recently? (you/sleep)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_78_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Have you been sleeping",
+              "accepted_answers": [
+                "Have you been sleeping"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "79",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Rose {{gap1}} her homework, so she can't go out. (not do)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_79_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "hasn't done",
+              "accepted_answers": [
+                "hasn't done"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "80",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Don't bother knocking at the door. They {{gap1}}. (move)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_80_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have moved",
+              "accepted_answers": [
+                "have moved"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "86",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 The phone bill is enormous. How many times {{gap1}} your boyfriend in Australia? (you/call)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_86_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have you called",
+              "accepted_answers": [
+                "have you called"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "81",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I {{gap1}} time to make lunch. Shall we go to a restaurant? (not have)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_81_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "haven't had",
+              "accepted_answers": [
+                "haven't had"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "82",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 We {{gap1}} for so long! Do you think we're lost? (walk)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_82_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been walking",
+              "accepted_answers": [
+                "have been walking"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "83",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 {{gap1}} my biscuits? There aren't many left. (you /eat)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_83_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Have you been eating",
+              "accepted_answers": [
+                "Have you been eating"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "84",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Someone {{gap1}} all my biscuits! (eat)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_84_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has eaten",
+              "accepted_answers": [
+                "has eaten"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "85",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I {{gap1}} (write) all morning, but I {{gap2}} (only/write) 9 pages so far. What a waste of time!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_85_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been writing",
+              "accepted_answers": [
+                "have been writing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_85_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "have only written",
+              "accepted_answers": [
+                "have only written"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

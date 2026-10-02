@@ -1,0 +1,917 @@
+{
+  "lesson_id": "b2_passive_verbs_with_two_objects",
+  "level": "B2",
+  "title": "Passive verbs with two objects",
+  "description": "Практический тест и правила по теме: Passive verbs with two objects",
+  "theory": {
+    "title": "Правила и грамматика: Passive verbs with two objects",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Passive verbs with two objects».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Passive verbs with two objects» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-725",
+      "lessonId": "b2_passive_verbs_with_two_objects",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Rewrite these sentences in passive voice. Do NOT include the agent: by them, by John, etc.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_passive-verbs-with-two-objects.html",
+      "questions": [
+        {
+          "id": "6212",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 They offered him a good seat ⇒ He {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6212_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was offered a good seat",
+              "accepted_answers": [
+                "was offered a good seat"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6213",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 They offered him a good seat ⇒ A good seat {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6213_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was offered to him",
+              "accepted_answers": [
+                "was offered to him"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6214",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 They told me the truth. ⇒ I {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6214_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was told the truth",
+              "accepted_answers": [
+                "was told the truth"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6215",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 They told me the truth. ⇒ The truth {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6215_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was told to me",
+              "accepted_answers": [
+                "was told to me"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6216",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 We will give a copy to our clients. ⇒ A copy {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6216_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "will be given to our clients",
+              "accepted_answers": [
+                "will be given to our clients"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6217",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 We will give a copy to our clients. ⇒ Our clients {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6217_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "will be given a copy",
+              "accepted_answers": [
+                "will be given a copy"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6218",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 He promised us a better salary. ⇒ We {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6218_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "were promised a better salary",
+              "accepted_answers": [
+                "were promised a better salary"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6219",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 He promised us a better salary. ⇒ A better salary {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6219_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was promised to us",
+              "accepted_answers": [
+                "was promised to us"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6220",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 The police showed two photos to the suspect. ⇒ Two photos {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6220_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "were shown to the suspect",
+              "accepted_answers": [
+                "were shown to the suspect"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6221",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 The police showed two photos to the suspect. ⇒ The suspect {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6221_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was shown two photos",
+              "accepted_answers": [
+                "was shown two photos"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-724",
+      "lessonId": "b2_passive_verbs_with_two_objects",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "For each question, choose TWO correct options.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_passive-verbs-with-two-objects_2.html",
+      "questions": [
+        {
+          "id": "6222",
+          "order": 1,
+          "type": "multiple_choice",
+          "text": "1 Choose TWO correct sentences.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6222_1",
+              "order": 1,
+              "text": "They sent to Steve a postcard.",
+              "value": "10599",
+              "is_correct": false
+            },
+            {
+              "id": "6222_2",
+              "order": 2,
+              "text": "Steve was sent a postcard.",
+              "value": "10596",
+              "is_correct": true
+            },
+            {
+              "id": "6222_3",
+              "order": 3,
+              "text": "They were sent a postcard to Steve.",
+              "value": "10598",
+              "is_correct": false
+            },
+            {
+              "id": "6222_4",
+              "order": 4,
+              "text": "A postcard was sent to Steve.",
+              "value": "10597",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6223",
+          "order": 2,
+          "type": "multiple_choice",
+          "text": "2 Choose TWO correct sentences.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6223_1",
+              "order": 1,
+              "text": "We were brought a glass of wine.",
+              "value": "10600",
+              "is_correct": true
+            },
+            {
+              "id": "6223_2",
+              "order": 2,
+              "text": "A glass of wine brought to us.",
+              "value": "10603",
+              "is_correct": false
+            },
+            {
+              "id": "6223_3",
+              "order": 3,
+              "text": "They were brought a glass of wine to us.",
+              "value": "10602",
+              "is_correct": false
+            },
+            {
+              "id": "6223_4",
+              "order": 4,
+              "text": "A glass of wine was brought to us.",
+              "value": "10601",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6224",
+          "order": 3,
+          "type": "multiple_choice",
+          "text": "3 Choose TWO correct sentences.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6224_1",
+              "order": 1,
+              "text": "The facts gave to the patient.",
+              "value": "10607",
+              "is_correct": false
+            },
+            {
+              "id": "6224_2",
+              "order": 2,
+              "text": "The doctor were given the facts to the patient.",
+              "value": "10606",
+              "is_correct": false
+            },
+            {
+              "id": "6224_3",
+              "order": 3,
+              "text": "The patient was given the facts.",
+              "value": "10604",
+              "is_correct": true
+            },
+            {
+              "id": "6224_4",
+              "order": 4,
+              "text": "The facts were given to the patient.",
+              "value": "10605",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6225",
+          "order": 4,
+          "type": "multiple_choice",
+          "text": "4 Choose TWO correct sentences.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6225_1",
+              "order": 1,
+              "text": "The robber had been lent the vehicle the previous day.",
+              "value": "10609",
+              "is_correct": true
+            },
+            {
+              "id": "6225_2",
+              "order": 2,
+              "text": "The vehicle had lent to the robber the previous day.",
+              "value": "10611",
+              "is_correct": false
+            },
+            {
+              "id": "6225_3",
+              "order": 3,
+              "text": "Someone had been lent the vehicle to the robber the previous day.",
+              "value": "10610",
+              "is_correct": false
+            },
+            {
+              "id": "6225_4",
+              "order": 4,
+              "text": "The vehicle had been lent to the robber the previous day.",
+              "value": "10608",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6226",
+          "order": 5,
+          "type": "multiple_choice",
+          "text": "5 Choose TWO correct sentences.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6226_1",
+              "order": 1,
+              "text": "A fake Rolex sold to Steve.",
+              "value": "10615",
+              "is_correct": false
+            },
+            {
+              "id": "6226_2",
+              "order": 2,
+              "text": "A fake Rolex was sold to Steve.",
+              "value": "10613",
+              "is_correct": true
+            },
+            {
+              "id": "6226_3",
+              "order": 3,
+              "text": "Someone was sold Steve a fake Rolex.",
+              "value": "10614",
+              "is_correct": false
+            },
+            {
+              "id": "6226_4",
+              "order": 4,
+              "text": "Steve was sold a fake Rolex.",
+              "value": "10612",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6227",
+          "order": 6,
+          "type": "multiple_choice",
+          "text": "6 Choose TWO correct sentences.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6227_1",
+              "order": 1,
+              "text": "A promotion has been offered to him.",
+              "value": "10617",
+              "is_correct": true
+            },
+            {
+              "id": "6227_2",
+              "order": 2,
+              "text": "A promotion has been offered to him his boss.",
+              "value": "10619",
+              "is_correct": false
+            },
+            {
+              "id": "6227_3",
+              "order": 3,
+              "text": "His boss has been offered him a promotion.",
+              "value": "10618",
+              "is_correct": false
+            },
+            {
+              "id": "6227_4",
+              "order": 4,
+              "text": "He has been offered a promotion.",
+              "value": "10616",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6228",
+          "order": 7,
+          "type": "multiple_choice",
+          "text": "7 Choose TWO correct sentences.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6228_1",
+              "order": 1,
+              "text": "They weren't told me the truth.",
+              "value": "10623",
+              "is_correct": false
+            },
+            {
+              "id": "6228_2",
+              "order": 2,
+              "text": "The truth wasn't told to me.",
+              "value": "10621",
+              "is_correct": true
+            },
+            {
+              "id": "6228_3",
+              "order": 3,
+              "text": "I wasn't told the truth.",
+              "value": "10620",
+              "is_correct": true
+            },
+            {
+              "id": "6228_4",
+              "order": 4,
+              "text": "The truth didn't tell to me.",
+              "value": "10622",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6229",
+          "order": 8,
+          "type": "multiple_choice",
+          "text": "8 Choose TWO correct sentences.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6229_1",
+              "order": 1,
+              "text": "Our students are taught English and Spanish.",
+              "value": "10624",
+              "is_correct": true
+            },
+            {
+              "id": "6229_2",
+              "order": 2,
+              "text": "We are taught English and Spanish to our students.",
+              "value": "10626",
+              "is_correct": false
+            },
+            {
+              "id": "6229_3",
+              "order": 3,
+              "text": "English and Spanish teach our students.",
+              "value": "10627",
+              "is_correct": false
+            },
+            {
+              "id": "6229_4",
+              "order": 4,
+              "text": "English and Spanish are taught to our students.",
+              "value": "10625",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6245",
+          "order": 9,
+          "type": "multiple_choice",
+          "text": "9 Choose TWO correct sentences.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6245_1",
+              "order": 1,
+              "text": "They were given the news to the employees.",
+              "value": "10684",
+              "is_correct": false
+            },
+            {
+              "id": "6245_2",
+              "order": 2,
+              "text": "The news was given to the employees.",
+              "value": "10683",
+              "is_correct": true
+            },
+            {
+              "id": "6245_3",
+              "order": 3,
+              "text": "The news gave to the employees.",
+              "value": "10685",
+              "is_correct": false
+            },
+            {
+              "id": "6245_4",
+              "order": 4,
+              "text": "The employees were given the news.",
+              "value": "10682",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6247",
+          "order": 10,
+          "type": "multiple_choice",
+          "text": "10 Choose TWO correct sentences.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6247_1",
+              "order": 1,
+              "text": "A letter of support wrote to him.",
+              "value": "10693",
+              "is_correct": false
+            },
+            {
+              "id": "6247_2",
+              "order": 2,
+              "text": "He was written a letter of support.",
+              "value": "10691",
+              "is_correct": true
+            },
+            {
+              "id": "6247_3",
+              "order": 3,
+              "text": "A letter of support was written to him.",
+              "value": "10690",
+              "is_correct": true
+            },
+            {
+              "id": "6247_4",
+              "order": 4,
+              "text": "Someone was written a letter of support to him.",
+              "value": "10692",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-726",
+      "lessonId": "b2_passive_verbs_with_two_objects",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Rewrite these sentences in passive voice. Do NOT include the agent: by them, by John, etc.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_passive-verbs-with-two-objects_3.html",
+      "questions": [
+        {
+          "id": "6248",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 They will give 30 minutes to each contestant ⇒ Each contestant {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6248_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "will be given 30 minutes",
+              "accepted_answers": [
+                "will be given 30 minutes"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6249",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 They will give 30 minutes to each contestant ⇒ 30 minutes {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6249_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "will be given to each contestant",
+              "accepted_answers": [
+                "will be given to each contestant"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6252",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 They have given the job to me. ⇒ I {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6252_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have been given the job",
+              "accepted_answers": [
+                "have been given the job"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6254",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 They have given the job to me. ⇒ The job {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6254_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has been given to me",
+              "accepted_answers": [
+                "has been given to me"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6250",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 They will show the winning painting to the public. ⇒ The winning painting {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6250_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "will be shown to the public",
+              "accepted_answers": [
+                "will be shown to the public"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6251",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 They will show the winning painting to the public. ⇒ The public {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6251_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "will be shown the winning painting",
+              "accepted_answers": [
+                "will be shown the winning painting"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6255",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 They bought him a jacket. ⇒ He {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6255_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was bought a jacket",
+              "accepted_answers": [
+                "was bought a jacket"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6256",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 They bought him a jacket. ⇒ A jacket {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6256_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was bought for him",
+              "accepted_answers": [
+                "was bought for him"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6257",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 They promised her a salary increase. ⇒ She {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6257_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was promised a salary increase",
+              "accepted_answers": [
+                "was promised a salary increase"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6258",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 They promised her a salary increase. ⇒ A salary increase {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6258_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was promised to her",
+              "accepted_answers": [
+                "was promised to her"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

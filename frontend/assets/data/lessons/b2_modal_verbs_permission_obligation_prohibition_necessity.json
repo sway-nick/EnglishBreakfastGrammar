@@ -1,0 +1,1038 @@
+{
+  "lesson_id": "b2_modal_verbs_permission_obligation_prohibition_necessity",
+  "level": "B2",
+  "title": "Modal verbs: Permission, obligation, prohibition, necessity",
+  "description": "Практический тест и правила по теме: Modal verbs: Permission, obligation, prohibition, necessity",
+  "theory": {
+    "title": "Правила и грамматика: Modal verbs: Permission, obligation, prohibition, necessity",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Modal verbs: Permission, obligation, prohibition, necessity».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Modal verbs: Permission, obligation, prohibition, necessity» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-126",
+      "lessonId": "b2_modal_verbs_permission_obligation_prohibition_necessity",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_modal-verbs-permission-obligation-prohibition-necessity.html",
+      "questions": [
+        {
+          "id": "1045",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 You {{gap1}} use this product without protection.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1045_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'d better not",
+              "accepted_answers": [
+                "'d better not"
+              ],
+              "options": [
+                {
+                  "id": "gap_1045_1_1",
+                  "order": 1,
+                  "text": "'d better not",
+                  "value": "'d better not",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1045_1_2",
+                  "order": 2,
+                  "text": "aren't supposed",
+                  "value": "aren't supposed",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1045_1_3",
+                  "order": 3,
+                  "text": "are not meant",
+                  "value": "are not meant",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1046",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 You {{gap1}} go to the ceremony if you don't feel like it. It'll be very boring anyway.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1046_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "don't have to",
+              "accepted_answers": [
+                "don't have to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1046_1_1",
+                  "order": 1,
+                  "text": "mustn't",
+                  "value": "mustn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1046_1_2",
+                  "order": 2,
+                  "text": "don't have to",
+                  "value": "don't have to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1046_1_3",
+                  "order": 3,
+                  "text": "haven't to",
+                  "value": "haven't to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1047",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 We took too much risk. We {{gap1}} that decision.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1047_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "needn't have made",
+              "accepted_answers": [
+                "needn't have made"
+              ],
+              "options": [
+                {
+                  "id": "gap_1047_1_1",
+                  "order": 1,
+                  "text": "needn't have made",
+                  "value": "needn't have made",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1047_1_2",
+                  "order": 2,
+                  "text": "shouldn't make",
+                  "value": "shouldn't make",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1047_1_3",
+                  "order": 3,
+                  "text": "mustn't made",
+                  "value": "mustn't made",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1048",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 He {{gap1}} the bus because his brother picked him up at the station.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1048_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't need to take",
+              "accepted_answers": [
+                "didn't need to take"
+              ],
+              "options": [
+                {
+                  "id": "gap_1048_1_1",
+                  "order": 1,
+                  "text": "didn't need to take",
+                  "value": "didn't need to take",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1048_1_2",
+                  "order": 2,
+                  "text": "needn't have taken",
+                  "value": "needn't have taken",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1048_1_3",
+                  "order": 3,
+                  "text": "shouldn't have taken",
+                  "value": "shouldn't have taken",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1049",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 He {{gap1}} so much money on the trip last summer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1049_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "shouldn't have spent",
+              "accepted_answers": [
+                "shouldn't have spent"
+              ],
+              "options": [
+                {
+                  "id": "gap_1049_1_1",
+                  "order": 1,
+                  "text": "shouldn't have spent",
+                  "value": "shouldn't have spent",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1049_1_2",
+                  "order": 2,
+                  "text": "shouldn't spend",
+                  "value": "shouldn't spend",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1049_1_3",
+                  "order": 3,
+                  "text": "had better not spend",
+                  "value": "had better not spend",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1050",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 The refugees {{gap1}} to work outside the camp.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1050_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are not allowed",
+              "accepted_answers": [
+                "are not allowed"
+              ],
+              "options": [
+                {
+                  "id": "gap_1050_1_1",
+                  "order": 1,
+                  "text": "mustn't",
+                  "value": "mustn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1050_1_2",
+                  "order": 2,
+                  "text": "had better not",
+                  "value": "had better not",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1050_1_3",
+                  "order": 3,
+                  "text": "are not allowed",
+                  "value": "are not allowed",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1051",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 We couldn't find a hotel so we {{gap1}} in the car. It was so uncomfortable!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1051_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had to sleep",
+              "accepted_answers": [
+                "had to sleep"
+              ],
+              "options": [
+                {
+                  "id": "gap_1051_1_1",
+                  "order": 1,
+                  "text": "must have slept",
+                  "value": "must have slept",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1051_1_2",
+                  "order": 2,
+                  "text": "had to sleep",
+                  "value": "had to sleep",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1051_1_3",
+                  "order": 3,
+                  "text": "should have slept",
+                  "value": "should have slept",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1054",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 You {{gap1}} forget to take your medicine.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1054_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "mustn't",
+              "accepted_answers": [
+                "mustn't"
+              ],
+              "options": [
+                {
+                  "id": "gap_1054_1_1",
+                  "order": 1,
+                  "text": "mustn't",
+                  "value": "mustn't",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1054_1_2",
+                  "order": 2,
+                  "text": "don't have to",
+                  "value": "don't have to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1054_1_3",
+                  "order": 3,
+                  "text": "ought not",
+                  "value": "ought not",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1057",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 We {{gap1}} early because it was a holiday, so we slept till late.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1057_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't have to get up",
+              "accepted_answers": [
+                "didn't have to get up"
+              ],
+              "options": [
+                {
+                  "id": "gap_1057_1_1",
+                  "order": 1,
+                  "text": "needn't have got up",
+                  "value": "needn't have got up",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1057_1_2",
+                  "order": 2,
+                  "text": "needn't get up",
+                  "value": "needn't get up",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1057_1_3",
+                  "order": 3,
+                  "text": "didn't have to get up",
+                  "value": "didn't have to get up",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1058",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 You {{gap1}} call me as soon as you arrived. I was very worried!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1058_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were meant to",
+              "accepted_answers": [
+                "were meant to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1058_1_1",
+                  "order": 1,
+                  "text": "were meant to",
+                  "value": "were meant to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1058_1_2",
+                  "order": 2,
+                  "text": "were supposed",
+                  "value": "were supposed",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1058_1_3",
+                  "order": 3,
+                  "text": "must",
+                  "value": "must",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-127",
+      "lessonId": "b2_modal_verbs_permission_obligation_prohibition_necessity",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct options. For each question, choose TWO correct options.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_modal-verbs-permission-obligation-prohibition-necessity_2.html",
+      "questions": [
+        {
+          "id": "1052",
+          "order": 1,
+          "type": "multiple_choice",
+          "text": "1 It's beautiful! Thanks, but you ______ anything for me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1052_1",
+              "order": 1,
+              "text": "needn't have bought",
+              "value": "1532",
+              "is_correct": true
+            },
+            {
+              "id": "1052_2",
+              "order": 2,
+              "text": "needn't buy",
+              "value": "1533",
+              "is_correct": false
+            },
+            {
+              "id": "1052_3",
+              "order": 3,
+              "text": "mustn't have bought",
+              "value": "1534",
+              "is_correct": false
+            },
+            {
+              "id": "1052_4",
+              "order": 4,
+              "text": "shouldn't have bought",
+              "value": "1535",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1053",
+          "order": 2,
+          "type": "multiple_choice",
+          "text": "2 We'll ______ be more careful about what we say in the future.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1053_1",
+              "order": 1,
+              "text": "have to",
+              "value": "1536",
+              "is_correct": true
+            },
+            {
+              "id": "1053_2",
+              "order": 2,
+              "text": "must",
+              "value": "1537",
+              "is_correct": false
+            },
+            {
+              "id": "1053_3",
+              "order": 3,
+              "text": "need to",
+              "value": "1538",
+              "is_correct": true
+            },
+            {
+              "id": "1053_4",
+              "order": 4,
+              "text": "be able",
+              "value": "1539",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1055",
+          "order": 3,
+          "type": "multiple_choice",
+          "text": "3 You ______ see a specialist to check that knee.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1055_1",
+              "order": 1,
+              "text": "need",
+              "value": "1540",
+              "is_correct": false
+            },
+            {
+              "id": "1055_2",
+              "order": 2,
+              "text": "ought to",
+              "value": "1541",
+              "is_correct": true
+            },
+            {
+              "id": "1055_3",
+              "order": 3,
+              "text": "should have",
+              "value": "1542",
+              "is_correct": false
+            },
+            {
+              "id": "1055_4",
+              "order": 4,
+              "text": "'d better",
+              "value": "1543",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1056",
+          "order": 4,
+          "type": "multiple_choice",
+          "text": "4 When you get a new employee, you ______ work so hard any longer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1056_1",
+              "order": 1,
+              "text": "won't must",
+              "value": "1544",
+              "is_correct": false
+            },
+            {
+              "id": "1056_2",
+              "order": 2,
+              "text": "won't have to",
+              "value": "1545",
+              "is_correct": true
+            },
+            {
+              "id": "1056_3",
+              "order": 3,
+              "text": "shouldn't",
+              "value": "1546",
+              "is_correct": false
+            },
+            {
+              "id": "1056_4",
+              "order": 4,
+              "text": "won't need to",
+              "value": "1547",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1059",
+          "order": 5,
+          "type": "multiple_choice",
+          "text": "5 The effects ____ last 6 to 8 hours.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1059_1",
+              "order": 1,
+              "text": "ought to",
+              "value": "1548",
+              "is_correct": true
+            },
+            {
+              "id": "1059_2",
+              "order": 2,
+              "text": "are meant",
+              "value": "1549",
+              "is_correct": false
+            },
+            {
+              "id": "1059_3",
+              "order": 3,
+              "text": "are supposed to",
+              "value": "1550",
+              "is_correct": true
+            },
+            {
+              "id": "1059_4",
+              "order": 4,
+              "text": "had better",
+              "value": "1551",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1060",
+          "order": 6,
+          "type": "multiple_choice",
+          "text": "6 They ______ us a discount because we couldn't sleep in the room that we had booked.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1060_1",
+              "order": 1,
+              "text": "must have offered",
+              "value": "1552",
+              "is_correct": false
+            },
+            {
+              "id": "1060_2",
+              "order": 2,
+              "text": "'d better offered",
+              "value": "1553",
+              "is_correct": false
+            },
+            {
+              "id": "1060_3",
+              "order": 3,
+              "text": "ought to have offered",
+              "value": "1554",
+              "is_correct": true
+            },
+            {
+              "id": "1060_4",
+              "order": 4,
+              "text": "should have offered",
+              "value": "1555",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1061",
+          "order": 7,
+          "type": "multiple_choice",
+          "text": "7 If we ______ to have midnight snacks, why is there a light in the fridge?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1061_1",
+              "order": 1,
+              "text": "aren't meant",
+              "value": "1556",
+              "is_correct": true
+            },
+            {
+              "id": "1061_2",
+              "order": 2,
+              "text": "shouldn't",
+              "value": "1557",
+              "is_correct": false
+            },
+            {
+              "id": "1061_3",
+              "order": 3,
+              "text": "aren't supposed",
+              "value": "1558",
+              "is_correct": true
+            },
+            {
+              "id": "1061_4",
+              "order": 4,
+              "text": "don't have",
+              "value": "1559",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1062",
+          "order": 8,
+          "type": "multiple_choice",
+          "text": "8 When I was at school, we ______ wear a uniform.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1062_1",
+              "order": 1,
+              "text": "ought to",
+              "value": "1560",
+              "is_correct": false
+            },
+            {
+              "id": "1062_2",
+              "order": 2,
+              "text": "had to",
+              "value": "1561",
+              "is_correct": true
+            },
+            {
+              "id": "1062_3",
+              "order": 3,
+              "text": "were supposed to",
+              "value": "1562",
+              "is_correct": true
+            },
+            {
+              "id": "1062_4",
+              "order": 4,
+              "text": "must",
+              "value": "1563",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1063",
+          "order": 9,
+          "type": "multiple_choice",
+          "text": "9 We ______ do the dishes today; we can leave them for tomorrow.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1063_1",
+              "order": 1,
+              "text": "needn't",
+              "value": "1564",
+              "is_correct": true
+            },
+            {
+              "id": "1063_2",
+              "order": 2,
+              "text": "don't have",
+              "value": "1565",
+              "is_correct": false
+            },
+            {
+              "id": "1063_3",
+              "order": 3,
+              "text": "mustn't",
+              "value": "1566",
+              "is_correct": false
+            },
+            {
+              "id": "1063_4",
+              "order": 4,
+              "text": "don't need to",
+              "value": "1567",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1064",
+          "order": 10,
+          "type": "multiple_choice",
+          "text": "10 Visitors ______ stay at night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1064_1",
+              "order": 1,
+              "text": "aren't permitted",
+              "value": "1568",
+              "is_correct": false
+            },
+            {
+              "id": "1064_2",
+              "order": 2,
+              "text": "aren't allowed to",
+              "value": "1569",
+              "is_correct": true
+            },
+            {
+              "id": "1064_3",
+              "order": 3,
+              "text": "hadn't better",
+              "value": "1570",
+              "is_correct": false
+            },
+            {
+              "id": "1064_4",
+              "order": 4,
+              "text": "mustn't",
+              "value": "1571",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-128",
+      "lessonId": "b2_modal_verbs_permission_obligation_prohibition_necessity",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in each gap with one suitable word or two contracted words (e.g. shouldn’t, mustn’t, needn’t or similar).",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_modal-verbs-permission-obligation-prohibition-necessity_3.html",
+      "questions": [
+        {
+          "id": "1076",
+          "order": 1,
+          "type": "gap_text",
+          "text": "TEACHER: What are you doing here? You are not 1 {{gap1}} to be here. STUDENT: Sorry, I know students 2 {{gap2}} not go into the staffroom, but I really need to speak with Mr. Donovan. TEACHER: Well, you 3 {{gap3}} have come in here to talk to him. It wasn't really necessary. You could have gone to the principal's office and asked him to call Mr. Donovan. Actually, that's what you 4 {{gap4}} have done. STUDENT: I'm sorry, I wasn't thinking straight. I really 5 {{gap5}} to talk to him urgently. TEACHER: Well, you'd 6 {{gap6}} think straight the next time, OK? Now, if you want to talk to Mr. Donovan, you don't 7 {{gap7}} to go to the principal's office. I'll call him myself. And, please, you 8 {{gap8}} to take that chewing gum out of your mouth. You know that chewing gum is not 9 {{gap9}} on school premisses. You 10 {{gap10}} better not do it again, or I'll have to send you to detention. STUDENT: OK, Mr. Harris. Thanks.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1076_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "supposed",
+              "accepted_answers": [
+                "supposed"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1076_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "should",
+              "accepted_answers": [
+                "should"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1076_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "needn't",
+              "accepted_answers": [
+                "needn't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1076_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "should",
+              "accepted_answers": [
+                "should"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1076_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "need",
+              "accepted_answers": [
+                "need"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1076_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "better",
+              "accepted_answers": [
+                "better"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1076_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "have",
+              "accepted_answers": [
+                "have"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1076_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "have",
+              "accepted_answers": [
+                "have"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1076_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "allowed",
+              "accepted_answers": [
+                "allowed"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1076_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "had",
+              "accepted_answers": [
+                "had"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1095 @@
+{
+  "lesson_id": "a2_so_neither",
+  "level": "A2",
+  "title": "So, neither: So am I, neither do I, etc.",
+  "description": "Практический тест и правила по теме: So, neither: So am I, neither do I, etc.",
+  "theory": {
+    "title": "Правила и грамматика: So, neither: So am I, neither do I, etc.",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «So, neither: So am I, neither do I, etc.».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «So, neither: So am I, neither do I, etc.» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-408",
+      "lessonId": "a2_so_neither",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct forms with so, neither, too, either to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_so-neither.html",
+      "questions": [
+        {
+          "id": "3492",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 A: 'I haven't written the essay yet.' B: 'Neither {{gap1}} I.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3492_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have",
+              "accepted_answers": [
+                "have"
+              ],
+              "options": [
+                {
+                  "id": "gap_3492_1_1",
+                  "order": 1,
+                  "text": "haven't",
+                  "value": "haven't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3492_1_2",
+                  "order": 2,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3492_1_3",
+                  "order": 3,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3499",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 A: 'I'm very thirsty.' B: ' {{gap1}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3499_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "So am I",
+              "accepted_answers": [
+                "So am I"
+              ],
+              "options": [
+                {
+                  "id": "gap_3499_1_1",
+                  "order": 1,
+                  "text": "So am I",
+                  "value": "So am I",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3499_1_2",
+                  "order": 2,
+                  "text": "Too I am",
+                  "value": "Too I am",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3499_1_3",
+                  "order": 3,
+                  "text": "So do I",
+                  "value": "So do I",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3498",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 A: 'Sam won't help us.' B: 'Neither {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3498_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "will Scotty",
+              "accepted_answers": [
+                "will Scotty"
+              ],
+              "options": [
+                {
+                  "id": "gap_3498_1_1",
+                  "order": 1,
+                  "text": "won't Scotty",
+                  "value": "won't Scotty",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3498_1_2",
+                  "order": 2,
+                  "text": "will Scotty",
+                  "value": "will Scotty",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3498_1_3",
+                  "order": 3,
+                  "text": "does Scotty",
+                  "value": "does Scotty",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3500",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 A: 'I can't forgive them for what happened.' B: 'I can't forgive them {{gap1}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3500_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "either",
+              "accepted_answers": [
+                "either"
+              ],
+              "options": [
+                {
+                  "id": "gap_3500_1_1",
+                  "order": 1,
+                  "text": "neither",
+                  "value": "neither",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3500_1_2",
+                  "order": 2,
+                  "text": "either",
+                  "value": "either",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3500_1_3",
+                  "order": 3,
+                  "text": "too",
+                  "value": "too",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3501",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 A: 'I drink too much coffee.' B: ' {{gap1}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3501_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "So do I",
+              "accepted_answers": [
+                "So do I"
+              ],
+              "options": [
+                {
+                  "id": "gap_3501_1_1",
+                  "order": 1,
+                  "text": "So do I",
+                  "value": "So do I",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3501_1_2",
+                  "order": 2,
+                  "text": "Neither do I",
+                  "value": "Neither do I",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3501_1_3",
+                  "order": 3,
+                  "text": "So am I",
+                  "value": "So am I",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3502",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 A: 'Mum was very proud of us.' B: 'And {{gap1}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3502_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "so was dad",
+              "accepted_answers": [
+                "so was dad"
+              ],
+              "options": [
+                {
+                  "id": "gap_3502_1_1",
+                  "order": 1,
+                  "text": "so dad was",
+                  "value": "so dad was",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3502_1_2",
+                  "order": 2,
+                  "text": "too was dad",
+                  "value": "too was dad",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3502_1_3",
+                  "order": 3,
+                  "text": "so was dad",
+                  "value": "so was dad",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3503",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Ann will be there and so {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3503_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "will her sister",
+              "accepted_answers": [
+                "will her sister"
+              ],
+              "options": [
+                {
+                  "id": "gap_3503_1_1",
+                  "order": 1,
+                  "text": "her sister will",
+                  "value": "her sister will",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3503_1_2",
+                  "order": 2,
+                  "text": "will her sister",
+                  "value": "will her sister",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3503_1_3",
+                  "order": 3,
+                  "text": "is her sister",
+                  "value": "is her sister",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3504",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 A: 'You didn't tell the truth.' B: 'Nor {{gap1}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3504_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "did you",
+              "accepted_answers": [
+                "did you"
+              ],
+              "options": [
+                {
+                  "id": "gap_3504_1_1",
+                  "order": 1,
+                  "text": "didn't you",
+                  "value": "didn't you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3504_1_2",
+                  "order": 2,
+                  "text": "you did",
+                  "value": "you did",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3504_1_3",
+                  "order": 3,
+                  "text": "did you",
+                  "value": "did you",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3505",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 A: 'I watched the match in a pub.' B: 'So {{gap1}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3505_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "did I",
+              "accepted_answers": [
+                "did I"
+              ],
+              "options": [
+                {
+                  "id": "gap_3505_1_1",
+                  "order": 1,
+                  "text": "I did",
+                  "value": "I did",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3505_1_2",
+                  "order": 2,
+                  "text": "did I",
+                  "value": "did I",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3505_1_3",
+                  "order": 3,
+                  "text": "was I",
+                  "value": "was I",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3506",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 A: 'I would really like to go.' B: ' {{gap1}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3506_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "So would I",
+              "accepted_answers": [
+                "So would I"
+              ],
+              "options": [
+                {
+                  "id": "gap_3506_1_1",
+                  "order": 1,
+                  "text": "So did I",
+                  "value": "So did I",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3506_1_2",
+                  "order": 2,
+                  "text": "Neither would I",
+                  "value": "Neither would I",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3506_1_3",
+                  "order": 3,
+                  "text": "So would I",
+                  "value": "So would I",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-409",
+      "lessonId": "a2_so_neither",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct forms with so, neither, too, either to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_so-neither_2.html",
+      "questions": [
+        {
+          "id": "3493",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 A: 'I can't go to the presentation.' B: '_____.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3493_1",
+              "order": 1,
+              "text": "Neither can't I",
+              "value": "5649",
+              "is_correct": false
+            },
+            {
+              "id": "3493_2",
+              "order": 2,
+              "text": "Neither can I",
+              "value": "5650",
+              "is_correct": true
+            },
+            {
+              "id": "3493_3",
+              "order": 3,
+              "text": "So can I",
+              "value": "5651",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3508",
+          "order": 2,
+          "type": "multiple_choice",
+          "text": "2 A: 'I'm not going out tonight.' B: '_____.' Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3508_1",
+              "order": 1,
+              "text": "Neither I am",
+              "value": "5667",
+              "is_correct": false
+            },
+            {
+              "id": "3508_2",
+              "order": 2,
+              "text": "Neither am I",
+              "value": "5668",
+              "is_correct": true
+            },
+            {
+              "id": "3508_3",
+              "order": 3,
+              "text": "I am either",
+              "value": "5669",
+              "is_correct": false
+            },
+            {
+              "id": "3508_4",
+              "order": 4,
+              "text": "I'm not going out either",
+              "value": "5670",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3494",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 A: 'I haven't got time.' B: 'Neither _____.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3494_1",
+              "order": 1,
+              "text": "have I",
+              "value": "5652",
+              "is_correct": true
+            },
+            {
+              "id": "3494_2",
+              "order": 2,
+              "text": "I have",
+              "value": "5653",
+              "is_correct": false
+            },
+            {
+              "id": "3494_3",
+              "order": 3,
+              "text": "do I",
+              "value": "5654",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3495",
+          "order": 4,
+          "type": "multiple_choice",
+          "text": "4 A: ‘I went for a run this morning.’ B: ‘_____.’ Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3495_1",
+              "order": 1,
+              "text": "So did I",
+              "value": "5655",
+              "is_correct": true
+            },
+            {
+              "id": "3495_2",
+              "order": 2,
+              "text": "So am I",
+              "value": "5656",
+              "is_correct": false
+            },
+            {
+              "id": "3495_3",
+              "order": 3,
+              "text": "So was I",
+              "value": "5657",
+              "is_correct": false
+            },
+            {
+              "id": "3495_4",
+              "order": 4,
+              "text": "I went for a run too",
+              "value": "5682",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3496",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 A: 'I never go to the cinema.' B: '______.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3496_1",
+              "order": 1,
+              "text": "Neither do I",
+              "value": "5658",
+              "is_correct": true
+            },
+            {
+              "id": "3496_2",
+              "order": 2,
+              "text": "Neither am I",
+              "value": "5659",
+              "is_correct": false
+            },
+            {
+              "id": "3496_3",
+              "order": 3,
+              "text": "So am I",
+              "value": "5660",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3497",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 A: 'Sophia isn't coming with us.' B: 'And _____.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3497_1",
+              "order": 1,
+              "text": "so isn't Emily",
+              "value": "5661",
+              "is_correct": false
+            },
+            {
+              "id": "3497_2",
+              "order": 2,
+              "text": "neither is Emily",
+              "value": "5662",
+              "is_correct": true
+            },
+            {
+              "id": "3497_3",
+              "order": 3,
+              "text": "either isn't Emily",
+              "value": "5663",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3507",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 A: 'I want some pizza.' B: '_____.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3507_1",
+              "order": 1,
+              "text": "So do I",
+              "value": "5664",
+              "is_correct": true
+            },
+            {
+              "id": "3507_2",
+              "order": 2,
+              "text": "Neither do I",
+              "value": "5665",
+              "is_correct": false
+            },
+            {
+              "id": "3507_3",
+              "order": 3,
+              "text": "So I do",
+              "value": "5666",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3509",
+          "order": 8,
+          "type": "multiple_choice",
+          "text": "8 A: 'I wasn't scared.' B: '_____.' Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3509_1",
+              "order": 1,
+              "text": "Neither was I",
+              "value": "5671",
+              "is_correct": true
+            },
+            {
+              "id": "3509_2",
+              "order": 2,
+              "text": "Neither wasn't I",
+              "value": "5672",
+              "is_correct": false
+            },
+            {
+              "id": "3509_3",
+              "order": 3,
+              "text": "I was scared either",
+              "value": "5673",
+              "is_correct": false
+            },
+            {
+              "id": "3509_4",
+              "order": 4,
+              "text": "I wasn't scared either",
+              "value": "5674",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3510",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 A: 'I thought it was difficult.' B: '_____.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3510_1",
+              "order": 1,
+              "text": "Neither did I",
+              "value": "5675",
+              "is_correct": false
+            },
+            {
+              "id": "3510_2",
+              "order": 2,
+              "text": "So I did",
+              "value": "5676",
+              "is_correct": false
+            },
+            {
+              "id": "3510_3",
+              "order": 3,
+              "text": "So did I",
+              "value": "5677",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3511",
+          "order": 10,
+          "type": "multiple_choice",
+          "text": "10 A: 'I didn't enjoy the concert.' B: '_____.' Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3511_1",
+              "order": 1,
+              "text": "So didn't I",
+              "value": "5678",
+              "is_correct": false
+            },
+            {
+              "id": "3511_2",
+              "order": 2,
+              "text": "Neither didn't I",
+              "value": "5679",
+              "is_correct": false
+            },
+            {
+              "id": "3511_3",
+              "order": 3,
+              "text": "Neither did I",
+              "value": "5680",
+              "is_correct": true
+            },
+            {
+              "id": "3511_4",
+              "order": 4,
+              "text": "I didn't enjoy it either.",
+              "value": "5681",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-410",
+      "lessonId": "a2_so_neither",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences using so, neither and the words in brackets with the correct auxiliary.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_so-neither_3.html",
+      "questions": [
+        {
+          "id": "3512",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 'My phone doesn't work very well.' ' {{gap1}} (mine).'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3512_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Neither does",
+              "accepted_answers": [
+                "Neither does"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3513",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 'Emily has passed the exam.' ' {{gap1}} (Victor).'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3513_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "So has Victor",
+              "accepted_answers": [
+                "So has Victor"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3514",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 'I live in the city center.' ' {{gap1}} (my parents).'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3514_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "So do my parents",
+              "accepted_answers": [
+                "So do my parents"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3515",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 'We went camping last summer.' ' {{gap1}} (we).'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3515_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "So did we",
+              "accepted_answers": [
+                "So did we"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3516",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 'Sofia wasn't very inspired by the teacher.' ' {{gap1}} (Nic).'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3516_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Neither was Nic",
+              "accepted_answers": [
+                "Neither was Nic"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3517",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 James didn't say \"hello\" when he saw us and {{gap1}} (Daniel).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3517_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "neither did Daniel",
+              "accepted_answers": [
+                "neither did Daniel"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3518",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 'I'm working this weekend.' ' {{gap1}} (I).'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3518_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "So am",
+              "accepted_answers": [
+                "So am"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3519",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Ellen should apologise and {{gap1}} (you).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3519_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "so should you",
+              "accepted_answers": [
+                "so should you"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3520",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I won't accept your apology and {{gap1}} (my wife).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3520_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "neither will my wife",
+              "accepted_answers": [
+                "neither will my wife"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3521",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 'I'm not really worried.' ' {{gap1}} (I).'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3521_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Neither am I",
+              "accepted_answers": [
+                "Neither am I"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

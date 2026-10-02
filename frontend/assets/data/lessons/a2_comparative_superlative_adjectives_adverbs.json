@@ -1,0 +1,1299 @@
+{
+  "lesson_id": "a2_comparative_superlative_adjectives_adverbs",
+  "level": "A2",
+  "title": "Comparative and superlative adjectives and adverbs",
+  "description": "Практический тест и правила по теме: Comparative and superlative adjectives and adverbs",
+  "theory": {
+    "title": "Правила и грамматика: Comparative and superlative adjectives and adverbs",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Comparative and superlative adjectives and adverbs».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Comparative and superlative adjectives and adverbs» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-366",
+      "lessonId": "a2_comparative_superlative_adjectives_adverbs",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct comparative and superlative adjective and adverbs to complete the dialogues below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_comparative-superlative-adjectives-adverbs.html",
+      "questions": [
+        {
+          "id": "3114",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 They arrived {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3114_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "earlier than us",
+              "accepted_answers": [
+                "earlier than us"
+              ],
+              "options": [
+                {
+                  "id": "gap_3114_1_1",
+                  "order": 1,
+                  "text": "earlier than us",
+                  "value": "earlier than us",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3114_1_2",
+                  "order": 2,
+                  "text": "earlier than we",
+                  "value": "earlier than we",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3114_1_3",
+                  "order": 3,
+                  "text": "more early than we",
+                  "value": "more early than we",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3115",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Please, can you drive {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3115_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "more slowly",
+              "accepted_answers": [
+                "more slowly"
+              ],
+              "options": [
+                {
+                  "id": "gap_3115_1_1",
+                  "order": 1,
+                  "text": "more slowly",
+                  "value": "more slowly",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3115_1_2",
+                  "order": 2,
+                  "text": "most slowly",
+                  "value": "most slowly",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3115_1_3",
+                  "order": 3,
+                  "text": "slowlier",
+                  "value": "slowlier",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3116",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 This is going to be {{gap1}} show you have ever seen.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3116_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "the biggest",
+              "accepted_answers": [
+                "the biggest"
+              ],
+              "options": [
+                {
+                  "id": "gap_3116_1_1",
+                  "order": 1,
+                  "text": "the bigest",
+                  "value": "the bigest",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3116_1_2",
+                  "order": 2,
+                  "text": "the bigger",
+                  "value": "the bigger",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3116_1_3",
+                  "order": 3,
+                  "text": "the biggest",
+                  "value": "the biggest",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3117",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 My current job is {{gap1}} more stressful than my last job.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3117_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "much",
+              "accepted_answers": [
+                "much"
+              ],
+              "options": [
+                {
+                  "id": "gap_3117_1_1",
+                  "order": 1,
+                  "text": "lot",
+                  "value": "lot",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3117_1_2",
+                  "order": 2,
+                  "text": "much",
+                  "value": "much",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3117_1_3",
+                  "order": 3,
+                  "text": "very",
+                  "value": "very",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3118",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 He isn't as {{gap1}} you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3118_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "smart as",
+              "accepted_answers": [
+                "smart as"
+              ],
+              "options": [
+                {
+                  "id": "gap_3118_1_1",
+                  "order": 1,
+                  "text": "smart as",
+                  "value": "smart as",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3118_1_2",
+                  "order": 2,
+                  "text": "smarter than",
+                  "value": "smarter than",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3118_1_3",
+                  "order": 3,
+                  "text": "smarter as",
+                  "value": "smarter as",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3119",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 What is the {{gap1}} option in the menu?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3119_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "healthiest",
+              "accepted_answers": [
+                "healthiest"
+              ],
+              "options": [
+                {
+                  "id": "gap_3119_1_1",
+                  "order": 1,
+                  "text": "healthier",
+                  "value": "healthier",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3119_1_2",
+                  "order": 2,
+                  "text": "healthiest",
+                  "value": "healthiest",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3119_1_3",
+                  "order": 3,
+                  "text": "most healthy",
+                  "value": "most healthy",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3120",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 You aren't as determined {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3120_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "as I am",
+              "accepted_answers": [
+                "as I am"
+              ],
+              "options": [
+                {
+                  "id": "gap_3120_1_1",
+                  "order": 1,
+                  "text": "as I",
+                  "value": "as I",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3120_1_2",
+                  "order": 2,
+                  "text": "as I am",
+                  "value": "as I am",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3120_1_3",
+                  "order": 3,
+                  "text": "than me",
+                  "value": "than me",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3121",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 My great-grandmother is the oldest person {{gap1}} the family.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3121_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "in",
+              "accepted_answers": [
+                "in"
+              ],
+              "options": [
+                {
+                  "id": "gap_3121_1_1",
+                  "order": 1,
+                  "text": "of",
+                  "value": "of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3121_1_2",
+                  "order": 2,
+                  "text": "from",
+                  "value": "from",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3121_1_3",
+                  "order": 3,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3122",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 This is the greatest evening I {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3122_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'ve ever had",
+              "accepted_answers": [
+                "'ve ever had"
+              ],
+              "options": [
+                {
+                  "id": "gap_3122_1_1",
+                  "order": 1,
+                  "text": "'ve ever had",
+                  "value": "'ve ever had",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3122_1_2",
+                  "order": 2,
+                  "text": "'ve never had",
+                  "value": "'ve never had",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3122_1_3",
+                  "order": 3,
+                  "text": "ever had",
+                  "value": "ever had",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3123",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 York is a bit {{gap1}} than Leeds.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3123_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "further",
+              "accepted_answers": [
+                "further"
+              ],
+              "options": [
+                {
+                  "id": "gap_3123_1_1",
+                  "order": 1,
+                  "text": "farer",
+                  "value": "farer",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3123_1_2",
+                  "order": 2,
+                  "text": "more far",
+                  "value": "more far",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3123_1_3",
+                  "order": 3,
+                  "text": "further",
+                  "value": "further",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-367",
+      "lessonId": "a2_comparative_superlative_adjectives_adverbs",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct comparative and superlative adjective and adverbs to complete each sentence.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_comparative-superlative-adjectives-adverbs_2.html",
+      "questions": [
+        {
+          "id": "3124",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 The south is _____ the north.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3124_1",
+              "order": 1,
+              "text": "hotter than",
+              "value": "5308",
+              "is_correct": true
+            },
+            {
+              "id": "3124_2",
+              "order": 2,
+              "text": "more hotter than",
+              "value": "5309",
+              "is_correct": false
+            },
+            {
+              "id": "3124_3",
+              "order": 3,
+              "text": "more hot than",
+              "value": "5310",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3125",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 We work _____ now with the new manager.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3125_1",
+              "order": 1,
+              "text": "most happily",
+              "value": "5311",
+              "is_correct": false
+            },
+            {
+              "id": "3125_2",
+              "order": 2,
+              "text": "more happily",
+              "value": "5312",
+              "is_correct": true
+            },
+            {
+              "id": "3125_3",
+              "order": 3,
+              "text": "happilier",
+              "value": "5313",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3126",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 He is ______ England.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3126_1",
+              "order": 1,
+              "text": "the most famous painter in",
+              "value": "5314",
+              "is_correct": true
+            },
+            {
+              "id": "3126_2",
+              "order": 2,
+              "text": "the famousest painter in",
+              "value": "5315",
+              "is_correct": false
+            },
+            {
+              "id": "3126_3",
+              "order": 3,
+              "text": "the most famous painter of",
+              "value": "5316",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3127",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Tuesdays are _____ than Mondays.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3127_1",
+              "order": 1,
+              "text": "much more busy",
+              "value": "5317",
+              "is_correct": false
+            },
+            {
+              "id": "3127_2",
+              "order": 2,
+              "text": "much more busier",
+              "value": "5318",
+              "is_correct": false
+            },
+            {
+              "id": "3127_3",
+              "order": 3,
+              "text": "a lot busier",
+              "value": "5319",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3128",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 It's the worst experience _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3128_1",
+              "order": 1,
+              "text": "I've never had",
+              "value": "5320",
+              "is_correct": false
+            },
+            {
+              "id": "3128_2",
+              "order": 2,
+              "text": "I ever had",
+              "value": "5321",
+              "is_correct": false
+            },
+            {
+              "id": "3128_3",
+              "order": 3,
+              "text": "I've ever had",
+              "value": "5322",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3129",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 She eats better _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3129_1",
+              "order": 1,
+              "text": "than my",
+              "value": "5323",
+              "is_correct": false
+            },
+            {
+              "id": "3129_2",
+              "order": 2,
+              "text": "than me",
+              "value": "5324",
+              "is_correct": true
+            },
+            {
+              "id": "3129_3",
+              "order": 3,
+              "text": "that I do",
+              "value": "5325",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3130",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 He doesn't run _____ his brother.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3130_1",
+              "order": 1,
+              "text": "as faster as",
+              "value": "5326",
+              "is_correct": false
+            },
+            {
+              "id": "3130_2",
+              "order": 2,
+              "text": "as fast as",
+              "value": "5327",
+              "is_correct": true
+            },
+            {
+              "id": "3130_3",
+              "order": 3,
+              "text": "fast as",
+              "value": "5328",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3131",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 The bus is a bit _____ the train.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3131_1",
+              "order": 1,
+              "text": "comfortabler than",
+              "value": "5329",
+              "is_correct": false
+            },
+            {
+              "id": "3131_2",
+              "order": 2,
+              "text": "more comfortable as",
+              "value": "5330",
+              "is_correct": false
+            },
+            {
+              "id": "3131_3",
+              "order": 3,
+              "text": "more comfortable than",
+              "value": "5331",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3132",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 This year we are having _____ summer since 1976.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3132_1",
+              "order": 1,
+              "text": "the most hot",
+              "value": "5332",
+              "is_correct": false
+            },
+            {
+              "id": "3132_2",
+              "order": 2,
+              "text": "the hottest",
+              "value": "5333",
+              "is_correct": true
+            },
+            {
+              "id": "3132_3",
+              "order": 3,
+              "text": "the hotter",
+              "value": "5334",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3133",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 We finished _____ we expected.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3133_1",
+              "order": 1,
+              "text": "more quickly than",
+              "value": "5335",
+              "is_correct": true
+            },
+            {
+              "id": "3133_2",
+              "order": 2,
+              "text": "quicklier than",
+              "value": "5336",
+              "is_correct": false
+            },
+            {
+              "id": "3133_3",
+              "order": 3,
+              "text": "more quick than",
+              "value": "5337",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-368",
+      "lessonId": "a2_comparative_superlative_adjectives_adverbs",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences with the comparative or superlative forms of the adjectives in brackets. Add any necessary missing words, such as than, the, as.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_comparative-superlative-adjectives-adverbs_3.html",
+      "questions": [
+        {
+          "id": "3134",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Cardiff is {{gap1}} (wet) city in Britain. It rains an average of 148 days a year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3134_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the wettest",
+              "accepted_answers": [
+                "the wettest"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3135",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 The north of Italy is much {{gap1}} (cold) the south in winter.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3135_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "colder than",
+              "accepted_answers": [
+                "colder than"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3136",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 The kitchen isn't as {{gap1}} (large) the living room.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3136_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "large as",
+              "accepted_answers": [
+                "large as"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3137",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 New York is {{gap1}} (populated) city in the US.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3137_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the most populated",
+              "accepted_answers": [
+                "the most populated"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3138",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Athens is {{gap1}} (old) city in the world.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3138_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the oldest",
+              "accepted_answers": [
+                "the oldest"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3139",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Shanghai is {{gap1}} (busy) most other cities in Asia.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3139_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "busier than",
+              "accepted_answers": [
+                "busier than"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3140",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 What is {{gap1}} (far) planet from Earth?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3140_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the farthest",
+              "accepted_answers": [
+                "the farthest"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3141",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Men lose weight {{gap1}} (easily) women.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3141_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "more easily than",
+              "accepted_answers": [
+                "more easily than"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3142",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 His last book is OK, but I think it is {{gap1}} (bad) the previous one.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3142_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "worse than",
+              "accepted_answers": [
+                "worse than"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3143",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Where is {{gap1}} (near) petrol station?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3143_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the nearest",
+              "accepted_answers": [
+                "the nearest"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-369",
+      "lessonId": "a2_comparative_superlative_adjectives_adverbs",
+      "order": 4,
+      "page": 4,
+      "title": "Exercise 4",
+      "instruction": "Write sentences with the present perfect + the word ever and a superlative.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_comparative-superlative-adjectives-adverbs_4.html",
+      "questions": [
+        {
+          "id": "3144",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 It's/long trip/I make ‣ It's {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3144_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the longest trip I've ever made",
+              "accepted_answers": [
+                "the longest trip I've ever made"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3145",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 This is/good food/I try ‣ This is {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3145_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the best food I've ever tried",
+              "accepted_answers": [
+                "the best food I've ever tried"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3146",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 It's/bad nightmare/I have ‣ It's {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3146_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the worst nightmare I've ever had",
+              "accepted_answers": [
+                "the worst nightmare I've ever had"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3152",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 What's/inspiring book/you read? ‣ What's {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3152_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the most inspiring book you've ever read",
+              "accepted_answers": [
+                "the most inspiring book you've ever read"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3147",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 It's/horrible thing/I experience. ‣ It's {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3147_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the most horrible thing I've ever experienced",
+              "accepted_answers": [
+                "the most horrible thing I've ever experienced"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3148",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 He is/nice person/I meet ‣ He is {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3148_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the nicest person I have ever met",
+              "accepted_answers": [
+                "the nicest person I have ever met"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3149",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 This is/easy test/I take ‣ This is {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3149_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the easiest test I've ever taken",
+              "accepted_answers": [
+                "the easiest test I've ever taken"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3150",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 He's/important client/we have ‣ He's {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3150_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the most important client we've ever had",
+              "accepted_answers": [
+                "the most important client we've ever had"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3151",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 It was/amazing view/I see ‣ It was {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3151_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the most amazing view I've ever seen",
+              "accepted_answers": [
+                "the most amazing view I've ever seen"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3153",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 What's/cheap country/you be to? ‣ What's {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3153_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the cheapest country you've ever been to",
+              "accepted_answers": [
+                "the cheapest country you've ever been to"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

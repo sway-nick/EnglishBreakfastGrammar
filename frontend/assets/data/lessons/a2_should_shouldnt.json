@@ -1,0 +1,858 @@
+{
+  "lesson_id": "a2_should_shouldnt",
+  "level": "A2",
+  "title": "Should, shouldn't",
+  "description": "Практический тест и правила по теме: Should, shouldn't",
+  "theory": {
+    "title": "Правила и грамматика: Should, shouldn't",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Should, shouldn't».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Should, shouldn't» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-384",
+      "lessonId": "a2_should_shouldnt",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Complete the sentences using should, shouldn’t and the words in brackets ( ).",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_should-shouldnt.html",
+      "questions": [
+        {
+          "id": "3285",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 You have a great job; you {{gap1}} (change) it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3285_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "shouldn't change",
+              "accepted_answers": [
+                "shouldn't change"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3286",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 You {{gap1}} (drink) so much coffee; it's bad for your blood pressure.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3286_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "shouldn't drink",
+              "accepted_answers": [
+                "shouldn't drink"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3287",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 The government {{gap1}} (help) people in need.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3287_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "should help",
+              "accepted_answers": [
+                "should help"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3288",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 It's an incredible film. You {{gap1}} (watch) it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3288_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "should watch",
+              "accepted_answers": [
+                "should watch"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3289",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 It's a very dangerous area. Tourists {{gap1}} (go) there.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3289_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "shouldn't go",
+              "accepted_answers": [
+                "shouldn't go"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3290",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I think I {{gap1}} (apply) for a new job.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3290_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "should apply",
+              "accepted_answers": [
+                "should apply"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3291",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 You {{gap1}} (go) to that restaurant. The food is terrible.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3291_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "shouldn't go",
+              "accepted_answers": [
+                "shouldn't go"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3292",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 When someone does you a favour, you {{gap1}} (say) thank you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3292_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "should say",
+              "accepted_answers": [
+                "should say"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3293",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 He {{gap1}} (study) more if he wants to pass his exam.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3293_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "should study",
+              "accepted_answers": [
+                "should study"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3294",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Children {{gap1}} (drink) sugary drinks. It's not very healthy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3294_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "shouldn't drink",
+              "accepted_answers": [
+                "shouldn't drink"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-385",
+      "lessonId": "a2_should_shouldnt",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct forms to complete the following sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_should-shouldnt_2.html",
+      "questions": [
+        {
+          "id": "3295",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 What _____ tell Peter?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3295_1",
+              "order": 1,
+              "text": "should I",
+              "value": "5458",
+              "is_correct": true
+            },
+            {
+              "id": "3295_2",
+              "order": 2,
+              "text": "should I to",
+              "value": "5459",
+              "is_correct": false
+            },
+            {
+              "id": "3295_3",
+              "order": 3,
+              "text": "do I should",
+              "value": "5460",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3296",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 They _____ to go to the police.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3296_1",
+              "order": 1,
+              "text": "should",
+              "value": "5461",
+              "is_correct": false
+            },
+            {
+              "id": "3296_2",
+              "order": 2,
+              "text": "ought",
+              "value": "5462",
+              "is_correct": true
+            },
+            {
+              "id": "3296_3",
+              "order": 3,
+              "text": "shouldn't",
+              "value": "5463",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3297",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I _____ take that course. It's a waste of time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3297_1",
+              "order": 1,
+              "text": "think you shouldn't",
+              "value": "5464",
+              "is_correct": false
+            },
+            {
+              "id": "3297_2",
+              "order": 2,
+              "text": "think you should not",
+              "value": "5465",
+              "is_correct": false
+            },
+            {
+              "id": "3297_3",
+              "order": 3,
+              "text": "don't think you should",
+              "value": "5466",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3298",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 People _____ be afraid of their governments.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3298_1",
+              "order": 1,
+              "text": "ought not to",
+              "value": "5467",
+              "is_correct": true
+            },
+            {
+              "id": "3298_2",
+              "order": 2,
+              "text": "ought to not",
+              "value": "5468",
+              "is_correct": false
+            },
+            {
+              "id": "3298_3",
+              "order": 3,
+              "text": "shouldn't to",
+              "value": "5469",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3299",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 What _____ do if he doesn't get a promotion?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3299_1",
+              "order": 1,
+              "text": "does Brian should",
+              "value": "5470",
+              "is_correct": false
+            },
+            {
+              "id": "3299_2",
+              "order": 2,
+              "text": "should Brian",
+              "value": "5471",
+              "is_correct": true
+            },
+            {
+              "id": "3299_3",
+              "order": 3,
+              "text": "should Brian to",
+              "value": "5472",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3300",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 You _____ swim immediately after a meal.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3300_1",
+              "order": 1,
+              "text": "should not",
+              "value": "5473",
+              "is_correct": true
+            },
+            {
+              "id": "3300_2",
+              "order": 2,
+              "text": "ought not",
+              "value": "5474",
+              "is_correct": false
+            },
+            {
+              "id": "3300_3",
+              "order": 3,
+              "text": "shouldn't to",
+              "value": "5475",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3301",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 We _____ take the money. You'll never be able to pay it back.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3301_1",
+              "order": 1,
+              "text": "think you should not",
+              "value": "5476",
+              "is_correct": false
+            },
+            {
+              "id": "3301_2",
+              "order": 2,
+              "text": "think you ought not to",
+              "value": "5477",
+              "is_correct": false
+            },
+            {
+              "id": "3301_3",
+              "order": 3,
+              "text": "don't think you should",
+              "value": "5478",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3302",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Politicians _____ to be completely honest and transparent.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3302_1",
+              "order": 1,
+              "text": "ought",
+              "value": "5479",
+              "is_correct": true
+            },
+            {
+              "id": "3302_2",
+              "order": 2,
+              "text": "shouldn't",
+              "value": "5480",
+              "is_correct": false
+            },
+            {
+              "id": "3302_3",
+              "order": 3,
+              "text": "should",
+              "value": "5481",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3303",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 She _____ work so hard. She's under too much stress.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3303_1",
+              "order": 1,
+              "text": "shouldn't",
+              "value": "5482",
+              "is_correct": true
+            },
+            {
+              "id": "3303_2",
+              "order": 2,
+              "text": "shouldn't to",
+              "value": "5483",
+              "is_correct": false
+            },
+            {
+              "id": "3303_3",
+              "order": 3,
+              "text": "ought not",
+              "value": "5484",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3304",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Why _____ listen to you?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3304_1",
+              "order": 1,
+              "text": "do I should",
+              "value": "5485",
+              "is_correct": false
+            },
+            {
+              "id": "3304_2",
+              "order": 2,
+              "text": "should I",
+              "value": "5486",
+              "is_correct": true
+            },
+            {
+              "id": "3304_3",
+              "order": 3,
+              "text": "should I to",
+              "value": "5487",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-386",
+      "lessonId": "a2_should_shouldnt",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences with should, shouldn’t and a verb in the list.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_should-shouldnt_3.html",
+      "questions": [
+        {
+          "id": "3305",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I {{gap1}} more vegetables, but I hate them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3305_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "should eat",
+              "accepted_answers": [
+                "should eat"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3306",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 You {{gap1}} so many questions. You are going to get into trouble.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3306_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "shouldn't ask",
+              "accepted_answers": [
+                "shouldn't ask"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3307",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Parents {{gap1}} medicine to their children without going to the doctor first.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3307_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "shouldn't give",
+              "accepted_answers": [
+                "shouldn't give"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3308",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I {{gap1}} more exercise. I have gained some weight.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3308_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "should do",
+              "accepted_answers": [
+                "should do"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3309",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 What kind of dress {{gap1}} I {{gap2}} for tonight's ceremony?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3309_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "should",
+              "accepted_answers": [
+                "should"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3309_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "wear",
+              "accepted_answers": [
+                "wear"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3310",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 You {{gap1}} John immediately. He needs to speak to you urgently.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3310_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "should call",
+              "accepted_answers": [
+                "should call"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3311",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Your children {{gap1}} TV all day. Take them to the park sometimes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3311_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "shouldn't watch",
+              "accepted_answers": [
+                "shouldn't watch"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3312",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 It's raining. I think we {{gap1}} a taxi.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3312_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "should take",
+              "accepted_answers": [
+                "should take"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3313",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 You {{gap1}} some water or you will dehydrate.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3313_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "should drink",
+              "accepted_answers": [
+                "should drink"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3314",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Children {{gap1}} to strangers.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3314_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "shouldn't talk",
+              "accepted_answers": [
+                "shouldn't talk"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

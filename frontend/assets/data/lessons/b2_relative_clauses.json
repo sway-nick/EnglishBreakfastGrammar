@@ -1,0 +1,1369 @@
+{
+  "lesson_id": "b2_relative_clauses",
+  "level": "B2",
+  "title": "Relative clauses: Defining and non-defining",
+  "description": "Практический тест и правила по теме: Relative clauses: Defining and non-defining",
+  "theory": {
+    "title": "Правила и грамматика: Relative clauses: Defining and non-defining",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Relative clauses: Defining and non-defining».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Relative clauses: Defining and non-defining» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-157",
+      "lessonId": "b2_relative_clauses",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_relative-clauses.html",
+      "questions": [
+        {
+          "id": "1343",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Did you really understand {{gap1}} I told you?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1343_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "what",
+              "accepted_answers": [
+                "what"
+              ],
+              "options": [
+                {
+                  "id": "gap_1343_1_1",
+                  "order": 1,
+                  "text": "which",
+                  "value": "which",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1343_1_2",
+                  "order": 2,
+                  "text": "what",
+                  "value": "what",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1343_1_3",
+                  "order": 3,
+                  "text": "that",
+                  "value": "that",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1344",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Mr. Dean, {{gap1}} had recently been fired, had a long list of misconducts.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1344_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "who",
+              "accepted_answers": [
+                "who"
+              ],
+              "options": [
+                {
+                  "id": "gap_1344_1_1",
+                  "order": 1,
+                  "text": "that",
+                  "value": "that",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1344_1_2",
+                  "order": 2,
+                  "text": "which",
+                  "value": "which",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1344_1_3",
+                  "order": 3,
+                  "text": "who",
+                  "value": "who",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1345",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 The victims, most of {{gap1}} were adults, are being identified by the US authorities.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1345_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "whom",
+              "accepted_answers": [
+                "whom"
+              ],
+              "options": [
+                {
+                  "id": "gap_1345_1_1",
+                  "order": 1,
+                  "text": "which",
+                  "value": "which",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1345_1_2",
+                  "order": 2,
+                  "text": "whom",
+                  "value": "whom",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1345_1_3",
+                  "order": 3,
+                  "text": "who",
+                  "value": "who",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1346",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I like the scene {{gap1}} Dorothy meets Scarecrow.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1346_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "where",
+              "accepted_answers": [
+                "where"
+              ],
+              "options": [
+                {
+                  "id": "gap_1346_1_1",
+                  "order": 1,
+                  "text": "what",
+                  "value": "what",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1346_1_2",
+                  "order": 2,
+                  "text": "where",
+                  "value": "where",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1346_1_3",
+                  "order": 3,
+                  "text": "which",
+                  "value": "which",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1347",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 This is the man {{gap1}} I am in love with.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1347_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "whom",
+              "accepted_answers": [
+                "whom"
+              ],
+              "options": [
+                {
+                  "id": "gap_1347_1_1",
+                  "order": 1,
+                  "text": "who",
+                  "value": "who",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1347_1_2",
+                  "order": 2,
+                  "text": "whom",
+                  "value": "whom",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1347_1_3",
+                  "order": 3,
+                  "text": "which",
+                  "value": "which",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1348",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 I wasn't honest with Kenneth, {{gap1}} made him furious.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1348_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "which",
+              "accepted_answers": [
+                "which"
+              ],
+              "options": [
+                {
+                  "id": "gap_1348_1_1",
+                  "order": 1,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1348_1_2",
+                  "order": 2,
+                  "text": "which",
+                  "value": "which",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1348_1_3",
+                  "order": 3,
+                  "text": "that",
+                  "value": "that",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1349",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 The chancellor, {{gap1}} sons were arrested in the corruption operation, resigned yesterday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1349_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "both of whose",
+              "accepted_answers": [
+                "both of whose"
+              ],
+              "options": [
+                {
+                  "id": "gap_1349_1_1",
+                  "order": 1,
+                  "text": "both of whom",
+                  "value": "both of whom",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1349_1_2",
+                  "order": 2,
+                  "text": "both whose",
+                  "value": "both whose",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1349_1_3",
+                  "order": 3,
+                  "text": "both of whose",
+                  "value": "both of whose",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1350",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 The police searched the vehicle {{gap1}} the gun was found.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1350_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "where",
+              "accepted_answers": [
+                "where"
+              ],
+              "options": [
+                {
+                  "id": "gap_1350_1_1",
+                  "order": 1,
+                  "text": "that",
+                  "value": "that",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1350_1_2",
+                  "order": 2,
+                  "text": "where",
+                  "value": "where",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1350_1_3",
+                  "order": 3,
+                  "text": "which",
+                  "value": "which",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1351",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 The driver, {{gap1}} contract finishes at the end of the season, doesn't want to talk about his future.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1351_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "whose",
+              "accepted_answers": [
+                "whose"
+              ],
+              "options": [
+                {
+                  "id": "gap_1351_1_1",
+                  "order": 1,
+                  "text": "who",
+                  "value": "who",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1351_1_2",
+                  "order": 2,
+                  "text": "whose",
+                  "value": "whose",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1351_1_3",
+                  "order": 3,
+                  "text": "whom",
+                  "value": "whom",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1352",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Between 2000 and 2005, she wrote three novels, {{gap1}} was published.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1352_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "none of which",
+              "accepted_answers": [
+                "none of which"
+              ],
+              "options": [
+                {
+                  "id": "gap_1352_1_1",
+                  "order": 1,
+                  "text": "either of which",
+                  "value": "either of which",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1352_1_2",
+                  "order": 2,
+                  "text": "none which",
+                  "value": "none which",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1352_1_3",
+                  "order": 3,
+                  "text": "none of which",
+                  "value": "none of which",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-158",
+      "lessonId": "b2_relative_clauses",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option for the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_relative-clauses_2.html",
+      "questions": [
+        {
+          "id": "1355",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 They said they were going to have twins, ______ surprised everybody.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1355_1",
+              "order": 1,
+              "text": "that",
+              "value": "1885",
+              "is_correct": false
+            },
+            {
+              "id": "1355_2",
+              "order": 2,
+              "text": "which",
+              "value": "1886",
+              "is_correct": true
+            },
+            {
+              "id": "1355_3",
+              "order": 3,
+              "text": "what",
+              "value": "1887",
+              "is_correct": false
+            },
+            {
+              "id": "1355_4",
+              "order": 4,
+              "text": "whose",
+              "value": "1888",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1353",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 This is the man ______. Choose the INCORRECT answer",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1353_1",
+              "order": 1,
+              "text": "who I used to work with.",
+              "value": "1877",
+              "is_correct": false
+            },
+            {
+              "id": "1353_2",
+              "order": 2,
+              "text": "with whom I used to work.",
+              "value": "1878",
+              "is_correct": false
+            },
+            {
+              "id": "1353_3",
+              "order": 3,
+              "text": "I used to work with.",
+              "value": "1879",
+              "is_correct": false
+            },
+            {
+              "id": "1353_4",
+              "order": 4,
+              "text": "with who I used to work.",
+              "value": "1880",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1356",
+          "order": 3,
+          "type": "multiple_choice",
+          "text": "3 They've caught the driver ______ caused the car accident. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1356_1",
+              "order": 1,
+              "text": "who",
+              "value": "1889",
+              "is_correct": true
+            },
+            {
+              "id": "1356_2",
+              "order": 2,
+              "text": "–",
+              "value": "1890",
+              "is_correct": false
+            },
+            {
+              "id": "1356_3",
+              "order": 3,
+              "text": "that",
+              "value": "1891",
+              "is_correct": true
+            },
+            {
+              "id": "1356_4",
+              "order": 4,
+              "text": "which",
+              "value": "1892",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1360",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Several men in plainclothes, ______ were armed, forced him to go with them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1360_1",
+              "order": 1,
+              "text": "who some",
+              "value": "1905",
+              "is_correct": false
+            },
+            {
+              "id": "1360_2",
+              "order": 2,
+              "text": "whom some",
+              "value": "1906",
+              "is_correct": false
+            },
+            {
+              "id": "1360_3",
+              "order": 3,
+              "text": "some of whom",
+              "value": "1907",
+              "is_correct": true
+            },
+            {
+              "id": "1360_4",
+              "order": 4,
+              "text": "some who",
+              "value": "1908",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1354",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 She's going with a friend ______ I really don't like. Choose the INCORRECT answer",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1354_1",
+              "order": 1,
+              "text": "whom",
+              "value": "1881",
+              "is_correct": false
+            },
+            {
+              "id": "1354_2",
+              "order": 2,
+              "text": "who",
+              "value": "1882",
+              "is_correct": false
+            },
+            {
+              "id": "1354_3",
+              "order": 3,
+              "text": "that",
+              "value": "1883",
+              "is_correct": false
+            },
+            {
+              "id": "1354_4",
+              "order": 4,
+              "text": "which",
+              "value": "1884",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1357",
+          "order": 6,
+          "type": "multiple_choice",
+          "text": "6 This is the house ______. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1357_1",
+              "order": 1,
+              "text": "where I was born",
+              "value": "1893",
+              "is_correct": true
+            },
+            {
+              "id": "1357_2",
+              "order": 2,
+              "text": "I was born",
+              "value": "1894",
+              "is_correct": false
+            },
+            {
+              "id": "1357_3",
+              "order": 3,
+              "text": "in which I was born",
+              "value": "1895",
+              "is_correct": true
+            },
+            {
+              "id": "1357_4",
+              "order": 4,
+              "text": "in where I was born",
+              "value": "1896",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1358",
+          "order": 7,
+          "type": "multiple_choice",
+          "text": "7 The world is full of good singers _______. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1358_1",
+              "order": 1,
+              "text": "of who nobody has heard.",
+              "value": "1897",
+              "is_correct": false
+            },
+            {
+              "id": "1358_2",
+              "order": 2,
+              "text": "who nobody has heard of.",
+              "value": "1898",
+              "is_correct": true
+            },
+            {
+              "id": "1358_3",
+              "order": 3,
+              "text": "of which nobody has heard.",
+              "value": "1899",
+              "is_correct": false
+            },
+            {
+              "id": "1358_4",
+              "order": 4,
+              "text": "of whom nobody has heard.",
+              "value": "1900",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1361",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 The paramedics rescued the driver, ______ legs were injured.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1361_1",
+              "order": 1,
+              "text": "who both",
+              "value": "1909",
+              "is_correct": false
+            },
+            {
+              "id": "1361_2",
+              "order": 2,
+              "text": "whom both",
+              "value": "1910",
+              "is_correct": false
+            },
+            {
+              "id": "1361_3",
+              "order": 3,
+              "text": "both of whom",
+              "value": "1911",
+              "is_correct": false
+            },
+            {
+              "id": "1361_4",
+              "order": 4,
+              "text": "both of whose",
+              "value": "1912",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1359",
+          "order": 9,
+          "type": "multiple_choice",
+          "text": "9 ______ won him many enemies. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1359_1",
+              "order": 1,
+              "text": "What he wrote",
+              "value": "1901",
+              "is_correct": true
+            },
+            {
+              "id": "1359_2",
+              "order": 2,
+              "text": "That he wrote",
+              "value": "1902",
+              "is_correct": false
+            },
+            {
+              "id": "1359_3",
+              "order": 3,
+              "text": "Which he wrote",
+              "value": "1903",
+              "is_correct": false
+            },
+            {
+              "id": "1359_4",
+              "order": 4,
+              "text": "The things he wrote",
+              "value": "1904",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1362",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 The police in Seattle has arrested 10 men, ______ are members of a dangerous street gang.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1362_1",
+              "order": 1,
+              "text": "all of who",
+              "value": "1913",
+              "is_correct": false
+            },
+            {
+              "id": "1362_2",
+              "order": 2,
+              "text": "all of whom",
+              "value": "1914",
+              "is_correct": true
+            },
+            {
+              "id": "1362_3",
+              "order": 3,
+              "text": "all who",
+              "value": "1915",
+              "is_correct": false
+            },
+            {
+              "id": "1362_4",
+              "order": 4,
+              "text": "whom all",
+              "value": "1916",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-159",
+      "lessonId": "b2_relative_clauses",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with relative pronouns or adverbs. Do NOT use that and use only ONE word for each space.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_relative-clauses_3.html",
+      "questions": [
+        {
+          "id": "1363",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I'll never forget the day {{gap1}} we met.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1363_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "when",
+              "accepted_answers": [
+                "when"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1365",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Is that the lady {{gap1}} husband tried to rob the bank?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1365_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "whose",
+              "accepted_answers": [
+                "whose"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1364",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 We need to find an empty building {{gap1}} we can hide for a couple of days.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1364_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "where",
+              "accepted_answers": [
+                "where"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1366",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Social media networks are an excellent tool {{gap1}} you can use to promote your business.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1366_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "which",
+              "accepted_answers": [
+                "which"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1367",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 In the military, D-Day is the day on {{gap1}} a combat attack or operation is to be initiated.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1367_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "which",
+              "accepted_answers": [
+                "which"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1368",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I have two brothers, both of {{gap1}} are younger than me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1368_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "whom",
+              "accepted_answers": [
+                "whom"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1370",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 This is the house {{gap1}} I grew up in.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1370_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "which",
+              "accepted_answers": [
+                "which"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1369",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 At home we have more than 20 gadgets, none of {{gap1}} I can use.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1369_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "which",
+              "accepted_answers": [
+                "which"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1371",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Do you remember the girl {{gap1}} brother sat next to you in 3rd grade?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1371_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "whose",
+              "accepted_answers": [
+                "whose"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1372",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 He denounced the injustice at the conference, {{gap1}} everybody applauded.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1372_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "which",
+              "accepted_answers": [
+                "which"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-160",
+      "lessonId": "b2_relative_clauses",
+      "order": 4,
+      "page": 4,
+      "title": "Exercise 4",
+      "instruction": "Combine the sentences above into one only sentence using the relative pronoun provided",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_relative-clauses_4.html",
+      "questions": [
+        {
+          "id": "1394",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 We are arguing. Do you remember the reason? (why) Do you remember {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1394_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "why we are arguing",
+              "accepted_answers": [
+                "why we are arguing"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1395",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 We have to be at the station. Can you tell me the exact time? (when) Can you tell me the exact time {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1395_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "when we have to be at the station",
+              "accepted_answers": [
+                "when we have to be at the station"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1396",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 He got the job. This surprised everyone. (which) He got the job, {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1396_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "which surprised everyone",
+              "accepted_answers": [
+                "which surprised everyone"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1397",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 You need to listen to a person. He is not this person. (whom) He is not the person {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1397_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "whom you need to listen to",
+              "accepted_answers": [
+                "whom you need to listen to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1402",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 25 people disembarked on a local beach. Some of them were children. (whom) 25 people, {{gap1}}, disembarked on a local beach.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1402_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "some of whom were children",
+              "accepted_answers": [
+                "some of whom were children"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1399",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 He was found in a place. That's the place. (which) That's the place {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1399_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "in which he was found",
+              "accepted_answers": [
+                "in which he was found"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1400",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 You must decide the exact location. You are going to build your house in that location. (where) You must decide the exact location {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1400_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "where you are going to build your house",
+              "accepted_answers": [
+                "where you are going to build your house"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1401",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 You arrived with a woman. Who was that woman? (that) Who was the woman {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1401_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "that you arrived with",
+              "accepted_answers": [
+                "that you arrived with"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1403",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 They have appointed two new directors. Neither of them has any experience. (whom) They have appointed two new directors, {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1403_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "neither of whom has any experience",
+              "accepted_answers": [
+                "neither of whom has any experience"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1407",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 The buildings are badly damaged. All of them have been hit by the storm. (which) The buildings, {{gap1}}, are badly damaged.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1407_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "all of which have been hit by the storm",
+              "accepted_answers": [
+                "all of which have been hit by the storm"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

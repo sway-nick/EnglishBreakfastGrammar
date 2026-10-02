@@ -1,0 +1,968 @@
+{
+  "lesson_id": "b1_question_tags",
+  "level": "B1",
+  "title": "Question tags: Aren't you? don't you?",
+  "description": "Практический тест и правила по теме: Question tags: Aren't you? don't you?",
+  "theory": {
+    "title": "Правила и грамматика: Question tags: Aren't you? don't you?",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Question tags: Aren't you? don't you?».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Question tags: Aren't you? don't you?» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-254",
+      "lessonId": "b1_question_tags",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct form to complete the question tags below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_question-tags.html",
+      "questions": [
+        {
+          "id": "2177",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 You are a student, {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2177_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "aren't you",
+              "accepted_answers": [
+                "aren't you"
+              ],
+              "options": [
+                {
+                  "id": "gap_2177_1_1",
+                  "order": 1,
+                  "text": "don't you",
+                  "value": "don't you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2177_1_2",
+                  "order": 2,
+                  "text": "aren't you",
+                  "value": "aren't you",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2177_1_3",
+                  "order": 3,
+                  "text": "are you",
+                  "value": "are you",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2178",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 It isn't too cold today, {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2178_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is it",
+              "accepted_answers": [
+                "is it"
+              ],
+              "options": [
+                {
+                  "id": "gap_2178_1_1",
+                  "order": 1,
+                  "text": "is it",
+                  "value": "is it",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2178_1_2",
+                  "order": 2,
+                  "text": "it is",
+                  "value": "it is",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2178_1_3",
+                  "order": 3,
+                  "text": "isn't it",
+                  "value": "isn't it",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2179",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 He was at the concert, {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2179_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "wasn't he",
+              "accepted_answers": [
+                "wasn't he"
+              ],
+              "options": [
+                {
+                  "id": "gap_2179_1_1",
+                  "order": 1,
+                  "text": "didn't he",
+                  "value": "didn't he",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2179_1_2",
+                  "order": 2,
+                  "text": "wasn't it",
+                  "value": "wasn't it",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2179_1_3",
+                  "order": 3,
+                  "text": "wasn't he",
+                  "value": "wasn't he",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2180",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 You like chocolate, {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2180_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "don't you",
+              "accepted_answers": [
+                "don't you"
+              ],
+              "options": [
+                {
+                  "id": "gap_2180_1_1",
+                  "order": 1,
+                  "text": "don't it",
+                  "value": "don't it",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2180_1_2",
+                  "order": 2,
+                  "text": "don't you",
+                  "value": "don't you",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2180_1_3",
+                  "order": 3,
+                  "text": "do you",
+                  "value": "do you",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2181",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 She arrived too late, {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2181_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't she",
+              "accepted_answers": [
+                "didn't she"
+              ],
+              "options": [
+                {
+                  "id": "gap_2181_1_1",
+                  "order": 1,
+                  "text": "didn't she",
+                  "value": "didn't she",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2181_1_2",
+                  "order": 2,
+                  "text": "did she",
+                  "value": "did she",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2181_1_3",
+                  "order": 3,
+                  "text": "wasn't she",
+                  "value": "wasn't she",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2182",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Tom couldn't find the place, {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2182_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "could he",
+              "accepted_answers": [
+                "could he"
+              ],
+              "options": [
+                {
+                  "id": "gap_2182_1_1",
+                  "order": 1,
+                  "text": "didn't he",
+                  "value": "didn't he",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2182_1_2",
+                  "order": 2,
+                  "text": "could Tom",
+                  "value": "could Tom",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2182_1_3",
+                  "order": 3,
+                  "text": "could he",
+                  "value": "could he",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2183",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Henry and Juliet have just arrived, {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2183_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "haven't they",
+              "accepted_answers": [
+                "haven't they"
+              ],
+              "options": [
+                {
+                  "id": "gap_2183_1_1",
+                  "order": 1,
+                  "text": "they have",
+                  "value": "they have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2183_1_2",
+                  "order": 2,
+                  "text": "have they",
+                  "value": "have they",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2183_1_3",
+                  "order": 3,
+                  "text": "haven't they",
+                  "value": "haven't they",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2184",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Your little Angie can't walk yet, {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2184_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can she",
+              "accepted_answers": [
+                "can she"
+              ],
+              "options": [
+                {
+                  "id": "gap_2184_1_1",
+                  "order": 1,
+                  "text": "she can't",
+                  "value": "she can't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2184_1_2",
+                  "order": 2,
+                  "text": "can she",
+                  "value": "can she",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2184_1_3",
+                  "order": 3,
+                  "text": "can't she",
+                  "value": "can't she",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2185",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 When you arrived, she had already left, {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2185_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "hadn't she",
+              "accepted_answers": [
+                "hadn't she"
+              ],
+              "options": [
+                {
+                  "id": "gap_2185_1_1",
+                  "order": 1,
+                  "text": "didn't she",
+                  "value": "didn't she",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2185_1_2",
+                  "order": 2,
+                  "text": "she didn't",
+                  "value": "she didn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2185_1_3",
+                  "order": 3,
+                  "text": "hadn't she",
+                  "value": "hadn't she",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2186",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 You would never tell him, {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2186_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "would you",
+              "accepted_answers": [
+                "would you"
+              ],
+              "options": [
+                {
+                  "id": "gap_2186_1_1",
+                  "order": 1,
+                  "text": "would you",
+                  "value": "would you",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2186_1_2",
+                  "order": 2,
+                  "text": "would he",
+                  "value": "would he",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2186_1_3",
+                  "order": 3,
+                  "text": "wouldn't you",
+                  "value": "wouldn't you",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-255",
+      "lessonId": "b1_question_tags",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct form for each question tag below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_question-tags_2.html",
+      "questions": [
+        {
+          "id": "2187",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I'm not interrupting anything, ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2187_1",
+              "order": 1,
+              "text": "I am",
+              "value": "3115",
+              "is_correct": false
+            },
+            {
+              "id": "2187_2",
+              "order": 2,
+              "text": "aren't I",
+              "value": "3116",
+              "is_correct": false
+            },
+            {
+              "id": "2187_3",
+              "order": 3,
+              "text": "am I",
+              "value": "3117",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2188",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I am quite stupid, ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2188_1",
+              "order": 1,
+              "text": "aren't I",
+              "value": "3118",
+              "is_correct": true
+            },
+            {
+              "id": "2188_2",
+              "order": 2,
+              "text": "am I not",
+              "value": "3119",
+              "is_correct": false
+            },
+            {
+              "id": "2188_3",
+              "order": 3,
+              "text": "am I",
+              "value": "3120",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2189",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I should go now, ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2189_1",
+              "order": 1,
+              "text": "aren't I",
+              "value": "3121",
+              "is_correct": false
+            },
+            {
+              "id": "2189_2",
+              "order": 2,
+              "text": "shouldn't I",
+              "value": "3122",
+              "is_correct": true
+            },
+            {
+              "id": "2189_3",
+              "order": 3,
+              "text": "don't I",
+              "value": "3123",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2190",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Elisabeth has passed the test, ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2190_1",
+              "order": 1,
+              "text": "has she",
+              "value": "3124",
+              "is_correct": false
+            },
+            {
+              "id": "2190_2",
+              "order": 2,
+              "text": "hasn't she",
+              "value": "3125",
+              "is_correct": true
+            },
+            {
+              "id": "2190_3",
+              "order": 3,
+              "text": "hasn't Elisabeth",
+              "value": "3126",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2191",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 You won't do anything stupid, ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2191_1",
+              "order": 1,
+              "text": "will you",
+              "value": "3127",
+              "is_correct": true
+            },
+            {
+              "id": "2191_2",
+              "order": 2,
+              "text": "shall you",
+              "value": "3128",
+              "is_correct": false
+            },
+            {
+              "id": "2191_3",
+              "order": 3,
+              "text": "won't you",
+              "value": "3129",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2192",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 They had already been in Paris, ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2192_1",
+              "order": 1,
+              "text": "didn't they",
+              "value": "3130",
+              "is_correct": false
+            },
+            {
+              "id": "2192_2",
+              "order": 2,
+              "text": "had they",
+              "value": "3131",
+              "is_correct": false
+            },
+            {
+              "id": "2192_3",
+              "order": 3,
+              "text": "hadn't they",
+              "value": "3132",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2193",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Jimmy passed the exam, ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2193_1",
+              "order": 1,
+              "text": "doesn't he",
+              "value": "3133",
+              "is_correct": false
+            },
+            {
+              "id": "2193_2",
+              "order": 2,
+              "text": "didn't he",
+              "value": "3134",
+              "is_correct": true
+            },
+            {
+              "id": "2193_3",
+              "order": 3,
+              "text": "isn't it",
+              "value": "3135",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2194",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 You work nights, ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2194_1",
+              "order": 1,
+              "text": "are you",
+              "value": "3136",
+              "is_correct": false
+            },
+            {
+              "id": "2194_2",
+              "order": 2,
+              "text": "do you",
+              "value": "3137",
+              "is_correct": false
+            },
+            {
+              "id": "2194_3",
+              "order": 3,
+              "text": "don't you",
+              "value": "3138",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2195",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 David was trying to hide something from us, ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2195_1",
+              "order": 1,
+              "text": "wasn't he",
+              "value": "3139",
+              "is_correct": true
+            },
+            {
+              "id": "2195_2",
+              "order": 2,
+              "text": "weren't he",
+              "value": "3140",
+              "is_correct": false
+            },
+            {
+              "id": "2195_3",
+              "order": 3,
+              "text": "was he",
+              "value": "3141",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2196",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Peter can't keep a secret, ______?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2196_1",
+              "order": 1,
+              "text": "isn't he",
+              "value": "3142",
+              "is_correct": false
+            },
+            {
+              "id": "2196_2",
+              "order": 2,
+              "text": "does he",
+              "value": "3143",
+              "is_correct": false
+            },
+            {
+              "id": "2196_3",
+              "order": 3,
+              "text": "can he",
+              "value": "3144",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-256",
+      "lessonId": "b1_question_tags",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the correct question tags.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_question-tags_3.html",
+      "questions": [
+        {
+          "id": "2197",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Dialogue 1 A: You haven't washed the dishes, 1 {{gap1}}? B: No, sorry. I didn't have time. And you are angry now, 2 {{gap2}}? A: Well, if you promise you will do something, you should do it, 3 {{gap3}}? B: Yes, yes, OK, mum! You want me to wash them now, 4 {{gap4}}? A: Of course I want you to wash them now, because you won't pay me to wash them for you, 5 {{gap5}}? Dialogue 2 A: You went to Denali National Park last month, 6 {{gap6}}? B: Yes, it was great! A: But you had been there before, 7 {{gap7}}? B: Yes, but when you really loved a place the first time you went, it's always nice to go back, 8 {{gap8}}? A: Of course. I'm sure the views are amazing. B: Yes, they're great. You have never been there, 9 {{gap9}}? A: No, it's a shame. I suppose I should go one day, 10 {{gap10}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2197_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have you",
+              "accepted_answers": [
+                "have you"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2197_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "aren't you",
+              "accepted_answers": [
+                "aren't you"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2197_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "shouldn't you",
+              "accepted_answers": [
+                "shouldn't you"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2197_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "don't you",
+              "accepted_answers": [
+                "don't you"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2197_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "will you",
+              "accepted_answers": [
+                "will you"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2197_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "didn't you",
+              "accepted_answers": [
+                "didn't you"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2197_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "hadn't you",
+              "accepted_answers": [
+                "hadn't you"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2197_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "isn't it",
+              "accepted_answers": [
+                "isn't it"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2197_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "have you",
+              "accepted_answers": [
+                "have you"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2197_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "shouldn't I",
+              "accepted_answers": [
+                "shouldn't I"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

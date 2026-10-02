@@ -1,0 +1,2199 @@
+{
+  "lesson_id": "a2_review_verb_tenses_a2",
+  "level": "A2",
+  "title": "Review of all pre-intermediate verb tenses (CEFR A2)",
+  "description": "Практический тест и правила по теме: Review of all pre-intermediate verb tenses (CEFR A2)",
+  "theory": {
+    "title": "Правила и грамматика: Review of all pre-intermediate verb tenses (CEFR A2)",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Review of all pre-intermediate verb tenses (CEFR A2)».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Review of all pre-intermediate verb tenses (CEFR A2)» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-566",
+      "lessonId": "a2_review_verb_tenses_a2",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct verb tenses to complete the dialogues below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_review-verb-tenses-a2.html",
+      "questions": [
+        {
+          "id": "4841",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 A: \"What {{gap1}}?\" B: \"I'm a teacher, but I {{gap2}} at the moment.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4841_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "do you do",
+              "accepted_answers": [
+                "do you do"
+              ],
+              "options": [
+                {
+                  "id": "gap_4841_1_1",
+                  "order": 1,
+                  "text": "did you do",
+                  "value": "did you do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4841_1_2",
+                  "order": 2,
+                  "text": "are you doing",
+                  "value": "are you doing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4841_1_3",
+                  "order": 3,
+                  "text": "do you do",
+                  "value": "do you do",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4841_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'m not working",
+              "accepted_answers": [
+                "'m not working"
+              ],
+              "options": [
+                {
+                  "id": "gap_4841_2_1",
+                  "order": 1,
+                  "text": "'m not working",
+                  "value": "'m not working",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4841_2_2",
+                  "order": 2,
+                  "text": "don't work",
+                  "value": "don't work",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4841_2_3",
+                  "order": 3,
+                  "text": "haven't worked",
+                  "value": "haven't worked",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4842",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 A: \"How many people {{gap1}} to the party last Saturday?\" B: \"I don't know. I {{gap2}} at home.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4842_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "went",
+              "accepted_answers": [
+                "went"
+              ],
+              "options": [
+                {
+                  "id": "gap_4842_1_1",
+                  "order": 1,
+                  "text": "have gone",
+                  "value": "have gone",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4842_1_2",
+                  "order": 2,
+                  "text": "were going",
+                  "value": "were going",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4842_1_3",
+                  "order": 3,
+                  "text": "went",
+                  "value": "went",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4842_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "stayed",
+              "accepted_answers": [
+                "stayed"
+              ],
+              "options": [
+                {
+                  "id": "gap_4842_2_1",
+                  "order": 1,
+                  "text": "have stayed",
+                  "value": "have stayed",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4842_2_2",
+                  "order": 2,
+                  "text": "stayed",
+                  "value": "stayed",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4842_2_3",
+                  "order": 3,
+                  "text": "was staying",
+                  "value": "was staying",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4843",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 A: \"What {{gap1}} tonight?\" B: \"I don't know yet. I {{gap2}} what's in the fridge.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4843_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are you going to cook",
+              "accepted_answers": [
+                "are you going to cook"
+              ],
+              "options": [
+                {
+                  "id": "gap_4843_1_1",
+                  "order": 1,
+                  "text": "are you going to cook",
+                  "value": "are you going to cook",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4843_1_2",
+                  "order": 2,
+                  "text": "do you cook",
+                  "value": "do you cook",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4843_1_3",
+                  "order": 3,
+                  "text": "will you cook",
+                  "value": "will you cook",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4843_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'ll check",
+              "accepted_answers": [
+                "'ll check"
+              ],
+              "options": [
+                {
+                  "id": "gap_4843_2_1",
+                  "order": 1,
+                  "text": "'m going to check",
+                  "value": "'m going to check",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4843_2_2",
+                  "order": 2,
+                  "text": "check",
+                  "value": "check",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4843_2_3",
+                  "order": 3,
+                  "text": "'ll check",
+                  "value": "'ll check",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4844",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 A: \"John {{gap1}} very strangely these days.\" B: \"I know. I {{gap2}} him later to see if he's alright.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4844_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is behaving",
+              "accepted_answers": [
+                "is behaving"
+              ],
+              "options": [
+                {
+                  "id": "gap_4844_1_1",
+                  "order": 1,
+                  "text": "has behaved",
+                  "value": "has behaved",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4844_1_2",
+                  "order": 2,
+                  "text": "behaves",
+                  "value": "behaves",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4844_1_3",
+                  "order": 3,
+                  "text": "is behaving",
+                  "value": "is behaving",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4844_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'m going to call",
+              "accepted_answers": [
+                "'m going to call"
+              ],
+              "options": [
+                {
+                  "id": "gap_4844_2_1",
+                  "order": 1,
+                  "text": "call",
+                  "value": "call",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4844_2_2",
+                  "order": 2,
+                  "text": "'m calling",
+                  "value": "'m calling",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4844_2_3",
+                  "order": 3,
+                  "text": "'m going to call",
+                  "value": "'m going to call",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4845",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 A: \" {{gap1}} that cake?\" B: \"No, I'm full.\" A: \"I {{gap2}} it then.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4845_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Are you going to eat",
+              "accepted_answers": [
+                "Are you going to eat"
+              ],
+              "options": [
+                {
+                  "id": "gap_4845_1_1",
+                  "order": 1,
+                  "text": "Do you eat",
+                  "value": "Do you eat",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4845_1_2",
+                  "order": 2,
+                  "text": "Are you going to eat",
+                  "value": "Are you going to eat",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4845_1_3",
+                  "order": 3,
+                  "text": "Are you eating",
+                  "value": "Are you eating",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4845_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "'ll eat",
+              "accepted_answers": [
+                "'ll eat"
+              ],
+              "options": [
+                {
+                  "id": "gap_4845_2_1",
+                  "order": 1,
+                  "text": "eat",
+                  "value": "eat",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4845_2_2",
+                  "order": 2,
+                  "text": "'m going to eat",
+                  "value": "'m going to eat",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4845_2_3",
+                  "order": 3,
+                  "text": "'ll eat",
+                  "value": "'ll eat",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4846",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 A: \" {{gap1}} the contract for Mr Scott yet?\" B: \"Yes, I {{gap2}} it last night.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4846_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Have you written",
+              "accepted_answers": [
+                "Have you written"
+              ],
+              "options": [
+                {
+                  "id": "gap_4846_1_1",
+                  "order": 1,
+                  "text": "Have you written",
+                  "value": "Have you written",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4846_1_2",
+                  "order": 2,
+                  "text": "Do you write",
+                  "value": "Do you write",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4846_1_3",
+                  "order": 3,
+                  "text": "Did you write",
+                  "value": "Did you write",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4846_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "did",
+              "accepted_answers": [
+                "did"
+              ],
+              "options": [
+                {
+                  "id": "gap_4846_2_1",
+                  "order": 1,
+                  "text": "have done",
+                  "value": "have done",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4846_2_2",
+                  "order": 2,
+                  "text": "was doing",
+                  "value": "was doing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4846_2_3",
+                  "order": 3,
+                  "text": "did",
+                  "value": "did",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4847",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 A: \" {{gap1}} in bed when I called you yesterday?\" B: \"No, I {{gap2}} on the computer.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4847_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Were you",
+              "accepted_answers": [
+                "Were you"
+              ],
+              "options": [
+                {
+                  "id": "gap_4847_1_1",
+                  "order": 1,
+                  "text": "Have you been",
+                  "value": "Have you been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4847_1_2",
+                  "order": 2,
+                  "text": "Were you",
+                  "value": "Were you",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4847_1_3",
+                  "order": 3,
+                  "text": "Were you being",
+                  "value": "Were you being",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4847_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "was working",
+              "accepted_answers": [
+                "was working"
+              ],
+              "options": [
+                {
+                  "id": "gap_4847_2_1",
+                  "order": 1,
+                  "text": "have worked",
+                  "value": "have worked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4847_2_2",
+                  "order": 2,
+                  "text": "was working",
+                  "value": "was working",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4847_2_3",
+                  "order": 3,
+                  "text": "worked",
+                  "value": "worked",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4848",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 A: \"Who {{gap1}} the next election in your opinion?\" B: \"I have no idea, but what I know is that I {{gap2}} this time.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4848_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "will win",
+              "accepted_answers": [
+                "will win"
+              ],
+              "options": [
+                {
+                  "id": "gap_4848_1_1",
+                  "order": 1,
+                  "text": "is winning",
+                  "value": "is winning",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4848_1_2",
+                  "order": 2,
+                  "text": "will win",
+                  "value": "will win",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4848_1_3",
+                  "order": 3,
+                  "text": "wins",
+                  "value": "wins",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4848_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "am going to vote",
+              "accepted_answers": [
+                "am going to vote"
+              ],
+              "options": [
+                {
+                  "id": "gap_4848_2_1",
+                  "order": 1,
+                  "text": "vote",
+                  "value": "vote",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4848_2_2",
+                  "order": 2,
+                  "text": "will vote",
+                  "value": "will vote",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4848_2_3",
+                  "order": 3,
+                  "text": "am going to vote",
+                  "value": "am going to vote",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4849",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 A: \"When {{gap1}} the composition?\" B: \"I {{gap2}} it yesterday while I {{gap3}} home.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4849_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "did you finish",
+              "accepted_answers": [
+                "did you finish"
+              ],
+              "options": [
+                {
+                  "id": "gap_4849_1_1",
+                  "order": 1,
+                  "text": "have you finished",
+                  "value": "have you finished",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4849_1_2",
+                  "order": 2,
+                  "text": "did you finish",
+                  "value": "did you finish",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4849_1_3",
+                  "order": 3,
+                  "text": "were you finishing",
+                  "value": "were you finishing",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4849_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "did",
+              "accepted_answers": [
+                "did"
+              ],
+              "options": [
+                {
+                  "id": "gap_4849_2_1",
+                  "order": 1,
+                  "text": "have done",
+                  "value": "have done",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4849_2_2",
+                  "order": 2,
+                  "text": "did",
+                  "value": "did",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4849_2_3",
+                  "order": 3,
+                  "text": "was doing",
+                  "value": "was doing",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4849_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "was travelling",
+              "accepted_answers": [
+                "was travelling"
+              ],
+              "options": [
+                {
+                  "id": "gap_4849_3_1",
+                  "order": 1,
+                  "text": "was travelling",
+                  "value": "was travelling",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4849_3_2",
+                  "order": 2,
+                  "text": "have travelled",
+                  "value": "have travelled",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4849_3_3",
+                  "order": 3,
+                  "text": "travelled",
+                  "value": "travelled",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4850",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 A: \"What time do you finish work?\" B: \"At 6.\" A: \"Ok, then I {{gap1}} you at 6.15.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4850_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'ll call",
+              "accepted_answers": [
+                "'ll call"
+              ],
+              "options": [
+                {
+                  "id": "gap_4850_1_1",
+                  "order": 1,
+                  "text": "'m going to call",
+                  "value": "'m going to call",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4850_1_2",
+                  "order": 2,
+                  "text": "call",
+                  "value": "call",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4850_1_3",
+                  "order": 3,
+                  "text": "'ll call",
+                  "value": "'ll call",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-567",
+      "lessonId": "a2_review_verb_tenses_a2",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct verb tenses to complete the dialogue below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_review-verb-tenses-a2_2.html",
+      "questions": [
+        {
+          "id": "4851",
+          "order": 1,
+          "type": "gap_select",
+          "text": "JOHN: Hi, Leslie! How are you? LESLIE: Oh, John! It’s nice to see you again. The last time I saw you, you 1 {{gap1}} your PhD. JOHN: Yes, I was very stressed out. It’s been a long time. 2 {{gap2}} in East London with your parents? LESLIE: No, I 3 {{gap3}} to the West End a long time ago. I 4 {{gap4}} a Master’s degree in Marketing last year and now I’m working for an advertising company in Soho. JOHN: That’s great! 5 {{gap5}} it? LESLIE: Well, the money isn’t bad, and it’s a part-time job, so I 6 {{gap6}} time for judo. JOHN: Oh my god! You still do judo? How long 7 {{gap7}} a judoka? LESLIE: Since I was 5. JOHN: 8 {{gap8}} any competitions? LESLIE: Well, I 9 {{gap9}} a couple of trophies. And next summer I 10 {{gap10}} (represent) England in the European Judo Championships. JOHN: Wow! That’s great! LESLIE: What about you? What 11 {{gap11}} these days? JOHN: Not much, really. I 12 {{gap12}} a postgraduate course a few weeks ago and now I 13 {{gap13}} for a job. I 14 {{gap14}} to more than twenty jobs so far, but without any luck. LESLIE: Don’t worry; I’m sure you 15 {{gap15}} a job soon. JOHN: Well, I’m not worried any more. Yesterday, I 16 {{gap16}} an application form when I had a brilliant idea. LESLIE: What is it? JOHN: I’ve decided that I 17 {{gap17}} my own business. LESLIE: That’d be great! JOHN: Anyway, what 18 {{gap18}} this evening? I 19 {{gap19}} Mark at 7 for a beer, and I’m sure he’d love to see you. LESLIE: Great! I 20 {{gap20}} a drink with you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4851_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were finishing",
+              "accepted_answers": [
+                "were finishing"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_1_1",
+                  "order": 1,
+                  "text": "finished",
+                  "value": "finished",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_1_2",
+                  "order": 2,
+                  "text": "have finished",
+                  "value": "have finished",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_1_3",
+                  "order": 3,
+                  "text": "were finishing",
+                  "value": "were finishing",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "Do you still live",
+              "accepted_answers": [
+                "Do you still live"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_2_1",
+                  "order": 1,
+                  "text": "Have you still lived",
+                  "value": "Have you still lived",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_2_2",
+                  "order": 2,
+                  "text": "Are you still living",
+                  "value": "Are you still living",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_2_3",
+                  "order": 3,
+                  "text": "Do you still live",
+                  "value": "Do you still live",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "moved",
+              "accepted_answers": [
+                "moved"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_3_1",
+                  "order": 1,
+                  "text": "moved",
+                  "value": "moved",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4851_3_2",
+                  "order": 2,
+                  "text": "have moved",
+                  "value": "have moved",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_3_3",
+                  "order": 3,
+                  "text": "was moving",
+                  "value": "was moving",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "select",
+              "correct_answer": "finished",
+              "accepted_answers": [
+                "finished"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_4_1",
+                  "order": 1,
+                  "text": "was finishing",
+                  "value": "was finishing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_4_2",
+                  "order": 2,
+                  "text": "have finished",
+                  "value": "have finished",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_4_3",
+                  "order": 3,
+                  "text": "finished",
+                  "value": "finished",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "select",
+              "correct_answer": "Do you like",
+              "accepted_answers": [
+                "Do you like"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_5_1",
+                  "order": 1,
+                  "text": "Have you liked",
+                  "value": "Have you liked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_5_2",
+                  "order": 2,
+                  "text": "Are you liking",
+                  "value": "Are you liking",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_5_3",
+                  "order": 3,
+                  "text": "Do you like",
+                  "value": "Do you like",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "select",
+              "correct_answer": "have",
+              "accepted_answers": [
+                "have"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_6_1",
+                  "order": 1,
+                  "text": "'m having",
+                  "value": "'m having",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_6_2",
+                  "order": 2,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4851_6_3",
+                  "order": 3,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "select",
+              "correct_answer": "have you been",
+              "accepted_answers": [
+                "have you been"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_7_1",
+                  "order": 1,
+                  "text": "have you been",
+                  "value": "have you been",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4851_7_2",
+                  "order": 2,
+                  "text": "are you",
+                  "value": "are you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_7_3",
+                  "order": 3,
+                  "text": "were you",
+                  "value": "were you",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "select",
+              "correct_answer": "Have you ever won",
+              "accepted_answers": [
+                "Have you ever won"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_8_1",
+                  "order": 1,
+                  "text": "Were you ever winning",
+                  "value": "Were you ever winning",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_8_2",
+                  "order": 2,
+                  "text": "Did you ever win",
+                  "value": "Did you ever win",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_8_3",
+                  "order": 3,
+                  "text": "Have you ever won",
+                  "value": "Have you ever won",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "select",
+              "correct_answer": "have won",
+              "accepted_answers": [
+                "have won"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_9_1",
+                  "order": 1,
+                  "text": "win",
+                  "value": "win",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_9_2",
+                  "order": 2,
+                  "text": "won",
+                  "value": "won",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_9_3",
+                  "order": 3,
+                  "text": "have won",
+                  "value": "have won",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "select",
+              "correct_answer": "’m representing",
+              "accepted_answers": [
+                "’m representing"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_10_1",
+                  "order": 1,
+                  "text": "represent",
+                  "value": "represent",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_10_2",
+                  "order": 2,
+                  "text": "’m representing",
+                  "value": "’m representing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4851_10_3",
+                  "order": 3,
+                  "text": "will represent",
+                  "value": "will represent",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_11",
+              "order": 11,
+              "placeholder": "{{gap11}}",
+              "input_control": "select",
+              "correct_answer": "are you doing",
+              "accepted_answers": [
+                "are you doing"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_11_1",
+                  "order": 1,
+                  "text": "have you done",
+                  "value": "have you done",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_11_2",
+                  "order": 2,
+                  "text": "are you doing",
+                  "value": "are you doing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4851_11_3",
+                  "order": 3,
+                  "text": "do you do",
+                  "value": "do you do",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_12",
+              "order": 12,
+              "placeholder": "{{gap12}}",
+              "input_control": "select",
+              "correct_answer": "finished",
+              "accepted_answers": [
+                "finished"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_12_1",
+                  "order": 1,
+                  "text": "was finishing",
+                  "value": "was finishing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_12_2",
+                  "order": 2,
+                  "text": "finished",
+                  "value": "finished",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4851_12_3",
+                  "order": 3,
+                  "text": "have finished",
+                  "value": "have finished",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_13",
+              "order": 13,
+              "placeholder": "{{gap13}}",
+              "input_control": "select",
+              "correct_answer": "’m looking",
+              "accepted_answers": [
+                "’m looking"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_13_1",
+                  "order": 1,
+                  "text": "have looked",
+                  "value": "have looked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_13_2",
+                  "order": 2,
+                  "text": "’m looking",
+                  "value": "’m looking",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4851_13_3",
+                  "order": 3,
+                  "text": "look",
+                  "value": "look",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_14",
+              "order": 14,
+              "placeholder": "{{gap14}}",
+              "input_control": "select",
+              "correct_answer": "have applied",
+              "accepted_answers": [
+                "have applied"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_14_1",
+                  "order": 1,
+                  "text": "applied",
+                  "value": "applied",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_14_2",
+                  "order": 2,
+                  "text": "have applied",
+                  "value": "have applied",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4851_14_3",
+                  "order": 3,
+                  "text": "was applying",
+                  "value": "was applying",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_15",
+              "order": 15,
+              "placeholder": "{{gap15}}",
+              "input_control": "select",
+              "correct_answer": "will find",
+              "accepted_answers": [
+                "will find"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_15_1",
+                  "order": 1,
+                  "text": "find",
+                  "value": "find",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_15_2",
+                  "order": 2,
+                  "text": "are finding",
+                  "value": "are finding",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_15_3",
+                  "order": 3,
+                  "text": "will find",
+                  "value": "will find",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_16",
+              "order": 16,
+              "placeholder": "{{gap16}}",
+              "input_control": "select",
+              "correct_answer": "was filling",
+              "accepted_answers": [
+                "was filling"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_16_1",
+                  "order": 1,
+                  "text": "have filled",
+                  "value": "have filled",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_16_2",
+                  "order": 2,
+                  "text": "filled",
+                  "value": "filled",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_16_3",
+                  "order": 3,
+                  "text": "was filling",
+                  "value": "was filling",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_17",
+              "order": 17,
+              "placeholder": "{{gap17}}",
+              "input_control": "select",
+              "correct_answer": "’m going to start",
+              "accepted_answers": [
+                "’m going to start"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_17_1",
+                  "order": 1,
+                  "text": "’m going to start",
+                  "value": "’m going to start",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4851_17_2",
+                  "order": 2,
+                  "text": "will start",
+                  "value": "will start",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_17_3",
+                  "order": 3,
+                  "text": "start",
+                  "value": "start",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_18",
+              "order": 18,
+              "placeholder": "{{gap18}}",
+              "input_control": "select",
+              "correct_answer": "are you going to do",
+              "accepted_answers": [
+                "are you going to do"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_18_1",
+                  "order": 1,
+                  "text": "do you do",
+                  "value": "do you do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_18_2",
+                  "order": 2,
+                  "text": "are you going to do",
+                  "value": "are you going to do",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4851_18_3",
+                  "order": 3,
+                  "text": "will you do",
+                  "value": "will you do",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_19",
+              "order": 19,
+              "placeholder": "{{gap19}}",
+              "input_control": "select",
+              "correct_answer": "’m meeting",
+              "accepted_answers": [
+                "’m meeting"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_19_1",
+                  "order": 1,
+                  "text": "’m meeting",
+                  "value": "’m meeting",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4851_19_2",
+                  "order": 2,
+                  "text": "meet",
+                  "value": "meet",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_19_3",
+                  "order": 3,
+                  "text": "'ll meet",
+                  "value": "'ll meet",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4851_20",
+              "order": 20,
+              "placeholder": "{{gap20}}",
+              "input_control": "select",
+              "correct_answer": "'ll have",
+              "accepted_answers": [
+                "'ll have"
+              ],
+              "options": [
+                {
+                  "id": "gap_4851_20_1",
+                  "order": 1,
+                  "text": "'m going to have",
+                  "value": "'m going to have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4851_20_2",
+                  "order": 2,
+                  "text": "'ll have",
+                  "value": "'ll have",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4851_20_3",
+                  "order": 3,
+                  "text": "'m have",
+                  "value": "'m have",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-568",
+      "lessonId": "a2_review_verb_tenses_a2",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Choose the correct verb tenses to complete the dialogue below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_review-verb-tenses-a2_3.html",
+      "questions": [
+        {
+          "id": "4852",
+          "order": 1,
+          "type": "gap_select",
+          "text": "AUTUMN: Hello? SARAH: Hi, Autumn; it’s Sarah. AUTUMN: Hi, Sarah. Everything OK? SARAH: Yes, I 1 {{gap1}} to tell you about Patrick. Do you know what 2 {{gap2}} to him yesterday? AUTUMN: No, what? SARAH: Well, he 3 {{gap3}} some money, so he 4 {{gap4}} to a cash machine. And when he 5 {{gap5}} the money out, he 6 {{gap6}} that there was an envelope on the floor. He 7 {{gap7}} it and there were 20,000 pounds! AUTUMN: Really? 8 {{gap8}}? SARAH: No! It's true. AUTUMN: What 9 {{gap9}} now with the envelope? SARAH: He 10 {{gap10}}. But he thinks that the owner of the money 11 {{gap11}} to the police soon. AUTUMN: And then? SARAH: He says then he 12 {{gap12}} the money back. AUTUMN: Maybe it’s money from crime or drugs! SARAH: In that case I don't think anybody 13 {{gap13}} it. AUTUMN: If nobody reclaims it, we 14 {{gap14}} Patrick to pay for a nice and expensive dinner! SARAH: Yes, definitely! By the way, what 15 {{gap15}} when I rang you. AUTUMN: I 16 {{gap16}} the house. SARAH: 17 {{gap17}} anything when you finish cleaning? AUTUMN: No. Why? Would you like to go for a beer? SARAH: Yes, please! I think the last time I 18 {{gap18}} for a beer, I 19 {{gap19}} with Jeremy. AUTUMN: OK then, I 20 {{gap20}} you up in about twenty minutes then. SARAH: Excellent! See you later. AUTUMN: See you!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4852_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "’m calling",
+              "accepted_answers": [
+                "’m calling"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_1_1",
+                  "order": 1,
+                  "text": "call",
+                  "value": "call",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_1_2",
+                  "order": 2,
+                  "text": "called",
+                  "value": "called",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_1_3",
+                  "order": 3,
+                  "text": "’m calling",
+                  "value": "’m calling",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "happened",
+              "accepted_answers": [
+                "happened"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_2_1",
+                  "order": 1,
+                  "text": "was happening",
+                  "value": "was happening",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_2_2",
+                  "order": 2,
+                  "text": "happened",
+                  "value": "happened",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_2_3",
+                  "order": 3,
+                  "text": "has happened",
+                  "value": "has happened",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "needed",
+              "accepted_answers": [
+                "needed"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_3_1",
+                  "order": 1,
+                  "text": "needed",
+                  "value": "needed",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_3_2",
+                  "order": 2,
+                  "text": "was needing",
+                  "value": "was needing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_3_3",
+                  "order": 3,
+                  "text": "has needed",
+                  "value": "has needed",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "select",
+              "correct_answer": "went",
+              "accepted_answers": [
+                "went"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_4_1",
+                  "order": 1,
+                  "text": "went",
+                  "value": "went",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_4_2",
+                  "order": 2,
+                  "text": "has gone",
+                  "value": "has gone",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_4_3",
+                  "order": 3,
+                  "text": "was going",
+                  "value": "was going",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "select",
+              "correct_answer": "was taking",
+              "accepted_answers": [
+                "was taking"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_5_1",
+                  "order": 1,
+                  "text": "takes",
+                  "value": "takes",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_5_2",
+                  "order": 2,
+                  "text": "was taking",
+                  "value": "was taking",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_5_3",
+                  "order": 3,
+                  "text": "has taken",
+                  "value": "has taken",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "select",
+              "correct_answer": "noticed",
+              "accepted_answers": [
+                "noticed"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_6_1",
+                  "order": 1,
+                  "text": "noticed",
+                  "value": "noticed",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_6_2",
+                  "order": 2,
+                  "text": "was noticing",
+                  "value": "was noticing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_6_3",
+                  "order": 3,
+                  "text": "has noticed",
+                  "value": "has noticed",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "select",
+              "correct_answer": "opened",
+              "accepted_answers": [
+                "opened"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_7_1",
+                  "order": 1,
+                  "text": "has opened",
+                  "value": "has opened",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_7_2",
+                  "order": 2,
+                  "text": "opens",
+                  "value": "opens",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_7_3",
+                  "order": 3,
+                  "text": "opened",
+                  "value": "opened",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "select",
+              "correct_answer": "Are you joking",
+              "accepted_answers": [
+                "Are you joking"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_8_1",
+                  "order": 1,
+                  "text": "Are you joking",
+                  "value": "Are you joking",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_8_2",
+                  "order": 2,
+                  "text": "Do you joke",
+                  "value": "Do you joke",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_8_3",
+                  "order": 3,
+                  "text": "Did you joke",
+                  "value": "Did you joke",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "select",
+              "correct_answer": "is he going to do",
+              "accepted_answers": [
+                "is he going to do"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_9_1",
+                  "order": 1,
+                  "text": "is he going to do",
+                  "value": "is he going to do",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_9_2",
+                  "order": 2,
+                  "text": "will he do",
+                  "value": "will he do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_9_3",
+                  "order": 3,
+                  "text": "is he doing",
+                  "value": "is he doing",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "select",
+              "correct_answer": "doesn’t know",
+              "accepted_answers": [
+                "doesn’t know"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_10_1",
+                  "order": 1,
+                  "text": "isn't knowing",
+                  "value": "isn't knowing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_10_2",
+                  "order": 2,
+                  "text": "doesn’t know",
+                  "value": "doesn’t know",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_10_3",
+                  "order": 3,
+                  "text": "not knows",
+                  "value": "not knows",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_11",
+              "order": 11,
+              "placeholder": "{{gap11}}",
+              "input_control": "select",
+              "correct_answer": "will go",
+              "accepted_answers": [
+                "will go"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_11_1",
+                  "order": 1,
+                  "text": "will go",
+                  "value": "will go",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_11_2",
+                  "order": 2,
+                  "text": "is going to go",
+                  "value": "is going to go",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_11_3",
+                  "order": 3,
+                  "text": "is going",
+                  "value": "is going",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_12",
+              "order": 12,
+              "placeholder": "{{gap12}}",
+              "input_control": "select",
+              "correct_answer": "is going to give",
+              "accepted_answers": [
+                "is going to give"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_12_1",
+                  "order": 1,
+                  "text": "is going to give",
+                  "value": "is going to give",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_12_2",
+                  "order": 2,
+                  "text": "is giving",
+                  "value": "is giving",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_12_3",
+                  "order": 3,
+                  "text": "gives",
+                  "value": "gives",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_13",
+              "order": 13,
+              "placeholder": "{{gap13}}",
+              "input_control": "select",
+              "correct_answer": "will reclaim",
+              "accepted_answers": [
+                "will reclaim"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_13_1",
+                  "order": 1,
+                  "text": "will reclaim",
+                  "value": "will reclaim",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_13_2",
+                  "order": 2,
+                  "text": "reclaims",
+                  "value": "reclaims",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_13_3",
+                  "order": 3,
+                  "text": "is reclaiming",
+                  "value": "is reclaiming",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_14",
+              "order": 14,
+              "placeholder": "{{gap14}}",
+              "input_control": "select",
+              "correct_answer": "’ll tell",
+              "accepted_answers": [
+                "’ll tell"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_14_1",
+                  "order": 1,
+                  "text": "are telling",
+                  "value": "are telling",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_14_2",
+                  "order": 2,
+                  "text": "’ll tell",
+                  "value": "’ll tell",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_14_3",
+                  "order": 3,
+                  "text": "tell",
+                  "value": "tell",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_15",
+              "order": 15,
+              "placeholder": "{{gap15}}",
+              "input_control": "select",
+              "correct_answer": "were you doing",
+              "accepted_answers": [
+                "were you doing"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_15_1",
+                  "order": 1,
+                  "text": "did you do",
+                  "value": "did you do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_15_2",
+                  "order": 2,
+                  "text": "have you done",
+                  "value": "have you done",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_15_3",
+                  "order": 3,
+                  "text": "were you doing",
+                  "value": "were you doing",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_16",
+              "order": 16,
+              "placeholder": "{{gap16}}",
+              "input_control": "select",
+              "correct_answer": "was cleaning",
+              "accepted_answers": [
+                "was cleaning"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_16_1",
+                  "order": 1,
+                  "text": "was cleaning",
+                  "value": "was cleaning",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_16_2",
+                  "order": 2,
+                  "text": "cleaned",
+                  "value": "cleaned",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_16_3",
+                  "order": 3,
+                  "text": "have cleaned",
+                  "value": "have cleaned",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_17",
+              "order": 17,
+              "placeholder": "{{gap17}}",
+              "input_control": "select",
+              "correct_answer": "Are you doing",
+              "accepted_answers": [
+                "Are you doing"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_17_1",
+                  "order": 1,
+                  "text": "Are you doing",
+                  "value": "Are you doing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4852_17_2",
+                  "order": 2,
+                  "text": "Do you do",
+                  "value": "Do you do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_17_3",
+                  "order": 3,
+                  "text": "Will you do",
+                  "value": "Will you do",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_18",
+              "order": 18,
+              "placeholder": "{{gap18}}",
+              "input_control": "select",
+              "correct_answer": "went",
+              "accepted_answers": [
+                "went"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_18_1",
+                  "order": 1,
+                  "text": "was going",
+                  "value": "was going",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_18_2",
+                  "order": 2,
+                  "text": "have gone",
+                  "value": "have gone",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_18_3",
+                  "order": 3,
+                  "text": "went",
+                  "value": "went",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_19",
+              "order": 19,
+              "placeholder": "{{gap19}}",
+              "input_control": "select",
+              "correct_answer": "was still going out",
+              "accepted_answers": [
+                "was still going out"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_19_1",
+                  "order": 1,
+                  "text": "did still go out",
+                  "value": "did still go out",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_19_2",
+                  "order": 2,
+                  "text": "have still gone out",
+                  "value": "have still gone out",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_19_3",
+                  "order": 3,
+                  "text": "was still going out",
+                  "value": "was still going out",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4852_20",
+              "order": 20,
+              "placeholder": "{{gap20}}",
+              "input_control": "select",
+              "correct_answer": "’ll pick",
+              "accepted_answers": [
+                "’ll pick"
+              ],
+              "options": [
+                {
+                  "id": "gap_4852_20_1",
+                  "order": 1,
+                  "text": "'m going to pick",
+                  "value": "'m going to pick",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_20_2",
+                  "order": 2,
+                  "text": "'m picking",
+                  "value": "'m picking",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4852_20_3",
+                  "order": 3,
+                  "text": "’ll pick",
+                  "value": "’ll pick",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

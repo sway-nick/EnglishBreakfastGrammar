@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1-b2_neednt_dont_need_to_didnt_need_to_neednt_have",
+  "level": "B1-B2",
+  "title": "Needn't, don't need to, didn't need to, needn't have",
+  "description": "Практический тест и правила по теме: Needn't, don't need to, didn't need to, needn't have",
+  "theory": {
+    "title": "Правила и грамматика: Needn't, don't need to, didn't need to, needn't have",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Needn't, don't need to, didn't need to, needn't have».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Needn't, don't need to, didn't need to, needn't have» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-845",
+      "lessonId": "b1-b2_neednt_dont_need_to_didnt_need_to_neednt_have",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct or more likely verb forms to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_neednt-dont-need-to-didnt-need-to-neednt-have.html",
+      "questions": [
+        {
+          "id": "7203",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 You {{gap1}} wine. It wasn't necessary. But, since it's here, we'll drink it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7203_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "needn't have brought",
+              "accepted_answers": [
+                "needn't have brought"
+              ],
+              "options": [
+                {
+                  "id": "gap_7203_1_1",
+                  "order": 1,
+                  "text": "don't need to bring",
+                  "value": "don't need to bring",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7203_1_2",
+                  "order": 2,
+                  "text": "didn't need bring",
+                  "value": "didn't need bring",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7203_1_3",
+                  "order": 3,
+                  "text": "needn't have brought",
+                  "value": "needn't have brought",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7204",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Pensioners {{gap1}} to use public transport. It's free.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7204_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "don't need to pay",
+              "accepted_answers": [
+                "don't need to pay"
+              ],
+              "options": [
+                {
+                  "id": "gap_7204_1_1",
+                  "order": 1,
+                  "text": "don't need to pay",
+                  "value": "don't need to pay",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7204_1_2",
+                  "order": 2,
+                  "text": "needn't have paid",
+                  "value": "needn't have paid",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7204_1_3",
+                  "order": 3,
+                  "text": "needn't pay",
+                  "value": "needn't pay",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7205",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 We {{gap1}} up the pizza; we had it delivered at home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7205_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't need to pick",
+              "accepted_answers": [
+                "didn't need to pick"
+              ],
+              "options": [
+                {
+                  "id": "gap_7205_1_1",
+                  "order": 1,
+                  "text": "needn't pick",
+                  "value": "needn't pick",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7205_1_2",
+                  "order": 2,
+                  "text": "needn't have picked",
+                  "value": "needn't have picked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7205_1_3",
+                  "order": 3,
+                  "text": "didn't need to pick",
+                  "value": "didn't need to pick",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7206",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 You {{gap1}} the dishes. I'll do them later.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7206_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "don't need to do",
+              "accepted_answers": [
+                "don't need to do"
+              ],
+              "options": [
+                {
+                  "id": "gap_7206_1_1",
+                  "order": 1,
+                  "text": "needn't have done",
+                  "value": "needn't have done",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7206_1_2",
+                  "order": 2,
+                  "text": "needn't to do",
+                  "value": "needn't to do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7206_1_3",
+                  "order": 3,
+                  "text": "don't need to do",
+                  "value": "don't need to do",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7207",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Sixth form students {{gap1}} a uniform.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7207_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "don't need to wear",
+              "accepted_answers": [
+                "don't need to wear"
+              ],
+              "options": [
+                {
+                  "id": "gap_7207_1_1",
+                  "order": 1,
+                  "text": "don't need to wear",
+                  "value": "don't need to wear",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7207_1_2",
+                  "order": 2,
+                  "text": "needn't have worn",
+                  "value": "needn't have worn",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7207_1_3",
+                  "order": 3,
+                  "text": "needn't wear",
+                  "value": "needn't wear",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7208",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 You {{gap1}} me anything. That was kind of you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7208_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "needn't have bought",
+              "accepted_answers": [
+                "needn't have bought"
+              ],
+              "options": [
+                {
+                  "id": "gap_7208_1_1",
+                  "order": 1,
+                  "text": "needn't buy",
+                  "value": "needn't buy",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7208_1_2",
+                  "order": 2,
+                  "text": "needn't have bought",
+                  "value": "needn't have bought",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7208_1_3",
+                  "order": 3,
+                  "text": "don't need to buy",
+                  "value": "don't need to buy",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7209",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 I {{gap1}} a taxi because Sam gave us a lift.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7209_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't need to take",
+              "accepted_answers": [
+                "didn't need to take"
+              ],
+              "options": [
+                {
+                  "id": "gap_7209_1_1",
+                  "order": 1,
+                  "text": "don't need to take",
+                  "value": "don't need to take",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7209_1_2",
+                  "order": 2,
+                  "text": "didn't need to take",
+                  "value": "didn't need to take",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7209_1_3",
+                  "order": 3,
+                  "text": "needn't have taken",
+                  "value": "needn't have taken",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7210",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 You {{gap1}} to the shop. I've got everything I need.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7210_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "needn't go",
+              "accepted_answers": [
+                "needn't go"
+              ],
+              "options": [
+                {
+                  "id": "gap_7210_1_1",
+                  "order": 1,
+                  "text": "don't need go",
+                  "value": "don't need go",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7210_1_2",
+                  "order": 2,
+                  "text": "needn't to go",
+                  "value": "needn't to go",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7210_1_3",
+                  "order": 3,
+                  "text": "needn't go",
+                  "value": "needn't go",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7211",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I {{gap1}} an umbrella, as it didn't rain.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7211_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "needn't have brought",
+              "accepted_answers": [
+                "needn't have brought"
+              ],
+              "options": [
+                {
+                  "id": "gap_7211_1_1",
+                  "order": 1,
+                  "text": "don't need to bring",
+                  "value": "don't need to bring",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7211_1_2",
+                  "order": 2,
+                  "text": "needn't bring",
+                  "value": "needn't bring",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7211_1_3",
+                  "order": 3,
+                  "text": "needn't have brought",
+                  "value": "needn't have brought",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7212",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I {{gap1}} petrol as I had enough in the tank.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7212_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't need to get",
+              "accepted_answers": [
+                "didn't need to get"
+              ],
+              "options": [
+                {
+                  "id": "gap_7212_1_1",
+                  "order": 1,
+                  "text": "didn't need to get",
+                  "value": "didn't need to get",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7212_1_2",
+                  "order": 2,
+                  "text": "needn't have got",
+                  "value": "needn't have got",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7212_1_3",
+                  "order": 3,
+                  "text": "don't need to get",
+                  "value": "don't need to get",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-846",
+      "lessonId": "b1-b2_neednt_dont_need_to_didnt_need_to_neednt_have",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Say which option is correct or more likely, A or B. When the two verb forms in A and B are equaly likely, choose option C.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_neednt-dont-need-to-didnt-need-to-neednt-have_2.html",
+      "questions": [
+        {
+          "id": "7213",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 You _____ the rubbish outside. Just put it in a bag and leave it by the door.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7213_1",
+              "order": 1,
+              "text": "needn't take",
+              "value": "12601",
+              "is_correct": false
+            },
+            {
+              "id": "7213_2",
+              "order": 2,
+              "text": "don't need to take",
+              "value": "12602",
+              "is_correct": false
+            },
+            {
+              "id": "7213_3",
+              "order": 3,
+              "text": "A and B are equally likely",
+              "value": "12603",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7214",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 Students in possession of a doctor's certificate _____ part in the race.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7214_1",
+              "order": 1,
+              "text": "don't need to take",
+              "value": "12604",
+              "is_correct": false
+            },
+            {
+              "id": "7214_2",
+              "order": 2,
+              "text": "needn't take",
+              "value": "12605",
+              "is_correct": false
+            },
+            {
+              "id": "7214_3",
+              "order": 3,
+              "text": "A and B are equally likely",
+              "value": "12606",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7222",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 You _____ the dishes. I was going to do that tomorrow.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7222_1",
+              "order": 1,
+              "text": "didn't need to wash",
+              "value": "12628",
+              "is_correct": false
+            },
+            {
+              "id": "7222_2",
+              "order": 2,
+              "text": "needn't have washed",
+              "value": "12629",
+              "is_correct": true
+            },
+            {
+              "id": "7222_3",
+              "order": 3,
+              "text": "A and B are equally likely",
+              "value": "12630",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7215",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 The children _____ if they don't want to. They might get bored.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7215_1",
+              "order": 1,
+              "text": "don't need to come",
+              "value": "12607",
+              "is_correct": false
+            },
+            {
+              "id": "7215_2",
+              "order": 2,
+              "text": "needn't come",
+              "value": "12608",
+              "is_correct": false
+            },
+            {
+              "id": "7215_3",
+              "order": 3,
+              "text": "A and B are equally likely",
+              "value": "12609",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7218",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 We _____ a taxi. Graham gave us a lift.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7218_1",
+              "order": 1,
+              "text": "needn't have taken",
+              "value": "12616",
+              "is_correct": false
+            },
+            {
+              "id": "7218_2",
+              "order": 2,
+              "text": "didn't need to take",
+              "value": "12617",
+              "is_correct": true
+            },
+            {
+              "id": "7218_3",
+              "order": 3,
+              "text": "A and B are equally likely",
+              "value": "12618",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7216",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I stayed in bed all day yesterday because I _____ to work.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7216_1",
+              "order": 1,
+              "text": "needn't have gone",
+              "value": "12610",
+              "is_correct": false
+            },
+            {
+              "id": "7216_2",
+              "order": 2,
+              "text": "didn't need to go",
+              "value": "12611",
+              "is_correct": true
+            },
+            {
+              "id": "7216_3",
+              "order": 3,
+              "text": "A and B are equally likely",
+              "value": "12612",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7217",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 You _____ me any breakfast. I'll get something on the way to work.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7217_1",
+              "order": 1,
+              "text": "needn't make",
+              "value": "12613",
+              "is_correct": false
+            },
+            {
+              "id": "7217_2",
+              "order": 2,
+              "text": "don't need to make",
+              "value": "12614",
+              "is_correct": false
+            },
+            {
+              "id": "7217_3",
+              "order": 3,
+              "text": "A and B are equally likely",
+              "value": "12615",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7221",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I know you were worried, but you _____. I sent you a text saying I was OK.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7221_1",
+              "order": 1,
+              "text": "didn't have to worry",
+              "value": "12625",
+              "is_correct": false
+            },
+            {
+              "id": "7221_2",
+              "order": 2,
+              "text": "needn't have worried",
+              "value": "12626",
+              "is_correct": true
+            },
+            {
+              "id": "7221_3",
+              "order": 3,
+              "text": "A and B are equally likely",
+              "value": "12627",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7219",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 In most schools, students _____ wear uniforms.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7219_1",
+              "order": 1,
+              "text": "needn't",
+              "value": "12619",
+              "is_correct": false
+            },
+            {
+              "id": "7219_2",
+              "order": 2,
+              "text": "don't need to",
+              "value": "12620",
+              "is_correct": false
+            },
+            {
+              "id": "7219_3",
+              "order": 3,
+              "text": "A and B are equally likely",
+              "value": "12621",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7220",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I _____ the appointment in the end, as I managed to reschedule it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7220_1",
+              "order": 1,
+              "text": "needn't have cancelled",
+              "value": "12622",
+              "is_correct": false
+            },
+            {
+              "id": "7220_2",
+              "order": 2,
+              "text": "didn't have to cancel",
+              "value": "12623",
+              "is_correct": true
+            },
+            {
+              "id": "7220_3",
+              "order": 3,
+              "text": "A and B are equally likely",
+              "value": "12624",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-847",
+      "lessonId": "b1-b2_neednt_dont_need_to_didnt_need_to_neednt_have",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences using the verb in brackets with a suitable form of ‘need’.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_neednt-dont-need-to-didnt-need-to-neednt-have_3.html",
+      "questions": [
+        {
+          "id": "7229",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 We {{gap1}}. We've got plenty of time. (hurry)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7229_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't need to hurry",
+              "accepted_answers": [
+                "don't need to hurry"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7230",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 We {{gap1}} a table. The restaurant was completely empty. (book)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7230_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't need to book",
+              "accepted_answers": [
+                "didn't need to book"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7231",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 We {{gap1}} a babysitter because my sister offered to stay with the kids. (call)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7231_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't need to call",
+              "accepted_answers": [
+                "didn't need to call"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7232",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 You {{gap1}} my suitcase for me. It's not that heavy. (carry)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7232_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't need to carry",
+              "accepted_answers": [
+                "don't need to carry"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7233",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 You {{gap1}} me dinner. I would have been fine with a sandwich. (cook)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7233_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "needn't have cooked",
+              "accepted_answers": [
+                "needn't have cooked"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7234",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I {{gap1}} for anything while I was there. All our meals were provided. (pay)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7234_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't need to pay",
+              "accepted_answers": [
+                "didn't need to pay"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7235",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Children over the age of 4 {{gap1}} a car seat. (use)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7235_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't need to use",
+              "accepted_answers": [
+                "don't need to use"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7236",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 You {{gap1}} any dinner for me. I had a huge lunch. (make)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7236_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't need to make",
+              "accepted_answers": [
+                "don't need to make"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7237",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 We {{gap1}} the plumber because Gary managed to fix the tap himself. (call)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7237_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't need to call",
+              "accepted_answers": [
+                "didn't need to call"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7238",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 You {{gap1}} a new pen. You can borrow one of mine. (buy)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7238_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't need to buy",
+              "accepted_answers": [
+                "don't need to buy"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

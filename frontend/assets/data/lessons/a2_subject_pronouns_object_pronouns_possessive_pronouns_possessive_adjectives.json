@@ -1,0 +1,968 @@
+{
+  "lesson_id": "a2_subject_pronouns_object_pronouns_possessive_pronouns_possessive_adjectives",
+  "level": "A2",
+  "title": "Subject and object pronouns, possessive pronouns and adjectives",
+  "description": "Практический тест и правила по теме: Subject and object pronouns, possessive pronouns and adjectives",
+  "theory": {
+    "title": "Правила и грамматика: Subject and object pronouns, possessive pronouns and adjectives",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Subject and object pronouns, possessive pronouns and adjectives».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Subject and object pronouns, possessive pronouns and adjectives» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-390",
+      "lessonId": "a2_subject_pronouns_object_pronouns_possessive_pronouns_possessive_adjectives",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct subject pronouns, object pronouns, possessive pronouns, possessive adjectives to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_subject-pronouns-object-pronouns-possessive-pronouns-possessive-adjectives.html",
+      "questions": [
+        {
+          "id": "3345",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Look at this picture. These are my daughters. {{gap1}} names are Jane and Laura.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3345_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Their",
+              "accepted_answers": [
+                "Their"
+              ],
+              "options": [
+                {
+                  "id": "gap_3345_1_1",
+                  "order": 1,
+                  "text": "Them",
+                  "value": "Them",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3345_1_2",
+                  "order": 2,
+                  "text": "Their",
+                  "value": "Their",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3345_1_3",
+                  "order": 3,
+                  "text": "Theirs",
+                  "value": "Theirs",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3346",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 John was born in Bristol, but {{gap1}} father was born in Manchester.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3346_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "his",
+              "accepted_answers": [
+                "his"
+              ],
+              "options": [
+                {
+                  "id": "gap_3346_1_1",
+                  "order": 1,
+                  "text": "him",
+                  "value": "him",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3346_1_2",
+                  "order": 2,
+                  "text": "your",
+                  "value": "your",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3346_1_3",
+                  "order": 3,
+                  "text": "his",
+                  "value": "his",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3347",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 I want to go to a Rihanna concert. I really like {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3347_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "her",
+              "accepted_answers": [
+                "her"
+              ],
+              "options": [
+                {
+                  "id": "gap_3347_1_1",
+                  "order": 1,
+                  "text": "hers",
+                  "value": "hers",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3347_1_2",
+                  "order": 2,
+                  "text": "her",
+                  "value": "her",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3347_1_3",
+                  "order": 3,
+                  "text": "she",
+                  "value": "she",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3348",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I don't have my mobile phone. Can I use {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3348_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "yours",
+              "accepted_answers": [
+                "yours"
+              ],
+              "options": [
+                {
+                  "id": "gap_3348_1_1",
+                  "order": 1,
+                  "text": "you",
+                  "value": "you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3348_1_2",
+                  "order": 2,
+                  "text": "your",
+                  "value": "your",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3348_1_3",
+                  "order": 3,
+                  "text": "yours",
+                  "value": "yours",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3349",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 We need help. Can you help {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3349_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "us",
+              "accepted_answers": [
+                "us"
+              ],
+              "options": [
+                {
+                  "id": "gap_3349_1_1",
+                  "order": 1,
+                  "text": "we",
+                  "value": "we",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3349_1_2",
+                  "order": 2,
+                  "text": "us",
+                  "value": "us",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3349_1_3",
+                  "order": 3,
+                  "text": "our",
+                  "value": "our",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3350",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Carla and Ned have a really nice car. I love {{gap1}} car.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3350_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "their",
+              "accepted_answers": [
+                "their"
+              ],
+              "options": [
+                {
+                  "id": "gap_3350_1_1",
+                  "order": 1,
+                  "text": "their",
+                  "value": "their",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3350_1_2",
+                  "order": 2,
+                  "text": "them",
+                  "value": "them",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3350_1_3",
+                  "order": 3,
+                  "text": "theirs",
+                  "value": "theirs",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3351",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 This T-shirt is not mine. Is it {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3351_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "yours",
+              "accepted_answers": [
+                "yours"
+              ],
+              "options": [
+                {
+                  "id": "gap_3351_1_1",
+                  "order": 1,
+                  "text": "you",
+                  "value": "you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3351_1_2",
+                  "order": 2,
+                  "text": "yours",
+                  "value": "yours",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3351_1_3",
+                  "order": 3,
+                  "text": "your",
+                  "value": "your",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3352",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I am going to see the Rolling Stones. Do you like {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3352_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": [
+                {
+                  "id": "gap_3352_1_1",
+                  "order": 1,
+                  "text": "their",
+                  "value": "their",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3352_1_2",
+                  "order": 2,
+                  "text": "them",
+                  "value": "them",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3352_1_3",
+                  "order": 3,
+                  "text": "they",
+                  "value": "they",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3353",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 We live in a nice house, but {{gap1}} neighbours are horrible!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3353_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "our",
+              "accepted_answers": [
+                "our"
+              ],
+              "options": [
+                {
+                  "id": "gap_3353_1_1",
+                  "order": 1,
+                  "text": "us",
+                  "value": "us",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3353_1_2",
+                  "order": 2,
+                  "text": "ours",
+                  "value": "ours",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3353_1_3",
+                  "order": 3,
+                  "text": "our",
+                  "value": "our",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3354",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I miss my parents. I want to send {{gap1}} a postcard.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3354_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": [
+                {
+                  "id": "gap_3354_1_1",
+                  "order": 1,
+                  "text": "they",
+                  "value": "they",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3354_1_2",
+                  "order": 2,
+                  "text": "them",
+                  "value": "them",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3354_1_3",
+                  "order": 3,
+                  "text": "their",
+                  "value": "their",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-391",
+      "lessonId": "a2_subject_pronouns_object_pronouns_possessive_pronouns_possessive_adjectives",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct subject pronouns, object pronouns, possessive pronouns, possessive adjectives to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_subject-pronouns-object-pronouns-possessive-pronouns-possessive-adjectives_2.html",
+      "questions": [
+        {
+          "id": "3355",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 \"Do you like pop music?\" \"No, I don't really like _____.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3355_1",
+              "order": 1,
+              "text": "its",
+              "value": "5521",
+              "is_correct": false
+            },
+            {
+              "id": "3355_2",
+              "order": 2,
+              "text": "it",
+              "value": "5522",
+              "is_correct": true
+            },
+            {
+              "id": "3355_3",
+              "order": 3,
+              "text": "her",
+              "value": "5523",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3356",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I hate peaches. _____ taste horrible!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3356_1",
+              "order": 1,
+              "text": "They",
+              "value": "5518",
+              "is_correct": true
+            },
+            {
+              "id": "3356_2",
+              "order": 2,
+              "text": "Them",
+              "value": "5519",
+              "is_correct": false
+            },
+            {
+              "id": "3356_3",
+              "order": 3,
+              "text": "It",
+              "value": "5520",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3357",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Look, Sally is there. I want to ask _____ if she wants to go out tonight.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3357_1",
+              "order": 1,
+              "text": "she",
+              "value": "5524",
+              "is_correct": false
+            },
+            {
+              "id": "3357_2",
+              "order": 2,
+              "text": "hers",
+              "value": "5525",
+              "is_correct": false
+            },
+            {
+              "id": "3357_3",
+              "order": 3,
+              "text": "her",
+              "value": "5526",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3358",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I never eat sweets. I don't like _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3358_1",
+              "order": 1,
+              "text": "it",
+              "value": "5527",
+              "is_correct": false
+            },
+            {
+              "id": "3358_2",
+              "order": 2,
+              "text": "their",
+              "value": "5528",
+              "is_correct": false
+            },
+            {
+              "id": "3358_3",
+              "order": 3,
+              "text": "them",
+              "value": "5529",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3359",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 Ted is a good person. Stop criticising _____!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3359_1",
+              "order": 1,
+              "text": "him",
+              "value": "5530",
+              "is_correct": true
+            },
+            {
+              "id": "3359_2",
+              "order": 2,
+              "text": "he",
+              "value": "5531",
+              "is_correct": false
+            },
+            {
+              "id": "3359_3",
+              "order": 3,
+              "text": "his",
+              "value": "5532",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3360",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 This is not your shoe. It's _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3360_1",
+              "order": 1,
+              "text": "she",
+              "value": "5533",
+              "is_correct": false
+            },
+            {
+              "id": "3360_2",
+              "order": 2,
+              "text": "her",
+              "value": "5534",
+              "is_correct": false
+            },
+            {
+              "id": "3360_3",
+              "order": 3,
+              "text": "hers",
+              "value": "5535",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3361",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 \"Whose medicines are these?\" \"They are not _____. Ask Sally, maybe they are _____\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3361_1",
+              "order": 1,
+              "text": "me/hers",
+              "value": "5536",
+              "is_correct": false
+            },
+            {
+              "id": "3361_2",
+              "order": 2,
+              "text": "mine/hers",
+              "value": "5537",
+              "is_correct": true
+            },
+            {
+              "id": "3361_3",
+              "order": 3,
+              "text": "my/hers",
+              "value": "5538",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3362",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Go away! I hate _____!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3362_1",
+              "order": 1,
+              "text": "you",
+              "value": "5539",
+              "is_correct": true
+            },
+            {
+              "id": "3362_2",
+              "order": 2,
+              "text": "yours",
+              "value": "5540",
+              "is_correct": false
+            },
+            {
+              "id": "3362_3",
+              "order": 3,
+              "text": "your",
+              "value": "5541",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3363",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 You can ask Fred for money. _____ is very generous.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3363_1",
+              "order": 1,
+              "text": "He",
+              "value": "5542",
+              "is_correct": true
+            },
+            {
+              "id": "3363_2",
+              "order": 2,
+              "text": "Him",
+              "value": "5543",
+              "is_correct": false
+            },
+            {
+              "id": "3363_3",
+              "order": 3,
+              "text": "His",
+              "value": "5544",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3364",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I can't use _____ mobile phone. I think _____ is broken.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3364_1",
+              "order": 1,
+              "text": "mine/it",
+              "value": "5545",
+              "is_correct": false
+            },
+            {
+              "id": "3364_2",
+              "order": 2,
+              "text": "my/its",
+              "value": "5546",
+              "is_correct": false
+            },
+            {
+              "id": "3364_3",
+              "order": 3,
+              "text": "my/it",
+              "value": "5547",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-392",
+      "lessonId": "a2_subject_pronouns_object_pronouns_possessive_pronouns_possessive_adjectives",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the subject pronouns, object pronouns, possessive pronouns, and possessive adjectives from the box.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_subject-pronouns-object-pronouns-possessive-pronouns-possessive-adjectives_3.html",
+      "questions": [
+        {
+          "id": "3365",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Dear James, Thanks for 1 {{gap1}} email. It was very nice to have news from 2 {{gap2}}. I was very happy to hear that you are finally getting married to Maria. It's perfect! I think you will make 3 {{gap3}} very happy and 4 {{gap4}} will make you very happy, too. How did your parents react when you gave 5 {{gap5}} the news? Aren't 6 {{gap6}} excited? I'm sure they are really happy. I'm really looking forward to seeing you all at the wedding. By the way, do you remember that I wanted a tortoise? I already have one. 7 {{gap7}} name is Green. Sara and I saw 8 {{gap8}} in a pet shop and 9 {{gap9}} decided to buy the little thing right away. We are so happy with 10 {{gap10}} new pet! Well, I hope to see you soon, James. Please call me if you need any help. Love, Samuel.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3365_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "your",
+              "accepted_answers": [
+                "your"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3365_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "you",
+              "accepted_answers": [
+                "you"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3365_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "her",
+              "accepted_answers": [
+                "her"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3365_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "she",
+              "accepted_answers": [
+                "she"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3365_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "them",
+              "accepted_answers": [
+                "them"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3365_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "they",
+              "accepted_answers": [
+                "they"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3365_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "Its",
+              "accepted_answers": [
+                "Its"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3365_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "it",
+              "accepted_answers": [
+                "it"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3365_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "we",
+              "accepted_answers": [
+                "we"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3365_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "our",
+              "accepted_answers": [
+                "our"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

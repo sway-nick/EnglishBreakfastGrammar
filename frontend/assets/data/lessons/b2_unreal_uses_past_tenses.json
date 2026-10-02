@@ -1,0 +1,1137 @@
+{
+  "lesson_id": "b2_unreal_uses_past_tenses",
+  "level": "B2",
+  "title": "Wish, rather, if only, it's time: Unreal uses of past tenses",
+  "description": "Практический тест и правила по теме: Wish, rather, if only, it's time: Unreal uses of past tenses",
+  "theory": {
+    "title": "Правила и грамматика: Wish, rather, if only, it's time: Unreal uses of past tenses",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Wish, rather, if only, it's time: Unreal uses of past tenses».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Wish, rather, if only, it's time: Unreal uses of past tenses» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-115",
+      "lessonId": "b2_unreal_uses_past_tenses",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_unreal-uses-past-tenses.html",
+      "questions": [
+        {
+          "id": "952",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 It's time we {{gap1}} to do something about this situation.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_952_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "tried",
+              "accepted_answers": [
+                "tried"
+              ],
+              "options": [
+                {
+                  "id": "gap_952_1_1",
+                  "order": 1,
+                  "text": "tried",
+                  "value": "tried",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_952_1_2",
+                  "order": 2,
+                  "text": "try",
+                  "value": "try",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_952_1_3",
+                  "order": 3,
+                  "text": "'d try",
+                  "value": "'d try",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "953",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I'd rather you {{gap1}} taking your medication for a few days. Let's say until next Monday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_953_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "continued",
+              "accepted_answers": [
+                "continued"
+              ],
+              "options": [
+                {
+                  "id": "gap_953_1_1",
+                  "order": 1,
+                  "text": "continued",
+                  "value": "continued",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_953_1_2",
+                  "order": 2,
+                  "text": "'d continued",
+                  "value": "'d continued",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_953_1_3",
+                  "order": 3,
+                  "text": "continue",
+                  "value": "continue",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "956",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 I wish you {{gap1}} your stuff everywhere all the time. I'm tired of tidying up after you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_956_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "wouldn't leave",
+              "accepted_answers": [
+                "wouldn't leave"
+              ],
+              "options": [
+                {
+                  "id": "gap_956_1_1",
+                  "order": 1,
+                  "text": "didn't leave",
+                  "value": "didn't leave",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_956_1_2",
+                  "order": 2,
+                  "text": "wouldn't leave",
+                  "value": "wouldn't leave",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_956_1_3",
+                  "order": 3,
+                  "text": "hadn't left",
+                  "value": "hadn't left",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "957",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 If only we {{gap1}} sooner. We could have prevented the situation.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_957_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had known",
+              "accepted_answers": [
+                "had known"
+              ],
+              "options": [
+                {
+                  "id": "gap_957_1_1",
+                  "order": 1,
+                  "text": "had known",
+                  "value": "had known",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_957_1_2",
+                  "order": 2,
+                  "text": "'d know",
+                  "value": "'d know",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_957_1_3",
+                  "order": 3,
+                  "text": "knew",
+                  "value": "knew",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "955",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Would you rather I {{gap1}} at your place next weekend?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_955_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "stayed",
+              "accepted_answers": [
+                "stayed"
+              ],
+              "options": [
+                {
+                  "id": "gap_955_1_1",
+                  "order": 1,
+                  "text": "'d stayed",
+                  "value": "'d stayed",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_955_1_2",
+                  "order": 2,
+                  "text": "'d stay",
+                  "value": "'d stay",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_955_1_3",
+                  "order": 3,
+                  "text": "stayed",
+                  "value": "stayed",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "958",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 I'd rather you {{gap1}} that comment last night. You hurt me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_958_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "hadn't made",
+              "accepted_answers": [
+                "hadn't made"
+              ],
+              "options": [
+                {
+                  "id": "gap_958_1_1",
+                  "order": 1,
+                  "text": "hadn't made",
+                  "value": "hadn't made",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_958_1_2",
+                  "order": 2,
+                  "text": "wouldn't make",
+                  "value": "wouldn't make",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_958_1_3",
+                  "order": 3,
+                  "text": "didn't make",
+                  "value": "didn't make",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "959",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 It's time for you {{gap1}} what you started.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_959_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to finish",
+              "accepted_answers": [
+                "to finish"
+              ],
+              "options": [
+                {
+                  "id": "gap_959_1_1",
+                  "order": 1,
+                  "text": "finished",
+                  "value": "finished",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_959_1_2",
+                  "order": 2,
+                  "text": "to finish",
+                  "value": "to finish",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_959_1_3",
+                  "order": 3,
+                  "text": "had finished",
+                  "value": "had finished",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "954",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 We'd rather you {{gap1}} too late tonight.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_954_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't come",
+              "accepted_answers": [
+                "didn't come"
+              ],
+              "options": [
+                {
+                  "id": "gap_954_1_1",
+                  "order": 1,
+                  "text": "don't come",
+                  "value": "don't come",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_954_1_2",
+                  "order": 2,
+                  "text": "hadn't come",
+                  "value": "hadn't come",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_954_1_3",
+                  "order": 3,
+                  "text": "didn't come",
+                  "value": "didn't come",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "960",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Suppose you {{gap1}} enough money to invest? Where would you invest it?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_960_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had",
+              "accepted_answers": [
+                "had"
+              ],
+              "options": [
+                {
+                  "id": "gap_960_1_1",
+                  "order": 1,
+                  "text": "'d have",
+                  "value": "'d have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_960_1_2",
+                  "order": 2,
+                  "text": "'d had",
+                  "value": "'d had",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_960_1_3",
+                  "order": 3,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "961",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 It's time you {{gap1}} seriously about what you want to do with your life.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_961_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "thought",
+              "accepted_answers": [
+                "thought"
+              ],
+              "options": [
+                {
+                  "id": "gap_961_1_1",
+                  "order": 1,
+                  "text": "'d think",
+                  "value": "'d think",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_961_1_2",
+                  "order": 2,
+                  "text": "'d thought",
+                  "value": "'d thought",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_961_1_3",
+                  "order": 3,
+                  "text": "thought",
+                  "value": "thought",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-116",
+      "lessonId": "b2_unreal_uses_past_tenses",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_unreal-uses-past-tenses_2.html",
+      "questions": [
+        {
+          "id": "962",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 What if you _______ a superpower of your choice? Which would it be?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "962_1",
+              "order": 1,
+              "text": "will have",
+              "value": "1392",
+              "is_correct": false
+            },
+            {
+              "id": "962_2",
+              "order": 2,
+              "text": "have",
+              "value": "1393",
+              "is_correct": false
+            },
+            {
+              "id": "962_3",
+              "order": 3,
+              "text": "could have",
+              "value": "1394",
+              "is_correct": true
+            },
+            {
+              "id": "962_4",
+              "order": 4,
+              "text": "are going to have",
+              "value": "1395",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "963",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I wish they _______ a bit more respect in the last meeting.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "963_1",
+              "order": 1,
+              "text": "would show",
+              "value": "1396",
+              "is_correct": false
+            },
+            {
+              "id": "963_2",
+              "order": 2,
+              "text": "did showed",
+              "value": "1397",
+              "is_correct": false
+            },
+            {
+              "id": "963_3",
+              "order": 3,
+              "text": "showed",
+              "value": "1398",
+              "is_correct": false
+            },
+            {
+              "id": "963_4",
+              "order": 4,
+              "text": "had shown",
+              "value": "1399",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "964",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I like my job, but I hate my boss. If only I _______ a better boss.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "964_1",
+              "order": 1,
+              "text": "had",
+              "value": "1400",
+              "is_correct": true
+            },
+            {
+              "id": "964_2",
+              "order": 2,
+              "text": "would have",
+              "value": "1401",
+              "is_correct": false
+            },
+            {
+              "id": "964_3",
+              "order": 3,
+              "text": "have",
+              "value": "1402",
+              "is_correct": false
+            },
+            {
+              "id": "964_4",
+              "order": 4,
+              "text": "'d had",
+              "value": "1403",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "965",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 You don't like the essay topic we chose, do you? Would you rather we _______ a different topic?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "965_1",
+              "order": 1,
+              "text": "would chose",
+              "value": "1404",
+              "is_correct": false
+            },
+            {
+              "id": "965_2",
+              "order": 2,
+              "text": "would have chosen",
+              "value": "1405",
+              "is_correct": false
+            },
+            {
+              "id": "965_3",
+              "order": 3,
+              "text": "had chosen",
+              "value": "1406",
+              "is_correct": true
+            },
+            {
+              "id": "965_4",
+              "order": 4,
+              "text": "chose",
+              "value": "1407",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "966",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 If there are any cuts, cracks or bulges in your tyre, it's time you _______ them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "966_1",
+              "order": 1,
+              "text": "would replace",
+              "value": "1408",
+              "is_correct": false
+            },
+            {
+              "id": "966_2",
+              "order": 2,
+              "text": "replaced",
+              "value": "1409",
+              "is_correct": true
+            },
+            {
+              "id": "966_3",
+              "order": 3,
+              "text": "might replace",
+              "value": "1410",
+              "is_correct": false
+            },
+            {
+              "id": "966_4",
+              "order": 4,
+              "text": "had replaced",
+              "value": "1411",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "967",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 If only they _______ how important they are to each other. They wouldn't be arguing all the time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "967_1",
+              "order": 1,
+              "text": "known",
+              "value": "1412",
+              "is_correct": false
+            },
+            {
+              "id": "967_2",
+              "order": 2,
+              "text": "might know",
+              "value": "1413",
+              "is_correct": false
+            },
+            {
+              "id": "967_3",
+              "order": 3,
+              "text": "knew",
+              "value": "1414",
+              "is_correct": true
+            },
+            {
+              "id": "967_4",
+              "order": 4,
+              "text": "know",
+              "value": "1415",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "968",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 I'd rather we _______ the car. I'm tired and don't feel like walking.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "968_1",
+              "order": 1,
+              "text": "took",
+              "value": "1416",
+              "is_correct": true
+            },
+            {
+              "id": "968_2",
+              "order": 2,
+              "text": "had taken",
+              "value": "1417",
+              "is_correct": false
+            },
+            {
+              "id": "968_3",
+              "order": 3,
+              "text": "would take",
+              "value": "1418",
+              "is_correct": false
+            },
+            {
+              "id": "968_4",
+              "order": 4,
+              "text": "take",
+              "value": "1419",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "969",
+          "order": 8,
+          "type": "multiple_choice",
+          "text": "8 Do you want to take the bus or would you rather _______ the subway? Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "969_1",
+              "order": 1,
+              "text": "to take",
+              "value": "1420",
+              "is_correct": false
+            },
+            {
+              "id": "969_2",
+              "order": 2,
+              "text": "take",
+              "value": "1421",
+              "is_correct": true
+            },
+            {
+              "id": "969_3",
+              "order": 3,
+              "text": "we take",
+              "value": "1422",
+              "is_correct": false
+            },
+            {
+              "id": "969_4",
+              "order": 4,
+              "text": "we took",
+              "value": "1423",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "970",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I didn't take my boots, but I wish I _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "970_1",
+              "order": 1,
+              "text": "did",
+              "value": "1424",
+              "is_correct": false
+            },
+            {
+              "id": "970_2",
+              "order": 2,
+              "text": "had",
+              "value": "1425",
+              "is_correct": true
+            },
+            {
+              "id": "970_3",
+              "order": 3,
+              "text": "would",
+              "value": "1426",
+              "is_correct": false
+            },
+            {
+              "id": "970_4",
+              "order": 4,
+              "text": "would have",
+              "value": "1427",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "971",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 He seems so lost. Isn't it time you _______ a chat with him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "971_1",
+              "order": 1,
+              "text": "have",
+              "value": "1428",
+              "is_correct": false
+            },
+            {
+              "id": "971_2",
+              "order": 2,
+              "text": "would have",
+              "value": "1429",
+              "is_correct": false
+            },
+            {
+              "id": "971_3",
+              "order": 3,
+              "text": "to have",
+              "value": "1430",
+              "is_correct": false
+            },
+            {
+              "id": "971_4",
+              "order": 4,
+              "text": "had",
+              "value": "1431",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-117",
+      "lessonId": "b2_unreal_uses_past_tenses",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Rewrite the sentences below using the words in brackets. Do NOT use contractions.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_unreal-uses-past-tenses_3.html",
+      "questions": [
+        {
+          "id": "972",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 We should have checked the hotel reviews before we made the reservation. (wish) I {{gap1}} the hotel reviews before we made the reservation.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_972_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "wish we had checked",
+              "accepted_answers": [
+                "wish we had checked"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "973",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 I would like you to stop calling me. It's annoying. (if only) {{gap1}} calling me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_973_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "you would stop",
+              "accepted_answers": [
+                "you would stop"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "974",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I'd prefer you not to talk about this in public. (rather) I {{gap1}} about this in public.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_974_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "would rather you did not talk",
+              "accepted_answers": [
+                "would rather you did not talk"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "983",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 You are an adult now, and you should start acting like one. (time) You are an adult now, and it's {{gap1}} like one.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_983_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "time you started acting",
+              "accepted_answers": [
+                "time you started acting"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "984",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 I would like my son to be as responsible as yours. (wish) {{gap1}} as responsible as yours.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_984_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "I wish my son were",
+              "accepted_answers": [
+                "I wish my son were"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "985",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I would have preferred you to talk to me before saying anything. (rather) I'd {{gap1}} to me before saying anything.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_985_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "rather you had talked",
+              "accepted_answers": [
+                "rather you had talked"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "986",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Let's pretend this: you are invisible for one day. What would you do? (suppose) {{gap1}} invisible for one day. What would you do?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_986_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Suppose you were",
+              "accepted_answers": [
+                "Suppose you were"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "987",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 You should have invited Terry to the party. He's a real laugh. (if only) {{gap1}} Terry to the party. He's a real laugh.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_987_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "If only you had invited",
+              "accepted_answers": [
+                "If only you had invited"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "988",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 You really need to take a break. You well deserve it. (time) It's {{gap1}}. You well deserve it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_988_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "time you took a break",
+              "accepted_answers": [
+                "time you took a break"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "989",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I'd like him to talk to me about his problems. I'm tired of having to guess what's wrong with him. (wish) {{gap1}} to me about his problems. I'm tired of having to guess what's wrong with him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_989_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "I wish he would talk",
+              "accepted_answers": [
+                "I wish he would talk"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

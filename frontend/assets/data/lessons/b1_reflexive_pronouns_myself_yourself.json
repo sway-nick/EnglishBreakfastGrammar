@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1_reflexive_pronouns_myself_yourself",
+  "level": "B1",
+  "title": "Reflexive pronouns: Myself, yourself, etc.",
+  "description": "Практический тест и правила по теме: Reflexive pronouns: Myself, yourself, etc.",
+  "theory": {
+    "title": "Правила и грамматика: Reflexive pronouns: Myself, yourself, etc.",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Reflexive pronouns: Myself, yourself, etc.».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Reflexive pronouns: Myself, yourself, etc.» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-203",
+      "lessonId": "b1_reflexive_pronouns_myself_yourself",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct pronouns to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_reflexive-pronouns-myself-yourself.html",
+      "questions": [
+        {
+          "id": "1720",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Don't worry about the plants. I'll water them {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1720_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "myself",
+              "accepted_answers": [
+                "myself"
+              ],
+              "options": [
+                {
+                  "id": "gap_1720_1_1",
+                  "order": 1,
+                  "text": "myself",
+                  "value": "myself",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1720_1_2",
+                  "order": 2,
+                  "text": "me",
+                  "value": "me",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1720_1_3",
+                  "order": 3,
+                  "text": "by me",
+                  "value": "by me",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1721",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I'm looking forward to your visit. It's been a long time since we last saw {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1721_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "each other",
+              "accepted_answers": [
+                "each other"
+              ],
+              "options": [
+                {
+                  "id": "gap_1721_1_1",
+                  "order": 1,
+                  "text": "each other",
+                  "value": "each other",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1721_1_2",
+                  "order": 2,
+                  "text": "us",
+                  "value": "us",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1721_1_3",
+                  "order": 3,
+                  "text": "ourselves",
+                  "value": "ourselves",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1722",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 When I get home, I like to relax {{gap1}}. I lie on the sofa and watch some TV.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1722_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_1722_1_1",
+                  "order": 1,
+                  "text": "me",
+                  "value": "me",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1722_1_2",
+                  "order": 2,
+                  "text": "myself",
+                  "value": "myself",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1722_1_3",
+                  "order": 3,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1723",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Dear John, you must forgive {{gap1}} for not writing earlier.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1723_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "me",
+              "accepted_answers": [
+                "me"
+              ],
+              "options": [
+                {
+                  "id": "gap_1723_1_1",
+                  "order": 1,
+                  "text": "my",
+                  "value": "my",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1723_1_2",
+                  "order": 2,
+                  "text": "me",
+                  "value": "me",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1723_1_3",
+                  "order": 3,
+                  "text": "myself",
+                  "value": "myself",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1724",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Did you enjoy {{gap1}} at the party last night?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1724_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "yourself",
+              "accepted_answers": [
+                "yourself"
+              ],
+              "options": [
+                {
+                  "id": "gap_1724_1_1",
+                  "order": 1,
+                  "text": "yourself",
+                  "value": "yourself",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1724_1_2",
+                  "order": 2,
+                  "text": "you",
+                  "value": "you",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1724_1_3",
+                  "order": 3,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1725",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 My mother and I don't see {{gap1}} very often now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1725_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "each other",
+              "accepted_answers": [
+                "each other"
+              ],
+              "options": [
+                {
+                  "id": "gap_1725_1_1",
+                  "order": 1,
+                  "text": "ourselves",
+                  "value": "ourselves",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1725_1_2",
+                  "order": 2,
+                  "text": "each other",
+                  "value": "each other",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1725_1_3",
+                  "order": 3,
+                  "text": "us",
+                  "value": "us",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1726",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 We must learn to love {{gap1}} before we can love others.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1726_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "ourselves",
+              "accepted_answers": [
+                "ourselves"
+              ],
+              "options": [
+                {
+                  "id": "gap_1726_1_1",
+                  "order": 1,
+                  "text": "our",
+                  "value": "our",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1726_1_2",
+                  "order": 2,
+                  "text": "ourselves",
+                  "value": "ourselves",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1726_1_3",
+                  "order": 3,
+                  "text": "us",
+                  "value": "us",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1727",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 She often talks to {{gap1}} when she is stressed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1727_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "herself",
+              "accepted_answers": [
+                "herself"
+              ],
+              "options": [
+                {
+                  "id": "gap_1727_1_1",
+                  "order": 1,
+                  "text": "she",
+                  "value": "she",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1727_1_2",
+                  "order": 2,
+                  "text": "herself",
+                  "value": "herself",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1727_1_3",
+                  "order": 3,
+                  "text": "her",
+                  "value": "her",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1728",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I'll introduce {{gap1}} to Erica. I think you'll like her.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1728_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "you",
+              "accepted_answers": [
+                "you"
+              ],
+              "options": [
+                {
+                  "id": "gap_1728_1_1",
+                  "order": 1,
+                  "text": "you",
+                  "value": "you",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1728_1_2",
+                  "order": 2,
+                  "text": "yours",
+                  "value": "yours",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1728_1_3",
+                  "order": 3,
+                  "text": "yourself",
+                  "value": "yourself",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1729",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 During the following months, Mat and I got to know {{gap1}} better.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1729_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "each other",
+              "accepted_answers": [
+                "each other"
+              ],
+              "options": [
+                {
+                  "id": "gap_1729_1_1",
+                  "order": 1,
+                  "text": "us",
+                  "value": "us",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1729_1_2",
+                  "order": 2,
+                  "text": "each other",
+                  "value": "each other",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1729_1_3",
+                  "order": 3,
+                  "text": "we",
+                  "value": "we",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-204",
+      "lessonId": "b1_reflexive_pronouns_myself_yourself",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct pronouns for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_reflexive-pronouns-myself-yourself_2.html",
+      "questions": [
+        {
+          "id": "1730",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 The food is on the table. Please serve ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1730_1",
+              "order": 1,
+              "text": "yourself",
+              "value": "2467",
+              "is_correct": true
+            },
+            {
+              "id": "1730_2",
+              "order": 2,
+              "text": "you",
+              "value": "2468",
+              "is_correct": false
+            },
+            {
+              "id": "1730_3",
+              "order": 3,
+              "text": "myself",
+              "value": "2469",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1731",
+          "order": 2,
+          "type": "multiple_choice",
+          "text": "2 Susan's composition is brilliant. Do you think she wrote it ______. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1731_1",
+              "order": 1,
+              "text": "her",
+              "value": "2470",
+              "is_correct": false
+            },
+            {
+              "id": "1731_2",
+              "order": 2,
+              "text": "herself",
+              "value": "2471",
+              "is_correct": true
+            },
+            {
+              "id": "1731_3",
+              "order": 3,
+              "text": "by herself",
+              "value": "2472",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1732",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I always wash ______ and shave ______ before going out for a drink.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1732_1",
+              "order": 1,
+              "text": "- / myself",
+              "value": "2473",
+              "is_correct": false
+            },
+            {
+              "id": "1732_2",
+              "order": 2,
+              "text": "- / -",
+              "value": "2474",
+              "is_correct": true
+            },
+            {
+              "id": "1732_3",
+              "order": 3,
+              "text": "myself / myself",
+              "value": "2475",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1733",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 You must be careful not to cut ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1733_1",
+              "order": 1,
+              "text": "you",
+              "value": "2476",
+              "is_correct": false
+            },
+            {
+              "id": "1733_2",
+              "order": 2,
+              "text": "myself",
+              "value": "2477",
+              "is_correct": false
+            },
+            {
+              "id": "1733_3",
+              "order": 3,
+              "text": "yourself",
+              "value": "2478",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1735",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 Could you tell ______ what happened?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1735_1",
+              "order": 1,
+              "text": "me",
+              "value": "2482",
+              "is_correct": true
+            },
+            {
+              "id": "1735_2",
+              "order": 2,
+              "text": "ourselves",
+              "value": "2483",
+              "is_correct": false
+            },
+            {
+              "id": "1735_3",
+              "order": 3,
+              "text": "myself",
+              "value": "2484",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1734",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 During a race, I keep telling ______ that I'm not tired.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1734_1",
+              "order": 1,
+              "text": "myself",
+              "value": "2479",
+              "is_correct": true
+            },
+            {
+              "id": "1734_2",
+              "order": 2,
+              "text": "me",
+              "value": "2480",
+              "is_correct": false
+            },
+            {
+              "id": "1734_3",
+              "order": 3,
+              "text": "-",
+              "value": "2481",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1736",
+          "order": 7,
+          "type": "multiple_choice",
+          "text": "7 I organised the whole event ______. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1736_1",
+              "order": 1,
+              "text": "by myself",
+              "value": "2485",
+              "is_correct": true
+            },
+            {
+              "id": "1736_2",
+              "order": 2,
+              "text": "by my own",
+              "value": "2486",
+              "is_correct": false
+            },
+            {
+              "id": "1736_3",
+              "order": 3,
+              "text": "on my own",
+              "value": "2487",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1737",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 You should behave ______ when you are at your grandparent's home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1737_1",
+              "order": 1,
+              "text": "you",
+              "value": "2488",
+              "is_correct": false
+            },
+            {
+              "id": "1737_2",
+              "order": 2,
+              "text": "your",
+              "value": "2489",
+              "is_correct": false
+            },
+            {
+              "id": "1737_3",
+              "order": 3,
+              "text": "yourselves",
+              "value": "2490",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1738",
+          "order": 9,
+          "type": "multiple_choice",
+          "text": "9 Which TWO sentences are correct?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1738_1",
+              "order": 1,
+              "text": "I fixed my watch myself.",
+              "value": "2491",
+              "is_correct": true
+            },
+            {
+              "id": "1738_2",
+              "order": 2,
+              "text": "I fixed myself my watch.",
+              "value": "2492",
+              "is_correct": false
+            },
+            {
+              "id": "1738_3",
+              "order": 3,
+              "text": "I myself fixed my watch.",
+              "value": "2493",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1739",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Several police officers have been injured when two police cars have crashed into ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1739_1",
+              "order": 1,
+              "text": "each other",
+              "value": "2494",
+              "is_correct": true
+            },
+            {
+              "id": "1739_2",
+              "order": 2,
+              "text": "them",
+              "value": "2495",
+              "is_correct": false
+            },
+            {
+              "id": "1739_3",
+              "order": 3,
+              "text": "themselves",
+              "value": "2496",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-205",
+      "lessonId": "b1_reflexive_pronouns_myself_yourself",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the pronouns from the list below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_reflexive-pronouns-myself-yourself_3.html",
+      "questions": [
+        {
+          "id": "1740",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 She shouldn't blame {{gap1}} for what happened. It's not her fault.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1740_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "herself",
+              "accepted_answers": [
+                "herself"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1741",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 He had to prepare everything on his {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1741_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "own",
+              "accepted_answers": [
+                "own"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1744",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 Can you introduce {{gap1}} to your new friend? I'd like to meet him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1744_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "me",
+              "accepted_answers": [
+                "me"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1742",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 You should be ashamed of {{gap1}}. What you did was very wrong.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1742_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "yourself",
+              "accepted_answers": [
+                "yourself"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1743",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Don't worry about us. We can take care of {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1743_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "ourselves",
+              "accepted_answers": [
+                "ourselves"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1745",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Please, don't hurt {{gap1}}. He hasn't done anything wrong.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1745_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "him",
+              "accepted_answers": [
+                "him"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1746",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 He's going to hurt {{gap1}} if he doesn't pay more attention.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1746_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "himself",
+              "accepted_answers": [
+                "himself"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1747",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Her name's Alisha, but we call {{gap1}} Ali.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1747_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "her",
+              "accepted_answers": [
+                "her"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1748",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I have taught {{gap1}} to play the guitar just by watching video tutorials.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1748_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "myself",
+              "accepted_answers": [
+                "myself"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1749",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 You will see {{gap1}} at the next event. We will be there.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1749_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "us",
+              "accepted_answers": [
+                "us"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

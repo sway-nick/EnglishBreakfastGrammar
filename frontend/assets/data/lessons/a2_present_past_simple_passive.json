@@ -1,0 +1,898 @@
+{
+  "lesson_id": "a2_present_past_simple_passive",
+  "level": "A2",
+  "title": "Present and past simple passive: 'be' + past participle",
+  "description": "Практический тест и правила по теме: Present and past simple passive: 'be' + past participle",
+  "theory": {
+    "title": "Правила и грамматика: Present and past simple passive: 'be' + past participle",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Present and past simple passive: 'be' + past participle».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Present and past simple passive: 'be' + past participle» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-396",
+      "lessonId": "a2_present_past_simple_passive",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct present and past simple passive or active forms to complete the following text",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_present-past-simple-passive.html",
+      "questions": [
+        {
+          "id": "3396",
+          "order": 1,
+          "type": "gap_select",
+          "text": "The earliest credible evidence of coffee-drinking 1 {{gap1}} in the middle of the 15th century in Yemen. It was here in Arabia that roasted coffee seeds 2 {{gap2}} for the first time. Coffee 3 {{gap3}} then in a very similar way to how we 4 {{gap4}} it in the present day. Coffee 5 {{gap5}} by Sufi circles to stay awake for their religious rituals. In the 16th century, coffee 6 {{gap6}} the rest of the Middle East, Persia, Turkey, and northern Africa. And not long after that, coffee 7 {{gap7}} to Italy and to the rest of Europe, and to the Americas. In Europe, coffee 8 {{gap8}} in Venice first, and from Venice, it 9 {{gap9}} to the rest of Europe. Coffee became more widely accepted after Pope Clement VIII 10 {{gap10}} that it was a Christian beverage in 1600; many people wanted to ban coffee because they said it was a \"Muslim drink\". The first European coffee house opened in Rome in 1645. Adapted from Wikipedia",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3396_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "appears",
+              "accepted_answers": [
+                "appears"
+              ],
+              "options": [
+                {
+                  "id": "gap_3396_1_1",
+                  "order": 1,
+                  "text": "appears",
+                  "value": "appears",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3396_1_2",
+                  "order": 2,
+                  "text": "is appeared",
+                  "value": "is appeared",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_3396_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "were boiled",
+              "accepted_answers": [
+                "were boiled"
+              ],
+              "options": [
+                {
+                  "id": "gap_3396_2_1",
+                  "order": 1,
+                  "text": "boiled",
+                  "value": "boiled",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3396_2_2",
+                  "order": 2,
+                  "text": "were boiled",
+                  "value": "were boiled",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_3396_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "select",
+              "correct_answer": "was prepared",
+              "accepted_answers": [
+                "was prepared"
+              ],
+              "options": [
+                {
+                  "id": "gap_3396_3_1",
+                  "order": 1,
+                  "text": "prepared",
+                  "value": "prepared",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3396_3_2",
+                  "order": 2,
+                  "text": "was prepared",
+                  "value": "was prepared",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_3396_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "select",
+              "correct_answer": "prepare",
+              "accepted_answers": [
+                "prepare"
+              ],
+              "options": [
+                {
+                  "id": "gap_3396_4_1",
+                  "order": 1,
+                  "text": "are prepared",
+                  "value": "are prepared",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3396_4_2",
+                  "order": 2,
+                  "text": "prepare",
+                  "value": "prepare",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_3396_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "select",
+              "correct_answer": "was used",
+              "accepted_answers": [
+                "was used"
+              ],
+              "options": [
+                {
+                  "id": "gap_3396_5_1",
+                  "order": 1,
+                  "text": "used",
+                  "value": "used",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3396_5_2",
+                  "order": 2,
+                  "text": "was used",
+                  "value": "was used",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_3396_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "select",
+              "correct_answer": "reached",
+              "accepted_answers": [
+                "reached"
+              ],
+              "options": [
+                {
+                  "id": "gap_3396_6_1",
+                  "order": 1,
+                  "text": "reached",
+                  "value": "reached",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3396_6_2",
+                  "order": 2,
+                  "text": "was reached",
+                  "value": "was reached",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_3396_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "select",
+              "correct_answer": "was exported",
+              "accepted_answers": [
+                "was exported"
+              ],
+              "options": [
+                {
+                  "id": "gap_3396_7_1",
+                  "order": 1,
+                  "text": "was exported",
+                  "value": "was exported",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3396_7_2",
+                  "order": 2,
+                  "text": "exported",
+                  "value": "exported",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_3396_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "select",
+              "correct_answer": "arrived",
+              "accepted_answers": [
+                "arrived"
+              ],
+              "options": [
+                {
+                  "id": "gap_3396_8_1",
+                  "order": 1,
+                  "text": "was arrived",
+                  "value": "was arrived",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3396_8_2",
+                  "order": 2,
+                  "text": "arrived",
+                  "value": "arrived",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_3396_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "select",
+              "correct_answer": "was introduced",
+              "accepted_answers": [
+                "was introduced"
+              ],
+              "options": [
+                {
+                  "id": "gap_3396_9_1",
+                  "order": 1,
+                  "text": "introduced",
+                  "value": "introduced",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3396_9_2",
+                  "order": 2,
+                  "text": "was introduced",
+                  "value": "was introduced",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_3396_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "select",
+              "correct_answer": "said",
+              "accepted_answers": [
+                "said"
+              ],
+              "options": [
+                {
+                  "id": "gap_3396_10_1",
+                  "order": 1,
+                  "text": "was said",
+                  "value": "was said",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3396_10_2",
+                  "order": 2,
+                  "text": "said",
+                  "value": "said",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-397",
+      "lessonId": "a2_present_past_simple_passive",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct present and past simple passive or active forms to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_present-past-simple-passive_2.html",
+      "questions": [
+        {
+          "id": "3397",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Mayan _____ in many regions in Guatemala and southern Mexico.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3397_1",
+              "order": 1,
+              "text": "speaks",
+              "value": "5578",
+              "is_correct": false
+            },
+            {
+              "id": "3397_2",
+              "order": 2,
+              "text": "is spoke",
+              "value": "5579",
+              "is_correct": false
+            },
+            {
+              "id": "3397_3",
+              "order": 3,
+              "text": "is spoken",
+              "value": "5580",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3398",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 The match _____ by 4.1 million people.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3398_1",
+              "order": 1,
+              "text": "was watched",
+              "value": "5581",
+              "is_correct": true
+            },
+            {
+              "id": "3398_2",
+              "order": 2,
+              "text": "was watch",
+              "value": "5582",
+              "is_correct": false
+            },
+            {
+              "id": "3398_3",
+              "order": 3,
+              "text": "watched",
+              "value": "5583",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3399",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Manchego cheese _____ in La Mancha, Spain.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3399_1",
+              "order": 1,
+              "text": "produced",
+              "value": "5584",
+              "is_correct": false
+            },
+            {
+              "id": "3399_2",
+              "order": 2,
+              "text": "is produced",
+              "value": "5585",
+              "is_correct": true
+            },
+            {
+              "id": "3399_3",
+              "order": 3,
+              "text": "produces",
+              "value": "5586",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3400",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 The authorities _____ them about the incident.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3400_1",
+              "order": 1,
+              "text": "informed",
+              "value": "5587",
+              "is_correct": true
+            },
+            {
+              "id": "3400_2",
+              "order": 2,
+              "text": "were informed",
+              "value": "5588",
+              "is_correct": false
+            },
+            {
+              "id": "3400_3",
+              "order": 3,
+              "text": "were inform",
+              "value": "5589",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3401",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 Who _____ this novel?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3401_1",
+              "order": 1,
+              "text": "was written",
+              "value": "5590",
+              "is_correct": false
+            },
+            {
+              "id": "3401_2",
+              "order": 2,
+              "text": "wrote",
+              "value": "5591",
+              "is_correct": true
+            },
+            {
+              "id": "3401_3",
+              "order": 3,
+              "text": "did write",
+              "value": "5592",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3402",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 A lot of celebrities _____ to the party.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3402_1",
+              "order": 1,
+              "text": "invited",
+              "value": "5593",
+              "is_correct": false
+            },
+            {
+              "id": "3402_2",
+              "order": 2,
+              "text": "were invited",
+              "value": "5594",
+              "is_correct": true
+            },
+            {
+              "id": "3402_3",
+              "order": 3,
+              "text": "were invite",
+              "value": "5595",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3403",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 It's important that residents _____ the water for three minutes before drinking it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3403_1",
+              "order": 1,
+              "text": "are boiled",
+              "value": "5596",
+              "is_correct": false
+            },
+            {
+              "id": "3403_2",
+              "order": 2,
+              "text": "were boiled",
+              "value": "5597",
+              "is_correct": false
+            },
+            {
+              "id": "3403_3",
+              "order": 3,
+              "text": "boil",
+              "value": "5598",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3404",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 A rare species of insect _____ in the Amazon Rain Forest last year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3404_1",
+              "order": 1,
+              "text": "was discovered",
+              "value": "5599",
+              "is_correct": true
+            },
+            {
+              "id": "3404_2",
+              "order": 2,
+              "text": "discovered",
+              "value": "5600",
+              "is_correct": false
+            },
+            {
+              "id": "3404_3",
+              "order": 3,
+              "text": "was discover",
+              "value": "5601",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3405",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 More than 1,500 passengers died when the Titanic _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3405_1",
+              "order": 1,
+              "text": "was sunk",
+              "value": "5602",
+              "is_correct": false
+            },
+            {
+              "id": "3405_2",
+              "order": 2,
+              "text": "sank",
+              "value": "5603",
+              "is_correct": true
+            },
+            {
+              "id": "3405_3",
+              "order": 3,
+              "text": "was sink",
+              "value": "5604",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3406",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Alcohol _____ to minors or to people who are intoxicated.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3406_1",
+              "order": 1,
+              "text": "doesn't sell",
+              "value": "5605",
+              "is_correct": false
+            },
+            {
+              "id": "3406_2",
+              "order": 2,
+              "text": "isn't sold",
+              "value": "5606",
+              "is_correct": true
+            },
+            {
+              "id": "3406_3",
+              "order": 3,
+              "text": "sells",
+              "value": "5607",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-398",
+      "lessonId": "a2_present_past_simple_passive",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Transform the following active sentences into passive sentences without by.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_present-past-simple-passive_3.html",
+      "questions": [
+        {
+          "id": "3407",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Somebody found him in the South of Spain ⇒ He {{gap1}} in the South of Spain.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3407_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was found",
+              "accepted_answers": [
+                "was found"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3409",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Did anyone lock the door last night? ⇒ {{gap1}} last night?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3409_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Was the door locked",
+              "accepted_answers": [
+                "Was the door locked"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3410",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 They paint the house every five years. ⇒ {{gap1}} every five years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3410_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "The house is painted",
+              "accepted_answers": [
+                "The house is painted"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3411",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 They made the robot with three sensors. ⇒ {{gap1}} with three sensors.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3411_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "The robot was made",
+              "accepted_answers": [
+                "The robot was made"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3408",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Someone found my keys in the street. ⇒ {{gap1}} in the street.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3408_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "My keys were found",
+              "accepted_answers": [
+                "My keys were found"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3412",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Someone injured two police officers during the incident. ⇒ {{gap1}} during the incident.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3412_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Two police officers were injured",
+              "accepted_answers": [
+                "Two police officers were injured"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3413",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 They postponed the match because of the rain. ⇒ {{gap1}} because of the rain.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3413_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "The match was postponed",
+              "accepted_answers": [
+                "The match was postponed"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3414",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 They teach students to show respect. ⇒ {{gap1}} to show respect.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3414_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Students are taught",
+              "accepted_answers": [
+                "Students are taught"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3415",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 The major operators sell the mobile phones. ⇒ {{gap1}} by the major operators.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3415_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "The mobile phones are sold",
+              "accepted_answers": [
+                "The mobile phones are sold"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3416",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 They learn something new every day. ⇒ {{gap1}} every day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3416_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Something new is learned",
+              "accepted_answers": [
+                "Something new is learned"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

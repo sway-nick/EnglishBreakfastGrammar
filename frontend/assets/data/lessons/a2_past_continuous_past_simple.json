@@ -1,0 +1,1268 @@
+{
+  "lesson_id": "a2_past_continuous_past_simple",
+  "level": "A2",
+  "title": "Past continuous and past simple",
+  "description": "Практический тест и правила по теме: Past continuous and past simple",
+  "theory": {
+    "title": "Правила и грамматика: Past continuous and past simple",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Past continuous and past simple».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Past continuous and past simple» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-329",
+      "lessonId": "a2_past_continuous_past_simple",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct past continuous and past simple forms to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_past-continuous-past-simple.html",
+      "questions": [
+        {
+          "id": "2837",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I {{gap1}} while I {{gap2}} down the stairs.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2837_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "fell down",
+              "accepted_answers": [
+                "fell down"
+              ],
+              "options": [
+                {
+                  "id": "gap_2837_1_1",
+                  "order": 1,
+                  "text": "was falling down",
+                  "value": "was falling down",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2837_1_2",
+                  "order": 2,
+                  "text": "fell down",
+                  "value": "fell down",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_2837_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "was going",
+              "accepted_answers": [
+                "was going"
+              ],
+              "options": [
+                {
+                  "id": "gap_2837_2_1",
+                  "order": 1,
+                  "text": "went",
+                  "value": "went",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2837_2_2",
+                  "order": 2,
+                  "text": "was going",
+                  "value": "was going",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2838",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 He {{gap1}} very fast when he {{gap2}} the accident.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2838_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was driving",
+              "accepted_answers": [
+                "was driving"
+              ],
+              "options": [
+                {
+                  "id": "gap_2838_1_1",
+                  "order": 1,
+                  "text": "was driving",
+                  "value": "was driving",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2838_1_2",
+                  "order": 2,
+                  "text": "drove",
+                  "value": "drove",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2838_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "had",
+              "accepted_answers": [
+                "had"
+              ],
+              "options": [
+                {
+                  "id": "gap_2838_2_1",
+                  "order": 1,
+                  "text": "was having",
+                  "value": "was having",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2838_2_2",
+                  "order": 2,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2839",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 It {{gap1}} when we {{gap2}} home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2839_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was snowing",
+              "accepted_answers": [
+                "was snowing"
+              ],
+              "options": [
+                {
+                  "id": "gap_2839_1_1",
+                  "order": 1,
+                  "text": "snowed",
+                  "value": "snowed",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2839_1_2",
+                  "order": 2,
+                  "text": "was snowing",
+                  "value": "was snowing",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_2839_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "left",
+              "accepted_answers": [
+                "left"
+              ],
+              "options": [
+                {
+                  "id": "gap_2839_2_1",
+                  "order": 1,
+                  "text": "left",
+                  "value": "left",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2839_2_2",
+                  "order": 2,
+                  "text": "were leaving",
+                  "value": "were leaving",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2840",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I {{gap1}} your call because I {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2840_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't answer",
+              "accepted_answers": [
+                "didn't answer"
+              ],
+              "options": [
+                {
+                  "id": "gap_2840_1_1",
+                  "order": 1,
+                  "text": "wasn't answering",
+                  "value": "wasn't answering",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2840_1_2",
+                  "order": 2,
+                  "text": "didn't answer",
+                  "value": "didn't answer",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_2840_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "was working",
+              "accepted_answers": [
+                "was working"
+              ],
+              "options": [
+                {
+                  "id": "gap_2840_2_1",
+                  "order": 1,
+                  "text": "worked",
+                  "value": "worked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2840_2_2",
+                  "order": 2,
+                  "text": "was working",
+                  "value": "was working",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2841",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 This morning I {{gap1}} and I {{gap2}} breakfast for everybody.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2841_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "got up",
+              "accepted_answers": [
+                "got up"
+              ],
+              "options": [
+                {
+                  "id": "gap_2841_1_1",
+                  "order": 1,
+                  "text": "got up",
+                  "value": "got up",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2841_1_2",
+                  "order": 2,
+                  "text": "was getting up",
+                  "value": "was getting up",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2841_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "made",
+              "accepted_answers": [
+                "made"
+              ],
+              "options": [
+                {
+                  "id": "gap_2841_2_1",
+                  "order": 1,
+                  "text": "made",
+                  "value": "made",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2841_2_2",
+                  "order": 2,
+                  "text": "was making",
+                  "value": "was making",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2842",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 When I {{gap1}} her, she {{gap2}} a really nice purple dress.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2842_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "saw",
+              "accepted_answers": [
+                "saw"
+              ],
+              "options": [
+                {
+                  "id": "gap_2842_1_1",
+                  "order": 1,
+                  "text": "saw",
+                  "value": "saw",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2842_1_2",
+                  "order": 2,
+                  "text": "was seeing",
+                  "value": "was seeing",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2842_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "was wearing",
+              "accepted_answers": [
+                "was wearing"
+              ],
+              "options": [
+                {
+                  "id": "gap_2842_2_1",
+                  "order": 1,
+                  "text": "was wearing",
+                  "value": "was wearing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2842_2_2",
+                  "order": 2,
+                  "text": "wore",
+                  "value": "wore",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2843",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Last Saturday we {{gap1}} late and we {{gap2}} the train.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2843_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "got up",
+              "accepted_answers": [
+                "got up"
+              ],
+              "options": [
+                {
+                  "id": "gap_2843_1_1",
+                  "order": 1,
+                  "text": "were getting up",
+                  "value": "were getting up",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2843_1_2",
+                  "order": 2,
+                  "text": "got up",
+                  "value": "got up",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_2843_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "missed",
+              "accepted_answers": [
+                "missed"
+              ],
+              "options": [
+                {
+                  "id": "gap_2843_2_1",
+                  "order": 1,
+                  "text": "were missing",
+                  "value": "were missing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2843_2_2",
+                  "order": 2,
+                  "text": "missed",
+                  "value": "missed",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2844",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I {{gap1}} hello because you {{gap2}} very fast.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2844_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't say",
+              "accepted_answers": [
+                "didn't say"
+              ],
+              "options": [
+                {
+                  "id": "gap_2844_1_1",
+                  "order": 1,
+                  "text": "didn't say",
+                  "value": "didn't say",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2844_1_2",
+                  "order": 2,
+                  "text": "wasn't saying",
+                  "value": "wasn't saying",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2844_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "were walking",
+              "accepted_answers": [
+                "were walking"
+              ],
+              "options": [
+                {
+                  "id": "gap_2844_2_1",
+                  "order": 1,
+                  "text": "walked",
+                  "value": "walked",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2844_2_2",
+                  "order": 2,
+                  "text": "were walking",
+                  "value": "were walking",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2845",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I {{gap1}} happily when a loud noise {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2845_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was sleeping",
+              "accepted_answers": [
+                "was sleeping"
+              ],
+              "options": [
+                {
+                  "id": "gap_2845_1_1",
+                  "order": 1,
+                  "text": "slept",
+                  "value": "slept",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2845_1_2",
+                  "order": 2,
+                  "text": "was sleeping",
+                  "value": "was sleeping",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_2845_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "woke me up",
+              "accepted_answers": [
+                "woke me up"
+              ],
+              "options": [
+                {
+                  "id": "gap_2845_2_1",
+                  "order": 1,
+                  "text": "was waking me up",
+                  "value": "was waking me up",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2845_2_2",
+                  "order": 2,
+                  "text": "woke me up",
+                  "value": "woke me up",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2846",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 {{gap1}} attention when you {{gap2}} your car?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2846_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Were you paying",
+              "accepted_answers": [
+                "Were you paying"
+              ],
+              "options": [
+                {
+                  "id": "gap_2846_1_1",
+                  "order": 1,
+                  "text": "Were you paying",
+                  "value": "Were you paying",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2846_1_2",
+                  "order": 2,
+                  "text": "Did you pay",
+                  "value": "Did you pay",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_2846_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "crashed",
+              "accepted_answers": [
+                "crashed"
+              ],
+              "options": [
+                {
+                  "id": "gap_2846_2_1",
+                  "order": 1,
+                  "text": "crashed",
+                  "value": "crashed",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2846_2_2",
+                  "order": 2,
+                  "text": "were crashing",
+                  "value": "were crashing",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-330",
+      "lessonId": "a2_past_continuous_past_simple",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct past continuous and past simple forms for the gaps below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_past-continuous-past-simple_2.html",
+      "questions": [
+        {
+          "id": "2880",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 After the conference, I _____ that a man _____ the walls of the building.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2880_1",
+              "order": 1,
+              "text": "was seeing / was painting",
+              "value": "4946",
+              "is_correct": false
+            },
+            {
+              "id": "2880_2",
+              "order": 2,
+              "text": "saw / was painting",
+              "value": "4947",
+              "is_correct": true
+            },
+            {
+              "id": "2880_3",
+              "order": 3,
+              "text": "was seeing / painted",
+              "value": "4948",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2881",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 He was so angry that he _____ and _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2881_1",
+              "order": 1,
+              "text": "was getting up / left",
+              "value": "4949",
+              "is_correct": false
+            },
+            {
+              "id": "2881_2",
+              "order": 2,
+              "text": "got up / was leaving",
+              "value": "4950",
+              "is_correct": false
+            },
+            {
+              "id": "2881_3",
+              "order": 3,
+              "text": "got up / left",
+              "value": "4951",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2882",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I _____ the vase while I _____ the bookshelf.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2882_1",
+              "order": 1,
+              "text": "broke / was cleaning",
+              "value": "4952",
+              "is_correct": true
+            },
+            {
+              "id": "2882_2",
+              "order": 2,
+              "text": "broke / cleaned",
+              "value": "4953",
+              "is_correct": false
+            },
+            {
+              "id": "2882_3",
+              "order": 3,
+              "text": "was breaking / was cleaning",
+              "value": "4954",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2883",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 As soon as we walked into the room, we _____ a noise. Someone ______ my computer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2883_1",
+              "order": 1,
+              "text": "heard / used",
+              "value": "4955",
+              "is_correct": false
+            },
+            {
+              "id": "2883_2",
+              "order": 2,
+              "text": "were hearing / used",
+              "value": "4956",
+              "is_correct": false
+            },
+            {
+              "id": "2883_3",
+              "order": 3,
+              "text": "heard / was using",
+              "value": "4957",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2884",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 The bus in which the football team ______ had an accident, but nobody ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2884_1",
+              "order": 1,
+              "text": "were travelling / died",
+              "value": "4958",
+              "is_correct": true
+            },
+            {
+              "id": "2884_2",
+              "order": 2,
+              "text": "travelled / died",
+              "value": "4959",
+              "is_correct": false
+            },
+            {
+              "id": "2884_3",
+              "order": 3,
+              "text": "were travelling / were dying",
+              "value": "4960",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2885",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I _____ the party, but Sonia _____ to leave.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2885_1",
+              "order": 1,
+              "text": "was enjoying / was wanting",
+              "value": "4961",
+              "is_correct": false
+            },
+            {
+              "id": "2885_2",
+              "order": 2,
+              "text": "enjoyed / was wanting",
+              "value": "4962",
+              "is_correct": false
+            },
+            {
+              "id": "2885_3",
+              "order": 3,
+              "text": "was enjoying / wanted",
+              "value": "4963",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2886",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 The police _____ him while he ______ to escape.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2886_1",
+              "order": 1,
+              "text": "caught / tried",
+              "value": "4964",
+              "is_correct": false
+            },
+            {
+              "id": "2886_2",
+              "order": 2,
+              "text": "caught / was trying",
+              "value": "4965",
+              "is_correct": true
+            },
+            {
+              "id": "2886_3",
+              "order": 3,
+              "text": "were catching / was trying",
+              "value": "4966",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2887",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 We _____ what to do, so we just called the police and ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2887_1",
+              "order": 1,
+              "text": "didn't know / waited",
+              "value": "4967",
+              "is_correct": true
+            },
+            {
+              "id": "2887_2",
+              "order": 2,
+              "text": "weren't knowing / waited",
+              "value": "4968",
+              "is_correct": false
+            },
+            {
+              "id": "2887_3",
+              "order": 3,
+              "text": "didn't know / were waiting",
+              "value": "4969",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2888",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 When I last _____ her she ______ high-heeled shoes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2888_1",
+              "order": 1,
+              "text": "saw / wore",
+              "value": "4970",
+              "is_correct": false
+            },
+            {
+              "id": "2888_2",
+              "order": 2,
+              "text": "was seeing / was wearing",
+              "value": "4971",
+              "is_correct": false
+            },
+            {
+              "id": "2888_3",
+              "order": 3,
+              "text": "saw / was wearing",
+              "value": "4972",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2889",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 The sun _______, so we _____ our clothes and got into the water.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2889_1",
+              "order": 1,
+              "text": "was shining / took off",
+              "value": "4973",
+              "is_correct": true
+            },
+            {
+              "id": "2889_2",
+              "order": 2,
+              "text": "shone / took off",
+              "value": "4974",
+              "is_correct": false
+            },
+            {
+              "id": "2889_3",
+              "order": 3,
+              "text": "shone / were taking off",
+              "value": "4975",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-331",
+      "lessonId": "a2_past_continuous_past_simple",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the correct past continuous and past simple forms of the verbs in brackets.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_past-continuous-past-simple_3.html",
+      "questions": [
+        {
+          "id": "2847",
+          "order": 1,
+          "type": "gap_text",
+          "text": "When I 1 {{gap1}} (arrive) at the station, Raimond 2 {{gap2}} (wait) for me. He 3 {{gap3}} (wear) a nice black suit and he 4 {{gap4}} (hold) a red rose in his right hand. When I 5 {{gap5}} (get off) the train, he 6 {{gap6}} (run) up to me and 7 {{gap7}} (kiss) me passionately. It 8 {{gap8}} (rain) heavily so he 9 {{gap9}} (take off) his jacket and 10 {{gap10}} (put) it over my head. I 11 {{gap11}} (tell) Raimond to go to a café so that we could talk, but he 12 {{gap12}} (insist) on going to another place. While he 13 {{gap13}} (drive), I 14 {{gap14}} (throw) a look at him. He 15 {{gap15}} (smile) all the time, but he also 16 {{gap16}} (look) nervous. He finally 17 {{gap17}} (stop) his car on the top of a hill with fantastic views. It was so wonderful. We 18 {{gap18}} (get out) of the car, and he 19 {{gap19}} (kneel) in front of me and 20 {{gap20}} (take) a ring out of his pocket. “Kathy, will you...” he said. “Listen, Raimond, I want to break up with you,” I interrupted.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2847_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "arrived",
+              "accepted_answers": [
+                "arrived"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "was waiting",
+              "accepted_answers": [
+                "was waiting"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "was wearing",
+              "accepted_answers": [
+                "was wearing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "was holding",
+              "accepted_answers": [
+                "was holding"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "got off",
+              "accepted_answers": [
+                "got off"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "ran",
+              "accepted_answers": [
+                "ran"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "kissed",
+              "accepted_answers": [
+                "kissed"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "was raining",
+              "accepted_answers": [
+                "was raining"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "took off",
+              "accepted_answers": [
+                "took off"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "put",
+              "accepted_answers": [
+                "put"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_11",
+              "order": 11,
+              "placeholder": "{{gap11}}",
+              "input_control": "text",
+              "correct_answer": "told",
+              "accepted_answers": [
+                "told"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_12",
+              "order": 12,
+              "placeholder": "{{gap12}}",
+              "input_control": "text",
+              "correct_answer": "insisted",
+              "accepted_answers": [
+                "insisted"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_13",
+              "order": 13,
+              "placeholder": "{{gap13}}",
+              "input_control": "text",
+              "correct_answer": "was driving",
+              "accepted_answers": [
+                "was driving"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_14",
+              "order": 14,
+              "placeholder": "{{gap14}}",
+              "input_control": "text",
+              "correct_answer": "threw",
+              "accepted_answers": [
+                "threw"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_15",
+              "order": 15,
+              "placeholder": "{{gap15}}",
+              "input_control": "text",
+              "correct_answer": "was smiling",
+              "accepted_answers": [
+                "was smiling"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_16",
+              "order": 16,
+              "placeholder": "{{gap16}}",
+              "input_control": "text",
+              "correct_answer": "looked",
+              "accepted_answers": [
+                "looked"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_17",
+              "order": 17,
+              "placeholder": "{{gap17}}",
+              "input_control": "text",
+              "correct_answer": "stopped",
+              "accepted_answers": [
+                "stopped"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_18",
+              "order": 18,
+              "placeholder": "{{gap18}}",
+              "input_control": "text",
+              "correct_answer": "got out",
+              "accepted_answers": [
+                "got out"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_19",
+              "order": 19,
+              "placeholder": "{{gap19}}",
+              "input_control": "text",
+              "correct_answer": "knelt",
+              "accepted_answers": [
+                "knelt"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2847_20",
+              "order": 20,
+              "placeholder": "{{gap20}}",
+              "input_control": "text",
+              "correct_answer": "took",
+              "accepted_answers": [
+                "took"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

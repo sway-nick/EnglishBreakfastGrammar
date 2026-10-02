@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "a1_whose_possessive_s",
+  "level": "A1",
+  "title": "Whose, possessive 's: Whose is this? It's Mike's",
+  "description": "Практический тест и правила по теме: Whose, possessive 's: Whose is this? It's Mike's",
+  "theory": {
+    "title": "Правила и грамматика: Whose, possessive 's: Whose is this? It's Mike's",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Whose, possessive 's: Whose is this? It's Mike's».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Whose, possessive 's: Whose is this? It's Mike's» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-438",
+      "lessonId": "a1_whose_possessive_s",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_whose-possessive-s.html",
+      "questions": [
+        {
+          "id": "3800",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 George is {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3800_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "my sister's new boyfriend",
+              "accepted_answers": [
+                "my sister's new boyfriend"
+              ],
+              "options": [
+                {
+                  "id": "gap_3800_1_1",
+                  "order": 1,
+                  "text": "the new boyfriend of my sister",
+                  "value": "the new boyfriend of my sister",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3800_1_2",
+                  "order": 2,
+                  "text": "my sisters' new boyfriend",
+                  "value": "my sisters' new boyfriend",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3800_1_3",
+                  "order": 3,
+                  "text": "my sister's new boyfriend",
+                  "value": "my sister's new boyfriend",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3801",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 All {{gap1}} are broken.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3801_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "the boys' toys",
+              "accepted_answers": [
+                "the boys' toys"
+              ],
+              "options": [
+                {
+                  "id": "gap_3801_1_1",
+                  "order": 1,
+                  "text": "the boys toys",
+                  "value": "the boys toys",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3801_1_2",
+                  "order": 2,
+                  "text": "the boys' toys",
+                  "value": "the boys' toys",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3801_1_3",
+                  "order": 3,
+                  "text": "the toys of the boys",
+                  "value": "the toys of the boys",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3802",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 The {{gap1}} are yellow.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3802_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "pages of the book",
+              "accepted_answers": [
+                "pages of the book"
+              ],
+              "options": [
+                {
+                  "id": "gap_3802_1_1",
+                  "order": 1,
+                  "text": "book's pages",
+                  "value": "book's pages",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3802_1_2",
+                  "order": 2,
+                  "text": "books pages",
+                  "value": "books pages",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3802_1_3",
+                  "order": 3,
+                  "text": "pages of the book",
+                  "value": "pages of the book",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3803",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 This is {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3803_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Hellen's house",
+              "accepted_answers": [
+                "Hellen's house"
+              ],
+              "options": [
+                {
+                  "id": "gap_3803_1_1",
+                  "order": 1,
+                  "text": "Hellen's house",
+                  "value": "Hellen's house",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3803_1_2",
+                  "order": 2,
+                  "text": "Hellens house",
+                  "value": "Hellens house",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3803_1_3",
+                  "order": 3,
+                  "text": "the house of Hellen",
+                  "value": "the house of Hellen",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3804",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 This is {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3804_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "my dog's collar",
+              "accepted_answers": [
+                "my dog's collar"
+              ],
+              "options": [
+                {
+                  "id": "gap_3804_1_1",
+                  "order": 1,
+                  "text": "my dogs collar",
+                  "value": "my dogs collar",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3804_1_2",
+                  "order": 2,
+                  "text": "the collar of my dog",
+                  "value": "the collar of my dog",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3804_1_3",
+                  "order": 3,
+                  "text": "my dog's collar",
+                  "value": "my dog's collar",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3805",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 You need to clean {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3805_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "the floor of the house",
+              "accepted_answers": [
+                "the floor of the house"
+              ],
+              "options": [
+                {
+                  "id": "gap_3805_1_1",
+                  "order": 1,
+                  "text": "the floor of the house",
+                  "value": "the floor of the house",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3805_1_2",
+                  "order": 2,
+                  "text": "the floor's houses",
+                  "value": "the floor's houses",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3805_1_3",
+                  "order": 3,
+                  "text": "the house's floor",
+                  "value": "the house's floor",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3806",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 These are {{gap1}}. (= One car belongs to Tom and another car to Jenny.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3806_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Tom's and Jenny's cars",
+              "accepted_answers": [
+                "Tom's and Jenny's cars"
+              ],
+              "options": [
+                {
+                  "id": "gap_3806_1_1",
+                  "order": 1,
+                  "text": "the cars of Tom and Jenny",
+                  "value": "the cars of Tom and Jenny",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3806_1_2",
+                  "order": 2,
+                  "text": "Tom's and Jenny's cars",
+                  "value": "Tom's and Jenny's cars",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3806_1_3",
+                  "order": 3,
+                  "text": "Tom and Jenny's cars",
+                  "value": "Tom and Jenny's cars",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3807",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 This is {{gap1}}. (=Two people have one car.)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3807_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Tom and Jenny's car",
+              "accepted_answers": [
+                "Tom and Jenny's car"
+              ],
+              "options": [
+                {
+                  "id": "gap_3807_1_1",
+                  "order": 1,
+                  "text": "the car of Tom and Jenny",
+                  "value": "the car of Tom and Jenny",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3807_1_2",
+                  "order": 2,
+                  "text": "Tom and Jenny's car",
+                  "value": "Tom and Jenny's car",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3807_1_3",
+                  "order": 3,
+                  "text": "Tom's and Jenny's car",
+                  "value": "Tom's and Jenny's car",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3808",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 {{gap1}} helps me with my homework.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3808_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "My mum's friend",
+              "accepted_answers": [
+                "My mum's friend"
+              ],
+              "options": [
+                {
+                  "id": "gap_3808_1_1",
+                  "order": 1,
+                  "text": "The friend of my mum",
+                  "value": "The friend of my mum",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3808_1_2",
+                  "order": 2,
+                  "text": "My mum's friend",
+                  "value": "My mum's friend",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3808_1_3",
+                  "order": 3,
+                  "text": "My mums' friend",
+                  "value": "My mums' friend",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3809",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I need to paint {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3809_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "the children's playroom",
+              "accepted_answers": [
+                "the children's playroom"
+              ],
+              "options": [
+                {
+                  "id": "gap_3809_1_1",
+                  "order": 1,
+                  "text": "the playroom of the children",
+                  "value": "the playroom of the children",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3809_1_2",
+                  "order": 2,
+                  "text": "the childrens' playroom",
+                  "value": "the childrens' playroom",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3809_1_3",
+                  "order": 3,
+                  "text": "the children's playroom",
+                  "value": "the children's playroom",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-439",
+      "lessonId": "a1_whose_possessive_s",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct forms: whose, who’s possessive ‘s, etc.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_whose-possessive-s_2.html",
+      "questions": [
+        {
+          "id": "3810",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 _____ picture is this?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3810_1",
+              "order": 1,
+              "text": "Whose",
+              "value": "5793",
+              "is_correct": true
+            },
+            {
+              "id": "3810_2",
+              "order": 2,
+              "text": "Who's",
+              "value": "5794",
+              "is_correct": false
+            },
+            {
+              "id": "3810_3",
+              "order": 3,
+              "text": "Whos",
+              "value": "5795",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3811",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 _____ is ill.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3811_1",
+              "order": 1,
+              "text": "The father of Allan",
+              "value": "5796",
+              "is_correct": false
+            },
+            {
+              "id": "3811_2",
+              "order": 2,
+              "text": "Father's Edgar",
+              "value": "5797",
+              "is_correct": false
+            },
+            {
+              "id": "3811_3",
+              "order": 3,
+              "text": "Allan's father",
+              "value": "5798",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3812",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 _____ that man at the table?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3812_1",
+              "order": 1,
+              "text": "Whos",
+              "value": "5799",
+              "is_correct": false
+            },
+            {
+              "id": "3812_2",
+              "order": 2,
+              "text": "Who's",
+              "value": "5800",
+              "is_correct": true
+            },
+            {
+              "id": "3812_3",
+              "order": 3,
+              "text": "Whose",
+              "value": "5801",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3813",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 The shop is at _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3813_1",
+              "order": 1,
+              "text": "the end of the street",
+              "value": "5802",
+              "is_correct": true
+            },
+            {
+              "id": "3813_2",
+              "order": 2,
+              "text": "the street's end",
+              "value": "5803",
+              "is_correct": false
+            },
+            {
+              "id": "3813_3",
+              "order": 3,
+              "text": "the end's street",
+              "value": "5804",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3814",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 _____ is very expensive.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3814_1",
+              "order": 1,
+              "text": "New car's Lucy",
+              "value": "5805",
+              "is_correct": false
+            },
+            {
+              "id": "3814_2",
+              "order": 2,
+              "text": "Lucy's new car",
+              "value": "5806",
+              "is_correct": true
+            },
+            {
+              "id": "3814_3",
+              "order": 3,
+              "text": "The new car of Lucy",
+              "value": "5807",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3815",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I love _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3815_1",
+              "order": 1,
+              "text": "the new book of Rowling",
+              "value": "5808",
+              "is_correct": false
+            },
+            {
+              "id": "3815_2",
+              "order": 2,
+              "text": "the new book's Rowling",
+              "value": "5809",
+              "is_correct": false
+            },
+            {
+              "id": "3815_3",
+              "order": 3,
+              "text": "Rowling's new book",
+              "value": "5810",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3816",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 _____ is this absurd idea?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3816_1",
+              "order": 1,
+              "text": "Who's",
+              "value": "5811",
+              "is_correct": false
+            },
+            {
+              "id": "3816_2",
+              "order": 2,
+              "text": "Whose",
+              "value": "5812",
+              "is_correct": true
+            },
+            {
+              "id": "3816_3",
+              "order": 3,
+              "text": "Whos'",
+              "value": "5813",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3817",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 _____ the person in the photo?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3817_1",
+              "order": 1,
+              "text": "Who's",
+              "value": "5814",
+              "is_correct": true
+            },
+            {
+              "id": "3817_2",
+              "order": 2,
+              "text": "Whos'",
+              "value": "5815",
+              "is_correct": false
+            },
+            {
+              "id": "3817_3",
+              "order": 3,
+              "text": "Whose",
+              "value": "5816",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3818",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 In this school, 100% of _____ are recycled. All the students recycle their textbooks.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3818_1",
+              "order": 1,
+              "text": "the textbooks' students",
+              "value": "5817",
+              "is_correct": false
+            },
+            {
+              "id": "3818_2",
+              "order": 2,
+              "text": "the students' textbooks",
+              "value": "5818",
+              "is_correct": true
+            },
+            {
+              "id": "3818_3",
+              "order": 3,
+              "text": "the student's textbooks",
+              "value": "5819",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3819",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 _____ is next Sunday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3819_1",
+              "order": 1,
+              "text": "Sheila and Mike's wedding",
+              "value": "5820",
+              "is_correct": true
+            },
+            {
+              "id": "3819_2",
+              "order": 2,
+              "text": "Sheila's and Mike's wedding",
+              "value": "5821",
+              "is_correct": false
+            },
+            {
+              "id": "3819_3",
+              "order": 3,
+              "text": "the wedding of Sheila and Mike",
+              "value": "5822",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-440",
+      "lessonId": "a1_whose_possessive_s",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Rewrite the sentences using the possessive ‘s as in the example.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_whose-possessive-s_3.html",
+      "questions": [
+        {
+          "id": "3820",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 The balls belong to the players. ⇒ They are {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3820_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the players' balls",
+              "accepted_answers": [
+                "the players' balls"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3821",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 The computer belongs to Sara. ⇒ It's {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3821_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Sara's computer",
+              "accepted_answers": [
+                "Sara's computer"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3823",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I hate the moustache that belongs to my brother. ⇒ I hate {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3823_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "my brother's moustache",
+              "accepted_answers": [
+                "my brother's moustache"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3824",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 This car belongs to Sam and Pam. ⇒ It's {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3824_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Sam and Pam's car",
+              "accepted_answers": [
+                "Sam and Pam's car"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3822",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 The money belongs to the workers. ⇒ It's {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3822_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the workers'",
+              "accepted_answers": [
+                "the workers'"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3825",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 These bikes belong to Mike and John (one bike to each person). ⇒ They are {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3825_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Mike's and John's bikes",
+              "accepted_answers": [
+                "Mike's and John's bikes"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3826",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 These documents belong to the women. ⇒ They are {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3826_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the women's documents",
+              "accepted_answers": [
+                "the women's documents"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3827",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 This glass belongs to Mathew. ⇒ It's {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3827_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Mathew's glass",
+              "accepted_answers": [
+                "Mathew's glass"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3828",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 This award belongs to the actresses. ⇒ It's {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3828_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the actresses' award",
+              "accepted_answers": [
+                "the actresses' award"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3829",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 This suitcase belongs to Kate and David. ⇒ It's {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3829_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Kate and David's suitcase",
+              "accepted_answers": [
+                "Kate and David's suitcase"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

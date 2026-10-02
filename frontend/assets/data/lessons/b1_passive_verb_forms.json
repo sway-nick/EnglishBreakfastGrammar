@@ -1,0 +1,1299 @@
+{
+  "lesson_id": "b1_passive_verb_forms",
+  "level": "B1",
+  "title": "Passive verb forms",
+  "description": "Практический тест и правила по теме: Passive verb forms",
+  "theory": {
+    "title": "Правила и грамматика: Passive verb forms",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Passive verb forms».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Passive verb forms» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-215",
+      "lessonId": "b1_passive_verb_forms",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct passive verb form to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_passive-verb-forms.html",
+      "questions": [
+        {
+          "id": "1796",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 We are staying at the hotel because my house {{gap1}} redecorated.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1796_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is being",
+              "accepted_answers": [
+                "is being"
+              ],
+              "options": [
+                {
+                  "id": "gap_1796_1_1",
+                  "order": 1,
+                  "text": "was been",
+                  "value": "was been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1796_1_2",
+                  "order": 2,
+                  "text": "has being",
+                  "value": "has being",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1796_1_3",
+                  "order": 3,
+                  "text": "is being",
+                  "value": "is being",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1797",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Let's go; we {{gap1}} here.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1797_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are not wanted",
+              "accepted_answers": [
+                "are not wanted"
+              ],
+              "options": [
+                {
+                  "id": "gap_1797_1_1",
+                  "order": 1,
+                  "text": "are not wanted",
+                  "value": "are not wanted",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1797_1_2",
+                  "order": 2,
+                  "text": "are not wanting",
+                  "value": "are not wanting",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1797_1_3",
+                  "order": 3,
+                  "text": "aren't been wanted",
+                  "value": "aren't been wanted",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1798",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 The letter {{gap1}} a week ago.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1798_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was posted",
+              "accepted_answers": [
+                "was posted"
+              ],
+              "options": [
+                {
+                  "id": "gap_1798_1_1",
+                  "order": 1,
+                  "text": "was post",
+                  "value": "was post",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1798_1_2",
+                  "order": 2,
+                  "text": "was posted",
+                  "value": "was posted",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1798_1_3",
+                  "order": 3,
+                  "text": "has been posted",
+                  "value": "has been posted",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1799",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 We suddenly realised that we {{gap1}}. There was someone on the roof of the house next to us.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1799_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were being watched",
+              "accepted_answers": [
+                "were being watched"
+              ],
+              "options": [
+                {
+                  "id": "gap_1799_1_1",
+                  "order": 1,
+                  "text": "were being watched",
+                  "value": "were being watched",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1799_1_2",
+                  "order": 2,
+                  "text": "were watched",
+                  "value": "were watched",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1799_1_3",
+                  "order": 3,
+                  "text": "were been watched",
+                  "value": "were been watched",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1800",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 All the tickets for the concert {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1800_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have been sold",
+              "accepted_answers": [
+                "have been sold"
+              ],
+              "options": [
+                {
+                  "id": "gap_1800_1_1",
+                  "order": 1,
+                  "text": "have being sold",
+                  "value": "have being sold",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1800_1_2",
+                  "order": 2,
+                  "text": "been sold",
+                  "value": "been sold",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1800_1_3",
+                  "order": 3,
+                  "text": "have been sold",
+                  "value": "have been sold",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1801",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 When we arrived at the car park, our car wasn't there; it {{gap1}} stolen.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1801_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "had been",
+              "accepted_answers": [
+                "had been"
+              ],
+              "options": [
+                {
+                  "id": "gap_1801_1_1",
+                  "order": 1,
+                  "text": "had been",
+                  "value": "had been",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1801_1_2",
+                  "order": 2,
+                  "text": "was been",
+                  "value": "was been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1801_1_3",
+                  "order": 3,
+                  "text": "been",
+                  "value": "been",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1802",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Now it's too late. Nothing {{gap1}} done.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1802_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can be",
+              "accepted_answers": [
+                "can be"
+              ],
+              "options": [
+                {
+                  "id": "gap_1802_1_1",
+                  "order": 1,
+                  "text": "can being",
+                  "value": "can being",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1802_1_2",
+                  "order": 2,
+                  "text": "can be",
+                  "value": "can be",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1802_1_3",
+                  "order": 3,
+                  "text": "can been",
+                  "value": "can been",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1803",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 We were afraid of {{gap1}} seen together.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1803_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "being",
+              "accepted_answers": [
+                "being"
+              ],
+              "options": [
+                {
+                  "id": "gap_1803_1_1",
+                  "order": 1,
+                  "text": "been",
+                  "value": "been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1803_1_2",
+                  "order": 2,
+                  "text": "be",
+                  "value": "be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1803_1_3",
+                  "order": 3,
+                  "text": "being",
+                  "value": "being",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1804",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Home buyers {{gap1}} informed of potential taxes before buying their house.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1804_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": [
+                {
+                  "id": "gap_1804_1_1",
+                  "order": 1,
+                  "text": "are be",
+                  "value": "are be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1804_1_2",
+                  "order": 2,
+                  "text": "are been",
+                  "value": "are been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1804_1_3",
+                  "order": 3,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1805",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 The negotiations {{gap1}} postponed indefinitely.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1805_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": [
+                {
+                  "id": "gap_1805_1_1",
+                  "order": 1,
+                  "text": "did",
+                  "value": "did",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1805_1_2",
+                  "order": 2,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1805_1_3",
+                  "order": 3,
+                  "text": "were been",
+                  "value": "were been",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-216",
+      "lessonId": "b1_passive_verb_forms",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct passive verb tense or form to complete the following sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_passive-verb-forms_2.html",
+      "questions": [
+        {
+          "id": "1806",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 When we called, she didn't answer because she ______ for the job.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1806_1",
+              "order": 1,
+              "text": "has been interviewed",
+              "value": "2557",
+              "is_correct": false
+            },
+            {
+              "id": "1806_2",
+              "order": 2,
+              "text": "was interviewed",
+              "value": "2558",
+              "is_correct": false
+            },
+            {
+              "id": "1806_3",
+              "order": 3,
+              "text": "was being interviewed",
+              "value": "2559",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1810",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 We are sorry about the problem, sir; but don't worry, the mistake ______ right now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1810_1",
+              "order": 1,
+              "text": "has being corrected",
+              "value": "2569",
+              "is_correct": false
+            },
+            {
+              "id": "1810_2",
+              "order": 2,
+              "text": "was corrected",
+              "value": "2570",
+              "is_correct": false
+            },
+            {
+              "id": "1810_3",
+              "order": 3,
+              "text": "is being corrected",
+              "value": "2571",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1811",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 English ______ understood in most countries in the world.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1811_1",
+              "order": 1,
+              "text": "is",
+              "value": "2572",
+              "is_correct": true
+            },
+            {
+              "id": "1811_2",
+              "order": 2,
+              "text": "is being",
+              "value": "2573",
+              "is_correct": false
+            },
+            {
+              "id": "1811_3",
+              "order": 3,
+              "text": "has been",
+              "value": "2574",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1814",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 He ______ promoted and now he is the accounts manager.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1814_1",
+              "order": 1,
+              "text": "is",
+              "value": "2581",
+              "is_correct": false
+            },
+            {
+              "id": "1814_2",
+              "order": 2,
+              "text": "had been",
+              "value": "2582",
+              "is_correct": false
+            },
+            {
+              "id": "1814_3",
+              "order": 3,
+              "text": "has been",
+              "value": "2583",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1812",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 These photos ______ during the president's last trip to Nigeria.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1812_1",
+              "order": 1,
+              "text": "are taken",
+              "value": "2575",
+              "is_correct": false
+            },
+            {
+              "id": "1812_2",
+              "order": 2,
+              "text": "were taken",
+              "value": "2576",
+              "is_correct": true
+            },
+            {
+              "id": "1812_3",
+              "order": 3,
+              "text": "have been taken",
+              "value": "2577",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1813",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 The hotel was completely different the second time we stayed. It ______ redecorated.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1813_1",
+              "order": 1,
+              "text": "is",
+              "value": "2578",
+              "is_correct": false
+            },
+            {
+              "id": "1813_2",
+              "order": 2,
+              "text": "has been",
+              "value": "2579",
+              "is_correct": false
+            },
+            {
+              "id": "1813_3",
+              "order": 3,
+              "text": "had been",
+              "value": "2580",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1815",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 The building _____ totally destroyed by the fire. All its neighbours are staying in hotels or with relatives.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1815_1",
+              "order": 1,
+              "text": "is",
+              "value": "2584",
+              "is_correct": false
+            },
+            {
+              "id": "1815_2",
+              "order": 2,
+              "text": "was",
+              "value": "2585",
+              "is_correct": false
+            },
+            {
+              "id": "1815_3",
+              "order": 3,
+              "text": "has been",
+              "value": "2586",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1816",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 He ______ introduced to the Royal Family at the age of 13.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1816_1",
+              "order": 1,
+              "text": "has been",
+              "value": "2587",
+              "is_correct": false
+            },
+            {
+              "id": "1816_2",
+              "order": 2,
+              "text": "was",
+              "value": "2588",
+              "is_correct": true
+            },
+            {
+              "id": "1816_3",
+              "order": 3,
+              "text": "was being",
+              "value": "2589",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1817",
+          "order": 9,
+          "type": "multiple_choice",
+          "text": "9 He is a very promising artist. His songs ______ known all over the world. Choose TWO correct options",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1817_1",
+              "order": 1,
+              "text": "are going to be",
+              "value": "2590",
+              "is_correct": true
+            },
+            {
+              "id": "1817_2",
+              "order": 2,
+              "text": "are being",
+              "value": "2591",
+              "is_correct": false
+            },
+            {
+              "id": "1817_3",
+              "order": 3,
+              "text": "will be",
+              "value": "2592",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1818",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 The mechanic told me that my car ______ repaired until next week.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1818_1",
+              "order": 1,
+              "text": "hasn't been",
+              "value": "2593",
+              "is_correct": false
+            },
+            {
+              "id": "1818_2",
+              "order": 2,
+              "text": "isn't going to be",
+              "value": "2594",
+              "is_correct": true
+            },
+            {
+              "id": "1818_3",
+              "order": 3,
+              "text": "isn't",
+              "value": "2595",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-217",
+      "lessonId": "b1_passive_verb_forms",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Turn the following active sentences into passive sentences. Keep the same verb tense.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_passive-verb-forms_3.html",
+      "questions": [
+        {
+          "id": "1819",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 They forbid smoking here. ⇒ Smoking {{gap1}} here.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1819_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is forbidden",
+              "accepted_answers": [
+                "is forbidden"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1820",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 They accept credit cards. ⇒ Credit cards {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1820_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are accepted",
+              "accepted_answers": [
+                "are accepted"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1821",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 They are building a new cinema in the city. ⇒ A new cinema {{gap1}} in the city.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1821_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is being built",
+              "accepted_answers": [
+                "is being built"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1822",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Someone is accusing him of stealing money. ⇒ He {{gap1}} of stealing money.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1822_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is being accused",
+              "accepted_answers": [
+                "is being accused"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1823",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 They built the house in 1950. ⇒ The house {{gap1}} in 1950.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1823_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was built",
+              "accepted_answers": [
+                "was built"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1824",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 The Romans named Neptune after the Roman god of the sea. ⇒ Neptune {{gap1}} after the Roman god of the sea.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1824_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was named",
+              "accepted_answers": [
+                "was named"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1825",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Someone was blackmailing him. ⇒ He {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1825_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was being blackmailed",
+              "accepted_answers": [
+                "was being blackmailed"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1826",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 When I passed by, someone was painting the walls. ⇒ When I passed by, the walls {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1826_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "were being painted",
+              "accepted_answers": [
+                "were being painted"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1827",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 They have told him that he has to leave the country. ⇒ He {{gap1}} that he has to leave the country.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1827_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has been told",
+              "accepted_answers": [
+                "has been told"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1828",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 For generations local fishermen have inhabited the lake. ⇒ For generations the lake {{gap1}} by local fishermen.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1828_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has been inhabited",
+              "accepted_answers": [
+                "has been inhabited"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-218",
+      "lessonId": "b1_passive_verb_forms",
+      "order": 4,
+      "page": 4,
+      "title": "Exercise 4",
+      "instruction": "Turn the following active sentences into passive sentences. Keep the same verb tense.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_passive-verb-forms_4.html",
+      "questions": [
+        {
+          "id": "1829",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Then I noticed that someone had stolen my wallet. ⇒ Then I noticed that my wallet {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1829_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had been stolen",
+              "accepted_answers": [
+                "had been stolen"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1830",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 He said that the police had arrested him 13 times. ⇒ He said that he {{gap1}} 13 times.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1830_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had been arrested",
+              "accepted_answers": [
+                "had been arrested"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1831",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 They will not make a decision until next week. ⇒ A decision {{gap1}} until next week.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1831_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "will not be made",
+              "accepted_answers": [
+                "will not be made"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1832",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 They are going to clean the room today. ⇒ The room {{gap1}} today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1832_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is going to be cleaned",
+              "accepted_answers": [
+                "is going to be cleaned"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1833",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Someone should open the window. ⇒ The window {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1833_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "should be opened",
+              "accepted_answers": [
+                "should be opened"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1834",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 We must keep the secret. ⇒ The secret {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1834_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "must be kept",
+              "accepted_answers": [
+                "must be kept"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1835",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 I'm tired of people telling me what to do. ⇒ I'm tired of {{gap1}} what to do.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1835_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "being told",
+              "accepted_answers": [
+                "being told"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1836",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 They used to send Anna to her room after dinner. ⇒ Anna used {{gap1}} to her room after dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1836_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to be sent",
+              "accepted_answers": [
+                "to be sent"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1837",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Someone might discover the truth. ⇒ The truth {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1837_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "might be discovered",
+              "accepted_answers": [
+                "might be discovered"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1838",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 We can do nothing ⇒ Nothing {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1838_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can be done",
+              "accepted_answers": [
+                "can be done"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

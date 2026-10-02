@@ -1,0 +1,968 @@
+{
+  "lesson_id": "b1_usually_used_to_be_used_to_get_used_to",
+  "level": "B1",
+  "title": "Usually, used to, be used to, get used to",
+  "description": "Практический тест и правила по теме: Usually, used to, be used to, get used to",
+  "theory": {
+    "title": "Правила и грамматика: Usually, used to, be used to, get used to",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Usually, used to, be used to, get used to».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Usually, used to, be used to, get used to» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-212",
+      "lessonId": "b1_usually_used_to_be_used_to_get_used_to",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose usually, used to, be used to, get used to to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_usually-used-to-be-used-to-get-used-to.html",
+      "questions": [
+        {
+          "id": "1775",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I {{gap1}} work in a bank, but now I'm working as a designer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1775_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "used to",
+              "accepted_answers": [
+                "used to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1775_1_1",
+                  "order": 1,
+                  "text": "got used to",
+                  "value": "got used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1775_1_2",
+                  "order": 2,
+                  "text": "used to",
+                  "value": "used to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1775_1_3",
+                  "order": 3,
+                  "text": "was used to",
+                  "value": "was used to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1776",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 We {{gap1}} go to the cinema very often.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1776_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't use to",
+              "accepted_answers": [
+                "didn't use to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1776_1_1",
+                  "order": 1,
+                  "text": "didn't use to",
+                  "value": "didn't use to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1776_1_2",
+                  "order": 2,
+                  "text": "usedn't to",
+                  "value": "usedn't to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1776_1_3",
+                  "order": 3,
+                  "text": "didn't used to",
+                  "value": "didn't used to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1777",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 We {{gap1}} eat out every Saturday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1777_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "usually",
+              "accepted_answers": [
+                "usually"
+              ],
+              "options": [
+                {
+                  "id": "gap_1777_1_1",
+                  "order": 1,
+                  "text": "get used to",
+                  "value": "get used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1777_1_2",
+                  "order": 2,
+                  "text": "use to",
+                  "value": "use to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1777_1_3",
+                  "order": 3,
+                  "text": "usually",
+                  "value": "usually",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1778",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I {{gap1}} getting up early. I've been doing it for 30 years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1778_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'m used to",
+              "accepted_answers": [
+                "'m used to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1778_1_1",
+                  "order": 1,
+                  "text": "'m used to",
+                  "value": "'m used to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1778_1_2",
+                  "order": 2,
+                  "text": "used to",
+                  "value": "used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1778_1_3",
+                  "order": 3,
+                  "text": "get used to",
+                  "value": "get used to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1779",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 I've been in France for a week and I {{gap1}} driving on the right.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1779_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'m getting used to",
+              "accepted_answers": [
+                "'m getting used to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1779_1_1",
+                  "order": 1,
+                  "text": "used to",
+                  "value": "used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1779_1_2",
+                  "order": 2,
+                  "text": "'m getting used to",
+                  "value": "'m getting used to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1779_1_3",
+                  "order": 3,
+                  "text": "usually",
+                  "value": "usually",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1780",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 I'm not used to {{gap1}} dinner at 6. In my country we eat later.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1780_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "having",
+              "accepted_answers": [
+                "having"
+              ],
+              "options": [
+                {
+                  "id": "gap_1780_1_1",
+                  "order": 1,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1780_1_2",
+                  "order": 2,
+                  "text": "to have",
+                  "value": "to have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1780_1_3",
+                  "order": 3,
+                  "text": "having",
+                  "value": "having",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1781",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 Do you {{gap1}} go to the pub after work?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1781_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "usually",
+              "accepted_answers": [
+                "usually"
+              ],
+              "options": [
+                {
+                  "id": "gap_1781_1_1",
+                  "order": 1,
+                  "text": "use to",
+                  "value": "use to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1781_1_2",
+                  "order": 2,
+                  "text": "used to",
+                  "value": "used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1781_1_3",
+                  "order": 3,
+                  "text": "usually",
+                  "value": "usually",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1782",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 My father {{gap1}} tell us stories when we were in bed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1782_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "used to",
+              "accepted_answers": [
+                "used to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1782_1_1",
+                  "order": 1,
+                  "text": "used to",
+                  "value": "used to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1782_1_2",
+                  "order": 2,
+                  "text": "was used to",
+                  "value": "was used to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1782_1_3",
+                  "order": 3,
+                  "text": "use to",
+                  "value": "use to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1783",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I {{gap1}} blond when I was a child.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1783_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "used to be",
+              "accepted_answers": [
+                "used to be"
+              ],
+              "options": [
+                {
+                  "id": "gap_1783_1_1",
+                  "order": 1,
+                  "text": "was used to being",
+                  "value": "was used to being",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1783_1_2",
+                  "order": 2,
+                  "text": "got used to being",
+                  "value": "got used to being",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1783_1_3",
+                  "order": 3,
+                  "text": "used to be",
+                  "value": "used to be",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1784",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 You'll have to get used {{gap1}} without salt.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1784_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to cooking",
+              "accepted_answers": [
+                "to cooking"
+              ],
+              "options": [
+                {
+                  "id": "gap_1784_1_1",
+                  "order": 1,
+                  "text": "to cook",
+                  "value": "to cook",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1784_1_2",
+                  "order": 2,
+                  "text": "cook",
+                  "value": "cook",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1784_1_3",
+                  "order": 3,
+                  "text": "to cooking",
+                  "value": "to cooking",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-213",
+      "lessonId": "b1_usually_used_to_be_used_to_get_used_to",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose usually, used to, be used to, get used to for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_usually-used-to-be-used-to-get-used-to_2.html",
+      "questions": [
+        {
+          "id": "1785",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 When we were children we used ______skiing every winter.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1785_1",
+              "order": 1,
+              "text": "to go",
+              "value": "2527",
+              "is_correct": true
+            },
+            {
+              "id": "1785_2",
+              "order": 2,
+              "text": "go",
+              "value": "2528",
+              "is_correct": false
+            },
+            {
+              "id": "1785_3",
+              "order": 3,
+              "text": "to going",
+              "value": "2529",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1786",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 Tommy and I are very different, but we are used ______ together.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1786_1",
+              "order": 1,
+              "text": "to living",
+              "value": "2530",
+              "is_correct": true
+            },
+            {
+              "id": "1786_2",
+              "order": 2,
+              "text": "to live",
+              "value": "2531",
+              "is_correct": false
+            },
+            {
+              "id": "1786_3",
+              "order": 3,
+              "text": "living",
+              "value": "2532",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1787",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 There ______ a library at the end of the street, but now there is a gym.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1787_1",
+              "order": 1,
+              "text": "got used to being",
+              "value": "2533",
+              "is_correct": false
+            },
+            {
+              "id": "1787_2",
+              "order": 2,
+              "text": "used to be",
+              "value": "2534",
+              "is_correct": true
+            },
+            {
+              "id": "1787_3",
+              "order": 3,
+              "text": "was used to being",
+              "value": "2535",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1788",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I'm not feeling well. I'm not used ______ until so late.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1788_1",
+              "order": 1,
+              "text": "to go out",
+              "value": "2536",
+              "is_correct": false
+            },
+            {
+              "id": "1788_2",
+              "order": 2,
+              "text": "going out",
+              "value": "2537",
+              "is_correct": false
+            },
+            {
+              "id": "1788_3",
+              "order": 3,
+              "text": "to going out",
+              "value": "2538",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1789",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 ______ to like ketchup when you were a child?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1789_1",
+              "order": 1,
+              "text": "Did you use",
+              "value": "2539",
+              "is_correct": true
+            },
+            {
+              "id": "1789_2",
+              "order": 2,
+              "text": "Did you used",
+              "value": "2540",
+              "is_correct": false
+            },
+            {
+              "id": "1789_3",
+              "order": 3,
+              "text": "Used you",
+              "value": "2541",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1790",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 We ______ to travel too much before we had our daughter.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1790_1",
+              "order": 1,
+              "text": "didn't use",
+              "value": "2542",
+              "is_correct": true
+            },
+            {
+              "id": "1790_2",
+              "order": 2,
+              "text": "usedn't to",
+              "value": "2543",
+              "is_correct": false
+            },
+            {
+              "id": "1790_3",
+              "order": 3,
+              "text": "didn't used",
+              "value": "2544",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1791",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 ______ book your holidays in advance?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1791_1",
+              "order": 1,
+              "text": "Do you use to",
+              "value": "2545",
+              "is_correct": false
+            },
+            {
+              "id": "1791_2",
+              "order": 2,
+              "text": "Do you usually",
+              "value": "2546",
+              "is_correct": true
+            },
+            {
+              "id": "1791_3",
+              "order": 3,
+              "text": "Are you used to",
+              "value": "2547",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1792",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Before I bought my car, I ______ walk everywhere.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1792_1",
+              "order": 1,
+              "text": "used to",
+              "value": "2548",
+              "is_correct": true
+            },
+            {
+              "id": "1792_2",
+              "order": 2,
+              "text": "got used to",
+              "value": "2549",
+              "is_correct": false
+            },
+            {
+              "id": "1792_3",
+              "order": 3,
+              "text": "was used to",
+              "value": "2550",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1793",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I'm still ______ to driving such a big car. I think it will take me some time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1793_1",
+              "order": 1,
+              "text": "used",
+              "value": "2551",
+              "is_correct": false
+            },
+            {
+              "id": "1793_2",
+              "order": 2,
+              "text": "getting used",
+              "value": "2552",
+              "is_correct": true
+            },
+            {
+              "id": "1793_3",
+              "order": 3,
+              "text": "being used",
+              "value": "2553",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1794",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 We ______ order pizza online.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1794_1",
+              "order": 1,
+              "text": "don't usually",
+              "value": "2554",
+              "is_correct": true
+            },
+            {
+              "id": "1794_2",
+              "order": 2,
+              "text": "don't use to",
+              "value": "2555",
+              "is_correct": false
+            },
+            {
+              "id": "1794_3",
+              "order": 3,
+              "text": "aren't used to",
+              "value": "2556",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-214",
+      "lessonId": "b1_usually_used_to_be_used_to_get_used_to",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the text with the words provided in the box below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_usually-used-to-be-used-to-get-used-to_3.html",
+      "questions": [
+        {
+          "id": "1795",
+          "order": 1,
+          "type": "gap_text",
+          "text": "A few years ago, we used to 1 {{gap1}} in a very small flat in a very poor area. We were used to 2 {{gap2}} with very little. We 3 {{gap3}} to have good furniture or a good TV, and of course, we didn't use 4 {{gap4}} what it was to have an internet connection. In our neighbourhood, the streets used 5 {{gap5}} dark and dirty, and 6 {{gap6}} used to be a lot of robberies. Then we won the lottery, and everything changed for us. We bought a new flat in a very nice area of the city, where we have been living for the last three years. We 7 {{gap7}} to sleeping in comfy beds and eating good food very quickly, but it wasn't so easy to get used to 8 {{gap8}}. They are the kind of people who don't 9 {{gap9}} talk to each other and they are used to 10 {{gap10}} everything very easily. We share the same neighbourhood but we don't share the same values.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1795_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "live",
+              "accepted_answers": [
+                "live"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1795_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "living",
+              "accepted_answers": [
+                "living"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1795_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "didn't use",
+              "accepted_answers": [
+                "didn't use"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1795_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "to know",
+              "accepted_answers": [
+                "to know"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1795_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "to be",
+              "accepted_answers": [
+                "to be"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1795_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "there",
+              "accepted_answers": [
+                "there"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1795_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "got used",
+              "accepted_answers": [
+                "got used"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1795_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "the neighbours",
+              "accepted_answers": [
+                "the neighbours"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1795_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "usually",
+              "accepted_answers": [
+                "usually"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1795_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "having",
+              "accepted_answers": [
+                "having"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

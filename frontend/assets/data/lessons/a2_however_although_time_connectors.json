@@ -1,0 +1,1017 @@
+{
+  "lesson_id": "a2_however_although_time_connectors",
+  "level": "A2",
+  "title": "However, although, because, so, and time connectors",
+  "description": "Практический тест и правила по теме: However, although, because, so, and time connectors",
+  "theory": {
+    "title": "Правила и грамматика: However, although, because, so, and time connectors",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «However, although, because, so, and time connectors».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «However, although, because, so, and time connectors» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-332",
+      "lessonId": "a2_however_although_time_connectors",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose so, because, but, although to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_however-although-time-connectors.html",
+      "questions": [
+        {
+          "id": "2848",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 We couldn't find a taxi, {{gap1}} we walked home",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2848_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": [
+                {
+                  "id": "gap_2848_1_1",
+                  "order": 1,
+                  "text": "although",
+                  "value": "although",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2848_1_2",
+                  "order": 2,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2848_1_3",
+                  "order": 3,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2848_1_4",
+                  "order": 4,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2849",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 {{gap1}} it was very cold, she wasn't wearing a coat.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2849_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Although",
+              "accepted_answers": [
+                "Although"
+              ],
+              "options": [
+                {
+                  "id": "gap_2849_1_1",
+                  "order": 1,
+                  "text": "Although",
+                  "value": "Although",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2849_1_2",
+                  "order": 2,
+                  "text": "So",
+                  "value": "So",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2849_1_3",
+                  "order": 3,
+                  "text": "Because",
+                  "value": "Because",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2849_1_4",
+                  "order": 4,
+                  "text": "But",
+                  "value": "But",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2850",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 I woke up {{gap1}} there was a noise.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2850_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "because",
+              "accepted_answers": [
+                "because"
+              ],
+              "options": [
+                {
+                  "id": "gap_2850_1_1",
+                  "order": 1,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2850_1_2",
+                  "order": 2,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2850_1_3",
+                  "order": 3,
+                  "text": "although",
+                  "value": "although",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2850_1_4",
+                  "order": 4,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2851",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I called him {{gap1}} his mobile was turned off.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2851_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "but",
+              "accepted_answers": [
+                "but"
+              ],
+              "options": [
+                {
+                  "id": "gap_2851_1_1",
+                  "order": 1,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2851_1_2",
+                  "order": 2,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2851_1_3",
+                  "order": 3,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2852",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 {{gap1}} she's very nice, she doesn't have many friends.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2852_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Although",
+              "accepted_answers": [
+                "Although"
+              ],
+              "options": [
+                {
+                  "id": "gap_2852_1_1",
+                  "order": 1,
+                  "text": "So",
+                  "value": "So",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2852_1_2",
+                  "order": 2,
+                  "text": "Although",
+                  "value": "Although",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2852_1_3",
+                  "order": 3,
+                  "text": "Because",
+                  "value": "Because",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2852_1_4",
+                  "order": 4,
+                  "text": "But",
+                  "value": "But",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2853",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 There was nothing on TV, {{gap1}} I went to bed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2853_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": [
+                {
+                  "id": "gap_2853_1_1",
+                  "order": 1,
+                  "text": "although",
+                  "value": "although",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2853_1_2",
+                  "order": 2,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2853_1_3",
+                  "order": 3,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2853_1_4",
+                  "order": 4,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2854",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 All the cafés were full {{gap1}} it was a public holiday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2854_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "because",
+              "accepted_answers": [
+                "because"
+              ],
+              "options": [
+                {
+                  "id": "gap_2854_1_1",
+                  "order": 1,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2854_1_2",
+                  "order": 2,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2854_1_3",
+                  "order": 3,
+                  "text": "although",
+                  "value": "although",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2854_1_4",
+                  "order": 4,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2855",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 She studied quite hard {{gap1}} she failed the exam.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2855_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "but",
+              "accepted_answers": [
+                "but"
+              ],
+              "options": [
+                {
+                  "id": "gap_2855_1_1",
+                  "order": 1,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2855_1_2",
+                  "order": 2,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2855_1_3",
+                  "order": 3,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2856",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 She was crying {{gap1}} her team lost the match",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2856_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "because",
+              "accepted_answers": [
+                "because"
+              ],
+              "options": [
+                {
+                  "id": "gap_2856_1_1",
+                  "order": 1,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2856_1_2",
+                  "order": 2,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2856_1_3",
+                  "order": 3,
+                  "text": "although",
+                  "value": "although",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2856_1_4",
+                  "order": 4,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2857",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 They wanted to win {{gap1}} it was impossible",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2857_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "but",
+              "accepted_answers": [
+                "but"
+              ],
+              "options": [
+                {
+                  "id": "gap_2857_1_1",
+                  "order": 1,
+                  "text": "but",
+                  "value": "but",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_2857_1_2",
+                  "order": 2,
+                  "text": "so",
+                  "value": "so",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_2857_1_3",
+                  "order": 3,
+                  "text": "because",
+                  "value": "because",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-333",
+      "lessonId": "a2_however_although_time_connectors",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct forms for the gaps below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_however-although-time-connectors_2.html",
+      "questions": [
+        {
+          "id": "2858",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 We need to buy a new car. _____, we can't afford it right now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2858_1",
+              "order": 1,
+              "text": "Although",
+              "value": "4913",
+              "is_correct": false
+            },
+            {
+              "id": "2858_2",
+              "order": 2,
+              "text": "So",
+              "value": "4914",
+              "is_correct": false
+            },
+            {
+              "id": "2858_3",
+              "order": 3,
+              "text": "However",
+              "value": "4915",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2859",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 ______ he is very rich and famous, he lives a very normal life.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2859_1",
+              "order": 1,
+              "text": "Although",
+              "value": "4916",
+              "is_correct": true
+            },
+            {
+              "id": "2859_2",
+              "order": 2,
+              "text": "However",
+              "value": "4917",
+              "is_correct": false
+            },
+            {
+              "id": "2859_3",
+              "order": 3,
+              "text": "Because",
+              "value": "4918",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2860",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 They had to cancel the concert _____ the bad weather.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2860_1",
+              "order": 1,
+              "text": "so",
+              "value": "4919",
+              "is_correct": false
+            },
+            {
+              "id": "2860_2",
+              "order": 2,
+              "text": "because of",
+              "value": "4920",
+              "is_correct": true
+            },
+            {
+              "id": "2860_3",
+              "order": 3,
+              "text": "however",
+              "value": "4921",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2861",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 We'll go out ______ it stops raining.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2861_1",
+              "order": 1,
+              "text": "although",
+              "value": "4922",
+              "is_correct": false
+            },
+            {
+              "id": "2861_2",
+              "order": 2,
+              "text": "while",
+              "value": "4923",
+              "is_correct": false
+            },
+            {
+              "id": "2861_3",
+              "order": 3,
+              "text": "as soon as",
+              "value": "4924",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2862",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 He didn't have his car, _____ he had to take a taxi.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2862_1",
+              "order": 1,
+              "text": "because",
+              "value": "4925",
+              "is_correct": false
+            },
+            {
+              "id": "2862_2",
+              "order": 2,
+              "text": "so",
+              "value": "4926",
+              "is_correct": true
+            },
+            {
+              "id": "2862_3",
+              "order": 3,
+              "text": "however",
+              "value": "4927",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2863",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 _____ he was almost deaf, he was a fantastic musician.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2863_1",
+              "order": 1,
+              "text": "Although",
+              "value": "4928",
+              "is_correct": true
+            },
+            {
+              "id": "2863_2",
+              "order": 2,
+              "text": "However",
+              "value": "4929",
+              "is_correct": false
+            },
+            {
+              "id": "2863_3",
+              "order": 3,
+              "text": "Because",
+              "value": "4930",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2864",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 He was expelled from school _____ his bad behaviour.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2864_1",
+              "order": 1,
+              "text": "although",
+              "value": "4931",
+              "is_correct": false
+            },
+            {
+              "id": "2864_2",
+              "order": 2,
+              "text": "however",
+              "value": "4932",
+              "is_correct": false
+            },
+            {
+              "id": "2864_3",
+              "order": 3,
+              "text": "because of",
+              "value": "4933",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2865",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 _____ she has a bit more experience, she'll become a fantastic teacher.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2865_1",
+              "order": 1,
+              "text": "Once",
+              "value": "4934",
+              "is_correct": true
+            },
+            {
+              "id": "2865_2",
+              "order": 2,
+              "text": "Before",
+              "value": "4935",
+              "is_correct": false
+            },
+            {
+              "id": "2865_3",
+              "order": 3,
+              "text": "While",
+              "value": "4936",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "2866",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 The first thing I do when I get up is have breakfast. ______, I have a shower and go to work.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2866_1",
+              "order": 1,
+              "text": "After",
+              "value": "4937",
+              "is_correct": false
+            },
+            {
+              "id": "2866_2",
+              "order": 2,
+              "text": "Before",
+              "value": "4938",
+              "is_correct": false
+            },
+            {
+              "id": "2866_3",
+              "order": 3,
+              "text": "After that",
+              "value": "4939",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "2867",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I usually read the newspaper ______ I'm having breakfast.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "2867_1",
+              "order": 1,
+              "text": "while",
+              "value": "4940",
+              "is_correct": true
+            },
+            {
+              "id": "2867_2",
+              "order": 2,
+              "text": "after",
+              "value": "4941",
+              "is_correct": false
+            },
+            {
+              "id": "2867_3",
+              "order": 3,
+              "text": "as soon as",
+              "value": "4942",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-334",
+      "lessonId": "a2_however_although_time_connectors",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the connectors in the box below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_however-although-time-connectors_3.html",
+      "questions": [
+        {
+          "id": "2868",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 {{gap1}} I arrived home, I put on my pyjamas and I lay down on the sofa. I was exhausted and I wasn’t very hungry, 2 {{gap2}} I decided not to have anything for dinner. I just got a glass of milk from the fridge. 3 {{gap3}}, I lay on the sofa and I turned on the TV 4 {{gap4}} I wanted to watch a film. 5 {{gap5}}, there was nothing interesting on TV. I decided to go to bed, 6 {{gap6}} I wasn’t very sleepy. Once I was in bed, I remembered that I had to take my medication. I can’t sleep well at night 7 {{gap7}} my insomnia, 8 {{gap8}} I always take a sleeping tablet 9 {{gap9}} I go to bed. 10 {{gap10}} taking the sleeping tablet, I went back to bed and I could finally sleep.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_2868_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "When",
+              "accepted_answers": [
+                "When"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2868_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2868_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "Then",
+              "accepted_answers": [
+                "Then"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2868_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "because",
+              "accepted_answers": [
+                "because"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2868_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "However",
+              "accepted_answers": [
+                "However"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2868_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "although",
+              "accepted_answers": [
+                "although"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2868_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "because of",
+              "accepted_answers": [
+                "because of"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2868_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "so",
+              "accepted_answers": [
+                "so"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2868_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "before",
+              "accepted_answers": [
+                "before"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_2868_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "After",
+              "accepted_answers": [
+                "After"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

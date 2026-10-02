@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1_would_rather_would_sooner",
+  "level": "B1",
+  "title": "Would rather & Would sooner",
+  "description": "Практический тест и правила по теме: Would rather & Would sooner",
+  "theory": {
+    "title": "Правила и грамматика: Would rather & Would sooner",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Would rather & Would sooner».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Would rather & Would sooner» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-921",
+      "lessonId": "b1_would_rather_would_sooner",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct verb forms to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_would-rather-would-sooner.html",
+      "questions": [
+        {
+          "id": "7793",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 White coffee is nice, but I would sooner {{gap1}} it black.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7793_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have",
+              "accepted_answers": [
+                "have"
+              ],
+              "options": [
+                {
+                  "id": "gap_7793_1_1",
+                  "order": 1,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7793_1_2",
+                  "order": 2,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7793_1_3",
+                  "order": 3,
+                  "text": "to have",
+                  "value": "to have",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7794",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I would rather you {{gap1}} that.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7794_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't touch",
+              "accepted_answers": [
+                "didn't touch"
+              ],
+              "options": [
+                {
+                  "id": "gap_7794_1_1",
+                  "order": 1,
+                  "text": "didn't touch",
+                  "value": "didn't touch",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7794_1_2",
+                  "order": 2,
+                  "text": "not touched",
+                  "value": "not touched",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7794_1_3",
+                  "order": 3,
+                  "text": "don't touch",
+                  "value": "don't touch",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7795",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 You should join us. Thanks, but I {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7795_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "'d rather not",
+              "accepted_answers": [
+                "'d rather not"
+              ],
+              "options": [
+                {
+                  "id": "gap_7795_1_1",
+                  "order": 1,
+                  "text": "would rather don't",
+                  "value": "would rather don't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7795_1_2",
+                  "order": 2,
+                  "text": "didn't rather",
+                  "value": "didn't rather",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7795_1_3",
+                  "order": 3,
+                  "text": "'d rather not",
+                  "value": "'d rather not",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7796",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I would rather you {{gap1}} your boots in the house.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7796_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't wear",
+              "accepted_answers": [
+                "didn't wear"
+              ],
+              "options": [
+                {
+                  "id": "gap_7796_1_1",
+                  "order": 1,
+                  "text": "didn't wear",
+                  "value": "didn't wear",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7796_1_2",
+                  "order": 2,
+                  "text": "wear not",
+                  "value": "wear not",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7796_1_3",
+                  "order": 3,
+                  "text": "don't wear",
+                  "value": "don't wear",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7797",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 We would rather you {{gap1}} the children.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7797_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "didn't bring",
+              "accepted_answers": [
+                "didn't bring"
+              ],
+              "options": [
+                {
+                  "id": "gap_7797_1_1",
+                  "order": 1,
+                  "text": "not brought",
+                  "value": "not brought",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7797_1_2",
+                  "order": 2,
+                  "text": "don't bring",
+                  "value": "don't bring",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7797_1_3",
+                  "order": 3,
+                  "text": "didn't bring",
+                  "value": "didn't bring",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7798",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Would you rather {{gap1}} beautiful or intelligent?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7798_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "be",
+              "accepted_answers": [
+                "be"
+              ],
+              "options": [
+                {
+                  "id": "gap_7798_1_1",
+                  "order": 1,
+                  "text": "be",
+                  "value": "be",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7798_1_2",
+                  "order": 2,
+                  "text": "been",
+                  "value": "been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7798_1_3",
+                  "order": 3,
+                  "text": "to be",
+                  "value": "to be",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7799",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 I would sooner {{gap1}} at home than go abroad this summer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7799_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "stay",
+              "accepted_answers": [
+                "stay"
+              ],
+              "options": [
+                {
+                  "id": "gap_7799_1_1",
+                  "order": 1,
+                  "text": "stayed",
+                  "value": "stayed",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7799_1_2",
+                  "order": 2,
+                  "text": "staying",
+                  "value": "staying",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7799_1_3",
+                  "order": 3,
+                  "text": "stay",
+                  "value": "stay",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7800",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Which would you rather {{gap1}}, this one or that one?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7800_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have",
+              "accepted_answers": [
+                "have"
+              ],
+              "options": [
+                {
+                  "id": "gap_7800_1_1",
+                  "order": 1,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7800_1_2",
+                  "order": 2,
+                  "text": "to have",
+                  "value": "to have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7800_1_3",
+                  "order": 3,
+                  "text": "had",
+                  "value": "had",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7801",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I would rather {{gap1}} alone.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7801_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "you came",
+              "accepted_answers": [
+                "you came"
+              ],
+              "options": [
+                {
+                  "id": "gap_7801_1_1",
+                  "order": 1,
+                  "text": "you came",
+                  "value": "you came",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7801_1_2",
+                  "order": 2,
+                  "text": "came",
+                  "value": "came",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7801_1_3",
+                  "order": 3,
+                  "text": "you come",
+                  "value": "you come",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7802",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Would you like Joe to help you? I'd rather {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7802_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "he didn't",
+              "accepted_answers": [
+                "he didn't"
+              ],
+              "options": [
+                {
+                  "id": "gap_7802_1_1",
+                  "order": 1,
+                  "text": "didn't",
+                  "value": "didn't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7802_1_2",
+                  "order": 2,
+                  "text": "he didn't",
+                  "value": "he didn't",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7802_1_3",
+                  "order": 3,
+                  "text": "not",
+                  "value": "not",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-922",
+      "lessonId": "b1_would_rather_would_sooner",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct verb forms for the gaps below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_would-rather-would-sooner_2.html",
+      "questions": [
+        {
+          "id": "7803",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 We’d rather_____ pizza than curry.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7803_1",
+              "order": 1,
+              "text": "to have",
+              "value": "13824",
+              "is_correct": false
+            },
+            {
+              "id": "7803_2",
+              "order": 2,
+              "text": "have",
+              "value": "13825",
+              "is_correct": true
+            },
+            {
+              "id": "7803_3",
+              "order": 3,
+              "text": "had",
+              "value": "13826",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7804",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I would rather _____ tomorrow night instead of tonight.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7804_1",
+              "order": 1,
+              "text": "you came",
+              "value": "13827",
+              "is_correct": true
+            },
+            {
+              "id": "7804_2",
+              "order": 2,
+              "text": "came",
+              "value": "13828",
+              "is_correct": false
+            },
+            {
+              "id": "7804_3",
+              "order": 3,
+              "text": "you to come",
+              "value": "13829",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7805",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 \"Would you like to come to the theatre with us?\" \"Thanks, but I _____.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7805_1",
+              "order": 1,
+              "text": "didn't rather",
+              "value": "13830",
+              "is_correct": false
+            },
+            {
+              "id": "7805_2",
+              "order": 2,
+              "text": "'d rather you didn’t",
+              "value": "13831",
+              "is_correct": false
+            },
+            {
+              "id": "7805_3",
+              "order": 3,
+              "text": "'d rather not",
+              "value": "13832",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7806",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 \"Would you like any dessert?\" \"Thanks, but I'd sooner _____ a coffee.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7806_1",
+              "order": 1,
+              "text": "have",
+              "value": "13833",
+              "is_correct": true
+            },
+            {
+              "id": "7806_2",
+              "order": 2,
+              "text": "having",
+              "value": "13834",
+              "is_correct": false
+            },
+            {
+              "id": "7806_3",
+              "order": 3,
+              "text": "to have",
+              "value": "13835",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7807",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 Would you rather _____ this film or that one?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7807_1",
+              "order": 1,
+              "text": "to watch",
+              "value": "13836",
+              "is_correct": false
+            },
+            {
+              "id": "7807_2",
+              "order": 2,
+              "text": "watch",
+              "value": "13837",
+              "is_correct": true
+            },
+            {
+              "id": "7807_3",
+              "order": 3,
+              "text": "watched",
+              "value": "13838",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7808",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 We would rather _____ in the garden.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7808_1",
+              "order": 1,
+              "text": "the dogs stay",
+              "value": "13839",
+              "is_correct": false
+            },
+            {
+              "id": "7808_2",
+              "order": 2,
+              "text": "the dogs to stay",
+              "value": "13840",
+              "is_correct": false
+            },
+            {
+              "id": "7808_3",
+              "order": 3,
+              "text": "the dogs stayed",
+              "value": "13841",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7809",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 I'd sooner _____ this one than that one.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7809_1",
+              "order": 1,
+              "text": "get",
+              "value": "13842",
+              "is_correct": true
+            },
+            {
+              "id": "7809_2",
+              "order": 2,
+              "text": "got",
+              "value": "13843",
+              "is_correct": false
+            },
+            {
+              "id": "7809_3",
+              "order": 3,
+              "text": "you get",
+              "value": "13844",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7810",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 \"Would you like the children to keep you company?\" \"Thanks, but I _____.\"",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7810_1",
+              "order": 1,
+              "text": "didn't rather",
+              "value": "13845",
+              "is_correct": false
+            },
+            {
+              "id": "7810_2",
+              "order": 2,
+              "text": "wouldn't rather",
+              "value": "13846",
+              "is_correct": false
+            },
+            {
+              "id": "7810_3",
+              "order": 3,
+              "text": "'d rather they didn't",
+              "value": "13847",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7811",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 We _____ swimming than sailing.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7811_1",
+              "order": 1,
+              "text": "'d sooner go",
+              "value": "13848",
+              "is_correct": true
+            },
+            {
+              "id": "7811_2",
+              "order": 2,
+              "text": "'d rather gone",
+              "value": "13849",
+              "is_correct": false
+            },
+            {
+              "id": "7811_3",
+              "order": 3,
+              "text": "'d sooner to go",
+              "value": "13850",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7812",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I would rather _____ the window.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7812_1",
+              "order": 1,
+              "text": "you not open",
+              "value": "13851",
+              "is_correct": false
+            },
+            {
+              "id": "7812_2",
+              "order": 2,
+              "text": "didn't open",
+              "value": "13852",
+              "is_correct": false
+            },
+            {
+              "id": "7812_3",
+              "order": 3,
+              "text": "you didn't open",
+              "value": "13853",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-923",
+      "lessonId": "b1_would_rather_would_sooner",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the words in brackets in a suitable form. In cases where there is no verb, a short answer is required.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_would-rather-would-sooner_3.html",
+      "questions": [
+        {
+          "id": "7813",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I'd {{gap1}} (rather/you/smoke) that cigar outside.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7813_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "rather you smoked",
+              "accepted_answers": [
+                "rather you smoked"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7814",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Would {{gap1}} (you/rather/stay) in this evening or go out?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7814_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "you rather stay",
+              "accepted_answers": [
+                "you rather stay"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7815",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I'd {{gap1}} (rather/you/not/change) channels.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7815_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "rather you didn't change",
+              "accepted_answers": [
+                "rather you didn't change"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7816",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 This salad looks good, but I'd {{gap1}} (rather/have) the burger.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7816_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "rather have",
+              "accepted_answers": [
+                "rather have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7817",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 I'd {{gap1}} (sooner/eat) raw meat than eat cold beans.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7817_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "sooner eat",
+              "accepted_answers": [
+                "sooner eat"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7818",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Would you like to join us? Thanks, but I'd {{gap1}} (rather/not).",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7818_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "rather not",
+              "accepted_answers": [
+                "rather not"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7819",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 James says he'd {{gap1}} (sooner/work) alone than with a partner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7819_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "sooner work",
+              "accepted_answers": [
+                "sooner work"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7820",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Would you like me to help you? Thanks, but I'd {{gap1}} (rather/you/not)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7820_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "rather you didn't",
+              "accepted_answers": [
+                "rather you didn't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7821",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 We'd {{gap1}} (sooner/sleep) on the sofa than in the bedroom.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7821_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "sooner sleep",
+              "accepted_answers": [
+                "sooner sleep"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7822",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I'd {{gap1}} (rather/we/watch) this film than that one.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7822_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "rather we watched",
+              "accepted_answers": [
+                "rather we watched"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

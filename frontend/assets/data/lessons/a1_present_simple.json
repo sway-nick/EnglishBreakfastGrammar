@@ -1,0 +1,1100 @@
+{
+  "lesson_id": "a1_present_simple",
+  "level": "A1",
+  "title": "Present simple: I do, I don't, Do I?",
+  "description": "Практический тест и правила по теме: Present simple: I do, I don't, Do I?",
+  "theory": {
+    "title": "Правила и грамматика: Present simple: I do, I don't, Do I?",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Present simple: I do, I don't, Do I?».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Present simple: I do, I don't, Do I?» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-430",
+      "lessonId": "a1_present_simple",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct present simple forms to complete the following sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-simple.html",
+      "questions": [
+        {
+          "id": "3728",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I {{gap1}} tea.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3728_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "don't drink",
+              "accepted_answers": [
+                "don't drink"
+              ],
+              "options": [
+                {
+                  "id": "gap_3728_1_1",
+                  "order": 1,
+                  "text": "not drink",
+                  "value": "not drink",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3728_1_2",
+                  "order": 2,
+                  "text": "don't drink",
+                  "value": "don't drink",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3728_1_3",
+                  "order": 3,
+                  "text": "drink not",
+                  "value": "drink not",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3729",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 She {{gap1}} two brothers.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3729_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "has",
+              "accepted_answers": [
+                "has"
+              ],
+              "options": [
+                {
+                  "id": "gap_3729_1_1",
+                  "order": 1,
+                  "text": "haves",
+                  "value": "haves",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3729_1_2",
+                  "order": 2,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3729_1_3",
+                  "order": 3,
+                  "text": "has",
+                  "value": "has",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3730",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Tom {{gap1}} work until 10 today.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3730_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "doesn't start",
+              "accepted_answers": [
+                "doesn't start"
+              ],
+              "options": [
+                {
+                  "id": "gap_3730_1_1",
+                  "order": 1,
+                  "text": "doesn't start",
+                  "value": "doesn't start",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3730_1_2",
+                  "order": 2,
+                  "text": "do not start",
+                  "value": "do not start",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3730_1_3",
+                  "order": 3,
+                  "text": "doesn't starts",
+                  "value": "doesn't starts",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3731",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 {{gap1}} an instrument?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3731_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Do you play",
+              "accepted_answers": [
+                "Do you play"
+              ],
+              "options": [
+                {
+                  "id": "gap_3731_1_1",
+                  "order": 1,
+                  "text": "You play",
+                  "value": "You play",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3731_1_2",
+                  "order": 2,
+                  "text": "Do you play",
+                  "value": "Do you play",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3731_1_3",
+                  "order": 3,
+                  "text": "You do play",
+                  "value": "You do play",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3732",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 The museum {{gap1}} at 10 o'clock.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3732_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "opens",
+              "accepted_answers": [
+                "opens"
+              ],
+              "options": [
+                {
+                  "id": "gap_3732_1_1",
+                  "order": 1,
+                  "text": "does open",
+                  "value": "does open",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3732_1_2",
+                  "order": 2,
+                  "text": "open",
+                  "value": "open",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3732_1_3",
+                  "order": 3,
+                  "text": "opens",
+                  "value": "opens",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3733",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Peter and Megan often {{gap1}} to the cinema.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3733_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "go",
+              "accepted_answers": [
+                "go"
+              ],
+              "options": [
+                {
+                  "id": "gap_3733_1_1",
+                  "order": 1,
+                  "text": "go",
+                  "value": "go",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3733_1_2",
+                  "order": 2,
+                  "text": "do go",
+                  "value": "do go",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3733_1_3",
+                  "order": 3,
+                  "text": "goes",
+                  "value": "goes",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3734",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 John {{gap1}} very late.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3734_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "doesn't get up",
+              "accepted_answers": [
+                "doesn't get up"
+              ],
+              "options": [
+                {
+                  "id": "gap_3734_1_1",
+                  "order": 1,
+                  "text": "doesn't gets up",
+                  "value": "doesn't gets up",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3734_1_2",
+                  "order": 2,
+                  "text": "do not get up",
+                  "value": "do not get up",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3734_1_3",
+                  "order": 3,
+                  "text": "doesn't get up",
+                  "value": "doesn't get up",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3735",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 What time {{gap1}} home in the morning?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3735_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "do they leave",
+              "accepted_answers": [
+                "do they leave"
+              ],
+              "options": [
+                {
+                  "id": "gap_3735_1_1",
+                  "order": 1,
+                  "text": "they do leave",
+                  "value": "they do leave",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3735_1_2",
+                  "order": 2,
+                  "text": "do they leave",
+                  "value": "do they leave",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3735_1_3",
+                  "order": 3,
+                  "text": "they leave",
+                  "value": "they leave",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3736",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 What language {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3736_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "does he study",
+              "accepted_answers": [
+                "does he study"
+              ],
+              "options": [
+                {
+                  "id": "gap_3736_1_1",
+                  "order": 1,
+                  "text": "does he studies",
+                  "value": "does he studies",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3736_1_2",
+                  "order": 2,
+                  "text": "does he study",
+                  "value": "does he study",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3736_1_3",
+                  "order": 3,
+                  "text": "do he studies",
+                  "value": "do he studies",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3737",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 My son never {{gap1}} cartoons.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3737_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "watches",
+              "accepted_answers": [
+                "watches"
+              ],
+              "options": [
+                {
+                  "id": "gap_3737_1_1",
+                  "order": 1,
+                  "text": "watches",
+                  "value": "watches",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3737_1_2",
+                  "order": 2,
+                  "text": "watch",
+                  "value": "watch",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3737_1_3",
+                  "order": 3,
+                  "text": "watchs",
+                  "value": "watchs",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-431",
+      "lessonId": "a1_present_simple",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Transform the following sentences into negatives.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-simple_2.html",
+      "questions": [
+        {
+          "id": "3738",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 He is a student. ⇒ He {{gap1}} a student.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3738_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "isn't",
+              "accepted_answers": [
+                "isn't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3739",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Peter works in an office. ⇒ Peter {{gap1}} in an office.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3739_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "doesn't work",
+              "accepted_answers": [
+                "doesn't work"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3740",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 My parents live in Arizona. ⇒ My parents {{gap1}} in Arizona.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3740_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't live",
+              "accepted_answers": [
+                "don't live"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3741",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Suzan likes cats. ⇒ Suzan {{gap1}} cats.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3741_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "doesn't like",
+              "accepted_answers": [
+                "doesn't like"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3742",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 He has brothers and sisters. ⇒ He {{gap1}} any brothers or sisters.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3742_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "doesn't have",
+              "accepted_answers": [
+                "doesn't have"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3743",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 She speaks three languages. ⇒ She {{gap1}} three languages.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3743_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "doesn't speak",
+              "accepted_answers": [
+                "doesn't speak"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3744",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 John and I want to be musicians. ⇒ John and I {{gap1}} to be musicians.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3744_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't want",
+              "accepted_answers": [
+                "don't want"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3745",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 They play tennis. ⇒ They {{gap1}} tennis.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3745_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't play",
+              "accepted_answers": [
+                "don't play"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3746",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 She gets home late. ⇒ She {{gap1}} home late.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3746_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "doesn't get",
+              "accepted_answers": [
+                "doesn't get"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3747",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Anna and Paul live in the center. ⇒ Anna and Paul {{gap1}} in the center.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3747_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't live",
+              "accepted_answers": [
+                "don't live"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-432",
+      "lessonId": "a1_present_simple",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Write questions in present simple.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-simple_3.html",
+      "questions": [
+        {
+          "id": "3748",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Laura / play / tennis ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3748_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Does Laura play tennis",
+              "accepted_answers": [
+                "Does Laura play tennis"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3749",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 you / speak / English ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3749_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Do you speak English",
+              "accepted_answers": [
+                "Do you speak English"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3750",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 you / want / some coffee ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3750_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Do you want some coffee",
+              "accepted_answers": [
+                "Do you want some coffee"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3751",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Where / he / live ⇒ Where {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3751_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "does he live",
+              "accepted_answers": [
+                "does he live"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3752",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 How often / they / go to the cinema ⇒ How often {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3752_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "do they go to the cinema",
+              "accepted_answers": [
+                "do they go to the cinema"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3753",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 What time / Suzan / start work ⇒ What time {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3753_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "does Suzan start work",
+              "accepted_answers": [
+                "does Suzan start work"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3754",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Where / she / work ⇒ Where {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3754_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "does she work",
+              "accepted_answers": [
+                "does she work"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3755",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 you / listen to music ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3755_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Do you listen to music",
+              "accepted_answers": [
+                "Do you listen to music"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3756",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 he / watch / series ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3756_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Does he watch series",
+              "accepted_answers": [
+                "Does he watch series"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3757",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 How often / they / travel ⇒ How often {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3757_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "do they travel",
+              "accepted_answers": [
+                "do they travel"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-433",
+      "lessonId": "a1_present_simple",
+      "order": 4,
+      "page": 4,
+      "title": "Exercise 4",
+      "instruction": "Fill in the gaps with the verbs in brackets in present simple affirmative or negative.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_present-simple_4.html",
+      "questions": [
+        {
+          "id": "3758",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Sara is my daughter. She has (have) two daughters; they are my granddaughters. Sara 1 {{gap1}} (not have) much free time because she 2 {{gap2}} (work) in a shop. In the week, she 3 {{gap3}} (get up) very early and she 4 {{gap4}} (go) to bed quite late every day. She 5 {{gap5}} (love) Sundays because she 6 {{gap6}} (not work) and she 7 {{gap7}} (spend) the day with her family. On Sundays, they 8 {{gap8}} (not get up) very late because they always 9 {{gap9}} (go out). My granddaughters 10 {{gap10}} (be) always sad on Sunday evenings because it's the end of the weekend.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3758_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "doesn't have",
+              "accepted_answers": [
+                "doesn't have"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3758_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "works",
+              "accepted_answers": [
+                "works"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3758_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "gets up",
+              "accepted_answers": [
+                "gets up"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3758_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "goes",
+              "accepted_answers": [
+                "goes"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3758_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "loves",
+              "accepted_answers": [
+                "loves"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3758_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "doesn't work",
+              "accepted_answers": [
+                "doesn't work"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3758_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "spends",
+              "accepted_answers": [
+                "spends"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3758_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "don't get up",
+              "accepted_answers": [
+                "don't get up"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3758_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "go out",
+              "accepted_answers": [
+                "go out"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3758_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

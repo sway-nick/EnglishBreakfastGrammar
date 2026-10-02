@@ -1,0 +1,1124 @@
+{
+  "lesson_id": "b1-b2_double_negatives_in_english",
+  "level": "B1-B2",
+  "title": "Double negatives in English",
+  "description": "Практический тест и правила по теме: Double negatives in English",
+  "theory": {
+    "title": "Правила и грамматика: Double negatives in English",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Double negatives in English».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Double negatives in English» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-1413",
+      "lessonId": "b1-b2_double_negatives_in_english",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct options to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_double-negatives-in-english.html",
+      "questions": [
+        {
+          "id": "12087",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I won't {{gap1}} ask you again!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12087_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "ever",
+              "accepted_answers": [
+                "ever"
+              ],
+              "options": [
+                {
+                  "id": "gap_12087_1_1",
+                  "order": 1,
+                  "text": "ever",
+                  "value": "ever",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12087_1_2",
+                  "order": 2,
+                  "text": "never",
+                  "value": "never",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12087_1_3",
+                  "order": 3,
+                  "text": "neither",
+                  "value": "neither",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12088",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 He doesn't trust {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12088_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "anybody",
+              "accepted_answers": [
+                "anybody"
+              ],
+              "options": [
+                {
+                  "id": "gap_12088_1_1",
+                  "order": 1,
+                  "text": "no teachers",
+                  "value": "no teachers",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12088_1_2",
+                  "order": 2,
+                  "text": "anybody",
+                  "value": "anybody",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12088_1_3",
+                  "order": 3,
+                  "text": "nobody",
+                  "value": "nobody",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12090",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 I didn't see {{gap1}} Francis {{gap2}} his brother.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12090_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "either",
+              "accepted_answers": [
+                "either"
+              ],
+              "options": [
+                {
+                  "id": "gap_12090_1_1",
+                  "order": 1,
+                  "text": "neither",
+                  "value": "neither",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12090_1_2",
+                  "order": 2,
+                  "text": "either",
+                  "value": "either",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_12090_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "or",
+              "accepted_answers": [
+                "or"
+              ],
+              "options": [
+                {
+                  "id": "gap_12090_2_1",
+                  "order": 1,
+                  "text": "nor",
+                  "value": "nor",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12090_2_2",
+                  "order": 2,
+                  "text": "or",
+                  "value": "or",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12089",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I {{gap1}} hardly see you in this fog.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12089_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "can",
+              "accepted_answers": [
+                "can"
+              ],
+              "options": [
+                {
+                  "id": "gap_12089_1_1",
+                  "order": 1,
+                  "text": "can",
+                  "value": "can",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12089_1_2",
+                  "order": 2,
+                  "text": "can't",
+                  "value": "can't",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12089_1_3",
+                  "order": 3,
+                  "text": "won't",
+                  "value": "won't",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12092",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 I've never seen {{gap1}} like this before.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12092_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "anything",
+              "accepted_answers": [
+                "anything"
+              ],
+              "options": [
+                {
+                  "id": "gap_12092_1_1",
+                  "order": 1,
+                  "text": "no one",
+                  "value": "no one",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12092_1_2",
+                  "order": 2,
+                  "text": "anything",
+                  "value": "anything",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12092_1_3",
+                  "order": 3,
+                  "text": "nothing",
+                  "value": "nothing",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12093",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 She couldn't find {{gap1}} reason to arrest him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12093_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": [
+                {
+                  "id": "gap_12093_1_1",
+                  "order": 1,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12093_1_2",
+                  "order": 2,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12093_1_3",
+                  "order": 3,
+                  "text": "no",
+                  "value": "no",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12094",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 I {{gap1}} done {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12094_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "haven't",
+              "accepted_answers": [
+                "haven't"
+              ],
+              "options": [
+                {
+                  "id": "gap_12094_1_1",
+                  "order": 1,
+                  "text": "haven't",
+                  "value": "haven't",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12094_1_2",
+                  "order": 2,
+                  "text": "ain't",
+                  "value": "ain't",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_12094_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "anything",
+              "accepted_answers": [
+                "anything"
+              ],
+              "options": [
+                {
+                  "id": "gap_12094_2_1",
+                  "order": 1,
+                  "text": "anything",
+                  "value": "anything",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_12094_2_2",
+                  "order": 2,
+                  "text": "nothing",
+                  "value": "nothing",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12095",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 There wasn't {{gap1}} we could do for them at that point.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12095_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "anything",
+              "accepted_answers": [
+                "anything"
+              ],
+              "options": [
+                {
+                  "id": "gap_12095_1_1",
+                  "order": 1,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12095_1_2",
+                  "order": 2,
+                  "text": "nothing",
+                  "value": "nothing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12095_1_3",
+                  "order": 3,
+                  "text": "anything",
+                  "value": "anything",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12096",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I could {{gap1}} live with {{gap2}} like him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12096_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "never",
+              "accepted_answers": [
+                "never"
+              ],
+              "options": [
+                {
+                  "id": "gap_12096_1_1",
+                  "order": 1,
+                  "text": "ever",
+                  "value": "ever",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12096_1_2",
+                  "order": 2,
+                  "text": "never",
+                  "value": "never",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_12096_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "anybody",
+              "accepted_answers": [
+                "anybody"
+              ],
+              "options": [
+                {
+                  "id": "gap_12096_2_1",
+                  "order": 1,
+                  "text": "nobody",
+                  "value": "nobody",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12096_2_2",
+                  "order": 2,
+                  "text": "anybody",
+                  "value": "anybody",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12097",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 He rarely says {{gap1}} interesting.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12097_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "anything",
+              "accepted_answers": [
+                "anything"
+              ],
+              "options": [
+                {
+                  "id": "gap_12097_1_1",
+                  "order": 1,
+                  "text": "none",
+                  "value": "none",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12097_1_2",
+                  "order": 2,
+                  "text": "nothing",
+                  "value": "nothing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_12097_1_3",
+                  "order": 3,
+                  "text": "anything",
+                  "value": "anything",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-1412",
+      "lessonId": "b1-b2_double_negatives_in_english",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct options to answer these questions.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_double-negatives-in-english_2.html",
+      "questions": [
+        {
+          "id": "12086",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 What does this sentence mean? ' I can't not tell her the truth. '",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12086_1",
+              "order": 1,
+              "text": "I must tell her the truth.",
+              "value": "23466",
+              "is_correct": true
+            },
+            {
+              "id": "12086_2",
+              "order": 2,
+              "text": "I don’t have to tell her the truth.",
+              "value": "23467",
+              "is_correct": false
+            },
+            {
+              "id": "12086_3",
+              "order": 3,
+              "text": "I will probably lie to her.",
+              "value": "23468",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "12099",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 What does this sentence mean? ' It’s not uncommon for students to make this mistake. '",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12099_1",
+              "order": 1,
+              "text": "Students never make this mistake.",
+              "value": "23472",
+              "is_correct": false
+            },
+            {
+              "id": "12099_2",
+              "order": 2,
+              "text": "Students rarely make this mistake.",
+              "value": "23473",
+              "is_correct": false
+            },
+            {
+              "id": "12099_3",
+              "order": 3,
+              "text": "Students often make this mistake.",
+              "value": "23474",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "12103",
+          "order": 3,
+          "type": "multiple_choice",
+          "text": "3 Which of these sentences is correct in standard English? Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12103_1",
+              "order": 1,
+              "text": "We didn't invite any of our neighbours.",
+              "value": "23484",
+              "is_correct": true
+            },
+            {
+              "id": "12103_2",
+              "order": 2,
+              "text": "We invited none of our neighbours.",
+              "value": "23485",
+              "is_correct": true
+            },
+            {
+              "id": "12103_3",
+              "order": 3,
+              "text": "We didn't invite none of our neighbours.",
+              "value": "23486",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "12098",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 What does this sentence mean? ' I didn't not like the film, but it was too long. '",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12098_1",
+              "order": 1,
+              "text": "I didn’t like the film at all.",
+              "value": "23469",
+              "is_correct": false
+            },
+            {
+              "id": "12098_2",
+              "order": 2,
+              "text": "I liked the film, but not completely.",
+              "value": "23470",
+              "is_correct": true
+            },
+            {
+              "id": "12098_3",
+              "order": 3,
+              "text": "I loved the film.",
+              "value": "23471",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "12101",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 What does this sentence mean? ' I don't not enjoy her visits, but they can be a bit tiring. '",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12101_1",
+              "order": 1,
+              "text": "I never enjoy her visits.",
+              "value": "23478",
+              "is_correct": false
+            },
+            {
+              "id": "12101_2",
+              "order": 2,
+              "text": "I enjoy her visits a little, but not completely.",
+              "value": "23479",
+              "is_correct": true
+            },
+            {
+              "id": "12101_3",
+              "order": 3,
+              "text": "I love her visits, but she comes too often.",
+              "value": "23480",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "12104",
+          "order": 6,
+          "type": "multiple_choice",
+          "text": "6 Which of these sentences is correct in standard English? Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12104_1",
+              "order": 1,
+              "text": "She hasn't got any friends at school.",
+              "value": "23487",
+              "is_correct": true
+            },
+            {
+              "id": "12104_2",
+              "order": 2,
+              "text": "She hasn't got no friends at school.",
+              "value": "23488",
+              "is_correct": false
+            },
+            {
+              "id": "12104_3",
+              "order": 3,
+              "text": "She has no friends at school.",
+              "value": "23489",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "12102",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 What does this sentence mean? ' 'The results are not insignificant. '",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12102_1",
+              "order": 1,
+              "text": "The results are important.",
+              "value": "23481",
+              "is_correct": true
+            },
+            {
+              "id": "12102_2",
+              "order": 2,
+              "text": "The results mean nothing.",
+              "value": "23482",
+              "is_correct": false
+            },
+            {
+              "id": "12102_3",
+              "order": 3,
+              "text": "The results are unimportant.",
+              "value": "23483",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "12105",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Which of these sentences is correct in standard English?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12105_1",
+              "order": 1,
+              "text": "They can barely wait for the holidays.",
+              "value": "23490",
+              "is_correct": true
+            },
+            {
+              "id": "12105_2",
+              "order": 2,
+              "text": "They can't barely wait for the holidays.",
+              "value": "23491",
+              "is_correct": false
+            },
+            {
+              "id": "12105_3",
+              "order": 3,
+              "text": "They cannot barely wait for the holidays.",
+              "value": "23492",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "12106",
+          "order": 9,
+          "type": "multiple_choice",
+          "text": "9 Which of these sentences is correct in standard English? Choose TWO correct answers",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12106_1",
+              "order": 1,
+              "text": "He doesn't know nobody in this town.",
+              "value": "23493",
+              "is_correct": false
+            },
+            {
+              "id": "12106_2",
+              "order": 2,
+              "text": "He doesn't know anybody in this town.",
+              "value": "23494",
+              "is_correct": true
+            },
+            {
+              "id": "12106_3",
+              "order": 3,
+              "text": "He knows nobody in this town.",
+              "value": "23495",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "12107",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 Which of these sentences is correct in standard English?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "12107_1",
+              "order": 1,
+              "text": "We cannot rarely go on holiday.",
+              "value": "23496",
+              "is_correct": false
+            },
+            {
+              "id": "12107_2",
+              "order": 2,
+              "text": "We can't rarely go on holiday.",
+              "value": "23497",
+              "is_correct": false
+            },
+            {
+              "id": "12107_3",
+              "order": 3,
+              "text": "We can rarely go on holiday.",
+              "value": "23498",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-1414",
+      "lessonId": "b1-b2_double_negatives_in_english",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Rewrite these sentences to avoid using double negatives.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_double-negatives-in-english_3.html",
+      "questions": [
+        {
+          "id": "12085",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I didn't see nobody. ⇒ I {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12085_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't see anybody",
+              "accepted_answers": [
+                "didn't see anybody"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12108",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 She doesn't know nothing about the problem. ⇒ She {{gap1}} about the problem.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12108_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "doesn't know anything",
+              "accepted_answers": [
+                "doesn't know anything"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12109",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 They haven't invited nobody to the wedding. ⇒ They {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12109_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "haven't invited anybody to the wedding",
+              "accepted_answers": [
+                "haven't invited anybody to the wedding"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12110",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 He can't hardly keep his eyes open. ⇒ He {{gap1}} his eyes open.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12110_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "can hardly keep",
+              "accepted_answers": [
+                "can hardly keep"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12111",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 We don't need no extra chairs. ⇒ We {{gap1}} extra chairs.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12111_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "don't need any",
+              "accepted_answers": [
+                "don't need any"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12112",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I couldn't find none of the documents. ⇒ I {{gap1}} of the documents.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12112_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "couldn't find any",
+              "accepted_answers": [
+                "couldn't find any"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12113",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 She didn't tell nothing to her parents. ⇒ She {{gap1}} to her parents.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12113_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "didn't tell anything",
+              "accepted_answers": [
+                "didn't tell anything"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12114",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 They won't never agree to this plan. ⇒ They {{gap1}} to this plan.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12114_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "will never agree",
+              "accepted_answers": [
+                "will never agree"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12115",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 He doesn't have no time to waste. ⇒ He {{gap1}} to waste.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12115_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has no time",
+              "accepted_answers": [
+                "has no time"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "12116",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 She hasn't spoken to nobody all day. ⇒ She {{gap1}} all day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_12116_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "hasn't spoken to anybody",
+              "accepted_answers": [
+                "hasn't spoken to anybody"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1082 @@
+{
+  "lesson_id": "a1_at_in_on_prepositions_time",
+  "level": "A1",
+  "title": "At, in, on: Prepositions of time",
+  "description": "Практический тест и правила по теме: At, in, on: Prepositions of time",
+  "theory": {
+    "title": "Правила и грамматика: At, in, on: Prepositions of time",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «At, in, on: Prepositions of time».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «At, in, on: Prepositions of time» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-441",
+      "lessonId": "a1_at_in_on_prepositions_time",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose at, in, on to complete the sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_at-in-on-prepositions-time.html",
+      "questions": [
+        {
+          "id": "3830",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 See you {{gap1}} Friday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3830_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "on",
+              "accepted_answers": [
+                "on"
+              ],
+              "options": [
+                {
+                  "id": "gap_3830_1_1",
+                  "order": 1,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3830_1_2",
+                  "order": 2,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3830_1_3",
+                  "order": 3,
+                  "text": "on",
+                  "value": "on",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3831",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I brush my teeth {{gap1}} the morning.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3831_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "in",
+              "accepted_answers": [
+                "in"
+              ],
+              "options": [
+                {
+                  "id": "gap_3831_1_1",
+                  "order": 1,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3831_1_2",
+                  "order": 2,
+                  "text": "on",
+                  "value": "on",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3831_1_3",
+                  "order": 3,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3832",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 The match is {{gap1}} 4 o'clock.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3832_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "at",
+              "accepted_answers": [
+                "at"
+              ],
+              "options": [
+                {
+                  "id": "gap_3832_1_1",
+                  "order": 1,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3832_1_2",
+                  "order": 2,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3832_1_3",
+                  "order": 3,
+                  "text": "on",
+                  "value": "on",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3833",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 We have lunch {{gap1}} midday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3833_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "at",
+              "accepted_answers": [
+                "at"
+              ],
+              "options": [
+                {
+                  "id": "gap_3833_1_1",
+                  "order": 1,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3833_1_2",
+                  "order": 2,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3833_1_3",
+                  "order": 3,
+                  "text": "on",
+                  "value": "on",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3834",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 I'm busy {{gap1}} the moment.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3834_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "at",
+              "accepted_answers": [
+                "at"
+              ],
+              "options": [
+                {
+                  "id": "gap_3834_1_1",
+                  "order": 1,
+                  "text": "on",
+                  "value": "on",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3834_1_2",
+                  "order": 2,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3834_1_3",
+                  "order": 3,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3835",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 My parents always visit me {{gap1}} my birthday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3835_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "on",
+              "accepted_answers": [
+                "on"
+              ],
+              "options": [
+                {
+                  "id": "gap_3835_1_1",
+                  "order": 1,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3835_1_2",
+                  "order": 2,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3835_1_3",
+                  "order": 3,
+                  "text": "on",
+                  "value": "on",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3836",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 He was born {{gap1}} the 19th century",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3836_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "in",
+              "accepted_answers": [
+                "in"
+              ],
+              "options": [
+                {
+                  "id": "gap_3836_1_1",
+                  "order": 1,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3836_1_2",
+                  "order": 2,
+                  "text": "on",
+                  "value": "on",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3836_1_3",
+                  "order": 3,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3837",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 He usually goes on holiday {{gap1}} July",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3837_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "in",
+              "accepted_answers": [
+                "in"
+              ],
+              "options": [
+                {
+                  "id": "gap_3837_1_1",
+                  "order": 1,
+                  "text": "on",
+                  "value": "on",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3837_1_2",
+                  "order": 2,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3837_1_3",
+                  "order": 3,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3838",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 They always get together {{gap1}} Christmas.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3838_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "at",
+              "accepted_answers": [
+                "at"
+              ],
+              "options": [
+                {
+                  "id": "gap_3838_1_1",
+                  "order": 1,
+                  "text": "on",
+                  "value": "on",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3838_1_2",
+                  "order": 2,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3838_1_3",
+                  "order": 3,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3839",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 You can come {{gap1}} the weekend.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3839_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "at",
+              "accepted_answers": [
+                "at"
+              ],
+              "options": [
+                {
+                  "id": "gap_3839_1_1",
+                  "order": 1,
+                  "text": "in",
+                  "value": "in",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3839_1_2",
+                  "order": 2,
+                  "text": "at",
+                  "value": "at",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-442",
+      "lessonId": "a1_at_in_on_prepositions_time",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct prepositions of time (at, in, on) to complete the sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_at-in-on-prepositions-time_2.html",
+      "questions": [
+        {
+          "id": "3840",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I have to meet the clients _____ lunchtime.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3840_1",
+              "order": 1,
+              "text": "at",
+              "value": "5823",
+              "is_correct": true
+            },
+            {
+              "id": "3840_2",
+              "order": 2,
+              "text": "in",
+              "value": "5824",
+              "is_correct": false
+            },
+            {
+              "id": "3840_3",
+              "order": 3,
+              "text": "on",
+              "value": "5825",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3841",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 This happened _____ the 80s.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3841_1",
+              "order": 1,
+              "text": "at",
+              "value": "5826",
+              "is_correct": false
+            },
+            {
+              "id": "3841_2",
+              "order": 2,
+              "text": "in",
+              "value": "5827",
+              "is_correct": true
+            },
+            {
+              "id": "3841_3",
+              "order": 3,
+              "text": "on",
+              "value": "5828",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3842",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 We want to go for a drink after the concert _____ Friday evening",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3842_1",
+              "order": 1,
+              "text": "at",
+              "value": "5829",
+              "is_correct": false
+            },
+            {
+              "id": "3842_2",
+              "order": 2,
+              "text": "in",
+              "value": "5830",
+              "is_correct": false
+            },
+            {
+              "id": "3842_3",
+              "order": 3,
+              "text": "on",
+              "value": "5831",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3843",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 You can plant these flowers _____ the autumn.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3843_1",
+              "order": 1,
+              "text": "at",
+              "value": "5850",
+              "is_correct": false
+            },
+            {
+              "id": "3843_2",
+              "order": 2,
+              "text": "in",
+              "value": "5851",
+              "is_correct": true
+            },
+            {
+              "id": "3843_3",
+              "order": 3,
+              "text": "on",
+              "value": "5852",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3844",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 Is your neighbourhood quiet _____ night?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3844_1",
+              "order": 1,
+              "text": "at",
+              "value": "5832",
+              "is_correct": true
+            },
+            {
+              "id": "3844_2",
+              "order": 2,
+              "text": "in",
+              "value": "5833",
+              "is_correct": false
+            },
+            {
+              "id": "3844_3",
+              "order": 3,
+              "text": "on",
+              "value": "5834",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3845",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I will retire _____ 2030.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3845_1",
+              "order": 1,
+              "text": "at",
+              "value": "5835",
+              "is_correct": false
+            },
+            {
+              "id": "3845_2",
+              "order": 2,
+              "text": "in",
+              "value": "5836",
+              "is_correct": true
+            },
+            {
+              "id": "3845_3",
+              "order": 3,
+              "text": "on",
+              "value": "5837",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3846",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 My birthday is _____ the 10th of January.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3846_1",
+              "order": 1,
+              "text": "at",
+              "value": "5838",
+              "is_correct": false
+            },
+            {
+              "id": "3846_2",
+              "order": 2,
+              "text": "in",
+              "value": "5839",
+              "is_correct": false
+            },
+            {
+              "id": "3846_3",
+              "order": 3,
+              "text": "on",
+              "value": "5840",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3847",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I usually go to bed _____ midnight.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3847_1",
+              "order": 1,
+              "text": "at",
+              "value": "5841",
+              "is_correct": true
+            },
+            {
+              "id": "3847_2",
+              "order": 2,
+              "text": "in",
+              "value": "5842",
+              "is_correct": false
+            },
+            {
+              "id": "3847_3",
+              "order": 3,
+              "text": "on",
+              "value": "5843",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3848",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I don't work _____ Christmas day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3848_1",
+              "order": 1,
+              "text": "at",
+              "value": "5844",
+              "is_correct": false
+            },
+            {
+              "id": "3848_2",
+              "order": 2,
+              "text": "in",
+              "value": "5845",
+              "is_correct": false
+            },
+            {
+              "id": "3848_3",
+              "order": 3,
+              "text": "on",
+              "value": "5846",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3849",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 We usually stay home _____ Easter.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3849_1",
+              "order": 1,
+              "text": "at",
+              "value": "5847",
+              "is_correct": true
+            },
+            {
+              "id": "3849_2",
+              "order": 2,
+              "text": "in",
+              "value": "5848",
+              "is_correct": false
+            },
+            {
+              "id": "3849_3",
+              "order": 3,
+              "text": "on",
+              "value": "5849",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-443",
+      "lessonId": "a1_at_in_on_prepositions_time",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences using the correct prepositions of time: at, in, on.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_at-in-on-prepositions-time_3.html",
+      "questions": [
+        {
+          "id": "3851",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Fish is a healthy option {{gap1}} dinnertime.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3851_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "at",
+              "accepted_answers": [
+                "at"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3850",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 The interview is {{gap1}} 8 o'clock {{gap2}} Monday morning.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3850_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "at",
+              "accepted_answers": [
+                "at"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3850_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "on",
+              "accepted_answers": [
+                "on"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3852",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 The snow melts {{gap1}} the spring.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3852_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "in",
+              "accepted_answers": [
+                "in"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3853",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Every year, I visit my parents {{gap1}} Thanksgiving Day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3853_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "on",
+              "accepted_answers": [
+                "on"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3854",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 {{gap1}} summer, we go fishing {{gap2}} weekends.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3854_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "In",
+              "accepted_answers": [
+                "In"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_3854_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "at",
+              "accepted_answers": [
+                "at"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3855",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I'm unemployed {{gap1}} the moment.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3855_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "at",
+              "accepted_answers": [
+                "at"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3856",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Classes end {{gap1}} the 4th of July.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3856_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "on",
+              "accepted_answers": [
+                "on"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3857",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 We don't know what will happen {{gap1}} the future.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3857_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "in",
+              "accepted_answers": [
+                "in"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3858",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 You can visit us {{gap1}} June.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3858_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "in",
+              "accepted_answers": [
+                "in"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3859",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 You need to raise your hand {{gap1}} the same time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3859_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "at",
+              "accepted_answers": [
+                "at"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

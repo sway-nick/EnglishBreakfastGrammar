@@ -1,0 +1,997 @@
+{
+  "lesson_id": "a1_basic_word_order_in_english",
+  "level": "A1",
+  "title": "Basic word order in English",
+  "description": "Практический тест и правила по теме: Basic word order in English",
+  "theory": {
+    "title": "Правила и грамматика: Basic word order in English",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Basic word order in English».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Basic word order in English» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-712",
+      "lessonId": "a1_basic_word_order_in_english",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Fill in the gaps with the correct options.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_basic-word-order-in-english.html",
+      "questions": [
+        {
+          "id": "6084",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I didn't like {{gap1}} last night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6084_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "the food very much",
+              "accepted_answers": [
+                "the food very much"
+              ],
+              "options": [
+                {
+                  "id": "gap_6084_1_1",
+                  "order": 1,
+                  "text": "the food very much",
+                  "value": "the food very much",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6084_1_2",
+                  "order": 2,
+                  "text": "very much the food",
+                  "value": "very much the food",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6085",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 We arrived {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6085_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "home very late",
+              "accepted_answers": [
+                "home very late"
+              ],
+              "options": [
+                {
+                  "id": "gap_6085_1_1",
+                  "order": 1,
+                  "text": "home very late",
+                  "value": "home very late",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6085_1_2",
+                  "order": 2,
+                  "text": "very late home",
+                  "value": "very late home",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6086",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Teresa speaks {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6086_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "English very well",
+              "accepted_answers": [
+                "English very well"
+              ],
+              "options": [
+                {
+                  "id": "gap_6086_1_1",
+                  "order": 1,
+                  "text": "very well English",
+                  "value": "very well English",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6086_1_2",
+                  "order": 2,
+                  "text": "English very well",
+                  "value": "English very well",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6087",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Please, can you put {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6087_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "that box in the corner",
+              "accepted_answers": [
+                "that box in the corner"
+              ],
+              "options": [
+                {
+                  "id": "gap_6087_1_1",
+                  "order": 1,
+                  "text": "in the corner that box",
+                  "value": "in the corner that box",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6087_1_2",
+                  "order": 2,
+                  "text": "that box in the corner",
+                  "value": "that box in the corner",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6089",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 After the accident, Jim was {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6089_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "in hospital for a week",
+              "accepted_answers": [
+                "in hospital for a week"
+              ],
+              "options": [
+                {
+                  "id": "gap_6089_1_1",
+                  "order": 1,
+                  "text": "for a week in hospital",
+                  "value": "for a week in hospital",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6089_1_2",
+                  "order": 2,
+                  "text": "in hospital for a week",
+                  "value": "in hospital for a week",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6088",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 I like {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6088_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "this music a lot",
+              "accepted_answers": [
+                "this music a lot"
+              ],
+              "options": [
+                {
+                  "id": "gap_6088_1_1",
+                  "order": 1,
+                  "text": "this music a lot",
+                  "value": "this music a lot",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6088_1_2",
+                  "order": 2,
+                  "text": "a lot this music",
+                  "value": "a lot this music",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6090",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 They met {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6090_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "at a friend's house after a party",
+              "accepted_answers": [
+                "at a friend's house after a party"
+              ],
+              "options": [
+                {
+                  "id": "gap_6090_1_1",
+                  "order": 1,
+                  "text": "after a party at a friend's house",
+                  "value": "after a party at a friend's house",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6090_1_2",
+                  "order": 2,
+                  "text": "at a friend's house after a party",
+                  "value": "at a friend's house after a party",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6092",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Tigers approach {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6092_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "their victims very slowly",
+              "accepted_answers": [
+                "their victims very slowly"
+              ],
+              "options": [
+                {
+                  "id": "gap_6092_1_1",
+                  "order": 1,
+                  "text": "their victims very slowly",
+                  "value": "their victims very slowly",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6092_1_2",
+                  "order": 2,
+                  "text": "very slowly their victims",
+                  "value": "very slowly their victims",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6093",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I saw {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6093_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Hellen at the library",
+              "accepted_answers": [
+                "Hellen at the library"
+              ],
+              "options": [
+                {
+                  "id": "gap_6093_1_1",
+                  "order": 1,
+                  "text": "at the library Hellen",
+                  "value": "at the library Hellen",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6093_1_2",
+                  "order": 2,
+                  "text": "Hellen at the library",
+                  "value": "Hellen at the library",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6096",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 He finished {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6096_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "the exam very quickly",
+              "accepted_answers": [
+                "the exam very quickly"
+              ],
+              "options": [
+                {
+                  "id": "gap_6096_1_1",
+                  "order": 1,
+                  "text": "the exam very quickly",
+                  "value": "the exam very quickly",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6096_1_2",
+                  "order": 2,
+                  "text": "very quickly the exam",
+                  "value": "very quickly the exam",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-713",
+      "lessonId": "a1_basic_word_order_in_english",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct options to complete the sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_basic-word-order-in-english_2.html",
+      "questions": [
+        {
+          "id": "6091",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I walk _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6091_1",
+              "order": 1,
+              "text": "my dog in the park every day",
+              "value": "10364",
+              "is_correct": true
+            },
+            {
+              "id": "6091_2",
+              "order": 2,
+              "text": "my dog every day in the park",
+              "value": "10365",
+              "is_correct": false
+            },
+            {
+              "id": "6091_3",
+              "order": 3,
+              "text": "every day my dog in the park",
+              "value": "10366",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6094",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 Lisa took _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6094_1",
+              "order": 1,
+              "text": "her son to the doctor this morning",
+              "value": "10367",
+              "is_correct": true
+            },
+            {
+              "id": "6094_2",
+              "order": 2,
+              "text": "to the doctor her son this morning",
+              "value": "10368",
+              "is_correct": false
+            },
+            {
+              "id": "6094_3",
+              "order": 3,
+              "text": "this morning her son to the doctor",
+              "value": "10369",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6095",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Can you drive _____?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6095_1",
+              "order": 1,
+              "text": "home me after the concert",
+              "value": "10370",
+              "is_correct": false
+            },
+            {
+              "id": "6095_2",
+              "order": 2,
+              "text": "me after the concert home",
+              "value": "10371",
+              "is_correct": false
+            },
+            {
+              "id": "6095_3",
+              "order": 3,
+              "text": "me home after the concert",
+              "value": "10372",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6102",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 We ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6102_1",
+              "order": 1,
+              "text": "enjoyed very much the trip",
+              "value": "10373",
+              "is_correct": false
+            },
+            {
+              "id": "6102_2",
+              "order": 2,
+              "text": "enjoyed the trip very much",
+              "value": "10374",
+              "is_correct": true
+            },
+            {
+              "id": "6102_3",
+              "order": 3,
+              "text": "very much enjoyed the trip",
+              "value": "10375",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6103",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6103_1",
+              "order": 1,
+              "text": "bought in Paris this jacket last year",
+              "value": "10376",
+              "is_correct": false
+            },
+            {
+              "id": "6103_2",
+              "order": 2,
+              "text": "bought this jacket last year in Paris",
+              "value": "10377",
+              "is_correct": false
+            },
+            {
+              "id": "6103_3",
+              "order": 3,
+              "text": "bought this jacket in Paris last year",
+              "value": "10378",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6107",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6107_1",
+              "order": 1,
+              "text": "will call my parents immediately",
+              "value": "10379",
+              "is_correct": true
+            },
+            {
+              "id": "6107_2",
+              "order": 2,
+              "text": "will call immediately my parents",
+              "value": "10380",
+              "is_correct": false
+            },
+            {
+              "id": "6107_3",
+              "order": 3,
+              "text": "immediately will call my parents",
+              "value": "10381",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6108",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 David ________.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6108_1",
+              "order": 1,
+              "text": "very much loves his children",
+              "value": "10382",
+              "is_correct": false
+            },
+            {
+              "id": "6108_2",
+              "order": 2,
+              "text": "loves his children very much",
+              "value": "10383",
+              "is_correct": true
+            },
+            {
+              "id": "6108_3",
+              "order": 3,
+              "text": "loves very much his children",
+              "value": "10384",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6110",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I learnt ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6110_1",
+              "order": 1,
+              "text": "Italian in Rome during a student exchange program",
+              "value": "10385",
+              "is_correct": true
+            },
+            {
+              "id": "6110_2",
+              "order": 2,
+              "text": "Italian during a student exchange program in Rome",
+              "value": "10386",
+              "is_correct": false
+            },
+            {
+              "id": "6110_3",
+              "order": 3,
+              "text": "in Rome Italian during a student exchange program",
+              "value": "10387",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6112",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 We ______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6112_1",
+              "order": 1,
+              "text": "always finish school at 3.30 pm",
+              "value": "10391",
+              "is_correct": true
+            },
+            {
+              "id": "6112_2",
+              "order": 2,
+              "text": "finish always school at 3.30 pm",
+              "value": "10392",
+              "is_correct": false
+            },
+            {
+              "id": "6112_3",
+              "order": 3,
+              "text": "finish school at 3.30 pm always",
+              "value": "10393",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6113",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6113_1",
+              "order": 1,
+              "text": "don't play very often tennis",
+              "value": "10394",
+              "is_correct": false
+            },
+            {
+              "id": "6113_2",
+              "order": 2,
+              "text": "don't like tennis very much",
+              "value": "10395",
+              "is_correct": true
+            },
+            {
+              "id": "6113_3",
+              "order": 3,
+              "text": "don't like very much tennis",
+              "value": "10396",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-714",
+      "lessonId": "a1_basic_word_order_in_english",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Write sentences using the words in the correct position.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_basic-word-order-in-english_3.html",
+      "questions": [
+        {
+          "id": "6097",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 a nice lunch / had / today / we / at a restaurant ⇒ We {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6097_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "had a nice lunch at a restaurant today",
+              "accepted_answers": [
+                "had a nice lunch at a restaurant today"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6098",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 the keys / last night / in the car / forgot / He ⇒ He {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6098_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "forgot the keys in the car last night",
+              "accepted_answers": [
+                "forgot the keys in the car last night"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6099",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 often / Susan / takes / to work / a taxi ⇒ Susan {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6099_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "often takes a taxi to work",
+              "accepted_answers": [
+                "often takes a taxi to work"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6100",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 have to return / I / the book / to the library / today ⇒ I {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6100_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have to return the book to the library today",
+              "accepted_answers": [
+                "have to return the book to the library today"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6101",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 are / never / at lunchtime / They / at home ⇒ They {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6101_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are never at home at lunchtime",
+              "accepted_answers": [
+                "are never at home at lunchtime"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6104",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 It / always / very hot / here / in July / is ⇒ It {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6104_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is always very hot here in July",
+              "accepted_answers": [
+                "is always very hot here in July"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6105",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 play / football / after school / in the park / We ⇒ We {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6105_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "play football in the park after school",
+              "accepted_answers": [
+                "play football in the park after school"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6106",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 usually / She / cereal / has / for breakfast ⇒ She {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6106_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "usually has cereal for breakfast",
+              "accepted_answers": [
+                "usually has cereal for breakfast"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6109",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 met / at a nightclub / in 2006 / Linda / her husband ⇒ Linda {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6109_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "met her husband at a nightclub in 2006",
+              "accepted_answers": [
+                "met her husband at a nightclub in 2006"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6111",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 always / I / from home / work / on Tuesdays ⇒ I {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6111_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "always work from home on Tuesdays",
+              "accepted_answers": [
+                "always work from home on Tuesdays"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

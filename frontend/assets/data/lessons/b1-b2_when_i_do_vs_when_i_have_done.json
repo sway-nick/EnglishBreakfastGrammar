@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1-b2_when_i_do_vs_when_i_have_done",
+  "level": "B1-B2",
+  "title": "When I do vs When I have done: Future time clauses",
+  "description": "Практический тест и правила по теме: When I do vs When I have done: Future time clauses",
+  "theory": {
+    "title": "Правила и грамматика: When I do vs When I have done: Future time clauses",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «When I do vs When I have done: Future time clauses».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «When I do vs When I have done: Future time clauses» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-892",
+      "lessonId": "b1-b2_when_i_do_vs_when_i_have_done",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct verb forms to complete the sentences below. Use the PRESENT PERFECT when possible.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_when-i-do-vs-when-i-have-done.html",
+      "questions": [
+        {
+          "id": "7571",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I'll ask Tony about it when I {{gap1}} him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7571_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have seen",
+              "accepted_answers": [
+                "have seen"
+              ],
+              "options": [
+                {
+                  "id": "gap_7571_1_1",
+                  "order": 1,
+                  "text": "am seeing",
+                  "value": "am seeing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7571_1_2",
+                  "order": 2,
+                  "text": "have seen",
+                  "value": "have seen",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7571_1_3",
+                  "order": 3,
+                  "text": "see",
+                  "value": "see",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7572",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 The kids will have their snack while they {{gap1}} their homework.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7572_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "do",
+              "accepted_answers": [
+                "do"
+              ],
+              "options": [
+                {
+                  "id": "gap_7572_1_1",
+                  "order": 1,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7572_1_2",
+                  "order": 2,
+                  "text": "will do",
+                  "value": "will do",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7572_1_3",
+                  "order": 3,
+                  "text": "have done",
+                  "value": "have done",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7573",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 You won't get a pay rise until you {{gap1}} here for at least a year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7573_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have worked",
+              "accepted_answers": [
+                "have worked"
+              ],
+              "options": [
+                {
+                  "id": "gap_7573_1_1",
+                  "order": 1,
+                  "text": "are working",
+                  "value": "are working",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7573_1_2",
+                  "order": 2,
+                  "text": "have worked",
+                  "value": "have worked",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7573_1_3",
+                  "order": 3,
+                  "text": "work",
+                  "value": "work",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7574",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 When I {{gap1}} my teeth, I'll use the new toothpaste.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7574_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have brushed",
+              "accepted_answers": [
+                "have brushed"
+              ],
+              "options": [
+                {
+                  "id": "gap_7574_1_1",
+                  "order": 1,
+                  "text": "brushes",
+                  "value": "brushes",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7574_1_2",
+                  "order": 2,
+                  "text": "brush",
+                  "value": "brush",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7574_1_3",
+                  "order": 3,
+                  "text": "have brushed",
+                  "value": "have brushed",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7575",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 You will only be eligible for a passport when you {{gap1}} there for five years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7575_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have lived",
+              "accepted_answers": [
+                "have lived"
+              ],
+              "options": [
+                {
+                  "id": "gap_7575_1_1",
+                  "order": 1,
+                  "text": "have lived",
+                  "value": "have lived",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7575_1_2",
+                  "order": 2,
+                  "text": "live",
+                  "value": "live",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7575_1_3",
+                  "order": 3,
+                  "text": "are living",
+                  "value": "are living",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7576",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 We'll probably watch the match while we {{gap1}} dinner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7576_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are eating",
+              "accepted_answers": [
+                "are eating"
+              ],
+              "options": [
+                {
+                  "id": "gap_7576_1_1",
+                  "order": 1,
+                  "text": "will be eating",
+                  "value": "will be eating",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7576_1_2",
+                  "order": 2,
+                  "text": "are eating",
+                  "value": "are eating",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7576_1_3",
+                  "order": 3,
+                  "text": "have eaten",
+                  "value": "have eaten",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7577",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 When I {{gap1}} all my water, I'll wash out the bottle.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7577_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "have drunk",
+              "accepted_answers": [
+                "have drunk"
+              ],
+              "options": [
+                {
+                  "id": "gap_7577_1_1",
+                  "order": 1,
+                  "text": "drink",
+                  "value": "drink",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7577_1_2",
+                  "order": 2,
+                  "text": "have drunk",
+                  "value": "have drunk",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7577_1_3",
+                  "order": 3,
+                  "text": "am drinking",
+                  "value": "am drinking",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7578",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I'll let you know as soon as the food {{gap1}} ready.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7578_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": [
+                {
+                  "id": "gap_7578_1_1",
+                  "order": 1,
+                  "text": "has been",
+                  "value": "has been",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7578_1_2",
+                  "order": 2,
+                  "text": "is being",
+                  "value": "is being",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7578_1_3",
+                  "order": 3,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7579",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Gary will hang up his shirt when he {{gap1}} it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7579_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "has ironed",
+              "accepted_answers": [
+                "has ironed"
+              ],
+              "options": [
+                {
+                  "id": "gap_7579_1_1",
+                  "order": 1,
+                  "text": "irons",
+                  "value": "irons",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7579_1_2",
+                  "order": 2,
+                  "text": "is ironing",
+                  "value": "is ironing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7579_1_3",
+                  "order": 3,
+                  "text": "has ironed",
+                  "value": "has ironed",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7580",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 When the baby {{gap1}} asleep, I'll mop the floor.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7580_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "has been",
+              "accepted_answers": [
+                "has been"
+              ],
+              "options": [
+                {
+                  "id": "gap_7580_1_1",
+                  "order": 1,
+                  "text": "is being",
+                  "value": "is being",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_7580_1_2",
+                  "order": 2,
+                  "text": "has been",
+                  "value": "has been",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_7580_1_3",
+                  "order": 3,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-893",
+      "lessonId": "b1-b2_when_i_do_vs_when_i_have_done",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct verb forms for the gaps below. For some questions, you will need to choose TWO correct answers.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_when-i-do-vs-when-i-have-done_2.html",
+      "questions": [
+        {
+          "id": "7583",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 When I _____ you the email, I will attach a pdf file with all the necessary information.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7583_1",
+              "order": 1,
+              "text": "will send",
+              "value": "13233",
+              "is_correct": false
+            },
+            {
+              "id": "7583_2",
+              "order": 2,
+              "text": "have sent",
+              "value": "13234",
+              "is_correct": false
+            },
+            {
+              "id": "7583_3",
+              "order": 3,
+              "text": "send",
+              "value": "13235",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7581",
+          "order": 2,
+          "type": "multiple_choice",
+          "text": "2 When I _____ all the crisps, I'll throw away the packet.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7581_1",
+              "order": 1,
+              "text": "eat",
+              "value": "13227",
+              "is_correct": true
+            },
+            {
+              "id": "7581_2",
+              "order": 2,
+              "text": "am eating",
+              "value": "13228",
+              "is_correct": false
+            },
+            {
+              "id": "7581_3",
+              "order": 3,
+              "text": "have eaten",
+              "value": "13229",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7584",
+          "order": 3,
+          "type": "multiple_choice",
+          "text": "3 I'll make a decision when I _____ to Linda.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7584_1",
+              "order": 1,
+              "text": "talk",
+              "value": "13236",
+              "is_correct": true
+            },
+            {
+              "id": "7584_2",
+              "order": 2,
+              "text": "have talked",
+              "value": "13237",
+              "is_correct": true
+            },
+            {
+              "id": "7584_3",
+              "order": 3,
+              "text": "will talk",
+              "value": "13238",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7587",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 When we _____ in Italy next month, we'll stay with my aunt.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7587_1",
+              "order": 1,
+              "text": "are",
+              "value": "13245",
+              "is_correct": true
+            },
+            {
+              "id": "7587_2",
+              "order": 2,
+              "text": "will be",
+              "value": "13246",
+              "is_correct": false
+            },
+            {
+              "id": "7587_3",
+              "order": 3,
+              "text": "have been",
+              "value": "13247",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7582",
+          "order": 5,
+          "type": "multiple_choice",
+          "text": "5 When the children _____ their hands, they'll have lunch.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7582_1",
+              "order": 1,
+              "text": "wash",
+              "value": "13230",
+              "is_correct": true
+            },
+            {
+              "id": "7582_2",
+              "order": 2,
+              "text": "am washing",
+              "value": "13231",
+              "is_correct": false
+            },
+            {
+              "id": "7582_3",
+              "order": 3,
+              "text": "have washed",
+              "value": "13232",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7588",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I will stay at the library until it _____ at 6 p.m.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7588_1",
+              "order": 1,
+              "text": "closes",
+              "value": "13248",
+              "is_correct": true
+            },
+            {
+              "id": "7588_2",
+              "order": 2,
+              "text": "has closed",
+              "value": "13249",
+              "is_correct": false
+            },
+            {
+              "id": "7588_3",
+              "order": 3,
+              "text": "will close",
+              "value": "13250",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7585",
+          "order": 7,
+          "type": "multiple_choice",
+          "text": "7 I'll take a nap when the baby _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7585_1",
+              "order": 1,
+              "text": "sleeps",
+              "value": "13239",
+              "is_correct": true
+            },
+            {
+              "id": "7585_2",
+              "order": 2,
+              "text": "has slept",
+              "value": "13240",
+              "is_correct": true
+            },
+            {
+              "id": "7585_3",
+              "order": 3,
+              "text": "will sleep",
+              "value": "13241",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "7589",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I will give you my opinion on the book when I _____ it. I can't say what I think without finishing it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7589_1",
+              "order": 1,
+              "text": "read",
+              "value": "13251",
+              "is_correct": false
+            },
+            {
+              "id": "7589_2",
+              "order": 2,
+              "text": "am reading",
+              "value": "13252",
+              "is_correct": false
+            },
+            {
+              "id": "7589_3",
+              "order": 3,
+              "text": "have read",
+              "value": "13253",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7590",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I will correct the homework when I _____ time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7590_1",
+              "order": 1,
+              "text": "am having",
+              "value": "13254",
+              "is_correct": false
+            },
+            {
+              "id": "7590_2",
+              "order": 2,
+              "text": "'ve had",
+              "value": "13255",
+              "is_correct": false
+            },
+            {
+              "id": "7590_3",
+              "order": 3,
+              "text": "have",
+              "value": "13256",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "7586",
+          "order": 10,
+          "type": "multiple_choice",
+          "text": "10 I'll listen to your playlist when I _____ my workout.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "7586_1",
+              "order": 1,
+              "text": "do",
+              "value": "13242",
+              "is_correct": true
+            },
+            {
+              "id": "7586_2",
+              "order": 2,
+              "text": "will do",
+              "value": "13243",
+              "is_correct": false
+            },
+            {
+              "id": "7586_3",
+              "order": 3,
+              "text": "have done",
+              "value": "13244",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-894",
+      "lessonId": "b1-b2_when_i_do_vs_when_i_have_done",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 2",
+      "instruction": "Fill in the gaps using the verb in brackets in either the present simple or present perfect tense. Use the PRESENT PERFECT when possible.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_when-i-do-vs-when-i-have-done_3.html",
+      "questions": [
+        {
+          "id": "7591",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 When I {{gap1}} my coffee, I'll put the mug in the dishwasher. (drink)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7591_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have drunk",
+              "accepted_answers": [
+                "have drunk"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7592",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 When I {{gap1}} Mary tomorrow, I'll take her some flowers. (visit)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7592_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have visited",
+              "accepted_answers": [
+                "have visited"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7593",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 The bell on the oven will ping as soon as the pizzas {{gap1}} ready. (be)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7593_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7594",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Once all the guests {{gap1}}, I'll clear the table. (eat)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7594_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have eaten",
+              "accepted_answers": [
+                "have eaten"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7595",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 I will make him an offer when I {{gap1}} him later. (see)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7595_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "see",
+              "accepted_answers": [
+                "see"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7596",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 When the garbage men {{gap1}} the rubbish, the bins will be empty. (collect)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7596_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have collected",
+              "accepted_answers": [
+                "have collected"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7597",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 When Sara {{gap1}} the dishes, she'll wear rubber gloves. (do)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7597_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has done",
+              "accepted_answers": [
+                "has done"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7598",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 While the cakes {{gap1}} in the oven, I'll prepare the icing. (be)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7598_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7599",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Simon will study the second unit once he {{gap1}} the first. (complete)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7599_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has completed",
+              "accepted_answers": [
+                "has completed"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "7600",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 When I {{gap1}} my new colleague, I'll shake his hand. (meet)",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_7600_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have met",
+              "accepted_answers": [
+                "have met"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "a1_a_some_any_countable_uncountable",
+  "level": "A1",
+  "title": "A, some, any: Countable and uncountable nouns",
+  "description": "Практический тест и правила по теме: A, some, any: Countable and uncountable nouns",
+  "theory": {
+    "title": "Правила и грамматика: A, some, any: Countable and uncountable nouns",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «A, some, any: Countable and uncountable nouns».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «A, some, any: Countable and uncountable nouns» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-471",
+      "lessonId": "a1_a_some_any_countable_uncountable",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose a, some, any to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_a-some-any-countable-uncountable.html",
+      "questions": [
+        {
+          "id": "4112",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I need {{gap1}} information about the city.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4112_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "some",
+              "accepted_answers": [
+                "some"
+              ],
+              "options": [
+                {
+                  "id": "gap_4112_1_1",
+                  "order": 1,
+                  "text": "some",
+                  "value": "some",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4112_1_2",
+                  "order": 2,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4112_1_3",
+                  "order": 3,
+                  "text": "an",
+                  "value": "an",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4114",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I always have {{gap1}} egg for breakfast.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4114_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "an",
+              "accepted_answers": [
+                "an"
+              ],
+              "options": [
+                {
+                  "id": "gap_4114_1_1",
+                  "order": 1,
+                  "text": "some",
+                  "value": "some",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4114_1_2",
+                  "order": 2,
+                  "text": "an",
+                  "value": "an",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4114_1_3",
+                  "order": 3,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4113",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Can you help me? I need {{gap1}} advice.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4113_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "some",
+              "accepted_answers": [
+                "some"
+              ],
+              "options": [
+                {
+                  "id": "gap_4113_1_1",
+                  "order": 1,
+                  "text": "an",
+                  "value": "an",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4113_1_2",
+                  "order": 2,
+                  "text": "some",
+                  "value": "some",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4113_1_3",
+                  "order": 3,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4116",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 We don't have {{gap1}} money.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4116_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": [
+                {
+                  "id": "gap_4116_1_1",
+                  "order": 1,
+                  "text": "some",
+                  "value": "some",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4116_1_2",
+                  "order": 2,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4116_1_3",
+                  "order": 3,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4118",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Can I have {{gap1}} milk, please?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4118_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "some",
+              "accepted_answers": [
+                "some"
+              ],
+              "options": [
+                {
+                  "id": "gap_4118_1_1",
+                  "order": 1,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4118_1_2",
+                  "order": 2,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4118_1_3",
+                  "order": 3,
+                  "text": "some",
+                  "value": "some",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4115",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Have you got {{gap1}} pen?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4115_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": [
+                {
+                  "id": "gap_4115_1_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4115_1_2",
+                  "order": 2,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4115_1_3",
+                  "order": 3,
+                  "text": "some",
+                  "value": "some",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4117",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 We didn't see {{gap1}} people in the streets.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4117_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": [
+                {
+                  "id": "gap_4117_1_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4117_1_2",
+                  "order": 2,
+                  "text": "some",
+                  "value": "some",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4117_1_3",
+                  "order": 3,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4119",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Does Peter have {{gap1}} magazines in his office?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4119_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "any",
+              "accepted_answers": [
+                "any"
+              ],
+              "options": [
+                {
+                  "id": "gap_4119_1_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4119_1_2",
+                  "order": 2,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4119_1_3",
+                  "order": 3,
+                  "text": "some",
+                  "value": "some",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4120",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Do you want {{gap1}} chips?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4120_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "some",
+              "accepted_answers": [
+                "some"
+              ],
+              "options": [
+                {
+                  "id": "gap_4120_1_1",
+                  "order": 1,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4120_1_2",
+                  "order": 2,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4120_1_3",
+                  "order": 3,
+                  "text": "some",
+                  "value": "some",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4121",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 My wife doesn't want {{gap1}} dog.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4121_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": [
+                {
+                  "id": "gap_4121_1_1",
+                  "order": 1,
+                  "text": "any",
+                  "value": "any",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4121_1_2",
+                  "order": 2,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4121_1_3",
+                  "order": 3,
+                  "text": "some",
+                  "value": "some",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-472",
+      "lessonId": "a1_a_some_any_countable_uncountable",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_a-some-any-countable-uncountable_2.html",
+      "questions": [
+        {
+          "id": "4122",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I didn't see _____ in the library.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4122_1",
+              "order": 1,
+              "text": "any classmates",
+              "value": "5982",
+              "is_correct": true
+            },
+            {
+              "id": "4122_2",
+              "order": 2,
+              "text": "some classmates",
+              "value": "5983",
+              "is_correct": false
+            },
+            {
+              "id": "4122_3",
+              "order": 3,
+              "text": "any classmate",
+              "value": "5984",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4123",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I have _____ in my house.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4123_1",
+              "order": 1,
+              "text": "some new furnitures",
+              "value": "5985",
+              "is_correct": false
+            },
+            {
+              "id": "4123_2",
+              "order": 2,
+              "text": "a new furniture",
+              "value": "5986",
+              "is_correct": false
+            },
+            {
+              "id": "4123_3",
+              "order": 3,
+              "text": "some new furniture",
+              "value": "5987",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4124",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Can I have _____ apple, please?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4124_1",
+              "order": 1,
+              "text": "an",
+              "value": "5988",
+              "is_correct": true
+            },
+            {
+              "id": "4124_2",
+              "order": 2,
+              "text": "some",
+              "value": "5989",
+              "is_correct": false
+            },
+            {
+              "id": "4124_3",
+              "order": 3,
+              "text": "any",
+              "value": "5990",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4125",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 They gave me _____ for my collection.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4125_1",
+              "order": 1,
+              "text": "some old books",
+              "value": "5991",
+              "is_correct": true
+            },
+            {
+              "id": "4125_2",
+              "order": 2,
+              "text": "an old books",
+              "value": "5992",
+              "is_correct": false
+            },
+            {
+              "id": "4125_3",
+              "order": 3,
+              "text": "some old book",
+              "value": "5993",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4126",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 The hotel where I'm staying has _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4126_1",
+              "order": 1,
+              "text": "swimming pool",
+              "value": "5994",
+              "is_correct": false
+            },
+            {
+              "id": "4126_2",
+              "order": 2,
+              "text": "a swimming pool",
+              "value": "5995",
+              "is_correct": true
+            },
+            {
+              "id": "4126_3",
+              "order": 3,
+              "text": "some swimming pool",
+              "value": "5996",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4127",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 She speaks _____ English.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4127_1",
+              "order": 1,
+              "text": "some",
+              "value": "5997",
+              "is_correct": true
+            },
+            {
+              "id": "4127_2",
+              "order": 2,
+              "text": "any",
+              "value": "5998",
+              "is_correct": false
+            },
+            {
+              "id": "4127_3",
+              "order": 3,
+              "text": "an",
+              "value": "5999",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4129",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 I didn't get _____ from you or your partner.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4129_1",
+              "order": 1,
+              "text": "an calls",
+              "value": "6003",
+              "is_correct": false
+            },
+            {
+              "id": "4129_2",
+              "order": 2,
+              "text": "any calls",
+              "value": "6004",
+              "is_correct": true
+            },
+            {
+              "id": "4129_3",
+              "order": 3,
+              "text": "any call",
+              "value": "6005",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "4128",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Can you give me _____ bread?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4128_1",
+              "order": 1,
+              "text": "a",
+              "value": "6000",
+              "is_correct": false
+            },
+            {
+              "id": "4128_2",
+              "order": 2,
+              "text": "any",
+              "value": "6001",
+              "is_correct": false
+            },
+            {
+              "id": "4128_3",
+              "order": 3,
+              "text": "some",
+              "value": "6002",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4130",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Have you got _____?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4130_1",
+              "order": 1,
+              "text": "any brother or sister",
+              "value": "6006",
+              "is_correct": false
+            },
+            {
+              "id": "4130_2",
+              "order": 2,
+              "text": "some brothers or sisters",
+              "value": "6007",
+              "is_correct": false
+            },
+            {
+              "id": "4130_3",
+              "order": 3,
+              "text": "any brothers or sisters",
+              "value": "6008",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "4131",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 She gave me _____.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "4131_1",
+              "order": 1,
+              "text": "a terrible new",
+              "value": "6009",
+              "is_correct": false
+            },
+            {
+              "id": "4131_2",
+              "order": 2,
+              "text": "some terrible news",
+              "value": "6010",
+              "is_correct": true
+            },
+            {
+              "id": "4131_3",
+              "order": 3,
+              "text": "a terrible news",
+              "value": "6011",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-473",
+      "lessonId": "a1_a_some_any_countable_uncountable",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the sentences using a, some, any and the words in the box.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_a-some-any-countable-uncountable_3.html",
+      "questions": [
+        {
+          "id": "4132",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 We visited {{gap1}} during our trip to China.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4132_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "some famous places",
+              "accepted_answers": [
+                "some famous places"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4133",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Mary has a DVD player, but she doesn't have {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4133_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "any DVDs",
+              "accepted_answers": [
+                "any DVDs"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4134",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I'm not sure of what to do. Can you give me {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4134_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "some advice",
+              "accepted_answers": [
+                "some advice"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4135",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I had some rice and {{gap1}} for lunch.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4135_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "some fish",
+              "accepted_answers": [
+                "some fish"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4136",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 You can ask me now if you want. Do you have {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4136_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "any questions",
+              "accepted_answers": [
+                "any questions"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4137",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I have {{gap1}} with my boss. She hates me.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4137_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "a problem",
+              "accepted_answers": [
+                "a problem"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4139",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 It's very hot here. I need {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4139_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "some water",
+              "accepted_answers": [
+                "some water"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4138",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 Have you got {{gap1}}? I need it for the coffee vending machine.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4138_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "any change",
+              "accepted_answers": [
+                "any change"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4140",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I want to cook an omelette, but I don't have {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4140_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "any eggs",
+              "accepted_answers": [
+                "any eggs"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4141",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Do you speak {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4141_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "any foreign languages",
+              "accepted_answers": [
+                "any foreign languages"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

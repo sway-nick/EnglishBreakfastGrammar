@@ -1,0 +1,1420 @@
+{
+  "lesson_id": "b1-b2_gerund_or_infinitive",
+  "level": "B1-B2",
+  "title": "Gerund or infinitive: Verb patterns",
+  "description": "Практический тест и правила по теме: Gerund or infinitive: Verb patterns",
+  "theory": {
+    "title": "Правила и грамматика: Gerund or infinitive: Verb patterns",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Gerund or infinitive: Verb patterns».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Gerund or infinitive: Verb patterns» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-42",
+      "lessonId": "b1-b2_gerund_or_infinitive",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct gerund or infinitive form for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_gerund-or-infinitive.html",
+      "questions": [
+        {
+          "id": "308",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 {{gap1}} used to be my favourite hobby at your age.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_308_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Fishing",
+              "accepted_answers": [
+                "Fishing"
+              ],
+              "options": [
+                {
+                  "id": "gap_308_1_1",
+                  "order": 1,
+                  "text": "To fish",
+                  "value": "To fish",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_308_1_2",
+                  "order": 2,
+                  "text": "Fishing",
+                  "value": "Fishing",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_308_1_3",
+                  "order": 3,
+                  "text": "Fish",
+                  "value": "Fish",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "309",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 We talked about {{gap1}} together next summer.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_309_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "travelling",
+              "accepted_answers": [
+                "travelling"
+              ],
+              "options": [
+                {
+                  "id": "gap_309_1_1",
+                  "order": 1,
+                  "text": "to travel",
+                  "value": "to travel",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_309_1_2",
+                  "order": 2,
+                  "text": "travelling",
+                  "value": "travelling",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_309_1_3",
+                  "order": 3,
+                  "text": "travel",
+                  "value": "travel",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "310",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 I remember {{gap1}} here when I was a child",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_310_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "being",
+              "accepted_answers": [
+                "being"
+              ],
+              "options": [
+                {
+                  "id": "gap_310_1_1",
+                  "order": 1,
+                  "text": "being",
+                  "value": "being",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_310_1_2",
+                  "order": 2,
+                  "text": "to be",
+                  "value": "to be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_310_1_3",
+                  "order": 3,
+                  "text": "be",
+                  "value": "be",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "311",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I think I didn't remember {{gap1}} the door when we left.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_311_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to lock",
+              "accepted_answers": [
+                "to lock"
+              ],
+              "options": [
+                {
+                  "id": "gap_311_1_1",
+                  "order": 1,
+                  "text": "lock",
+                  "value": "lock",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_311_1_2",
+                  "order": 2,
+                  "text": "to lock",
+                  "value": "to lock",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_311_1_3",
+                  "order": 3,
+                  "text": "locking",
+                  "value": "locking",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "312",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 If she doesn't answer, try {{gap1}} her mobile.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_312_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "calling",
+              "accepted_answers": [
+                "calling"
+              ],
+              "options": [
+                {
+                  "id": "gap_312_1_1",
+                  "order": 1,
+                  "text": "calling",
+                  "value": "calling",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_312_1_2",
+                  "order": 2,
+                  "text": "to call",
+                  "value": "to call",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_312_1_3",
+                  "order": 3,
+                  "text": "call",
+                  "value": "call",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "313",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 I tried {{gap1}} my eyes open, but I eventually fell asleep.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_313_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to keep",
+              "accepted_answers": [
+                "to keep"
+              ],
+              "options": [
+                {
+                  "id": "gap_313_1_1",
+                  "order": 1,
+                  "text": "to keep",
+                  "value": "to keep",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_313_1_2",
+                  "order": 2,
+                  "text": "keeping",
+                  "value": "keeping",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_313_1_3",
+                  "order": 3,
+                  "text": "keep",
+                  "value": "keep",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "314",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 My mum doesn't let me {{gap1}} with you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_314_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "come",
+              "accepted_answers": [
+                "come"
+              ],
+              "options": [
+                {
+                  "id": "gap_314_1_1",
+                  "order": 1,
+                  "text": "to come",
+                  "value": "to come",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_314_1_2",
+                  "order": 2,
+                  "text": "come",
+                  "value": "come",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_314_1_3",
+                  "order": 3,
+                  "text": "coming",
+                  "value": "coming",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "315",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 Your hair needs {{gap1}}. It's too long.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_315_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "cutting",
+              "accepted_answers": [
+                "cutting"
+              ],
+              "options": [
+                {
+                  "id": "gap_315_1_1",
+                  "order": 1,
+                  "text": "to cut",
+                  "value": "to cut",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_315_1_2",
+                  "order": 2,
+                  "text": "cutting",
+                  "value": "cutting",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_315_1_3",
+                  "order": 3,
+                  "text": "cut",
+                  "value": "cut",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "317",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I'd prefer {{gap1}} my own car if you don't mind.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_317_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to take",
+              "accepted_answers": [
+                "to take"
+              ],
+              "options": [
+                {
+                  "id": "gap_317_1_1",
+                  "order": 1,
+                  "text": "taking",
+                  "value": "taking",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_317_1_2",
+                  "order": 2,
+                  "text": "take",
+                  "value": "take",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_317_1_3",
+                  "order": 3,
+                  "text": "to take",
+                  "value": "to take",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "318",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 They had trouble {{gap1}} our house.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_318_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "finding",
+              "accepted_answers": [
+                "finding"
+              ],
+              "options": [
+                {
+                  "id": "gap_318_1_1",
+                  "order": 1,
+                  "text": "to find",
+                  "value": "to find",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_318_1_2",
+                  "order": 2,
+                  "text": "find",
+                  "value": "find",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_318_1_3",
+                  "order": 3,
+                  "text": "finding",
+                  "value": "finding",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-43",
+      "lessonId": "b1-b2_gerund_or_infinitive",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct gerund or infinitive form to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_gerund-or-infinitive_2.html",
+      "questions": [
+        {
+          "id": "319",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 You'd better _______ We are late!",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "319_1",
+              "order": 1,
+              "text": "hurry up",
+              "value": "384",
+              "is_correct": true
+            },
+            {
+              "id": "319_2",
+              "order": 2,
+              "text": "to hurry up",
+              "value": "385",
+              "is_correct": false
+            },
+            {
+              "id": "319_3",
+              "order": 3,
+              "text": "hurrying up",
+              "value": "386",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "320",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 Sorry, but I can't help _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "320_1",
+              "order": 1,
+              "text": "laugh",
+              "value": "387",
+              "is_correct": false
+            },
+            {
+              "id": "320_2",
+              "order": 2,
+              "text": "to laugh",
+              "value": "388",
+              "is_correct": false
+            },
+            {
+              "id": "320_3",
+              "order": 3,
+              "text": "laughing",
+              "value": "389",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "321",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Would you mind _______ the window?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "321_1",
+              "order": 1,
+              "text": "open",
+              "value": "390",
+              "is_correct": false
+            },
+            {
+              "id": "321_2",
+              "order": 2,
+              "text": "to open",
+              "value": "391",
+              "is_correct": false
+            },
+            {
+              "id": "321_3",
+              "order": 3,
+              "text": "opening",
+              "value": "392",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "322",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I'd like you to stop _______ that.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "322_1",
+              "order": 1,
+              "text": "do",
+              "value": "393",
+              "is_correct": false
+            },
+            {
+              "id": "322_2",
+              "order": 2,
+              "text": "to do",
+              "value": "394",
+              "is_correct": false
+            },
+            {
+              "id": "322_3",
+              "order": 3,
+              "text": "doing",
+              "value": "395",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "323",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 He recommends _______ some money before we arrive.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "323_1",
+              "order": 1,
+              "text": "change",
+              "value": "396",
+              "is_correct": false
+            },
+            {
+              "id": "323_2",
+              "order": 2,
+              "text": "to change",
+              "value": "397",
+              "is_correct": false
+            },
+            {
+              "id": "323_3",
+              "order": 3,
+              "text": "changing",
+              "value": "398",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "324",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I forgot _______ you yesterday. I'm sorry.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "324_1",
+              "order": 1,
+              "text": "call",
+              "value": "399",
+              "is_correct": false
+            },
+            {
+              "id": "324_2",
+              "order": 2,
+              "text": "to call",
+              "value": "400",
+              "is_correct": true
+            },
+            {
+              "id": "324_3",
+              "order": 3,
+              "text": "calling",
+              "value": "401",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "325",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Sam didn't want to eat, but she made him _______ the sandwich.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "325_1",
+              "order": 1,
+              "text": "finish",
+              "value": "402",
+              "is_correct": true
+            },
+            {
+              "id": "325_2",
+              "order": 2,
+              "text": "to finish",
+              "value": "403",
+              "is_correct": false
+            },
+            {
+              "id": "325_3",
+              "order": 3,
+              "text": "finishing",
+              "value": "404",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "326",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 We are looking forward _______ you.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "326_1",
+              "order": 1,
+              "text": "see",
+              "value": "405",
+              "is_correct": false
+            },
+            {
+              "id": "326_2",
+              "order": 2,
+              "text": "to see",
+              "value": "406",
+              "is_correct": false
+            },
+            {
+              "id": "326_3",
+              "order": 3,
+              "text": "to seeing",
+              "value": "407",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "327",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I'd rather _______ here if you don't mind.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "327_1",
+              "order": 1,
+              "text": "stay",
+              "value": "408",
+              "is_correct": true
+            },
+            {
+              "id": "327_2",
+              "order": 2,
+              "text": "to stay",
+              "value": "409",
+              "is_correct": false
+            },
+            {
+              "id": "327_3",
+              "order": 3,
+              "text": "staying",
+              "value": "410",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "328",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 She pretended _______ interested.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "328_1",
+              "order": 1,
+              "text": "be",
+              "value": "411",
+              "is_correct": false
+            },
+            {
+              "id": "328_2",
+              "order": 2,
+              "text": "to be",
+              "value": "412",
+              "is_correct": true
+            },
+            {
+              "id": "328_3",
+              "order": 3,
+              "text": "being",
+              "value": "413",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-44",
+      "lessonId": "b1-b2_gerund_or_infinitive",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Choose the correct form of gerund or infinitive for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_gerund-or-infinitive_3.html",
+      "questions": [
+        {
+          "id": "329",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I'll never forget {{gap1}} to your mother for the first time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_329_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "talking",
+              "accepted_answers": [
+                "talking"
+              ],
+              "options": [
+                {
+                  "id": "gap_329_1_1",
+                  "order": 1,
+                  "text": "to talk",
+                  "value": "to talk",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_329_1_2",
+                  "order": 2,
+                  "text": "talking",
+                  "value": "talking",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_329_1_3",
+                  "order": 3,
+                  "text": "talk",
+                  "value": "talk",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "330",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 They seem {{gap1}} in a good mood.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_330_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to be",
+              "accepted_answers": [
+                "to be"
+              ],
+              "options": [
+                {
+                  "id": "gap_330_1_1",
+                  "order": 1,
+                  "text": "being",
+                  "value": "being",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_330_1_2",
+                  "order": 2,
+                  "text": "be",
+                  "value": "be",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_330_1_3",
+                  "order": 3,
+                  "text": "to be",
+                  "value": "to be",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "331",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 We managed {{gap1}} up the hill.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_331_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to climb",
+              "accepted_answers": [
+                "to climb"
+              ],
+              "options": [
+                {
+                  "id": "gap_331_1_1",
+                  "order": 1,
+                  "text": "climbing",
+                  "value": "climbing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_331_1_2",
+                  "order": 2,
+                  "text": "to climb",
+                  "value": "to climb",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_331_1_3",
+                  "order": 3,
+                  "text": "climb",
+                  "value": "climb",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "332",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 She reminded him {{gap1}} his homework.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_332_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to do",
+              "accepted_answers": [
+                "to do"
+              ],
+              "options": [
+                {
+                  "id": "gap_332_1_1",
+                  "order": 1,
+                  "text": "to do",
+                  "value": "to do",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_332_1_2",
+                  "order": 2,
+                  "text": "doing",
+                  "value": "doing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_332_1_3",
+                  "order": 3,
+                  "text": "do",
+                  "value": "do",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "333",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 He's planning {{gap1}} to New York.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_333_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to travel",
+              "accepted_answers": [
+                "to travel"
+              ],
+              "options": [
+                {
+                  "id": "gap_333_1_1",
+                  "order": 1,
+                  "text": "travelling",
+                  "value": "travelling",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_333_1_2",
+                  "order": 2,
+                  "text": "travel",
+                  "value": "travel",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_333_1_3",
+                  "order": 3,
+                  "text": "to travel",
+                  "value": "to travel",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "334",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 He refused {{gap1}} his car.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_334_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to move",
+              "accepted_answers": [
+                "to move"
+              ],
+              "options": [
+                {
+                  "id": "gap_334_1_1",
+                  "order": 1,
+                  "text": "move",
+                  "value": "move",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_334_1_2",
+                  "order": 2,
+                  "text": "to move",
+                  "value": "to move",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_334_1_3",
+                  "order": 3,
+                  "text": "moving",
+                  "value": "moving",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "335",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 It is important {{gap1}} vocabulary every day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_335_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to review",
+              "accepted_answers": [
+                "to review"
+              ],
+              "options": [
+                {
+                  "id": "gap_335_1_1",
+                  "order": 1,
+                  "text": "to review",
+                  "value": "to review",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_335_1_2",
+                  "order": 2,
+                  "text": "reviewing",
+                  "value": "reviewing",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_335_1_3",
+                  "order": 3,
+                  "text": "review",
+                  "value": "review",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "336",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 He spent three hours {{gap1}} TV.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_336_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "watching",
+              "accepted_answers": [
+                "watching"
+              ],
+              "options": [
+                {
+                  "id": "gap_336_1_1",
+                  "order": 1,
+                  "text": "to watch",
+                  "value": "to watch",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_336_1_2",
+                  "order": 2,
+                  "text": "watch",
+                  "value": "watch",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_336_1_3",
+                  "order": 3,
+                  "text": "watching",
+                  "value": "watching",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "337",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 He denied {{gap1}} the window.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_337_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "breaking",
+              "accepted_answers": [
+                "breaking"
+              ],
+              "options": [
+                {
+                  "id": "gap_337_1_1",
+                  "order": 1,
+                  "text": "to break",
+                  "value": "to break",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_337_1_2",
+                  "order": 2,
+                  "text": "break",
+                  "value": "break",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_337_1_3",
+                  "order": 3,
+                  "text": "breaking",
+                  "value": "breaking",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "338",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 She offered {{gap1}} me to the airport.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_338_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to take",
+              "accepted_answers": [
+                "to take"
+              ],
+              "options": [
+                {
+                  "id": "gap_338_1_1",
+                  "order": 1,
+                  "text": "to take",
+                  "value": "to take",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_338_1_2",
+                  "order": 2,
+                  "text": "take",
+                  "value": "take",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_338_1_3",
+                  "order": 3,
+                  "text": "taking",
+                  "value": "taking",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-45",
+      "lessonId": "b1-b2_gerund_or_infinitive",
+      "order": 4,
+      "page": 4,
+      "title": "Exercise 4",
+      "instruction": "Complete the sentences using the verb in brackets in the correct gerund or infinitive form.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_gerund-or-infinitive_4.html",
+      "questions": [
+        {
+          "id": "339",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Dear Ms Collins, I am writing 1 {{gap1}} (express) my interest in the position of Personal Assistant advertised in the newspaper last week. I am proficient at 2 {{gap2}} (type), and I know how 3 {{gap3}} (use) most word-processing software. I also have excellent organisational abilities as I used 4 {{gap4}} (work) for a very big company as an event planner. I always tend 5 {{gap5}} (look) forward to new challenges that can make me 6 {{gap6}} (grow) in my position. I enjoy 7 {{gap7}} (work) with people, I am flexible, and I don't mind 8 {{gap8}} (work) overtime. As you can see from the attached letters of reference, my previous employers considered me to be a skilled secretary. I would be pleased 9 {{gap9}} (extend) my career by working for a prestigious company like HTM. I look forward to 10 {{gap10}} (hear) from you. Yours sincerely, Jessica Jones.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_339_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to express",
+              "accepted_answers": [
+                "to express"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_339_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "typing",
+              "accepted_answers": [
+                "typing"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_339_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "to use",
+              "accepted_answers": [
+                "to use"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_339_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "to work",
+              "accepted_answers": [
+                "to work"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_339_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "to look",
+              "accepted_answers": [
+                "to look"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_339_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "grow",
+              "accepted_answers": [
+                "grow"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_339_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "working",
+              "accepted_answers": [
+                "working"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_339_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "working",
+              "accepted_answers": [
+                "working"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_339_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "to extend",
+              "accepted_answers": [
+                "to extend"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_339_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "hearing",
+              "accepted_answers": [
+                "hearing"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

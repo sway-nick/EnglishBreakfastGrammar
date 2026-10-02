@@ -1,0 +1,1330 @@
+{
+  "lesson_id": "a1_was_were",
+  "level": "A1",
+  "title": "Was/were: Past simple of 'be'",
+  "description": "Практический тест и правила по теме: Was/were: Past simple of 'be'",
+  "theory": {
+    "title": "Правила и грамматика: Was/were: Past simple of 'be'",
+    "level": "A1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Was/were: Past simple of 'be'».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Was/were: Past simple of 'be'» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-459",
+      "lessonId": "a1_was_were",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose was/were or am/is/are to complete the following sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_was-were.html",
+      "questions": [
+        {
+          "id": "4001",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 My son {{gap1}} short in school, but now he {{gap2}} tall.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4001_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": [
+                {
+                  "id": "gap_4001_1_1",
+                  "order": 1,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4001_1_2",
+                  "order": 2,
+                  "text": "was",
+                  "value": "was",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4001_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": [
+                {
+                  "id": "gap_4001_2_1",
+                  "order": 1,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4001_2_2",
+                  "order": 2,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4001_2_3",
+                  "order": 3,
+                  "text": "am",
+                  "value": "am",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4002",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 ' {{gap1}} you at the stadium yesterday?' 'Yes, I {{gap2}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4002_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Were",
+              "accepted_answers": [
+                "Were"
+              ],
+              "options": [
+                {
+                  "id": "gap_4002_1_1",
+                  "order": 1,
+                  "text": "Were",
+                  "value": "Were",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4002_1_2",
+                  "order": 2,
+                  "text": "Was",
+                  "value": "Was",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4002_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": [
+                {
+                  "id": "gap_4002_2_1",
+                  "order": 1,
+                  "text": "was",
+                  "value": "was",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4002_2_2",
+                  "order": 2,
+                  "text": "'s",
+                  "value": "'s",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4002_2_3",
+                  "order": 3,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4003",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Yesterday Philip and Emma {{gap1}} in London. Today they {{gap2}} in Paris.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4003_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": [
+                {
+                  "id": "gap_4003_1_1",
+                  "order": 1,
+                  "text": "was",
+                  "value": "was",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4003_1_2",
+                  "order": 2,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4003_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": [
+                {
+                  "id": "gap_4003_2_1",
+                  "order": 1,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4003_2_2",
+                  "order": 2,
+                  "text": "am",
+                  "value": "am",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4003_2_3",
+                  "order": 3,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4004",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Sara and I {{gap1}} at home that night, and you {{gap2}} with us.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4004_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": [
+                {
+                  "id": "gap_4004_1_1",
+                  "order": 1,
+                  "text": "was",
+                  "value": "was",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4004_1_2",
+                  "order": 2,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4004_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": [
+                {
+                  "id": "gap_4004_2_1",
+                  "order": 1,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4004_2_2",
+                  "order": 2,
+                  "text": "was",
+                  "value": "was",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4005",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Yesterday we {{gap1}} late for the concert, and today I {{gap2}} late for class.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4005_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": [
+                {
+                  "id": "gap_4005_1_1",
+                  "order": 1,
+                  "text": "was",
+                  "value": "was",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4005_1_2",
+                  "order": 2,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4005_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "am",
+              "accepted_answers": [
+                "am"
+              ],
+              "options": [
+                {
+                  "id": "gap_4005_2_1",
+                  "order": 1,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4005_2_2",
+                  "order": 2,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4005_2_3",
+                  "order": 3,
+                  "text": "am",
+                  "value": "am",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4006",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 Asim {{gap1}} born in Egypt, and I {{gap2}} born in Birmingham.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4006_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": [
+                {
+                  "id": "gap_4006_1_1",
+                  "order": 1,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4006_1_2",
+                  "order": 2,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4006_1_3",
+                  "order": 3,
+                  "text": "was",
+                  "value": "was",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4006_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": [
+                {
+                  "id": "gap_4006_2_1",
+                  "order": 1,
+                  "text": "am",
+                  "value": "am",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4006_2_2",
+                  "order": 2,
+                  "text": "was",
+                  "value": "was",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4006_2_3",
+                  "order": 3,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4007",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 ' {{gap1}} you excited about the trip?' 'Yes, we {{gap2}} very excited.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4007_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Were",
+              "accepted_answers": [
+                "Were"
+              ],
+              "options": [
+                {
+                  "id": "gap_4007_1_1",
+                  "order": 1,
+                  "text": "Was",
+                  "value": "Was",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4007_1_2",
+                  "order": 2,
+                  "text": "Were",
+                  "value": "Were",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4007_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": [
+                {
+                  "id": "gap_4007_2_1",
+                  "order": 1,
+                  "text": "'re",
+                  "value": "'re",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4007_2_2",
+                  "order": 2,
+                  "text": "was",
+                  "value": "was",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4007_2_3",
+                  "order": 3,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4008",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 ' {{gap1}} Kate angry yesterday after the meeting?' 'No, but I think she {{gap2}} angry now.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4008_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Was",
+              "accepted_answers": [
+                "Was"
+              ],
+              "options": [
+                {
+                  "id": "gap_4008_1_1",
+                  "order": 1,
+                  "text": "Were",
+                  "value": "Were",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4008_1_2",
+                  "order": 2,
+                  "text": "Was",
+                  "value": "Was",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4008_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": [
+                {
+                  "id": "gap_4008_2_1",
+                  "order": 1,
+                  "text": "am",
+                  "value": "am",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4008_2_2",
+                  "order": 2,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4008_2_3",
+                  "order": 3,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4009",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 ' {{gap1}} you at the beach last Sunday?' 'Yes, I {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4009_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Were",
+              "accepted_answers": [
+                "Were"
+              ],
+              "options": [
+                {
+                  "id": "gap_4009_1_1",
+                  "order": 1,
+                  "text": "Was",
+                  "value": "Was",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4009_1_2",
+                  "order": 2,
+                  "text": "Were",
+                  "value": "Were",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_4009_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": [
+                {
+                  "id": "gap_4009_2_1",
+                  "order": 1,
+                  "text": "was",
+                  "value": "was",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4009_2_2",
+                  "order": 2,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4010",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 The weather {{gap1}} nice today, but it {{gap2}} horrible last weekend.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4010_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is",
+              "accepted_answers": [
+                "is"
+              ],
+              "options": [
+                {
+                  "id": "gap_4010_1_1",
+                  "order": 1,
+                  "text": "was",
+                  "value": "was",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4010_1_2",
+                  "order": 2,
+                  "text": "is",
+                  "value": "is",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_4010_1_3",
+                  "order": 3,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_4010_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": [
+                {
+                  "id": "gap_4010_2_1",
+                  "order": 1,
+                  "text": "were",
+                  "value": "were",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_4010_2_2",
+                  "order": 2,
+                  "text": "was",
+                  "value": "was",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-460",
+      "lessonId": "a1_was_were",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Complete the following sentences with was/were or wasn’t/weren’t.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_was-were_2.html",
+      "questions": [
+        {
+          "id": "4011",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Where {{gap1}} you last night? I called you, but you {{gap2}} at home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4011_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4011_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "weren't",
+              "accepted_answers": [
+                "weren't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4022",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 ' {{gap1}} Sandra happy after the exam?' 'No, she {{gap2}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4022_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4022_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "wasn't",
+              "accepted_answers": [
+                "wasn't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4023",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I remember I {{gap1}} very worried, but you {{gap2}} calm.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4023_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4023_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4024",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 Betty and Paul {{gap1}} at home; they {{gap2}} at the cinema",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4024_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "weren't",
+              "accepted_answers": [
+                "weren't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4024_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4025",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 ' {{gap1}} you tired after the concert?' 'Yes, I {{gap2}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4025_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Were",
+              "accepted_answers": [
+                "Were"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4025_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4026",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I'm very sorry. You {{gap1}} right, and I {{gap2}} wrong.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4026_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4026_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4027",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 'Were your parents at the meeting?' 'My dad {{gap1}} there, but my mum {{gap2}}.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4027_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4027_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "wasn't",
+              "accepted_answers": [
+                "wasn't"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4028",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 We {{gap1}} late! We {{gap2}} early. The concert was at 8 and we arrived at 7.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4028_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "weren't",
+              "accepted_answers": [
+                "weren't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4028_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4029",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Vivian {{gap1}} at the meeting, but I {{gap2}} there. I always go to the meetings.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4029_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "wasn't",
+              "accepted_answers": [
+                "wasn't"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4029_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "was",
+              "accepted_answers": [
+                "was"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4030",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 ' {{gap1}} Tim with you?' 'No, only Sally and Peter {{gap2}} there with me.'",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4030_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Was",
+              "accepted_answers": [
+                "Was"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_4030_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "were",
+              "accepted_answers": [
+                "were"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-461",
+      "lessonId": "a1_was_were",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Write questions using was/were and the words below. Put the words in the correct order.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a1_was-were_3.html",
+      "questions": [
+        {
+          "id": "4012",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 the keys / where ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4012_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Where were the keys",
+              "accepted_answers": [
+                "Where were the keys"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4013",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 Robin / why / at the meeting ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4013_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "why was Robin at the meeting",
+              "accepted_answers": [
+                "why was Robin at the meeting"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4014",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 born / she / when ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4014_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "When was she born",
+              "accepted_answers": [
+                "When was she born"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4015",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 how expensive / the hotel ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4015_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "How expensive was the hotel",
+              "accepted_answers": [
+                "How expensive was the hotel"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4016",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 why / you / angry ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4016_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "why were you angry",
+              "accepted_answers": [
+                "why were you angry"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4017",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 unconscious / I / after the accident ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4017_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Was I unconscious after the accident",
+              "accepted_answers": [
+                "Was I unconscious after the accident"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4018",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 the questions / difficult ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4018_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Were the questions difficult",
+              "accepted_answers": [
+                "Were the questions difficult"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4019",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 the accident / what time ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4019_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "What time was the accident",
+              "accepted_answers": [
+                "What time was the accident"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4020",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 you / how often / in contact with them ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4020_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "how often were you in contact with them",
+              "accepted_answers": [
+                "how often were you in contact with them"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "4021",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 where / you and Tom / last night ⇒ {{gap1}}?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_4021_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Where were you and Tom last night",
+              "accepted_answers": [
+                "Where were you and Tom last night"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

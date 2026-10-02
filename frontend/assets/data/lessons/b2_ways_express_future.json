@@ -1,0 +1,1137 @@
+{
+  "lesson_id": "b2_ways_express_future",
+  "level": "B2",
+  "title": "Other ways to express future: Be about to, be due to, etc.",
+  "description": "Практический тест и правила по теме: Other ways to express future: Be about to, be due to, etc.",
+  "theory": {
+    "title": "Правила и грамматика: Other ways to express future: Be about to, be due to, etc.",
+    "level": "B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Other ways to express future: Be about to, be due to, etc.».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Other ways to express future: Be about to, be due to, etc.» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-142",
+      "lessonId": "b2_ways_express_future",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct or most appropriate future expression to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_ways-express-future.html",
+      "questions": [
+        {
+          "id": "1163",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 You {{gap1}} to leave your room until you tidy it up.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1163_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are not",
+              "accepted_answers": [
+                "are not"
+              ],
+              "options": [
+                {
+                  "id": "gap_1163_1_1",
+                  "order": 1,
+                  "text": "are not due",
+                  "value": "are not due",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1163_1_2",
+                  "order": 2,
+                  "text": "are not about",
+                  "value": "are not about",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1163_1_3",
+                  "order": 3,
+                  "text": "are not",
+                  "value": "are not",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1164",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 When I found her, she was shaking and {{gap1}} crying",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1164_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "on the verge of",
+              "accepted_answers": [
+                "on the verge of"
+              ],
+              "options": [
+                {
+                  "id": "gap_1164_1_1",
+                  "order": 1,
+                  "text": "due to",
+                  "value": "due to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1164_1_2",
+                  "order": 2,
+                  "text": "about to",
+                  "value": "about to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1164_1_3",
+                  "order": 3,
+                  "text": "on the verge of",
+                  "value": "on the verge of",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1165",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 According to commentators, she is {{gap1}} because she is much faster than her rivals.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1165_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "bound to win",
+              "accepted_answers": [
+                "bound to win"
+              ],
+              "options": [
+                {
+                  "id": "gap_1165_1_1",
+                  "order": 1,
+                  "text": "on the verge of winning",
+                  "value": "on the verge of winning",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1165_1_2",
+                  "order": 2,
+                  "text": "due to win",
+                  "value": "due to win",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1165_1_3",
+                  "order": 3,
+                  "text": "bound to win",
+                  "value": "bound to win",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1166",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 The US delegation {{gap1}} to arrive on Friday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1166_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is due",
+              "accepted_answers": [
+                "is due"
+              ],
+              "options": [
+                {
+                  "id": "gap_1166_1_1",
+                  "order": 1,
+                  "text": "is bound",
+                  "value": "is bound",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1166_1_2",
+                  "order": 2,
+                  "text": "is about",
+                  "value": "is about",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1166_1_3",
+                  "order": 3,
+                  "text": "is due",
+                  "value": "is due",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1167",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 When he called, he was {{gap1}} committing suicide.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1167_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "on the point of",
+              "accepted_answers": [
+                "on the point of"
+              ],
+              "options": [
+                {
+                  "id": "gap_1167_1_1",
+                  "order": 1,
+                  "text": "due to",
+                  "value": "due to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1167_1_2",
+                  "order": 2,
+                  "text": "on the point of",
+                  "value": "on the point of",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1167_1_3",
+                  "order": 3,
+                  "text": "about to",
+                  "value": "about to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1168",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 The Turkish president {{gap1}} Russia on September 10th.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1168_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is to visit",
+              "accepted_answers": [
+                "is to visit"
+              ],
+              "options": [
+                {
+                  "id": "gap_1168_1_1",
+                  "order": 1,
+                  "text": "is about to visit",
+                  "value": "is about to visit",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1168_1_2",
+                  "order": 2,
+                  "text": "is to visit",
+                  "value": "is to visit",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1168_1_3",
+                  "order": 3,
+                  "text": "is bound to visit",
+                  "value": "is bound to visit",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1169",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 The tennis player {{gap1}} to carry his country's flag at Friday's opening ceremony in Rio.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1169_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is due",
+              "accepted_answers": [
+                "is due"
+              ],
+              "options": [
+                {
+                  "id": "gap_1169_1_1",
+                  "order": 1,
+                  "text": "is bound",
+                  "value": "is bound",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1169_1_2",
+                  "order": 2,
+                  "text": "is on the verge",
+                  "value": "is on the verge",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1169_1_3",
+                  "order": 3,
+                  "text": "is due",
+                  "value": "is due",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1170",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 The Korean Marines were {{gap1}} to open fire when American officers stopped them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1170_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "about",
+              "accepted_answers": [
+                "about"
+              ],
+              "options": [
+                {
+                  "id": "gap_1170_1_1",
+                  "order": 1,
+                  "text": "about",
+                  "value": "about",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1170_1_2",
+                  "order": 2,
+                  "text": "on the point",
+                  "value": "on the point",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1170_1_3",
+                  "order": 3,
+                  "text": "due",
+                  "value": "due",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1171",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Students {{gap1}} to behave in a manner that shows respect.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1171_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are",
+              "accepted_answers": [
+                "are"
+              ],
+              "options": [
+                {
+                  "id": "gap_1171_1_1",
+                  "order": 1,
+                  "text": "are due",
+                  "value": "are due",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1171_1_2",
+                  "order": 2,
+                  "text": "are about",
+                  "value": "are about",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1171_1_3",
+                  "order": 3,
+                  "text": "are",
+                  "value": "are",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1172",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Both candidates {{gap1}} begin the campaign next Thursday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1172_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are due to",
+              "accepted_answers": [
+                "are due to"
+              ],
+              "options": [
+                {
+                  "id": "gap_1172_1_1",
+                  "order": 1,
+                  "text": "are bound to",
+                  "value": "are bound to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1172_1_2",
+                  "order": 2,
+                  "text": "are on the verge of",
+                  "value": "are on the verge of",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1172_1_3",
+                  "order": 3,
+                  "text": "are due to",
+                  "value": "are due to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-143",
+      "lessonId": "b2_ways_express_future",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the most appropriate future expression for the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_ways-express-future_2.html",
+      "questions": [
+        {
+          "id": "1153",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 The government ______ to pass the new law by the end of the year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1153_1",
+              "order": 1,
+              "text": "is about",
+              "value": "1656",
+              "is_correct": false
+            },
+            {
+              "id": "1153_2",
+              "order": 2,
+              "text": "is on the verge",
+              "value": "1657",
+              "is_correct": false
+            },
+            {
+              "id": "1153_3",
+              "order": 3,
+              "text": "is",
+              "value": "1658",
+              "is_correct": true
+            },
+            {
+              "id": "1153_4",
+              "order": 4,
+              "text": "is on the point",
+              "value": "1659",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1154",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 The new canal ______ to be finished by December next year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1154_1",
+              "order": 1,
+              "text": "is due",
+              "value": "1660",
+              "is_correct": true
+            },
+            {
+              "id": "1154_2",
+              "order": 2,
+              "text": "is on the brink",
+              "value": "1661",
+              "is_correct": false
+            },
+            {
+              "id": "1154_3",
+              "order": 3,
+              "text": "is about",
+              "value": "1662",
+              "is_correct": false
+            },
+            {
+              "id": "1154_4",
+              "order": 4,
+              "text": "is on the verge",
+              "value": "1663",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1155",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 Researchers say they are ______ discovering a new form of life.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1155_1",
+              "order": 1,
+              "text": "about",
+              "value": "1664",
+              "is_correct": false
+            },
+            {
+              "id": "1155_2",
+              "order": 2,
+              "text": "on the verge of",
+              "value": "1665",
+              "is_correct": false
+            },
+            {
+              "id": "1155_3",
+              "order": 3,
+              "text": "on the point of",
+              "value": "1666",
+              "is_correct": false
+            },
+            {
+              "id": "1155_4",
+              "order": 4,
+              "text": "on the point of / on the verge of",
+              "value": "1667",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1156",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 She is ______ to give birth to their second child in a few weeks.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1156_1",
+              "order": 1,
+              "text": "sure",
+              "value": "1668",
+              "is_correct": false
+            },
+            {
+              "id": "1156_2",
+              "order": 2,
+              "text": "on the verge",
+              "value": "1669",
+              "is_correct": false
+            },
+            {
+              "id": "1156_3",
+              "order": 3,
+              "text": "about",
+              "value": "1670",
+              "is_correct": false
+            },
+            {
+              "id": "1156_4",
+              "order": 4,
+              "text": "due",
+              "value": "1671",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1157",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 The National Institute of Health ______ to begin the first human trials for an experimental vaccine in the coming months.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1157_1",
+              "order": 1,
+              "text": "is on the verge",
+              "value": "1672",
+              "is_correct": false
+            },
+            {
+              "id": "1157_2",
+              "order": 2,
+              "text": "is due",
+              "value": "1673",
+              "is_correct": true
+            },
+            {
+              "id": "1157_3",
+              "order": 3,
+              "text": "is about",
+              "value": "1674",
+              "is_correct": false
+            },
+            {
+              "id": "1157_4",
+              "order": 4,
+              "text": "is on the point",
+              "value": "1675",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1158",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 The prime minister ______ contact the French president to begin negotiations.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1158_1",
+              "order": 1,
+              "text": "is on the verge",
+              "value": "1676",
+              "is_correct": false
+            },
+            {
+              "id": "1158_2",
+              "order": 2,
+              "text": "is on the brink",
+              "value": "1677",
+              "is_correct": false
+            },
+            {
+              "id": "1158_3",
+              "order": 3,
+              "text": "is due",
+              "value": "1678",
+              "is_correct": false
+            },
+            {
+              "id": "1158_4",
+              "order": 4,
+              "text": "is to",
+              "value": "1679",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1159",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 Borneo's orangutans are ______ extinct.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1159_1",
+              "order": 1,
+              "text": "on the verge of becoming",
+              "value": "1680",
+              "is_correct": false
+            },
+            {
+              "id": "1159_2",
+              "order": 2,
+              "text": "about to become",
+              "value": "1681",
+              "is_correct": false
+            },
+            {
+              "id": "1159_3",
+              "order": 3,
+              "text": "due to become",
+              "value": "1682",
+              "is_correct": false
+            },
+            {
+              "id": "1159_4",
+              "order": 4,
+              "text": "on the verge of becoming / about to become",
+              "value": "1683",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1160",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 The next generation of the device ______ to be unveiled until October 4th.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1160_1",
+              "order": 1,
+              "text": "isn't due",
+              "value": "1684",
+              "is_correct": true
+            },
+            {
+              "id": "1160_2",
+              "order": 2,
+              "text": "isn't unlikely",
+              "value": "1685",
+              "is_correct": false
+            },
+            {
+              "id": "1160_3",
+              "order": 3,
+              "text": "isn't about",
+              "value": "1686",
+              "is_correct": false
+            },
+            {
+              "id": "1160_4",
+              "order": 4,
+              "text": "isn't on the verge",
+              "value": "1687",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1161",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Experts say the terrorist attack ______ to affect tourism in the short term.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1161_1",
+              "order": 1,
+              "text": "is on the point",
+              "value": "1688",
+              "is_correct": false
+            },
+            {
+              "id": "1161_2",
+              "order": 2,
+              "text": "is due",
+              "value": "1689",
+              "is_correct": false
+            },
+            {
+              "id": "1161_3",
+              "order": 3,
+              "text": "is bound",
+              "value": "1690",
+              "is_correct": true
+            },
+            {
+              "id": "1161_4",
+              "order": 4,
+              "text": "is about",
+              "value": "1691",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1162",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 The government ______ its decision at a press conference on Friday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1162_1",
+              "order": 1,
+              "text": "is about to announce",
+              "value": "1692",
+              "is_correct": false
+            },
+            {
+              "id": "1162_2",
+              "order": 2,
+              "text": "is unlikely to announce",
+              "value": "1693",
+              "is_correct": false
+            },
+            {
+              "id": "1162_3",
+              "order": 3,
+              "text": "is on the verge of announcing",
+              "value": "1694",
+              "is_correct": false
+            },
+            {
+              "id": "1162_4",
+              "order": 4,
+              "text": "is due to announce",
+              "value": "1695",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-144",
+      "lessonId": "b2_ways_express_future",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Rewrite the sentences using the words in brackets so that the new sentences mean the same.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b2_ways-express-future_3.html",
+      "questions": [
+        {
+          "id": "1173",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 Arsenal have arranged to sign the new player in the next few days. (are) Arsenal {{gap1}} the new player in the next few days.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1173_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are signing",
+              "accepted_answers": [
+                "are signing"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1174",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 It is expected that another protest will take place on July 16. (due) Another protest {{gap1}} on July 16.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1174_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is due to take place",
+              "accepted_answers": [
+                "is due to take place"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1175",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 The election process will begin immediately. (about) The election process {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1175_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is about to begin",
+              "accepted_answers": [
+                "is about to begin"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1176",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 The athlete will achieve his lifetime goal very soon. (verge) The athlete {{gap1}} his lifetime goal.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1176_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is on the verge of achieving",
+              "accepted_answers": [
+                "is on the verge of achieving"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1177",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 The competition will undoubtedly be very tough. (bound) The competition {{gap1}} very tough.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1177_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is bound to be",
+              "accepted_answers": [
+                "is bound to be"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1178",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 Works to repair the church are expected to start next month. (due) Works to repair the church {{gap1}} next month.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1178_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are due to start",
+              "accepted_answers": [
+                "are due to start"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1180",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 After his last defeat, he admitted he is about to give up professional boxing. (point) After his last defeat, he admitted he {{gap1}} professional boxing.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1180_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "was on the point of giving up",
+              "accepted_answers": [
+                "was on the point of giving up"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1181",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 You mustn't speak unless you are told to. (not to) You {{gap1}} unless you are told to.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1181_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are not to speak",
+              "accepted_answers": [
+                "are not to speak"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1179",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 The midfield player is ready to sign a new contract with Real Madrid. (due) The midfield player {{gap1}} a new contract with Real Madrid.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1179_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "is due to sign",
+              "accepted_answers": [
+                "is due to sign"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "1182",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 Hurry up! The guests will arrive any minute. (about) Hurry up! The guests {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1182_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "are about to arrive",
+              "accepted_answers": [
+                "are about to arrive"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,997 @@
+{
+  "lesson_id": "a2_reported_speech_indirect_speech",
+  "level": "A2",
+  "title": "Reported speech / Indirect speech",
+  "description": "Практический тест и правила по теме: Reported speech / Indirect speech",
+  "theory": {
+    "title": "Правила и грамматика: Reported speech / Indirect speech",
+    "level": "A2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Reported speech / Indirect speech».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Reported speech / Indirect speech» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-414",
+      "lessonId": "a2_reported_speech_indirect_speech",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose say/said or tell/told to complete the following sentences in reported speech.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_reported-speech-indirect-speech.html",
+      "questions": [
+        {
+          "id": "3553",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 He {{gap1}} me that he didn't have enough money.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3553_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "told",
+              "accepted_answers": [
+                "told"
+              ],
+              "options": [
+                {
+                  "id": "gap_3553_1_1",
+                  "order": 1,
+                  "text": "told",
+                  "value": "told",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3553_1_2",
+                  "order": 2,
+                  "text": "said",
+                  "value": "said",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3554",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I {{gap1}} the waiter the soup was cold.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3554_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "told",
+              "accepted_answers": [
+                "told"
+              ],
+              "options": [
+                {
+                  "id": "gap_3554_1_1",
+                  "order": 1,
+                  "text": "said",
+                  "value": "said",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3554_1_2",
+                  "order": 2,
+                  "text": "told",
+                  "value": "told",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3555",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 Everybody {{gap1}} that I had been great.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3555_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "said",
+              "accepted_answers": [
+                "said"
+              ],
+              "options": [
+                {
+                  "id": "gap_3555_1_1",
+                  "order": 1,
+                  "text": "said",
+                  "value": "said",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3555_1_2",
+                  "order": 2,
+                  "text": "told",
+                  "value": "told",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3556",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 She {{gap1}} I was her favourite student.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3556_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "said",
+              "accepted_answers": [
+                "said"
+              ],
+              "options": [
+                {
+                  "id": "gap_3556_1_1",
+                  "order": 1,
+                  "text": "said",
+                  "value": "said",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3556_1_2",
+                  "order": 2,
+                  "text": "told",
+                  "value": "told",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3557",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 Victor {{gap1}} he would change the windows.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3557_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "said",
+              "accepted_answers": [
+                "said"
+              ],
+              "options": [
+                {
+                  "id": "gap_3557_1_1",
+                  "order": 1,
+                  "text": "told",
+                  "value": "told",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3557_1_2",
+                  "order": 2,
+                  "text": "said",
+                  "value": "said",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3558",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 I {{gap1}} the doctor I didn't want to take any medicine.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3558_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "told",
+              "accepted_answers": [
+                "told"
+              ],
+              "options": [
+                {
+                  "id": "gap_3558_1_1",
+                  "order": 1,
+                  "text": "told",
+                  "value": "told",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3558_1_2",
+                  "order": 2,
+                  "text": "said",
+                  "value": "said",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3559",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 They didn't {{gap1}} me anything.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3559_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "tell",
+              "accepted_answers": [
+                "tell"
+              ],
+              "options": [
+                {
+                  "id": "gap_3559_1_1",
+                  "order": 1,
+                  "text": "tell",
+                  "value": "tell",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3559_1_2",
+                  "order": 2,
+                  "text": "say",
+                  "value": "say",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3560",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 She {{gap1}} she worked in a factory.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3560_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "said",
+              "accepted_answers": [
+                "said"
+              ],
+              "options": [
+                {
+                  "id": "gap_3560_1_1",
+                  "order": 1,
+                  "text": "said",
+                  "value": "said",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_3560_1_2",
+                  "order": 2,
+                  "text": "told",
+                  "value": "told",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3561",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 Who {{gap1}} you that they wouldn't come?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3561_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "told",
+              "accepted_answers": [
+                "told"
+              ],
+              "options": [
+                {
+                  "id": "gap_3561_1_1",
+                  "order": 1,
+                  "text": "said",
+                  "value": "said",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3561_1_2",
+                  "order": 2,
+                  "text": "told",
+                  "value": "told",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3562",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 They {{gap1}} there was a problem.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3562_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "said",
+              "accepted_answers": [
+                "said"
+              ],
+              "options": [
+                {
+                  "id": "gap_3562_1_1",
+                  "order": 1,
+                  "text": "told",
+                  "value": "told",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_3562_1_2",
+                  "order": 2,
+                  "text": "said",
+                  "value": "said",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-415",
+      "lessonId": "a2_reported_speech_indirect_speech",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct reported speech forms to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_reported-speech-indirect-speech_2.html",
+      "questions": [
+        {
+          "id": "3563",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 'I'm really tired' ⇒ She said that she _____ really tired.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3563_1",
+              "order": 1,
+              "text": "is",
+              "value": "5713",
+              "is_correct": false
+            },
+            {
+              "id": "3563_2",
+              "order": 2,
+              "text": "has been",
+              "value": "5714",
+              "is_correct": false
+            },
+            {
+              "id": "3563_3",
+              "order": 3,
+              "text": "was",
+              "value": "5715",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3564",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 'I don't want any trouble.' ⇒ He told me he _____ any trouble.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3564_1",
+              "order": 1,
+              "text": "didn't want",
+              "value": "5716",
+              "is_correct": true
+            },
+            {
+              "id": "3564_2",
+              "order": 2,
+              "text": "hasn't wanted",
+              "value": "5717",
+              "is_correct": false
+            },
+            {
+              "id": "3564_3",
+              "order": 3,
+              "text": "hadn't wanted",
+              "value": "5718",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3565",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 'I'll be at home all afternoon.' ⇒ She said she _____ at home all afternoon.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3565_1",
+              "order": 1,
+              "text": "was",
+              "value": "5719",
+              "is_correct": false
+            },
+            {
+              "id": "3565_2",
+              "order": 2,
+              "text": "'d be",
+              "value": "5720",
+              "is_correct": true
+            },
+            {
+              "id": "3565_3",
+              "order": 3,
+              "text": "'d been",
+              "value": "5721",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3566",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 'I love my family.' ⇒ He told me that _____ loved _____ family.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3566_1",
+              "order": 1,
+              "text": "I / my",
+              "value": "5722",
+              "is_correct": false
+            },
+            {
+              "id": "3566_2",
+              "order": 2,
+              "text": "you / your",
+              "value": "5723",
+              "is_correct": false
+            },
+            {
+              "id": "3566_3",
+              "order": 3,
+              "text": "he / his",
+              "value": "5724",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3567",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 'I haven't seen Tom.' ⇒ She told me she _____ Tom.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3567_1",
+              "order": 1,
+              "text": "hadn't seen",
+              "value": "5725",
+              "is_correct": true
+            },
+            {
+              "id": "3567_2",
+              "order": 2,
+              "text": "haven't seen",
+              "value": "5726",
+              "is_correct": false
+            },
+            {
+              "id": "3567_3",
+              "order": 3,
+              "text": "didn't see",
+              "value": "5727",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3568",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 'You have my phone.' ⇒ The man said that _____ had _____ phone.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3568_1",
+              "order": 1,
+              "text": "you / his",
+              "value": "5734",
+              "is_correct": false
+            },
+            {
+              "id": "3568_2",
+              "order": 2,
+              "text": "I / your",
+              "value": "5735",
+              "is_correct": false
+            },
+            {
+              "id": "3568_3",
+              "order": 3,
+              "text": "I / his",
+              "value": "5736",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "3569",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 'I'm trying to concentrate.' ⇒ She said that she _____ to concentrate.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3569_1",
+              "order": 1,
+              "text": "was trying",
+              "value": "5728",
+              "is_correct": true
+            },
+            {
+              "id": "3569_2",
+              "order": 2,
+              "text": "tried",
+              "value": "5729",
+              "is_correct": false
+            },
+            {
+              "id": "3569_3",
+              "order": 3,
+              "text": "tries",
+              "value": "5730",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3570",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 'I didn't steal any money.' ⇒ The thief said that he _____ any money.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3570_1",
+              "order": 1,
+              "text": "hadn't stolen",
+              "value": "5731",
+              "is_correct": true
+            },
+            {
+              "id": "3570_2",
+              "order": 2,
+              "text": "didn't steal",
+              "value": "5732",
+              "is_correct": false
+            },
+            {
+              "id": "3570_3",
+              "order": 3,
+              "text": "hasn't stolen",
+              "value": "5733",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3571",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 'I can lend you the money' ⇒ She told me she _____ me the money.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3571_1",
+              "order": 1,
+              "text": "can lend",
+              "value": "5737",
+              "is_correct": false
+            },
+            {
+              "id": "3571_2",
+              "order": 2,
+              "text": "could lend",
+              "value": "5738",
+              "is_correct": true
+            },
+            {
+              "id": "3571_3",
+              "order": 3,
+              "text": "lent",
+              "value": "5739",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "3572",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 'I won't call you again.' ⇒ She told me she _____ again.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "3572_1",
+              "order": 1,
+              "text": "wouldn't call you",
+              "value": "5740",
+              "is_correct": false
+            },
+            {
+              "id": "3572_2",
+              "order": 2,
+              "text": "didn't call me",
+              "value": "5741",
+              "is_correct": false
+            },
+            {
+              "id": "3572_3",
+              "order": 3,
+              "text": "wouldn't call me",
+              "value": "5742",
+              "is_correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-416",
+      "lessonId": "a2_reported_speech_indirect_speech",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Rewrite the sentences in reported speech, changing the verb tenses and the pronouns appropriately.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_a2_reported-speech-indirect-speech_3.html",
+      "questions": [
+        {
+          "id": "3573",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 'My sister isn't well.' ⇒ She said that {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3573_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "her sister wasn't well",
+              "accepted_answers": [
+                "her sister wasn't well"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3574",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 'I called you.' ⇒ He said that {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3574_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "he had called me",
+              "accepted_answers": [
+                "he had called me"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3575",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 'I won't come back.' ⇒ She told me that {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3575_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "she wouldn't come back",
+              "accepted_answers": [
+                "she wouldn't come back"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3576",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 'I've found a wallet.' ⇒ He said that {{gap1}}",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3576_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "he had found a wallet",
+              "accepted_answers": [
+                "he had found a wallet"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3577",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 'I don't like fish.' ⇒ He told me that {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3577_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "he didn't like fish",
+              "accepted_answers": [
+                "he didn't like fish"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3578",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 'I'm looking for a job.' ⇒ She told me that {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3578_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "she was looking for a job",
+              "accepted_answers": [
+                "she was looking for a job"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3579",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 'You must show me your passport.' ⇒ She told me that {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3579_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "I had to show her my passport",
+              "accepted_answers": [
+                "I had to show her my passport"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3580",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 'I'll call you soon.' ⇒ He told me that {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3580_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "he would call me soon",
+              "accepted_answers": [
+                "he would call me soon"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3582",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 'I'm not feeling well.' ⇒ She said that {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3582_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "she wasn't feeling well",
+              "accepted_answers": [
+                "she wasn't feeling well"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "3583",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 'You took my car.' ⇒ She said that {{gap1}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_3583_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "I had taken her car",
+              "accepted_answers": [
+                "I had taken her car"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

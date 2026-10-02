@@ -1,0 +1,1067 @@
+{
+  "lesson_id": "b1_for_since_from_difference",
+  "level": "B1",
+  "title": "For, since, from: What's the difference?",
+  "description": "Практический тест и правила по теме: For, since, from: What's the difference?",
+  "theory": {
+    "title": "Правила и грамматика: For, since, from: What's the difference?",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «For, since, from: What's the difference?».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «For, since, from: What's the difference?» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-709",
+      "lessonId": "b1_for_since_from_difference",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose since, from, for to complete each sentence.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_for-since-from-difference.html",
+      "questions": [
+        {
+          "id": "6048",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I haven't seen her {{gap1}} the accident.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6048_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "since",
+              "accepted_answers": [
+                "since"
+              ],
+              "options": [
+                {
+                  "id": "gap_6048_1_1",
+                  "order": 1,
+                  "text": "from",
+                  "value": "from",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6048_1_2",
+                  "order": 2,
+                  "text": "since",
+                  "value": "since",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6048_1_3",
+                  "order": 3,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6051",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 The new service will start {{gap1}} tomorrow morning.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6051_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "from",
+              "accepted_answers": [
+                "from"
+              ],
+              "options": [
+                {
+                  "id": "gap_6051_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6051_1_2",
+                  "order": 2,
+                  "text": "since",
+                  "value": "since",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6051_1_3",
+                  "order": 3,
+                  "text": "from",
+                  "value": "from",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6052",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 We've been waiting {{gap1}} two hours.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6052_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": [
+                {
+                  "id": "gap_6052_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6052_1_2",
+                  "order": 2,
+                  "text": "from",
+                  "value": "from",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6052_1_3",
+                  "order": 3,
+                  "text": "since",
+                  "value": "since",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6053",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 He did yoga with her {{gap1}} the start of their relationship.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6053_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "from",
+              "accepted_answers": [
+                "from"
+              ],
+              "options": [
+                {
+                  "id": "gap_6053_1_1",
+                  "order": 1,
+                  "text": "since",
+                  "value": "since",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6053_1_2",
+                  "order": 2,
+                  "text": "from",
+                  "value": "from",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6053_1_3",
+                  "order": 3,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6054",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 We've been friends {{gap1}} school.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6054_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "since",
+              "accepted_answers": [
+                "since"
+              ],
+              "options": [
+                {
+                  "id": "gap_6054_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6054_1_2",
+                  "order": 2,
+                  "text": "since",
+                  "value": "since",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6054_1_3",
+                  "order": 3,
+                  "text": "from",
+                  "value": "from",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6055",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 You can buy all sorts of foods {{gap1}} very early in the morning.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6055_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "from",
+              "accepted_answers": [
+                "from"
+              ],
+              "options": [
+                {
+                  "id": "gap_6055_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6055_1_2",
+                  "order": 2,
+                  "text": "from",
+                  "value": "from",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6055_1_3",
+                  "order": 3,
+                  "text": "since",
+                  "value": "since",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6057",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 He was in prison {{gap1}} ten years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6057_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": [
+                {
+                  "id": "gap_6057_1_1",
+                  "order": 1,
+                  "text": "from",
+                  "value": "from",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6057_1_2",
+                  "order": 2,
+                  "text": "since",
+                  "value": "since",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6057_1_3",
+                  "order": 3,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6056",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 The center is open {{gap1}} 7 a.m. to 9 p.m. every week day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6056_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "from",
+              "accepted_answers": [
+                "from"
+              ],
+              "options": [
+                {
+                  "id": "gap_6056_1_1",
+                  "order": 1,
+                  "text": "since",
+                  "value": "since",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6056_1_2",
+                  "order": 2,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6056_1_3",
+                  "order": 3,
+                  "text": "from",
+                  "value": "from",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6058",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I've known the truth {{gap1}} a long time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6058_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": [
+                {
+                  "id": "gap_6058_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_6058_1_2",
+                  "order": 2,
+                  "text": "since",
+                  "value": "since",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6058_1_3",
+                  "order": 3,
+                  "text": "from",
+                  "value": "from",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6059",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 I hadn't had so much fun {{gap1}} I was in high school.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6059_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "since",
+              "accepted_answers": [
+                "since"
+              ],
+              "options": [
+                {
+                  "id": "gap_6059_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6059_1_2",
+                  "order": 2,
+                  "text": "from",
+                  "value": "from",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_6059_1_3",
+                  "order": 3,
+                  "text": "since",
+                  "value": "since",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-710",
+      "lessonId": "b1_for_since_from_difference",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose since, from, for to complete these sentences.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_for-since-from-difference_2.html",
+      "questions": [
+        {
+          "id": "6074",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 He had improved a lot _____ the start of the season.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6074_1",
+              "order": 1,
+              "text": "from",
+              "value": "10334",
+              "is_correct": false
+            },
+            {
+              "id": "6074_2",
+              "order": 2,
+              "text": "since",
+              "value": "10335",
+              "is_correct": true
+            },
+            {
+              "id": "6074_3",
+              "order": 3,
+              "text": "for",
+              "value": "10336",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6049",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 Everything will be cheaper _____ 9 o'clock tomorrow.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6049_1",
+              "order": 1,
+              "text": "from",
+              "value": "10316",
+              "is_correct": true
+            },
+            {
+              "id": "6049_2",
+              "order": 2,
+              "text": "since",
+              "value": "10317",
+              "is_correct": false
+            },
+            {
+              "id": "6049_3",
+              "order": 3,
+              "text": "for",
+              "value": "10318",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6076",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I've had this watch _____ 25 years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6076_1",
+              "order": 1,
+              "text": "from",
+              "value": "10340",
+              "is_correct": false
+            },
+            {
+              "id": "6076_2",
+              "order": 2,
+              "text": "since",
+              "value": "10341",
+              "is_correct": false
+            },
+            {
+              "id": "6076_3",
+              "order": 3,
+              "text": "for",
+              "value": "10342",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6061",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 We travelled to Italy _____ 20 to 25 July.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6061_1",
+              "order": 1,
+              "text": "from",
+              "value": "10322",
+              "is_correct": true
+            },
+            {
+              "id": "6061_2",
+              "order": 2,
+              "text": "since",
+              "value": "10323",
+              "is_correct": false
+            },
+            {
+              "id": "6061_3",
+              "order": 3,
+              "text": "for",
+              "value": "10324",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6071",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I haven't seen her _____ the last meeting.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6071_1",
+              "order": 1,
+              "text": "from",
+              "value": "10325",
+              "is_correct": false
+            },
+            {
+              "id": "6071_2",
+              "order": 2,
+              "text": "since",
+              "value": "10326",
+              "is_correct": true
+            },
+            {
+              "id": "6071_3",
+              "order": 3,
+              "text": "for",
+              "value": "10327",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6075",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I had to sit _____ a few minutes to rest my legs.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6075_1",
+              "order": 1,
+              "text": "from",
+              "value": "10337",
+              "is_correct": false
+            },
+            {
+              "id": "6075_2",
+              "order": 2,
+              "text": "since",
+              "value": "10338",
+              "is_correct": false
+            },
+            {
+              "id": "6075_3",
+              "order": 3,
+              "text": "for",
+              "value": "10339",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6073",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 We haven't talked to them _____ they got married.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6073_1",
+              "order": 1,
+              "text": "from",
+              "value": "10331",
+              "is_correct": false
+            },
+            {
+              "id": "6073_2",
+              "order": 2,
+              "text": "since",
+              "value": "10332",
+              "is_correct": true
+            },
+            {
+              "id": "6073_3",
+              "order": 3,
+              "text": "for",
+              "value": "10333",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6060",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 The concert started at 8 but the doors were open _____ 6:30.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6060_1",
+              "order": 1,
+              "text": "from",
+              "value": "10319",
+              "is_correct": true
+            },
+            {
+              "id": "6060_2",
+              "order": 2,
+              "text": "since",
+              "value": "10320",
+              "is_correct": false
+            },
+            {
+              "id": "6060_3",
+              "order": 3,
+              "text": "for",
+              "value": "10321",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "6077",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 We've been walking _____ six hours.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6077_1",
+              "order": 1,
+              "text": "from",
+              "value": "10343",
+              "is_correct": false
+            },
+            {
+              "id": "6077_2",
+              "order": 2,
+              "text": "since",
+              "value": "10344",
+              "is_correct": false
+            },
+            {
+              "id": "6077_3",
+              "order": 3,
+              "text": "for",
+              "value": "10345",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "6072",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 We've been working very hard _____ the beginning of January.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "6072_1",
+              "order": 1,
+              "text": "from",
+              "value": "10328",
+              "is_correct": false
+            },
+            {
+              "id": "6072_2",
+              "order": 2,
+              "text": "since",
+              "value": "10329",
+              "is_correct": true
+            },
+            {
+              "id": "6072_3",
+              "order": 3,
+              "text": "for",
+              "value": "10330",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-711",
+      "lessonId": "b1_for_since_from_difference",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in each gap using since, from, for.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_for-since-from-difference_3.html",
+      "questions": [
+        {
+          "id": "6069",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 I've been looking for a job {{gap1}} I left school.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6069_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "since",
+              "accepted_answers": [
+                "since"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6062",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 We were awake {{gap1}} 2 a.m. because of the noise.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6062_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "from",
+              "accepted_answers": [
+                "from"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6050",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 I have known Mark {{gap1}} a long time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6050_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6065",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 They've been arguing {{gap1}} almost an hour.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6065_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6070",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 Passengers will be able to travel directly to London {{gap1}} the end of October.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6070_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "from",
+              "accepted_answers": [
+                "from"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6066",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 He hasn't eaten anything {{gap1}} 24 hours.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6066_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6067",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 His car was old. He'd had it {{gap1}} 1975.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6067_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "since",
+              "accepted_answers": [
+                "since"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6064",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 We have been together {{gap1}} over ten years.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6064_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6068",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 Everything has changed {{gap1}} we were in school.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6068_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "since",
+              "accepted_answers": [
+                "since"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "6063",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I work every day {{gap1}} early in the morning until late at night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_6063_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "from",
+              "accepted_answers": [
+                "from"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

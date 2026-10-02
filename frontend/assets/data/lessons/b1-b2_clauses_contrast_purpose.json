@@ -1,0 +1,1137 @@
+{
+  "lesson_id": "b1-b2_clauses_contrast_purpose",
+  "level": "B1-B2",
+  "title": "Clauses of contrast and purpose",
+  "description": "Практический тест и правила по теме: Clauses of contrast and purpose",
+  "theory": {
+    "title": "Правила и грамматика: Clauses of contrast and purpose",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Clauses of contrast and purpose».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Clauses of contrast and purpose» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-68",
+      "lessonId": "b1-b2_clauses_contrast_purpose",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_clauses-contrast-purpose.html",
+      "questions": [
+        {
+          "id": "559",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 {{gap1}} being rich, he is rather unhappy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_559_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Despite",
+              "accepted_answers": [
+                "Despite"
+              ],
+              "options": [
+                {
+                  "id": "gap_559_1_1",
+                  "order": 1,
+                  "text": "Although",
+                  "value": "Although",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_559_1_2",
+                  "order": 2,
+                  "text": "Despite",
+                  "value": "Despite",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_559_1_3",
+                  "order": 3,
+                  "text": "In spite",
+                  "value": "In spite",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "560",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I know it's good and affordable. {{gap1}}, I don't like it.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_560_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "However",
+              "accepted_answers": [
+                "However"
+              ],
+              "options": [
+                {
+                  "id": "gap_560_1_1",
+                  "order": 1,
+                  "text": "However",
+                  "value": "However",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_560_1_2",
+                  "order": 2,
+                  "text": "Although",
+                  "value": "Although",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_560_1_3",
+                  "order": 3,
+                  "text": "But",
+                  "value": "But",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "561",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 It is better to do it slowly {{gap1}} make a mistake.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_561_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "in order not to",
+              "accepted_answers": [
+                "in order not to"
+              ],
+              "options": [
+                {
+                  "id": "gap_561_1_1",
+                  "order": 1,
+                  "text": "so not to",
+                  "value": "so not to",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_561_1_2",
+                  "order": 2,
+                  "text": "in order not to",
+                  "value": "in order not to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_561_1_3",
+                  "order": 3,
+                  "text": "in order to not",
+                  "value": "in order to not",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "562",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 {{gap1}} he got up late, he arrived in time for the interview.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_562_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Although",
+              "accepted_answers": [
+                "Although"
+              ],
+              "options": [
+                {
+                  "id": "gap_562_1_1",
+                  "order": 1,
+                  "text": "Despite",
+                  "value": "Despite",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_562_1_2",
+                  "order": 2,
+                  "text": "Although",
+                  "value": "Although",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_562_1_3",
+                  "order": 3,
+                  "text": "However",
+                  "value": "However",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "563",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 I'm studying English {{gap1}} more job opportunities.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_563_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to have",
+              "accepted_answers": [
+                "to have"
+              ],
+              "options": [
+                {
+                  "id": "gap_563_1_1",
+                  "order": 1,
+                  "text": "to have",
+                  "value": "to have",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_563_1_2",
+                  "order": 2,
+                  "text": "for have",
+                  "value": "for have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_563_1_3",
+                  "order": 3,
+                  "text": "for having",
+                  "value": "for having",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "564",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 We bought more T-shirts {{gap1}} everyone could have one.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_564_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "so that",
+              "accepted_answers": [
+                "so that"
+              ],
+              "options": [
+                {
+                  "id": "gap_564_1_1",
+                  "order": 1,
+                  "text": "so as",
+                  "value": "so as",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_564_1_2",
+                  "order": 2,
+                  "text": "so that",
+                  "value": "so that",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_564_1_3",
+                  "order": 3,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "565",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 {{gap1}} that they are good friends, they argue a lot.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_565_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "In spite of the fact",
+              "accepted_answers": [
+                "In spite of the fact"
+              ],
+              "options": [
+                {
+                  "id": "gap_565_1_1",
+                  "order": 1,
+                  "text": "Despite",
+                  "value": "Despite",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_565_1_2",
+                  "order": 2,
+                  "text": "In spite of the fact",
+                  "value": "In spite of the fact",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_565_1_3",
+                  "order": 3,
+                  "text": "Although",
+                  "value": "Although",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "566",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 She noted it down {{gap1}} forget.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_566_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "so as not to",
+              "accepted_answers": [
+                "so as not to"
+              ],
+              "options": [
+                {
+                  "id": "gap_566_1_1",
+                  "order": 1,
+                  "text": "so as not to",
+                  "value": "so as not to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_566_1_2",
+                  "order": 2,
+                  "text": "in order to not",
+                  "value": "in order to not",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_566_1_3",
+                  "order": 3,
+                  "text": "so as to not",
+                  "value": "so as to not",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "567",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 {{gap1}} his health isn't too good, he never misses a class.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_567_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "Even though",
+              "accepted_answers": [
+                "Even though"
+              ],
+              "options": [
+                {
+                  "id": "gap_567_1_1",
+                  "order": 1,
+                  "text": "Despite",
+                  "value": "Despite",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_567_1_2",
+                  "order": 2,
+                  "text": "However",
+                  "value": "However",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_567_1_3",
+                  "order": 3,
+                  "text": "Even though",
+                  "value": "Even though",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "568",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 He set his alarm {{gap1}} remember to take his medication.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_568_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": [
+                {
+                  "id": "gap_568_1_1",
+                  "order": 1,
+                  "text": "for",
+                  "value": "for",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_568_1_2",
+                  "order": 2,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_568_1_3",
+                  "order": 3,
+                  "text": "so that",
+                  "value": "so that",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-69",
+      "lessonId": "b1-b2_clauses_contrast_purpose",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_clauses-contrast-purpose_2.html",
+      "questions": [
+        {
+          "id": "569",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 He won the race _______ being in his best form.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "569_1",
+              "order": 1,
+              "text": "in order not to",
+              "value": "691",
+              "is_correct": false
+            },
+            {
+              "id": "569_2",
+              "order": 2,
+              "text": "in spite of not",
+              "value": "692",
+              "is_correct": true
+            },
+            {
+              "id": "569_3",
+              "order": 3,
+              "text": "however not",
+              "value": "693",
+              "is_correct": false
+            },
+            {
+              "id": "569_4",
+              "order": 4,
+              "text": "for not",
+              "value": "694",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "570",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 I finished the book _______ I didn't like it at all.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "570_1",
+              "order": 1,
+              "text": "even though",
+              "value": "695",
+              "is_correct": true
+            },
+            {
+              "id": "570_2",
+              "order": 2,
+              "text": "despite",
+              "value": "696",
+              "is_correct": false
+            },
+            {
+              "id": "570_3",
+              "order": 3,
+              "text": "in spite",
+              "value": "697",
+              "is_correct": false
+            },
+            {
+              "id": "570_4",
+              "order": 4,
+              "text": "however",
+              "value": "698",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "571",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I didn't tell her the truth _______ hurt her feelings.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "571_1",
+              "order": 1,
+              "text": "for not",
+              "value": "699",
+              "is_correct": false
+            },
+            {
+              "id": "571_2",
+              "order": 2,
+              "text": "in order to not",
+              "value": "700",
+              "is_correct": false
+            },
+            {
+              "id": "571_3",
+              "order": 3,
+              "text": "so that not",
+              "value": "701",
+              "is_correct": false
+            },
+            {
+              "id": "571_4",
+              "order": 4,
+              "text": "so as not to",
+              "value": "702",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "572",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 The house is very well maintained _______ being an old property.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "572_1",
+              "order": 1,
+              "text": "in spite",
+              "value": "703",
+              "is_correct": false
+            },
+            {
+              "id": "572_2",
+              "order": 2,
+              "text": "although",
+              "value": "704",
+              "is_correct": false
+            },
+            {
+              "id": "572_3",
+              "order": 3,
+              "text": "despite",
+              "value": "705",
+              "is_correct": true
+            },
+            {
+              "id": "572_4",
+              "order": 4,
+              "text": "even though",
+              "value": "706",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "573",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I'm training very hard _______ improve my personal best time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "573_1",
+              "order": 1,
+              "text": "in order to",
+              "value": "707",
+              "is_correct": true
+            },
+            {
+              "id": "573_2",
+              "order": 2,
+              "text": "for to",
+              "value": "708",
+              "is_correct": false
+            },
+            {
+              "id": "573_3",
+              "order": 3,
+              "text": "as to",
+              "value": "709",
+              "is_correct": false
+            },
+            {
+              "id": "573_4",
+              "order": 4,
+              "text": "so that",
+              "value": "710",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "574",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 _______ we live together, we hardly see each other.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "574_1",
+              "order": 1,
+              "text": "However",
+              "value": "711",
+              "is_correct": false
+            },
+            {
+              "id": "574_2",
+              "order": 2,
+              "text": "Despite",
+              "value": "712",
+              "is_correct": false
+            },
+            {
+              "id": "574_3",
+              "order": 3,
+              "text": "Although",
+              "value": "713",
+              "is_correct": true
+            },
+            {
+              "id": "574_4",
+              "order": 4,
+              "text": "In spite of",
+              "value": "714",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "575",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 He left his bag on purpose _______ he could have an excuse to go back.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "575_1",
+              "order": 1,
+              "text": "for",
+              "value": "715",
+              "is_correct": false
+            },
+            {
+              "id": "575_2",
+              "order": 2,
+              "text": "in order to",
+              "value": "716",
+              "is_correct": false
+            },
+            {
+              "id": "575_3",
+              "order": 3,
+              "text": "alghough",
+              "value": "717",
+              "is_correct": false
+            },
+            {
+              "id": "575_4",
+              "order": 4,
+              "text": "so that",
+              "value": "718",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "576",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 I went to the library _______ some books I needed.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "576_1",
+              "order": 1,
+              "text": "for borrowing",
+              "value": "719",
+              "is_correct": false
+            },
+            {
+              "id": "576_2",
+              "order": 2,
+              "text": "for",
+              "value": "720",
+              "is_correct": true
+            },
+            {
+              "id": "576_3",
+              "order": 3,
+              "text": "for to borrow",
+              "value": "721",
+              "is_correct": false
+            },
+            {
+              "id": "576_4",
+              "order": 4,
+              "text": "for borrow",
+              "value": "722",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "577",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 He's not very good at tennis, _______ the fact that he practices almost every day.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "577_1",
+              "order": 1,
+              "text": "in spite of",
+              "value": "723",
+              "is_correct": true
+            },
+            {
+              "id": "577_2",
+              "order": 2,
+              "text": "despite of",
+              "value": "724",
+              "is_correct": false
+            },
+            {
+              "id": "577_3",
+              "order": 3,
+              "text": "although",
+              "value": "725",
+              "is_correct": false
+            },
+            {
+              "id": "577_4",
+              "order": 4,
+              "text": "even",
+              "value": "726",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "578",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 You can practise all you want. _______, you'll never beat him.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "578_1",
+              "order": 1,
+              "text": "Although",
+              "value": "727",
+              "is_correct": false
+            },
+            {
+              "id": "578_2",
+              "order": 2,
+              "text": "Despite",
+              "value": "728",
+              "is_correct": false
+            },
+            {
+              "id": "578_3",
+              "order": 3,
+              "text": "However",
+              "value": "729",
+              "is_correct": true
+            },
+            {
+              "id": "578_4",
+              "order": 4,
+              "text": "Even though",
+              "value": "730",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-70",
+      "lessonId": "b1-b2_clauses_contrast_purpose",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Write ONE word in each gap.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_clauses-contrast-purpose_3.html",
+      "questions": [
+        {
+          "id": "550",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 He got the job in {{gap1}} of the fact that he didn't have any qualifications.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_550_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "spite",
+              "accepted_answers": [
+                "spite"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "549",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 We spoke very quietly so {{gap1}} not to disturb the other campers.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_549_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "as",
+              "accepted_answers": [
+                "as"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "552",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 {{gap1}} I'm not a vegetarian, I rarely eat meat.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_552_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "Although",
+              "accepted_answers": [
+                "Although"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "551",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 He still gets up at 6.30, {{gap1}} though he is retired now.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_551_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "even",
+              "accepted_answers": [
+                "even"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "555",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 I worked late in {{gap1}} to finish the report.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_555_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "order",
+              "accepted_answers": [
+                "order"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "553",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 We enjoyed the trip {{gap1}} the bad weather.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_553_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "despite",
+              "accepted_answers": [
+                "despite"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "554",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 They shouted so {{gap1}} everybody could hear them.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_554_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "that",
+              "accepted_answers": [
+                "that"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "557",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 I've never liked music. {{gap1}}, I really enjoyed their concert.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_557_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "However",
+              "accepted_answers": [
+                "However"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "556",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 On our way home we stopped {{gap1}} a cup of coffee.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_556_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "for",
+              "accepted_answers": [
+                "for"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "558",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 She loves him in spite of the {{gap1}} that he drinks too much.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_558_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "fact",
+              "accepted_answers": [
+                "fact"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

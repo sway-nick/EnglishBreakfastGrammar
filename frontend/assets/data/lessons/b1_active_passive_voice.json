@@ -1,0 +1,1291 @@
+{
+  "lesson_id": "b1_active_passive_voice",
+  "level": "B1",
+  "title": "Active and passive voice",
+  "description": "Практический тест и правила по теме: Active and passive voice",
+  "theory": {
+    "title": "Правила и грамматика: Active and passive voice",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Active and passive voice».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Active and passive voice» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-219",
+      "lessonId": "b1_active_passive_voice",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct form, active or passive, to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_active-passive-voice.html",
+      "questions": [
+        {
+          "id": "1839",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Hundreds of people {{gap1}} in this factory and many of them {{gap2}} their jobs.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1839_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "are employed",
+              "accepted_answers": [
+                "are employed"
+              ],
+              "options": [
+                {
+                  "id": "gap_1839_1_1",
+                  "order": 1,
+                  "text": "are employed",
+                  "value": "are employed",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1839_1_2",
+                  "order": 2,
+                  "text": "employ",
+                  "value": "employ",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1839_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "will lose",
+              "accepted_answers": [
+                "will lose"
+              ],
+              "options": [
+                {
+                  "id": "gap_1839_2_1",
+                  "order": 1,
+                  "text": "will lose",
+                  "value": "will lose",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1839_2_2",
+                  "order": 2,
+                  "text": "will be lost",
+                  "value": "will be lost",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1840",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 Three men {{gap1}} after the incident, and five others {{gap2}} to hospital.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1840_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "were arrested",
+              "accepted_answers": [
+                "were arrested"
+              ],
+              "options": [
+                {
+                  "id": "gap_1840_1_1",
+                  "order": 1,
+                  "text": "were arrested",
+                  "value": "were arrested",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1840_1_2",
+                  "order": 2,
+                  "text": "arrested",
+                  "value": "arrested",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1840_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "were taken",
+              "accepted_answers": [
+                "were taken"
+              ],
+              "options": [
+                {
+                  "id": "gap_1840_2_1",
+                  "order": 1,
+                  "text": "were taken",
+                  "value": "were taken",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1840_2_2",
+                  "order": 2,
+                  "text": "took",
+                  "value": "took",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1841",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 About 71 percent of the Earth's surface {{gap1}} by water, and oceans {{gap2}} about 96% of all Earth's water.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1841_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "is covered",
+              "accepted_answers": [
+                "is covered"
+              ],
+              "options": [
+                {
+                  "id": "gap_1841_1_1",
+                  "order": 1,
+                  "text": "is covered",
+                  "value": "is covered",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1841_1_2",
+                  "order": 2,
+                  "text": "covers",
+                  "value": "covers",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1841_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "hold",
+              "accepted_answers": [
+                "hold"
+              ],
+              "options": [
+                {
+                  "id": "gap_1841_2_1",
+                  "order": 1,
+                  "text": "hold",
+                  "value": "hold",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1841_2_2",
+                  "order": 2,
+                  "text": "are held",
+                  "value": "are held",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1842",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 The package {{gap1}} more than a week ago, but it {{gap2}} until yesterday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1842_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was sent",
+              "accepted_answers": [
+                "was sent"
+              ],
+              "options": [
+                {
+                  "id": "gap_1842_1_1",
+                  "order": 1,
+                  "text": "was sent",
+                  "value": "was sent",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1842_1_2",
+                  "order": 2,
+                  "text": "sent",
+                  "value": "sent",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1842_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "didn't arrive",
+              "accepted_answers": [
+                "didn't arrive"
+              ],
+              "options": [
+                {
+                  "id": "gap_1842_2_1",
+                  "order": 1,
+                  "text": "didn't arrive",
+                  "value": "didn't arrive",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1842_2_2",
+                  "order": 2,
+                  "text": "wasn't arrived",
+                  "value": "wasn't arrived",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1843",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 The building {{gap1}} by the fire, but everybody {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1843_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "has been destroyed",
+              "accepted_answers": [
+                "has been destroyed"
+              ],
+              "options": [
+                {
+                  "id": "gap_1843_1_1",
+                  "order": 1,
+                  "text": "has destroyed",
+                  "value": "has destroyed",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1843_1_2",
+                  "order": 2,
+                  "text": "has been destroyed",
+                  "value": "has been destroyed",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1843_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "has been rescued",
+              "accepted_answers": [
+                "has been rescued"
+              ],
+              "options": [
+                {
+                  "id": "gap_1843_2_1",
+                  "order": 1,
+                  "text": "has been rescued",
+                  "value": "has been rescued",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1843_2_2",
+                  "order": 2,
+                  "text": "rescued",
+                  "value": "rescued",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1844",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 My camera {{gap1}} and I {{gap2}} all the photographs from my last trip.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1844_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "was stolen",
+              "accepted_answers": [
+                "was stolen"
+              ],
+              "options": [
+                {
+                  "id": "gap_1844_1_1",
+                  "order": 1,
+                  "text": "was stolen",
+                  "value": "was stolen",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1844_1_2",
+                  "order": 2,
+                  "text": "stole",
+                  "value": "stole",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1844_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "lost",
+              "accepted_answers": [
+                "lost"
+              ],
+              "options": [
+                {
+                  "id": "gap_1844_2_1",
+                  "order": 1,
+                  "text": "was lost",
+                  "value": "was lost",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1844_2_2",
+                  "order": 2,
+                  "text": "lost",
+                  "value": "lost",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1845",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 You {{gap1}} for what you {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1845_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "should be arrested",
+              "accepted_answers": [
+                "should be arrested"
+              ],
+              "options": [
+                {
+                  "id": "gap_1845_1_1",
+                  "order": 1,
+                  "text": "should be arrested",
+                  "value": "should be arrested",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1845_1_2",
+                  "order": 2,
+                  "text": "should arrest",
+                  "value": "should arrest",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1845_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "did",
+              "accepted_answers": [
+                "did"
+              ],
+              "options": [
+                {
+                  "id": "gap_1845_2_1",
+                  "order": 1,
+                  "text": "were done",
+                  "value": "were done",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1845_2_2",
+                  "order": 2,
+                  "text": "did",
+                  "value": "did",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1846",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I know red wine {{gap1}} cold, but we {{gap2}} it at room temperature.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1846_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "should be drunk",
+              "accepted_answers": [
+                "should be drunk"
+              ],
+              "options": [
+                {
+                  "id": "gap_1846_1_1",
+                  "order": 1,
+                  "text": "should be drunk",
+                  "value": "should be drunk",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1846_1_2",
+                  "order": 2,
+                  "text": "should drink",
+                  "value": "should drink",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1846_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "drink",
+              "accepted_answers": [
+                "drink"
+              ],
+              "options": [
+                {
+                  "id": "gap_1846_2_1",
+                  "order": 1,
+                  "text": "drink",
+                  "value": "drink",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1846_2_2",
+                  "order": 2,
+                  "text": "are drunk",
+                  "value": "are drunk",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1847",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I {{gap1}} to see you any more, so you {{gap2}} again.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1847_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "am not allowed",
+              "accepted_answers": [
+                "am not allowed"
+              ],
+              "options": [
+                {
+                  "id": "gap_1847_1_1",
+                  "order": 1,
+                  "text": "am not allowed",
+                  "value": "am not allowed",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1847_1_2",
+                  "order": 2,
+                  "text": "don't allow",
+                  "value": "don't allow",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1847_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "shouldn't come",
+              "accepted_answers": [
+                "shouldn't come"
+              ],
+              "options": [
+                {
+                  "id": "gap_1847_2_1",
+                  "order": 1,
+                  "text": "shouldn't be come",
+                  "value": "shouldn't be come",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1847_2_2",
+                  "order": 2,
+                  "text": "shouldn't come",
+                  "value": "shouldn't come",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1848",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 Please, {{gap1}} away from the places where you {{gap2}}.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1848_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "stay",
+              "accepted_answers": [
+                "stay"
+              ],
+              "options": [
+                {
+                  "id": "gap_1848_1_1",
+                  "order": 1,
+                  "text": "be stayed",
+                  "value": "be stayed",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1848_1_2",
+                  "order": 2,
+                  "text": "stay",
+                  "value": "stay",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1848_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "can be seen",
+              "accepted_answers": [
+                "can be seen"
+              ],
+              "options": [
+                {
+                  "id": "gap_1848_2_1",
+                  "order": 1,
+                  "text": "can see",
+                  "value": "can see",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1848_2_2",
+                  "order": 2,
+                  "text": "can be seen",
+                  "value": "can be seen",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-220",
+      "lessonId": "b1_active_passive_voice",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct form, active or passive, for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_active-passive-voice_2.html",
+      "questions": [
+        {
+          "id": "1850",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 The new musical ______ next week at 12th Street's Old Auditorium.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1850_1",
+              "order": 1,
+              "text": "is going to be performed",
+              "value": "2596",
+              "is_correct": true
+            },
+            {
+              "id": "1850_2",
+              "order": 2,
+              "text": "is going to perform",
+              "value": "2597",
+              "is_correct": false
+            },
+            {
+              "id": "1850_3",
+              "order": 3,
+              "text": "will perform",
+              "value": "2598",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1851",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 A lot of measures ______ to fix the economy.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1851_1",
+              "order": 1,
+              "text": "have been taken",
+              "value": "2599",
+              "is_correct": true
+            },
+            {
+              "id": "1851_2",
+              "order": 2,
+              "text": "are taking",
+              "value": "2600",
+              "is_correct": false
+            },
+            {
+              "id": "1851_3",
+              "order": 3,
+              "text": "have taken",
+              "value": "2601",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1852",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I ______ you exactly what to do when we arrive.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1852_1",
+              "order": 1,
+              "text": "will be shown",
+              "value": "2602",
+              "is_correct": false
+            },
+            {
+              "id": "1852_2",
+              "order": 2,
+              "text": "am shown",
+              "value": "2603",
+              "is_correct": false
+            },
+            {
+              "id": "1852_3",
+              "order": 3,
+              "text": "will show",
+              "value": "2604",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1853",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 The police discovered a group of women who ______ in an illegal factory.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1853_1",
+              "order": 1,
+              "text": "have been exploited",
+              "value": "2605",
+              "is_correct": false
+            },
+            {
+              "id": "1853_2",
+              "order": 2,
+              "text": "were being exploited",
+              "value": "2606",
+              "is_correct": true
+            },
+            {
+              "id": "1853_3",
+              "order": 3,
+              "text": "were exploiting",
+              "value": "2607",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1854",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 When do you think they ______ us the copy of the contract?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1854_1",
+              "order": 1,
+              "text": "will send",
+              "value": "2608",
+              "is_correct": true
+            },
+            {
+              "id": "1854_2",
+              "order": 2,
+              "text": "will be sent",
+              "value": "2609",
+              "is_correct": false
+            },
+            {
+              "id": "1854_3",
+              "order": 3,
+              "text": "are they being sent",
+              "value": "2610",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1855",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 Chicken thighs ______ for 40 to 50 minutes.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1855_1",
+              "order": 1,
+              "text": "should be baking",
+              "value": "2611",
+              "is_correct": false
+            },
+            {
+              "id": "1855_2",
+              "order": 2,
+              "text": "should be baked",
+              "value": "2612",
+              "is_correct": true
+            },
+            {
+              "id": "1855_3",
+              "order": 3,
+              "text": "should bake",
+              "value": "2613",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1858",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 After five months the children ______ to say many things in English.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1858_1",
+              "order": 1,
+              "text": "had learned",
+              "value": "2620",
+              "is_correct": true
+            },
+            {
+              "id": "1858_2",
+              "order": 2,
+              "text": "had been learned",
+              "value": "2621",
+              "is_correct": false
+            },
+            {
+              "id": "1858_3",
+              "order": 3,
+              "text": "had learning",
+              "value": "2622",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1856",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Five people ______ after a car ______ into a bus last night.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1856_1",
+              "order": 1,
+              "text": "were injured / crashed",
+              "value": "2614",
+              "is_correct": true
+            },
+            {
+              "id": "1856_2",
+              "order": 2,
+              "text": "injured / was crashed",
+              "value": "2615",
+              "is_correct": false
+            },
+            {
+              "id": "1856_3",
+              "order": 3,
+              "text": "injured / crashed",
+              "value": "2616",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1857",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Road safety ______ in every school of the country.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1857_1",
+              "order": 1,
+              "text": "should teach",
+              "value": "2617",
+              "is_correct": false
+            },
+            {
+              "id": "1857_2",
+              "order": 2,
+              "text": "should be teaching",
+              "value": "2618",
+              "is_correct": false
+            },
+            {
+              "id": "1857_3",
+              "order": 3,
+              "text": "should be taught",
+              "value": "2619",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1859",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 He has no initiative. He needs ______ what to do all the time.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1859_1",
+              "order": 1,
+              "text": "to tell",
+              "value": "2623",
+              "is_correct": false
+            },
+            {
+              "id": "1859_2",
+              "order": 2,
+              "text": "to be told",
+              "value": "2624",
+              "is_correct": true
+            },
+            {
+              "id": "1859_3",
+              "order": 3,
+              "text": "to been told",
+              "value": "2625",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-221",
+      "lessonId": "b1_active_passive_voice",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with the verbs in brackets in the correct tense (in active or passive voice).",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_active-passive-voice_3.html",
+      "questions": [
+        {
+          "id": "1849",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Authorities 1 {{gap1}} (just/announce) that Saint Pauls Bank 2 {{gap2}} (rob) yesterday. Two men 3 {{gap3}} (go) into the bank at 9.30 armed with automatic guns. The customers and workers 4 {{gap4}} (tell) to lie down on the floor and one of the bank clerks 5 {{gap5}} (ask) at gunpoint to give them all the money. Then the two robbers 6 {{gap6}} (leave) the building quickly. Local authorities have informed that about 500,000 dollars 7 {{gap7}} (steal) yesterday, but fortunately nobody 8 {{gap8}} (injure). Police investigators 9 {{gap9}} (assure) residents that the robbers 10 {{gap10}} (find) soon.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1849_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "have just announced",
+              "accepted_answers": [
+                "have just announced"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1849_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "was robbed",
+              "accepted_answers": [
+                "was robbed"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1849_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "went",
+              "accepted_answers": [
+                "went"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1849_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "were told",
+              "accepted_answers": [
+                "were told"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1849_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "was asked",
+              "accepted_answers": [
+                "was asked"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1849_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "left",
+              "accepted_answers": [
+                "left"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1849_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "were stolen",
+              "accepted_answers": [
+                "were stolen"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1849_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "was injured",
+              "accepted_answers": [
+                "was injured"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1849_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "have assured",
+              "accepted_answers": [
+                "have assured"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1849_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "will be found",
+              "accepted_answers": [
+                "will be found"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-222",
+      "lessonId": "b1_active_passive_voice",
+      "order": 4,
+      "page": 4,
+      "title": "Exercise 4",
+      "instruction": "Fill in the gaps with the verbs in brackets in the correct tense (in active or passive voice).",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_active-passive-voice_4.html",
+      "questions": [
+        {
+          "id": "1860",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Wine 1 {{gap1}} (produce) for thousands of years. The earliest known evidence of wine 2 {{gap2}} (come) from Georgia (Caucasus), where 8000-year-old wine jars 3 {{gap3}} (find) in 2008. Wine 4 {{gap4}} (reach) the Balkans by c. 4500 BC and 5 {{gap5}} (consume) in ancient Greece, Thrace and Rome. Throughout history, wine 6 {{gap6}} (consume) for its intoxicating effects, which are evident at normal serving sizes. Wine 7 {{gap7}} (also/play) an important role in religion for centuries. Red wine 8 {{gap8}} (associate) with blood by the ancient Egyptians and 9 {{gap9}} (use) by both the Greek cult of Dionysus and the Romans in their Bacchanalia. Nowadays, both Judaism and Christianity 10 {{gap10}} (incorporate) wine in their religious rituals. Adapted from Wikipedia.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1860_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "has been produced",
+              "accepted_answers": [
+                "has been produced"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1860_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "comes",
+              "accepted_answers": [
+                "comes"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1860_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "were found",
+              "accepted_answers": [
+                "were found"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1860_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "reached",
+              "accepted_answers": [
+                "reached"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1860_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "was consumed",
+              "accepted_answers": [
+                "was consumed"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1860_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "has been consumed",
+              "accepted_answers": [
+                "has been consumed"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1860_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "has also played",
+              "accepted_answers": [
+                "has also played"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1860_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "was associated",
+              "accepted_answers": [
+                "was associated"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1860_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "was used",
+              "accepted_answers": [
+                "was used"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1860_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "incorporate",
+              "accepted_answers": [
+                "incorporate"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1159 @@
+{
+  "lesson_id": "b1-b2_would_rather_would_prefer",
+  "level": "B1-B2",
+  "title": "Would rather, would prefer: Expressing preference",
+  "description": "Практический тест и правила по теме: Would rather, would prefer: Expressing preference",
+  "theory": {
+    "title": "Правила и грамматика: Would rather, would prefer: Expressing preference",
+    "level": "B1-B2",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «Would rather, would prefer: Expressing preference».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «Would rather, would prefer: Expressing preference» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-49",
+      "lessonId": "b1-b2_would_rather_would_prefer",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_would-rather-would-prefer.html",
+      "questions": [
+        {
+          "id": "362",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 I prefer brown sugar {{gap1}} white sugar.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_362_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": [
+                {
+                  "id": "gap_362_1_1",
+                  "order": 1,
+                  "text": "than",
+                  "value": "than",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_362_1_2",
+                  "order": 2,
+                  "text": "that",
+                  "value": "that",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_362_1_3",
+                  "order": 3,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "363",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I don't want to go out. I'd rather {{gap1}} home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_363_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "stay",
+              "accepted_answers": [
+                "stay"
+              ],
+              "options": [
+                {
+                  "id": "gap_363_1_1",
+                  "order": 1,
+                  "text": "stay",
+                  "value": "stay",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_363_1_2",
+                  "order": 2,
+                  "text": "to stay",
+                  "value": "to stay",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_363_1_3",
+                  "order": 3,
+                  "text": "staying",
+                  "value": "staying",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "364",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 I like trekking in the mountains, but I prefer {{gap1}} on a sandy beach.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_364_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "lying",
+              "accepted_answers": [
+                "lying"
+              ],
+              "options": [
+                {
+                  "id": "gap_364_1_1",
+                  "order": 1,
+                  "text": "to lying",
+                  "value": "to lying",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_364_1_2",
+                  "order": 2,
+                  "text": "lie",
+                  "value": "lie",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_364_1_3",
+                  "order": 3,
+                  "text": "lying",
+                  "value": "lying",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "365",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 I'd rather go in December {{gap1}} in May.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_365_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "than",
+              "accepted_answers": [
+                "than"
+              ],
+              "options": [
+                {
+                  "id": "gap_365_1_1",
+                  "order": 1,
+                  "text": "than",
+                  "value": "than",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_365_1_2",
+                  "order": 2,
+                  "text": "that",
+                  "value": "that",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_365_1_3",
+                  "order": 3,
+                  "text": "to",
+                  "value": "to",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "366",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 I'd rather come with you {{gap1}} here alone.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_366_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "than stay",
+              "accepted_answers": [
+                "than stay"
+              ],
+              "options": [
+                {
+                  "id": "gap_366_1_1",
+                  "order": 1,
+                  "text": "than stay",
+                  "value": "than stay",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_366_1_2",
+                  "order": 2,
+                  "text": "than staying",
+                  "value": "than staying",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_366_1_3",
+                  "order": 3,
+                  "text": "to stay",
+                  "value": "to stay",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "367",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 I prefer travelling by bus {{gap1}} by train.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_367_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to travelling",
+              "accepted_answers": [
+                "to travelling"
+              ],
+              "options": [
+                {
+                  "id": "gap_367_1_1",
+                  "order": 1,
+                  "text": "to travel",
+                  "value": "to travel",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_367_1_2",
+                  "order": 2,
+                  "text": "to travelling",
+                  "value": "to travelling",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_367_1_3",
+                  "order": 3,
+                  "text": "rather than travel",
+                  "value": "rather than travel",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "368",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 I usually have tea, but today I'd prefer {{gap1}} coffee, please.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_368_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "to have",
+              "accepted_answers": [
+                "to have"
+              ],
+              "options": [
+                {
+                  "id": "gap_368_1_1",
+                  "order": 1,
+                  "text": "have",
+                  "value": "have",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_368_1_2",
+                  "order": 2,
+                  "text": "having",
+                  "value": "having",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_368_1_3",
+                  "order": 3,
+                  "text": "to have",
+                  "value": "to have",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "369",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 I'd prefer to read for a while {{gap1}} TV.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_369_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "rather than watch",
+              "accepted_answers": [
+                "rather than watch"
+              ],
+              "options": [
+                {
+                  "id": "gap_369_1_1",
+                  "order": 1,
+                  "text": "rather than watch",
+                  "value": "rather than watch",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_369_1_2",
+                  "order": 2,
+                  "text": "that watch",
+                  "value": "that watch",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_369_1_3",
+                  "order": 3,
+                  "text": "to watch",
+                  "value": "to watch",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "370",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I'd rather you {{gap1}} here with me and the kids.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_370_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "stayed",
+              "accepted_answers": [
+                "stayed"
+              ],
+              "options": [
+                {
+                  "id": "gap_370_1_1",
+                  "order": 1,
+                  "text": "stayed",
+                  "value": "stayed",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_370_1_2",
+                  "order": 2,
+                  "text": "to stay",
+                  "value": "to stay",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_370_1_3",
+                  "order": 3,
+                  "text": "stay",
+                  "value": "stay",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "371",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 She {{gap1}} to stay in a hotel.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_371_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "would prefer",
+              "accepted_answers": [
+                "would prefer"
+              ],
+              "options": [
+                {
+                  "id": "gap_371_1_1",
+                  "order": 1,
+                  "text": "would rather",
+                  "value": "would rather",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_371_1_2",
+                  "order": 2,
+                  "text": "would prefer",
+                  "value": "would prefer",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_371_1_3",
+                  "order": 3,
+                  "text": "rather",
+                  "value": "rather",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-50",
+      "lessonId": "b1-b2_would_rather_would_prefer",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_would-rather-would-prefer_2.html",
+      "questions": [
+        {
+          "id": "372",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 I'd prefer to watch a movie _______ go to a concert.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "372_1",
+              "order": 1,
+              "text": "rather than",
+              "value": "458",
+              "is_correct": true
+            },
+            {
+              "id": "372_2",
+              "order": 2,
+              "text": "to",
+              "value": "459",
+              "is_correct": false
+            },
+            {
+              "id": "372_3",
+              "order": 3,
+              "text": "that",
+              "value": "460",
+              "is_correct": false
+            },
+            {
+              "id": "372_4",
+              "order": 4,
+              "text": "from",
+              "value": "461",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "373",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 He'd prefer to keep his job _______ fired.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "373_1",
+              "order": 1,
+              "text": "to being",
+              "value": "462",
+              "is_correct": false
+            },
+            {
+              "id": "373_2",
+              "order": 2,
+              "text": "rather than being",
+              "value": "463",
+              "is_correct": false
+            },
+            {
+              "id": "373_3",
+              "order": 3,
+              "text": "before to be",
+              "value": "464",
+              "is_correct": false
+            },
+            {
+              "id": "373_4",
+              "order": 4,
+              "text": "rather than be",
+              "value": "465",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "374",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 I'd prefer ______ just a salad.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "374_1",
+              "order": 1,
+              "text": "have",
+              "value": "466",
+              "is_correct": false
+            },
+            {
+              "id": "374_2",
+              "order": 2,
+              "text": "having",
+              "value": "467",
+              "is_correct": false
+            },
+            {
+              "id": "374_3",
+              "order": 3,
+              "text": "to have",
+              "value": "468",
+              "is_correct": true
+            },
+            {
+              "id": "374_4",
+              "order": 4,
+              "text": "to having",
+              "value": "469",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "375",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 I'd prefer to walk rather than _______ by car.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "375_1",
+              "order": 1,
+              "text": "to go",
+              "value": "470",
+              "is_correct": false
+            },
+            {
+              "id": "375_2",
+              "order": 2,
+              "text": "go",
+              "value": "471",
+              "is_correct": true
+            },
+            {
+              "id": "375_3",
+              "order": 3,
+              "text": "going",
+              "value": "472",
+              "is_correct": false
+            },
+            {
+              "id": "375_4",
+              "order": 4,
+              "text": "to going",
+              "value": "473",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "376",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I _______ become a pianist.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "376_1",
+              "order": 1,
+              "text": "'d rather",
+              "value": "474",
+              "is_correct": true
+            },
+            {
+              "id": "376_2",
+              "order": 2,
+              "text": "'d prefer",
+              "value": "475",
+              "is_correct": false
+            },
+            {
+              "id": "376_3",
+              "order": 3,
+              "text": "prefer",
+              "value": "476",
+              "is_correct": false
+            },
+            {
+              "id": "376_4",
+              "order": 4,
+              "text": "rather",
+              "value": "477",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "377",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 I _______ to go on a cruise.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "377_1",
+              "order": 1,
+              "text": "would rather",
+              "value": "478",
+              "is_correct": false
+            },
+            {
+              "id": "377_2",
+              "order": 2,
+              "text": "rather",
+              "value": "479",
+              "is_correct": false
+            },
+            {
+              "id": "377_3",
+              "order": 3,
+              "text": "would prefer to",
+              "value": "480",
+              "is_correct": false
+            },
+            {
+              "id": "377_4",
+              "order": 4,
+              "text": "'d prefer",
+              "value": "481",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "378",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 I prefer running _______.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "378_1",
+              "order": 1,
+              "text": "rather than to swim",
+              "value": "482",
+              "is_correct": false
+            },
+            {
+              "id": "378_2",
+              "order": 2,
+              "text": "to swimming",
+              "value": "483",
+              "is_correct": true
+            },
+            {
+              "id": "378_3",
+              "order": 3,
+              "text": "than swimming",
+              "value": "484",
+              "is_correct": false
+            },
+            {
+              "id": "378_4",
+              "order": 4,
+              "text": "to swim",
+              "value": "485",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "379",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 She'd prefer to work night shifts _______ work at weekends.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "379_1",
+              "order": 1,
+              "text": "that",
+              "value": "486",
+              "is_correct": false
+            },
+            {
+              "id": "379_2",
+              "order": 2,
+              "text": "than",
+              "value": "487",
+              "is_correct": false
+            },
+            {
+              "id": "379_3",
+              "order": 3,
+              "text": "to",
+              "value": "488",
+              "is_correct": false
+            },
+            {
+              "id": "379_4",
+              "order": 4,
+              "text": "rather than",
+              "value": "489",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "380",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 I'd rather she _______ something different.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "380_1",
+              "order": 1,
+              "text": "study",
+              "value": "490",
+              "is_correct": false
+            },
+            {
+              "id": "380_2",
+              "order": 2,
+              "text": "studied",
+              "value": "491",
+              "is_correct": true
+            },
+            {
+              "id": "380_3",
+              "order": 3,
+              "text": "to study",
+              "value": "492",
+              "is_correct": false
+            },
+            {
+              "id": "380_4",
+              "order": 4,
+              "text": "would study",
+              "value": "493",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "381",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I _______ he didn't do it on his own.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "381_1",
+              "order": 1,
+              "text": "'d prefer",
+              "value": "494",
+              "is_correct": false
+            },
+            {
+              "id": "381_2",
+              "order": 2,
+              "text": "'d like",
+              "value": "495",
+              "is_correct": false
+            },
+            {
+              "id": "381_3",
+              "order": 3,
+              "text": "'d rather",
+              "value": "496",
+              "is_correct": true
+            },
+            {
+              "id": "381_4",
+              "order": 4,
+              "text": "prefer",
+              "value": "497",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-51",
+      "lessonId": "b1-b2_would_rather_would_prefer",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Fill in the gaps with ONE word. In some sentences, there is a word in brackets that you will need to use.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1-b2_would-rather-would-prefer_3.html",
+      "questions": [
+        {
+          "id": "382",
+          "order": 1,
+          "type": "gap_text",
+          "text": "1 She would {{gap1}} to stay with me rather {{gap2}} stay in a hotel.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_382_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "prefer",
+              "accepted_answers": [
+                "prefer"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_382_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "than",
+              "accepted_answers": [
+                "than"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "383",
+          "order": 2,
+          "type": "gap_text",
+          "text": "2 I would {{gap1}} talk to you in private.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_383_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "rather",
+              "accepted_answers": [
+                "rather"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "384",
+          "order": 3,
+          "type": "gap_text",
+          "text": "3 They prefer fishing {{gap1}} hunting.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_384_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "to",
+              "accepted_answers": [
+                "to"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "385",
+          "order": 4,
+          "type": "gap_text",
+          "text": "4 I {{gap1}} living in a small village to living in a big city.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_385_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "prefer",
+              "accepted_answers": [
+                "prefer"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "386",
+          "order": 5,
+          "type": "gap_text",
+          "text": "5 I'd prefer to travel to different countries {{gap1}} than travel to only one.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_386_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "rather",
+              "accepted_answers": [
+                "rather"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "387",
+          "order": 6,
+          "type": "gap_text",
+          "text": "6 I'd rather you {{gap1}} (talk) to him first.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_387_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "talked",
+              "accepted_answers": [
+                "talked"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "388",
+          "order": 7,
+          "type": "gap_text",
+          "text": "7 Would you rather {{gap1}} (finish) this later?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_388_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "finish",
+              "accepted_answers": [
+                "finish"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "389",
+          "order": 8,
+          "type": "gap_text",
+          "text": "8 I'd {{gap1}} to drink water {{gap2}} than wine",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_389_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "prefer",
+              "accepted_answers": [
+                "prefer"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_389_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "rather",
+              "accepted_answers": [
+                "rather"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "390",
+          "order": 9,
+          "type": "gap_text",
+          "text": "9 I'd {{gap1}} you took her to the hospital.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_390_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "rather",
+              "accepted_answers": [
+                "rather"
+              ],
+              "options": []
+            }
+          ]
+        },
+        {
+          "id": "391",
+          "order": 10,
+          "type": "gap_text",
+          "text": "10 I prefer sitting in the back to {{gap1}} (sit) in the front.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_391_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "sitting",
+              "accepted_answers": [
+                "sitting"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1408 @@
+{
+  "lesson_id": "b1_an_the_no_article",
+  "level": "B1",
+  "title": "A(n), the, no article",
+  "description": "Практический тест и правила по теме: A(n), the, no article",
+  "theory": {
+    "title": "Правила и грамматика: A(n), the, no article",
+    "level": "B1",
+    "overview": "В этом уроке мы разберем ключевые правила и нюансы употребления грамматической конструкции «A(n), the, no article».",
+    "rules": [
+      {
+        "heading": "Основные правила использования",
+        "content": "Конструкция «A(n), the, no article» используется для выражения ключевых временных и смысловых отношений в английском языке. Обратите внимание на согласование подлежащего и сказуемого.",
+        "table": {
+          "headers": [
+            "Форма",
+            "Пример (EN)",
+            "Перевод (RU)"
+          ],
+          "rows": [
+            [
+              "Утверждение (+)",
+              "I / You / We / They work hard.",
+              "Я / Ты / Мы / Они усердно работаем."
+            ],
+            [
+              "Отрицание (-)",
+              "He / She / It does not (doesn't) work.",
+              "Он / Она / Оно не работает."
+            ],
+            [
+              "Вопрос (?)",
+              "Do you work here? — Yes, I do.",
+              "Ты работаешь здесь? — Да."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Важные нюансы и подсказки",
+        "content": "Обращайте внимание на маркеры времени и контекст предложения при выборе правильной формы глагола.",
+        "tips": [
+          "Внимательно читайте всё предложение до конца перед ответом.",
+          "Внимательно проверяйте краткие формы (сокращения с апострофом, например: isn't, don't, 've)."
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "quiz-194",
+      "lessonId": "b1_an_the_no_article",
+      "order": 1,
+      "page": 1,
+      "title": "Exercise 1",
+      "instruction": "Choose the correct option to complete the sentences below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_an-the-no-article.html",
+      "questions": [
+        {
+          "id": "1638",
+          "order": 1,
+          "type": "gap_select",
+          "text": "1 Mum, where is {{gap1}} dog? I want to take it to {{gap2}} park.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1638_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": [
+                {
+                  "id": "gap_1638_1_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1638_1_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1638_1_3",
+                  "order": 3,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1638_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": [
+                {
+                  "id": "gap_1638_2_1",
+                  "order": 1,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1638_2_2",
+                  "order": 2,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1638_2_3",
+                  "order": 3,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1639",
+          "order": 2,
+          "type": "gap_select",
+          "text": "2 I like {{gap1}} cake, but I don't like {{gap2}} cake you make.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1639_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_1639_1_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1639_1_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1639_1_3",
+                  "order": 3,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1639_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": [
+                {
+                  "id": "gap_1639_2_1",
+                  "order": 1,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1639_2_2",
+                  "order": 2,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1639_2_3",
+                  "order": 3,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1640",
+          "order": 3,
+          "type": "gap_select",
+          "text": "3 It's obvious that {{gap1}} students should listen to their teacher, but {{gap2}} students in my class never listen.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1640_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_1640_1_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1640_1_2",
+                  "order": 2,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1640_1_3",
+                  "order": 3,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1640_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": [
+                {
+                  "id": "gap_1640_2_1",
+                  "order": 1,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1640_2_2",
+                  "order": 2,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1640_2_3",
+                  "order": 3,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1641",
+          "order": 4,
+          "type": "gap_select",
+          "text": "4 Can you pick up {{gap1}} kids today? I'm going to be at {{gap2}} work until late.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1641_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": [
+                {
+                  "id": "gap_1641_1_1",
+                  "order": 1,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1641_1_2",
+                  "order": 2,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1641_1_3",
+                  "order": 3,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1641_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_1641_2_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1641_2_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1641_2_3",
+                  "order": 3,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1642",
+          "order": 5,
+          "type": "gap_select",
+          "text": "5 A: Shall we go on a picnic today? {{gap1}} sun is very warm. B: I don't like {{gap2}} picnics.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1642_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "The",
+              "accepted_answers": [
+                "The"
+              ],
+              "options": [
+                {
+                  "id": "gap_1642_1_1",
+                  "order": 1,
+                  "text": "The",
+                  "value": "The",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1642_1_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1642_1_3",
+                  "order": 3,
+                  "text": "A",
+                  "value": "A",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1642_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_1642_2_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1642_2_2",
+                  "order": 2,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1642_2_3",
+                  "order": 3,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1643",
+          "order": 6,
+          "type": "gap_select",
+          "text": "6 A: Have you tried {{gap1}} tea Tim brought? B: No, I never drink {{gap2}} tea.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1643_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": [
+                {
+                  "id": "gap_1643_1_1",
+                  "order": 1,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1643_1_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1643_1_3",
+                  "order": 3,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1643_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_1643_2_1",
+                  "order": 1,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1643_2_2",
+                  "order": 2,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1643_2_3",
+                  "order": 3,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1644",
+          "order": 7,
+          "type": "gap_select",
+          "text": "7 A: He's {{gap1}} fan of Manchester United. B: I don't understand how he can like {{gap2}} football so much.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1644_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": [
+                {
+                  "id": "gap_1644_1_1",
+                  "order": 1,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1644_1_2",
+                  "order": 2,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1644_1_3",
+                  "order": 3,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1644_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_1644_2_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1644_2_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1644_2_3",
+                  "order": 3,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1645",
+          "order": 8,
+          "type": "gap_select",
+          "text": "8 My favourite day is {{gap1}} Friday, and {{gap2}} 2010 was my favourite year.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1645_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_1645_1_1",
+                  "order": 1,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1645_1_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1645_1_3",
+                  "order": 3,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1645_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_1645_2_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1645_2_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1645_2_3",
+                  "order": 3,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1646",
+          "order": 9,
+          "type": "gap_select",
+          "text": "9 I don't like {{gap1}} French. Well, I don't like {{gap2}} languages in general.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1646_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_1646_1_1",
+                  "order": 1,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1646_1_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1646_1_3",
+                  "order": 3,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "gap_1646_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_1646_2_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1646_2_2",
+                  "order": 2,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                },
+                {
+                  "id": "gap_1646_2_3",
+                  "order": 3,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1647",
+          "order": 10,
+          "type": "gap_select",
+          "text": "10 We are going to fly from {{gap1}} USA to {{gap2}} Cairo.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1647_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "select",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": [
+                {
+                  "id": "gap_1647_1_1",
+                  "order": 1,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1647_1_2",
+                  "order": 2,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1647_1_3",
+                  "order": 3,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "gap_1647_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "select",
+              "correct_answer": "-",
+              "accepted_answers": [
+                "-"
+              ],
+              "options": [
+                {
+                  "id": "gap_1647_2_1",
+                  "order": 1,
+                  "text": "a",
+                  "value": "a",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1647_2_2",
+                  "order": 2,
+                  "text": "the",
+                  "value": "the",
+                  "is_correct": false
+                },
+                {
+                  "id": "gap_1647_2_3",
+                  "order": 3,
+                  "text": "-",
+                  "value": "-",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-195",
+      "lessonId": "b1_an_the_no_article",
+      "order": 2,
+      "page": 2,
+      "title": "Exercise 2",
+      "instruction": "Choose the correct option for each gap below.",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_an-the-no-article_2.html",
+      "questions": [
+        {
+          "id": "1648",
+          "order": 1,
+          "type": "single_choice",
+          "text": "1 Yesterday I bought ___ book and some flowers for Linda, but I lost ___ book on my way home.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1648_1",
+              "order": 1,
+              "text": "a / the",
+              "value": "2374",
+              "is_correct": true
+            },
+            {
+              "id": "1648_2",
+              "order": 2,
+              "text": "- / the",
+              "value": "2375",
+              "is_correct": false
+            },
+            {
+              "id": "1648_3",
+              "order": 3,
+              "text": "the / a",
+              "value": "2376",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1649",
+          "order": 2,
+          "type": "single_choice",
+          "text": "2 A: I need ___ knife, can you give me one? B: You can use ___ knife on the kitchen top.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1649_1",
+              "order": 1,
+              "text": "- / the",
+              "value": "2377",
+              "is_correct": false
+            },
+            {
+              "id": "1649_2",
+              "order": 2,
+              "text": "the / -",
+              "value": "2378",
+              "is_correct": false
+            },
+            {
+              "id": "1649_3",
+              "order": 3,
+              "text": "a / the",
+              "value": "2379",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1653",
+          "order": 3,
+          "type": "single_choice",
+          "text": "3 We wanted to watch ___ TV, but there wasn't one in the apartment, so we just listened to ___ radio.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1653_1",
+              "order": 1,
+              "text": "the / the",
+              "value": "2389",
+              "is_correct": false
+            },
+            {
+              "id": "1653_2",
+              "order": 2,
+              "text": "a / the",
+              "value": "2390",
+              "is_correct": false
+            },
+            {
+              "id": "1653_3",
+              "order": 3,
+              "text": "- / the",
+              "value": "2391",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1650",
+          "order": 4,
+          "type": "single_choice",
+          "text": "4 Can you turn off ___ light and close ___ door, please?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1650_1",
+              "order": 1,
+              "text": "the / the",
+              "value": "2380",
+              "is_correct": true
+            },
+            {
+              "id": "1650_2",
+              "order": 2,
+              "text": "a / the",
+              "value": "2381",
+              "is_correct": false
+            },
+            {
+              "id": "1650_3",
+              "order": 3,
+              "text": "the / a",
+              "value": "2382",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1652",
+          "order": 5,
+          "type": "single_choice",
+          "text": "5 I still need ___ pen, because ___ pen you lent me doesn't work.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1652_1",
+              "order": 1,
+              "text": "a / the",
+              "value": "2386",
+              "is_correct": true
+            },
+            {
+              "id": "1652_2",
+              "order": 2,
+              "text": "the / the",
+              "value": "2387",
+              "is_correct": false
+            },
+            {
+              "id": "1652_3",
+              "order": 3,
+              "text": "- / the",
+              "value": "2388",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1651",
+          "order": 6,
+          "type": "single_choice",
+          "text": "6 If you go to ___ post office, could you bring me ___ envelope?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1651_1",
+              "order": 1,
+              "text": "a / an",
+              "value": "2383",
+              "is_correct": false
+            },
+            {
+              "id": "1651_2",
+              "order": 2,
+              "text": "the / an",
+              "value": "2384",
+              "is_correct": true
+            },
+            {
+              "id": "1651_3",
+              "order": 3,
+              "text": "- / the",
+              "value": "2385",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1654",
+          "order": 7,
+          "type": "single_choice",
+          "text": "7 A: What did you eat for ___ dinner? B: I ate ___ soup that was left from yesterday.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1654_1",
+              "order": 1,
+              "text": "the / the",
+              "value": "2392",
+              "is_correct": false
+            },
+            {
+              "id": "1654_2",
+              "order": 2,
+              "text": "the / a",
+              "value": "2393",
+              "is_correct": false
+            },
+            {
+              "id": "1654_3",
+              "order": 3,
+              "text": "- / the",
+              "value": "2394",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": "1655",
+          "order": 8,
+          "type": "single_choice",
+          "text": "8 Please, read ___ text on ___ page 15.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1655_1",
+              "order": 1,
+              "text": "the / -",
+              "value": "2395",
+              "is_correct": true
+            },
+            {
+              "id": "1655_2",
+              "order": 2,
+              "text": "a / the",
+              "value": "2396",
+              "is_correct": false
+            },
+            {
+              "id": "1655_3",
+              "order": 3,
+              "text": "the / the",
+              "value": "2397",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1656",
+          "order": 9,
+          "type": "single_choice",
+          "text": "9 Why don't we go to ___ cinema to watch ___ film?",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1656_1",
+              "order": 1,
+              "text": "- / a",
+              "value": "2398",
+              "is_correct": false
+            },
+            {
+              "id": "1656_2",
+              "order": 2,
+              "text": "the / a",
+              "value": "2399",
+              "is_correct": true
+            },
+            {
+              "id": "1656_3",
+              "order": 3,
+              "text": "a / a",
+              "value": "2400",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "1657",
+          "order": 10,
+          "type": "single_choice",
+          "text": "10 I'd like to cross ___ Atlantic on ___ cruise.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "options": [
+            {
+              "id": "1657_1",
+              "order": 1,
+              "text": "the / a",
+              "value": "2401",
+              "is_correct": true
+            },
+            {
+              "id": "1657_2",
+              "order": 2,
+              "text": "- / a",
+              "value": "2402",
+              "is_correct": false
+            },
+            {
+              "id": "1657_3",
+              "order": 3,
+              "text": "the / -",
+              "value": "2403",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz-196",
+      "lessonId": "b1_an_the_no_article",
+      "order": 3,
+      "page": 3,
+      "title": "Exercise 3",
+      "instruction": "Complete the text below with a, an, the or – (=no article).",
+      "status": "draft",
+      "source_file": "https___test-english.com_grammar-points_b1_an-the-no-article_3.html",
+      "questions": [
+        {
+          "id": "1658",
+          "order": 1,
+          "type": "gap_text",
+          "text": "Last Sunday my family and I went to 1 {{gap1}} zoo; we always go there at least once 2 {{gap2}} year. Before 3 {{gap3}} alarm clock went off, 4 {{gap4}} kids were already up and jumping in 5 {{gap5}} living room –they are never up on 6 {{gap6}} Monday mornings when they have to go to 7 {{gap7}} school. Anyway, we had 8 {{gap8}} breakfast very quickly and went out. It was 9 {{gap9}} sunny day, which was lucky because, obviously, we all love 10 {{gap10}} sunny days, and even more when we don't have to go to 11 {{gap11}} work. We got into 12 {{gap12}} taxi and I told 13 {{gap13}} taxi driver where we were going. Everything was perfect. But very soon we realised that 14 {{gap14}} traffic was horrible that day. We immediately got stuck in 15 {{gap15}} traffic jam. We asked 16 {{gap16}} taxi driver if he knew what was happening, but he had no idea. Then, we heard on 17 {{gap17}} radio that there had been 18 {{gap18}} accident a few blocks ahead of us. We had run out of luck. Eventually, after two hours in traffic and 19 {{gap19}} very expensive taxi fare, we were able to see 20 {{gap20}} animals.",
+          "explanation": "",
+          "difficulty": "",
+          "status": "draft",
+          "gaps": [
+            {
+              "id": "gap_1658_1",
+              "order": 1,
+              "placeholder": "{{gap1}}",
+              "input_control": "text",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_2",
+              "order": 2,
+              "placeholder": "{{gap2}}",
+              "input_control": "text",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_3",
+              "order": 3,
+              "placeholder": "{{gap3}}",
+              "input_control": "text",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_4",
+              "order": 4,
+              "placeholder": "{{gap4}}",
+              "input_control": "text",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_5",
+              "order": 5,
+              "placeholder": "{{gap5}}",
+              "input_control": "text",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_6",
+              "order": 6,
+              "placeholder": "{{gap6}}",
+              "input_control": "text",
+              "correct_answer": "–",
+              "accepted_answers": [
+                "–"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_7",
+              "order": 7,
+              "placeholder": "{{gap7}}",
+              "input_control": "text",
+              "correct_answer": "–",
+              "accepted_answers": [
+                "–"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_8",
+              "order": 8,
+              "placeholder": "{{gap8}}",
+              "input_control": "text",
+              "correct_answer": "–",
+              "accepted_answers": [
+                "–"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_9",
+              "order": 9,
+              "placeholder": "{{gap9}}",
+              "input_control": "text",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_10",
+              "order": 10,
+              "placeholder": "{{gap10}}",
+              "input_control": "text",
+              "correct_answer": "–",
+              "accepted_answers": [
+                "–"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_11",
+              "order": 11,
+              "placeholder": "{{gap11}}",
+              "input_control": "text",
+              "correct_answer": "–",
+              "accepted_answers": [
+                "–"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_12",
+              "order": 12,
+              "placeholder": "{{gap12}}",
+              "input_control": "text",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_13",
+              "order": 13,
+              "placeholder": "{{gap13}}",
+              "input_control": "text",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_14",
+              "order": 14,
+              "placeholder": "{{gap14}}",
+              "input_control": "text",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_15",
+              "order": 15,
+              "placeholder": "{{gap15}}",
+              "input_control": "text",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_16",
+              "order": 16,
+              "placeholder": "{{gap16}}",
+              "input_control": "text",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_17",
+              "order": 17,
+              "placeholder": "{{gap17}}",
+              "input_control": "text",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_18",
+              "order": 18,
+              "placeholder": "{{gap18}}",
+              "input_control": "text",
+              "correct_answer": "an",
+              "accepted_answers": [
+                "an"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_19",
+              "order": 19,
+              "placeholder": "{{gap19}}",
+              "input_control": "text",
+              "correct_answer": "a",
+              "accepted_answers": [
+                "a"
+              ],
+              "options": []
+            },
+            {
+              "id": "gap_1658_20",
+              "order": 20,
+              "placeholder": "{{gap20}}",
+              "input_control": "text",
+              "correct_answer": "the",
+              "accepted_answers": [
+                "the"
+              ],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
