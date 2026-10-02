@@ -7,13 +7,13 @@
 export const DEFAULT_DUST_CONFIG = {
   density: 30,          // Silky, dense fairy stardust stream
   size: 0.22,           // Ultra-microscopic delicate specks (0.15px - 0.35px)
-  brightness: 0.72,     // Warm golden radiance directly under touch
-  glow: 0.35,           // Soft starlight aura
-  life: 0.60,           // 1.5x longer lifespan for a graceful ~6cm trail
+  brightness: 0.72,     // Instant 100% golden radiance directly under touch point
+  glow: 0.35,           // Delicate starlight aura
+  life: 1.50,           // 1.5 seconds lifespan for smooth, magical hovering
   gravity: 0,           // Weightless floating in the air
   sway: 0.35,           // Gentle fairy shimmer
   spread: 4.0,          // Natural stardust emission
-  maxFall: 20,          // Smooth dissolving in flight
+  maxFall: 20,          // Soft dissolving in place
   glints: 26,           // Golden sparkling micro-facets
   tint: "gold"
 };
