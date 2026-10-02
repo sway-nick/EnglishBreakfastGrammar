@@ -9,33 +9,17 @@ export function renderHeader() {
     <div class="safe-area-top-fill" aria-hidden="true"></div>
     <header class="mobile-header">
       <div class="brand" id="brand-logo" style="cursor: pointer; flex: 1 1 auto; min-width: 0; max-width: calc(100% - 130px); overflow: hidden; display: flex; align-items: center;" title="Перейти на главную">
-        <!-- SVG Cup-with-Book Logo in Light-Green -->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 56" style="display: block; width: 100%; max-width: 180px; height: 38px; min-width: 130px;">
-          <!-- Steam lines in light-green -->
-          <path d="M12,16 C7,12 17,8 12,4" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-          <path d="M22,16 C17,12 27,8 22,2" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-          <path d="M32,16 C27,12 37,8 32,4" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-          <!-- Cup body -->
-          <path d="M4,28 C4,46 12,54 22,54 C32,54 40,46 40,28 Z" fill="#22c55e"/>
-          <!-- Handle -->
-          <path d="M40,32 C48,32 48,45 35,45" stroke="#22c55e" stroke-width="4.5" fill="none" stroke-linecap="round"/>
-          <!-- Stacked open book pages with green borders -->
-          <path d="M5,30 Q13.5,27 22,30 Q30.5,27 39,30 L39,20 Q30.5,17 22,20 Q13.5,17 5,20 Z" fill="#FFF" stroke="#16a34a" stroke-width="1.8"/>
-          <!-- Page lines left -->
-          <path d="M22,23 Q13.5,20 8,23" stroke="#22c55e" stroke-width="1.2" fill="none"/>
-          <path d="M22,26 Q13.5,23 8,26" stroke="#22c55e" stroke-width="1.2" fill="none"/>
-          <!-- Page lines right -->
-          <path d="M22,23 Q30.5,20 36,23" stroke="#22c55e" stroke-width="1.2" fill="none"/>
-          <path d="M22,26 Q30.5,23 36,26" stroke="#22c55e" stroke-width="1.2" fill="none"/>
-          <!-- Center Spine Line -->
-          <line x1="22" y1="20" x2="22" y2="30" stroke="#16a34a" stroke-width="1.8"/>
-          <!-- EN Text -->
-          <text x="22" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="14" fill="#FFF" text-anchor="middle">EN</text>
-          <!-- Brand Text (English Breakfast) -->
-          <text x="56" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="20.5" fill="var(--text-main)">English <tspan fill="#22c55e">Breakfast</tspan></text>
-          <!-- Subtitle (Grammar + inline Demo) exactly matching Vocabulary typography -->
-          <text x="56" y="49" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="16" fill="var(--text-muted)">Grammar<tspan id="header-user-status" fill="#22c55e" font-weight="700" font-size="14.5">• 🎁 ${completedCount}/50</tspan></text>
-        </svg>
+        <div style="display: flex; align-items: center; gap: 9px;">
+          <img src="./assets/icons/mug_icon.webp" alt="English Breakfast" style="width: 38px; height: 38px; object-fit: contain; flex-shrink: 0; filter: drop-shadow(0 2px 5px rgba(0,0,0,0.18));" />
+          <div style="display: flex; flex-direction: column; justify-content: center; line-height: 1.15;">
+            <span style="font-size: 19px; font-weight: 800; color: var(--text-main); letter-spacing: -0.3px; white-space: nowrap;">
+              English <span style="color: #b47b48;">Breakfast</span>
+            </span>
+            <span style="font-size: 13.5px; font-weight: 500; color: var(--text-muted); display: flex; align-items: center; gap: 4px; white-space: nowrap;">
+              Grammar<span id="header-user-status" style="color: #22c55e; font-weight: 700; font-size: 12.5px;">• 🎁 ${completedCount}/50</span>
+            </span>
+          </div>
+        </div>
       </div>
       
       <div class="header-right-actions">
