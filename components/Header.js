@@ -9,14 +9,14 @@ export function renderHeader() {
     <div class="safe-area-top-fill" aria-hidden="true"></div>
     <header class="mobile-header">
       <div class="brand" id="brand-logo" style="cursor: pointer; flex: 1 1 auto; min-width: 0; max-width: calc(100% - 130px); overflow: hidden; display: flex; align-items: center;" title="Перейти на главную">
-        <div style="display: flex; align-items: center; gap: 9px;">
-          <img src="./assets/icons/mug_icon.webp" alt="English Breakfast" style="width: 38px; height: 38px; object-fit: contain; flex-shrink: 0; filter: drop-shadow(0 2px 5px rgba(0,0,0,0.18));" />
-          <div style="display: flex; flex-direction: column; justify-content: center; line-height: 1.15;">
-            <span style="font-size: 19px; font-weight: 800; color: var(--text-main); letter-spacing: -0.3px; white-space: nowrap;">
+        <div style="display: flex; align-items: center; gap: 7px;">
+          <img src="./assets/icons/mug_icon.webp" alt="English Breakfast" style="width: 33px; height: 33px; object-fit: contain; flex-shrink: 0; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.18));" />
+          <div style="display: flex; flex-direction: column; justify-content: center; line-height: 1.12;">
+            <span style="font-size: 16px; font-weight: 800; color: var(--text-main); letter-spacing: -0.2px; white-space: nowrap;">
               English <span style="color: #b47b48;">Breakfast</span>
             </span>
-            <span style="font-size: 13.5px; font-weight: 500; color: var(--text-muted); display: flex; align-items: center; gap: 4px; white-space: nowrap;">
-              Grammar<span id="header-user-status" style="color: #22c55e; font-weight: 700; font-size: 12.5px;">• 🎁 ${completedCount}/50</span>
+            <span style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: flex; align-items: center; gap: 3px; white-space: nowrap;">
+              Grammar<span id="header-user-status" style="color: #22c55e; font-weight: 700; font-size: 11.5px;">• 🎁 ${completedCount}/50</span>
             </span>
           </div>
         </div>
