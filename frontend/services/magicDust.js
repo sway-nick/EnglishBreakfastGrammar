@@ -9,12 +9,12 @@ export const DEFAULT_DUST_CONFIG = {
   brightness: 0.6,
   glow: 0.35,
   life: 2,
-  gravity: 18,
+  gravity: 80,
   sway: 6,
   spread: 10,
   maxFall: 140,
   glints: 18,
-  tint: "mix",
+  tint: "warm",
   persist: 0
 };
 
@@ -30,6 +30,20 @@ class MagicDustController {
     this.activeScreen = 'levels';
 
     this.palette = {
+      warm: [
+        'rgba(254, 240, 138, ', // Light gold
+        'rgba(253, 224, 71, ',  // Bright gold
+        'rgba(251, 191, 36, ',  // Rich amber
+        'rgba(245, 158, 11, ',  // Honey topaz
+        'rgba(251, 146, 60, ',  // Warm flame
+        'rgba(255, 255, 255, '   // Bright white glint
+      ],
+      gold: [
+        'rgba(254, 240, 138, ',
+        'rgba(253, 224, 71, ',
+        'rgba(245, 158, 11, ',
+        'rgba(255, 255, 255, '
+      ],
       mix: [
         'rgba(253, 224, 71, ',  // Golden yellow
         'rgba(245, 158, 11, ',  // Amber gold
@@ -37,12 +51,6 @@ class MagicDustController {
         'rgba(192, 132, 252, ', // Mystic violet
         'rgba(244, 114, 182, ', // Rose pink
         'rgba(255, 255, 255, '   // Pure diamond white
-      ],
-      gold: [
-        'rgba(254, 240, 138, ',
-        'rgba(253, 224, 71, ',
-        'rgba(245, 158, 11, ',
-        'rgba(255, 255, 255, '
       ]
     };
   }
