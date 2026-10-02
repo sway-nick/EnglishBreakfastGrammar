@@ -6,35 +6,23 @@ class AudioServiceController {
     this.fadeInterval = null;
     this.currentScreen = 'levels';
     this.hasUserInteracted = false;
-    this.isFinished = false;
     this.targetVolume = 0.4;
   }
 
   init() {
-    // Check if intro music has already played to the end in the current session
-    if (sessionStorage.getItem('eb_intro_finished') === 'true') {
-      this.isFinished = true;
-    }
-
     try {
       const audioUrl = new URL('../assets/audio/intro_theme.mp3', import.meta.url).href;
       this.audio = new Audio(audioUrl);
       this.audio.preload = 'auto';
       this.audio.volume = this.targetVolume;
+      this.audio.loop = true; // Seamless loop across sessions
 
-      // Track when the melody completes naturally
-      this.audio.addEventListener('ended', () => {
-        this.isFinished = true;
-        sessionStorage.setItem('eb_intro_finished', 'true');
-        console.log('[AudioService] Intro music finished. Marked for session.');
-      });
-
-      // Global user interaction listener (for browser autoplay policies)
+      // Global user interaction listener (to unlock browser autoplay policies)
       const tryPlayOnGesture = () => {
         this.hasUserInteracted = true;
-        if (!this.isFinished && StorageService.getSoundEnabled() && this.currentScreen !== 'theory' && this.currentScreen !== 'test') {
+        if (StorageService.getSoundEnabled() && this.currentScreen !== 'theory' && this.currentScreen !== 'test') {
           if (this.audio && this.audio.paused) {
-            this.playIntro();
+            this.playMusic();
           }
         }
         window.removeEventListener('pointerdown', tryPlayOnGesture);
@@ -44,15 +32,15 @@ class AudioServiceController {
       window.addEventListener('pointerdown', tryPlayOnGesture, { once: true });
       window.addEventListener('keydown', tryPlayOnGesture, { once: true });
 
-      // Attempt immediate autoplay on start
-      this.playIntro();
+      // Attempt immediate autoplay on startup
+      this.playMusic();
     } catch (e) {
       console.warn('[AudioService] Audio init error:', e);
     }
   }
 
-  playIntro() {
-    if (!this.audio || this.isFinished) return;
+  playMusic() {
+    if (!this.audio) return;
     if (!StorageService.getSoundEnabled()) return;
     if (this.currentScreen === 'theory' || this.currentScreen === 'test') return;
     if (!this.audio.paused) return;
@@ -61,7 +49,7 @@ class AudioServiceController {
     const playPromise = this.audio.play();
     if (playPromise !== undefined) {
       playPromise.catch(() => {
-        // Autoplay policy prevented immediate playback; gesture listener will trigger it.
+        // Handled by user gesture listener on first click
       });
     }
   }
@@ -69,15 +57,15 @@ class AudioServiceController {
   onScreenChange(newScreen) {
     this.currentScreen = newScreen;
 
-    if (!this.audio || this.isFinished) return;
+    if (!this.audio) return;
 
-    // Fade out softly when entering Rules or Test
+    // Fade out softly when entering Rules or Test mode
     if (newScreen === 'theory' || newScreen === 'test') {
       this.fadeOut(900);
     } 
-    // Resume when returning to menus (if not finished and sound is enabled)
+    // Smoothly resume and fade back in when returning to menus (levels, lessons, leaderboard)
     else if (newScreen === 'levels' || newScreen === 'lessons' || newScreen === 'leaderboard') {
-      if (StorageService.getSoundEnabled() && this.audio.paused && !this.isFinished) {
+      if (StorageService.getSoundEnabled()) {
         this.fadeIn(this.targetVolume, 900);
       }
     }
@@ -105,7 +93,7 @@ class AudioServiceController {
   }
 
   fadeIn(targetVol = 0.4, durationMs = 900) {
-    if (!this.audio || this.isFinished) return;
+    if (!this.audio) return;
     if (!StorageService.getSoundEnabled()) return;
     if (this.currentScreen === 'theory' || this.currentScreen === 'test') return;
     if (this.fadeInterval) clearInterval(this.fadeInterval);
@@ -136,7 +124,7 @@ class AudioServiceController {
     if (!enabled) {
       this.fadeOut(500);
     } else {
-      if (this.currentScreen !== 'theory' && this.currentScreen !== 'test' && !this.isFinished) {
+      if (this.currentScreen !== 'theory' && this.currentScreen !== 'test') {
         this.fadeIn(this.targetVolume, 700);
       }
     }
