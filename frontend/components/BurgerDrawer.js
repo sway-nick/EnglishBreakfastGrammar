@@ -6,7 +6,7 @@ export function renderBurgerDrawer() {
   const currentTheme = StorageService.getTheme();
 
   const langOptionsHtml = SUPPORTED_LANGUAGES.map(l => 
-    `<option value="${l.code}" ${currentLang === l.code ? 'selected' : ''}>${l.flag} ${l.name}</option>`
+    `<option value="${l.code}" ${currentLang === l.code ? 'selected' : ''}>${l.code} — ${l.name}</option>`
   ).join('');
 
   return `
