@@ -1,6 +1,7 @@
 import { GrammarService } from './services/grammarService.js';
 import { StorageService } from './services/storageService.js';
 import { AudioService } from './services/audioService.js';
+import { MagicDustService } from './services/magicDust.js';
 import { t, setLanguage, getLanguage } from './services/i18n.js';
 
 import { renderHeader } from './components/Header.js';
@@ -39,6 +40,12 @@ class App {
       AudioService.init();
     } catch (e) {
       console.warn('Audio init error:', e);
+    }
+
+    try {
+      MagicDustService.init();
+    } catch (e) {
+      console.warn('MagicDust init error:', e);
     }
 
     try {
