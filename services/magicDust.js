@@ -5,15 +5,15 @@
 
 export const DEFAULT_DUST_CONFIG = {
   density: 22,
-  size: 1.2,
+  size: 0.5,
   brightness: 0.6,
   glow: 0.35,
   life: 2,
-  gravity: 80,
-  sway: 6,
+  gravity: 52,
+  sway: 0,
   spread: 10,
   maxFall: 140,
-  glints: 18,
+  glints: 8,
   tint: "warm",
   persist: 0
 };
