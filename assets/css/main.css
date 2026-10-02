@@ -130,14 +130,13 @@ html, body {
 }
 
 .brand-brass-text {
-  background: linear-gradient(135deg, #ffe08a 0%, #e6a136 32%, #b8731d 68%, #ffd269 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: #e6a136;
-  font-weight: 850;
+  background: linear-gradient(180deg, #fff2b2 0%, #ffd066 28%, #f59e0b 58%, #d97706 82%, #92400e 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: 850 !important;
   display: inline-block;
-  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.45));
 }
 
 .header-right-actions {

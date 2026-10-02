@@ -13,7 +13,7 @@ export function renderHeader() {
           <img src="./assets/icons/mug_icon.webp" alt="English Breakfast" style="width: 33px; height: 33px; object-fit: contain; flex-shrink: 0; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.18));" />
           <div style="display: flex; flex-direction: column; justify-content: center; line-height: 1.12;">
             <span style="font-size: 16px; font-weight: 800; color: var(--text-main); letter-spacing: -0.2px; white-space: nowrap;">
-              English <span class="brand-brass-text">Breakfast</span>
+              English <span class="brand-brass-text" style="background: linear-gradient(180deg, #fff2b2 0%, #ffd066 28%, #f59e0b 58%, #d97706 82%, #92400e 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 850; display: inline-block; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5));">Breakfast</span>
             </span>
             <span style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: flex; align-items: center; gap: 3px; white-space: nowrap;">
               Grammar<span id="header-user-status" style="color: #22c55e; font-weight: 700; font-size: 11.5px;">• 🎁 ${completedCount}/50</span>
