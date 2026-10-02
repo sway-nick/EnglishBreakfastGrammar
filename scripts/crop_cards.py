@@ -6,44 +6,45 @@ from collections import deque
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-def process_and_cut_cards():
+def clean_and_extract_cards():
     src_path = r'C:/Users/user/.gemini/antigravity/brain/50a1383d-6d8f-434e-99c6-90c7eea9b4d5/.user_uploaded/media_1790950358626.jpg'
     img = Image.open(src_path).convert('RGB')
     src_arr = np.array(img)
     
-    # Precise bounding regions in full image (x1, y1, x2, y2)
-    # 4 rows x 2 cols
+    # Strictly isolated bounding regions for each card cell
+    # No overlap with neighbor rows or columns
     cards_def = [
-        ('card_a1',        (10, 24, 340, 288)),
-        ('card_a2',        (350, 24, 682, 288)),
-        ('card_b1',        (10, 300, 340, 557)),
-        ('card_b1_b2',     (350, 302, 682, 557)),
-        ('card_b2',        (10, 552, 340, 797)),
-        ('card_c1',        (350, 552, 682, 797)),
-        ('card_shorts',    (10, 792, 340, 1024)),
-        ('card_favorites', (350, 792, 682, 1024))
+        # Row 0 (A1, A2) - Divider below is y=284..304
+        ('card_a1',        (12, 26, 338, 284)),
+        ('card_a2',        (354, 26, 679, 284)),
+        
+        # Row 1 (B1, B1+) - Divider above is y=284..304, divider below is y=554..567
+        ('card_b1',        (12, 304, 338, 554)),
+        ('card_b1_b2',     (354, 304, 679, 554)),
+        
+        # Row 2 (B2, C1) - Divider above is y=554..567, divider below is y=794..808
+        ('card_b2',        (12, 567, 338, 794)),
+        ('card_c1',        (354, 567, 679, 794)),
+        
+        # Row 3 (Shorts, Favorites) - Divider above is y=794..808
+        ('card_shorts',    (12, 808, 338, 1024)),
+        ('card_favorites', (354, 808, 679, 1024))
     ]
     
     out_dir = 'frontend/assets/cards'
     os.makedirs(out_dir, exist_ok=True)
     
-    # Target uniform dimensions for all card images
     TARGET_WIDTH = 650
     TARGET_HEIGHT = 500
-    
-    processed_results = []
     
     for name, (x1, y1, x2, y2) in cards_def:
         crop_rgb = src_arr[y1:y2, x1:x2].astype(np.float32)
         h, w = crop_rgb.shape[:2]
         
-        # Calculate brightness and wood probability
         brightness = 0.299 * crop_rgb[..., 0] + 0.587 * crop_rgb[..., 1] + 0.114 * crop_rgb[..., 2]
         
-        # Wood is dark / brown
-        # Paper is bright / warm parchment
-        # A pixel is definitely wood if brightness < 70 or (R < 80 and G < 55 and B < 45)
-        is_wood = (brightness < 68) | ((crop_rgb[..., 0] < 82) & (crop_rgb[..., 1] < 58) & (crop_rgb[..., 2] < 46))
+        # Wood background detection
+        is_wood = (brightness < 70) | ((crop_rgb[..., 0] < 85) & (crop_rgb[..., 1] < 60) & (crop_rgb[..., 2] < 50))
         
         # Flood fill from image boundary to find exterior wood
         bg_mask = np.zeros((h, w), dtype=bool)
@@ -72,48 +73,67 @@ def process_and_cut_cards():
                         bg_mask[ny, nx] = True
                         q.append((ny, nx))
                         
-        # The paper region is ~bg_mask
         paper_mask = ~bg_mask
         
-        # Build RGBA array
+        # Extract connected components of paper_mask to keep ONLY the largest component (the main parchment card)
+        # and discard any small isolated debris
+        labeled = np.zeros((h, w), dtype=np.int32)
+        current_label = 0
+        component_sizes = {}
+        
+        for r in range(h):
+            for c in range(w):
+                if paper_mask[r, c] and labeled[r, c] == 0:
+                    current_label += 1
+                    comp_q = deque([(r, c)])
+                    labeled[r, c] = current_label
+                    size = 0
+                    while comp_q:
+                        cr, cc = comp_q.popleft()
+                        size += 1
+                        for nr, nc in ((cr+1, cc), (cr-1, cc), (cr, cc+1), (cr, cc-1)):
+                            if 0 <= nr < h and 0 <= nc < w:
+                                if paper_mask[nr, nc] and labeled[nr, nc] == 0:
+                                    labeled[nr, nc] = current_label
+                                    comp_q.append((nr, nc))
+                    component_sizes[current_label] = size
+                    
+        if component_sizes:
+            largest_label = max(component_sizes, key=component_sizes.get)
+            clean_paper_mask = (labeled == largest_label)
+        else:
+            clean_paper_mask = paper_mask
+            
+        # Build clean RGBA image
         rgba = np.zeros((h, w, 4), dtype=np.uint8)
         rgba[..., :3] = src_arr[y1:y2, x1:x2]
-        rgba[..., 3] = np.where(paper_mask, 255, 0).astype(np.uint8)
+        rgba[..., 3] = np.where(clean_paper_mask, 255, 0).astype(np.uint8)
         
-        # Find tight bounding box of paper
-        ys, xs = np.where(paper_mask)
+        # Tight crop to clean paper
+        ys, xs = np.where(clean_paper_mask)
         if len(ys) > 0 and len(xs) > 0:
             top, bottom = ys.min(), ys.max()
             left, right = xs.min(), xs.max()
         else:
             top, bottom, left, right = 0, h-1, 0, w-1
             
-        tight_crop = Image.fromarray(rgba).crop((left, top, right + 1, bottom + 1))
+        tight_card = Image.fromarray(rgba).crop((left, top, right + 1, bottom + 1))
         
-        # Soft anti-aliased edge: smooth alpha slightly
-        alpha_img = tight_crop.getchannel('A')
-        # Apply slight blur to alpha for smooth edge blending
-        smooth_alpha = alpha_img.filter(ImageFilter.GaussianBlur(radius=0.7))
-        # Ensure interior is 100% solid
+        # Smooth anti-aliased edge
+        alpha_img = tight_card.getchannel('A')
+        smooth_alpha = alpha_img.filter(ImageFilter.GaussianBlur(radius=0.6))
         smooth_alpha_arr = np.array(smooth_alpha)
-        smooth_alpha_arr = np.where(smooth_alpha_arr > 180, 255, smooth_alpha_arr)
-        tight_crop.putalpha(Image.fromarray(smooth_alpha_arr))
+        smooth_alpha_arr = np.where(smooth_alpha_arr > 160, 255, smooth_alpha_arr)
+        tight_card.putalpha(Image.fromarray(smooth_alpha_arr))
         
-        # Resize uniformly to identical TARGET_WIDTH x TARGET_HEIGHT
-        resized_card = tight_crop.resize((TARGET_WIDTH, TARGET_HEIGHT), Image.Resampling.LANCZOS)
+        # Resize uniformly to EXACT TARGET_WIDTH x TARGET_HEIGHT
+        final_img = tight_card.resize((TARGET_WIDTH, TARGET_HEIGHT), Image.Resampling.LANCZOS)
         
         out_path = os.path.join(out_dir, f"{name}.png")
-        resized_card.save(out_path, 'PNG', optimize=True)
+        final_img.save(out_path, 'PNG', optimize=True)
+        print(f"✓ {name:15s}: paper tight = {right-left+1}x{bottom-top+1} -> uniform = {final_img.size}")
         
-        processed_results.append({
-            'name': name,
-            'orig_size': (right - left + 1, bottom - top + 1),
-            'final_size': resized_card.size,
-            'path': out_path
-        })
-        print(f"✓ {name:15s}: raw paper size={right-left+1}x{bottom-top+1} -> final uniform size={resized_card.size}")
-        
-    print(f"\nAll 8 cards generated with identical height ({TARGET_HEIGHT}px) and width ({TARGET_WIDTH}px).")
+    print(f"\nAll 8 cards cleaned of all artifacts and normalized to {TARGET_WIDTH}x{TARGET_HEIGHT}px.")
 
 if __name__ == '__main__':
-    process_and_cut_cards()
+    clean_and_extract_cards()
